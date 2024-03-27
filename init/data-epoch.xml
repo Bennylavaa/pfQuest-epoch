@@ -1,0 +1,12 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Include file="..\db\items-epoch.lua"/>
+  <Include file="..\db\units-epoch.lua"/>
+  <Include file="..\db\objects-epoch.lua"/>
+  <Include file="..\db\refloot-epoch.lua"/>
+  <Include file="..\db\quests-itemreq-epoch.lua"/>
+  <Include file="..\db\quests-epoch.lua"/>
+  <Include file="..\db\zones-epoch.lua"/>
+  <Include file="..\db\minimap-epoch.lua"/>
+  <Include file="..\db\areatrigger-epoch.lua"/>
+  <Include file="..\db\meta-epoch.lua"/>
+</Ui>
