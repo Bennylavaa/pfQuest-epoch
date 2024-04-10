@@ -9,3 +9,4 @@ init\data-epoch.xml
 init\enUS-epoch.xml
 
 patchtable.lua
+pfQuest-epoch.lua
