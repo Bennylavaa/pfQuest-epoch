@@ -20,7 +20,7 @@ Targeted Unit Information:
 `/run local guid = UnitGUID("target"); local npcId = tonumber(string.sub(guid, 8, 12), 16); local npcName = UnitName("target"); print("NPC ID:", npcId, "NPC Name:", npcName)`
 
 Selected QuestLog Data:
-`/run local t, l, , , , , , , i = GetQuestLogTitle(GetQuestLogSelection()); print("\nID:"..i.."\nLevel:"..l.."\n["T"] "..t.."\n["O"] "..QuestInfoObjectivesText:GetText().."\n["D"] "..QuestInfoDescriptionText:GetText())`
+`/run local t, l, , , , , , , i = GetQuestLogTitle(GetQuestLogSelection()); print("\nID:"..i.."\nLevel:"..l.."\n[\"T\"] "..t.."\n[\"O\"] "..QuestInfoObjectivesText:GetText().."\n[\"D\"] "..QuestInfoDescriptionText:GetText())`
 
 Hover Over Item ID:
 `/run local _, link = GameTooltip:GetItem(); if link then local itemID = tonumber(link:match("item:(%d+):")); if itemID then print("Item ID:", itemID) end end`
