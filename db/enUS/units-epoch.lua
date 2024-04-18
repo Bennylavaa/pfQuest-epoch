@@ -14,4 +14,6 @@ pfDB["units"]["enUS-epoch"] = {
   [295] = "Innkeeper Farley",
   [43] = "Mine Spider",
   [45023] = "Webbed Miner",
+  [253] = "William Pestle",
+  [241] = "Remy \"Two Times\"",
 }
