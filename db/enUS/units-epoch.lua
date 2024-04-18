@@ -7,4 +7,5 @@ pfDB["units"]["enUS-epoch"] = {
   [14722] = "Clavicus Knavingham",
   [2285] = "Count Remington Ridgewell",
   [24729] = "Alicia",
+  [823] = "Deputy Willem",
 }
