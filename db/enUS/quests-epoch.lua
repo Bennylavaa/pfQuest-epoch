@@ -39,4 +39,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Locate Mardigan along the road southwest of Goldshire.",
     ["D"] = "Only a couple of hours ago I had to break up yet another scrap in the Lion\'s Pride Inn. Was it over love? Honor? Money? No. It was over a potion. Just a damned Rage Potion.\n\nWhen I dragged them off each other\, I recognized one of them as Mardigan\, the son of Karlain. He stumbled off down the road southwest of town\, towards Westbrook Garrison.\n\nWould you be able to check on him for me? His father will come down on us like a ton of bricks if he\'s badly hurt.",
   },
+    [11] = {
+    ["T"] = "Riverpaw Gnoll Bounty",
+    ["O"] = "Bring 8 Painted Gnoll Armbands to Deputy Rainer at the Barracks.",
+    ["D"] = "Gnolls\, brutish creatures with no decent business in these lands\, have been seen along the borders of Elwynn Forest.  A large pack of them\, many more than we can handle alone\, have infested the woods south of the guard tower yonder.  Another group has infested the areas near Stone Cairn Lake to the east.\n\nThe Stormwind Army will commend whomever helps kill them.  Bring me their painted gnoll armbands as proof of your deed.",
+  },
 }
