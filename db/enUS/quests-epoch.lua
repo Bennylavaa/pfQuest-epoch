@@ -29,4 +29,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill 10 Kobold Miners\, 5 Kobold Geomancers\, and explore the Jasperlode Mine. Return to Marshal Dughan in Goldshire when the task is done.",
     ["D"] = "Thanks to you we know the Fargodeep Mine is infested with kobolds. Now we need a scout to investigate the more distant Jasperlode Mine.\n\nExplore Jasperlode and confirm any kobold presence. While you\'re there\, if you see any kobolds\, take them out. To reach the mine\, travel east along the road until you reach the Tower of Azora. From the tower\, head north and you\'ll find the mine in the foothills.",
   },
+    [26151] = {
+    ["T"] = "Tend to the Wounded",
+    ["O"] = "Heal the sickly miner\'s found in Matron Darcy\'s field triage tent.",
+    ["D"] = "Now that we have this elixir\, we can comfortably treat the remaining wounded miners. Apply one dose to each of them behind me\, so that they can return to their families safe and healthy.",
+  },
 }
