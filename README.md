@@ -3,6 +3,15 @@
 An extension for [pfQuest-wotlk](https://github.com/shagu/pfQuest) which adds support for [Project Epoch](https://www.project-epoch.net/).
 The latest version of [pfQuest-wotlk](https://github.com/shagu/pfQuest) is required and only enUS-Gameclients are supported at the time.
 
+### Installation
+1. Download **[Latest Version](https://github.com/Bennylavaa/pfQuest-epoch/archive/master.zip)**
+2. Unpack the Zip file
+3. Rename the folder "pfQuest-epoch-master" to "pfQuest-epoch"
+4. Copy "pfQuest-epoch" into Wow-Directory\Interface\AddOns
+5. Restart Wow
+
+## Contribute
+
 The database format in use, is similar to the existing pfQuest databases.
 You might want to also look into the "pfQuest-tbc" databases to learn how entries could be removed or manipulated.
 
@@ -28,9 +37,4 @@ Hover Over Item ID:
 Object ID:
 No Possible way to get this info currently
 
-### Installation
-1. Download **[Latest Version](https://github.com/Bennylavaa/pfQuest-epoch/archive/master.zip)**
-2. Unpack the Zip file
-3. Rename the folder "pfQuest-epoch-master" to "pfQuest-epoch"
-4. Copy "pfQuest-epoch" into Wow-Directory\Interface\AddOns
-5. Restart Wow
+
