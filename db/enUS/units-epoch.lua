@@ -16,4 +16,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45023] = "Webbed Miner",
   [253] = "William Pestle",
   [241] = "Remy \"Two Times\"",
+  [45085] = "Robert Miston",
+  [476] = "Kobold Geomancer",
+  [40] = "Kobold Miner",
+  [514] = "Smith Argus",
 }
