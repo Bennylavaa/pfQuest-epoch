@@ -28,4 +28,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45134] = "Mysterious Stranger",
   [313] = "Theocritus",
   [45163] = "Karlain",
+  [45102] = "Fergus Kitsapell",
+  [45103] = "Scarlet Foreman",
+  [45104] = "Scarlet Miner",
 }
