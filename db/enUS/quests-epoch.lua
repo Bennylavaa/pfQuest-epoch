@@ -44,4 +44,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring 8 Painted Gnoll Armbands to Deputy Rainer at the Barracks.",
     ["D"] = "Gnolls\, brutish creatures with no decent business in these lands\, have been seen along the borders of Elwynn Forest.  A large pack of them\, many more than we can handle alone\, have infested the woods south of the guard tower yonder.  Another group has infested the areas near Stone Cairn Lake to the east.\n\nThe Stormwind Army will commend whomever helps kill them.  Bring me their painted gnoll armbands as proof of your deed.",
   },
+    [26219] = {
+    ["T"] = "Barroom Blitz",
+    ["O"] = "Collect 6 Blood Petal leaves and bring them to William Pestle in the Lion\'s Pride Inn.",
+    ["D"] = "My father sent me to the Lion\'s Pride Inn to speak with William Pestle and have him make a Rage Potion for me\, but before I knew it\, I was being set upon by some scoundrel.\n\nRight as we were about to draw blades\, the marshal stepped in\, though not after the fists had already flown.\n\nIf I don\'t have that potion for my dad\, I\'m positive he\'ll send me and my dog packing. Please collect some Blood Petal leaves from nearby and bring them to Morgan so he can make me a new one.",
+  },
 }
