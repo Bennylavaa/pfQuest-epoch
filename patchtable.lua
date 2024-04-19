@@ -14,7 +14,39 @@ local function patchtable(base, diff)
     end
   end
 end
-
+-- fix map-id 139 spawns [EPL]
+for _, obj in pairs(pfDB["objects"]["data"]) do
+  if obj.coords then
+    for num, tbl in pairs(obj.coords) do
+      if tbl[3] == 139 then -- map
+        tbl[1] = tbl[1] + -5.7 -- x
+        tbl[2] = tbl[2] + -6 -- y
+      end
+    end
+  end
+end
+-- fix map-id 139 spawns [EPL]
+for _, obj in pairs(pfDB["units"]["data"]) do
+  if obj.coords then
+    for num, tbl in pairs(obj.coords) do
+      if tbl[3] == 139 then -- map
+        tbl[1] = tbl[1] + -5.7 -- x
+        tbl[2] = tbl[2] + -6 -- y
+      end
+    end
+  end
+end
+-- fix map-id 139 spawns [EPL]
+for _, obj in pairs(pfDB["areatrigger"]["data"]) do
+  if obj.coords then
+    for num, tbl in pairs(obj.coords) do
+      if tbl[3] == 139 then -- map
+        tbl[1] = tbl[1] + -5.7 -- x
+        tbl[2] = tbl[2] + -6 -- y
+      end
+    end
+  end
+end
 local loc_core, loc_update
 for _, db in pairs(dbs) do
   if pfDB[db]["data-epoch"] then
