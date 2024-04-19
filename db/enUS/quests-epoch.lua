@@ -29,4 +29,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill 10 Kobold Miners\, 5 Kobold Geomancers\, and explore the Jasperlode Mine. Return to Marshal Dughan in Goldshire when the task is done.",
     ["D"] = "Thanks to you we know the Fargodeep Mine is infested with kobolds. Now we need a scout to investigate the more distant Jasperlode Mine.\n\nExplore Jasperlode and confirm any kobold presence. While you\'re there\, if you see any kobolds\, take them out. To reach the mine\, travel east along the road until you reach the Tower of Azora. From the tower\, head north and you\'ll find the mine in the foothills.",
   },
+  [26188] = {
+    ["T"] = "Reclaim the Mine",
+    ["O"] = "Kill 10 Scarlet Miners and 3 Scarlet Foremen and return to Fergus Kitsapell in Brill.",
+    ["D"] = "Have you heard of the Kitsapell Mine? It\'s the richest mine in Tirisfal! Before the plague\, I owned and maintained it\, but when the plague came\, the Scarlet Crusade took it upon themselves to liberate the mine from us. It\'s time to teach them a lesson.\n\nI want you to go to the mine and reclaim it for the Forsaken! Follow the road out of Brill south\, make a left at the fork\, and keep going until you reach the Balnir Farmstead. Directly south of the farm\, along the hills you will find the mine. Be careful\, $N\, the Scarlet Crusade won\'t give the mine up without a fight.",
+  },
+  [26187] = {
+    ["T"] = "Filling the Armory",
+    ["O"] = "Recover 6 Cases of Ore and return to Oliver Dwor in Brill.",
+    ["D"] = "Those damn humans! They kill our soldiers\, spit on our graves\, and now they\'ve taken our mine! I bet they\'re using it to craft armor and weapons...this cannot be allowed!\n\n$N\,I need you to go to the Kitsapell Mine southeast of here\, near the Balnir Farmstead\, and bring me some of the ore they are harvesting. If we don\'t act\, they will use the ore to craft armanents and lead an attack on Brill!",
+  }
 }

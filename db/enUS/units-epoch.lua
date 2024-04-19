@@ -20,4 +20,7 @@ pfDB["units"]["enUS-epoch"] = {
   [476] = "Kobold Geomancer",
   [40] = "Kobold Miner",
   [514] = "Smith Argus",
+  [45102] = "Fergus Kitsapell",
+  [45103] = "Scarlet Foreman",
+  [45104] = "Scarlet Miner",
 }
