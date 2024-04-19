@@ -88,5 +88,5 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Filling the Armory",
     ["O"] = "Recover 6 Cases of Ore and return to Oliver Dwor in Brill.",
     ["D"] = "Those damn humans! They kill our soldiers\, spit on our graves\, and now they\'ve taken our mine! I bet they\'re using it to craft armor and weapons...this cannot be allowed!\n\n$N\,I need you to go to the Kitsapell Mine southeast of here\, near the Balnir Farmstead\, and bring me some of the ore they are harvesting. If we don\'t act\, they will use the ore to craft armanents and lead an attack on Brill!",
-  }
+  },
 }
