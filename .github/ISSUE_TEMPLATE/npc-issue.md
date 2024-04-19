@@ -16,6 +16,12 @@ assignees: ''
 ## Npc ID 
 > Run this while targeting the npc to get it: /script SetMapToCurrentZone() local x,y=GetPlayerMapPosition("player") DEFAULT_CHAT_FRAME:AddMessage(format("%s, %s: %.1f, %.1f",GetZoneText(),GetSubZoneText(),x*100,y*100))
 
+## Npc Level
+> The NPCs level or level range
+
+## Npc Faction
+> The NPCs Faction. Horde, Alliance, Both
+
 ## Npc Cords
 > Run this while standing on top of the npc to get them: /script SetMapToCurrentZone() local x,y=GetPlayerMapPosition("player") DEFAULT_CHAT_FRAME:AddMessage(format("%s, %s: %.1f, %.1f",GetZoneText(),GetSubZoneText(),x*100,y*100))
 
