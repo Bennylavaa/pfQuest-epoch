@@ -77,7 +77,7 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 10,
     ["min"] = 4,
     ["pre"] = { 62 },
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26151] = {
     ["start"] = {
@@ -92,7 +92,7 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 10,
     ["min"] = 5,
     ["pre"] = { 26150 },
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26218] = {
     ["start"] = {
@@ -104,7 +104,7 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 12,
     ["min"] = 10,
     ["next"] = 26219,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [11] = {
     ["start"] = {
@@ -118,7 +118,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 10,
     ["min"] = 6,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26219] = {
     ["start"] = {
@@ -135,7 +135,7 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 10,
     ["pre"] = { 26218 },
     ["next"] = 26220,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26220] = {
     ["start"] = {
@@ -148,7 +148,7 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 10,
     ["pre"] = { 26219 },
     ["next"] = 26221,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26221] = {
     ["start"] = {
@@ -161,7 +161,7 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 10,
     ["pre"] = { 26220 },
     ["next"] = 26222,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26222] = {
     ["start"] = {
@@ -178,7 +178,7 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 10,
     ["pre"] = { 26221 },
     ["next"] = 26223,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26223] = {
     ["start"] = {
@@ -194,7 +194,7 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 10,
     ["pre"] = { 26222 },
     ["next"] = 26224,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26224] = {
     ["start"] = {
@@ -207,7 +207,7 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 10,
     ["pre"] = { 26223 },
     ["next"] = 26298,
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26298] = {
     ["start"] = {
@@ -219,7 +219,7 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 13,
     ["min"] = 10,
     ["pre"] = { 26224 },
-    ["race"] =  77,
+    ["race"] = 77,
   },
   [26188] = {
     ["start"] = {
@@ -253,8 +253,8 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 45031 },
     },
     ["obj"] = {
-      ["U"] = { 45030 },
       ["I"] = { 60030 },
+      ["U"] = { 45030 },
     },
     ["lvl"] = 8,
   },
