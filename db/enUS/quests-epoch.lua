@@ -49,4 +49,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 6 Blood Petal leaves and bring them to William Pestle in the Lion\'s Pride Inn.",
     ["D"] = "My father sent me to the Lion\'s Pride Inn to speak with William Pestle and have him make a Rage Potion for me\, but before I knew it\, I was being set upon by some scoundrel.\n\nRight as we were about to draw blades\, the marshal stepped in\, though not after the fists had already flown.\n\nIf I don\'t have that potion for my dad\, I\'m positive he\'ll send me and my dog packing. Please collect some Blood Petal leaves from nearby and bring them to Morgan so he can make me a new one.",
   },
+    [26220] = {
+    ["T"] = "Barroom Blitz",
+    ["O"] = "Return to Mardigan southwest of Goldshire.",
+    ["D"] = "I don\'t want to see that Mardigan fellow bothering me again. This here is a nice cozy establishment, and the last thing we need is more fights.\n\nIf he wants potions and flasks\, he can go to Stormwind for all I care. He\'s Miss Lumere\'s problem now!",
+  },
+    [26221] = {
+    ["T"] = "Barroom Blitz",
+    ["O"] = "Meet with Mardigan at his home in Thunder Falls\, above Mirror Lake.",
+    ["D"] = "This is just what I need--\n\n<Mardigan stops talking abruptly as he notices something in the distance.>\n\nWhat is that? Smoke? I have to go! Please meet up with me at my home in Thunder Falls!",
+  },
+    [26222] = {
+    ["T"] = "Barroom Blitz",
+    ["O"] = "Check Mardigan\'s home for clues.",
+    ["D"] = "<From the corpse of Fritz you spot a dripping trail of blood leading to the nearby cabin. Perhaps there is a clue left behind?>",
+  },
+    [26223] = {
+    ["T"] = "Barroom Blitz",
+    ["O"] = "Confront the man behind the Lion\'s Pride Inn about the what occurred at Mardigan\'s homestead.",
+    ["D"] = "<With the blood covered note in hand, you see Mardigan sprint into the distance in the direction of the Lion\'s Pride Inn, cursing and red in the face.>\n\n<You know that you must follow him and confront the man who vandalized Mardigan\'s home and killed his dog.>",
+  },
+    [26224] = {
+    ["T"] = "Barroom Blitz",
+    ["O"] = "Inform Theocritus at the Tower of Azora of what has happened with Mardigan.",
+    ["D"] = "Mardigan\'s father must be made aware of his son\'s crimes\, but the only person I know of who can reach him is Theocritus at the Tower of Azora. It is a way down the road east of Goldshire. Be wary; that tower can be pretty strange.",
+  },
+    [26298] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Find Karlain within Sentinel Hill at the center of Westfall.",
+    ["D"] = "I sent my close associate Karlain\, father to that repribate Mardigan\, to Westfall in the hopes of shielding a very important artifact. The Hand of Azora is a powerful weapon that caught the attention of some very very worrisome riders.\n\nI gave it to a powerful mage named Tannos to be taken and hidden\, all I know is that he went to Westfall before promptly disappearing.\n\nGo to Sentinel Hill and find Karlain\, hopefully he is on Tannos\' path.",
+  },
 }

@@ -23,4 +23,9 @@ pfDB["units"]["enUS-epoch"] = {
   [45022] = "Sickly Miner",
   [45132] = "Mardigan",
   [963] = "Deputy Rainer",
+  [45133] = "Fritz",
+  [45135] = "Mardigan",
+  [45134] = "Mysterious Stranger",
+  [313] = "Theocritus",
+  [45163] = "Karlain",
 }
