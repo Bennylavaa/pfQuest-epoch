@@ -37,4 +37,6 @@ Hover Over Item ID:
 Object ID:
 No Possible way to get this info currently
 
+Detailed list of what each section is: https://github.com/Bennylavaa/pfQuest-epoch/issues/4 
+
 
