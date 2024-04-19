@@ -6,4 +6,5 @@ pfDB["items"]["enUS-epoch"] = {
   [782] = "Painted Gnoll Armband",
   [60160] = "Blood Petal Leaf",
   [60162] = "Bloody Note",
+  [60111] = "Case of Ore",
 }
