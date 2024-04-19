@@ -47,6 +47,39 @@ for _, obj in pairs(pfDB["areatrigger"]["data"]) do
     end
   end
 end
+-- fix map-id 1519 spawns [Stormwind]
+for _, obj in pairs(pfDB["objects"]["data"]) do
+  if obj.coords then
+    for num, tbl in pairs(obj.coords) do
+      if tbl[3] == 1519 then -- map
+        tbl[1] = tbl[1] + 6.8 -- x
+        tbl[2] = tbl[2] + 10.1 -- y
+      end
+    end
+  end
+end
+-- fix map-id 1519 spawns [Stormwind]
+for _, obj in pairs(pfDB["units"]["data"]) do
+  if obj.coords then
+    for num, tbl in pairs(obj.coords) do
+      if tbl[3] == 1519 then -- map
+        tbl[1] = tbl[1] + 6.8 -- x
+        tbl[2] = tbl[2] + 10.1 -- y
+      end
+    end
+  end
+end
+-- fix map-id 1519 spawns [Stormwind]
+for _, obj in pairs(pfDB["areatrigger"]["data"]) do
+  if obj.coords then
+    for num, tbl in pairs(obj.coords) do
+      if tbl[3] == 1519 then -- map
+        tbl[1] = tbl[1] + 6.8 -- x
+        tbl[2] = tbl[2] + 10.1 -- y
+      end
+    end
+  end
+end
 local loc_core, loc_update
 for _, db in pairs(dbs) do
   if pfDB[db]["data-epoch"] then
