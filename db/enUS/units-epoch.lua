@@ -7,4 +7,13 @@ pfDB["units"]["enUS-epoch"] = {
   [14722] = "Clavicus Knavingham",
   [2285] = "Count Remington Ridgewell",
   [24729] = "Alicia",
+  [823] = "Deputy Willem",
+  [103] = "Garrick Padfoot",
+  [45021] = "Matron Darcy",
+  [240] = "Marshal Dughan",
+  [295] = "Innkeeper Farley",
+  [43] = "Mine Spider",
+  [45023] = "Webbed Miner",
+  [253] = "William Pestle",
+  [241] = "Remy \"Two Times\"",
 }
