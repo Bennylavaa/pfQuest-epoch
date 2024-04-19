@@ -28,4 +28,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45102] = "Fergus Kitsapell",
   [45103] = "Scarlet Foreman",
   [45104] = "Scarlet Miner",
+  [45031] = "Ginger McGrubbins",
+  [45030] = "Big Blue",
 }

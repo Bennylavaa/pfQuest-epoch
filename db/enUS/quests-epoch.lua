@@ -89,4 +89,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Recover 6 Cases of Ore and return to Oliver Dwor in Brill.",
     ["D"] = "Those damn humans! They kill our soldiers\, spit on our graves\, and now they\'ve taken our mine! I bet they\'re using it to craft armor and weapons...this cannot be allowed!\n\n$N\,I need you to go to the Kitsapell Mine southeast of here\, near the Balnir Farmstead\, and bring me some of the ore they are harvesting. If we don\'t act\, they will use the ore to craft armanents and lead an attack on Brill!",
   },
+    [26161] = {
+    ["T"] = "Wanted: Big Blue",
+    ["O"] = "Bring Big Blue\'s Wing to Ginger McGubbins at the Tower of Azora in Elwynn Forest.",
+    ["D"] = "The master of the Tower of Azora may be a brilliant man\, but his safety is... lacking.\n\nUnfortunately for us\, a butterfly got a little too close to one of the master\'s experiments and has become a little unhinged.\n\nAlmost every night it\'s here disturbing our garden\, and the quality of our food is lacking because of it!\n\nDeal with it and bring it\'s wing to Ginger McGubbins at the Tower of Azora. It\'s last known location is northeast of the tower\, along the coast of Stonecairn Lake.",
+  },
 }
