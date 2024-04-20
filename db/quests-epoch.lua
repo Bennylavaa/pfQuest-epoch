@@ -1,4 +1,5 @@
 pfDB["quests"]["data-epoch"] = {
+  [11451] = "_", --Remove tbc quest Alicia's Poem
   [27246] = {
     ["start"] = {
       ["U"] = { 14624 },
