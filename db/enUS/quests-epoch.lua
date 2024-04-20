@@ -109,4 +109,44 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Present Sarah\'s cake to Theocritus.",
     ["D"] = "There\, it\'s done. On the surface\, a most perfect image of deliciousness...but underneath lies a mix guaranteed to make the master suffer once it reaches his stomach.\n\nBring the cake to Theocritus at the top of the tower.",
   },
+    [26152] = {
+    ["T"] = "The Soaked Barrel",
+    ["O"] = "Find someone in Northshire Abbey who may know the owner of the barrel.",
+    ["D"] = "While walking along the river leading to Crystal Lake you stumbled across a soaked and slightly damaged barrel with the crest of a golden lion. Someone in Northshire Abbey may know who this belongs to.",
+  },
+    [26153] = {
+    ["T"] = "Find the Brother",
+    ["O"] = "Bring the soaked barrel to Brother Neals in Northshire Abbey.",
+    ["D"] = "You found this along the river? Interesting...\n\n I\'m no expert in ale and wine\, I just grow the grapes. Brother Neals will have a better idea. You\'ll find him at the top of the Abbey.",
+  },
+    [26154] = {
+    ["T"] = "A Brother\'s Disgust",
+    ["O"] = "Bring the Stack of Barrels to Melika Isenstrider at the Lion\'s Pride Inn.",
+    ["D"] = "<Brother Neals looks at the barrel with a grimace>\n\nDisgusting swill! This here is a winery $N! Miss Osworth grows the finest grapes in all of the Eastern Kingdoms, and me alongside with the other brothers produce the wine. No one here drinks ale.\n\nGo to the Lion\'s Pride Inn\, located in Goldshire\, and show Melika Isenstrider what you found. She knows the local patrons and brewers.\n\nOh! And while you\'re going there\, please bring her the latest shipment of our wine.",
+  },
+    [26155] = {
+    ["T"] = "A Mage\'s Advice",
+    ["O"] = "Speak with Zaldimar upstairs inside the Lion\'s Pride Inn.",
+    ["D"] = "Now that you mention it...we had a dwarf in here a week or so ago named Murun. He was drinking up a storm\, and entertaining the patrons with tales of seeking rich ore deposits in Northshire Falls\, high above the abbey.\n\nHe\'d brought with him some ale that looks and smells just like the barrel you\'ve brought me. However\, I think a young paladin would struggle scaling those cliffs.\n\nSpeak to Zaldimar upstairs\, he\'s a cunning mage who may be able to help you properly.",
+  },
+    [26156] = {
+    ["T"] = "Linus Stone Tips",
+    ["O"] = "Bring a depleted translocation stone to Zaldimar.",
+    ["D"] = "I recently discovered that my assistant\, Linus has been working in collaboration with the local Defias\, feeding them information on the patterns of guards and shipments. Right under my nose!\n\nUnfortunately after I kicked him out of my service\, I discovered he\'d taken a number of artifacts from me. Most importantly for you, he took my (thankfully discharged) translocation stone.\n\nTeach Linus a lesson and retrieve that stone for me\, and I will gladly help you.\n\nLast I heard from the guards he was last spotted hiding out on a hill just north of Goldshire.",
+  },
+    [26157] = {
+    ["T"] = "Brewing Brethren",
+    ["O"] = "Find the waterfall in Northshire Valley and use the translocation stone to reach the top.",
+    ["D"] = "Now that\'s out of the way\, you should be able to find the location of the owner of that ale you\'ve been so fervently talking about. Take this to the base of the waterfall in Northshire Valley and use it to reach the top. Fingers crossed you will find what you seek.",
+  },
+    [26158] = {
+    ["T"] = "No Regrets! Well\, Maybe Some",
+    ["O"] = "Find Dromul Oddrink in Northshire Falls.",
+    ["D"] = "Me and my partner Dromul made our way here from Dun Morogh. We battled fiercely through the Burning Steppes\, on our way to seeking riches in this here valley.\n\nAye\, we had hoped to be the first to lay claim to it\, but we fell out...He took my tools\, I took most of his brewing gear. And now we're both stuck here! I didn't brew that ale $N\, the only one who could is Dromul\, up the river. I doubt he\'ll ever speak to me again...but please make sure he\'s okay.",
+  },
+    [26159] = {
+    ["T"] = "Lionstout Ale",
+    ["O"] = "Gather the ingredients Dromul Oddrink will need to craft a fresh brew of Lionstout Ale.",
+    ["D"] = "You\'re trying to tell me that Murun is worried about me? Hah! I never thought I\'d live to see the day that stubborn oaf changes his tune. I rowed down to his camp a couple days ago\, leaving him my apology gift\, a new brew of my invention named after his family crest.\n\nI call it Lionstout Ale.\n\nIf he didn\'t get it\, then it must have washed downstream. It\'s time to stop this nonsense!\n\nGo get me some of the enchanted water from these elementals around the river\, along with a handful of the reeds you\'ll find growing nearby.",
+  },
 }

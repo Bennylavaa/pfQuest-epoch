@@ -12,4 +12,10 @@ pfDB["items"]["enUS-epoch"] = {
   [60015] = "Mana Tainted Sludge",
   [60016] = "Well Reel",
   [60017] = "Sarah\'s \"Special\" Cake",
+  [60021] = "Soaked Barrel",
+  [60022] = "Stack of Barrels",
+  [60024] = "Depleted Translocation Stone",
+  [60025] = "Translocation Stone: Northshire Falls",
+  [60027] = "Glistening Falls Water",
+  [60028] = "Northshire Reed",
 }

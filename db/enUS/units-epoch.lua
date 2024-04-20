@@ -38,4 +38,10 @@ pfDB["units"]["enUS-epoch"] = {
   [97] = "Riverpaw Runt",
   [478] = "Riverpaw Outrunner",
   [927] = "Brother Wilhelm",
+  [6778] = "Melika Isenstrider",
+  [328] = "Zaldimar Wefhellt",
+  [45027] = "Linus Royston",
+  [45028] = "Murun Goldroar",
+  [45025] = "Dromul Oddrink",
+  [45026] = "Falls Elemental",
 }
