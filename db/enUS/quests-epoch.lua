@@ -94,4 +94,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring Big Blue\'s Wing to Ginger McGubbins at the Tower of Azora in Elwynn Forest.",
     ["D"] = "The master of the Tower of Azora may be a brilliant man\, but his safety is... lacking.\n\nUnfortunately for us\, a butterfly got a little too close to one of the master\'s experiments and has become a little unhinged.\n\nAlmost every night it\'s here disturbing our garden\, and the quality of our food is lacking because of it!\n\nDeal with it and bring it\'s wing to Ginger McGubbins at the Tower of Azora. It\'s last known location is northeast of the tower\, along the coast of Stonecairn Lake.",
   },
+    [26147] = {
+    ["T"] = "Just Desserts",
+    ["O"] = "Bring Sarah Templeworth the ingredients she needs to make a special treat.",
+    ["D"] = "Our glorious master was having guests for dinner\, and I found myself assigned to the task of cooking a wonderful meal for them to enjoy. I spent weeks\, finding the best ingredients and researching the best recipes in order to give them a meal to remember.\n\nOn the special day\, I was in the kitchen for hours\, balancing everything perfectly. Only when I was certain that the meal would dance on their palettes\, did I allow it to be served.\n\nEverything was fine at first\, the guests were eager with anticipation at the aromas which I had createrd. After everyone had received their servings, our master invited them all to \"tuck in\".\n\nThat\'s when it happened. Without even having tasted the food placed in front of him, our master clicks his fingers and conjures a muffin!\n\nI\'m sick of it\, but I have a plan to back at him. I just need a few ingredients we\'re short of.\n\nBring me some of the mana berries from the garden Ginger tends too\, as well as flour\, mild spices, and salt from Tharynn Bouden in Goldshire.",
+  },
+    [26148] = {
+    ["T"] = "Just Desserts",
+    ["O"] = "Fish up a mana tainted sludge from the well outside of the Tower of Azora.",
+    ["D"] = "Right now all you\'ve brought me is the missing ingredients I need to make a delicious cake\, but I have one more addition. What I need is something that uses a heavy amount of spice to cover the taste until the last moment.\n\nThe well nearby is never used because it\'s been tainted by the masters experiments. I am confident what we need will be down there. Take this rod and fish me up some mana tainted sludge.",
+  },
+    [26149] = {
+    ["T"] = "Just Desserts",
+    ["O"] = "Present Sarah\'s cake to Theocritus.",
+    ["D"] = "There\, it\'s done. On the surface\, a most perfect image of deliciousness...but underneath lies a mix guaranteed to make the master suffer once it reaches his stomach.\n\nBring the cake to Theocritus at the top of the tower.",
+  },
 }

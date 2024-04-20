@@ -33,4 +33,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45104] = "Scarlet Miner",
   [45031] = "Ginger McGrubbins",
   [45030] = "Big Blue",
+  [45020] = "Sarah Templeworth",
+  [66] = "Tharynn Bouden",
+  [97] = "Riverpaw Runt",
+  [478] = "Riverpaw Outrunner",
 }
