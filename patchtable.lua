@@ -19,8 +19,8 @@ for _, obj in pairs(pfDB["objects"]["data"]) do
   if obj.coords then
     for num, tbl in pairs(obj.coords) do
       if tbl[3] == 139 then -- map
-        tbl[1] = tbl[1] + -5.7 -- x
-        tbl[2] = tbl[2] + -6 -- y
+        tbl[1] = tbl[1] + -5.3 -- x
+        tbl[2] = tbl[2] + -4.9 -- y
       end
     end
   end
@@ -30,8 +30,8 @@ for _, obj in pairs(pfDB["units"]["data"]) do
   if obj.coords then
     for num, tbl in pairs(obj.coords) do
       if tbl[3] == 139 then -- map
-        tbl[1] = tbl[1] + -5.7 -- x
-        tbl[2] = tbl[2] + -6 -- y
+        tbl[1] = tbl[1] + -5.3 -- x
+        tbl[2] = tbl[2] + -4.9 -- y
       end
     end
   end
@@ -41,8 +41,8 @@ for _, obj in pairs(pfDB["areatrigger"]["data"]) do
   if obj.coords then
     for num, tbl in pairs(obj.coords) do
       if tbl[3] == 139 then -- map
-        tbl[1] = tbl[1] + -5.7 -- x
-        tbl[2] = tbl[2] + -6 -- y
+        tbl[1] = tbl[1] + -5.3 -- x
+        tbl[2] = tbl[2] + -4.9 -- y
       end
     end
   end
