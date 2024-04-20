@@ -18,4 +18,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60025] = "Translocation Stone: Northshire Falls",
   [60027] = "Glistening Falls Water",
   [60028] = "Northshire Reed",
+  [60029] = "Lionstout Ale",
 }

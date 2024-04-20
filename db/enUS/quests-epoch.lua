@@ -149,4 +149,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Gather the ingredients Dromul Oddrink will need to craft a fresh brew of Lionstout Ale.",
     ["D"] = "You\'re trying to tell me that Murun is worried about me? Hah! I never thought I\'d live to see the day that stubborn oaf changes his tune. I rowed down to his camp a couple days ago\, leaving him my apology gift\, a new brew of my invention named after his family crest.\n\nI call it Lionstout Ale.\n\nIf he didn\'t get it\, then it must have washed downstream. It\'s time to stop this nonsense!\n\nGo get me some of the enchanted water from these elementals around the river\, along with a handful of the reeds you\'ll find growing nearby.",
   },
+    [26160] = {
+    ["T"] = "A Friend Indeed",
+    ["O"] = "Bring the Lionstout Ale to Murun Goldroar in Northshire Falls.",
+    ["D"] = "It\'s about time that me\, you and Murun had a good chinwag with an ale and put this argument behind us. Me and him go way back, and I can\'t imagine a life without him in it. We\'re brothers for god\'s sake!",
+  },
 }
