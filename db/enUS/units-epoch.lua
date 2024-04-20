@@ -44,5 +44,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45028] = "Murun Goldroar",
   [45025] = "Dromul Oddrink",
   [45026] = "Falls Elemental",
+  [6121] = "Remen Marcot",
   [45099] = "Luna Strinbrow",
 }
