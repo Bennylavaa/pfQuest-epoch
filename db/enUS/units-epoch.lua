@@ -37,4 +37,5 @@ pfDB["units"]["enUS-epoch"] = {
   [66] = "Tharynn Bouden",
   [97] = "Riverpaw Runt",
   [478] = "Riverpaw Outrunner",
+  [927] = "Brother Wilhelm",
 }
