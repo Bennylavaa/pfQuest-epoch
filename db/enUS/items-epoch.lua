@@ -19,4 +19,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60027] = "Glistening Falls Water",
   [60028] = "Northshire Reed",
   [60029] = "Lionstout Ale",
+  [60100] = "Joseph\'s Watch",
 }
