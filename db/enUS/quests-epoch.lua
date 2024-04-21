@@ -154,97 +154,97 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring the Lionstout Ale to Murun Goldroar in Northshire Falls.",
     ["D"] = "It\'s about time that me, you and Murun had a good chinwag with an ale and put this argument behind us. Me and him go way back, and I can\'t imagine a life without him in it. We\'re brothers for god\'s sake!",
   },
-  [26184] = {
+    [26184] = {
     ["T"] = "Peace in Death",
     ["O"] = "Lay Joseph Strinbrow\'s spirit to rest and return to Luna Strinbrow at the Deathknell graveyard.",
-    ["D"] = "Greetings\, $N. I assume you\'re wondering why I kneel at this grave. It belongs to my husband\, Joseph.\n\nBefore the plague\, Joseph was a miner that worked in the Night Web\'s Hollow\, a mine northwest of here. He was bit by a spider and died tragically\, leaving me alone in life. As you know\, the plague came and now we must pay our dues.\n\nBut Joseph\'s spirit is restless\, terrorizing Forsaken that try to claim the mine. There was no body to recover\, as the spiders ate his flesh clean\, but I still claim this grave for him. I think that if you bring me something of his\, we can bury it here and lay his spirit to rest.",
+    ["D"] = "Greetings, $N. I assume you\'re wondering why I kneel at this grave. It belongs to my husband, Joseph.\n\nBefore the plague, Joseph was a miner that worked in the Night Web\'s Hollow, a mine northwest of here. He was bit by a spider and died tragically, leaving me alone in life. As you know, the plague came and now we must pay our dues.\n\nBut Joseph\'s spirit is restless, terrorizing Forsaken that try to claim the mine. There was no body to recover, as the spiders ate his flesh clean, but I still claim this grave for him. I think that if you bring me something of his, we can bury it here and lay his spirit to rest.",
   },
-  [26299] = {
+    [26299] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Locate 3 clues to Tannos\' location from Defias Footpads and Defias Smugglers in the area.",
     ["D"] = "I was sent here by my friend and mentor Theocritus to locate a man named Tannos but all I\'ve found are whispers on the wind.\nI know he visited here but didn\'t tell anyone of what happened on his travels before promptly disappearing.\nApparently he was asking around about the local Defias, they may be the key to finding him. Hunt them down and give them a shakedown to see what they hold",
   },
-  [26300] = {
+    [26300] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Speak to Revil Kost at the inn of Sentinel Hill.",
     ["D"] = "While you were out I\'ve gotten to know these Militia men better. They\'ve warmed to me and offered what little information they have.\nAfter speaking to Stoutmantle he alledgedly spent much of his time pestering a man named Revil Kost.\nHe is tucked away in the inn doing god knows what, see what he has to say for himself.",
   },
-  [26301] = {
+    [26301] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Locate 3 clues more to Tannos\' location from Defias Looters and Defias Trappers in the area",
     ["D"] = "Tannos? Grey haired fellow? Yes he was here rambling about the Defias and looking for one of their bases of operation.\nHe seemed frantic at the time. Wouldn\'t let me even shake his hand.\nI have no idea where he went but he was looking for a fight with the red masked fools.\nLooking at your notes, you\'re missing some details. Aim higher and tougher, you\'ll find what you need.",
   },
-  [26302] = {
+    [26302] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Using the Defias Clues locate Tannos in Westfall.",
     ["D"] = "I was ordered to come to Westfall to seek a great artifact that was thought to be under the possesion of a group known as the Dark Riders.\nEvil, foul beings that roam the land looking for objects of great power to take to their master within Karazhan.\nI believe that what Tannos has is of equal if not greater power. \nHe is in grave danger if the Riders sense it in this area. ",
   },
-  [26303] = {
+    [26303] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Help Tannos clear the Golden Coast Quarry to create a safe house.",
     ["D"] = "Be careful! I can\'t control this thing! Theocritus gave me this damned glove and told me to hide it safe here in Westfall.\nI was drawn to putting it on my hand, and then it gripped. I couldn\'t take it off again. Now when I\'m scared it just starts blasting raw arcane power.\nI have to go into isolation, no one must know where I am.\nThe mine up ahead will serve as my new home. The Defias who roam these lands took over it and no one will miss them.",
   },
-  [26304] = {
+    [26304] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Return to Theocritus in the Tower of Azora.",
     ["D"] = "We have failed in our task... The power those riders now possess terrifies me.\nWe must return to Theocritus and tell him what has happened.\nI have no idea what we can do to rectify this mess.",
   },
-  [26305] = {
+    [26305] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Inform Karlain properly what happened to Mardigan.",
     ["D"] = "Karlain will be here any moment, knowing him he\'s casting a teleport now after gathering his things.\nWhen he arrives we must tell him of what happened to his son and set you both on the path to wherever he went.\nThe Hand of Azora is lost to the nether for all we know we can at least try to solve one part of this puzzle.",
   },
-  [26711] = {
+    [26711] = {
     ["T"] = "The Killing Fields",
     ["O"] = "Slay 10 Rusty Harvest Golems and return to Farmer Furlbrow at The Jansen Steed.",
     ["D"] = "Look at the state of these lands! Curse the Defias Brotherhood, with their goblins making mechanical terrors and sending them out on these fields! We farmers didn\'t want any of us this. How am I to feed my family and poor Old Blanchy if these golems are here?\nCan you help get rid of the golems nearby? You can find them just around here, and over west, by my pumpkin farm. Please help us, Storemwind has given up on us.",
   },
-  [26712] = {
+    [26712] = {
     ["T"] = "The Killing Fields",
     ["O"] = "Speak to Farmer Saldean at Saldean\'s Farm.",
     ["D"] = "You\'ve made good work of the golems around here, but I\'m not the only one dealing with this. My good friend, Saldean, also told me the golems are destroying his farm. Do you think you could assist him also? You\'ll find his farm just south of here.",
   },
-  [26713] = {
+    [26713] = {
     ["T"] = "The Killing Fields",
     ["O"] = "Slay 10 Harvest Golems and return to Farmer Saldean at Saldean\'s Farm.",
     ["D"] = "I\'m glad to see someone helping out around here. These golems are causing serious damage to our economy, and if we don\'t get this sorted out soon, I fear Westfall will be overrun and taken by The Defias Brotherhood. Anyways, get out there and kill some golems! You can find some right on this farm, or at The Molsen Farm over to the west.",
   },
-  [26714] = {
+    [26714] = {
     ["T"] = "The Killing Fields",
     ["O"] = "Slay 10 Harvest Watchers and return to Farmer Saldean at Saldean\'s Farm.",
     ["D"] = "Those golems you killed earlier aren\'t the only ones damaging our lands! One of my farmers claims he saw some more out by The Alexston Farmstead, near the Gold Coast Quarry. If you wouldn't mind killing some more golems, your assistance would be most appreciated.",
   },
-  [26715] = {
+    [26715] = {
     ["T"] = "The Killing Fields",
     ["O"] = "Slay 10 Harvest Reapers and return to Farmer Saldean at Saldean\'s Farm.",
     ["D"] = "Most of our farms have been reclaimed, but there is one farm left to fight for. Far south of here, past Sentinel Hill, you will find The Dead Acre, where the most powerful golems created roam and scorch the land. I tried to bring a few workers there, but the golems chased us away! I hope your up to the task $N, these golems are no joke!",
   },
-  [26229] = {
+    [26229] = {
     ["T"] = "Homecoming",
     ["O"] = "Retrieve Nancy\'s Braid and show it to Donald Eastworth. Try to convince him to come back to his family.",
     ["D"] = "Excuse me! Could you stay for a while?\nI apologize, my daughter got a little... Nervous. It all seems to fall apart since the Defias crisis, you know. Would you believe that even my husband, once a farmer so attached to his land, decided to leave everything and join them? How could he? Leaving both me and little Tina!\nHis new friends did pay us a... visit. We were terrified to death. They didn\'t harm my girl but... they cut my hair. My pride, my beauty... My innocence. A few men with red bandanas covering their faces. I will never forget the bestial lust in their eyes.\nAll I got is rumors since Donald left. Some say he preys on the unfortunate merchants traveling from Duskwood to Moonbrook. Please, try to convince that old taffer to come back to us. We\'ve got no home left and Donald\'s new companions are circling around us like vultures! Find my braid and show it to my husband as a warning of the tragedies yet to fall upon us.",
   },
-  [26230] = {
+    [26230] = {
     ["T"] = "A Stubborn Man",
     ["O"] = "Speak with Nancy Eastworth.",
     ["D"] = "There is an old saying: if you can\'t fight them, join them. With Stormwind\'s officials not giving a damn about the people of Westfall, we needed to take matters into our own hands. Some formed The People\'s Militia, some, myself included, serve the real smart-asses here.\nLook, in a matter of weeks - maybe months - I\'m going to earn us enough to rent... No! BUILD a house in Southshore. I needed to take a necessary risk and Nancy needs to understand that. And Tina? She\'s a grown girl already, we didn\'t grow her to be a wimp. They just need to be patient and maybe a little more aware of the other Defias.\nBut all right, all right. Tell her I miss her. Tell them I love them and I\'ll come back soon, leaving all my past behind, along with that cursed red mask!\nNow, leave me be. I\'ve heard a goblin merchant may be passing the bridge soon. You don\'t want to be here, when it happens.",
   },
-  [26231] = {
+    [26231] = {
     ["T"] = "Thumbs Up, Man Down",
     ["O"] = "Bring the Donald\'s Bloodied Thumb to Nancy Eastworth.",
     ["D"] = "I\'m not going to wait any longer for that old bravado who is capable of risking not only his own but his family\'s life in order to pursue a few coins.\nAt first I've lost my braid, but next time I may have a knife stuck in my throat, or even worse - my little Tina taken away from me. Oh, The Light guide us, we\'ll need it for the dark times that are about to come. No home, no livestock, no source of income.\nWe need to grow strong and independent, literally right now. We\'re moving on, even if I had to carry the Blackrock Mountain on my own shoulders - we NEED to move on. But to secure our future, I want to ask you the one last thing. Teach Donald the lesson he\'ll never forget.\nBeat the living hell out of him and let his words become flesh. Bring me his thumb, that he was so eager to lose. Don\'t need to... You know, kill him. A few broken bones will be enough. Just make sure he won\'t follow us later on - wherever he is, misfortune follows.",
   },
-  [26708] = {
+    [26708] = {
     ["T"] = "Riverpaw Rampage",
     ["O"] = "Slay 8 Riverpaw Gnolls and 8 Riverpaw Scouts and return to Protector Gariel at Sentinel Hill.",
     ["D"] = "The People\'s Militia is calling on your help! As if The Defias Brotherhood wasn\'t bad enough, the Riverpaw gnolls are attacking farmers and citizens of Westfall! Stormwind sends no help, and we are left to defend on our own. If you wish to assist us, please lead an attack on these gnolls.\nYou can find some of their camps to the north, near The Jangolode Mine and Furlbrow\'s Pumpkin Farm. Westfall would be most grateful for your help. Now go, put an end to these creatures!",
   },
-  [26709] = {
+    [26709] = {
     ["T"] = "Riverpaw Rampage",
     ["O"] = "Slay 8 Riverpaw Mongrels and 8 Riverpaw Herbalists and return to Protector Gariel at Sentinel Hill.",
     ["D"] = "You thought your work was done? Hardly...the gnolls have camps scattered all throughout the Eastern Kingdoms, and Westfall is no different. I appreciate the help you did earlier, but don\'t get too excited. The People\'s Militia does what needs to be done, and while the gnolls slaugher our citizens, we cannot stand idly by.\nGo forth, south of the Gold Coast Quarry, and rid these lands of more gnolls. You will find camps where stronger members of their clan guard. I hope your up to the task, I\'d hate to see you get killed.",
   },
-  [26710] = {
+    [26710] = {
     ["T"] = "Riverpaw Rampage",
     ["O"] = "Slay 8 Riverpaw Bandits and 8 Riverpaw Taskmasters and return to Protector Gariel at Sentinel Hill.",
     ["D"] = "I\'m impressed your still alive. I thought those gnolls were going to kill you! Anyways, I have reports from our scouts that some of the strongest Riverpaw gnolls have taken up camp in The Dust Plains, south of here. I wish I could spare some soldiers to send with you, but our forces are spread few. You\'re going to have to go on your own.\nIn the name of The People\'s Militia, go and bring justice upon the gnolls! Westfall will tolerate them no more!",
