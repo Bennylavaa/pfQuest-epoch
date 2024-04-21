@@ -28,6 +28,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60364] = "Defias Orders - VI",
   [60365] = "Defias Orders",
   [60168] = "Donald's Bloodied Thumb",
+  [60020] = "Spider Elixir",
   [60172] = "Clyde\'s Special Thread",
   [60394] = "Murloc Scout Eye",
   [60393] = "Murloc Shorestriker Head",
