@@ -568,7 +568,7 @@ pfDB["quests"]["data-epoch"] = {
     ["pre"] = { 26712 },
     ["next"] = 26714,
   },
-  [9] = "_",
+  [9] = "_", -- Quest Removed - The Killing Fields
   [26714] = {
     ["start"] = {
       ["U"] = { 233 },
