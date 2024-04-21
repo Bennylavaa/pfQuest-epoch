@@ -9,5 +9,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000007] = "Soaked Barrel", -- Placeholder ID
   [4000008] = "Northshire Reed", -- Placeholder ID
   [4000009] = "Joseph\'s Watch", -- Placeholder ID
-  [4000010] = "Joseph\'s Grave", -- Placeholder ID
+  [4000010] = "Joseph\'s Grave",
 }
