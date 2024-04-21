@@ -51,4 +51,5 @@ pfDB["units"]["enUS-epoch"] = {
   [490] = "Protector Gariel",
   [45210] = "Buffalo Will",
   [465] = "Barkeep Dobbins",
+  [45325] = "Plagued Shambler",
 }

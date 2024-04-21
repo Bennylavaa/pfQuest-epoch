@@ -280,7 +280,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "Came back for another challenge, ey? Well then buckle up, partner, because this feller won\'t go down with a lick and a promise!\nHis name is Ardo Dirtpaw, and he\'s been causing quite a ruckus \'round these parts. I\'ve tracked the rascal to a cave up north in the hills behind Lakeshire. Should you manage to bring me his famed paw, I\'ll consider the challenge completed, and award you some of my famous hunting supplies!\nGood Luck!",
   },
   [26325] = {
-    ["T"] = "Wanted: Plagued Shambler",
+    ["T"] = "Wanted: Plagued Shambler \(Night\)",
     ["O"] = "Slay the Plagued Shambler patrolling along the river North of Darkshire.",
     ["D"] = "A foul plagued beast has been spotted patrolling along the river North of Darkshire exclusively at night leaving a trail of death and destruction in its wake.\nAny adventurers of stout heart and firm skill please take it out before it begins to venture too close to Darkshire and the surrounding roads.",
   },
