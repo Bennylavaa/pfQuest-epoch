@@ -249,4 +249,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay 8 Riverpaw Bandits and 8 Riverpaw Taskmasters and return to Protector Gariel at Sentinel Hill.",
     ["D"] = "I\'m impressed your still alive. I thought those gnolls were going to kill you! Anyways, I have reports from our scouts that some of the strongest Riverpaw gnolls have taken up camp in The Dust Plains, south of here. I wish I could spare some soldiers to send with you, but our forces are spread few. You\'re going to have to go on your own.\nIn the name of The People\'s Militia, go and bring justice upon the gnolls! Westfall will tolerate them no more!",
   },
+    [109] = {
+    ["T"] = "Report to Gryan Stoutmantle",
+    ["O"] = "Talk to Gryan Stoutmantle.  He usually can be found in the stone tower on Sentinel Hill, just off the road, in the middle of Westfall.",
+    ["D"] = "Looks to me you\'ve seen quite a bit of combat in your time, $c.  If you haven\'t already, you should report to Gryan Stoutmantle.  He heads up the People\'s Militia, aimed at protecting the farmlands of Westfall.  I bet he could use your help.  You can usually find him in the stone tower on Sentinel Hill, just off the road in the middle of Westfall.",
+  },
 }
