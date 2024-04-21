@@ -4,7 +4,7 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 55.6, 35.2, 12 },
     },
   },
-  [900000] = { --Revils Camp
+  [4000000] = { --Revils Camp
     ["coords"] = {
       [1] = { 74.7, 62.8, 42 },
     },
