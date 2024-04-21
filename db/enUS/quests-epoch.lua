@@ -157,7 +157,7 @@ pfDB["quests"]["enUS-epoch"] = {
     [26184] = {
     ["T"] = "Peace in Death",
     ["O"] = "Lay Joseph Strinbrow\'s spirit to rest and return to Luna Strinbrow at the Deathknell graveyard.",
-    ["D"] = "Greetings\, $N. I assume you\'re wondering why I kneel at this grave. It belongs to my husband\, Joseph.\n\nBefore the plague\, Joseph was a miner that worked in the Night Web\'s Hollow\, a mine northwest of here. He was bit by a spider and died tragically\, leaving me alone in life. As you know\, the plague came and now we must pay our dues.\n\nBut Joseph\'s spirit is restless\, terrorizing Forsaken that try to claim the mine. There was no body to recover\, as the spiders ate his flesh clean\, but I still claim this grave for him. I think that if you bring me something of his\, we can bury it here and lay his spirit to rest.",
+    ["D"] = "Greetings, $N. I assume you\'re wondering why I kneel at this grave. It belongs to my husband, Joseph.\n\nBefore the plague, Joseph was a miner that worked in the Night Web\'s Hollow, a mine northwest of here. He was bit by a spider and died tragically, leaving me alone in life. As you know, the plague came and now we must pay our dues.\n\nBut Joseph\'s spirit is restless, terrorizing Forsaken that try to claim the mine. There was no body to recover, as the spiders ate his flesh clean, but I still claim this grave for him. I think that if you bring me something of his, we can bury it here and lay his spirit to rest.",
   },
     [26299] = {
     ["T"] = "Hand of Azora",
