@@ -294,9 +294,4 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Ask the guards for information about the mysterious duo.",
     ["D"] = "I know that look on your face. I\'ve seen it on the most hardened of men... only when they know of the Riders. They were seen close by not even 2 hours ago.\nNot too long ago an erratic Mage and a Priest came sprinting through the town with that same expression demanding to know the location of someone close to them.\nI did not see which way they left out of town. Only my most trusted of Watchers know anything more than rumours about the Riders.\nGo to them and ask if they saw which way the erratic pair went.",
   },
-  [26307] = {
-    ["T"] = "Riders In The Night",
-    ["O"] = "Locate Revils Camp south of Darkshire.",
-    ["D"] = "Well, we have name now at least\; Revil. Does that mean something to you?\nYou\'ve met? Now that explains why the three of you all had that haunted expression.\nHead south of town and try to catch up with them, they must have made camp somewhere close.",
-  },
 }
