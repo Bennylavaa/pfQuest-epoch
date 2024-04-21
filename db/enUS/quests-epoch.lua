@@ -234,4 +234,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring the Donald\'s Bloodied Thumb to Nancy Eastworth.",
     ["D"] = "I\'m not going to wait any longer for that old bravado who is capable of risking not only his own but his family\'s life in order to pursue a few coins.\nAt first I've lost my braid, but next time I may have a knife stuck in my throat, or even worse - my little Tina taken away from me. Oh, The Light guide us, we\'ll need it for the dark times that are about to come. No home, no livestock, no source of income.\nWe need to grow strong and independent, literally right now. We\'re moving on, even if I had to carry the Blackrock Mountain on my own shoulders - we NEED to move on. But to secure our future, I want to ask you the one last thing. Teach Donald the lesson he\'ll never forget.\nBeat the living hell out of him and let his words become flesh. Bring me his thumb, that he was so eager to lose. Don\'t need to... You know, kill him. A few broken bones will be enough. Just make sure he won\'t follow us later on - wherever he is, misfortune follows.",
   },
+  [26708] = {
+    ["T"] = "Riverpaw Rampage",
+    ["O"] = "Slay 8 Riverpaw Gnolls and 8 Riverpaw Scouts and return to Protector Gariel at Sentinel Hill.",
+    ["D"] = "The People\'s Militia is calling on your help! As if The Defias Brotherhood wasn\'t bad enough, the Riverpaw gnolls are attacking farmers and citizens of Westfall! Stormwind sends no help, and we are left to defend on our own. If you wish to assist us, please lead an attack on these gnolls.\nYou can find some of their camps to the north, near The Jangolode Mine and Furlbrow\'s Pumpkin Farm. Westfall would be most grateful for your help. Now go, put an end to these creatures!",
+  },
+  [26709] = {
+    ["T"] = "Riverpaw Rampage",
+    ["O"] = "Slay 8 Riverpaw Mongrels and 8 Riverpaw Herbalists and return to Protector Gariel at Sentinel Hill.",
+    ["D"] = "You thought your work was done? Hardly...the gnolls have camps scattered all throughout the Eastern Kingdoms, and Westfall is no different. I appreciate the help you did earlier, but don\'t get too excited. The People\'s Militia does what needs to be done, and while the gnolls slaugher our citizens, we cannot stand idly by.\nGo forth, south of the Gold Coast Quarry, and rid these lands of more gnolls. You will find camps where stronger members of their clan guard. I hope your up to the task, I\'d hate to see you get killed.",
+  },
+  [26710] = {
+    ["T"] = "Riverpaw Rampage",
+    ["O"] = "Slay 8 Riverpaw Bandits and 8 Riverpaw Taskmasters and return to Protector Gariel at Sentinel Hill.",
+    ["D"] = "I\'m impressed your still alive. I thought those gnolls were going to kill you! Anyways, I have reports from our scouts that some of the strongest Riverpaw gnolls have taken up camp in The Dust Plains, south of here. I wish I could spare some soldiers to send with you, but our forces are spread few. You\'re going to have to go on your own.\nIn the name of The People\'s Militia, go and bring justice upon the gnolls! Westfall will tolerate them no more!",
+  },
 }
