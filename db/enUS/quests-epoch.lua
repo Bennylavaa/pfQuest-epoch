@@ -159,4 +159,64 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Lay Joseph Strinbrow\'s spirit to rest and return to Luna Strinbrow at the Deathknell graveyard.",
     ["D"] = "Greetings\, $N. I assume you\'re wondering why I kneel at this grave. It belongs to my husband\, Joseph.\n\nBefore the plague\, Joseph was a miner that worked in the Night Web\'s Hollow\, a mine northwest of here. He was bit by a spider and died tragically\, leaving me alone in life. As you know\, the plague came and now we must pay our dues.\n\nBut Joseph\'s spirit is restless\, terrorizing Forsaken that try to claim the mine. There was no body to recover\, as the spiders ate his flesh clean\, but I still claim this grave for him. I think that if you bring me something of his\, we can bury it here and lay his spirit to rest.",
   },
+  [26299] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Locate 3 clues to Tannos\' location from Defias Footpads and Defias Smugglers in the area.",
+    ["D"] = "I was sent here by my friend and mentor Theocritus to locate a man named Tannos but all I\'ve found are whispers on the wind.\nI know he visited here but didn\'t tell anyone of what happened on his travels before promptly disappearing.\nApparently he was asking around about the local Defias, they may be the key to finding him. Hunt them down and give them a shakedown to see what they hold",
+  },
+  [26300] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Speak to Revil Kost at the inn of Sentinel Hill.",
+    ["D"] = "While you were out I\'ve gotten to know these Militia men better. They\'ve warmed to me and offered what little information they have.\nAfter speaking to Stoutmantle he alledgedly spent much of his time pestering a man named Revil Kost.\nHe is tucked away in the inn doing god knows what, see what he has to say for himself.",
+  },
+  [26301] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Locate 3 clues more to Tannos\' location from Defias Looters and Defias Trappers in the area",
+    ["D"] = "Tannos? Grey haired fellow? Yes he was here rambling about the Defias and looking for one of their bases of operation.\nHe seemed frantic at the time. Wouldn\'t let me even shake his hand.\nI have no idea where he went but he was looking for a fight with the red masked fools.\nLooking at your notes, you\'re missing some details. Aim higher and tougher, you\'ll find what you need.",
+  },
+  [26302] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Using the Defias Clues locate Tannos in Westfall.",
+    ["D"] = "I was ordered to come to Westfall to seek a great artifact that was thought to be under the possesion of a group known as the Dark Riders.\nEvil, foul beings that roam the land looking for objects of great power to take to their master within Karazhan.\nI believe that what Tannos has is of equal if not greater power. \nHe is in grave danger if the Riders sense it in this area. ",
+  },
+  [26303] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Help Tannos clear the Golden Coast Quarry to create a safe house.",
+    ["D"] = "Be careful! I can\'t control this thing! Theocritus gave me this damned glove and told me to hide it safe here in Westfall.\nI was drawn to putting it on my hand, and then it gripped. I couldn\'t take it off again. Now when I\'m scared it just starts blasting raw arcane power.\nI have to go into isolation, no one must know where I am.\nThe mine up ahead will serve as my new home. The Defias who roam these lands took over it and no one will miss them.",
+  },
+  [26304] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Return to Theocritus in the Tower of Azora.",
+    ["D"] = "We have failed in our task... The power those riders now possess terrifies me.\nWe must return to Theocritus and tell him what has happened.\nI have no idea what we can do to rectify this mess.",
+  },
+  [26305] = {
+    ["T"] = "Hand of Azora",
+    ["O"] = "Inform Karlain properly what happened to Mardigan.",
+    ["D"] = "Karlain will be here any moment, knowing him he\'s casting a teleport now after gathering his things.\nWhen he arrives we must tell him of what happened to his son and set you both on the path to wherever he went.\nThe Hand of Azora is lost to the nether for all we know we can at least try to solve one part of this puzzle.",
+  },
+  [26711] = {
+    ["T"] = "The Killing Fields",
+    ["O"] = "Slay 10 Rusty Harvest Golems and return to Farmer Furlbrow at The Jansen Steed.",
+    ["D"] = "Look at the state of these lands! Curse the Defias Brotherhood, with their goblins making mechanical terrors and sending them out on these fields! We farmers didn\'t want any of us this. How am I to feed my family and poor Old Blanchy if these golems are here?\nCan you help get rid of the golems nearby? You can find them just around here, and over west, by my pumpkin farm. Please help us, Storemwind has given up on us.",
+  },
+  [26712] = {
+    ["T"] = "The Killing Fields",
+    ["O"] = "Speak to Farmer Saldean at Saldean\'s Farm.",
+    ["D"] = "You\'ve made good work of the golems around here, but I\'m not the only one dealing with this. My good friend, Saldean, also told me the golems are destroying his farm. Do you think you could assist him also? You\'ll find his farm just south of here.",
+  },
+  [26713] = {
+    ["T"] = "The Killing Fields",
+    ["O"] = "Slay 10 Harvest Golems and return to Farmer Saldean at Saldean\'s Farm.",
+    ["D"] = "I\'m glad to see someone helping out around here. These golems are causing serious damage to our economy, and if we don\'t get this sorted out soon, I fear Westfall will be overrun and taken by The Defias Brotherhood. Anyways, get out there and kill some golems! You can find some right on this farm, or at The Molsen Farm over to the west.",
+  },
+  [26714] = {
+    ["T"] = "The Killing Fields",
+    ["O"] = "Slay 10 Harvest Watchers and return to Farmer Saldean at Saldean\'s Farm.",
+    ["D"] = "Those golems you killed earlier aren\'t the only ones damaging our lands! One of my farmers claims he saw some more out by The Alexston Farmstead, near the Gold Coast Quarry. If you wouldn't mind killing some more golems, your assistance would be most appreciated.",
+  },
+  [26715] = {
+    ["T"] = "The Killing Fields",
+    ["O"] = "Slay 10 Harvest Reapers and return to Farmer Saldean at Saldean\'s Farm.",
+    ["D"] = "Most of our farms have been reclaimed, but there is one farm left to fight for. Far south of here, past Sentinel Hill, you will find The Dead Acre, where the most powerful golems created roam and scorch the land. I tried to bring a few workers there, but the golems chased us away! I hope your up to the task $N, these golems are no joke!",
+  },
 }

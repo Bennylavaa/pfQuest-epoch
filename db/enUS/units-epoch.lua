@@ -44,4 +44,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45026] = "Falls Elemental",
   [6121] = "Remen Marcot",
   [45099] = "Luna Strinbrow",
+  [45164] = "Revil Kost",
+  [45165] = "Tannos",
 }

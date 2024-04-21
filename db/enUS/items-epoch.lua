@@ -20,4 +20,11 @@ pfDB["items"]["enUS-epoch"] = {
   [60028] = "Northshire Reed",
   [60029] = "Lionstout Ale",
   [60100] = "Joseph\'s Watch",
+  [60359] = "Defias Orders - I",
+  [60360] = "Defias Orders - II",
+  [60361] = "Defias Orders - III",
+  [60362] = "Defias Orders - IV",
+  [60363] = "Defias Orders - V",
+  [60364] = "Defias Orders - VI",
+  [60365] = "Defias Orders",
 }
