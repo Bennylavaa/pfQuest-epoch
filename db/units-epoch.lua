@@ -2892,5 +2892,10 @@ pfDB["units"]["data-epoch"] = {
     },
   },
     [14846] = "_", -- Lhara Dark Moon Faire NPC
+    [45032] = {
+    ["fac"] = "A",
+    ["lvl"] = "30",
+    ["coords"] = {
+    },
   },
 }
