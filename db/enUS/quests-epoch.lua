@@ -249,4 +249,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay 8 Riverpaw Bandits and 8 Riverpaw Taskmasters and return to Protector Gariel at Sentinel Hill.",
     ["D"] = "I\'m impressed your still alive. I thought those gnolls were going to kill you! Anyways, I have reports from our scouts that some of the strongest Riverpaw gnolls have taken up camp in The Dust Plains, south of here. I wish I could spare some soldiers to send with you, but our forces are spread few. You\'re going to have to go on your own.\nIn the name of The People\'s Militia, go and bring justice upon the gnolls! Westfall will tolerate them no more!",
   },
+  [26236] = {
+    ["T"] = "Intel on Morganth",
+    ["O"] = "Deliver the note to Theocritus at the Tower of Azora in Elwynn Forest.",
+    ["D"] = "Greetings friend! Judging by these chains, you may think I\'ve gotten myself into quite the pickle, however everything is going exactly according to plan! You see, by listening in on the conversations of the orcs around me, I\'m learning valuable information about Morganth. Ha! Isn\'t it genius?\nMaster will want to know all about what I\'ve discovered so far. Please take these notes to him, while I try to uncover more. I\'m sure he\'ll reward you for your services!",
+  },
 }
