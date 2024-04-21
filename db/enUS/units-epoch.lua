@@ -50,4 +50,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45145] = "Nancy Eastworth",
   [490] = "Protector Gariel",
   [45032] = "Lorkiz Quietbit",
+  [45210] = "Buffalo Will",
+  [465] = "Barkeep Dobbins",
+  [45325] = "Plagued Shambler",
 }

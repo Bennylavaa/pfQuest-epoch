@@ -129,6 +129,11 @@ pfDB["objects"]["data-epoch"] = {
   },
   [4000011] = { -- Placeholder ID
     ["coords"] = {
+      [1] = { 73.4, 46.5, 42, 0 },
+    },
+  },
+  [4000012] = { -- Placeholder ID
+    ["coords"] = {
       [1] = { 55.6, 35.2, 12, 0 },
     },
   },
