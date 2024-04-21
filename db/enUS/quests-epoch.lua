@@ -254,4 +254,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Deliver the note to Theocritus at the Tower of Azora in Elwynn Forest.",
     ["D"] = "Greetings friend! Judging by these chains, you may think I\'ve gotten myself into quite the pickle, however everything is going exactly according to plan! You see, by listening in on the conversations of the orcs around me, I\'m learning valuable information about Morganth. Ha! Isn\'t it genius?\nMaster will want to know all about what I\'ve discovered so far. Please take these notes to him, while I try to uncover more. I\'m sure he\'ll reward you for your services!",
   },
+  [26233] = {
+    ["T"] = "Clyde\'s Special Thread",
+    ["O"] = "Aquire Clyde\'s Special Thread from Clyde Ranthal in Redridge, then return to Amy Davenport in Lakeshire.",
+    ["D"] = "Hey, could I ask you for a favor? I\'m looking to get my hands on another spindle of the special thread sold by Clyde Ranthal. Only, he has set up shop all the way in the easternmost mountains of Redridge. The orcs and gnolls have made the roads much too dangerous to head out there myself, but you seem capable of the task!\nMake sure to explicitly ask him about his special thread, as you won\'t find it between his usual wares. I\'ll cover the cost of whatever you paid for it, as well as throw in a little extra for your troubles, upon your return.",
+  },
+  [26234] = {
+    ["T"] = "Gnoll Patrol",
+    ["O"] = "Kill 7 Shadowhide Brutes and 7 Shadowhide Warriors, then return to Clyde Ranthal in Redridge.",
+    ["D"] = "My special thread? I tell you what, if you help rid us of those vile gnolls patrolling near the Tower of Ilgalar, I\'ll give it to you for free!\nWe\'re trying to run a successful business up here, but those blasted creatures have caused us more than a lot of trouble as of late. They just don\'t seem to have any respect for commerce!",
+  },
+  [26235] = {
+    ["T"] = "Eye for an Eye",
+    ["O"] = "Kill 6 Blackrock Summoners and 6 Blackrock Trackers, then return to Marshal Marris in Lakeshire.",
+    ["D"] = "One of our regiments befell a terrible fate when it was blindsided by a Blackrock orc ambush. Most of the men were killed, few returned and others were never found. This vile act of brutality musn\'t go unpunished, but I do not have the men to spare, and morale has been low ever since the attack.\nTherefore I must ask for your help. The Blackrock clan should know we will enforce consequences on their attacks, and meet them with force of our own! Deal a blow to our enemy by thinning their numbers where it\'ll hurt them Bennylava. Rid us of their Trackers and Summoners.\nYou can find them in their encampment to the north, just west of the road to the Burning Steppes.",
+  },
+  [26336] = {
+    ["T"] = "One Of Each",
+    ["O"] = "Kill one of each Murloc type found in Redridge.",
+    ["D"] = "You may not believe it, but I made my first kill right here in Redridge. In fact, she\'s hanging right above us as we speak! Ah, the memories... It\'s why I like to come back here from time to time. Ofcourse it pales in comparison to my recent victories, but everyone has to start somewhere!\nSpeaking of, if you\'re looking to prove yourself, I\'ve got a rather interesting challenge for you: Try to confirm a kill of all the different types of Murloc in the area. These slimy fishmen come in a variety of flavors and will likely all take a slightly different approach to best. A prime opportunity for you to prove your versatility!\nAnd with reports of their growing numbers, I believe you\'d be doin\' the fine folks of this here town a favor as well!\nSo what do you say, are you up for the challenge?",
+  },
+  [26337] = {
+    ["T"] = "Ardo\'s Dirtpaw",
+    ["O"] = "Slay Ardo Dirtpaw and bring his paw to Buffalo Will in Lakeshire.",
+    ["D"] = "Came back for another challenge, ey? Well then buckle up, partner, because this feller won\'t go down with a lick and a promise!\nHis name is Ardo Dirtpaw, and he\'s been causing quite a ruckus \'round these parts. I\'ve tracked the rascal to a cave up north in the hills behind Lakeshire. Should you manage to bring me his famed paw, I\'ll consider the challenge completed, and award you some of my famous hunting supplies!\nGood Luck!",
+  },
 }
