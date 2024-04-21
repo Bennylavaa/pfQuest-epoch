@@ -49,4 +49,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45144] = "Donald Eastworth",
   [45145] = "Nancy Eastworth",
   [490] = "Protector Gariel",
+  [45032] = "Lorkiz Quietbit",
 }
