@@ -251,8 +251,8 @@ pfDB["quests"]["enUS-epoch"] = {
   },
     [109] = {
     ["T"] = "Report to Gryan Stoutmantle",
-    ["O"] = "Talk to Gryan Stoutmantle.  He usually can be found in the stone tower on Sentinel Hill, just off the road, in the middle of Westfall.",
-    ["D"] = "Looks to me you\'ve seen quite a bit of combat in your time, $c.  If you haven\'t already, you should report to Gryan Stoutmantle.  He heads up the People\'s Militia, aimed at protecting the farmlands of Westfall.  I bet he could use your help.  You can usually find him in the stone tower on Sentinel Hill, just off the road in the middle of Westfall.",
+    ["O"] = "Talk to Gryan Stoutmantle. He usually can be found in the stone tower on Sentinel Hill, just off the road, in the middle of Westfall.",
+    ["D"] = "Looks to me you\'ve seen quite a bit of combat in your time, $c. If you haven\'t already, you should report to Gryan Stoutmantle. He heads up the People\'s Militia, aimed at protecting the farmlands of Westfall. I bet he could use your help. You can usually find him in the stone tower on Sentinel Hill, just off the road in the middle of Westfall.",
   },
     [26236] = {
     ["T"] = "Intel on Morganth",
@@ -285,7 +285,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "Came back for another challenge, ey? Well then buckle up, partner, because this feller won\'t go down with a lick and a promise!\nHis name is Ardo Dirtpaw, and he\'s been causing quite a ruckus \'round these parts. I\'ve tracked the rascal to a cave up north in the hills behind Lakeshire. Should you manage to bring me his famed paw, I\'ll consider the challenge completed, and award you some of my famous hunting supplies!\nGood Luck!",
   },
   [26325] = {
-    ["T"] = "Wanted: Plagued Shambler \(Night\)",
+    ["T"] = "Wanted: Plagued Shambler",
     ["O"] = "Slay the Plagued Shambler patrolling along the river North of Darkshire.",
     ["D"] = "A foul plagued beast has been spotted patrolling along the river North of Darkshire exclusively at night leaving a trail of death and destruction in its wake.\nAny adventurers of stout heart and firm skill please take it out before it begins to venture too close to Darkshire and the surrounding roads.",
   },
