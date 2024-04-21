@@ -27,4 +27,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60363] = "Defias Orders - V",
   [60364] = "Defias Orders - VI",
   [60365] = "Defias Orders",
+  [60168] = "Donald's Bloodied Thumb",
 }

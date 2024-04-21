@@ -219,4 +219,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay 10 Harvest Reapers and return to Farmer Saldean at Saldean\'s Farm.",
     ["D"] = "Most of our farms have been reclaimed, but there is one farm left to fight for. Far south of here, past Sentinel Hill, you will find The Dead Acre, where the most powerful golems created roam and scorch the land. I tried to bring a few workers there, but the golems chased us away! I hope your up to the task $N, these golems are no joke!",
   },
+  [26229] = {
+    ["T"] = "Homecoming",
+    ["O"] = "Retrieve Nancy\'s Braid and show it to Donald Eastworth. Try to convince him to come back to his family.",
+    ["D"] = "Excuse me! Could you stay for a while?\nI apologize, my daughter got a little... Nervous. It all seems to fall apart since the Defias crisis, you know. Would you believe that even my husband, once a farmer so attached to his land, decided to leave everything and join them? How could he? Leaving both me and little Tina!\nHis new friends did pay us a... visit. We were terrified to death. They didn\'t harm my girl but... they cut my hair. My pride, my beauty... My innocence. A few men with red bandanas covering their faces. I will never forget the bestial lust in their eyes.\nAll I got is rumors since Donald left. Some say he preys on the unfortunate merchants traveling from Duskwood to Moonbrook. Please, try to convince that old taffer to come back to us. We\'ve got no home left and Donald\'s new companions are circling around us like vultures! Find my braid and show it to my husband as a warning of the tragedies yet to fall upon us.",
+  },
+  [26230] = {
+    ["T"] = "A Stubborn Man",
+    ["O"] = "Speak with Nancy Eastworth.",
+    ["D"] = "There is an old saying: if you can\'t fight them, join them. With Stormwind\'s officials not giving a damn about the people of Westfall, we needed to take matters into our own hands. Some formed The People\'s Militia, some, myself included, serve the real smart-asses here.\nLook, in a matter of weeks - maybe months - I\'m going to earn us enough to rent... No! BUILD a house in Southshore. I needed to take a necessary risk and Nancy needs to understand that. And Tina? She\'s a grown girl already, we didn\'t grow her to be a wimp. They just need to be patient and maybe a little more aware of the other Defias.\nBut all right, all right. Tell her I miss her. Tell them I love them and I\'ll come back soon, leaving all my past behind, along with that cursed red mask!\nNow, leave me be. I\'ve heard a goblin merchant may be passing the bridge soon. You don\'t want to be here, when it happens.",
+  },
+  [26231] = {
+    ["T"] = "Thumbs Up, Man Down",
+    ["O"] = "Bring the Donald\'s Bloodied Thumb to Nancy Eastworth.",
+    ["D"] = "I\'m not going to wait any longer for that old bravado who is capable of risking not only his own but his family\'s life in order to pursue a few coins.\nAt first I've lost my braid, but next time I may have a knife stuck in my throat, or even worse - my little Tina taken away from me. Oh, The Light guide us, we\'ll need it for the dark times that are about to come. No home, no livestock, no source of income.\nWe need to grow strong and independent, literally right now. We\'re moving on, even if I had to carry the Blackrock Mountain on my own shoulders - we NEED to move on. But to secure our future, I want to ask you the one last thing. Teach Donald the lesson he\'ll never forget.\nBeat the living hell out of him and let his words become flesh. Bring me his thumb, that he was so eager to lose. Don\'t need to... You know, kill him. A few broken bones will be enough. Just make sure he won\'t follow us later on - wherever he is, misfortune follows.",
+  },
 }

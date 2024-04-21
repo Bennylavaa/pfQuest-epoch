@@ -46,4 +46,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45099] = "Luna Strinbrow",
   [45164] = "Revil Kost",
   [45165] = "Tannos",
+  [45144] = "Donald Eastworth",
+  [45145] = "Nancy Eastworth",
 }
