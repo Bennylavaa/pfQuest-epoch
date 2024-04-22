@@ -53,4 +53,12 @@ pfDB["units"]["enUS-epoch"] = {
   [45210] = "Buffalo Will",
   [465] = "Barkeep Dobbins",
   [45325] = "Plagued Shambler",
+  [45320] = "Sarae Dewlight",
+  [45301] = "Karlain",
+  [45302] = "Revil Kost",
+  [45046] = "Robert Darby",
+  [45303] = "Brother Darrows",
+  [45299] = "Nightbane Tainted One",
+  [45317] = "Mardigan",
+  [45300] = "Gervase",
 }

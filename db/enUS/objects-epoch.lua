@@ -13,4 +13,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000011] = "Wanted Sign", -- Placeholder ID
   [4000012] = "Northshire Falls", -- Placeholder ID
   [4000013] = "Revil\'s Notes", -- Placeholder ID
+  [4000014] = "Lost Shipment", -- Placeholder ID
 }

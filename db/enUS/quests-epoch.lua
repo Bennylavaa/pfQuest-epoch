@@ -285,7 +285,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "Came back for another challenge, ey? Well then buckle up, partner, because this feller won\'t go down with a lick and a promise!\nHis name is Ardo Dirtpaw, and he\'s been causing quite a ruckus \'round these parts. I\'ve tracked the rascal to a cave up north in the hills behind Lakeshire. Should you manage to bring me his famed paw, I\'ll consider the challenge completed, and award you some of my famous hunting supplies!\nGood Luck!",
   },
   [26325] = {
-    ["T"] = "Wanted: Plagued Shambler",
+    ["T"] = "Wanted: Plagued Shambler \(Night\)",
     ["O"] = "Slay the Plagued Shambler patrolling along the river North of Darkshire.",
     ["D"] = "A foul plagued beast has been spotted patrolling along the river North of Darkshire exclusively at night leaving a trail of death and destruction in its wake.\nAny adventurers of stout heart and firm skill please take it out before it begins to venture too close to Darkshire and the surrounding roads.",
   },
@@ -293,5 +293,35 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Riders In The Night",
     ["O"] = "Ask the guards for information about the mysterious duo.",
     ["D"] = "I know that look on your face. I\'ve seen it on the most hardened of men... only when they know of the Riders. They were seen close by not even 2 hours ago.\nNot too long ago an erratic Mage and a Priest came sprinting through the town with that same expression demanding to know the location of someone close to them.\nI did not see which way they left out of town. Only my most trusted of Watchers know anything more than rumours about the Riders.\nGo to them and ask if they saw which way the erratic pair went.",
+  },
+  [26307] = {
+    ["T"] = "Riders In The Night",
+    ["O"] = "Locate Revils Camp south of Darkshire.",
+    ["D"] = "Well, we have name now at least\; Revil. Does that mean something to you?\nYou\'ve met? Now that explains why the three of you all had that haunted expression.\nHead south of town and try to catch up with them, they must have made camp somewhere close.",
+  },
+  [26308] = {
+    ["T"] = "Riders In The Night",
+    ["O"] = "Investigate Manor Mistmantle North of Darkshire.",
+    ["D"] = "Revils Log: Day 247 - Part 2\nKarlain says that the Dark Riders were not too long ago seen at Manor Mistmantle for reasons unknown to us both. And importantly, a new sighting of Worgen near by when the place is normally only overrun by the Undead.\nWe are to leave soon. I hope we can find him the comfort he sorely needs.",
+  },
+  [26309] = {
+    ["T"] = "Riders In The Night",
+    ["O"] = "Acquire an Infused Silver Bar from the Cathedral of Light and High Quality Oak from the Shipbuilder Robert Darby in the Stormwind Harbor.",
+    ["D"] = "To get through to this stubborn Worgen we\'re going to have to turn to the Shadows. The ways of the Light that few discuss.\nI have been preparing for a moment just like this and it is time to put that planning to a righteous cause, Karlain is a good man. He deserves to know where his son is.\nFirstly, go to the Stormwind Harbor and speak with Dockmaster Argyle he should be holding a chest of special silver from a...friend, let\'s just say that. While you are there reach out to the Shipbuilder Robert Darby at the Shipyard, they use the finest oak and he owes me a favour from a certain bar brawl where I tended his wounds and damn near saved his life. We need that oak.\nOnce you have the silver you must take it to an acquaintance, Brother Darrows. He is tasked with guarding the Cathedral of Lights most sought after books in the Cathedral Library.\nFew know this place exists, beneath the Cathedral itself. Give him the Silver and he will bless it as we need. \nBring both the Infused Silver and High Quality Oak to me.",
+  },
+  [26310] = {
+    ["T"] = "Riders In The Night",
+    ["O"] = "Interrogate the captured Worgen.",
+    ["D"] = "Revil has told me his plan, and given me the completed tools to get the information we need. I... I don\'t think that I can do this. Will you? I must know where my son Mardigan has gone and if he is safe.",
+  },
+  [26311] = {
+    ["T"] = "Riders In The Night",
+    ["O"] = "Travel south of Darkshire to reach Rolands Doom. Clear a path through the Worgen and await Karlain and Revil inside.",
+    ["D"] = "If my son is at Rolands Doom we have to go there before it is too late. Me and Revil will deal with this body and meet you there. Clear us a path through the Worgen that defend it and we will come find you.\nI hope mardigan is there and safe but I am fearing for the worst. Make haste, please Bennylava.",
+  },
+  [26312] = {
+    ["T"] = "Riders In The Night",
+    ["O"] = "Defend Mardigan within Rolands Doom while you wait for Karlain and Revil to arrive.",
+    ["D"] = "The alpha of this bunch will be back. He tried to turn me with some scythe thing, it burned and seared my mind but he brought me here to finish it.\nI need to gather my strength and then we can get out of here and to my father.",
   },
 }

@@ -33,4 +33,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60394] = "Murloc Scout Eye",
   [60393] = "Murloc Shorestriker Head",
   [60395] = "Ardo\'s Dirtpaw",
+  [60370] = "Sea Trodden Silver",
+  [60369] = "Light Infused Silver",
+  [60372] = "High Quality Oak",
 }
