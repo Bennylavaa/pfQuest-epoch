@@ -36,4 +36,8 @@ pfDB["items"]["enUS-epoch"] = {
   [60370] = "Sea Trodden Silver",
   [60369] = "Light Infused Silver",
   [60372] = "High Quality Oak",
+  [60374] = "Brightwood Bloom",
+  [60375] = "Fresh Bone Powder",
+  [60376] = "Half Filled Phial",
+  [60377] = "Serae\'s Final Experiment",
 }

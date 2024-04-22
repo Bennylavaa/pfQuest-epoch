@@ -324,4 +324,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Defend Mardigan within Rolands Doom while you wait for Karlain and Revil to arrive.",
     ["D"] = "The alpha of this bunch will be back. He tried to turn me with some scythe thing, it burned and seared my mind but he brought me here to finish it.\nI need to gather my strength and then we can get out of here and to my father.",
   },
+  [26313] = {
+    ["T"] = "Life In Death",
+    ["O"] = "Collect 8 Brightwood Blooms from around the Duskwood area.",
+    ["D"] = "These harrowed lands were once known as Brightwood. Long before Medivhs corruption swept through this land and turned it into what we now know as Duskwood.\nThe land has fouled to such an extent that many believe nothing of sustainance can grow here, the pumpkins you see outside? Rotten to the core. I on the contrary think there is hope with the help of Elune and a touch of natures healing grasp.\nFor me to start I first need a remnant of the past, throughout these lands an ancient herb grows named Brightwood Bloom. Collect me 8 of them and I can use them in the next phase of my experiments.",
+  },
+  [26314] = {
+    ["T"] = "Life In Death",
+    ["O"] = "Collect Fresh Bone Powder from the undead throughout Duskwood.",
+    ["D"] = "The next key ingredient in my experiment will require something most foul. The opposite of sustaining life is death and decay and these woods are home to many that fit that description.\nGo out to the graveyards and collect freshly ground Bone Powder from the undead creatures that roam them and bring them to me please, $N.",
+  },
+  [26315] = {
+    ["T"] = "Life In Death",
+    ["O"] = "Locate the Twilight Grove and fill the phial at the moonwell.",
+    ["D"] = "Deep within the heart of Duskwood is a place of great beauty where life flourishes even among this corruption. It is called the Twilight Grove. There you will find a moonwell left by my forebearers, I believe this is the final key to saving Duskwood.\nHead West out of Darkshire before you reach the fork in the road that leads to Stranglethorn, from there head North and you will find the Grove. Take the ingredients you have gathered and fill the phial with the waters of the well and bring it to me.",
+  },
 }
