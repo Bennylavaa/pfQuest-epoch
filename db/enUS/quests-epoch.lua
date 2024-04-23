@@ -349,4 +349,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Recover 8 Lost Tablets from the Frostmane Cave and return to Apprentice Soren.",
     ["D"] = "I came here in hopes of digging up some history about the past, but those blasted trolls took over that cave! Right where my excavation was going to be!\n\nI\'m no fighter, but you look up to the task, can you go into the cave and bring me anything you find that might be of interest?\n\nI\'ll make sure to reward you well, the orders to examine these come straight from Ironforge!",
   },
+    [26170] = {
+    ["T"] = "Breaking the Ice",
+    ["O"] = "Help Grimnar Thromwyn escape Frostmane Hold. Should you succeed, alert Grawn Thromwyn in Kharanos.",
+    ["D"] = "Finally, a dwarf! I had begun to lose hope I would ever see one of you again.\n\nThese damn trolls captured me when I was making a run to Kharanos, and I\'ve been stuck here ever since. Can you help me escape?",
+  },
 }
