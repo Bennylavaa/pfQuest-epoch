@@ -63,4 +63,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45300] = "Gervase",
   [658] = "Sten Stoutarm",
   [46078 ] = "Captain Thunderbrew",
+  [45082] = "Grimnar Thromwyn",
 }

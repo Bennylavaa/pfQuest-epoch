@@ -42,4 +42,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60377] = "Serae\'s Final Experiment",
   [60099] = "Lost Tablet",
   [61169] = "Frostmane Key",
+  [60052] = "Winter Wolf Hide",
 }

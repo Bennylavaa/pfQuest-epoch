@@ -354,4 +354,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Help Grimnar Thromwyn escape Frostmane Hold. Should you succeed, alert Grawn Thromwyn in Kharanos.",
     ["D"] = "Finally, a dwarf! I had begun to lose hope I would ever see one of you again.\n\nThese damn trolls captured me when I was making a run to Kharanos, and I\'ve been stuck here ever since. Can you help me escape?",
   },
+    [26172] = {
+    ["T"] = "Keeping Us Warm",
+    ["O"] = "Gather 8 Winter Wolf Hides and bring them to Innkeeper Belm in Kharanos.",
+    ["D"] = "Can you just feel the chill in the air? Even by the fire I feel like I\'m going to freeze my beard off! I\'m telling you these winters are getting colder and colder by the year.\n\nSay, what I need is some good hide from a beast to fashion myself a cloak. Think you could be of assistance? Head over west to Iceflow Lake and bring me some of the wolves hides.",
+  },
 }
