@@ -44,4 +44,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61169] = "Frostmane Key",
   [60052] = "Winter Wolf Hide",
   [60056] = "Rockjaw Beads",
+  [60055] = "Kinetic Ore",
 }
