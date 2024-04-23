@@ -61,4 +61,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45299] = "Nightbane Tainted One",
   [45317] = "Mardigan",
   [45300] = "Gervase",
+  [658] = "Sten Stoutarm",
+  [46078 ] = "Captain Thunderbrew",
 }
