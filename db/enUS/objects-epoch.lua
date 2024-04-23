@@ -23,4 +23,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000021] = "Dry Hay Bail", -- Placeholder ID
   [4000022] = "Dry Hay Bail", -- Placeholder ID
   [4000023] = "Dragonmaw Weapon Rack", -- Placeholder ID
+  [4000024] = "Lost Tablet", --Placeholder ID
+  [4000025] = "Frostmane Cage", --Placeholder ID
+  [4000026] = "Kinetic Ore", --Placeholder ID
 }
