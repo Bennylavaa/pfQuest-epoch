@@ -1,4 +1,9 @@
 pfDB["quests"]["enUS-epoch"] = {
+    [1132] = {
+    ["D"] = "Oh, to be at sea once again!  To feel the kiss of the wind, and to have the waves rock me like my blessed mother, long ago!$B$BOh, I wish I had your fortune, good $c, for I see the sea in your future!$B$BIt\'s my job to tell eager souls of the land of Kalimdor, the land of opportunity!  If you\'re willing to try your luck across the sea, then take a ship from here to the lovely port of Theramore.  Speak there with my partner, the elf, Fiora Longears.$B$BShe\'ll start you on your Kalimdor adventure!",
+    ["O"] = "Speak with Fiora Longears in Theramore.",
+    ["T"] = "Fiora Longears",
+  },
     [27246] = {
     ["T"] = "Grampy Stoutforge",
     ["O"] = "Find Grampy Stoutforge at his camp in southwest Searing Gorge.",
@@ -339,4 +344,145 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Locate the Twilight Grove and fill the phial at the moonwell.",
     ["D"] = "Deep within the heart of Duskwood is a place of great beauty where life flourishes even among this corruption. It is called the Twilight Grove. There you will find a moonwell left by my forebearers, I believe this is the final key to saving Duskwood.\nHead West out of Darkshire before you reach the fork in the road that leads to Stranglethorn, from there head North and you will find the Grove. Take the ingredients you have gathered and fill the phial with the waters of the well and bring it to me.",
   },
+  [26386] = {
+    ["T"] = "Speak to Andrew Porter east of the bridge in Menethil Harbor in Wetlands.",
+    ["O"] = "Speak to Andrew Porter east of the bridge in Menethil Harbor in Wetlands.",
+    ["D"] = "Have you ever visited Southshore, $C? It\'s one of the northernmost Alliance cities still around on the continent. Ships have trouble gettin\' through to Southshore from \'ere thanks to rocks and other nonsense. Southshore used to be a busy port, I dunnae what happened.\nAnyhow, these Porter fellas set up a small boat passage between our two cities, if you are lookin\' for a trip to Hillsbrad you should speak to Andrew Porter down near the bridge.",
+  },
+  [26279] = {
+    ["T"] = "Golem Gyroscope",
+    ["O"] = "Find Angus Thickbottom at Dun Guldar in the Upper Marshes.",
+    ["D"] = "My father sent me here after our Golem went bust but I\'ve been waiting here for the parts for weeks.\nUnfortunately since then those darned Dragonmaw have completely taken over the pass and now there\'s absolutely no way for me to get back.\nPlease tell my father that I\'m alive and well but just as importantly that I won\'t be able to get those parts to him.\nTo reach him you will need to head east from Menethil until you see the Dragonmaw and then head south into the Upper Marshes beyond the Dun Guldar pass before heading due west and reaching Dun Guldar.",
+  },
+  [26280] = {
+    ["T"] = "Golem Gyroscope",
+    ["O"] = "Acquire 2 Gyroscopes from the forge in Burndural.",
+    ["D"] = "Desperate times call for desperate measures and well... I don\'t think anyone would miss a couple Gyroscopes going missing.\nHead into the town of Burndural that\'s under siege immediately outside of Dun Guldar. I know the blacksmith and the majority of the townsfolk have left but they may have left some scraps behind.\nGo see if you can find two Gyroscopes and I might be able to get this Golem up and running.",
+  },
+  [26281] = {
+    ["T"] = "Golem Gyroscope",
+    ["O"] = "Attempt to fix the Golem at Angus\' Farm.",
+    ["D"] = "Let\'s get cracking! If we can get that Golem up and running then I can easily feed those refugees but we\'re powerless without it.\nTake these gyroscopes and fit them to it and we\'ll see if we can get a jump start going!",
+  },
+  [26283] = {
+    ["T"] = "Message to Menethil",
+    ["O"] = "Deliver the Burndural Notice to Valstag Ironjaw.",
+    ["D"] = "The messenger in front of you barely manages to reach up to you and firmly place a blood soaked note in your hand before uttering the name Valstag before falling unconscious.\nSeek out the recipient of the note in Menethil Harbor. ",
+  },
+  [26284] = {
+    ["T"] = "Don\'t Kill The Messenger",
+    ["O"] = "Heal the wounded Burndural Messenger.",
+    ["D"] = "The messenger who tried to bring that note to us risked life and limb and from what you said there is still a breath in their body.\nWe can not leave them to die in these marshes. Here, take this and use it to bring some life back into their weary bones so they can get here for safety.",
+  },
+  [465] = {
+    ["D"] = "While you were fighting the Dragonmaws, we discovered more of their plans.$B$BGujek has built catapults and aims to lay siege to Menethil!  And with the fighting in Dun Algaz, we\'re effectively blocked from reinforcements!$B$BYou need to take out those catapults.  They\'re in the Dragonmaw encampment.$B$BHere, take this tinder.  Fight your way to the catapults and light them with the tinder.$B$BAnd after you\'ve done that, find and kill Gujek.  We need to cut this Dragonmaw beast down...at its neck.",
+    ["O"] = "Destroy the Dragonmaw catapults.",
+    ["T"] = "Gujek\'s Gambit",
+  },
+  [474] = {
+    ["D"] = "Now that the catapults have been burned, find and kill General Gujek.",
+    ["O"] = "Kill General Gujek$B$BBring Gujek\'s Head to Captain Stoutfist.",
+    ["T"] = "Defeat Gujek",
+  },
+  [26275] = {
+    ["T"] = "Guldar Gamble",
+    ["O"] = "Reach Dun Guldar in the Upper Marshes and offer your help to the Mayor.",
+    ["D"] = "It\'s time for us to take the fight to the Dragonmaw. I\'m going to need you to push through their encampment and reach the Dun Guldar Pass.\nHead out of Menethil east towards where you found that messenger then head South.\nOnce you are up there then double back on yourself heading west and you\'ll come across Dun Guldar.\nOnce you are there find and speak to the former Burndural Mayor and tell him you\'re there to help.",
+  },
+  [26276] = {
+    ["T"] = "Report to the Front Lines",
+    ["O"] = "Report to Commander Strongborn on the Burndural Front Lines",
+    ["D"] = "I used to be the Mayor of Burndural but I \* Hic \* didn\'t take it very seriously when people started going missing through the Dun Guldar Pass.\nNext thing we know they attacked in the dead of night and before a proper response could be formed they took half the town!\nOur Commander who goes by Strongborn is still at the front lines. Please go offer him your services. Head east out of town and you\'ll see Burndural right before ye.",
+  },
+  [26278] = {
+    ["T"] = "Evacuation Report",
+    ["O"] = "Get the latest evacuation report from Corporal Mountainview.",
+    ["D"] = "The Dragonmaw have not pushed all the way through \* Hic \* Burndural yet... There are those who could have been spared... Find Corporal Mountainview at Longview Outpost just outside of town, you\'ll have passed it already.\nAsk him for a full report of who is yet to leave. By now it should be \* Hic \* everyone.",
+  },
+  [26286] = {
+    ["T"] = "Ram Ranch Rescue",
+    ["O"] = "Convince Glori Cramber to Evacuate his home in the Upper Marshes.",
+    ["D"] = "The Crambers of the Ram Ranch to the north of Burndural have been here for generations and I know that old cook Glori is unwilling to move.\nBuilt like a damned mountain that one and as stubborn as one, won\'t budge an inch!\nI\'ve tried to get them to leave but they just won\'t. Why don\'t you have a crack at convincing them?",
+  },
+  [26344] = {
+    ["T"] = "Highlands Hightail",
+    ["O"] = "Convince the Louthy Family to Evecuate.",
+    ["D"] = "To the south of Burndural you\'ll find the Louthy family, pretty much the only humans who live up here.\nBought themselves a nice little place with some land and a pond after leaving Westfall and produce some of the nicest crops around.\nFor some reason I\'ve not seen them come by and I think they just need a reminder of the urgency. \nPlease, $N, go speak to them and get them out of their before the Dragonmaw push through.",
+  },
+  [26345] = {
+    ["T"] = "Till The Work Is Done",
+    ["O"] = "Collect 10 of Garrins Corn Crops.",
+    ["D"] = "If we\'re gonna go on the road and get out of here we\'ll need food. Luckily, the last of my crop is damn near done but I can\'t tend to that and get my family ready.\nHarvest my grain from nearby and prep it for us to go and we\'ll be out of your hair in no time.",
+  },
+  [26346] = {
+    ["T"] = "Finding Hero",
+    ["O"] = "Find Sarahs Doll \'Hero\' in the Highlands Nook pond.",
+    ["D"] = "I\'m not going anywhere! I was playing with my dolly Hero with Old Green in the pond but that meanie didn\'t give it back.\nDaddy say\'s we\'re leaving but I won\'t leave Hero behind!\nGive me my dolly!",
+  },
+  [26287] = {
+    ["T"] = "Drastic Measures",
+    ["O"] = "Recover a Dragonmaw Disguise from the Adepts and Warders in Burndural.",
+    ["D"] = "My father is a grumpy, arrogant, stubborn old fool. We can see the smoke on the horizon, I\'ve caught the Dragonmaw sneaking around before and you can bloody well hear the screams from Burndural I swear.\nBut no, he refuses to admit it because he\'s not seen it with his own eyes. Rambling that it\'s all a scam and the Amberstills are just trying to take over.\nThis calls for drastic measures. Go to Burndural and recover a Dragonmaw Disguise from pieced together equipment, I have an idea.",
+  },
+  [26288] = {
+    ["T"] = "Drastic Measures",
+    ["O"] = "Disguised as a Dragonmaw set fire to the two Ram padocks and the Stable.",
+    ["D"] = "Put on the disguise you\'ve acquired and go from paddock to paddock setting them ablaze and scaring off the rams. \nYes... I know... It\'s drastic. But my father won\'t believe we\'re in danger until we are. Better it\'s fake than real.",
+  },
+  [26343] = {
+    ["T"] = "Evacuation Report",
+    ["O"] = "Deliver the final evacuation report to Mayor Oakmaster.",
+    ["D"] = "That\'s the last of them I\'m sure. You\'ve done me and these towns a huge service. Now we can finally get that report back to the Mayor.\nTake this to him and then I know he\'ll be off my back.",
+  },
+  [26277] = {
+    ["T"] = "Calm and Collected",
+    ["O"] = "Calm 5 Frantic Refugees.",
+    ["D"] = "What is it with these civilians and losing their cool in a tough situation?\nRunning around like headless chickens and getting in the way of our defense.\nSpeak to each of them and snap some sense into them so they head to Dun Guldar.",
+  },
+  [26285] = {
+    ["T"] = "Push Them Back",
+    ["O"] = "Kill 6 Dragonmaw Adepts and 6 Dragonmaw Warders in Burndural",
+    ["D"] = "We\'re fighting for our lives back here but with some backup we can push them back slowly but surely.\nThis front line is the first port of call and we must desperately defeat the Dragonmaw.\nAttack and defeat the Adepts and Warders that are here and then we can start to plan a way to truly turn the tide.",
+  },
+  [26289] = {
+    ["T"] = "Spoils of War",
+    ["O"] = "Steal 8 Dragonmaw Weapons from the frontlines.",
+    ["D"] = "If we want to slow this offensive we have to get rid of the most important thing in a battle, their weapons.\nThose fools have brought with them large racks of very painful axes, daggers, swords and more.\nIf we can remove those from the front lines and claim them for our own we can send them packing I\'m sure.",
+  },
+  [26340] = {
+    ["T"] = "Eye of Zulumar",
+    ["O"] = "Locate Scout Barleybrew in the Upper Marshes near Zulumar.",
+    ["D"] = "We have to take this fight to their stronghold Zulumar. We have a scout who goes by the name Barleybrew perched up there watching the roads so we know whether the Dragonmaw have changed tactic.\nHe knows all about the goings on within Zulumar. Seek him out and he can guide you towards the precision strikes we need.\nFrom the last report we had he\'s hiding behind a wagon the Dragonmaw destroyed as it fled Dun Guldar. Such a sorry state... why did it come to this?",
+  },
+  [26282] = {
+    ["T"] = "Let\'s Get Outta Here",
+    ["O"] = "Escort Sadira Ironbit safely out of the town of Burndural.",
+    ["D"] = "Boom! I\'m a bit of an aficionado of all things explosive. This here is my collection.\nHowever the Dragonmaw advanced so fast that I\'m now stuck behind enemy lines. I\'m sure that if you can get me to the Corporal I can put some of this to use.\nAnything left behind, well, we\'ll have to destroy that as we go so the Dragonmaw can\'t use them against us.\nOnce I\'m safe please go tell my Aunt Nixi in Dun Guldar, I know she\'ll be worrying but I\'ve got orcs to blast!",
+  },
+  [26341] = {
+    ["T"] = "Where It Hurts",
+    ["O"] = "Kill 6 Dragonmaw Blademasters and their leader Xoruk.",
+    ["D"] = "The fiercest warriors that the Zulumar leader Nek\'rosh has at his disposal are the the Blademasters. Trained by the brutal Watcher Xoruk who leers from his makeshift spy tower at the entrance of Zulumar.\nIf you can thin their numbers and cut off their training at the source before long these Dragonmaw will be undisciplined and useless.\nWithout strong leadership they always fall back to their old ways.",
+  },
+  [26342] = {
+    ["T"] = "Butcher of Burndural",
+    ["O"] = "Kill 6 Dragonmaw Butchers and their Beastmistress Trainer.",
+    ["D"] = "The Dragonmaw Butchers by the numbers have the most \"kills\" under their belt. \nAlong with their leader Beastmistress Mor they exit at the crack of dawn to attack travelers on the roads and hunt the wildlife of the Wetlands.\nTaking them down would be more than a thorn in their side once they can\'t feed their own soldiers.\nGive them a taste of their own medicine and take the Beastmistress with them.",
+  },
+  [26347] = {
+    ["T"] = "The Whelp Wranglers",
+    ["O"] = "Kill 6 Dragonmaw Darkhands and the senior Subjugator Sharog.",
+    ["D"] = "The Dragonmaw claim to despise all Dragons but that won\'t stop them from bending them to their will.\nThe Darkhands within Zulumar are some of their most capable. This knowledge is passed to them through direct tutorage of their most skilled, Subjugator Sharog.\nThey can be found in their great mage tower overlooking the Wetlands in the North of Zulumar.",
+  },
+  [26338] = {
+    ["T"] = "Nek\'rosh Must Die",
+    ["O"] = "Defeat Chieftain Nek\'rosh and bring his Head to Mayor Oakmaster.",
+    ["D"] = "And now we get the mean one, Nek\'rosh. Massive in stature and brutal to boot. He rarely leaves that massive fortress they have in Zulumar.\nThe 3 leaders that you have killed report to him twice daily so he will be suspicious when they do not arrive. I don\'t need to wait for permission from anyone to say that you should go take his head.\nI do not know what they are working on in their so be on your toes.\nGood luck, $N.",
+  },
+  [26339] = {
+    ["T"] = "A Temporary Victory",
+    ["O"] = "Deliver news of the Burndural Victory to Captain Stoutfist.",
+    ["D"] = "You were sent here by Captain Stoutfist and it is only right that we tell him what has happened here. Seek him back in Menethil and he can know that we do not need additional aid.",
+  },
+
 }
