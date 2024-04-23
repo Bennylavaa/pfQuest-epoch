@@ -374,4 +374,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Learn Apprentice Riding from Ultham Ironhorn, then speak to Veron Amberstill in Dun Morogh to claim your ram.",
     ["D"] = "So you\'re here for a ram are you? It just so happens that I was expecting you! Some mysterious benefactor left us payment for a simple ram and it is addressed to you by name, N$. However they did not pay for your training, so I am afraid you will still have to pay for that.\n\nSpeak to Veron Amberstill just outside of the pen after you have acquired training, he runs this ranch and sells the rams. If you do not have the funds yet you may return later.",
   },
+    [26174] = {
+    ["T"] = "Ore for Grumnal",
+    ["O"] = "Mine 10 Kinetic Ore from the Gol\'Bolar Quarry Mine and return to Miner Grumnal.",
+    ["D"] = "I came here in hopes of digging up some history about the past, but those blasted troggs took over that cave! Right where my excavation was going to be!\n\nI\'m no fighter, but you look up to the task, can you go into the cave and bring me anything you find that might be of interest?\n\nI\'ll make sure to reward you well, the orders to examine these come straight from Ironforge!",
+  },
 }
