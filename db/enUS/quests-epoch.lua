@@ -359,4 +359,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Gather 8 Winter Wolf Hides and bring them to Innkeeper Belm in Kharanos.",
     ["D"] = "Can you just feel the chill in the air? Even by the fire I feel like I\'m going to freeze my beard off! I\'m telling you these winters are getting colder and colder by the year.\n\nSay, what I need is some good hide from a beast to fashion myself a cloak. Think you could be of assistance? Head over west to Iceflow Lake and bring me some of the wolves hides.",
   },
+    [26173] = {
+    ["T"] = "Lost Rams",
+    ["O"] = "Bring 3 Amberstill Rams back to Amberstill Ranch along with Veron\'s Lasso and return to Veron Amberstill.",
+    ["D"] = "We had a bad snowstorm a few days ago, and our gate broke! Many of our precious rams got loose! I saw them go just south of here, but I couldn\'t catch up to them. How am I to make money if we have no rams to sell?\n\nGo down to The Tundrid Hills, just south of here and see if you can find my rams. Get close to them and use my lasso to ride them back to the ranch! I would be forever grateful.",
+  },
+    [27620] = {
+    ["T"] = "Journeyman Ram Riding",
+    ["O"] = "Learn Journeyman Riding from Ultham Ironhorn, then speak to Veron Amberstill in Dun Morogh to claim your ram.",
+    ["D"] = "Welcome back. You\'re here to learn how to ride faster correct? As before, the price of your ram has been covered, but you will have to pay the price of training. Swift riding is not cheap I am sorry to say.\n\nSpeak to Veron Amberstill just outside of the pen after you have acquired training, he runs this ranch and sells the rams. If you do not have the funds yet you may return later.",
+  },
+    [26476] = {
+    ["T"] = "Ram Riding",
+    ["O"] = "Learn Apprentice Riding from Ultham Ironhorn, then speak to Veron Amberstill in Dun Morogh to claim your ram.",
+    ["D"] = "So you\'re here for a ram are you? It just so happens that I was expecting you! Some mysterious benefactor left us payment for a simple ram and it is addressed to you by name, N$. However they did not pay for your training, so I am afraid you will still have to pay for that.\n\nSpeak to Veron Amberstill just outside of the pen after you have acquired training, he runs this ranch and sells the rams. If you do not have the funds yet you may return later.",
+  },
 }
