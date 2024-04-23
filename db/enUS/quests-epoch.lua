@@ -1,10 +1,10 @@
 pfDB["quests"]["enUS-epoch"] = {
-    [1132] = {
-    ["D"] = "Oh, to be at sea once again!  To feel the kiss of the wind, and to have the waves rock me like my blessed mother, long ago!$B$BOh, I wish I had your fortune, good $c, for I see the sea in your future!$B$BIt\'s my job to tell eager souls of the land of Kalimdor, the land of opportunity!  If you\'re willing to try your luck across the sea, then take a ship from here to the lovely port of Theramore.  Speak there with my partner, the elf, Fiora Longears.$B$BShe\'ll start you on your Kalimdor adventure!",
-    ["O"] = "Speak with Fiora Longears in Theramore.",
+  [1132] = {
     ["T"] = "Fiora Longears",
+    ["O"] = "Speak with Fiora Longears in Theramore.",
+    ["D"] = "Oh, to be at sea once again!  To feel the kiss of the wind, and to have the waves rock me like my blessed mother, long ago!$B$BOh, I wish I had your fortune, good $c, for I see the sea in your future!$B$BIt\'s my job to tell eager souls of the land of Kalimdor, the land of opportunity!  If you\'re willing to try your luck across the sea, then take a ship from here to the lovely port of Theramore.  Speak there with my partner, the elf, Fiora Longears.$B$BShe\'ll start you on your Kalimdor adventure!",
   },
-    [27246] = {
+  [27246] = {
     ["T"] = "Grampy Stoutforge",
     ["O"] = "Find Grampy Stoutforge at his camp in southwest Searing Gorge.",
     ["D"] = "Grampy Stoutforge is old, even for a dwarf. Hes a master smith and has been a part of the Thorium Brotherhood longer than any of us can remember.\nRecently he set out down south with his son, Bhurind. He wouldnt tell us why, but why dont you see if he needs help with whatever hes doing?",
@@ -415,14 +415,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "The messenger who tried to bring that note to us risked life and limb and from what you said there is still a breath in their body.\nWe can not leave them to die in these marshes. Here, take this and use it to bring some life back into their weary bones so they can get here for safety.",
   },
   [465] = {
-    ["D"] = "While you were fighting the Dragonmaws, we discovered more of their plans.$B$BGujek has built catapults and aims to lay siege to Menethil!  And with the fighting in Dun Algaz, we\'re effectively blocked from reinforcements!$B$BYou need to take out those catapults.  They\'re in the Dragonmaw encampment.$B$BHere, take this tinder.  Fight your way to the catapults and light them with the tinder.$B$BAnd after you\'ve done that, find and kill Gujek.  We need to cut this Dragonmaw beast down...at its neck.",
-    ["O"] = "Destroy the Dragonmaw catapults.",
     ["T"] = "Gujek\'s Gambit",
+    ["O"] = "Destroy the Dragonmaw catapults.",
+    ["D"] = "While you were fighting the Dragonmaws, we discovered more of their plans.$B$BGujek has built catapults and aims to lay siege to Menethil!  And with the fighting in Dun Algaz, we\'re effectively blocked from reinforcements!$B$BYou need to take out those catapults.  They\'re in the Dragonmaw encampment.$B$BHere, take this tinder.  Fight your way to the catapults and light them with the tinder.$B$BAnd after you\'ve done that, find and kill Gujek.  We need to cut this Dragonmaw beast down...at its neck.",
   },
   [474] = {
-    ["D"] = "Now that the catapults have been burned, find and kill General Gujek.",
-    ["O"] = "Kill General Gujek$B$BBring Gujek\'s Head to Captain Stoutfist.",
     ["T"] = "Defeat Gujek",
+    ["O"] = "Kill General Gujek$B$BBring Gujek\'s Head to Captain Stoutfist.",
+    ["D"] = "Now that the catapults have been burned, find and kill General Gujek.",
   },
   [26275] = {
     ["T"] = "Guldar Gamble",
