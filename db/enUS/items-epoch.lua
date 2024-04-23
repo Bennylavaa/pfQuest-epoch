@@ -41,4 +41,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60376] = "Half Filled Phial",
   [60377] = "Serae\'s Final Experiment",
   [60099] = "Lost Tablet",
+  [61169] = "Frostmane Key",
 }
