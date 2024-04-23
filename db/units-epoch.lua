@@ -2895,7 +2895,7 @@ pfDB["units"]["data-epoch"] = {
   [45032] = {
     ["fac"] = "A",
     ["lvl"] = "30",
-    ["coords"] = {    },
+    ["coords"] = {},
   },
   [45210] = {
     ["fac"] = "A",
