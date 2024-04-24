@@ -584,4 +584,44 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Journey into the southern Blazing Hills to investigate the fate of the Earth Elementals.",
     ["D"] = "The south of these lands is the doman of Earth and their leader Geomar. His lack of arrival at the call of the council can only mean something dark has happened there.\nVenture there and relay to me what you find. Long ago the Witherbark came here to worship the Elementals believing us to be gods leaving shrines upon the land. Within the southern hills you will find one such shrine and with it I can communicate to you. Through that we will talk when the task is done.",
   },
+  [26698] = {
+    ["T"] = "Furious Flaying",
+    ["O"] = "Slay 8 Witherbark Flayers within the Blazing Hills and then return to the Sunken Shaman Shrine to speak with Atrasies.",
+    ["D"] = "The Flayers of the Witherbark are the cruelest of the lot, the tales of them skinning their foes alive have spread through all of Arathi and even to us on the Council. I do not know what they are doing here and why they have chosen to end a peaceful co-existence but their collaboration must be ended. Slay them all with the unbridled wrath of fire!",
+  },
+  [26699] = {
+    ["T"] = "Blazing Hills Berserkers",
+    ["O"] = "Slay 8 Witherbark Berzerkers within the Blazing Hills and then return to the Sunken Shaman Shrine to speak with Atrasies.",
+    ["D"] = "Berzerkers are large and fearsome and do the bulk of the fighting for the Witherbark so you will have to be careful when facing them but I insist that they be removed from these hills for the safety of the elements.",
+  },
+  [26700] = {
+    ["T"] = "Bindings Of My Brethren",
+    ["O"] = "Slay Witherbark Flame Benders within the Blazing Hills to collect Corrupted Bindings and then return to the Sunken Shaman Shrine to speak with Atrasies.",
+    ["D"] = "I sense the anquish of my brethren through you already. The shamans of the Witherbark have changed... They take rather than ask. Slay them all and bring the bindings they hold back to here so I may inspect them.",
+  },
+  [26701] = {
+    ["T"] = "The Dark Shamans",
+    ["O"] = "Bring the Subjugation Report to the Sunken Shaman Shrine to speak with Atrasies from afar.",
+    ["D"] = "On the corpse of a Witherbark you find a crumbled report clearly on transit deeper into the Witherbarks encroachment. Reading the contents within may shed light on what is happening in the Blazing Hills and be of great importance to Atrasies.",
+  },
+  [26702] = {
+    ["T"] = "The Dark Shamans",
+    ["O"] = "Locate and slay Dark Shaman Drezco and Dark Shaman Enwi within the southern Blazing Hills.",
+    ["D"] = "Drezco and Enwi. The names of our true enemy. I have no great statement for you $N. Slay them, crush them and bring their heads to me in person. I will reward you as greatly as I can.",
+  },
+  [26682] = {
+    ["T"] = "Save The Animals",
+    ["O"] = "Lasso 6 Terrified Animals at the Alestone Estate and bring them to Paula Alestone.",
+    ["D"] = "I\'m so worried about my animals! When the Earth Elementals emerged from the ground, they bolted into the fields and now they\'re too scared to come back. I can\'t leave them out there alone. Will you please help me bring them back to safety?\nHere, take this rope. You can use it to lasso them and bring them back to me. Please be careful, I don\'t want anyone to get hurt.",
+  },
+  [26671] = {
+    ["T"] = "The Rumbling Fields",
+    ["O"] = "Slay 7 Frantic Earth and 7 Rambling Earth to assist clearing the Alestone Estate fields.",
+    ["D"] = "Bloody hell, these blasted elementals are churning up me fields and scaring me animals! I\'ve had enough of it! I need someone to take care of those Frantic Earth and Rambling Earth elementals, once and for all. They\'re the worst of the lot, causing all sorts of trouble. Will you do it for me? I\'ll pay ya well, and ye\'ll have me gratitude. But make no mistake, this won\'t be an easy task. These elementals are tough buggers.",
+  },
+  [26672] = {
+    ["T"] = "When Life Gives You... Berries?",
+    ["O"] = "Collect 8 Bushels of Shadowberry for Randal Alestone at the Alestone Estate.",
+    ["D"] = "Ye see those fields over yonder? I\'ve been growin\' Shadowberries there for years now. They\'re the finest berries in all the land, and I\'m afraid the Elementals are gonna trample them into mush. I need someone to go out there and collect as many bushels of Shadowberry as ye can find. But be careful out there, the Elementals are a dangerous lot. Will ye do it for me?",
+  },
 }

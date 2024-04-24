@@ -66,4 +66,11 @@ pfDB["items"]["enUS-epoch"] = {
   [61147] = "Rushing Waters",
   [61146] = "Pristine Strider Feather",
   [61148] = "Calming Air",
+  [61151] = "Corrupted Bindings",
+  [61149] = "Subjugation Report",
+  [61150] = "Subjugation Report",
+  [61200] = "Drezco\'s Head",
+  [61201] = "Enwi\'s Head",
+  [61116] = "Sturdy Rope",
+  [61118] = "Bushel of Shadowberry",
 }
