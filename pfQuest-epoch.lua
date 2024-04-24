@@ -37,7 +37,7 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
             --This is a little check that I can use to see if people are actually using the addon.
             if v == "PING?" then
                 for _, chan in ipairs(loginchannels) do
-                    SendAddonMessage("pfqe", "PONG!:"..GetAddOnMetadata("GuildPartyInvite", "Version"), chan)
+                    SendAddonMessage("pfqe", "PONG!:"..GetAddOnMetadata("pfQuest-epoch", "Version"), chan)
                 end
             end
             if v == "PONG!" then
