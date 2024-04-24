@@ -93,4 +93,12 @@ pfDB["units"]["enUS-epoch"] = {
   [45268] = "Dragonmaw Darkhand",
   [45279] = "Subjugator Sharog",
   [45262] = "Chieftain Nek\'rosh",
+  [46066] = "Indon Cliffreach",
+  [46012] = "Atrasies the Ancient",
+  [46027] = "Aqual Sprayer",
+  [46034] = "Raging Cinders",
+  [45839] = "Aquamentus",
+  [46029] = "Blazing Strider",
+  [46037] = "Aeromir",
+  [46016] = "Boiling Wanderer",
 }

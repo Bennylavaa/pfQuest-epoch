@@ -60,4 +60,10 @@ pfDB["items"]["enUS-epoch"] = {
   [60223] = "Crude Dragonmaw Outfit",
   [60224] = "Dragonmaw Weapon",
   [3625] = "Nek\'rosh\'s Head",
+  [61143] = "Cooled Aqual Essence",
+  [61144] = "Bottle of Soothing Waters",
+  [61145] = "Raging Bindings",
+  [61147] = "Rushing Waters",
+  [61146] = "Pristine Strider Feather",
+  [61148] = "Calming Air",
 }

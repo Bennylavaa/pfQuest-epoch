@@ -524,4 +524,64 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Deliver news of the Burndural Victory to Captain Stoutfist.",
     ["D"] = "You were sent here by Captain Stoutfist and it is only right that we tell him what has happened here. Seek him back in Menethil and he can know that we do not need additional aid.",
   },
+  [26685] = {
+    ["T"] = "To The Hills",
+    ["O"] = "Scout the Burning Hills to discover the source of the smoke.",
+    ["D"] = "I\'ve spotted some serious smoke rising from the Blazing Hills to the east of Hammerfall, lad. This is greatly concerning to me, as the elementals who reside in that area are typically peaceful. I\'m tasking ye with the job of heading over there and investigating what\'s causing all that commotion. There be danger afoot, so be sure to keep yer wits about ya and stay sharp.",
+  },
+  [26686] = {
+    ["T"] = "Cooling Waters",
+    ["O"] = "Collect 8 Cooled Aqual Essence from Aqual Sprayers within the Blazing Hills.",
+    ["D"] = "As you know, balance is key to the harmony of nature. Yet, it pains me to think that we must harm our brethren in order to restore this balance.I must express my deepest sorrow, mortal, that I must ask you to slay the water elementals.\nThey possess within their very being a Cooled Aqual Essence that we can use to calm the rage affecting my brethren. You can find them north of my mountain where water pools in the land.",
+  },
+  [26687] = {
+    ["T"] = "A Painful Dousing",
+    ["O"] = "Use the Bottle of Soothing Waters on Raging Cinders to be able to collect Raging Bindings.",
+    ["D"] = "With the Cooled Aqual Essence you have brought, I have crafted a Bottle of Soothing Waters. This will help you to weaken the Raging Cinders fire elementals within the Blazing Hills, making them cool enough for you to collect their wrist bindings.\nBring these bindings back to me, and we will use them to usher in a new era of peace for these hills.",
+  },
+  [26688] = {
+    ["T"] = "An Audience With Water",
+    ["O"] = "Locate Aquamentus within the Blazing Hills.",
+    ["D"] = "Aquamentus is the leader of the Water elementals, and the strongest among them. He is wise and powerful, and his influence extends beyond the borders of the Blazing Hills.\nAlthough we often disagree, I respect Aquamentus greatly. He understands the importance of balance and harmony in these lands, and he is always working to maintain it.\nBut recently, the Water elementals have been restless, and I fear that this unrest may be connected to the disturbances here in the Blazing Hills. We must approach Aquamentus with respect and humility, and ask for his assistance in restoring balance to our home.\nHe can be found to the North where water flows freely, go seek an audience with him.",
+  },
+  [26689] = {
+    ["T"] = "Close The Vents",
+    ["O"] = "Collapse 8 Steam Vents for Aquamentus within the Blazing Hills.",
+    ["D"] = "I believe I have found the source of the unrest in my waters. Thermal steam vents have risen from the ground, heating the waters and disturbing the balance that we have worked so hard to maintain.\nI shall embue you with the powers of Rushing Water and with it you can crumble those vents and close them for good. Please make haste I worry for the untold damage my brethren may do to themselves or others.",
+  },
+  [26690] = {
+    ["T"] = "Offering Of Feathers",
+    ["O"] = "Collect 6 Pristine Strider Feathers for Aquamentus within the Blazing Hills.",
+    ["D"] = "I worry that closing the vents alone will not be able to quench the fury within my brethren and I can not do that alone.\nThere is one who can however... with a certain amount of stroking his ego.\nAir is an important force within the world and key to balance, driving forest fires, cooling the sweat on a mortals brow.\nI will elaborate in good time but for now all you need know is I need an offering of the lightest feathers in the hills. These can be found on Striders throughout the area, I do not know why they pluck and wear the feathers but they are the highest quality around. See to this mortal.",
+  },
+   [26691] = {
+    ["T"] = "An Audience With Air",
+    ["O"] = "Speak with Aquamentus to receive passage to the shrine of Aeromir.",
+    ["D"] = "With the vents cleared I can be sure that no more of my kin will succumb to fury however this does little to help those who are already consumed by it.\nWhen you are ready speak to me and I will send you with the offering to speak with Aeromir. I need you to be my voice and ask of him the capacity to cool my brethren. Can you do this?",
+  },
+  [26693] = {
+    ["T"] = "Assistance Of Air",
+    ["O"] = "Speak with Aeromir to be carried back to Aquamentus with his blessing.",
+    ["D"] = "So my elemental brothers squabble? Why am I not surprised.\nNo it is not I who has caused this commotion but I will do what I can to help considering you have brought me such a pristine offering.\nI will grant you a blessing of Air which will serve as a vessel for you to soothe Aquamentus\' spawn. Speak with me and the strength of Air will carry you across the skies to return to Aquamentus.",
+  },
+  [26694] = {
+    ["T"] = "Cooling The Fury",
+    ["O"] = "Using the Calming Air from Aeromir weaken and calm Boiling Wanderer\'s within the Blazing Hills.",
+    ["D"] = "While I have no doubts that Atrasies had you slaughter his brethren to keep them in line I refuse to do that. Water is not as rash as fire, boiling can be soothed.\nWith the calming air Aeromir has bestowed upon you please free my spawn from their fury. You will need to weaken them for sense to take hold.",
+  },
+  [26695] = {
+    ["T"] = "Return To Fire",
+    ["O"] = "Return to Atrasies within the Blazing Hills.",
+    ["D"] = "While you have calmed my brethren the issues run deep within the Blazing Hills. It is time for us to convene with Atrasies. Head to him atop his peak now.",
+  },
+  [26696] = {
+    ["T"] = "Convening The Council",
+    ["O"] = "Speak with Atrasies to witness the Council of Elements.",
+    ["D"] = "The time has come to decisively learn what is happening in all corners of the Blazing Hills. We strongest ones convene over the millenia rarely but these are dire times. Aeromir, Aquamentus, Geomar and myself. Air, Water, Earth and Fire. Together we can weather all foes, speak with me to bare witness to the council.",
+  },
+  [26697] = {
+    ["T"] = "The Southern Hills",
+    ["O"] = "Journey into the southern Blazing Hills to investigate the fate of the Earth Elementals.",
+    ["D"] = "The south of these lands is the doman of Earth and their leader Geomar. His lack of arrival at the call of the council can only mean something dark has happened there.\nVenture there and relay to me what you find. Long ago the Witherbark came here to worship the Elementals believing us to be gods leaving shrines upon the land. Within the southern hills you will find one such shrine and with it I can communicate to you. Through that we will talk when the task is done.",
+  },
 }

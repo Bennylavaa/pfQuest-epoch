@@ -26,4 +26,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000024] = "Lost Tablet", --Placeholder ID
   [4000025] = "Frostmane Cage", --Placeholder ID
   [4000026] = "Kinetic Ore", --Placeholder ID
+  [4000027] = "Steam Vent", --Placeholder ID
+  [4000028] = "Sunken Shaman Shrine", --Placeholder ID
 }
