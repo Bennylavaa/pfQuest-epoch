@@ -29,4 +29,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000027] = "Steam Vent", --Placeholder ID
   [4000028] = "Sunken Shaman Shrine", --Placeholder ID
   [4000029] = "Shadowberry Bush", --Placeholder ID
+  [4000030] = "Durnholde Armaments", --Placeholder ID
 }

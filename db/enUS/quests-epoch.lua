@@ -624,4 +624,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 8 Bushels of Shadowberry for Randal Alestone at the Alestone Estate.",
     ["D"] = "Ye see those fields over yonder? I\'ve been growin\' Shadowberries there for years now. They\'re the finest berries in all the land, and I\'m afraid the Elementals are gonna trample them into mush. I need someone to go out there and collect as many bushels of Shadowberry as ye can find. But be careful out there, the Elementals are a dangerous lot. Will ye do it for me?",
   },
+  [26329] = {
+    ["T"] = "Hillsbrad Assault",
+    ["O"] = "Capture the Central Tower when it is under the control of the Horde",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde claims it we must urgently take it back.\nRally your forces Bennylava and do as she has bid.",
+  },
+  [26330] = {
+    ["T"] = "Hillsbrad Defense",
+    ["O"] = "Defend the Central Tower when it is under the control of the Alliance.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde attempts to take control of it we must defend it at all costs.\nRally your forces Bennylava and do as she has bid.",
+  },
+  [27720] = {
+    ["T"] = "Justice Left Undone",
+    ["O"] = "Bring Paul \"Grandpa\" Vishas to justice by finding him at his house on the shore of Lordamere Lake in the Alterac Mountains.",
+    ["D"] = "When I became magistrate I noticed there was an outstanding warrant for Paul Vishas. Apparently, Vishas is wanted for a murder he committed nearly twenty years ago. I\'m not sure why this was never enforced; Paul Vishas has been seen in the area for years.\nHis son Sidney has a house on the shore of Lordamere Lake. Maybe Vishas is hiding out there? \nPlease go arrest him Warlock. And if he doesn\'t come quietly, you\'re free to administer justice to get this case off the books.",
+  },
+  [26374] = {
+    ["T"] = "Breaking the Armory",
+    ["O"] = "Loot 10 Durnholde Armaments from Durnholde Keep and return to Kundric Zanden in Southshore.",
+    ["D"] = "The Syndicate over in Durnholde Keep are quickly becoming an issue. Between their countless attacks on travellers, and their growing ranks, it\'s a wonder the Alliance hasn\'t declared war on them yet!\nIt falls on Southshore to keep our lands safe, and I want you to go to the keep and steal their armaments, hopefully with those gone it will be harder for them to attack. You can find the keep northeast of here, just follow the road.",
+  },
 }

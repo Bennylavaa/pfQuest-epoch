@@ -24,4 +24,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 78.91, 74.50, 45 },
     },
   },
+   [4000004] = { --Hillsbrad Foothills Central Tower
+    ["coords"] = {
+      [1] = { 55.60, 34.73, 267 },
+    },
+  },
 }

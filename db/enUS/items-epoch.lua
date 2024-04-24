@@ -73,4 +73,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61201] = "Enwi\'s Head",
   [61116] = "Sturdy Rope",
   [61118] = "Bushel of Shadowberry",
+  [60445] = "Durnholde Armaments",
 }
