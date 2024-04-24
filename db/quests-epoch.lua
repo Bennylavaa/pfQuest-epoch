@@ -2,6 +2,7 @@ pfDB["quests"]["data-epoch"] = {
   [11451] = "_", --Remove tbc quest Alicia's Poem
   [164] = "_", --Remove unused Deliveries to Sven
   [526] = "_", --Remove unused Lightforge Ingots
+  [9435] = "_", --Remove tbc quest Missing crystals
   [637] = {
     ["start"] = {
       ["O"] = { 2656 },
