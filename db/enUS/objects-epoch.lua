@@ -31,4 +31,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000029] = "Shadowberry Bush", --Placeholder ID
   [4000030] = "Durnholde Armaments", --Placeholder ID
   [4000031] = "Wanted: Beve Perenolde", --Placeholder ID
+  [4000032] = "Syndicate Food Supplies", --Placeholder ID
 }

@@ -669,4 +669,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay Beve Perenolde and bring her head to Captain Thallen in Southshore.",
     ["D"] = "Beve Perenolde has been sentenced to execution, by order of Captain Thallen of Southshore. A dangerous criminal, and overseer of Durnholde Keep, she maintains a strong foothold over these lands.\nShe will likely be found deep withing the stronghold of the keep, which is located northeast of Southshore. Bring her head to Captain Thallen to recieve a reward.",
   },
+  [26405] = {
+    ["T"] = "Syndicate Plans",
+    ["O"] = "Deliver the Syndicate Plans to Captain Thallen in Southshore.",
+    ["D"] = "You notice a letter dropped out of Beve Perenolde\'s pocket. It looks important, sealed and delivered by Lord Aliden Perenolde himself.\nCaptain Thallen in Southshore would be greatly interested in this letter, as it may detail further plans for the Syndicate.",
+  },
+  [26395] = {
+    ["T"] = "A Venom That Cures",
+    ["O"] = "Collect 8 Moss Venom and return to Apprentice Honeywell in Southshore.",
+    ["D"] = "Greetings, $N. I moved to Southshore to study alchemy in depth, and the next thing I want to learn is how to make cures.\nWe\'ve had a few citizens fall ill to the bites of spiders. Would you go and gather their venon for me? You can find them scattered all around Hillsbrad.",
+  },
+  [26402] = {
+    ["T"] = "Mudsnout Concoction",
+    ["O"] = "Collect 8 Mudsnout Ichor and return to Nandar Branson in Southshore.",
+    ["D"] = "The Syndicate that moved into Durnholde Keep are showing no signs of stopping, something must be done. I worry our efforts from the guards will not be enough, so I\'ve decided to take a trick from the Forsaken and poison their food supplies!\nI know, it sounds harsh, but desperate times call for desperate measures. If you wish to help me, I need ichor from the gnolls at Nethander Stead, just east of here, past the river. Once I have that, I can brew an effective poison to show the Syndicate their place!",
+  },
+  [26403] = {
+    ["T"] = "Venom to the Syndicate",
+    ["O"] = "Poison the Syndicate Food Supplies in Durnholde Keep and return to Nandar Branson in Southshore.",
+    ["D"] = "The poison is ready, Bennylava, I simply need someone to administer it. You can find Durnholde Keep northeast of here, just follow the road and you can\'t miss it. Be warned though, the Syndicate are highly protective of their stronghold, so it would be best if you brought friends with you.\nOnce you\'re inside, look for their barracks. I\'m sure you will find their food supplies inside. Just spread the venom around and then head back here.",
+  },
 }

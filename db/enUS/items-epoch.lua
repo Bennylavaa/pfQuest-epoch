@@ -77,4 +77,8 @@ pfDB["items"]["enUS-epoch"] = {
   [60496] = "Wildthorn Salve",
   [60458] = "Syndicate Orb",
   [60493] = "Beve\'s Head",
+  [60494] = "Syndicate Plans",
+  [60478] = "Moss Venom",
+  [60488] = "Mudsnout Ichor",
+  [60489] = "Mudsnout Poison",
 }
