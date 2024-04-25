@@ -774,4 +774,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Help repair the plane.",
     ["D"] = "For your next boring task I would like you to figure out why there is a plane sitting on the runway. I see Engineer Cobalt is with it, so I presume there is some issue. I cannot be bothered frankly, I am more worried about this plane I was paid to fix. Go check up on him, see if he could use some of your help.\n\nMaybe you\'ll have some fun, maybe you won\'t, I don\'t care.",
   },
+  [26271] = {
+    ["T"] = "Delivering Food to Kelsey",
+    ["O"] = "Locate Kelsey Steelspark and deliver the food that Girda gave you.",
+    ["D"] = "You\'ve done some great work around the airfield, you right cheered up some fellas\' days. One final task from me though, do you think you could take this meal over to a Gnome by the name of Kelsey Steelspark? She is a scout keeping an eye on the Frostmane Troll village to the south-west.\n\nBest way to find her would be to hug the west side of the ice lake.",
+  },
 }
