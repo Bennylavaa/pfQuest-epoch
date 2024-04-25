@@ -117,4 +117,12 @@ pfDB["units"]["enUS-epoch"] = {
   [45429] = "Syndicate Mage",
   [45432] = "Beve Perenolde",
   [45415] = "Captain Thallen",
+  [45446] = "Guard Emily",
+  [45423] = "Guard Tristan",
+  [45447] = "Guard Paxton",
+  [45449] = "Scout Vernado",
+  [2427] = "Jailor Eston",
+  [45424] = "Horde Scout",
+  [45450] = "Southshore Crier",
+  [45051] = "Wendel Sparkbright",
 }

@@ -34,4 +34,10 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000032] = "Syndicate Food Supplies", --Placeholder ID
   [4000033] = "Apple Bucket", --Placeholder ID
   [4000034] = "Juicy Watermelon", --Placeholder ID
+  [4000035] = "Ghost-Touched Ore", --Placeholder ID
+  [4000036] = "Crates of Armaments", --Placeholder ID
+  [4000037] = "Apple", --Placeholder ID
+  [4000038] = "Apple Press", --Placeholder ID
+  [4000039] = "Apple Cider Barrel", --Placeholder ID
+  [4000040] = "Magically-Sealed Strongboxes", --Placeholder ID
 }
