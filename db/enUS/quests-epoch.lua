@@ -799,4 +799,10 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill 15 Windshear Diggers in Windshear Mine and return to Kaela Shadowspear in Stonetalon Mountains.",
     ["D"] = "I expect that the Venture Co. will have a hard time continuing operations here with their supplies burnt to a crisp. Our next threat to Windshear Crag is kobolds. They have begun digging for ore in a mine, along with terrorizing the citizens of these parts.\nYou\'ll find the mine directly east of when you enter Windshear Crag. Exterminate the kobolds there, and return to me. It\'s important for the safety of these lands that those vile creatures are not allowed to continue dwelling here.",
   },
+  [26366] = {
+    ["T"] = "Stonetalon Grove",
+    ["O"] = "Deliver Kaela\'s Report to Captain Mynera at Stonetalon Grove in the Stonetalon Mountains.",
+    ["D"] = "$N, I appreciate all your assistance dealing with the problems in Windshear Crag. My superior in Stonetalon Grove, Captain Mynera, has requested a report on the status of Windshear Crag, do you think you could bring it to her? To reach Stonetalon Grove, follow the road all the way north.",
+  },
+
 }

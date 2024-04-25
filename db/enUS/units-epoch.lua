@@ -125,4 +125,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45424] = "Horde Scout",
   [45450] = "Southshore Crier",
   [45051] = "Wendel Sparkbright",
+  [45340] = "Captain Mynera",
 }
