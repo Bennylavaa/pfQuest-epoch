@@ -347,7 +347,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26707] = {
     ["T"] = "Frostmane Prisoners",
     ["O"] = "Rescue 3 captured villagers from the Frostmane camps and return to Captain Thunderbrew.",
-    ["D"] = "N$, I have an urgent task for you. Recently, some of our citizens have mysteriously disappeared...at first we didn\'t think anything of it, lots of our citizens run off to Kharanos for various reasons. But it\'s been a few weeks, and none of them have returned.\n\nI\'ve received reports that the Frostmane trolls have built some camps due west of here. I want you to check them out and see if you can find our citizens.",
+    ["D"] = "$N, I have an urgent task for you. Recently, some of our citizens have mysteriously disappeared...at first we didn\'t think anything of it, lots of our citizens run off to Kharanos for various reasons. But it\'s been a few weeks, and none of them have returned.\n\nI\'ve received reports that the Frostmane trolls have built some camps due west of here. I want you to check them out and see if you can find our citizens.",
   },
   [26183] = {
     ["T"] = "Recovering History",
@@ -377,7 +377,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26476] = {
     ["T"] = "Ram Riding",
     ["O"] = "Learn Apprentice Riding from Ultham Ironhorn, then speak to Veron Amberstill in Dun Morogh to claim your ram.",
-    ["D"] = "So you\'re here for a ram are you? It just so happens that I was expecting you! Some mysterious benefactor left us payment for a simple ram and it is addressed to you by name, N$. However they did not pay for your training, so I am afraid you will still have to pay for that.\n\nSpeak to Veron Amberstill just outside of the pen after you have acquired training, he runs this ranch and sells the rams. If you do not have the funds yet you may return later.",
+    ["D"] = "So you\'re here for a ram are you? It just so happens that I was expecting you! Some mysterious benefactor left us payment for a simple ram and it is addressed to you by name, $N. However they did not pay for your training, so I am afraid you will still have to pay for that.\n\nSpeak to Veron Amberstill just outside of the pen after you have acquired training, he runs this ranch and sells the rams. If you do not have the funds yet you may return later.",
   },
   [26174] = {
     ["T"] = "Ore for Grumnal",
@@ -703,5 +703,40 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Watermelon Punch",
     ["O"] = "Collect 4 Juicy Watermelons from Dandred\'s Fold in the Alterac Mountains for Neema in Southshore.",
     ["D"] = "The food we serve at the inn comes from locally sourced produce. Every year around this time we usually receive our shipment of watermelons from Hillsbrad, but I just learned the watermelon crop failed and there won\'t be any this year. This is a disaster, Bennylava. Without the watermelons I won\'t be able to make my famous Watermelon Punch! \nA shady character was in the inn the other night and he was spitting watermelon seeds. I asked him where he got them from and he said some place called Dandred\'s Fold up north was growing watermelons. Could you go there and see if you can get some watermelons for me? Only the juiciest ones will do!",
+  },
+  [26332] = {
+    ["T"] = "Lost Artifacts",
+    ["O"] = "Recover 5 Lost Artifacts from Ironband\'s Excavation Site and return to Aldren Cordon in Loch Modan.",
+    ["D"] = "Those damn troggs, always messing things up! We had a perfectly good excavation before they decided to come here. It\'s almost like the universe hates us dwarves.\n\nIn the haste of evacuating, we left some valuable artifacts in the excavation site. Magni himself ordered this dig, and we\'ll be in trouble if those are lost! Would you do us a favor and recover some of the artifacts for us?",
+  },
+  [2038] = {
+    ["T"] = "Bingles\' Missing Supplies",
+    ["O"] = "Find and return Bingles\' supplies:\n\nBingles\' Wrench, Bingles\' Screwdriver, Bingles\' Hammer, and Bingles\' Blastencapper.",
+    ["D"] = "As if crashing into the Loch wasn\'t bad enough, troggs from the nearby island attacked me and stole my tools and special Blastenheimer Blastencapper explosives. With no gyrocopter and no explosives, the movement has no chance!\n\nGet my tools back and find my Blastencapper explosives, $N. For Gnomeregan! ",
+  },
+  [26333] = {
+    ["T"] = "Medicinal Restocking",
+    ["O"] = "Collect 8 Loch Weeds from The Loch and return to Kali Healtouch in Thelsamar.",
+    ["D"] = "I\'m so glad you\'re here, $N! I\'m running low on medicinal supplies, and I need your help. The guards refuse to venture to The Loch and retrieve what I need.\n\nEver since the threshadons became more aggresive, it\'s been harder and harder to get the Loch Weed that grows in the water. Do you think you could go and grab some, so that I can restock my potions?",
+  },
+  [26334] = {
+    ["T"] = "Securing the Loch",
+    ["O"] = "Kill 10 Young Threshadons and return to Mountaineer Ozmok in Thelsamar.",
+    ["D"] = "Aye, there be work that need doing, $c. My job as guard not only requires me to look out for the land, but the water too! There is danger in The Loch, and it\'s causing trouble around these parts.\n\nThe threshadons that inhabit The Loch have been given free reign for far too long. Just recently one of our residents here in Thelsamar was nearly killed by one while fishing! I need you to go and thin their population, so that it becomes safe once again for our people.",
+  },
+  [26335] = {
+    ["T"] = "WANTED: Mother Tessa",
+    ["O"] = "Kill Mother Tessa and bring her head to Magistrate Bluntnose of Thelsamar",
+    ["D"] = "By order of the Magistrate of Thelsamar:\n\nMother Tessa, a nickname given to a dangerous threshadon that roams The Loch, is hereby sentenced to death. After several gruesome deaths tied to her, citizens are warned not to go fishing in The Loch until the threat is resolved.\n\nAdventurers wishing to claim the bounty on Mother Tessa should be warned that she is far larger and more powerful than standard threshadons. A reward will be provided when proof of her death is shown to Magistrate Bluntnose in Thelsamar.",
+  },
+  [26331] = {
+    ["T"] = "A Proper Sendoff",
+    ["O"] = "Recover Bhondur\'s bones from the Silver Stream Mine and return to Yanni Stoutheart in Thelsamar.",
+    ["D"] = "Before the troggs came, my husband, Bhondur, was a miner that worked in the Silver Stream Mine north of here. He labored hard to provide for his family, and was a caring man.\n\nThen the troggs came, and they showed no mercy to those in the mine. My dearest Bhondur was torn to shreds, and I miss him greatly. His bones still remain in the mine, and while I have come to terms with his death, I wish to bury him properly in the graveyard here.\n\nWould you help a grieveing widow, $N? Could you go to the Silver Stream Mine, recover Bhondur\'s bones, and bury them at the Thelsamar graveyard?",
+  },
+  [26262] = {
+    ["T"] = "The Ironforge Airfield",
+    ["O"] = "Take the flight to the Ironforge Airfield, then speak to Girda Thunderbrew near the bunker to the east.",
+    ["D"] = "Have you heard of the Ironforge Airfield, $R? Aye, I personally prefer gryphons, but in years past we dwarves were also known for our aerial machinery. After the Second and Third wars we lost most of our flying machines, but King Magni ordered construction of a mighty airfield so that we may rebuild those machines.\n\nBit of a long winded way of askin\' ye, but would you like a free trip to the airfield? I expect an adventurer like you could help out!",
   },
 }
