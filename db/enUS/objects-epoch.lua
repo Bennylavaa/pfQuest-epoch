@@ -39,4 +39,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000037] = "Thelsamar Graveyard", --Placeholder ID
   [4000037] = "Loch Weed", --Placeholder ID
   [4000038] = "Trash Part", --Placeholder ID
+  [4000038] = "Ironforge Airfield Lake", --Placeholder ID
 }

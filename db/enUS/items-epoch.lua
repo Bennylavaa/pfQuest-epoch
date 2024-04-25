@@ -90,4 +90,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60207] = "Mountaineer\'s Gun Cleaning Kit",
   [60206] = "Hearty Eagle Breast",
   [60210] = "Gnomish Thingamajig",
+  [60209] = "Core Extractor",
 }
