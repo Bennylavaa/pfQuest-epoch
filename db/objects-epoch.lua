@@ -482,22 +482,22 @@ pfDB["objects"]["data-epoch"] = {
       [13] = { 40.21, 19.90, 36, 0 },
     },
   },
-  [4000035] = { --Placeholder ID
+  [4000043] = { --Placeholder ID 35 + 8
     ["coords"] = {
       [1] = { 34.9, 47.7, 38, 0 },
     },
   },
-  [4000036] = { --Placeholder ID
+  [4000044] = { --Placeholder ID 36
     ["coords"] = {
       [1] = { 35.5, 24.4, 38, 0 },
     },
   },
-  [4000037] = { --Placeholder ID
+  [4000045] = { --Placeholder ID
     ["coords"] = {
       [1] = { 32.2, 47.0, 38, 0 },
     },
   },
-  [4000037] = { --Placeholder ID
+  [4000046] = { --Placeholder ID
     ["coords"] = {
       [1] = { 43.6, 40.2, 38, 0 },
       [2] = { 45.5, 33.8, 38, 0 },
@@ -522,7 +522,7 @@ pfDB["objects"]["data-epoch"] = {
       [21] = { 55.6, 45.9, 38, 0 },
     },
   },
-  [4000038] = { --Placeholder ID
+  [4000047] = { --Placeholder ID
     ["coords"] = {
       [1] = { 72.0, 32.6, 1, 0 },
       [2] = { 71.9, 32.0, 1, 0 },
@@ -549,17 +549,17 @@ pfDB["objects"]["data-epoch"] = {
       [23] = { 68.5, 20.1, 1, 0 },
     },
   },
-  [4000038] = { --Placeholder ID
+  [4000048] = { --Placeholder ID
     ["coords"] = {
       [1] = { 69.3, 42.1, 1, 0 },
     },
   },
-  [4000039] = { --Placeholder ID
+  [4000049] = { --Placeholder ID
     ["coords"] = {
       [1] = { 65.0, 38.2, 1, 0 },
     },
   },
-  [4000040] = { --Placeholder ID
+  [4000050] = { --Placeholder ID
     ["coords"] = {
       [1] = { 65.1, 37.9, 1, 0 },
       [2] = { 65.3, 37.9, 1, 0 },
@@ -575,7 +575,7 @@ pfDB["objects"]["data-epoch"] = {
       [12] = { 63.3, 38.2, 1, 0 },
     },
   },
-  [4000041] = { --Placeholder ID
+  [4000051] = { --Placeholder ID
     ["coords"] = {
       [1] = { 72.9, 68.8, 38, 0 },
       [2] = { 72.7, 66.8, 38, 0 },
