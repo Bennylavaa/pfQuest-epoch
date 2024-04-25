@@ -125,4 +125,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45159] = "Topsy Pelletmoulder",
   [45218] = "Morogh Eagle",
   [12047] = "Stormpike Mountaineer",
+  [45212] = "Elder Ice Claw Bear",
 }

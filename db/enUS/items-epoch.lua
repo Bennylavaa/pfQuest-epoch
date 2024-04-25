@@ -91,4 +91,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60206] = "Hearty Eagle Breast",
   [60210] = "Gnomish Thingamajig",
   [60209] = "Core Extractor",
+  [60205] = "Thick Elder Bear Fur",
 }
