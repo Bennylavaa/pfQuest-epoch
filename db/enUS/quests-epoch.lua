@@ -644,4 +644,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Loot 10 Durnholde Armaments from Durnholde Keep and return to Kundric Zanden in Southshore.",
     ["D"] = "The Syndicate over in Durnholde Keep are quickly becoming an issue. Between their countless attacks on travellers, and their growing ranks, it\'s a wonder the Alliance hasn\'t declared war on them yet!\nIt falls on Southshore to keep our lands safe, and I want you to go to the keep and steal their armaments, hopefully with those gone it will be harder for them to attack. You can find the keep northeast of here, just follow the road.",
   },
+  [26398] = {
+    ["T"] = "Purging the Lions",
+    ["O"] = "Kill 10 Starving Mountain Lions and return to Marshal Redpath in Southshore.",
+    ["D"] = "It\'s a good thing you\'re here, warlock. Lately the mountain lions around here have been growing more restless, and have injured several of our citizens. This cannot be tolerated!\nI need you to purge the population of the lions, so that the citizens of Southshore can be safe once more. They usually roam just north of here.",
+  },
+  [26408] = {
+    ["T"] = "Assistance to Jenna",
+    ["O"] = "Find Jenna Thunderbrew in Hillsbrad Foothills.",
+    ["D"] = "I received an urgent letter from our local healer, Jenna Thunderbrew. She says her husband has fallen ill, and is need of dire help.\nSouthshore helps its citizens, so I need you to go and check on her. She resides in a clearing just west of here, in her cottage.",
+  },
+  [26407] = {
+    ["T"] = "Wildthorn Cure",
+    ["O"] = "Collect 8 Wildthorn Salve from spiders in Ashenvale and return to Jenna Thunderbrew in Southshore.",
+    ["D"] = "My husband is very sick, Bennylava. I have tried all the cures I know, but nothing will heal him.\nSome time ago, a traveller came through and told me of spiders in a distant land. They are capable of producing salve that cures even the worst of wounds.\nHe said these spiders were called Wildthorn, and they lurk Ashenvale, a land in the distant continent of Kalimdor. It is too much to ask of you, but would you bring me some of the Wildthorn\'s salve so that I may cure my husband?",
+  },
+  [26387] = {
+    ["T"] = "Syndicate Magic",
+    ["O"] = "Collect 5 Syndicate Orbs and return to Kundric Zanden in Southshore.",
+    ["D"] = "I study the art of magic, and always look to learn more about it. The magistrate believes the Syndicate are using dark magic to fuel their evil desires, but I have my doubts.\nWould you go to Durnholde Keep and bring me some of the orbs their mages use? You can find the keep just northeast of here, but be careful...I hear it\'s heavily guarded.",
+  },
+  [26404] = {
+    ["T"] = "WANTED: Beve Perenolde",
+    ["O"] = "Slay Beve Perenolde and bring her head to Captain Thallen in Southshore.",
+    ["D"] = "Beve Perenolde has been sentenced to execution, by order of Captain Thallen of Southshore. A dangerous criminal, and overseer of Durnholde Keep, she maintains a strong foothold over these lands.\nShe will likely be found deep withing the stronghold of the keep, which is located northeast of Southshore. Bring her head to Captain Thallen to recieve a reward.",
+  },
 }

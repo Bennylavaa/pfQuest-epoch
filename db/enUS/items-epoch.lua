@@ -74,4 +74,7 @@ pfDB["items"]["enUS-epoch"] = {
   [61116] = "Sturdy Rope",
   [61118] = "Bushel of Shadowberry",
   [60445] = "Durnholde Armaments",
+  [60496] = "Wildthorn Salve",
+  [60458] = "Syndicate Orb",
+  [60493] = "Beve\'s Head",
 }

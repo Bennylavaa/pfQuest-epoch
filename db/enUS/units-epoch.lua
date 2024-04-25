@@ -113,4 +113,8 @@ pfDB["units"]["enUS-epoch"] = {
   [46024] = "Terrified Cattle",
   [46038] = "Frantic Earth",
   [46015] = "Rambling Earth",
+  [45464] = "Jenna Thunderbrew",
+  [45429] = "Syndicate Mage",
+  [45432] = "Beve Perenolde",
+  [45415] = "Captain Thallen",
 }
