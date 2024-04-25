@@ -124,4 +124,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45154] = "Wizzle Nimbledigit",
   [45159] = "Topsy Pelletmoulder",
   [45218] = "Morogh Eagle",
+  [12047] = "Stormpike Mountaineer",
 }
