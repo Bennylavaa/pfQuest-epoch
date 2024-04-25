@@ -749,10 +749,10 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Gather 8 Hearty Eagle Breasts from Morogh Eagles found south of the Airfield.",
     ["D"] = "Oi! Ye seem like a lost new face, certainly a venturing type. Ye lookin\' for work?\n\nGood, my stocks are gettin\' low and the fellas up here are expecting a meal soon. Could you be a right lady and fetch some fowl nearby? The eagles I mean. A couple\'a hearty breasts will do great!",
   },
-  [26268] = {
-    ["T"] = "Assisting Wizzle",
-    ["O"] = "Collect 12 parts scattered around the airfield.",
-    ["D"] = "Yes yes, what is it? I am quite busy.\n\nOh you\'re just looking for things to do? I can\'t imagine your overwhelming boredom, but yes I suppose I can give you a task or two. As you may know this airfield is fairly new, and thus you are likely to find a lot of trash around here. Grab some of it, we will see if any of it is useful.",
+  [26265] = {
+    ["T"] = "Assisting Nonere",
+    ["O"] = "Collect 5 pelts from nearby Elder Ice Claw Bears, you can find them south-east of the Airfield, east of the frozen lake.",
+    ["D"] = "Now now, before you go runnin\' off I have a second task for ye. Don't worry, I\'ll pay ya yer due. I figure you are the kinda $R that has slain a bear or two in yer lifetime, am I right? Down to the south-east o\' here there\'s a right good den of those beasties. Could you grab a couple pelts for me to fashion goodies with?",
   },
   [26266] = {
     ["T"] = "Assisting Topsy",
@@ -761,7 +761,17 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26267] = {
     ["T"] = "Assisting Topsy",
-    ["O"] = "",
-    ["D"] = "",
+    ["O"] = "Head to the ice lake, place the core extractor, and defend it. Talk to Herble Bodywinkle for the core extractor.",
+    ["D"] = "While you were gone I thankfully managed to fix this machine. Say, would you be willing to help out again? I will pay you this time!\n\nThis machine is called an Ice Core Extractor, we use it to drill into the ice lake to the south and study the contents of the ice. It gives us much useful information about our climate, and whether the siege engines can drive over the ice or not.\n\nJust take it to the deepest part of the lake, south of the teeny tiny island in the middle of the lake. You may have to defend it from wildlife!",
+  },
+  [26268] = {
+    ["T"] = "Assisting Wizzle",
+    ["O"] = "Collect 12 parts scattered around the airfield.",
+    ["D"] = "Yes yes, what is it? I am quite busy.\n\nOh you\'re just looking for things to do? I can\'t imagine your overwhelming boredom, but yes I suppose I can give you a task or two. As you may know this airfield is fairly new, and thus you are likely to find a lot of trash around here. Grab some of it, we will see if any of it is useful.",
+  },
+  [26269] = {
+    ["T"] = "Assisting Wizzle",
+    ["O"] = "Help repair the plane.",
+    ["D"] = "For your next boring task I would like you to figure out why there is a plane sitting on the runway. I see Engineer Cobalt is with it, so I presume there is some issue. I cannot be bothered frankly, I am more worried about this plane I was paid to fix. Go check up on him, see if he could use some of your help.\n\nMaybe you\'ll have some fun, maybe you won\'t, I don\'t care.",
   },
 }
