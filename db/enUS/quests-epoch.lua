@@ -554,7 +554,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 6 Pristine Strider Feathers for Aquamentus within the Blazing Hills.",
     ["D"] = "I worry that closing the vents alone will not be able to quench the fury within my brethren and I can not do that alone.\nThere is one who can however... with a certain amount of stroking his ego.\nAir is an important force within the world and key to balance, driving forest fires, cooling the sweat on a mortals brow.\nI will elaborate in good time but for now all you need know is I need an offering of the lightest feathers in the hills. These can be found on Striders throughout the area, I do not know why they pluck and wear the feathers but they are the highest quality around. See to this mortal.",
   },
-   [26691] = {
+  [26691] = {
     ["T"] = "An Audience With Air",
     ["O"] = "Speak with Aquamentus to receive passage to the shrine of Aeromir.",
     ["D"] = "With the vents cleared I can be sure that no more of my kin will succumb to fury however this does little to help those who are already consumed by it.\nWhen you are ready speak to me and I will send you with the offering to speak with Aeromir. I need you to be my voice and ask of him the capacity to cool my brethren. Can you do this?",

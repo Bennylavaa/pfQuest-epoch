@@ -483,9 +483,9 @@ pfDB["objects"]["data-epoch"] = {
     },
   },
   [4000035] = { --Placeholder ID
-  ["coords"] = {
-    [1] = { 34.9, 47.7, 38, 0 },
-  },
+    ["coords"] = {
+      [1] = { 34.9, 47.7, 38, 0 },
+    },
   },
   [4000036] = { --Placeholder ID
     ["coords"] = {
