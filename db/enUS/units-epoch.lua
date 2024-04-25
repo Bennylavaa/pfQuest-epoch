@@ -127,4 +127,5 @@ pfDB["units"]["enUS-epoch"] = {
   [12047] = "Stormpike Mountaineer",
   [45212] = "Elder Ice Claw Bear",
   [45213] = "Engineer Cobalt",
+  [45217] = "Kelsey Steelspark",
 }

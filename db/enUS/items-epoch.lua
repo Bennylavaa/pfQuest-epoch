@@ -92,4 +92,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60210] = "Gnomish Thingamajig",
   [60209] = "Core Extractor",
   [60205] = "Thick Elder Bear Fur",
+  [60213] = "Unlit Torch",
+  [60212] = "Lit Torch",
 }

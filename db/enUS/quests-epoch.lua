@@ -779,4 +779,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Locate Kelsey Steelspark and deliver the food that Girda gave you.",
     ["D"] = "You\'ve done some great work around the airfield, you right cheered up some fellas\' days. One final task from me though, do you think you could take this meal over to a Gnome by the name of Kelsey Steelspark? She is a scout keeping an eye on the Frostmane Troll village to the south-west.\n\nBest way to find her would be to hug the west side of the ice lake.",
   },
+  [26273] = {
+    ["T"] = "Destroying the Armaments",
+    ["O"] = "Use any fire to light the Unlit Torch, then burn 6 Frostmane Armaments in Rik\'watha. Rik'watha has a bonfire you can use to light the torch.",
+    ["D"] = "The Frostmane trolls in Rik\'watha are preparing for an assault on the Airfield. I learned about this shortly before I was attacked, they have caches of weapons stored around the village that I thought merely contained food.\n\nHere, I fashioned a makeshift torch for you. Take it to their bonfire, or any fire for that matter, and set those armaments ablaze!",
+  },
 }

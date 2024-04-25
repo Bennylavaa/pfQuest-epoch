@@ -40,4 +40,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000037] = "Loch Weed", --Placeholder ID
   [4000038] = "Trash Part", --Placeholder ID
   [4000038] = "Ironforge Airfield Lake", --Placeholder ID
+  [4000039] = "Rik\'watha Bonfire", --Placeholder ID
+  [4000040] = "Frostmane Armaments", --Placeholder ID
 }
