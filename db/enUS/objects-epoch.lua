@@ -40,4 +40,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000038] = "Apple Press", --Placeholder ID
   [4000039] = "Apple Cider Barrel", --Placeholder ID
   [4000040] = "Magically-Sealed Strongboxes", --Placeholder ID
+  [4000041] = "Campfire", --Placeholder ID
+  [4000042] = "Venture Co. Supplies", --Placeholder ID
 }

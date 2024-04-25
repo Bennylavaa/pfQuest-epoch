@@ -737,7 +737,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26377] = {
     ["T"] = "Defense of Southshore",
     ["O"] = "Mine 8 Ghost-Touched Ore from Silverwind Cavern in Wetlands and return to Captain Stoutfist.",
-    ["D"] = "The Horde are preparing for an attack on Southshore! This is...troubling news. Menethil will do what we can to help, but I can\'t promise much. However, we have the best blacksmiths north of Ironforge, and I\'ll be damned if that doesn\'t count for something! I can\'t spare any troops at the moment, but if you are truly desperate then I have an idea.\nSoutheast of Dun Algaz, where Loch Modan\'s waterfall from the dam ends, you will find Silverwind Cavern. We\'ve never sent an expedition team there because it\'s inhabited by ghosts, but these times call for unprecedented actions. Rumors say that in the cavern is a powerful ore, strong enough to make a blade almost indestructible.\nGo to the cavern, Bennylava. I will give you my strongest pickaxe, I trust you will take it with a brave heart. Should you return, bring the ore to Brak Durnad, our weaponsmith. You can find him in the Blacksmith\'s building here.",
+    ["D"] = "The Horde are preparing for an attack on Southshore! This is...troubling news. Menethil will do what we can to help, but I can\'t promise much. However, we have the best blacksmiths north of Ironforge, and I\'ll be damned if that doesn\'t count for something! I can\'t spare any troops at the moment, but if you are truly desperate then I have an idea.\nSoutheast of Dun Algaz, where Loch Modan\'s waterfall from the dam ends, you will find Silverwind Cavern. We\'ve never sent an expedition team there because it\'s inhabited by ghosts, but these times call for unprecedented actions. Rumors say that in the cavern is a powerful ore, strong enough to make a blade almost indestructible.\nGo to the cavern, $N. I will give you my strongest pickaxe, I trust you will take it with a brave heart. Should you return, bring the ore to Brak Durnad, our weaponsmith. You can find him in the Blacksmith\'s building here.",
   },
   [26378] = {
     ["T"] = "Defense of Southshore",
@@ -752,7 +752,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26380] = {
     ["T"] = "Defense of Southshore",
     ["O"] = "Speak to Guard Tristan in Hillsbrad Fields, north-west of Southshore.",
-    ["D"] = "We will begin passing out these weapons immediately, in the meantime you are needed in Hillsbrad Fields. We received a request for reinforcements, although the letter made it seem like it wasn\'t for an impending invasion. We will be busy preparing Southshore, so you will go in our stead and see what needs to be done.\nSpeak to Guard Tristan near the Town Hall when you arrive at the fields. If you have forgotten where it is, simply take the road out of Southshore then head due west to reach the fields. Godsspeed, Bennylava.",
+    ["D"] = "We will begin passing out these weapons immediately, in the meantime you are needed in Hillsbrad Fields. We received a request for reinforcements, although the letter made it seem like it wasn\'t for an impending invasion. We will be busy preparing Southshore, so you will go in our stead and see what needs to be done.\nSpeak to Guard Tristan near the Town Hall when you arrive at the fields. If you have forgotten where it is, simply take the road out of Southshore then head due west to reach the fields. Godsspeed, $N.",
   },
   [26382] = {
     ["T"] = "Keep the Horde Away",
@@ -762,7 +762,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26384] = {
     ["T"] = "Defense of Southshore",
     ["O"] = "Speak to Captain Thallen in Southshore in Hillsbrad Foothills.",
-    ["D"] = "I apologize for having you sent out here, I was hoping for some more guards. I was not expecting you to be sent to me, and I think it would be best if you conveyed such to Captain Thallen back in Southshore.\nI\'ll be sure to put in a good word for you when I write my next report. Good luck on your future adventures, Bennylava.",
+    ["D"] = "I apologize for having you sent out here, I was hoping for some more guards. I was not expecting you to be sent to me, and I think it would be best if you conveyed such to Captain Thallen back in Southshore.\nI\'ll be sure to put in a good word for you when I write my next report. Good luck on your future adventures, $N.",
   },
   [26381] = {
     ["T"] = "An Apple a Day",
@@ -788,5 +788,15 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "A Strange Tome",
     ["O"] = "Bring the Necromantic Tome back to Archmage Ansirem Runeweaver near Dalaran in Alterac Mountains.",
     ["D"] = "Boom bam blam! It\'s just that easy. What, were you expecting me to need some sort of magical reagent only found rarely in the armpit of a murloc? Nope, really simple spell, really this tome wasn\'t secured very well.\nAnywho, this tome was owned by one Arman Nenstock! I have no idea who that is. Hopefully the Archmage does, take it back to him, and give him my regards.",
+  },
+  [26364] = {
+    ["T"] = "Torching the Stockpiles",
+    ["O"] = "Set fire to 8 Venture Co. Supplies in Windshear Crag and return to Kaela Shadowspear in Stonetalon Mountains.",
+    ["D"] = "Below this vantage point lies Windshear Crag, a once lush and beautiful forest. However, its serenity is being threatened by the Venture Co., a relentless group of goblins motivated by profit. They have no regard for Azeroth, and are known for destroying areas for their natural resources.\nWe need to launch an attack on the Venture Co., for the protection of the forest. I want you to take this torch and light it at the campfire behind me, then set fire to their supply crates. If your torch runs out of flame, come back to me for another one. The forest is counting on you, $N.",
+  },
+  [26365] = {
+    ["T"] = "Windshear Mine",
+    ["O"] = "Kill 15 Windshear Diggers in Windshear Mine and return to Kaela Shadowspear in Stonetalon Mountains.",
+    ["D"] = "I expect that the Venture Co. will have a hard time continuing operations here with their supplies burnt to a crisp. Our next threat to Windshear Crag is kobolds. They have begun digging for ore in a mine, along with terrorizing the citizens of these parts.\nYou\'ll find the mine directly east of when you enter Windshear Crag. Exterminate the kobolds there, and return to me. It\'s important for the safety of these lands that those vile creatures are not allowed to continue dwelling here.",
   },
 }
