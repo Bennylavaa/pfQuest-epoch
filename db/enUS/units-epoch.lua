@@ -132,4 +132,13 @@ pfDB["units"]["enUS-epoch"] = {
   [45215] = "Frostmane Hunter",
   [45216] = "High Priest Rikkari",
   [45146] = "Fleet Commander Stoneflint",
+  [45446] = "Guard Emily",
+  [45423] = "Guard Tristan",
+  [45447] = "Guard Paxton",
+  [45449] = "Scout Vernado",
+  [2427] = "Jailor Eston",
+  [45424] = "Horde Scout",
+  [45450] = "Southshore Crier",
+  [45051] = "Wendel Sparkbright",
+  [45340] = "Captain Mynera",
 }

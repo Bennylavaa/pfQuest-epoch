@@ -277,7 +277,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26235] = {
     ["T"] = "Eye for an Eye",
     ["O"] = "Kill 6 Blackrock Summoners and 6 Blackrock Trackers, then return to Marshal Marris in Lakeshire.",
-    ["D"] = "One of our regiments befell a terrible fate when it was blindsided by a Blackrock orc ambush. Most of the men were killed, few returned and others were never found. This vile act of brutality musn\'t go unpunished, but I do not have the men to spare, and morale has been low ever since the attack.\nTherefore I must ask for your help. The Blackrock clan should know we will enforce consequences on their attacks, and meet them with force of our own! Deal a blow to our enemy by thinning their numbers where it\'ll hurt them Bennylava. Rid us of their Trackers and Summoners.\nYou can find them in their encampment to the north, just west of the road to the Burning Steppes.",
+    ["D"] = "One of our regiments befell a terrible fate when it was blindsided by a Blackrock orc ambush. Most of the men were killed, few returned and others were never found. This vile act of brutality musn\'t go unpunished, but I do not have the men to spare, and morale has been low ever since the attack.\nTherefore I must ask for your help. The Blackrock clan should know we will enforce consequences on their attacks, and meet them with force of our own! Deal a blow to our enemy by thinning their numbers where it\'ll hurt them $N. Rid us of their Trackers and Summoners.\nYou can find them in their encampment to the north, just west of the road to the Burning Steppes.",
   },
   [26336] = {
     ["T"] = "One Of Each",
@@ -322,7 +322,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26311] = {
     ["T"] = "Riders In The Night",
     ["O"] = "Travel south of Darkshire to reach Rolands Doom. Clear a path through the Worgen and await Karlain and Revil inside.",
-    ["D"] = "If my son is at Rolands Doom we have to go there before it is too late. Me and Revil will deal with this body and meet you there. Clear us a path through the Worgen that defend it and we will come find you.\nI hope mardigan is there and safe but I am fearing for the worst. Make haste, please Bennylava.",
+    ["D"] = "If my son is at Rolands Doom we have to go there before it is too late. Me and Revil will deal with this body and meet you there. Clear us a path through the Worgen that defend it and we will come find you.\nI hope mardigan is there and safe but I am fearing for the worst. Make haste, please $N.",
   },
   [26312] = {
     ["T"] = "Riders In The Night",
@@ -627,17 +627,17 @@ pfDB["quests"]["enUS-epoch"] = {
   [26329] = {
     ["T"] = "Hillsbrad Assault",
     ["O"] = "Capture the Central Tower when it is under the control of the Horde",
-    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde claims it we must urgently take it back.\nRally your forces Bennylava and do as she has bid.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde claims it we must urgently take it back.\nRally your forces $N and do as she has bid.",
   },
   [26330] = {
     ["T"] = "Hillsbrad Defense",
     ["O"] = "Defend the Central Tower when it is under the control of the Alliance.",
-    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde attempts to take control of it we must defend it at all costs.\nRally your forces Bennylava and do as she has bid.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde attempts to take control of it we must defend it at all costs.\nRally your forces $N and do as she has bid.",
   },
   [27720] = {
     ["T"] = "Justice Left Undone",
     ["O"] = "Bring Paul \"Grandpa\" Vishas to justice by finding him at his house on the shore of Lordamere Lake in the Alterac Mountains.",
-    ["D"] = "When I became magistrate I noticed there was an outstanding warrant for Paul Vishas. Apparently, Vishas is wanted for a murder he committed nearly twenty years ago. I\'m not sure why this was never enforced; Paul Vishas has been seen in the area for years.\nHis son Sidney has a house on the shore of Lordamere Lake. Maybe Vishas is hiding out there? \nPlease go arrest him Warlock. And if he doesn\'t come quietly, you\'re free to administer justice to get this case off the books.",
+    ["D"] = "When I became magistrate I noticed there was an outstanding warrant for Paul Vishas. Apparently, Vishas is wanted for a murder he committed nearly twenty years ago. I\'m not sure why this was never enforced; Paul Vishas has been seen in the area for years.\nHis son Sidney has a house on the shore of Lordamere Lake. Maybe Vishas is hiding out there? \nPlease go arrest him $C. And if he doesn\'t come quietly, you\'re free to administer justice to get this case off the books.",
   },
   [26374] = {
     ["T"] = "Breaking the Armory",
@@ -647,7 +647,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26398] = {
     ["T"] = "Purging the Lions",
     ["O"] = "Kill 10 Starving Mountain Lions and return to Marshal Redpath in Southshore.",
-    ["D"] = "It\'s a good thing you\'re here, warlock. Lately the mountain lions around here have been growing more restless, and have injured several of our citizens. This cannot be tolerated!\nI need you to purge the population of the lions, so that the citizens of Southshore can be safe once more. They usually roam just north of here.",
+    ["D"] = "It\'s a good thing you\'re here, $C. Lately the mountain lions around here have been growing more restless, and have injured several of our citizens. This cannot be tolerated!\nI need you to purge the population of the lions, so that the citizens of Southshore can be safe once more. They usually roam just north of here.",
   },
   [26408] = {
     ["T"] = "Assistance to Jenna",
@@ -657,7 +657,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26407] = {
     ["T"] = "Wildthorn Cure",
     ["O"] = "Collect 8 Wildthorn Salve from spiders in Ashenvale and return to Jenna Thunderbrew in Southshore.",
-    ["D"] = "My husband is very sick, Bennylava. I have tried all the cures I know, but nothing will heal him.\nSome time ago, a traveller came through and told me of spiders in a distant land. They are capable of producing salve that cures even the worst of wounds.\nHe said these spiders were called Wildthorn, and they lurk Ashenvale, a land in the distant continent of Kalimdor. It is too much to ask of you, but would you bring me some of the Wildthorn\'s salve so that I may cure my husband?",
+    ["D"] = "My husband is very sick, $N. I have tried all the cures I know, but nothing will heal him.\nSome time ago, a traveller came through and told me of spiders in a distant land. They are capable of producing salve that cures even the worst of wounds.\nHe said these spiders were called Wildthorn, and they lurk Ashenvale, a land in the distant continent of Kalimdor. It is too much to ask of you, but would you bring me some of the Wildthorn\'s salve so that I may cure my husband?",
   },
   [26387] = {
     ["T"] = "Syndicate Magic",
@@ -687,7 +687,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26403] = {
     ["T"] = "Venom to the Syndicate",
     ["O"] = "Poison the Syndicate Food Supplies in Durnholde Keep and return to Nandar Branson in Southshore.",
-    ["D"] = "The poison is ready, Bennylava, I simply need someone to administer it. You can find Durnholde Keep northeast of here, just follow the road and you can\'t miss it. Be warned though, the Syndicate are highly protective of their stronghold, so it would be best if you brought friends with you.\nOnce you\'re inside, look for their barracks. I\'m sure you will find their food supplies inside. Just spread the venom around and then head back here.",
+    ["D"] = "The poison is ready, $N, I simply need someone to administer it. You can find Durnholde Keep northeast of here, just follow the road and you can\'t miss it. Be warned though, the Syndicate are highly protective of their stronghold, so it would be best if you brought friends with you.\nOnce you\'re inside, look for their barracks. I\'m sure you will find their food supplies inside. Just spread the venom around and then head back here.",
   },
   [26397] = {
     ["T"] = "Decorating the Inn",
@@ -702,7 +702,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27719] = {
     ["T"] = "Watermelon Punch",
     ["O"] = "Collect 4 Juicy Watermelons from Dandred\'s Fold in the Alterac Mountains for Neema in Southshore.",
-    ["D"] = "The food we serve at the inn comes from locally sourced produce. Every year around this time we usually receive our shipment of watermelons from Hillsbrad, but I just learned the watermelon crop failed and there won\'t be any this year. This is a disaster, Bennylava. Without the watermelons I won\'t be able to make my famous Watermelon Punch! \nA shady character was in the inn the other night and he was spitting watermelon seeds. I asked him where he got them from and he said some place called Dandred\'s Fold up north was growing watermelons. Could you go there and see if you can get some watermelons for me? Only the juiciest ones will do!",
+    ["D"] = "The food we serve at the inn comes from locally sourced produce. Every year around this time we usually receive our shipment of watermelons from Hillsbrad, but I just learned the watermelon crop failed and there won\'t be any this year. This is a disaster, $N. Without the watermelons I won\'t be able to make my famous Watermelon Punch! \nA shady character was in the inn the other night and he was spitting watermelon seeds. I asked him where he got them from and he said some place called Dandred\'s Fold up north was growing watermelons. Could you go there and see if you can get some watermelons for me? Only the juiciest ones will do!",
   },
   [26332] = {
     ["T"] = "Lost Artifacts",
@@ -794,4 +794,105 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill High Priest Rikkari.",
     ["D"] = "I am feeling much better now already, but sadly I still can\'t help. We need to show the trolls that we can't be so easily defeated. High Priest Rikkari needs to be killed, it is our best chance. We can then only hope that the next leader is less open to attack.\n\nDon\'t underestimate him, he commands power over shadows. I hope you have some friends you can call on.\n\nWhen you\'ve succeeded please report to Fleet Commander Stoneflint in the Airfield. He is in the bunker.",
   },
+  [26375] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "Gather reports from Guard Emily at Dun Garok, Guard Paxton at the Azurelode Mine, and Guard Tristan at the Hillsbrad Fields and return to Captain Thallen at Southshore.",
+    ["D"] = "Greetings, $C. As captain of the Southshore Guard, it is my responsibility to ensure that these lands are safe. You never know when the Horde might decide to throw something at us.\nI need somebody to bring me reports from my guards stationed across Hillsbrad. You can find Guard Emily at Dun Garok to the southeast, Guard Paxton outside the Azurelode Mine due west of here, and Guard Tristan near the town hall at the fields northwest.\nSpeak to Darren at the stables here, and tell him I sent you. He should be able to lend you a horse for the job. I\'m counting on you, $N! And be quick, I don\'t like to be kept waiting.",
+  },
+  [26391] = {
+    ["T"] = "A Scout in Need",
+    ["O"] = "Gather 10 Syndicate Armor Scraps and return to Captain Thallen in Southshore.",
+    ["D"] = "Greetings, $N! I\'m in dire need of yout assistance. I ordered one of my scouts to spy on Durnholde Keep, a stronghold to the northeast that has recently been inhabitated by the Syndicate organization. However, they haven\'t reported back.\nI fear the worst, and it\'s my duty as captain to ensure the safety of my men. I don\'t want to just lead an assault though, this needs to be done tactfully.\nThere is a ruined tower that I\'ve heard some of the lower ranked Syndicate use as a base. Gather some of their armor, and we can use it to form a disguise. To find the tower, follow the road north out of Southshore. At the fork, turn right and continue that way until you find the tower.",
+  },
+  [26376] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "Bring Thallen\'s Report to Captain Stoutfist in Menethil Harbor in Wetlands.",
+    ["D"] = "$N...these reports you bring me carry grave news. The Horde have increased their attack forces all across Hillsbrad. I don\'t think we have the numbers to defend against the full might of Tarren Mill.\nWe must act quick if Southshore is to survive. Go to Menethil Harbor, and speak to Captain Stoutfist in the keep. I will draft a report documenting out situation here. Ask him to send us aid...troops, weapons, anything to help us against the coming battle. And please hurry, Southshore is counting on you.",
+  },
+  [26392] = {
+    ["T"] = "A Scout in Need",
+    ["O"] = "Put on the Syndicate Disguise and locate Scout Vernado in Durnholde Keep.",
+    ["D"] = "Alright, it\'s time for some undercover work. I want you to put on this diguise, and go right into Durnholde Keep. I heard the Syndicate have been using their sewer system as a prison, located on the eastern side of the keep. You\'ll most likely find our missing scout there.\nOnce you put on the disguise, try not to be too agressive to any of the Syndicate. I\'m not confident in that disguise\'s ability to hold up under pressure, but if you need another one come see me. I might be able to thread together another one.\nTo find Durnholde Keep, just go a little ways past the tower you got the armor scraps from. Good luck!",
+  },
+  [26393] = {
+    ["T"] = "A Scout in Need",
+    ["O"] = "Convince Jailer Eston to give you the key to the cell and return to Scout Vernado in Durnholde Keep.",
+    ["D"] = "Did Captain Thallen send you? I\'m glad you\'re here, but unfortunately I\'m stuck until we get rid of these shackles!\nThe key is held by Jailer Eston, the guard who watches over these sewers. He just left here, so he\'s probably patrolling the other side of the sewer.\nTell him that Beve Perenholde, the master of Durnholde, wants me for interrogation. You\'ll need the key so you can transport me to the keep.I\'m sure he\'ll give you the key, because everyone is terrified of Beve. Hurry back once you get it, and we\'ll make a subtle escape from here!",
+  },
+  [26394] = {
+    ["T"] = "A Scout in Need",
+    ["O"] = "Escape from Durnholde Keep with Scout Vernado. If you are successful, report to Captain Thallen in Southshore.",
+    ["D"] = "We\'re ready to escape from here. Let\'s make sure to be subtle, just act like you belong.\nAs far as the Syndicate know, you\'re just doing your job, they won\'t suspect a thing when we walk out of here.",
+  },
+  [26377] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "Mine 8 Ghost-Touched Ore from Silverwind Cavern in Wetlands and return to Captain Stoutfist.",
+    ["D"] = "The Horde are preparing for an attack on Southshore! This is...troubling news. Menethil will do what we can to help, but I can\'t promise much. However, we have the best blacksmiths north of Ironforge, and I\'ll be damned if that doesn\'t count for something! I can\'t spare any troops at the moment, but if you are truly desperate then I have an idea.\nSoutheast of Dun Algaz, where Loch Modan\'s waterfall from the dam ends, you will find Silverwind Cavern. We\'ve never sent an expedition team there because it\'s inhabited by ghosts, but these times call for unprecedented actions. Rumors say that in the cavern is a powerful ore, strong enough to make a blade almost indestructible.\nGo to the cavern, $N. I will give you my strongest pickaxe, I trust you will take it with a brave heart. Should you return, bring the ore to Brak Durnad, our weaponsmith. You can find him in the Blacksmith\'s building here.",
+  },
+  [26378] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "",
+    ["D"] = "",
+  },
+  [26379] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "Bring the crates of Bronze, Iron, Steel, and Ghost-Touched armaments to Captain Thallen in Southshore in Hillsbrad Foothills.",
+    ["D"] = "Righto, here is a crate of various weapons made from that ghostly ore you brought me. This isn\'t exactly what I was hoping for, and the lack of density in this material caused me to use much more to make simple blades than I expected. \nI dinnae wanna do this, but take those crates over there before you leave. They\'re packed with bronze, iron, and steel armaments, and were supposed to be shipped to Steamwheedle Port to be sold. Southshore is more important, now go!",
+  },
+  [26380] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "Speak to Guard Tristan in Hillsbrad Fields, north-west of Southshore.",
+    ["D"] = "We will begin passing out these weapons immediately, in the meantime you are needed in Hillsbrad Fields. We received a request for reinforcements, although the letter made it seem like it wasn\'t for an impending invasion. We will be busy preparing Southshore, so you will go in our stead and see what needs to be done.\nSpeak to Guard Tristan near the Town Hall when you arrive at the fields. If you have forgotten where it is, simply take the road out of Southshore then head due west to reach the fields. Godsspeed, $N.",
+  },
+  [26382] = {
+    ["T"] = "Keep the Horde Away",
+    ["O"] = "Slay 6 Horde Scouts on the outskirts of Hillsbrad Fields. Report to Guard Tristan in Hillsbrad Fields in Hillsbrad Foothills when you are done.",
+    ["D"] = "Horde scouts have been spotted along the outskits of our fields multiple times. I am not sure if they want to be spotted or if they are simply bad at their job, but regardless they need to be dealt with. If you can kill a few scouts the others may feel inclined to flee or report back that Hillsbrad Fields is not such an easy target.\nGood luck.",
+  },
+  [26384] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "Speak to Captain Thallen in Southshore in Hillsbrad Foothills.",
+    ["D"] = "I apologize for having you sent out here, I was hoping for some more guards. I was not expecting you to be sent to me, and I think it would be best if you conveyed such to Captain Thallen back in Southshore.\nI\'ll be sure to put in a good word for you when I write my next report. Good luck on your future adventures, $N.",
+  },
+  [26381] = {
+    ["T"] = "An Apple a Day",
+    ["O"] = "Gather apples in the orchards of Hillsbrad Fields, then take it to the Apple Press under the vine covered canopy on the northern end of Hillsbrad Fields and press them into Apple Cider. Afterwards, pour the Apple Cider into the barrel near the Apple Press.",
+    ["D"] = "This task may seem strange considering the request for reinforcements, but food and water are nearly as important as general safety. Hillsbrad Fields is a major exporter of apples and apple cider, and we are behind on our schedule due to Horde attacks.\nHead out to the orchards and collect some apples, then head to the apple press under the vine canopy on the north end of the fields and create some cider. Store it in the barrel when you\'re done. You will be compensated, do not worry.",
+  },
+  [26385] = {
+    ["T"] = "Defense of Southshore",
+    ["O"] = "Speak to the Southshore Crier in Southshore in Hillsbrad Foothills and defend Southshore from the incoming Horde attack.",
+    ["D"] = "Reliable reports have told us that the Horde are to strike soon. It is time for our preparations to be put to the iron!\nPrepare yourself with whatever conjuring, weapon sharpening, or magical enhancements you require. When you are ready, report to the Southshore Crier near our gryphon master, Darla. For the Alliance!",
+  },
+  [27462] = {
+    ["T"] = "Magical Materiel",
+    ["O"] = "Speak to Dalaran Summoners to obtain Runes of Opening, then use them to open up Magically-Sealed Strongboxes around Dalaran to get Magic Materiel. Bring 30 Magic Materiel to Archmage Ansirem Runeweaver near Dalaran in Alterac Mountains.",
+    ["D"] = "So you do want to help out? I know just the thing! As you can see there are ruined structures outside of the magical dome we have erected, inside some of the structures you will find some magically sealed containers. These were once used by mages to store their valuables, but they require upkeep to maintain the magical lock. As it has been a few years since Archimonde felled Dalaran these locks can now be opened by any Rune of Opening, instead of the specifically attuned one made for the lock.\nI want you to go around and speak to Dalaran Summoners and ask for their Runes of Opening. Then search for some chests to open up and find some materiel we can use. Be wary, some chests could be enchanted with a guardian summon.",
+  },
+  [27463] = {
+    ["T"] = "A Strange Tome",
+    ["O"] = "Bring the Necromantic Tome to Wendel Sparkbright in the Stormwind Harbor in Stormwind.",
+    ["D"] = "In the pile of paraphernalia you gathered I spotted a disturbing tome. This is a tome of necromancy, a forbidden magic responsible for the fall of our city and Lordaeron entire. I imagine you don\'t recall which house you took this from, but fortunately for us this tome has been marked by a reader\'s ward. I know you must be tired of hearing about wards and magical defenses at this rate, but this merely scrambles the letters within the tome to the reader. What makes this fortunate is that we can discern who applied this ward.\nTake this tome to Wendel Sparkbright in Stormwind. He should still be down in the harbor, next to a cart by the southern-most dock.",
+  },
+  [27464] = {
+    ["T"] = "A Strange Tome",
+    ["O"] = "Bring the Necromantic Tome back to Archmage Ansirem Runeweaver near Dalaran in Alterac Mountains.",
+    ["D"] = "Boom bam blam! It\'s just that easy. What, were you expecting me to need some sort of magical reagent only found rarely in the armpit of a murloc? Nope, really simple spell, really this tome wasn\'t secured very well.\nAnywho, this tome was owned by one Arman Nenstock! I have no idea who that is. Hopefully the Archmage does, take it back to him, and give him my regards.",
+  },
+  [26364] = {
+    ["T"] = "Torching the Stockpiles",
+    ["O"] = "Set fire to 8 Venture Co. Supplies in Windshear Crag and return to Kaela Shadowspear in Stonetalon Mountains.",
+    ["D"] = "Below this vantage point lies Windshear Crag, a once lush and beautiful forest. However, its serenity is being threatened by the Venture Co., a relentless group of goblins motivated by profit. They have no regard for Azeroth, and are known for destroying areas for their natural resources.\nWe need to launch an attack on the Venture Co., for the protection of the forest. I want you to take this torch and light it at the campfire behind me, then set fire to their supply crates. If your torch runs out of flame, come back to me for another one. The forest is counting on you, $N.",
+  },
+  [26365] = {
+    ["T"] = "Windshear Mine",
+    ["O"] = "Kill 15 Windshear Diggers in Windshear Mine and return to Kaela Shadowspear in Stonetalon Mountains.",
+    ["D"] = "I expect that the Venture Co. will have a hard time continuing operations here with their supplies burnt to a crisp. Our next threat to Windshear Crag is kobolds. They have begun digging for ore in a mine, along with terrorizing the citizens of these parts.\nYou\'ll find the mine directly east of when you enter Windshear Crag. Exterminate the kobolds there, and return to me. It\'s important for the safety of these lands that those vile creatures are not allowed to continue dwelling here.",
+  },
+  [26366] = {
+    ["T"] = "Stonetalon Grove",
+    ["O"] = "Deliver Kaela\'s Report to Captain Mynera at Stonetalon Grove in the Stonetalon Mountains.",
+    ["D"] = "$N, I appreciate all your assistance dealing with the problems in Windshear Crag. My superior in Stonetalon Grove, Captain Mynera, has requested a report on the status of Windshear Crag, do you think you could bring it to her? To reach Stonetalon Grove, follow the road all the way north.",
+  },
+
 }

@@ -43,4 +43,12 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000049] = "Rik\'watha Bonfire", --Placeholder ID
   [4000050] = "Frostmane Armaments", --Placeholder ID
   [4000051] = "Lost Artifact", --Placeholder ID
+  [4000035] = "Ghost-Touched Ore", --Placeholder ID
+  [4000036] = "Crates of Armaments", --Placeholder ID
+  [4000037] = "Apple", --Placeholder ID
+  [4000038] = "Apple Press", --Placeholder ID
+  [4000039] = "Apple Cider Barrel", --Placeholder ID
+  [4000040] = "Magically-Sealed Strongboxes", --Placeholder ID
+  [4000041] = "Campfire", --Placeholder ID
+  [4000042] = "Venture Co. Supplies", --Placeholder ID
 }
