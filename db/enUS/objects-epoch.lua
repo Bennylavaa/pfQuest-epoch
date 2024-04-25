@@ -26,4 +26,12 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000024] = "Lost Tablet", --Placeholder ID
   [4000025] = "Frostmane Cage", --Placeholder ID
   [4000026] = "Kinetic Ore", --Placeholder ID
+  [4000027] = "Steam Vent", --Placeholder ID
+  [4000028] = "Sunken Shaman Shrine", --Placeholder ID
+  [4000029] = "Shadowberry Bush", --Placeholder ID
+  [4000030] = "Durnholde Armaments", --Placeholder ID
+  [4000031] = "Wanted: Beve Perenolde", --Placeholder ID
+  [4000032] = "Syndicate Food Supplies", --Placeholder ID
+  [4000033] = "Apple Bucket", --Placeholder ID
+  [4000034] = "Juicy Watermelon", --Placeholder ID
 }

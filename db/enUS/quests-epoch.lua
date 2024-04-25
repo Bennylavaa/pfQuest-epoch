@@ -1,10 +1,10 @@
 pfDB["quests"]["enUS-epoch"] = {
-    [1132] = {
-    ["D"] = "Oh, to be at sea once again!  To feel the kiss of the wind, and to have the waves rock me like my blessed mother, long ago!$B$BOh, I wish I had your fortune, good $c, for I see the sea in your future!$B$BIt\'s my job to tell eager souls of the land of Kalimdor, the land of opportunity!  If you\'re willing to try your luck across the sea, then take a ship from here to the lovely port of Theramore.  Speak there with my partner, the elf, Fiora Longears.$B$BShe\'ll start you on your Kalimdor adventure!",
-    ["O"] = "Speak with Fiora Longears in Theramore.",
+  [1132] = {
     ["T"] = "Fiora Longears",
+    ["O"] = "Speak with Fiora Longears in Theramore.",
+    ["D"] = "Oh, to be at sea once again!  To feel the kiss of the wind, and to have the waves rock me like my blessed mother, long ago!$B$BOh, I wish I had your fortune, good $c, for I see the sea in your future!$B$BIt\'s my job to tell eager souls of the land of Kalimdor, the land of opportunity!  If you\'re willing to try your luck across the sea, then take a ship from here to the lovely port of Theramore.  Speak there with my partner, the elf, Fiora Longears.$B$BShe\'ll start you on your Kalimdor adventure!",
   },
-    [27246] = {
+  [27246] = {
     ["T"] = "Grampy Stoutforge",
     ["O"] = "Find Grampy Stoutforge at his camp in southwest Searing Gorge.",
     ["D"] = "Grampy Stoutforge is old, even for a dwarf. Hes a master smith and has been a part of the Thorium Brotherhood longer than any of us can remember.\nRecently he set out down south with his son, Bhurind. He wouldnt tell us why, but why dont you see if he needs help with whatever hes doing?",
@@ -415,14 +415,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "The messenger who tried to bring that note to us risked life and limb and from what you said there is still a breath in their body.\nWe can not leave them to die in these marshes. Here, take this and use it to bring some life back into their weary bones so they can get here for safety.",
   },
   [465] = {
-    ["D"] = "While you were fighting the Dragonmaws, we discovered more of their plans.$B$BGujek has built catapults and aims to lay siege to Menethil!  And with the fighting in Dun Algaz, we\'re effectively blocked from reinforcements!$B$BYou need to take out those catapults.  They\'re in the Dragonmaw encampment.$B$BHere, take this tinder.  Fight your way to the catapults and light them with the tinder.$B$BAnd after you\'ve done that, find and kill Gujek.  We need to cut this Dragonmaw beast down...at its neck.",
-    ["O"] = "Destroy the Dragonmaw catapults.",
     ["T"] = "Gujek\'s Gambit",
+    ["O"] = "Destroy the Dragonmaw catapults.",
+    ["D"] = "While you were fighting the Dragonmaws, we discovered more of their plans.$B$BGujek has built catapults and aims to lay siege to Menethil!  And with the fighting in Dun Algaz, we\'re effectively blocked from reinforcements!$B$BYou need to take out those catapults.  They\'re in the Dragonmaw encampment.$B$BHere, take this tinder.  Fight your way to the catapults and light them with the tinder.$B$BAnd after you\'ve done that, find and kill Gujek.  We need to cut this Dragonmaw beast down...at its neck.",
   },
   [474] = {
-    ["D"] = "Now that the catapults have been burned, find and kill General Gujek.",
-    ["O"] = "Kill General Gujek$B$BBring Gujek\'s Head to Captain Stoutfist.",
     ["T"] = "Defeat Gujek",
+    ["O"] = "Kill General Gujek$B$BBring Gujek\'s Head to Captain Stoutfist.",
+    ["D"] = "Now that the catapults have been burned, find and kill General Gujek.",
   },
   [26275] = {
     ["T"] = "Guldar Gamble",
@@ -523,5 +523,185 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "A Temporary Victory",
     ["O"] = "Deliver news of the Burndural Victory to Captain Stoutfist.",
     ["D"] = "You were sent here by Captain Stoutfist and it is only right that we tell him what has happened here. Seek him back in Menethil and he can know that we do not need additional aid.",
+  },
+  [26685] = {
+    ["T"] = "To The Hills",
+    ["O"] = "Scout the Burning Hills to discover the source of the smoke.",
+    ["D"] = "I\'ve spotted some serious smoke rising from the Blazing Hills to the east of Hammerfall, lad. This is greatly concerning to me, as the elementals who reside in that area are typically peaceful. I\'m tasking ye with the job of heading over there and investigating what\'s causing all that commotion. There be danger afoot, so be sure to keep yer wits about ya and stay sharp.",
+  },
+  [26686] = {
+    ["T"] = "Cooling Waters",
+    ["O"] = "Collect 8 Cooled Aqual Essence from Aqual Sprayers within the Blazing Hills.",
+    ["D"] = "As you know, balance is key to the harmony of nature. Yet, it pains me to think that we must harm our brethren in order to restore this balance.I must express my deepest sorrow, mortal, that I must ask you to slay the water elementals.\nThey possess within their very being a Cooled Aqual Essence that we can use to calm the rage affecting my brethren. You can find them north of my mountain where water pools in the land.",
+  },
+  [26687] = {
+    ["T"] = "A Painful Dousing",
+    ["O"] = "Use the Bottle of Soothing Waters on Raging Cinders to be able to collect Raging Bindings.",
+    ["D"] = "With the Cooled Aqual Essence you have brought, I have crafted a Bottle of Soothing Waters. This will help you to weaken the Raging Cinders fire elementals within the Blazing Hills, making them cool enough for you to collect their wrist bindings.\nBring these bindings back to me, and we will use them to usher in a new era of peace for these hills.",
+  },
+  [26688] = {
+    ["T"] = "An Audience With Water",
+    ["O"] = "Locate Aquamentus within the Blazing Hills.",
+    ["D"] = "Aquamentus is the leader of the Water elementals, and the strongest among them. He is wise and powerful, and his influence extends beyond the borders of the Blazing Hills.\nAlthough we often disagree, I respect Aquamentus greatly. He understands the importance of balance and harmony in these lands, and he is always working to maintain it.\nBut recently, the Water elementals have been restless, and I fear that this unrest may be connected to the disturbances here in the Blazing Hills. We must approach Aquamentus with respect and humility, and ask for his assistance in restoring balance to our home.\nHe can be found to the North where water flows freely, go seek an audience with him.",
+  },
+  [26689] = {
+    ["T"] = "Close The Vents",
+    ["O"] = "Collapse 8 Steam Vents for Aquamentus within the Blazing Hills.",
+    ["D"] = "I believe I have found the source of the unrest in my waters. Thermal steam vents have risen from the ground, heating the waters and disturbing the balance that we have worked so hard to maintain.\nI shall embue you with the powers of Rushing Water and with it you can crumble those vents and close them for good. Please make haste I worry for the untold damage my brethren may do to themselves or others.",
+  },
+  [26690] = {
+    ["T"] = "Offering Of Feathers",
+    ["O"] = "Collect 6 Pristine Strider Feathers for Aquamentus within the Blazing Hills.",
+    ["D"] = "I worry that closing the vents alone will not be able to quench the fury within my brethren and I can not do that alone.\nThere is one who can however... with a certain amount of stroking his ego.\nAir is an important force within the world and key to balance, driving forest fires, cooling the sweat on a mortals brow.\nI will elaborate in good time but for now all you need know is I need an offering of the lightest feathers in the hills. These can be found on Striders throughout the area, I do not know why they pluck and wear the feathers but they are the highest quality around. See to this mortal.",
+  },
+   [26691] = {
+    ["T"] = "An Audience With Air",
+    ["O"] = "Speak with Aquamentus to receive passage to the shrine of Aeromir.",
+    ["D"] = "With the vents cleared I can be sure that no more of my kin will succumb to fury however this does little to help those who are already consumed by it.\nWhen you are ready speak to me and I will send you with the offering to speak with Aeromir. I need you to be my voice and ask of him the capacity to cool my brethren. Can you do this?",
+  },
+  [26693] = {
+    ["T"] = "Assistance Of Air",
+    ["O"] = "Speak with Aeromir to be carried back to Aquamentus with his blessing.",
+    ["D"] = "So my elemental brothers squabble? Why am I not surprised.\nNo it is not I who has caused this commotion but I will do what I can to help considering you have brought me such a pristine offering.\nI will grant you a blessing of Air which will serve as a vessel for you to soothe Aquamentus\' spawn. Speak with me and the strength of Air will carry you across the skies to return to Aquamentus.",
+  },
+  [26694] = {
+    ["T"] = "Cooling The Fury",
+    ["O"] = "Using the Calming Air from Aeromir weaken and calm Boiling Wanderer\'s within the Blazing Hills.",
+    ["D"] = "While I have no doubts that Atrasies had you slaughter his brethren to keep them in line I refuse to do that. Water is not as rash as fire, boiling can be soothed.\nWith the calming air Aeromir has bestowed upon you please free my spawn from their fury. You will need to weaken them for sense to take hold.",
+  },
+  [26695] = {
+    ["T"] = "Return To Fire",
+    ["O"] = "Return to Atrasies within the Blazing Hills.",
+    ["D"] = "While you have calmed my brethren the issues run deep within the Blazing Hills. It is time for us to convene with Atrasies. Head to him atop his peak now.",
+  },
+  [26696] = {
+    ["T"] = "Convening The Council",
+    ["O"] = "Speak with Atrasies to witness the Council of Elements.",
+    ["D"] = "The time has come to decisively learn what is happening in all corners of the Blazing Hills. We strongest ones convene over the millenia rarely but these are dire times. Aeromir, Aquamentus, Geomar and myself. Air, Water, Earth and Fire. Together we can weather all foes, speak with me to bare witness to the council.",
+  },
+  [26697] = {
+    ["T"] = "The Southern Hills",
+    ["O"] = "Journey into the southern Blazing Hills to investigate the fate of the Earth Elementals.",
+    ["D"] = "The south of these lands is the doman of Earth and their leader Geomar. His lack of arrival at the call of the council can only mean something dark has happened there.\nVenture there and relay to me what you find. Long ago the Witherbark came here to worship the Elementals believing us to be gods leaving shrines upon the land. Within the southern hills you will find one such shrine and with it I can communicate to you. Through that we will talk when the task is done.",
+  },
+  [26698] = {
+    ["T"] = "Furious Flaying",
+    ["O"] = "Slay 8 Witherbark Flayers within the Blazing Hills and then return to the Sunken Shaman Shrine to speak with Atrasies.",
+    ["D"] = "The Flayers of the Witherbark are the cruelest of the lot, the tales of them skinning their foes alive have spread through all of Arathi and even to us on the Council. I do not know what they are doing here and why they have chosen to end a peaceful co-existence but their collaboration must be ended. Slay them all with the unbridled wrath of fire!",
+  },
+  [26699] = {
+    ["T"] = "Blazing Hills Berserkers",
+    ["O"] = "Slay 8 Witherbark Berzerkers within the Blazing Hills and then return to the Sunken Shaman Shrine to speak with Atrasies.",
+    ["D"] = "Berzerkers are large and fearsome and do the bulk of the fighting for the Witherbark so you will have to be careful when facing them but I insist that they be removed from these hills for the safety of the elements.",
+  },
+  [26700] = {
+    ["T"] = "Bindings Of My Brethren",
+    ["O"] = "Slay Witherbark Flame Benders within the Blazing Hills to collect Corrupted Bindings and then return to the Sunken Shaman Shrine to speak with Atrasies.",
+    ["D"] = "I sense the anquish of my brethren through you already. The shamans of the Witherbark have changed... They take rather than ask. Slay them all and bring the bindings they hold back to here so I may inspect them.",
+  },
+  [26701] = {
+    ["T"] = "The Dark Shamans",
+    ["O"] = "Bring the Subjugation Report to the Sunken Shaman Shrine to speak with Atrasies from afar.",
+    ["D"] = "On the corpse of a Witherbark you find a crumbled report clearly on transit deeper into the Witherbarks encroachment. Reading the contents within may shed light on what is happening in the Blazing Hills and be of great importance to Atrasies.",
+  },
+  [26702] = {
+    ["T"] = "The Dark Shamans",
+    ["O"] = "Locate and slay Dark Shaman Drezco and Dark Shaman Enwi within the southern Blazing Hills.",
+    ["D"] = "Drezco and Enwi. The names of our true enemy. I have no great statement for you $N. Slay them, crush them and bring their heads to me in person. I will reward you as greatly as I can.",
+  },
+  [26682] = {
+    ["T"] = "Save The Animals",
+    ["O"] = "Lasso 6 Terrified Animals at the Alestone Estate and bring them to Paula Alestone.",
+    ["D"] = "I\'m so worried about my animals! When the Earth Elementals emerged from the ground, they bolted into the fields and now they\'re too scared to come back. I can\'t leave them out there alone. Will you please help me bring them back to safety?\nHere, take this rope. You can use it to lasso them and bring them back to me. Please be careful, I don\'t want anyone to get hurt.",
+  },
+  [26671] = {
+    ["T"] = "The Rumbling Fields",
+    ["O"] = "Slay 7 Frantic Earth and 7 Rambling Earth to assist clearing the Alestone Estate fields.",
+    ["D"] = "Bloody hell, these blasted elementals are churning up me fields and scaring me animals! I\'ve had enough of it! I need someone to take care of those Frantic Earth and Rambling Earth elementals, once and for all. They\'re the worst of the lot, causing all sorts of trouble. Will you do it for me? I\'ll pay ya well, and ye\'ll have me gratitude. But make no mistake, this won\'t be an easy task. These elementals are tough buggers.",
+  },
+  [26672] = {
+    ["T"] = "When Life Gives You... Berries?",
+    ["O"] = "Collect 8 Bushels of Shadowberry for Randal Alestone at the Alestone Estate.",
+    ["D"] = "Ye see those fields over yonder? I\'ve been growin\' Shadowberries there for years now. They\'re the finest berries in all the land, and I\'m afraid the Elementals are gonna trample them into mush. I need someone to go out there and collect as many bushels of Shadowberry as ye can find. But be careful out there, the Elementals are a dangerous lot. Will ye do it for me?",
+  },
+  [26329] = {
+    ["T"] = "Hillsbrad Assault",
+    ["O"] = "Capture the Central Tower when it is under the control of the Horde",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde claims it we must urgently take it back.\nRally your forces Bennylava and do as she has bid.",
+  },
+  [26330] = {
+    ["T"] = "Hillsbrad Defense",
+    ["O"] = "Defend the Central Tower when it is under the control of the Alliance.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Alliances control of these lands. The Lady Prestor herself has ordered that whenever the Horde attempts to take control of it we must defend it at all costs.\nRally your forces Bennylava and do as she has bid.",
+  },
+  [27720] = {
+    ["T"] = "Justice Left Undone",
+    ["O"] = "Bring Paul \"Grandpa\" Vishas to justice by finding him at his house on the shore of Lordamere Lake in the Alterac Mountains.",
+    ["D"] = "When I became magistrate I noticed there was an outstanding warrant for Paul Vishas. Apparently, Vishas is wanted for a murder he committed nearly twenty years ago. I\'m not sure why this was never enforced; Paul Vishas has been seen in the area for years.\nHis son Sidney has a house on the shore of Lordamere Lake. Maybe Vishas is hiding out there? \nPlease go arrest him Warlock. And if he doesn\'t come quietly, you\'re free to administer justice to get this case off the books.",
+  },
+  [26374] = {
+    ["T"] = "Breaking the Armory",
+    ["O"] = "Loot 10 Durnholde Armaments from Durnholde Keep and return to Kundric Zanden in Southshore.",
+    ["D"] = "The Syndicate over in Durnholde Keep are quickly becoming an issue. Between their countless attacks on travellers, and their growing ranks, it\'s a wonder the Alliance hasn\'t declared war on them yet!\nIt falls on Southshore to keep our lands safe, and I want you to go to the keep and steal their armaments, hopefully with those gone it will be harder for them to attack. You can find the keep northeast of here, just follow the road.",
+  },
+  [26398] = {
+    ["T"] = "Purging the Lions",
+    ["O"] = "Kill 10 Starving Mountain Lions and return to Marshal Redpath in Southshore.",
+    ["D"] = "It\'s a good thing you\'re here, warlock. Lately the mountain lions around here have been growing more restless, and have injured several of our citizens. This cannot be tolerated!\nI need you to purge the population of the lions, so that the citizens of Southshore can be safe once more. They usually roam just north of here.",
+  },
+  [26408] = {
+    ["T"] = "Assistance to Jenna",
+    ["O"] = "Find Jenna Thunderbrew in Hillsbrad Foothills.",
+    ["D"] = "I received an urgent letter from our local healer, Jenna Thunderbrew. She says her husband has fallen ill, and is need of dire help.\nSouthshore helps its citizens, so I need you to go and check on her. She resides in a clearing just west of here, in her cottage.",
+  },
+  [26407] = {
+    ["T"] = "Wildthorn Cure",
+    ["O"] = "Collect 8 Wildthorn Salve from spiders in Ashenvale and return to Jenna Thunderbrew in Southshore.",
+    ["D"] = "My husband is very sick, Bennylava. I have tried all the cures I know, but nothing will heal him.\nSome time ago, a traveller came through and told me of spiders in a distant land. They are capable of producing salve that cures even the worst of wounds.\nHe said these spiders were called Wildthorn, and they lurk Ashenvale, a land in the distant continent of Kalimdor. It is too much to ask of you, but would you bring me some of the Wildthorn\'s salve so that I may cure my husband?",
+  },
+  [26387] = {
+    ["T"] = "Syndicate Magic",
+    ["O"] = "Collect 5 Syndicate Orbs and return to Kundric Zanden in Southshore.",
+    ["D"] = "I study the art of magic, and always look to learn more about it. The magistrate believes the Syndicate are using dark magic to fuel their evil desires, but I have my doubts.\nWould you go to Durnholde Keep and bring me some of the orbs their mages use? You can find the keep just northeast of here, but be careful...I hear it\'s heavily guarded.",
+  },
+  [26404] = {
+    ["T"] = "WANTED: Beve Perenolde",
+    ["O"] = "Slay Beve Perenolde and bring her head to Captain Thallen in Southshore.",
+    ["D"] = "Beve Perenolde has been sentenced to execution, by order of Captain Thallen of Southshore. A dangerous criminal, and overseer of Durnholde Keep, she maintains a strong foothold over these lands.\nShe will likely be found deep withing the stronghold of the keep, which is located northeast of Southshore. Bring her head to Captain Thallen to recieve a reward.",
+  },
+  [26405] = {
+    ["T"] = "Syndicate Plans",
+    ["O"] = "Deliver the Syndicate Plans to Captain Thallen in Southshore.",
+    ["D"] = "You notice a letter dropped out of Beve Perenolde\'s pocket. It looks important, sealed and delivered by Lord Aliden Perenolde himself.\nCaptain Thallen in Southshore would be greatly interested in this letter, as it may detail further plans for the Syndicate.",
+  },
+  [26395] = {
+    ["T"] = "A Venom That Cures",
+    ["O"] = "Collect 8 Moss Venom and return to Apprentice Honeywell in Southshore.",
+    ["D"] = "Greetings, $N. I moved to Southshore to study alchemy in depth, and the next thing I want to learn is how to make cures.\nWe\'ve had a few citizens fall ill to the bites of spiders. Would you go and gather their venon for me? You can find them scattered all around Hillsbrad.",
+  },
+  [26402] = {
+    ["T"] = "Mudsnout Concoction",
+    ["O"] = "Collect 8 Mudsnout Ichor and return to Nandar Branson in Southshore.",
+    ["D"] = "The Syndicate that moved into Durnholde Keep are showing no signs of stopping, something must be done. I worry our efforts from the guards will not be enough, so I\'ve decided to take a trick from the Forsaken and poison their food supplies!\nI know, it sounds harsh, but desperate times call for desperate measures. If you wish to help me, I need ichor from the gnolls at Nethander Stead, just east of here, past the river. Once I have that, I can brew an effective poison to show the Syndicate their place!",
+  },
+  [26403] = {
+    ["T"] = "Venom to the Syndicate",
+    ["O"] = "Poison the Syndicate Food Supplies in Durnholde Keep and return to Nandar Branson in Southshore.",
+    ["D"] = "The poison is ready, Bennylava, I simply need someone to administer it. You can find Durnholde Keep northeast of here, just follow the road and you can\'t miss it. Be warned though, the Syndicate are highly protective of their stronghold, so it would be best if you brought friends with you.\nOnce you\'re inside, look for their barracks. I\'m sure you will find their food supplies inside. Just spread the venom around and then head back here.",
+  },
+  [26397] = {
+    ["T"] = "Decorating the Inn",
+    ["O"] = "Gather 10 Bear Furs for Innkeeper Anderson in Southshore.",
+    ["D"] = "I\'ve been doing some thinking, and I\'ve decided it\'s time to decorate this inn. I want to add a rug to the entrance!\nI know a tailor that owes me a favor, so you only need to get me the fur. The bears around these lands should do just fine.",
+  },
+  [27718] = {
+    ["T"] = "A Rare Variety",
+    ["O"] = "Collect 6 Wintercrisp Apple Seeds from the apple orchard in Strahnbrad and bring them to Neema in Southshore.",
+    ["D"] = "Hail traveler! Hillsbrad\'s farmers are known for their apples. Shiny Red, Goldenbark, and Dalaran Crisp apples all grow in our local fields. Before the last war, another variety of apple was grown in the Alterac Mountains, the Wintercrisp Apple. \nThe apple fields in Strahnbrad were decimated when the Scourge army moved through there on the way to Dalaran but if any seeds remain, we could plant new Wintercrisp trees. Would you travel to Strahnbrad\'s orchard and see if you can find any seeds? \nBe careful - Strahnbrad is controlled by the Syndicate now.",
+  },
+  [27719] = {
+    ["T"] = "Watermelon Punch",
+    ["O"] = "Collect 4 Juicy Watermelons from Dandred\'s Fold in the Alterac Mountains for Neema in Southshore.",
+    ["D"] = "The food we serve at the inn comes from locally sourced produce. Every year around this time we usually receive our shipment of watermelons from Hillsbrad, but I just learned the watermelon crop failed and there won\'t be any this year. This is a disaster, Bennylava. Without the watermelons I won\'t be able to make my famous Watermelon Punch! \nA shady character was in the inn the other night and he was spitting watermelon seeds. I asked him where he got them from and he said some place called Dandred\'s Fold up north was growing watermelons. Could you go there and see if you can get some watermelons for me? Only the juiciest ones will do!",
   },
 }
