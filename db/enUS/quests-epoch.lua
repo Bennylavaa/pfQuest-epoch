@@ -689,4 +689,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Poison the Syndicate Food Supplies in Durnholde Keep and return to Nandar Branson in Southshore.",
     ["D"] = "The poison is ready, Bennylava, I simply need someone to administer it. You can find Durnholde Keep northeast of here, just follow the road and you can\'t miss it. Be warned though, the Syndicate are highly protective of their stronghold, so it would be best if you brought friends with you.\nOnce you\'re inside, look for their barracks. I\'m sure you will find their food supplies inside. Just spread the venom around and then head back here.",
   },
+  [26397] = {
+    ["T"] = "Decorating the Inn",
+    ["O"] = "Gather 10 Bear Furs for Innkeeper Anderson in Southshore.",
+    ["D"] = "I\'ve been doing some thinking, and I\'ve decided it\'s time to decorate this inn. I want to add a rug to the entrance!\nI know a tailor that owes me a favor, so you only need to get me the fur. The bears around these lands should do just fine.",
+  },
+  [27718] = {
+    ["T"] = "A Rare Variety",
+    ["O"] = "Collect 6 Wintercrisp Apple Seeds from the apple orchard in Strahnbrad and bring them to Neema in Southshore.",
+    ["D"] = "Hail traveler! Hillsbrad\'s farmers are known for their apples. Shiny Red, Goldenbark, and Dalaran Crisp apples all grow in our local fields. Before the last war, another variety of apple was grown in the Alterac Mountains, the Wintercrisp Apple. \nThe apple fields in Strahnbrad were decimated when the Scourge army moved through there on the way to Dalaran but if any seeds remain, we could plant new Wintercrisp trees. Would you travel to Strahnbrad\'s orchard and see if you can find any seeds? \nBe careful - Strahnbrad is controlled by the Syndicate now.",
+  },
+  [27719] = {
+    ["T"] = "Watermelon Punch",
+    ["O"] = "Collect 4 Juicy Watermelons from Dandred\'s Fold in the Alterac Mountains for Neema in Southshore.",
+    ["D"] = "The food we serve at the inn comes from locally sourced produce. Every year around this time we usually receive our shipment of watermelons from Hillsbrad, but I just learned the watermelon crop failed and there won\'t be any this year. This is a disaster, Bennylava. Without the watermelons I won\'t be able to make my famous Watermelon Punch! \nA shady character was in the inn the other night and he was spitting watermelon seeds. I asked him where he got them from and he said some place called Dandred\'s Fold up north was growing watermelons. Could you go there and see if you can get some watermelons for me? Only the juiciest ones will do!",
+  },
 }

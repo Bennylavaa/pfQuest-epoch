@@ -81,4 +81,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60478] = "Moss Venom",
   [60488] = "Mudsnout Ichor",
   [60489] = "Mudsnout Poison",
+  [60481] = "Bear Fur",
+  [63441] = "Wintercrisp Apple Seed",
+  [63440] = "Juicy Watermelon",
 }
