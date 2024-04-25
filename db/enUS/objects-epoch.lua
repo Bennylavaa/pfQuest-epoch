@@ -34,4 +34,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000032] = "Syndicate Food Supplies", --Placeholder ID
   [4000033] = "Apple Bucket", --Placeholder ID
   [4000034] = "Juicy Watermelon", --Placeholder ID
+  [4000035] = "WANTED", --Placeholder ID
+  [4000036] = "Bhondur\'s Bones", --Placeholder ID
+  [4000037] = "Thelsamar Graveyard", --Placeholder ID
 }
