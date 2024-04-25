@@ -86,4 +86,7 @@ pfDB["items"]["enUS-epoch"] = {
   [63440] = "Juicy Watermelon",
   [60389] = "Bhondur\'s Bones",
   [60391] = "Loch Weed",
+  [60392] = "Tessa\'s Head",
+  [60207] = "Mountaineer\'s Gun Cleaning Kit",
+  [60206] = "Hearty Eagle Breast",
 }

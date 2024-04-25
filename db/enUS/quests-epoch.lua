@@ -739,4 +739,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Take the flight to the Ironforge Airfield, then speak to Girda Thunderbrew near the bunker to the east.",
     ["D"] = "Have you heard of the Ironforge Airfield, $R? Aye, I personally prefer gryphons, but in years past we dwarves were also known for our aerial machinery. After the Second and Third wars we lost most of our flying machines, but King Magni ordered construction of a mighty airfield so that we may rebuild those machines.\n\nBit of a long winded way of askin\' ye, but would you like a free trip to the airfield? I expect an adventurer like you could help out!",
   },
+  [26270] = {
+    ["T"] = "The Ironforge Airfield",
+    ["O"] = "Look around the Airfield, and assist 3 people with their problems.",
+    ["D"] = "Wonderful, we could surely use ye here. The Airfield is a beautiful joining of Dwarf and Gnome, working together to create aerial control for the Alliance.\n\nThings are a bit slow at the moment, as you can see that there is a plane stuck on the runway. If you wandered about the place you will surely find people in need of you!",
+  },
+  [26264] = {
+    ["T"] = "Assisting Nonere",
+    ["O"] = "Gather 8 Hearty Eagle Breasts from Morogh Eagles found south of the Airfield.",
+    ["D"] = "Oi! Ye seem like a lost new face, certainly a venturing type. Ye lookin\' for work?\n\nGood, my stocks are gettin\' low and the fellas up here are expecting a meal soon. Could you be a right lady and fetch some fowl nearby? The eagles I mean. A couple\'a hearty breasts will do great!",
+  },
+  [26268] = {
+    ["T"] = "Assisting Wizzle",
+    ["O"] = "Collect 12 parts scattered around the airfield.",
+    ["D"] = "Yes yes, what is it? I am quite busy.\n\nOh you\'re just looking for things to do? I can\'t imagine your overwhelming boredom, but yes I suppose I can give you a task or two. As you may know this airfield is fairly new, and thus you are likely to find a lot of trash around here. Grab some of it, we will see if any of it is useful.",
+  },
+  [26266] = {
+    ["T"] = "Assisting Topsy",
+    ["O"] = "Use the cleaning kit on 6 Stormpike Mountaineers or Dun Morogh Mountaineers in the Airfield.",
+    ["D"] = "Hey there! I am quite behind on my duties, do you think you could help out? I was supposed to go around cleaning some of the Mountaineers\' guns, but I have been busy trying to fix this darn extractor. Seems like it is always broken...\n\nAh, but here. Cleaning a gun is easy, $N. Just take this kit and go around offering the service. Just a few cleaned guns will save me so much time!",
+  },
 }

@@ -119,4 +119,9 @@ pfDB["units"]["enUS-epoch"] = {
   [45415] = "Captain Thallen",
   [6577] = "Bingles Blastenheimer",
   [45328] = "Mother Tessa",
+  [45148] = "Girda Thunderbrew",
+  [45156] = "Nonere Duskdigger",
+  [45154] = "Wizzle Nimbledigit",
+  [45159] = "Topsy Pelletmoulder",
+  [45218] = "Morogh Eagle",
 }
