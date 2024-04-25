@@ -85,4 +85,5 @@ pfDB["items"]["enUS-epoch"] = {
   [63441] = "Wintercrisp Apple Seed",
   [63440] = "Juicy Watermelon",
   [60389] = "Bhondur\'s Bones",
+  [60391] = "Loch Weed",
 }

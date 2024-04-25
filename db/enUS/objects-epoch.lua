@@ -37,4 +37,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000035] = "WANTED", --Placeholder ID
   [4000036] = "Bhondur\'s Bones", --Placeholder ID
   [4000037] = "Thelsamar Graveyard", --Placeholder ID
+  [4000037] = "Loch Weed", --Placeholder ID
 }
