@@ -789,4 +789,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Use any fire to light the Unlit Torch, then burn 6 Frostmane Armaments in Rik\'watha. Rik'watha has a bonfire you can use to light the torch.",
     ["D"] = "The Frostmane trolls in Rik\'watha are preparing for an assault on the Airfield. I learned about this shortly before I was attacked, they have caches of weapons stored around the village that I thought merely contained food.\n\nHere, I fashioned a makeshift torch for you. Take it to their bonfire, or any fire for that matter, and set those armaments ablaze!",
   },
+  [26274] = {
+    ["T"] = "High Priest Rikkari",
+    ["O"] = "Kill High Priest Rikkari.",
+    ["D"] = "I am feeling much better now already, but sadly I still can\'t help. We need to show the trolls that we can't be so easily defeated. High Priest Rikkari needs to be killed, it is our best chance. We can then only hope that the next leader is less open to attack.\n\nDon\'t underestimate him, he commands power over shadows. I hope you have some friends you can call on.\n\nWhen you\'ve succeeded please report to Fleet Commander Stoneflint in the Airfield. He is in the bunker.",
+  },
 }

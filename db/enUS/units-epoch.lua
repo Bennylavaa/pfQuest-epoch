@@ -130,4 +130,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45217] = "Kelsey Steelspark",
   [45214] = "Frostmane Oracle",
   [45215] = "Frostmane Hunter",
+  [45216] = "High Priest Rikkari",
+  [45146] = "Fleet Commander Stoneflint",
 }
