@@ -759,4 +759,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Use the cleaning kit on 6 Stormpike Mountaineers or Dun Morogh Mountaineers in the Airfield.",
     ["D"] = "Hey there! I am quite behind on my duties, do you think you could help out? I was supposed to go around cleaning some of the Mountaineers\' guns, but I have been busy trying to fix this darn extractor. Seems like it is always broken...\n\nAh, but here. Cleaning a gun is easy, $N. Just take this kit and go around offering the service. Just a few cleaned guns will save me so much time!",
   },
+  [26267] = {
+    ["T"] = "Assisting Topsy",
+    ["O"] = "",
+    ["D"] = "",
+  },
 }
