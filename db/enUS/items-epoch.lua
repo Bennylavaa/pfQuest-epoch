@@ -94,4 +94,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60205] = "Thick Elder Bear Fur",
   [60213] = "Unlit Torch",
   [60212] = "Lit Torch",
+  [60390] = "Lost Artifact",
 }

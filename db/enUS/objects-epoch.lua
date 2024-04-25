@@ -42,4 +42,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000038] = "Ironforge Airfield Lake", --Placeholder ID
   [4000039] = "Rik\'watha Bonfire", --Placeholder ID
   [4000040] = "Frostmane Armaments", --Placeholder ID
+  [4000041] = "Lost Artifact", --Placeholder ID
 }
