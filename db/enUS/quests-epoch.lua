@@ -779,6 +779,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Locate Kelsey Steelspark and deliver the food that Girda gave you.",
     ["D"] = "You\'ve done some great work around the airfield, you right cheered up some fellas\' days. One final task from me though, do you think you could take this meal over to a Gnome by the name of Kelsey Steelspark? She is a scout keeping an eye on the Frostmane Troll village to the south-west.\n\nBest way to find her would be to hug the west side of the ice lake.",
   },
+  [26272] = {
+    ["T"] = "Frostmane Clearing",
+    ["O"] = "Kill 12 Frostmane Trolls in Rik\'watha, south west of the Ironforge Airfield.",
+    ["D"] = "I was sent here to keep an eye on these trolls, to make sure they don\'t get up to anything fishy. Well, $C, they are up to something fishy.\n\nI was surprised when their High Priest, a troll named Rikkari, spotted me and called guards to attack me. I managed to escape, but they got a good hit on my knee. I need you to go in there and prune their numbers a bit, but don\'t engage the High Priest!",
+  },
   [26273] = {
     ["T"] = "Destroying the Armaments",
     ["O"] = "Use any fire to light the Unlit Torch, then burn 6 Frostmane Armaments in Rik\'watha. Rik'watha has a bonfire you can use to light the torch.",

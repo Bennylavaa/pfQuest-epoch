@@ -128,4 +128,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45212] = "Elder Ice Claw Bear",
   [45213] = "Engineer Cobalt",
   [45217] = "Kelsey Steelspark",
+  [45214] = "Frostmane Oracle",
+  [45215] = "Frostmane Hunter",
 }
