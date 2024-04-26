@@ -959,14 +959,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Report to Quartermaster Nyana in Auberdine.",
     ["D"] = "Welcome to Auberdine, I hope your trip was smooth. There is much that is needed to be done around here, and we would be most grateful to have your assistance. Moonkin, furbolg, cultists...the list goes on!\n\nI think it would be best if you acquainted yourself with Quartermaster Nyana. She resides in the townhouse, reading over reports and monitoring the various situations we have going on. I look forward to seeing you again, and may Elune bless you.",
   },
+  [26201] = {
+    ["T"] = "The Twilight\'s Hammer",
+    ["O"] = "Kill 8 Twilight Thugs and 8 Twilight Disciples and return to Alanndarian Nightsong in Auberdine.",
+    ["D"] = "There is a grave threat to Auberdine, $N. They call themselves The Twilight\'s Hammer. They are a cult that spreads chaos and unrest, disrupting the balance of the forest. They worship the Old Gods and desire to bring them back, wishing for destruction across Azeroth.\n\nThey must be stopped! They have an outpost called The Master\'s Glaive far to the south, near the border of Ashenvale. Go, $N, and cleanse the cult's stain on Darkshore.",
+  },
   [26199] = {
     ["T"] = "Balancing the Forest",
     ["O"] = "Kill 5 Young Moonkin and 10 Moonkin and return to Sentinel Glynda Nal\'Shea in Auberdine.",
     ["D"] = "Ishnu-alah, $N. Everything in life has a balance, and Elune watches over the forest to ensure it stays that way. However, lately the balance is shifting, growing more unruly. I fear if something isn\'t done it could shake the very foundations of Azeroth. We have prayed to Elune to send somebody to help us, and you have arrived.\n\nRight now the main threat is the moonkin colony to the east. I\'ve recieved reports that something similar happened in Teldrassil, but what was a peaceful colony has turned into unruly chaos. The moonkin are attacking anything they can, and disrupting the flow of nature. Please, go take care of the colony and restore balance to the forest.",
   },
-  [26201] = {
-    ["T"] = "The Twilight\'s Hammer",
-    ["O"] = "Kill 8 Twilight Thugs and 8 Twilight Disciples and return to Alanndarian Nightsong in Auberdine.",
-    ["D"] = "There is a grave threat to Auberdine, $N. They call themselves The Twilight\'s Hammer. They are a cult that spreads chaos and unrest, disrupting the balance of the forest. They worship the Old Gods and desire to bring them back, wishing for destruction across Azeroth.\n\nThey must be stopped! They have an outpost called The Master\'s Glaive far to the south, near the border of Ashenvale. Go, $N, and cleanse the cult's stain on Darkshore.",
+  [26200] = {
+    ["T"] = "Balancing the Forest",
+    ["O"] = "Kill 3 Moonkin Oracles and 10 Raging Moonkin and return to Sentinel Glynda Nal\'Shea at Auberdine.",
+    ["D"] = "Unfortunately, it appears that the area we cleansed was only part of the colony. The older moonkin lie further east in the forest. It saddens me to have to destroy nature, but we must do what has to be done.\n\nReturn to the moonkin colony, and search further back. We need to fully remove the threat so that Auberdine remains safe.",
   },
 }
