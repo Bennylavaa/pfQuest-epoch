@@ -973,5 +973,20 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Balancing the Forest",
     ["O"] = "Kill 3 Moonkin Oracles and 10 Raging Moonkin and return to Sentinel Glynda Nal\'Shea at Auberdine.",
     ["D"] = "Unfortunately, it appears that the area we cleansed was only part of the colony. The older moonkin lie further east in the forest. It saddens me to have to destroy nature, but we must do what has to be done.\n\nReturn to the moonkin colony, and search further back. We need to fully remove the threat so that Auberdine remains safe.",
+    },
+  [26562] = {
+    ["T"] = "Gathering Of Spirits",
+    ["O"] = "Gather 8 bushels of Weaveleaf from the coasts of Desolace.",
+    ["D"] = "Many moons in our tribe\'s past, we made our home in the grasslands of Mashan\'she, but calamity struck the region, rendering it lifeless and barren. Our tribe left the wasteland, now called Desolace, under the guidance of Cheiftain Dusthoof. He kept hope in his heart that there was a verdant and untamed land far beyond the southern deserts, far beyond the centaur and elven lands. \nHowever, we were ill-prepared for the journey. As you can see, we did not last too long out in the flats. With the death of our chieftain, the rest of our tribe scattered, with many falling prey to the heat and beasts of the desert. You may have encountered some of their spirits wandering around this area.\nEven in this state, I do believe we can still make this journey in spirit, if just to walk the land as a tribe once again. But you must help us, warlock.\nYou must return to the living world and travel to Desolace, and gather weaveleaf from along the coast. When you have gathered enough, return here and use them to light the fire at this totem. In the past, we used weaveleaf for incense during ceremonial gatherings; the spirits of Dusthoof and our brethren will recognize the scent.\nEarthmother guide your path, friend.",
+  },
+  [26666] = {
+    ["T"] = "Fresh Water Delivery",
+    ["O"] = "Deliver 10 Cool Sparkling Fresh Water to Race Invigilators at the watch towers around the Mirage Raceway.",
+    ["D"] = "Around the race track there are four towers who hold the race invigilators, they sit up their monitoring the races to keep any eye out for cheating that goes too far and outside influencers. If a crash happens that interrupts the race they inform us here.\nIf you provide them with some of this Cool Sparkling Fresh Water they might be a little more... favourable when something goes awry. How does that sound?",
+  },
+  [26668] = {
+    ["T"] = "Podium Finish",
+    ["O"] = "Reach 1st, 2nd or 3rd place on the podium during a Mirage Raceway event.",
+    ["D"] = "When you go out to race you\'ll be representing us, the Gnome Racing Team. I expect the best from you so here\'s the deal. If you reach the top 3 podium positions at the end of the race I\'ve got an extra special gift for you. How does that sound? Get out there and burn some rubber!",
   },
 }
