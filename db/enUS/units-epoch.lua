@@ -141,4 +141,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45450] = "Southshore Crier",
   [45051] = "Wendel Sparkbright",
   [45340] = "Captain Mynera",
+  [45826] = "Chief Dusthoof",
+  [45976] = "Peach",
+  [45827] = "Spiritwalker Muata (You have to be dead)",
 }

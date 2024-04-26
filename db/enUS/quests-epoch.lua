@@ -894,5 +894,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Deliver Kaela\'s Report to Captain Mynera at Stonetalon Grove in the Stonetalon Mountains.",
     ["D"] = "$N, I appreciate all your assistance dealing with the problems in Windshear Crag. My superior in Stonetalon Grove, Captain Mynera, has requested a report on the status of Windshear Crag, do you think you could bring it to her? To reach Stonetalon Grove, follow the road all the way north.",
   },
-
+  [26665] = {
+    ["T"] = "Driving License Approval",
+    ["O"] = "Beg and Plead with Trackmaster Zherin, Race Master Kronkrider, Razzeric and Wizzle Brassbolts to get a Mirage Raceway License.",
+    ["D"] = "If you want to take part in the Mirage Raceway you\'re going to need a formal sign off from some key people around these parts. Race Master Kronkrider is the head honcho but he alone can\'t give the thumbs up. You\'ll need the approval of the heads of each team\; Wizzle Brassbolts for the Gnome team and Razzeric for the Goblin Team. And finally Trackmaster Zherin holds great sway.\nIf you go to them begging and pleading I\'m sure a formal petition will come through for you and you can get out onto the track.",
+  },
+  [26561] = {
+    ["T"] = "The Ghost of the Flats",
+    ["O"] = "Defeat the spirit of Chief Dusthoof.",
+    ["D"] = "Hey, you look like one of those hero types. You got a moment?\nWe\'ve been dealing with some of our cars suddenly veering off the track and crashing offroad. I know what you\'re thinking, but trust me, it\'s not goblin tech blowing up for once. Thought it was those gnomes meddling with our engines, but turns out their racers have been dealing with this, too.\nWhat\'s “this”, you might be asking? Well, one of the crash survivors reported seeing the ghost of some dusty-coated tauren chief roaming around east of the track. Gnomes are saying it\'s a mirage, but I don\'t think a mirage would wander onto the track and scare a guy so bad he lost control of his vehicle!\nI want you to look into this for me. Bring friends if you have to, but get that ghost geezer off the road!",
+  },
+  [26560] = {
+    ["T"] = "Amber Memento",
+    ["O"] = "Solve the mystery of the amber memento.",
+    ["D"] = "Taken from the wayward spirit of Chief Dusthoof, the charm in your hands doesn\'t look outwardly notable. It\'s a worn bronze pendant, the metal tarnished and a piece of amber haphazardly shoved into its setting.\nYou\'re not sure how old this piece of jewelery is or what it\'s worth. As you entertain this thought, a cold gust of wind blows by you, in the direction of the northern edge of the Shimmering Flats.\nPerhaps you should investigate this.",
+  },
 }

@@ -114,4 +114,6 @@ pfDB["items"]["enUS-epoch"] = {
   [62858] = "Necromantic Tome",
   [60418] = "Unlit Torch",
   [60417] = "Lit Torch",
+  [60857] = "Amber Memento",
+  [60858] = "Amber Memento",
 }
