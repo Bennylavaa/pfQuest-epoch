@@ -52,4 +52,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000050] = "Frostmane Armaments", --Placeholder ID
   [4000051] = "Lost Artifact", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
+  [4001001] = "Lily Whip", --Placeholder ID
+  [4001002] = "Dolanaar Moonwell", --Placeholder ID
 }

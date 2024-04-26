@@ -909,4 +909,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 6 Bloodfeather Eggs and return to Alanna Raveneye at the Oracle Glade.",
     ["D"] = "Have you seen these harpies! They have invaded this land, it is true, but they are also magical, beautiful creatures.\n\nI study magic, and I think the eggs they plant could possibly contain magical properties. Do you think you could bring me some eggs so I can examine them?",
   },
+  [26182] = {
+    ["T"] = "Herbal Medicine",
+    ["O"] = "Gather 8 Lily Whips from the Pools of Arlithrien and return to Malorne Bladeleaf in Dolanaar.",
+    ["D"] = "Many think that herbs are only used for potions that cause harm, but herbs trace back to medicine first. You never know when an owl will go rabid and strike an ally, so It\'s always a good idea to have medicine on hand.\n\nIf you bring me some of the Lily Whips from the Pools of Arlithrien far to the west I can make some medicine for you, maybe I\'ll even teach you if I like your samples.",
+  },
+  [26705] = {
+    ["T"] = "A Cloak of Shadows",
+    ["O"] = "Report to Carlo Aurelius at Ravenholdt Manor.",
+    ["D"] = "It is time Rogue for you to take the next step on your journey and learn an art that has saved many a Rogue from their demise. I have received word from Ravenholdt Manor within the Hillsbrad Foothills.\n\nThis is quite a rarity the denizens of the Manor are a very secretive organisation. Have you been making an impression on certain shadowy figures? Read the letter that arrived over an open flame and make your way.",
+  },
+  [26180] = {
+    ["T"] = "Demons In Fel Rock",
+    ["O"] = "Collect 10 Demon Essence from Fel Rock and return to Jeena Featherbow in Dolanaar.",
+    ["D"] = "Greetings, how nice to see a $c. I assume you've heard of the recent corruption occuring in Teldrassil?\n\nThere are demons that have invaded these lands, and some of our scouts report that a large concentration of them is located in Fel Rock, just north of here.\n\nCan you kill them and bring me their demon essence so we can purify it?",
+  },
+  [26181] = {
+    ["T"] = "Purifying the Essence",
+    ["O"] = "Purify the Demon Essence at the moonwell in Dolanaar and return to Jeena Featherbow.",
+    ["D"] = "Raw demon essence is extremely unstable, so if we are to remove their spirits from this world we must purify it.\n\nThere are many moonwells across Night Elf territory, but the closest one is right here in Dolanaar. Go to the moonwell and purify this essence, so their spirits will be banished forever.",
+  },
+  [26176] = {
+    ["T"] = "Attack on the Gnarlpine",
+    ["O"] = "Kill 4 Gnarlpine Shamans, 4 Gnarlpine Defenders, 4 Gnarlpine Ambushers, and 4 Gnarlpine Warriors and then return to Melarith at Dolanaar.",
+    ["D"] = "The Gnarlpine tribe has been growing increasingly restless on their attacks against our people, and I\'m beginning to get worried. Do you think you could help us in our battle against them?\n\nYou can find members of their tribe scattered across Teldrassil, but scouts report that they gather just off the road west of here, and also near the Ban\'ethil Barrow Den. Go out and kill them, so I know our people will be safe.",
+  },
+  [26177] = {
+    ["T"] = "Attack on the Gnarlpine",
+    ["O"] = "Kill Agal, Nargle, and Greenpaw and return to Melarith at Dolanaar.",
+    ["D"] = "The Gnarlpine will keep growing in numbers if we do not strike at their leadership. If they have no chiefs, they have nobody to follow. They will fall apart and go their seperate ways.\n\nThe first chief is Agal, he lies in a cave just north of the Ban\'ethil Barrow Den. The second and third chiefs, Nargle and Greenpaw, both lie deep inside the den. I would not go alone if I were you, the stronghold is very deep and it\'s easy to get lost.I wish you the best of luck in this task, $N. Stay safe, and bring about the end of the Gnarlpine.",
+  },
 }
