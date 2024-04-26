@@ -42,4 +42,13 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000040] = "Magically-Sealed Strongboxes", --Placeholder ID
   [4000041] = "Campfire", --Placeholder ID
   [4000042] = "Venture Co. Supplies", --Placeholder ID
+  [4000043] = "WANTED", --Placeholder ID 35
+  [4000044] = "Bhondur\'s Bones", --Placeholder ID
+  [4000045] = "Thelsamar Graveyard", --Placeholder ID
+  [4000046] = "Loch Weed", --Placeholder ID
+  [4000047] = "Trash Part", --Placeholder ID
+  [4000048] = "Ironforge Airfield Lake", --Placeholder ID
+  [4000049] = "Rik\'watha Bonfire", --Placeholder ID
+  [4000050] = "Frostmane Armaments", --Placeholder ID
+  [4000051] = "Lost Artifact", --Placeholder ID
 }

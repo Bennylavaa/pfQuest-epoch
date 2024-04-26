@@ -347,7 +347,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26707] = {
     ["T"] = "Frostmane Prisoners",
     ["O"] = "Rescue 3 captured villagers from the Frostmane camps and return to Captain Thunderbrew.",
-    ["D"] = "N$, I have an urgent task for you. Recently, some of our citizens have mysteriously disappeared...at first we didn\'t think anything of it, lots of our citizens run off to Kharanos for various reasons. But it\'s been a few weeks, and none of them have returned.\n\nI\'ve received reports that the Frostmane trolls have built some camps due west of here. I want you to check them out and see if you can find our citizens.",
+    ["D"] = "$N, I have an urgent task for you. Recently, some of our citizens have mysteriously disappeared...at first we didn\'t think anything of it, lots of our citizens run off to Kharanos for various reasons. But it\'s been a few weeks, and none of them have returned.\n\nI\'ve received reports that the Frostmane trolls have built some camps due west of here. I want you to check them out and see if you can find our citizens.",
   },
   [26183] = {
     ["T"] = "Recovering History",
@@ -377,7 +377,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26476] = {
     ["T"] = "Ram Riding",
     ["O"] = "Learn Apprentice Riding from Ultham Ironhorn, then speak to Veron Amberstill in Dun Morogh to claim your ram.",
-    ["D"] = "So you\'re here for a ram are you? It just so happens that I was expecting you! Some mysterious benefactor left us payment for a simple ram and it is addressed to you by name, N$. However they did not pay for your training, so I am afraid you will still have to pay for that.\n\nSpeak to Veron Amberstill just outside of the pen after you have acquired training, he runs this ranch and sells the rams. If you do not have the funds yet you may return later.",
+    ["D"] = "So you\'re here for a ram are you? It just so happens that I was expecting you! Some mysterious benefactor left us payment for a simple ram and it is addressed to you by name, $N. However they did not pay for your training, so I am afraid you will still have to pay for that.\n\nSpeak to Veron Amberstill just outside of the pen after you have acquired training, he runs this ranch and sells the rams. If you do not have the funds yet you may return later.",
   },
   [26174] = {
     ["T"] = "Ore for Grumnal",
@@ -554,7 +554,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 6 Pristine Strider Feathers for Aquamentus within the Blazing Hills.",
     ["D"] = "I worry that closing the vents alone will not be able to quench the fury within my brethren and I can not do that alone.\nThere is one who can however... with a certain amount of stroking his ego.\nAir is an important force within the world and key to balance, driving forest fires, cooling the sweat on a mortals brow.\nI will elaborate in good time but for now all you need know is I need an offering of the lightest feathers in the hills. These can be found on Striders throughout the area, I do not know why they pluck and wear the feathers but they are the highest quality around. See to this mortal.",
   },
-   [26691] = {
+  [26691] = {
     ["T"] = "An Audience With Air",
     ["O"] = "Speak with Aquamentus to receive passage to the shrine of Aeromir.",
     ["D"] = "With the vents cleared I can be sure that no more of my kin will succumb to fury however this does little to help those who are already consumed by it.\nWhen you are ready speak to me and I will send you with the offering to speak with Aeromir. I need you to be my voice and ask of him the capacity to cool my brethren. Can you do this?",
@@ -703,6 +703,96 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Watermelon Punch",
     ["O"] = "Collect 4 Juicy Watermelons from Dandred\'s Fold in the Alterac Mountains for Neema in Southshore.",
     ["D"] = "The food we serve at the inn comes from locally sourced produce. Every year around this time we usually receive our shipment of watermelons from Hillsbrad, but I just learned the watermelon crop failed and there won\'t be any this year. This is a disaster, $N. Without the watermelons I won\'t be able to make my famous Watermelon Punch! \nA shady character was in the inn the other night and he was spitting watermelon seeds. I asked him where he got them from and he said some place called Dandred\'s Fold up north was growing watermelons. Could you go there and see if you can get some watermelons for me? Only the juiciest ones will do!",
+  },
+  [26332] = {
+    ["T"] = "Lost Artifacts",
+    ["O"] = "Recover 5 Lost Artifacts from Ironband\'s Excavation Site and return to Aldren Cordon in Loch Modan.",
+    ["D"] = "Those damn troggs, always messing things up! We had a perfectly good excavation before they decided to come here. It\'s almost like the universe hates us dwarves.\n\nIn the haste of evacuating, we left some valuable artifacts in the excavation site. Magni himself ordered this dig, and we\'ll be in trouble if those are lost! Would you do us a favor and recover some of the artifacts for us?",
+  },
+  [2038] = {
+    ["T"] = "Bingles\' Missing Supplies",
+    ["O"] = "Find and return Bingles\' supplies:\n\nBingles\' Wrench, Bingles\' Screwdriver, Bingles\' Hammer, and Bingles\' Blastencapper.",
+    ["D"] = "As if crashing into the Loch wasn\'t bad enough, troggs from the nearby island attacked me and stole my tools and special Blastenheimer Blastencapper explosives. With no gyrocopter and no explosives, the movement has no chance!\n\nGet my tools back and find my Blastencapper explosives, $N. For Gnomeregan! ",
+  },
+  [26333] = {
+    ["T"] = "Medicinal Restocking",
+    ["O"] = "Collect 8 Loch Weeds from The Loch and return to Kali Healtouch in Thelsamar.",
+    ["D"] = "I\'m so glad you\'re here, $N! I\'m running low on medicinal supplies, and I need your help. The guards refuse to venture to The Loch and retrieve what I need.\n\nEver since the threshadons became more aggresive, it\'s been harder and harder to get the Loch Weed that grows in the water. Do you think you could go and grab some, so that I can restock my potions?",
+  },
+  [26334] = {
+    ["T"] = "Securing the Loch",
+    ["O"] = "Kill 10 Young Threshadons and return to Mountaineer Ozmok in Thelsamar.",
+    ["D"] = "Aye, there be work that need doing, $c. My job as guard not only requires me to look out for the land, but the water too! There is danger in The Loch, and it\'s causing trouble around these parts.\n\nThe threshadons that inhabit The Loch have been given free reign for far too long. Just recently one of our residents here in Thelsamar was nearly killed by one while fishing! I need you to go and thin their population, so that it becomes safe once again for our people.",
+  },
+  [26335] = {
+    ["T"] = "WANTED: Mother Tessa",
+    ["O"] = "Kill Mother Tessa and bring her head to Magistrate Bluntnose of Thelsamar",
+    ["D"] = "By order of the Magistrate of Thelsamar:\n\nMother Tessa, a nickname given to a dangerous threshadon that roams The Loch, is hereby sentenced to death. After several gruesome deaths tied to her, citizens are warned not to go fishing in The Loch until the threat is resolved.\n\nAdventurers wishing to claim the bounty on Mother Tessa should be warned that she is far larger and more powerful than standard threshadons. A reward will be provided when proof of her death is shown to Magistrate Bluntnose in Thelsamar.",
+  },
+  [26331] = {
+    ["T"] = "A Proper Sendoff",
+    ["O"] = "Recover Bhondur\'s bones from the Silver Stream Mine and return to Yanni Stoutheart in Thelsamar.",
+    ["D"] = "Before the troggs came, my husband, Bhondur, was a miner that worked in the Silver Stream Mine north of here. He labored hard to provide for his family, and was a caring man.\n\nThen the troggs came, and they showed no mercy to those in the mine. My dearest Bhondur was torn to shreds, and I miss him greatly. His bones still remain in the mine, and while I have come to terms with his death, I wish to bury him properly in the graveyard here.\n\nWould you help a grieveing widow, $N? Could you go to the Silver Stream Mine, recover Bhondur\'s bones, and bury them at the Thelsamar graveyard?",
+  },
+  [26262] = {
+    ["T"] = "The Ironforge Airfield",
+    ["O"] = "Take the flight to the Ironforge Airfield, then speak to Girda Thunderbrew near the bunker to the east.",
+    ["D"] = "Have you heard of the Ironforge Airfield, $R? Aye, I personally prefer gryphons, but in years past we dwarves were also known for our aerial machinery. After the Second and Third wars we lost most of our flying machines, but King Magni ordered construction of a mighty airfield so that we may rebuild those machines.\n\nBit of a long winded way of askin\' ye, but would you like a free trip to the airfield? I expect an adventurer like you could help out!",
+  },
+  [26270] = {
+    ["T"] = "The Ironforge Airfield",
+    ["O"] = "Look around the Airfield, and assist 3 people with their problems.",
+    ["D"] = "Wonderful, we could surely use ye here. The Airfield is a beautiful joining of Dwarf and Gnome, working together to create aerial control for the Alliance.\n\nThings are a bit slow at the moment, as you can see that there is a plane stuck on the runway. If you wandered about the place you will surely find people in need of you!",
+  },
+  [26264] = {
+    ["T"] = "Assisting Nonere",
+    ["O"] = "Gather 8 Hearty Eagle Breasts from Morogh Eagles found south of the Airfield.",
+    ["D"] = "Oi! Ye seem like a lost new face, certainly a venturing type. Ye lookin\' for work?\n\nGood, my stocks are gettin\' low and the fellas up here are expecting a meal soon. Could you be a right lady and fetch some fowl nearby? The eagles I mean. A couple\'a hearty breasts will do great!",
+  },
+  [26265] = {
+    ["T"] = "Assisting Nonere",
+    ["O"] = "Collect 5 pelts from nearby Elder Ice Claw Bears, you can find them south-east of the Airfield, east of the frozen lake.",
+    ["D"] = "Now now, before you go runnin\' off I have a second task for ye. Don't worry, I\'ll pay ya yer due. I figure you are the kinda $R that has slain a bear or two in yer lifetime, am I right? Down to the south-east o\' here there\'s a right good den of those beasties. Could you grab a couple pelts for me to fashion goodies with?",
+  },
+  [26266] = {
+    ["T"] = "Assisting Topsy",
+    ["O"] = "Use the cleaning kit on 6 Stormpike Mountaineers or Dun Morogh Mountaineers in the Airfield.",
+    ["D"] = "Hey there! I am quite behind on my duties, do you think you could help out? I was supposed to go around cleaning some of the Mountaineers\' guns, but I have been busy trying to fix this darn extractor. Seems like it is always broken...\n\nAh, but here. Cleaning a gun is easy, $N. Just take this kit and go around offering the service. Just a few cleaned guns will save me so much time!",
+  },
+  [26267] = {
+    ["T"] = "Assisting Topsy",
+    ["O"] = "Head to the ice lake, place the core extractor, and defend it. Talk to Herble Bodywinkle for the core extractor.",
+    ["D"] = "While you were gone I thankfully managed to fix this machine. Say, would you be willing to help out again? I will pay you this time!\n\nThis machine is called an Ice Core Extractor, we use it to drill into the ice lake to the south and study the contents of the ice. It gives us much useful information about our climate, and whether the siege engines can drive over the ice or not.\n\nJust take it to the deepest part of the lake, south of the teeny tiny island in the middle of the lake. You may have to defend it from wildlife!",
+  },
+  [26268] = {
+    ["T"] = "Assisting Wizzle",
+    ["O"] = "Collect 12 parts scattered around the airfield.",
+    ["D"] = "Yes yes, what is it? I am quite busy.\n\nOh you\'re just looking for things to do? I can\'t imagine your overwhelming boredom, but yes I suppose I can give you a task or two. As you may know this airfield is fairly new, and thus you are likely to find a lot of trash around here. Grab some of it, we will see if any of it is useful.",
+  },
+  [26269] = {
+    ["T"] = "Assisting Wizzle",
+    ["O"] = "Help repair the plane.",
+    ["D"] = "For your next boring task I would like you to figure out why there is a plane sitting on the runway. I see Engineer Cobalt is with it, so I presume there is some issue. I cannot be bothered frankly, I am more worried about this plane I was paid to fix. Go check up on him, see if he could use some of your help.\n\nMaybe you\'ll have some fun, maybe you won\'t, I don\'t care.",
+  },
+  [26271] = {
+    ["T"] = "Delivering Food to Kelsey",
+    ["O"] = "Locate Kelsey Steelspark and deliver the food that Girda gave you.",
+    ["D"] = "You\'ve done some great work around the airfield, you right cheered up some fellas\' days. One final task from me though, do you think you could take this meal over to a Gnome by the name of Kelsey Steelspark? She is a scout keeping an eye on the Frostmane Troll village to the south-west.\n\nBest way to find her would be to hug the west side of the ice lake.",
+  },
+  [26272] = {
+    ["T"] = "Frostmane Clearing",
+    ["O"] = "Kill 12 Frostmane Trolls in Rik\'watha, south west of the Ironforge Airfield.",
+    ["D"] = "I was sent here to keep an eye on these trolls, to make sure they don\'t get up to anything fishy. Well, $C, they are up to something fishy.\n\nI was surprised when their High Priest, a troll named Rikkari, spotted me and called guards to attack me. I managed to escape, but they got a good hit on my knee. I need you to go in there and prune their numbers a bit, but don\'t engage the High Priest!",
+  },
+  [26273] = {
+    ["T"] = "Destroying the Armaments",
+    ["O"] = "Use any fire to light the Unlit Torch, then burn 6 Frostmane Armaments in Rik\'watha. Rik'watha has a bonfire you can use to light the torch.",
+    ["D"] = "The Frostmane trolls in Rik\'watha are preparing for an assault on the Airfield. I learned about this shortly before I was attacked, they have caches of weapons stored around the village that I thought merely contained food.\n\nHere, I fashioned a makeshift torch for you. Take it to their bonfire, or any fire for that matter, and set those armaments ablaze!",
+  },
+  [26274] = {
+    ["T"] = "High Priest Rikkari",
+    ["O"] = "Kill High Priest Rikkari.",
+    ["D"] = "I am feeling much better now already, but sadly I still can\'t help. We need to show the trolls that we can't be so easily defeated. High Priest Rikkari needs to be killed, it is our best chance. We can then only hope that the next leader is less open to attack.\n\nDon\'t underestimate him, he commands power over shadows. I hope you have some friends you can call on.\n\nWhen you\'ve succeeded please report to Fleet Commander Stoneflint in the Airfield. He is in the bunker.",
   },
   [26375] = {
     ["T"] = "Defense of Southshore",
