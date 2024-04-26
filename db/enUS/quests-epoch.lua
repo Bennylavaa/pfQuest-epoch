@@ -894,4 +894,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Deliver Kaela\'s Report to Captain Mynera at Stonetalon Grove in the Stonetalon Mountains.",
     ["D"] = "$N, I appreciate all your assistance dealing with the problems in Windshear Crag. My superior in Stonetalon Grove, Captain Mynera, has requested a report on the status of Windshear Crag, do you think you could bring it to her? To reach Stonetalon Grove, follow the road all the way north.",
   },
+  [26179] = {
+    ["T"] = "Corruption in Shadowglen",
+    ["O"] = "Kill Natook and 8 Frenzied Moonkin and return to Alanea Miststriker at Aldrassil.",
+    ["D"] = "A moonkin colony has taken residence in Shadowglen! We have nothing against moonkin, in fact many are our allies, but this colony has lost touch with Elune and is causing havoc across the forest.\n\nIt is my belief that something has corrupted these moonkin, making them unruly and chaotic. I\'m not sure who or what corrupted them, but I just hope the other creatures of the forest stay pure.\n\nThe colony has taken over a furbolg camp to the east of here. Please take care of them before they cause serious damage to the balance of nature!",
+  },
 }

@@ -141,4 +141,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45450] = "Southshore Crier",
   [45051] = "Wendel Sparkbright",
   [45340] = "Captain Mynera",
+  [45087] = "Alanea Miststriker",
+  [45088] = "Frenzied Moonkin",
 }
