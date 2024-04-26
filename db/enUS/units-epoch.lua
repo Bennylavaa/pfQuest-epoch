@@ -149,4 +149,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45089] = "Natook",
   [45086] = "Nargle",
   [45118] = "Lucina Nightbow",
+  [45119] = "Quartermaster Nyana",
 }
