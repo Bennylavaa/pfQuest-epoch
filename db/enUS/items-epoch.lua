@@ -116,4 +116,9 @@ pfDB["items"]["enUS-epoch"] = {
   [60417] = "Lit Torch",
   [60857] = "Amber Memento",
   [60858] = "Amber Memento",
+  [60063] = "Gnarlpine Amulet",
+  [60058] = "Bloodfeather Egg",
+  [60062] = "Lily Whip",
+  [60059] = "Demon Essence",
+  [60061] = "Demon Essence",
 }
