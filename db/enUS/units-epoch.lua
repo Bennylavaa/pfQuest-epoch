@@ -144,4 +144,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45826] = "Chief Dusthoof",
   [45976] = "Peach",
   [45827] = "Spiritwalker Muata (You have to be dead)",
+  [45087] = "Alanea Miststriker",
+  [45088] = "Frenzied Moonkin",
+  [45089] = "Natook",
+  [45086] = "Nargle",
 }

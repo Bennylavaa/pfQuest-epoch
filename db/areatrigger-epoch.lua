@@ -29,7 +29,7 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 55.60, 34.73, 267 },
     },
   },
-   [4000005] = { --Durnhold Escape
+  [4000005] = { --Durnhold Escape
     ["coords"] = {
       [1] = { 76.47, 46.64, 267 },
     },
