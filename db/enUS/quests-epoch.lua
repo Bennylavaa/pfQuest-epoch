@@ -904,4 +904,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring 10 Gnarlpine Amulets to Sentinel Amara Nightwalker outside of Dolanaar.",
     ["D"] = "The road to Darnassus must be kept safe. Travelers heading from Dolanaar to Darnassus have been reporting ruthless attacks by corrupted furbolgs from the Gnarlpine tribe.\n\nImportant news and commerce travels to and from Darnassus by way of this road daily. We cannot afford to have a rogue band of heathens terrorizing people.\n\nTake up arms in the name of the sacred forest, rogue. Their den lies somewhere below this vantage point. Bring me their sacred amulets and report back to me.",
   },
+  [26178] = {
+    ["T"] = "Bloodfeather Eggs",
+    ["O"] = "Collect 6 Bloodfeather Eggs and return to Alanna Raveneye at the Oracle Glade.",
+    ["D"] = "Have you seen these harpies! They have invaded this land, it is true, but they are also magical, beautiful creatures.\n\nI study magic, and I think the eggs they plant could possibly contain magical properties. Do you think you could bring me some eggs so I can examine them?",
+  },
 }

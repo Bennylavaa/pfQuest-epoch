@@ -51,4 +51,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000049] = "Rik\'watha Bonfire", --Placeholder ID
   [4000050] = "Frostmane Armaments", --Placeholder ID
   [4000051] = "Lost Artifact", --Placeholder ID
+  [4001000] = "Bloodfeather Egg", --Placeholder ID
 }

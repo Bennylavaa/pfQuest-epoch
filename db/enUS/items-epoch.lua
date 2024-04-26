@@ -115,4 +115,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60418] = "Unlit Torch",
   [60417] = "Lit Torch",
   [60063] = "Gnarlpine Amulet",
+  [60058] = "Bloodfeather Egg",
 }
