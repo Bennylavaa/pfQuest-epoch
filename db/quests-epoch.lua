@@ -2406,7 +2406,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 10,
   },
-  [934] = "_", -- [OLD] Crown Of The Earth
+  [934] = "_", -- OLD Crown Of The Earth
   [26182] = {
     ["start"] = {
       ["U"] = { 3604 },
@@ -2440,8 +2440,8 @@ pfDB["quests"]["data-epoch"] = {
       ["I"] = { 60059 },
     },
     ["lvl"] = 6,
-    ["race"] = 77,
     ["next"] = 26181,
+    ["race"] = 77,
   },
   [26181] = {
     ["start"] = {
@@ -2467,8 +2467,8 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 2152, 2008, 2010, 2009,  },
     },
     ["lvl"] = 8,
-    ["race"] = 77,
     ["next"] = 26177,
+    ["race"] = 77,
   },
   [26177] = {
     ["start"] = {
@@ -2481,7 +2481,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 2162, 45086, 1993 },
     },
     ["lvl"] = 9,
-    ["race"] = 77,
     ["pre"] = { 26176 },
+    ["race"] = 77,
   },
 }
