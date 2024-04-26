@@ -894,5 +894,4 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Deliver Kaela\'s Report to Captain Mynera at Stonetalon Grove in the Stonetalon Mountains.",
     ["D"] = "$N, I appreciate all your assistance dealing with the problems in Windshear Crag. My superior in Stonetalon Grove, Captain Mynera, has requested a report on the status of Windshear Crag, do you think you could bring it to her? To reach Stonetalon Grove, follow the road all the way north.",
   },
-
 }
