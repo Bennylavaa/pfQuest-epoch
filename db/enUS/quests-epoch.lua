@@ -899,4 +899,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill Natook and 8 Frenzied Moonkin and return to Alanea Miststriker at Aldrassil.",
     ["D"] = "A moonkin colony has taken residence in Shadowglen! We have nothing against moonkin, in fact many are our allies, but this colony has lost touch with Elune and is causing havoc across the forest.\n\nIt is my belief that something has corrupted these moonkin, making them unruly and chaotic. I\'m not sure who or what corrupted them, but I just hope the other creatures of the forest stay pure.\n\nThe colony has taken over a furbolg camp to the east of here. Please take care of them before they cause serious damage to the balance of nature!",
   },
+  [487] = {
+    ["T"] = "The Road to Darnassus",
+    ["O"] = "Bring 10 Gnarlpine Amulets to Sentinel Amara Nightwalker outside of Dolanaar.",
+    ["D"] = "The road to Darnassus must be kept safe. Travelers heading from Dolanaar to Darnassus have been reporting ruthless attacks by corrupted furbolgs from the Gnarlpine tribe.\n\nImportant news and commerce travels to and from Darnassus by way of this road daily. We cannot afford to have a rogue band of heathens terrorizing people.\n\nTake up arms in the name of the sacred forest, rogue. Their den lies somewhere below this vantage point. Bring me their sacred amulets and report back to me.",
+  },
 }
