@@ -148,4 +148,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45088] = "Frenzied Moonkin",
   [45089] = "Natook",
   [45086] = "Nargle",
+  [45977] = "Race Invigilator",
 }
