@@ -164,4 +164,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45974] = "Spinnaret",
   [45878] = "Manaar the Watcher",
   [45874] = "Ocniir",
+  [45876] = "Akmid",
+  [45875] = "Harborage Guard",
+  [11198] = "Draenei Exile",
+  [45885] = "Moruul",
 }

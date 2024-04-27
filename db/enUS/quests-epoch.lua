@@ -1059,4 +1059,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect an intact Polished Rod from the Lost One Fisherman east of the Harborage.",
     ["D"] = "Look, this is a swamp. There aren\'t a lot of people fishing in these parts so I can only think of one group that has taken my rods, the Lost Ones east. They have some crude but nonetheless effective fisherman in their ranks and I bet one of them has it, could you go and reclaim it for me?",
   },
+  [26651] = {
+    ["T"] = "Karabor Stew",
+    ["O"] = "Collect 10 Massive Crawler Claws from the Silt Crawlers along the eastern coast of the Swamp of Sorrows.",
+    ["D"] = "There are so many mouths to feed around here that I can barely keep a pot of stew on the boil. If I can make a big enough batch though I can keep people fed happily for days. Are you up for getting me some ingredients? Far to the east of here along the coast you will find Silt Crawlers, I want the biggest juiciest claws from them.",
+  },
+  [26652] = {
+    ["T"] = "Eight Legged Fillets",
+    ["O"] = "Collect 10 Engorged Spider Fillets from Deathstrike Tarantula south east of the Harborage.",
+    ["D"] = "If I want to make an exceptional stew we need as much meat as we can get and only the best quality will have the energy a guard needs. South East of here you will find Deathstrike Tarantula, their meat is both gamey and delicious. The bigger the better, go squish some for me and cut out a fillet of their meat.",
+  },
+  [26653] = {
+    ["T"] = "A Real Kick",
+    ["O"] = "Collect 8 Karabor Chili from around the Swamp of Sorrows.",
+    ["D"] = "If I want to give this stew a hell of a kick to keep the guards on alert then we need some strong spice. When we came through the portal some of us dropped along the way seeds from our home world, since then they have become a natural part of the local fauna. When split upon the chili that sprout from them is beyond fiery. Can you get some for me?",
+  },
+  [26654] = {
+    ["T"] = "Karabor Fire Stew",
+    ["O"] = "Deliver Karabor Fire Stew to citizens of the Harborage.",
+    ["D"] = "I feel like this is the finest stew I\'ve produced in some time. The flavours and spice of this can only do one thing for my people, bring them fond memories of home.\nWould you be willing to hand this out to my fellow Draenei?",
+  },
+  [26648] = {
+    ["T"] = "Skins of the Swamp",
+    ["O"] = "Collect Sturdy Crocolisk Skins from Sawtooth Snapper and Rugged Panther Skin from Shadow Panther.",
+    ["D"] = "Psst, hey you. Yes you. Earlier I saw you bringing a bundle of skins to Masat and I\'m wondering if you could help me with a little project.\nMasat is the most prolific leatherworker in the town but I think that if I produce something of high enough quality I can take over outfitting the guards. Would you be willing to get me some skins? They have to be of a much higher quality than the rubbish you brought to Masat.\nFar to the east you\'ll find Sawtooth Snappers and Shadow Panthers bring me their hides.",
+  },
 }
