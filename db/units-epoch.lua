@@ -3972,4 +3972,5 @@ pfDB["units"]["data-epoch"] = {
       [8] = { 78.31, 73.64, 400, 0 },
     },
   },
+  [17106] = "_", -- TBC Unit Vindicator Palanaar
 }
