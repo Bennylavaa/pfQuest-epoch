@@ -999,4 +999,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill 5 Forsaken Seekers, 5 Forsaken Herbalists, and 10 Forsaken Thugs at Bathran\'s Haunt. When finished, return to Delgren the Purifier at Maestra\'s Post.",
     ["D"] = "The Forsaken have made an incursion into Ashenvale. These may have once been my people, but I\'ve seen firsthand that they bring nothing but death wherever they tread. I won\'t allow them to maintain a presence here.\n\nGo to them at Bathran\'s Haunt in the north and put an end to whatever it is they\'re doing up there.",
   },
+  [991] = {
+    ["T"] = "Raene\'s Cleansing",
+    ["O"] = "Find Teronis in Ashenvale.",
+    ["D"] = "$N, a longtime friend of mine is also aiding the Sentinels here in Ashenvale, but he has yet to return.$B$BHe had leads on finding an item that he thought could slow the furbolg attacks on our people--a rod created by a now-dead, evil wizard.$B$BBefore he left here, he mentioned seeking out a gem for the rod.$B$BHe mentioned the gem possibly being hidden at the shrine in Lake Falathim at the base of the mountain to the west. The gem was being held there before it was overrun.$B$BFind my friend, $N, please.",
+  },
 }

@@ -3973,4 +3973,12 @@ pfDB["units"]["data-epoch"] = {
     },
   },
   [17106] = "_", -- TBC Unit Vindicator Palanaar
+  [3691] = {
+    ["fac"] = "A",
+    ["lvl"] = "60",
+    ["coords"] = {
+      [1] = { 36.6, 49.6, 331, 600 },
+    },
+    ["rnk"] = "1",
+  },
 }
