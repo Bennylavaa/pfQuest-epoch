@@ -994,4 +994,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Achieve victory in Warsong Gulch 3 times, then return to Sentinel Farsong in Silverwing Grove in Ashenvale. (This quest can be completed once every week)",
     ["D"] = "The Silverwing Sentinels are at war with the Warsong Outriders due to the destruction the Orcs are causing to the forest. There are, however, more reasons to defend this particular forest than plain love for nature.\n\nThe forest forms a strategic barrier that makes Ashenvale defendable against a large-scale attack. Without it, Astranaar would last a day or two before being annexed to the Barrens.\n\nDo your part in fighting the Warsong Outriders, $N! For the Alliance!",
   },
+  [26245] = {
+    ["T"] = "Forsaken Looters",
+    ["O"] = "Kill 5 Forsaken Seekers, 5 Forsaken Herbalists, and 10 Forsaken Thugs at Bathran\'s Haunt. When finished, return to Delgren the Purifier at Maestra\'s Post.",
+    ["D"] = "The Forsaken have made an incursion into Ashenvale. These may have once been my people, but I\'ve seen firsthand that they bring nothing but death wherever they tread. I won\'t allow them to maintain a presence here.\n\nGo to them at Bathran\'s Haunt in the north and put an end to whatever it is they\'re doing up there.",
+  },
 }
