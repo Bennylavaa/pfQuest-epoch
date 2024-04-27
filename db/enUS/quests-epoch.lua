@@ -1009,4 +1009,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 15 Foulweald Amulets and return to Sentinel Thenysil in Astranaar.",
     ["D"] = "If you listen closely, you can hear the strained cries of the Foulweald tribe. These damned furblogs plague this land, terrorizing villages and hunting civilians. It\'s time to bring the fight to them, and we will strike hard!\n\nThey made their camp south of the road east, shortly before you reach Raynewood Retreat. We must show no mercy, $N. Kill them all, and bring me the amulets they wear to mark their tribe as proof of their demise.\nGood luck, Astranaar is counting on you.\n\n",
   },
+  [26363] = {
+    ["T"] = "Report to Kaela",
+    ["O"] = "Report to Kaela Shadowspear who overlooks the valley entering Windshear Crag in the Stonetalon Mountains.",
+    ["D"] = "We struck a decisive blow to the Foulweald today, but I have recieved information that threats in Stonetalon Mountains require attending to. Apparently, the Venture Co. that resides in Windshear Crag has started up operations. This cannot be tolerated, and must be put to a stop.\n\nI would like for you to report to Kaela Shadowspear, who is overseeing our attack on the Venture Co. operations. You can find her overlooking the entrance to Windshear Crag.",
+  },
+  [26237] = {
+    ["T"] = "Annals of Hajiri",
+    ["O"] = "Find the traveling scholar in Ameth\'Aran.",
+    ["D"] = "Greetings, traveler. I am Tyraeth, a priestess in the Sisterhood of Elune. Though I am loath to say more than that, I fear I am at an impasse with my task.\n\nDating back to before the War of the Ancients, in the height of the Kaldorei Empire, a city existed by the name of Hajiri. From it I require its annals. Normally, this would be impossible. However, a traveling scholar recently passed through Astranaar that seemed very convinced that the naga were pursuing dated records from before the empire\'s fall.\n\nThe other end of my task does not permit me to leave Astranaar, but you have freedom of movement. If you would help a priestess, please seek out the traveling scholar. She said she was headed the way of Ameth\'aran in Darkshore.",
+  },
+  [26238] = {
+    ["T"] = "Annals of Hajiri",
+    ["O"] = "Defend Ashalen in Ameth\'Aran until she finishes breaching the ward.",
+    ["D"] = "My name is Ashalen and I am a scholar of the lost arts. I believe I know where to find what it is Tyraeth is searching for, but I am unable to stop what I am doing to help you. However, I would like to operate on exchange.\n\nWithin the ruins of Ameth\'Aran is a focus used by the magical practitioners of old. It is protected by wards which have long since degraded by now, though remain formidable in their own right.\n\nProtect me while I breach the ward, and I will help you obtain what Tyraeth is looking for.",
+  },
+  [26239] = {
+    ["T"] = "Annals of Hajiri",
+    ["O"] = "Speak to Ashalen at the Zoram Stand in Ashenvale to confront Liallas.",
+    ["D"] = "Seeing as you've helped me, it\'s time I explain why I need this focus.\n\nThe foul sea witch, Liallas, has been meticulously searching ancient ruins in search of rather dated and frankly mundane texts. Regardless of the importance of these texts, she has made the critical mistake of exposing herself.\n\nIn the War of the Ancients, my family stood with the Kaldorei Resistance, which placed us at odds with Liallas. According to my family\'s texts, she erected a nearly impenetrable ward. With this focus in hand, she won\'t be able to hide behind her foul magics.\n\nFind me at the Zoram Strand. Together, we will crush Liallas and get Tyraeth her coveted text.",
+  },
 }

@@ -152,4 +152,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45119] = "Quartermaster Nyana",
   [45977] = "Race Invigilator",
   [3691] = "Raene Wolfrunner",
+  [45193] = "Tyraeth Morningshade",
+  [45190] = "Ashalen",
+  [45191] = "Ashalen",
+  [45192] = "Liallas",
 }
