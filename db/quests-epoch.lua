@@ -2740,5 +2740,31 @@ pfDB["quests"]["data-epoch"] = {
   [9518] = "_", -- Agents of Destruction
   [9521] = "_", -- Report from the Northern Front
   [9516] = "_", -- Destroy the Legion A
+  [1093] = { ---- Prequest Removed
+    ["start"] = {
+      ["U"] = { 4201 },
+    },
+    ["end"] = {
+      ["U"] = { 4201 },
+    },
+    ["obj"] = {
+      ["I"] = { 5734 },
+    },
+    ["lvl"] = 21,
+    ["min"] = 16,
+  },
+  [1071] = { ---- Prequest Removed
+    ["start"] = {
+      ["U"] = { 4077 },
+    },
+    ["end"] = {
+      ["U"] = { 4077 },
+    },
+    ["obj"] = {
+      ["U"] = { 3989, 3991 },
+    },
+    ["lvl"] = 21,
+    ["min"] = 17,
+    ["race"] = 77,
   },
 }
