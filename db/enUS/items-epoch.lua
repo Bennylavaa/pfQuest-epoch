@@ -131,4 +131,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61030] = "Polished Rod",
   [61033] = "Polished Rod",
   [60414] = "Water Vine",
+  [60406] = "Mirkfallon Essence ",
 }
