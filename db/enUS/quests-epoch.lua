@@ -164,6 +164,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Lay Joseph Strinbrow\'s spirit to rest and return to Luna Strinbrow at the Deathknell graveyard.",
     ["D"] = "Greetings, $N. I assume you\'re wondering why I kneel at this grave. It belongs to my husband, Joseph.\n\nBefore the plague, Joseph was a miner that worked in the Night Web\'s Hollow, a mine northwest of here. He was bit by a spider and died tragically, leaving me alone in life. As you know, the plague came and now we must pay our dues.\n\nBut Joseph\'s spirit is restless, terrorizing Forsaken that try to claim the mine. There was no body to recover, as the spiders ate his flesh clean, but I still claim this grave for him. I think that if you bring me something of his, we can bury it here and lay his spirit to rest.",
   },
+  [26192] = {
+    ["T"] = "Sha\'gri",
+    ["O"] = "Kill the Spirit of Sha\'gri and return to Bom\'bay at Sen\'jin Village.",
+    ["D"] = "Ello mon. Long ago there was a troll named Sha\'gri that was da leader of the Echo Isles. He died when an adventurer not unlike yourself killed him.\n\nBut now, his spirit be angry and spreading its wrath across the isle. He must be stopped! You can find a shrine da trolls built for him at the top of the northernmost isle. Destroy it, so his presence be gone.",
+  },
   [26299] = {
     ["T"] = "Hand of Azora",
     ["O"] = "Locate 3 clues to Tannos\' location from Defias Footpads and Defias Smugglers in the area.",
@@ -1083,5 +1088,30 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Vines of the Lake",
     ["O"] = "Deliver the Crate of Water Vines to Centrica Nightsong at Stonetalon Grove.",
     ["D"] = "Your assistance was much appreciated, $N. I went ahead and placed the water vines into a crate, so if you could deliver them to my sister that would be great! You can find her right in the inn up here. She will be so pleased to finally have these herbs, I know she has been trying to get ahold of these for some time now.",
+  },
+  [26651] = {
+    ["T"] = "Karabor Stew",
+    ["O"] = "Collect 10 Massive Crawler Claws from the Silt Crawlers along the eastern coast of the Swamp of Sorrows.",
+    ["D"] = "There are so many mouths to feed around here that I can barely keep a pot of stew on the boil. If I can make a big enough batch though I can keep people fed happily for days. Are you up for getting me some ingredients? Far to the east of here along the coast you will find Silt Crawlers, I want the biggest juiciest claws from them.",
+  },
+  [26652] = {
+    ["T"] = "Eight Legged Fillets",
+    ["O"] = "Collect 10 Engorged Spider Fillets from Deathstrike Tarantula south east of the Harborage.",
+    ["D"] = "If I want to make an exceptional stew we need as much meat as we can get and only the best quality will have the energy a guard needs. South East of here you will find Deathstrike Tarantula, their meat is both gamey and delicious. The bigger the better, go squish some for me and cut out a fillet of their meat.",
+  },
+  [26653] = {
+    ["T"] = "A Real Kick",
+    ["O"] = "Collect 8 Karabor Chili from around the Swamp of Sorrows.",
+    ["D"] = "If I want to give this stew a hell of a kick to keep the guards on alert then we need some strong spice. When we came through the portal some of us dropped along the way seeds from our home world, since then they have become a natural part of the local fauna. When split upon the chili that sprout from them is beyond fiery. Can you get some for me?",
+  },
+  [26654] = {
+    ["T"] = "Karabor Fire Stew",
+    ["O"] = "Deliver Karabor Fire Stew to citizens of the Harborage.",
+    ["D"] = "I feel like this is the finest stew I\'ve produced in some time. The flavours and spice of this can only do one thing for my people, bring them fond memories of home.\nWould you be willing to hand this out to my fellow Draenei?",
+  },
+  [26648] = {
+    ["T"] = "Skins of the Swamp",
+    ["O"] = "Collect Sturdy Crocolisk Skins from Sawtooth Snapper and Rugged Panther Skin from Shadow Panther.",
+    ["D"] = "Psst, hey you. Yes you. Earlier I saw you bringing a bundle of skins to Masat and I\'m wondering if you could help me with a little project.\nMasat is the most prolific leatherworker in the town but I think that if I produce something of high enough quality I can take over outfitting the guards. Would you be willing to get me some skins? They have to be of a much higher quality than the rubbish you brought to Masat.\nFar to the east you\'ll find Sawtooth Snappers and Shadow Panthers bring me their hides.",
   },
 }

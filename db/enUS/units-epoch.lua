@@ -119,6 +119,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45415] = "Captain Thallen",
   [6577] = "Bingles Blastenheimer",
   [45328] = "Mother Tessa",
+  [45109] = "Spirit of Sha'gri",
   [45148] = "Girda Thunderbrew",
   [45156] = "Nonere Duskdigger",
   [45154] = "Wizzle Nimbledigit",
@@ -169,4 +170,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45338] = "Bapper Tookwinkle",
   [45339] = "Vallourek Nightsong",
   [45335] = "Hunter Kyana",
+  [45876] = "Akmid",
+  [45875] = "Harborage Guard",
+  [11198] = "Draenei Exile",
+  [45885] = "Moruul",
 }

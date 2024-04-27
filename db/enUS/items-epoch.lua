@@ -135,4 +135,10 @@ pfDB["items"]["enUS-epoch"] = {
   [60405] = "Courser Fur",
   [60411] = "Scorched Scale",
   [60412] = "Raging Core",
+  [61034] = "Massive Crawler Claw",
+  [61035] = "Engorged Spider Fillet",
+  [61036] = "Karabor Chili",
+  [61038] = "Karabore Fire Stew",
+  [61028] = "Sturdy Crocolisk Skin",
+  [61029] = "Rugged Panther Skin",
 }

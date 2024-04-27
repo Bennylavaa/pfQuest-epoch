@@ -52,10 +52,14 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000050] = "Frostmane Armaments", --Placeholder ID
   [4000051] = "Lost Artifact", --Placeholder ID
   [4000052] = "Weaveleaf", --Placeholder ID
+  [4000053] = "WANTED", --Placeholder ID
+  [4000054] = "Ocniir\'s Chest", --Placeholder ID
+  [4000055] = "Fire Snap Chili", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID
   [4000053] = "WANTED", --Placeholder ID
   [4000054] = "Ocniir\'s Chest", --Placeholder ID
   [4001004] = "Water Vine", --Placeholder ID
+  [4001003] = "Shrine of Sha'gri", --Placeholder ID
 }
