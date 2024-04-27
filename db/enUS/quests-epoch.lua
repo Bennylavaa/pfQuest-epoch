@@ -989,4 +989,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Reach 1st, 2nd or 3rd place on the podium during a Mirage Raceway event.",
     ["D"] = "When you go out to race you\'ll be representing us, the Gnome Racing Team. I expect the best from you so here\'s the deal. If you reach the top 3 podium positions at the end of the race I\'ve got an extra special gift for you. How does that sound? Get out there and burn some rubber!",
   },
+  [26718] = {
+    ["T"] = "Fight for Warsong Gulch",
+    ["O"] = "Achieve victory in Warsong Gulch 3 times, then return to Sentinel Farsong in Silverwing Grove in Ashenvale. (This quest can be completed once every week)",
+    ["D"] = "The Silverwing Sentinels are at war with the Warsong Outriders due to the destruction the Orcs are causing to the forest. There are, however, more reasons to defend this particular forest than plain love for nature.\n\nThe forest forms a strategic barrier that makes Ashenvale defendable against a large-scale attack. Without it, Astranaar would last a day or two before being annexed to the Barrens.\n\nDo your part in fighting the Warsong Outriders, $N! For the Alliance!",
+  },
 }

@@ -2606,7 +2606,7 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 60,
     ["pre"] = { 26665 },
   },
-  [9517] = { ---- A Shameful Waste TBC Quest
+  [9517] = { ---- A Shameful Waste TBC Quest Starting Unit Removed
     ["start"] = {
       ["U"] = { 3848 },
     },
@@ -2618,6 +2618,19 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["min"] = 24,
     ["lvl"] = 28,
+    ["race"] = 77,
+  },
+  [7863] = "_", -- Sentinel Basic Care Package
+  [7864] = "_", -- Sentinel Standard Care Package
+  [7865] = "_", -- Sentinel Advanced Care Package
+  [26718] = {
+    ["start"] = {
+      ["U"] = { 14733 },
+    },
+    ["end"] = {
+      ["U"] = { 14733 },
+    },
+    ["lvl"] = 60,
     ["race"] = 77,
   },
 }
