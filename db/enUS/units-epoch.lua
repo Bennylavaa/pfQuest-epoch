@@ -174,4 +174,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45875] = "Harborage Guard",
   [11198] = "Draenei Exile",
   [45885] = "Moruul",
+  [46595] = "Tessco Jinglepocket",
+  [46596] = "Morrison Copperpinch",
+  [46598] = "Leedil Jinglepocket",
 }

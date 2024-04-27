@@ -141,4 +141,8 @@ pfDB["items"]["enUS-epoch"] = {
   [61038] = "Karabore Fire Stew",
   [61028] = "Sturdy Crocolisk Skin",
   [61029] = "Rugged Panther Skin",
+  [63142] = "Filled Box of Corehound Manure",
+  [63143] = "Box of Corehound Manure",
+  [63155] = "Essence of Starlight",
+  [63156] = "Marvelous Owlkin Obtaining Neuralizer",
 }

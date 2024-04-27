@@ -1114,4 +1114,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect Sturdy Crocolisk Skins from Sawtooth Snapper and Rugged Panther Skin from Shadow Panther.",
     ["D"] = "Psst, hey you. Yes you. Earlier I saw you bringing a bundle of skins to Masat and I\'m wondering if you could help me with a little project.\nMasat is the most prolific leatherworker in the town but I think that if I produce something of high enough quality I can take over outfitting the guards. Would you be willing to get me some skins? They have to be of a much higher quality than the rubbish you brought to Masat.\nFar to the east you\'ll find Sawtooth Snappers and Shadow Panthers bring me their hides.",
   },
+  [27561] = {
+    ["T"] = "Contract #1001: Corehound Manure",
+    ["O"] = "Fill a box with Corehound manure from The Beast\'s room in Blackrock Spire.",
+    ["D"] = "I have jobs available for contractors willing to assemble a team. We all like food, right? Well here\'s one that benefits the produce department.\nContract #1001: Obtain Corehound manure from within Blackrock Spire\nQuantity: One Carton",
+  },
+  [27570] = {
+    ["T"] = "Supplies from Eastern Plaguelands",
+    ["O"] = "Capture one of the towers in Eastern Plaguelands for Morrison Copperpinch in Ratchet.",
+    ["D"] = "We\'ve only just begun to explore how the changed flora and fauna in the Eastern Plaguelands can be used to best effect. It\'s a dangerous area, and we\'ve had more agent fatalities there than any other place on Azeroth.\nMaybe you can help make it a safer place by taking control of one of the towers the Argent Dawn has established there? Then I can let my agents know it\'s a safe harbor, if they need it.",
+  },
+  [27576] = {
+    ["T"] = "The Stars Over Winterspring",
+    ["O"] = "Use the Marvelous Owlkin Obtaining Neuralizer to siphon 5 Essence of Starlight from owlbeasts in Winterspring.",
+    ["D"] = "I hope you\'ve noticed that goods made by Smokywood Pastures has that little extra *something* that makes them special. It\'s not a trick - it\'s a tiny infusion of starlight in everything we make.\nOur starlight supplies are running low, but I have recently obtained a new tool that can be used to drain starlight from creatures particularly attuned to it, like the owlbeasts in Winterspring. Just weaken and drain, easy-peasy. Interested in the job?",
+  },
 }

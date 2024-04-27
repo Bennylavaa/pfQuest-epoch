@@ -55,6 +55,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000053] = "WANTED", --Placeholder ID
   [4000054] = "Ocniir\'s Chest", --Placeholder ID
   [4000055] = "Fire Snap Chili", --Placeholder ID
+  [4000056] = "Corehound Manure", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID
