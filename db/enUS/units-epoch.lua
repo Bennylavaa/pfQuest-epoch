@@ -156,4 +156,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45190] = "Ashalen",
   [45191] = "Ashalen",
   [45192] = "Liallas",
+  [3880] = "Sentinel Melyria Frostshadow",
+  [3901] = "Illiyana",
 }
