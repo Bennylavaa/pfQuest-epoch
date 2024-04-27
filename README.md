@@ -90,5 +90,5 @@ Western Plaguelands|51-58|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Eastern Plaguelands|53-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Winterspring|53-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Deadwind Pass|55-60|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Moonglade|55-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Moonglade|55-60|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Silithus|55-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
