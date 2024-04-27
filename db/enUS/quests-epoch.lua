@@ -973,7 +973,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Balancing the Forest",
     ["O"] = "Kill 3 Moonkin Oracles and 10 Raging Moonkin and return to Sentinel Glynda Nal\'Shea at Auberdine.",
     ["D"] = "Unfortunately, it appears that the area we cleansed was only part of the colony. The older moonkin lie further east in the forest. It saddens me to have to destroy nature, but we must do what has to be done.\n\nReturn to the moonkin colony, and search further back. We need to fully remove the threat so that Auberdine remains safe.",
-    },
+  },
   [26562] = {
     ["T"] = "Gathering Of Spirits",
     ["O"] = "Gather 8 bushels of Weaveleaf from the coasts of Desolace.",
