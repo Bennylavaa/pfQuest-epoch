@@ -55,4 +55,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID
+  [4000053] = "WANTED", --Placeholder ID
+  [4000054] = "Ocniir\'s Chest", --Placeholder ID
 }

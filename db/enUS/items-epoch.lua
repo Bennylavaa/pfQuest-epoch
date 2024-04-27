@@ -125,4 +125,9 @@ pfDB["items"]["enUS-epoch"] = {
   [61079] = "Cool Sparkling Fresh Water",
   [60416] = "Foulweald Amulet",
   [60174] = "Annals of Hajiri",
+  [61026] = "Thick Crocolisk Skin",
+  [61027] = "Tough Jaguar Skin",
+  [61039] = "Oversized Arachnid Fang",
+  [61030] = "Polished Rod",
+  [61033] = "Polished Rod",
 }

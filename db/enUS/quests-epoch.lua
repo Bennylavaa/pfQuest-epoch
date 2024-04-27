@@ -1029,4 +1029,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Speak to Ashalen at the Zoram Stand in Ashenvale to confront Liallas.",
     ["D"] = "Seeing as you've helped me, it\'s time I explain why I need this focus.\n\nThe foul sea witch, Liallas, has been meticulously searching ancient ruins in search of rather dated and frankly mundane texts. Regardless of the importance of these texts, she has made the critical mistake of exposing herself.\n\nIn the War of the Ancients, my family stood with the Kaldorei Resistance, which placed us at odds with Liallas. According to my family\'s texts, she erected a nearly impenetrable ward. With this focus in hand, she won\'t be able to hide behind her foul magics.\n\nFind me at the Zoram Strand. Together, we will crush Liallas and get Tyraeth her coveted text.",
   },
+  [9610] = {
+    ["T"] = "Pool of Tears",
+    ["O"] = "Obtain 10 Atal\'ai Artifacts and return them to Finmir at the Harborage in the Swamp of Sorrows.",
+    ["D"] = "I am interested in studying Azeroth\'s past and I\'m wondering if you\'d be willing to help?\nThere is a nearby place of historical significance within the swamp that I would like for you to venture to.  The Pool of Tears lies to the southeast.  It is said that upon its shores and within its depths are buried artifacts of the Atal\'ai troll civilization.\nBut beware, it is guarded by Somnus, an ancient green dragon, and his dragonkin, as well as carnivorous fish in the pool itself!",
+  },
+  [26647] = {
+    ["T"] = "Skins of the Swamp",
+    ["O"] = "Collect 8 Thick Crocolisk Skin and 8 Tough Jaguar Skin for Masat T\'andr.",
+    ["D"] = "Sometimes I miss the beasts from home... their hides... their furs. It was all exquisite stuff, but this planet seems like it just might be a great fit for me to continue my wares.\nHowever I am running very low on supplies, could you get me some skins from the beasts in this swamp? Ideally the Swamp Jaguars and Young Sawtooth Crocolisks they have excellent materials.",
+  },
+  [26655] = {
+    ["T"] = "Wanted: Spinnaret",
+    ["O"] = "Locate Spinnaret East of the Harborage and eradicate them.",
+    ["D"] = "At night our people go missing, taken without a sound. Many are spreading rumours that these are the Lost Ones but I have my suspicions it is a great arachnid that lives within the Swamps. Any willing adventurers please locate the beast and release us from this fear.\n-- Manaar the Watcher",
+  },
+  [9609] = {
+    ["T"] = "Help Watcher Biggs",
+    ["O"] = "Find Watcher Biggs in the Swamp of Sorrows.",
+    ["D"] = "Magtoor has informed me that there\'s a stranded watcher nearby.  Apparently the caravan he was escorting from Darkshire was attacked by Lost Ones.  It sounds as if he\'s the sole survivor.\nHe\'s somewhere to the south.  Please, warlock, lend him your aid.",
+  },
+  [26649] = {
+    ["T"] = "Freshly Polished Rods",
+    ["O"] = "Collect Ocniirs abandoned rods from the fishing boat South of the Harborage.",
+    ["D"] = "Some time ago a very friendly Human was passing through and taught me the trade of building fishing boats that in theory are much more stable than our little kayaks. We spent days labouring and when I finally took it out for a spin the damned thing received an almighty crocolisk bite and started sinking. I barely made it out!\nWe abandoned it South of here and next thing I know they\'ve skipped town without going back to reclaim my specially polished rods. Can you find the boat for me and recover my rods?",
+  },
+  [26650] = {
+    ["T"] = "Freshly Polished Rods",
+    ["O"] = "Collect an intact Polished Rod from the Lost One Fisherman east of the Harborage.",
+    ["D"] = "Look, this is a swamp. There aren\'t a lot of people fishing in these parts so I can only think of one group that has taken my rods, the Lost Ones east. They have some crude but nonetheless effective fisherman in their ranks and I bet one of them has it, could you go and reclaim it for me?",
+  },
 }

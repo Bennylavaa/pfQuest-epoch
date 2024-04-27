@@ -158,4 +158,10 @@ pfDB["units"]["enUS-epoch"] = {
   [45192] = "Liallas",
   [3880] = "Sentinel Melyria Frostshadow",
   [3901] = "Illiyana",
+  [45877] = "Innkeeper Finmir",
+  [1776] = "Magtoor",
+  [11874] = "Masat T\'andr",
+  [45974] = "Spinnaret",
+  [45878] = "Manaar the Watcher",
+  [45874] = "Ocniir",
 }
