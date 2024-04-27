@@ -123,4 +123,9 @@ pfDB["items"]["enUS-epoch"] = {
   [60061] = "Demon Essence",
   [60859] = "Bushel of Weaveleaf",
   [61079] = "Cool Sparkling Fresh Water",
+  [61026] = "Thick Crocolisk Skin",
+  [61027] = "Tough Jaguar Skin",
+  [61039] = "Oversized Arachnid Fang",
+  [61030] = "Polished Rod",
+  [61033] = "Polished Rod",
 }

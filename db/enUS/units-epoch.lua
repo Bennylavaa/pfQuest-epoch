@@ -151,4 +151,10 @@ pfDB["units"]["enUS-epoch"] = {
   [45118] = "Lucina Nightbow",
   [45119] = "Quartermaster Nyana",
   [45977] = "Race Invigilator",
+  [45877] = "Innkeeper Finmir",
+  [1776] = "Magtoor",
+  [11874] = "Masat T\'andr",
+  [45974] = "Spinnaret",
+  [45878] = "Manaar the Watcher",
+  [45874] = "Ocniir",
 }
