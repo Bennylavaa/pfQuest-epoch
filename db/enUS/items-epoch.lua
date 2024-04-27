@@ -123,4 +123,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60061] = "Demon Essence",
   [60859] = "Bushel of Weaveleaf",
   [61079] = "Cool Sparkling Fresh Water",
+  [60416] = "Foulweald Amulet",
 }

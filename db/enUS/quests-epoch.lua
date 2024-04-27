@@ -1004,4 +1004,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Find Teronis in Ashenvale.",
     ["D"] = "$N, a longtime friend of mine is also aiding the Sentinels here in Ashenvale, but he has yet to return.$B$BHe had leads on finding an item that he thought could slow the furbolg attacks on our people--a rod created by a now-dead, evil wizard.$B$BBefore he left here, he mentioned seeking out a gem for the rod.$B$BHe mentioned the gem possibly being hidden at the shrine in Lake Falathim at the base of the mountain to the west. The gem was being held there before it was overrun.$B$BFind my friend, $N, please.",
   },
+  [26362] = {
+    ["T"] = "Attack on the Foulweald",
+    ["O"] = "Collect 15 Foulweald Amulets and return to Sentinel Thenysil in Astranaar.",
+    ["D"] = "If you listen closely, you can hear the strained cries of the Foulweald tribe. These damned furblogs plague this land, terrorizing villages and hunting civilians. It\'s time to bring the fight to them, and we will strike hard!\n\nThey made their camp south of the road east, shortly before you reach Raynewood Retreat. We must show no mercy, $N. Kill them all, and bring me the amulets they wear to mark their tribe as proof of their demise.\nGood luck, Astranaar is counting on you.\n\n",
+  },
 }
