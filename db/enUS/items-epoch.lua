@@ -130,4 +130,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61039] = "Oversized Arachnid Fang",
   [61030] = "Polished Rod",
   [61033] = "Polished Rod",
+  [60414] = "Water Vine",
 }
