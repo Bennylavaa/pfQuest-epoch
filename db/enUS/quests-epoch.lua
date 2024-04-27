@@ -1069,14 +1069,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 10 Scorched Scales and 1 Raging Core from The Charred Vale and return to Bapper Tookwinkle at Stonetalon Grove.",
     ["D"] = "Good day, sir! It\'s quite nice up here in the grove, wouldn\'t you say? I actually came here to explore some of the creatures in The Charred Vale, and see if they could be of any use in my next creation.\n\nUnfortunately, I am too scared to actually venture there. You look like a strong adventurer, could you go instead? I need scales off the basilisks, and a core from the earth elementals. You\'ll find The Charred Vale south of here, and the path is west of Mirkfallon Lake.",
   },
+  [26354] = {
+    ["T"] = "Hunting in Serenity",
+    ["O"] = "Collect 10 Courser Furs from the deer around Stonetalon Grove and return to Hunter Kyana in the Stonetalon Mountains.",
+    ["D"] = "Greetings, $C. Are you familiar with the art of hunting? The deer here in the grove are quite elusive, and would form a formidable challenge for anyone wishing to hunt them. Their quick feet and sharp senses make for good sport.\n\nTell you what, if you bring me some of their fur I\'ll even make you a nice cloak out of it! I\'ll be keeping some for myself of course, because the winters get cold up here! Best of luck, and if you can\'t find any up here, the deer sometimes venture a bit further south, near the trail leading up to the grove.",
+  },
   [26360] = {
     ["T"] = "Vines of the Lake",
     ["O"] = "Collect 8 Water Vines from Mirkfallon Lake and return to Vallourek Nightsong at Stonetalon Grove.",
     ["D"] = "It\'s good to see a rogue around here, I\'ve been looking for an individual with a sense of adventure! My sister, Centrica Nightsong, is in need of some new material for her alchemy studies. I came along so I could assist her, but I\'m afraid I haven\'t been much help at all! The herbs she need only grow in dangerous places, and I have no skill with a blade.\n\nWould you be willing to go in my place, $N? She needs water vines that only grow in Mirkfallon Lake. The lake is easy enough to find, simply follow the road south, but be wary of the creatures there!",
   },
-  [26354] = {
-    ["T"] = "Hunting in Serenity",
-    ["O"] = "Collect 10 Courser Furs from the deer around Stonetalon Grove and return to Hunter Kyana in the Stonetalon Mountains.",
-    ["D"] = "Greetings, $C. Are you familiar with the art of hunting? The deer here in the grove are quite elusive, and would form a formidable challenge for anyone wishing to hunt them. Their quick feet and sharp senses make for good sport.\n\nTell you what, if you bring me some of their fur I\'ll even make you a nice cloak out of it! I\'ll be keeping some for myself of course, because the winters get cold up here! Best of luck, and if you can\'t find any up here, the deer sometimes venture a bit further south, near the trail leading up to the grove.",
+  [26361] = {
+    ["T"] = "Vines of the Lake",
+    ["O"] = "Deliver the Crate of Water Vines to Centrica Nightsong at Stonetalon Grove.",
+    ["D"] = "Your assistance was much appreciated, $N. I went ahead and placed the water vines into a crate, so if you could deliver them to my sister that would be great! You can find her right in the inn up here. She will be so pleased to finally have these herbs, I know she has been trying to get ahold of these for some time now.",
   },
 }

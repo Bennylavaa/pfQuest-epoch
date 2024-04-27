@@ -165,4 +165,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45878] = "Manaar the Watcher",
   [45874] = "Ocniir",
   [45336] = "Mirkfallon Spirit",
+  [45337] = "Centrica Nightsong",
+  [45338] = "Bapper Tookwinkle",
+  [45339] = "Vallourek Nightsong",
+  [45335] = "Hunter Kyana",
 }
