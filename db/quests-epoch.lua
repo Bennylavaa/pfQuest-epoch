@@ -2735,4 +2735,10 @@ pfDB["quests"]["data-epoch"] = {
     ["pre"] = { 1026 },
     ["race"] = 77,
   },
+  [1070] = "_", -- On Guard in Stonetalon 
+  [9519] = "_", -- The Lost Chalice
+  [9518] = "_", -- Agents of Destruction
+  [9521] = "_", -- Report from the Northern Front
+  [9516] = "_", -- Destroy the Legion A
+  },
 }

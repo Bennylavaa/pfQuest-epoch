@@ -4022,4 +4022,6 @@ pfDB["units"]["data-epoch"] = {
       [1] = { 21.7, 53.3, 331, 300 },
     },
   },
+  [17303] = "_", -- Vindicator Vedaar
+  [17287] = "_", -- Sentinel Luciel Starwhisper
 }
