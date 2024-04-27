@@ -133,4 +133,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60414] = "Water Vine",
   [60406] = "Mirkfallon Essence ",
   [60405] = "Courser Fur",
+  [60411] = "Scorched Scale",
+  [60412] = "Raging Core",
 }
