@@ -130,4 +130,10 @@ pfDB["items"]["enUS-epoch"] = {
   [61039] = "Oversized Arachnid Fang",
   [61030] = "Polished Rod",
   [61033] = "Polished Rod",
+  [61034] = "Massive Crawler Claw",
+  [61035] = "Engorged Spider Fillet",
+  [61036] = "Karabor Chili",
+  [61038] = "Karabore Fire Stew",
+  [61028] = "Sturdy Crocolisk Skin",
+  [61029] = "Rugged Panther Skin",
 }
