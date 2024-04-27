@@ -39,4 +39,56 @@ No Possible way to get this info currently
 
 Detailed list of what each section is: https://github.com/Bennylavaa/pfQuest-epoch/issues/4 
 
+## Progress
 
+#### Alliance Zones
+| Zone           | Level         | Alliance      | Horde          | 
+|----------------|---------------|---------------|----------------|
+Dun Morogh|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Elwynn Forest|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Teldrassil|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Darkshore|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Loch Modan|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Westfall|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+
+#### Horde Zones
+| Zone           | Level         | Alliance      | Horde          | 
+|----------------|---------------|---------------|----------------|
+Durotar|1-10|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Mulgore|1-10|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Tirisfal Glades|1-10|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Silverpine Forest|10-20|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Barrens|10-25|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+
+#### Contested Zones
+| Zone           | Level         | Alliance      | Horde          | 
+|----------------|---------------|---------------|----------------|
+Redridge Mountains|15-27|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Stonetalon Mountains|15-27|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Ashenvale|18-30|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Duskwood|18-30|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Hillsbrad Foothills|20-30|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Wetlands|20-30|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Thousand Needles|25-35|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Alterac Mountains|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Arathi Highlands|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Desolace|30-40|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Stranglethorn Vale|30-45|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Dustwallow Marsh|35-45|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Badlands|35-45|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Swamp of Sorrows|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Feralas|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Hinterlands|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Tanaris|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Searing Gorge|45-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Azshara|45-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Blasted Lands|45-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Un'goro Crater|48-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Felwood|48-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Burning Steppes|50-58|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Western Plaguelands|51-58|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Eastern Plaguelands|53-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Winterspring|53-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Deadwind Pass|55-60|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Moonglade|55-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Silithus|55-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
