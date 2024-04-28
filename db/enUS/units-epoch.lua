@@ -201,4 +201,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45140] = "Deathguard Kitsapell",
   [45413] = "Akagi",
   [45283] = "Deepskin",
+  [45207] = "Captured Refugee",
+  [45208] = "Captured Refugee",
+  [45209] = "Captured Refugee",
+  [45206] = "Shin\'Zil",
 }

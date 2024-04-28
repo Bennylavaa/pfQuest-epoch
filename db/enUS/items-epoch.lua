@@ -164,4 +164,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60427] = "Concentrated Blood",
   [60428] = "Renferrel\'s Incantation",
   [60225] = "Burning Blade Signet",
+  [60169] = "Kolkar Head",
 }

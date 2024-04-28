@@ -1284,4 +1284,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 10 Burning Blade Signets from Burning Blade members and return to Thork at The Crossroads.",
     ["D"] = "No doubt you\'ve heard of the Burning Blade, eh? A ruthless cult that has plagued Azeroth. They have invaded The Barrens, and have already pillaged a small village.\n\nMy first priority is the safety of this land, so go out and bring me some of their rings as proof of their demise. My scouts tell me they made camp at Dreadmist Peak, a mountain range quite a ways northwest of here.",
   },
+  [26232] = {
+    ["T"] = "Consumed by Hatred",
+    ["O"] = "Bring back 10 Kolkar Heads to Mankrik at The Crossroads.",
+    ["D"] = "Do you know what it\'s like to feel uncertain all the time? Not knowing of Nadia\'s fate? Perhaps you do, perhaps not, but there is one thing I am certain of...I want revenge. I want bloodshed. The Kolkar must die!\n\nI would go myself, but in the escape I injured my leg. Go for me, orc, and bring back their heads so I know the deed is done.",
+  },
+  [26253] = {
+    ["T"] = "Lost in Battle",
+    ["O"] = "Discover what happened to Nadia and report your findings back to Mankrik at The Crossroads.",
+    ["D"] = "They came in the middle of the night, a stampede of them. Vile, terrible, creatures the centaur are. I fled from my village and came here for sanctuary. My wife, Nadia, was not so fortunate.\n\nThey took her to one of their camps to the south, near The Stagnant Oasis. I fear the worst, $N, but I must know. Please see if you can find any clues in their tents, and bring her back if you can. Slaughter any centaur in your path.",
+  },
+  [26254] = {
+    ["T"] = "Searching the Wreckage",
+    ["O"] = "Search Mankrik\'s Village for signs of Nadia and return to Mankrik at The Crossroads.",
+    ["D"] = "So she escaped the village! Why has Nadia not come here? Perhaps she does not know where I am. In that case we must find her. She must have returned to our village, thinking I would be there.\n\n$N, go to my village and search for her. Follow the road north, then at the fork turn right. Go south down the shoreline where this land meets Durotar. There you will find our village, and hopefully Nadia.",
+  },
+  [26255] = {
+    ["T"] = "Out of My Hands",
+    ["O"] = "Track down the Shin\'Zil in The Barrens.",
+    ["D"] = "There is nothing more we can do to find her, $N, we must seek outside help. I am still confident she is alive, because the captives you questioned said she escaped.\n\nI have heard tales of a shaman named Shin\'Zil that has given aid to the people of these parts. He lives just a little bit north of this town, by the fork in the road. Go, talk to him and see if he can help us find Nadia.",
+  },
 }
