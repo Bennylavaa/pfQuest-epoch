@@ -150,4 +150,6 @@ pfDB["items"]["enUS-epoch"] = {
   [61156] = "Dustpaw's Snout",
   [60114] = "Bloodtalon Claw",
   [60112] = "Jo\'gon\'s Rod",
+  [60117] = "Venture Co. Debris",
+  [60118] = "Gnomish Coagulator",
 }

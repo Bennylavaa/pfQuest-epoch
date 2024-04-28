@@ -1169,4 +1169,39 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Help Gizzle Screwsnip escape Dustwind Cave. Should you succeed, report to Supervisor Hink at the zeppelin tower in Durotar.",
     ["D"] = "I didn\'t think I would see another $R again! You gotta get me out of here, these cultists are crazy! They tried performing a ritual on me earlier, but I don't think they had all the materials.\n\nWhen they get back, they're sure to try again, except this time it might work! Let's hurry and bust out of here.",
   },
+  [26194] = {
+    ["T"] = "A Grim Experience",
+    ["O"] = "Kill 4 Grimtotem Hectors and 4 Grimtotem Skirmishers then report back to Grull Hawkwind in Camp Narache.",
+    ["D"] = "Watch your hooves, peaceful resident of Red Cloud Mesa, vile members of Grimtotem clan, with whom we\'ve always been on a warpath, are roaming our sacred land freely.\n\nEven though we are all children under the same sun, it does not stop them from being openly hostile toward us.\n\nA sizable group has been sighted east of Camp Narache. A reward will be provided for those who hunt the Grimtotem within Red Cloud Mesa.",
+  },
+  [26473] = {
+    ["T"] = "Finding Mone",
+    ["O"] = "Locate Mone Sunmane who was last seen hunting east of Red Cloud Mesa.",
+    ["D"] = "I am so desperately worried for my husband Mone. He left yesterday out onto the plains to hunt for us but hasn\'t returned.\n\nI overheard Grull talking about a group of Grimtotem out to the east and it sounds like that is near Mone\'s usual hunting grounds... Do you think they have him?\n\nPlease go seek him and bring him back to me safely, you can recognise him by the golden tips on his horns.",
+  },
+  [26474] = {
+    ["T"] = "Finding Mone",
+    ["O"] = "Bring the Simple Green Pendant to Kaya Sunmane in the Red Cloud Mesa.",
+    ["D"] = "Around the neck of the fallen Tauren you find a necklace with a Simple Green Pendant. Suspecting that this is Kaya Sunmane\'s husband you bring it back to the Red Cloud Mesa.",
+  },
+  [26195] = {
+    ["T"] = "Gnoll Rustlers",
+    ["O"] = "Find and release 8 kidnapped Tauren.",
+    ["D"] = "Some of our people have been going missing while out adventuring in the wilderness, foraging for food or hunting with their children. It started slowly but is increasing in pace.\n\nRumours have been spreading that it is the local Gnolls taking them off to the cave to the west of town to do who knows what.\n\nPlease, return them to us.",
+  },
+  [26196] = {
+    ["T"] = "Stonebull Pollution",
+    ["O"] = "Bring 10 pieces of Venture Co. Debris to Agatha Longcast in Bloodhoof Village.",
+    ["D"] = "That sacred spring of a lake has nourished us for so long now. It\'s the literal source of life here, a blessed chalice of the Earthmother.\n\nBut look at it now. Pieces of refined metal, some debris, some oily substance even my husband is afraid to touch... he even managed to catch a catfish with a metal bolt in its belly!\n\nThose dwarves and Venture Company are going to ravage Mulgore for profit, burying us in the twisted grave made of its desecrated gifts, so sacred for our people.\n\nPlease, could you help me cleaning the lake a bit? The bulk of it is closest to the North Eastern shore.",
+  },
+  [26197] = {
+    ["T"] = "It\'s Never Too Coagulate.",
+    ["O"] = "Retrieve the Gnomish Coagulator and use it to cleanse Stonebull Lake. Return to Agatha Longcast after you\'re done.",
+    ["D"] = "What\'s on your face? Oh, it\'s that filthy oil. I\'d like to think it\'s not toxic, but it surely corrupts the water and the soil.\n\nOne of the hunters here in Bloodhoof Village has mentioned a strange device that some of the Workers and Supervisors from Venture Co. use to cleanse the oil pollution from their mine to the northeast.\n\nTry retrieving it. If they can neutralize their own venom there, we could do it here as well.",
+  },
+  [26198] = {
+    ["T"] = "Wanted: Jasone",
+    ["O"] = "Hunt down the Centaur Jasone roaming beneath Thunderbluff.",
+    ["D"] = "An expelled Galak Centaur has been roaming beneath the city of Thunderbluff attacking travellers. Not just the men, but the women, and the children. This can not stand, hunt them down.\n\nBring proof of your victory over this beast to Zangen Stonehoof atop Thunder Bluff and you will be rewarded.",
+  },
 }
