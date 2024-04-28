@@ -66,4 +66,8 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001003] = "Shrine of Sha'gri", --Placeholder ID
   [4001005] = "WANTED", --Placeholder ID
   [4001006] = "Thistleweed", --Placeholder ID
+  [4001007] = "Palemane Cage", --Placeholder ID
+  [4001008] = "Venture Co. Debris", --Placeholder ID
+  [4001009] = "Oil Spill", --Placeholder ID
+  [4001010] = "Wanted: Jasone", --Placeholder ID
 }

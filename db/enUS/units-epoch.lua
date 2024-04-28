@@ -185,4 +185,10 @@ pfDB["units"]["enUS-epoch"] = {
   [45106] = "Jo\'gon",
   [45334] = "Supervisor Hink",
   [45333] = "Grizzle Screwsnip",
+  [45004] = "Kaya Sunmane",
+  [45630] = "Mone Sunmane",
+  [45112] = "Grimtotem Hector",
+  [45113] = "Grimtotem Skirmisher",
+  [45005] = "Helaku",
+  [45115] = "Agatha Longcast",
 }
