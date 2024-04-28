@@ -177,4 +177,12 @@ pfDB["units"]["enUS-epoch"] = {
   [46595] = "Tessco Jinglepocket",
   [46596] = "Morrison Copperpinch",
   [46598] = "Leedil Jinglepocket",
+  [45110] = "Kul Tiras Admiral",
+  [45111] = "Kul Tiras Deckhand",
+  [45107] = "Garoki",
+  [46079] = "Dustpaw",
+  [46124] = "Bloodtalon Ravasaur",
+  [45106] = "Jo\'gon",
+  [45334] = "Supervisor Hink",
+  [45333] = "Grizzle Screwsnip",
 }

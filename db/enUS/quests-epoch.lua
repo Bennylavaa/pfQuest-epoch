@@ -1129,4 +1129,44 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Use the Marvelous Owlkin Obtaining Neuralizer to siphon 5 Essence of Starlight from owlbeasts in Winterspring.",
     ["D"] = "I hope you\'ve noticed that goods made by Smokywood Pastures has that little extra *something* that makes them special. It\'s not a trick - it\'s a tiny infusion of starlight in everything we make.\nOur starlight supplies are running low, but I have recently obtained a new tool that can be used to drain starlight from creatures particularly attuned to it, like the owlbeasts in Winterspring. Just weaken and drain, easy-peasy. Interested in the job?",
   },
+  [26193] = {
+    ["T"] = "The Cursed Fleet",
+    ["O"] = "Kill 8 Kul Tiras Deckhands and 3 Kul Tiras Admirals and return to Gar\'Thok at Razor Hill.",
+    ["D"] = "Good work taking care of the keep $N, but there is still work to be done. The Kul Tiras started their assault on Durotar with their ships. The cannons and explosions nearly killed most of my men. We finally pushed them back when we got reinforcements from Orgrimmar, but I\'m told the dead crew members from the fleet are restless at sea, unable to die properly because their job is unfinished.\n\nI need you to go to the ships and kill any Kul Tirans still causing trouble. You can find the sunken ships at the Scuttle Coast, east of here.",
+  },
+  [26706] = {
+    ["T"] = "WANTED: Dustpaw",
+    ["O"] = "Bring Dustpaw\'s Snout to Foreman Thazz\'ril in the Valley of Trials.",
+    ["D"] = "By order of the guard, a dangerous wolf named Dustpaw is hereby sentenced to death! Having killed dozens of citizens in the Valley of Trials, Dustpaw will present a challenge to adventurer\'s seeking to claim this bounty.\n\nDustpaw has been sighted patrolling the eastern ridge of the valley. Should you succeed, bring his snout to Foreman Thazz\'ril.",
+  },
+  [26190] = {
+    ["T"] = "A Village In Need",
+    ["O"] = "Collect 5 Thistleweed, 3 vials of Felstalker Blood, and 3 Bloodtalon Claws for Garoki in the Valley of Trials.",
+    ["D"] = "Greetings, mon. I\'ve recieved a report from a local village that they are in need of some things. If you\'re looking for work the help would be appreciated.\n\nThe report said they need some thistleweed, which you can find scattered around the valley here. Next is the blood from Felstalkers at the cave north of here. Finally they need the claws off the raptor colony located south of here.",
+  },
+  [26189] = {
+    ["T"] = "A Touch of Lightning",
+    ["O"] = "Siphon 5 Essence of Lightning into Jo\'gon's Rod and return to Jo\'gon at Razor Hill.",
+    ["D"] = "Greetings mon. I could be using your help if you got da time. I be practicing my shamanistic skills, and wish to learn how to manipulate objects. To do that I be needing some lightning essence.\n\nDa best place to find that is up in Thunder Ridge. Take my rod and use it on the beasts. The kodo\'s hides are rich in lightning, and this rod will absorb it.",
+  },
+  [26348] = {
+    ["T"] = "Supervisor Hink",
+    ["O"] = "Report to Supervisor Hink at the Zeppelin Tower in Durotar.",
+    ["D"] = "One of my scouts delivered a letter to me, apparently the goblins constructing the new zeppelin tower are having some trouble. I\'m not entirely sure what that means...but the foreman requested help, so Razor Hill will answer.\n\nThe warchief says that getting the zeppelin tower built is a top priority, so it\'s important we assist with any issues the goblins are having! Go report to Supervisor Hink, he is overseeing the construction. You\'ll find the new zeppelin tower just southeast of the Orgrimmar gates.",
+  },
+  [26349] = {
+    ["T"] = "Scythemaw Standstill",
+    ["O"] = "Kill 10 Bloodtalon Scythemaws and return to Supervisor Hink at the zeppelin tower in Durotar.",
+    ["D"] = "I knew I made a mistake when I took a job in Durotar! Of all the places in Azeroth, I chose to go where raptors and scorpions regularly roam the lands. I\'m telling ya, the only reason I\'m even here is because the Warchief is paying me a ton to construct this tower.\n\nEver since construction started, we\'ve been dealing with these damn raptors! They constantly raid our camps at night, and eat my workers during the day. I need you to go and \"prune\" their population a bit so that development can get back on schedule!",
+  },
+  [26351] = {
+    ["T"] = "Searching for Gizzle",
+    ["O"] = "Find Gizzle Screwsnip. You recall the foreman saying he might be held at Dustwind Cave.",
+    ["D"] = "My best engineer, Gizzle Screwsnip, mysteriously dissapeared a few days ago when he went out on a supply run. I\'m quite worried about him, and his designs are essential to the development on the zeppelin tower.\n\nIf I had to guess, it was the Burning Blade that took him. I heard they\'re occupying a cave just north of Razor Hill, named Dustwind Cave. They perform demonic rituals and other heinous acts on the people they capture.\n\nI think if you go to Dustwind Cave there is a good chance you\'ll find Gizzle. I\'ll reward you handsomely for your efforts.",
+  },
+  [26350] = {
+    ["T"] = "The Dustwind Escape",
+    ["O"] = "Help Gizzle Screwsnip escape Dustwind Cave. Should you succeed, report to Supervisor Hink at the zeppelin tower in Durotar.",
+    ["D"] = "I didn\'t think I would see another $R again! You gotta get me out of here, these cultists are crazy! They tried performing a ritual on me earlier, but I don't think they had all the materials.\n\nWhen they get back, they're sure to try again, except this time it might work! Let's hurry and bust out of here.",
+  },
 }
