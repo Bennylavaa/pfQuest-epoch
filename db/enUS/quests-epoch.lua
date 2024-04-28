@@ -1264,4 +1264,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Apothecary Renferrel at the Sepulcher wants you to collect 10 Concentrated Blood from the humans at Ambermill.",
     ["D"] = "The body parts you brought me will be perfect for the abomination, however I need one last thing. While you were out, I had to use up the last of my human blood for a...situation that occured here. Nevermind that, but the last thing I need for the spell is fresh human blood.\n\nThe best blood around here comes from the humans at Ambermill. You can find Ambermill by taking the road out of here south, and then head east towards the town. Be careful though, those humans put up quite a fight last time!",
   },
+  [26373] = {
+    ["T"] = "Anatomy of the Afterlife",
+    ["O"] = "Summon and control the abomination. Then use him to kill Akagi south of the Sepulcher. Return to Apothecary Renferrel when the task is completed.",
+    ["D"] = "Normally we craft our abominations in Undercity, but with these dire circumstances we\'ll have to make do here. Because we don't have all the ingredients Undercity does, I\'m afraid the abomination will have no mind of its own, so you\'ll have to take control of it. I\'ve written down the incantation for the spell. As soon as you finish, the abominations mind will be under your control.\n\nI received a report from the guards just a bit ago, stating that the grizzly we've been looking for was found. His name is Akagi, and he is just south of here.\n\nTake the rugged path beside the flight master, and turn right at the first opening. You'll find the beast there. And be quick, the spell will only hold for a few minutes!",
+  },
 }

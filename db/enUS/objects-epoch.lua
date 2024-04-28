@@ -70,4 +70,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001010] = "Wanted: Jasone", --Placeholder ID
   [4001011] = "Deathguard Chunks", --Placeholder ID
   [4001012] = "Psathshroom", --Placeholder ID
+  [4001013] = "The Sepulcher", --Placeholder ID
 }
