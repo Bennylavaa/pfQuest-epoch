@@ -205,4 +205,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45208] = "Captured Refugee",
   [45209] = "Captured Refugee",
   [45206] = "Shin\'Zil",
+  [45211] = "Archmage Korgar",
 }

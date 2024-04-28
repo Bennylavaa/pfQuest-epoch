@@ -1304,4 +1304,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Track down the Shin\'Zil in The Barrens.",
     ["D"] = "There is nothing more we can do to find her, $N, we must seek outside help. I am still confident she is alive, because the captives you questioned said she escaped.\n\nI have heard tales of a shaman named Shin\'Zil that has given aid to the people of these parts. He lives just a little bit north of this town, by the fork in the road. Go, talk to him and see if he can help us find Nadia.",
   },
+  [26256] = {
+    ["T"] = "Retrieving the Orb",
+    ["O"] = "Kill Archmage Korgar and bring his orb to Shin\'Zil in The Barrens.",
+    ["D"] = "Aye, I can help you mon, but we need some things to begin da ritual so that we can center in on Nadia\'s location. Da only thing that be powerful enough to find her is located in Northwatch Hold.\n\nThere is a powerful mage there that goes by the name of Archmage Korgar. His orb, da source of his power, is under constant protection. If we are to find Nadia, we be needing that orb.\n\nYou be finding Northwatch Hold just south of Ratchet, mon. But you best be mindful, da guards don\'t take kindly to strangers.",
+  },
 }
