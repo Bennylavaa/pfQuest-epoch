@@ -164,6 +164,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Lay Joseph Strinbrow\'s spirit to rest and return to Luna Strinbrow at the Deathknell graveyard.",
     ["D"] = "Greetings, $N. I assume you\'re wondering why I kneel at this grave. It belongs to my husband, Joseph.\n\nBefore the plague, Joseph was a miner that worked in the Night Web\'s Hollow, a mine northwest of here. He was bit by a spider and died tragically, leaving me alone in life. As you know, the plague came and now we must pay our dues.\n\nBut Joseph\'s spirit is restless, terrorizing Forsaken that try to claim the mine. There was no body to recover, as the spiders ate his flesh clean, but I still claim this grave for him. I think that if you bring me something of his, we can bury it here and lay his spirit to rest.",
   },
+  [26186] = {
+    ["T"] = "Stillwater Eels",
+    ["O"] = "Fish 10 Stillwater Eels from Stillwater Pond and return to Gernal Burch in Brill.",
+    ["D"] = "Even in death we need to eat $N! I imagine you\'re tired of the stale bread you\'ve been scrounging on until now. It\'s time for a real meal!\n\nI can cook some tasy stuff if you bring me the materials. Why don\'t you head over to Stillwater Pond to the west and fish me some eel? Bring it back to me and I\`ll fix us both something to remember.",
+  },
   [26192] = {
     ["T"] = "Sha\'gri",
     ["O"] = "Kill the Spirit of Sha\'gri and return to Bom\'bay at Sen\'jin Village.",
@@ -528,6 +533,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "A Temporary Victory",
     ["O"] = "Deliver news of the Burndural Victory to Captain Stoutfist.",
     ["D"] = "You were sent here by Captain Stoutfist and it is only right that we tell him what has happened here. Seek him back in Menethil and he can know that we do not need additional aid.",
+  },
+  [26624] = {
+    ["T"] = "Encroaching Worgs",
+    ["O"] = "Slay 6 Starving Worgs and then return to Deathguard Terrence walking somewhere between Brill and the Ruins of Lordaeron in Tirisfal Glades.",
+    ["D"] = "Ah hello, $C. You seem like the type who enjoys being sent out to deal with other people\'s problems for pocket change. At the border between Tirisfal and Silverpine Forest, to our south-west, there have been some worgs crossing the border. Not much food to be had here for living wolves, so they occasionally attack wagons or passerbys.\n\nOff you go then!",
   },
   [26685] = {
     ["T"] = "To The Hills",
