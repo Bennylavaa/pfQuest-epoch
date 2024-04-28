@@ -1219,6 +1219,56 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Hunt down the Centaur Jasone roaming beneath Thunderbluff.",
     ["D"] = "An expelled Galak Centaur has been roaming beneath the city of Thunderbluff attacking travellers. Not just the men, but the women, and the children. This can not stand, hunt them down.\n\nBring proof of your victory over this beast to Zangen Stonehoof atop Thunder Bluff and you will be rewarded.",
   },
+  [26209] = {
+    ["T"] = "Consecrated Scroll",
+    ["O"] = "Read the Consecrated Scroll and speak to Darnell in Deathknell.",
+    ["D"] = "Before you go, I received this scroll from a messenger just a moment ago. It\'s from the nearby paladin trainer Darnell. Take a look, there aren\'t many paladins in the ranks of the Forsaken.",
+  },
+  [26703] = {
+    ["T"] = "A Noble Steed",
+    ["O"] = "Speak to The Fallen Knight in the Undercity.",
+    ["D"] = "Hello, $N. I see your dedication remains strong, as does your faith.\n\nI think it is time you spoke with the Fallen Knight in the Undercity. There are some more lessons for you to learn, and I feel you are prepared.\n\nSeek them out along the outer ring, and $N, take these lessons seriously. You\'ve attained your status through humility and hard work, do not disappoint us by becoming arrogant.\n\nBe well.",
+  },
+  [27617] = {
+    ["T"] = "Lightsworn Skeletal Charger",
+    ["O"] = "Speak to the Fallen Knight in the Undercity.",
+    ["D"] = "<Full Quest has been disabled to avoid launch day spoilers.>",
+  },
+  [26225] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Look for any evidence of the caravans occupants beneath the bridge near the ambush sight north of the Sepulcher.",
+    ["D"] = "This caravan convoy was headed towards the Undercity and came under attack from those vile beast Worgen. By the time I got here it looks like the guards and peons were all dragged off into the woods or worse.\n\nThe Worgen were scrambling to find something and it took all of my might to repel them. Look around for me and see if you can find a reason why they would have attacked, the claw marks and paw prints all over clearly lead beneath the nearby bridge.",
+  },
+  [26226] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Gather 8 Psathshroom Spores and 4 quarts of Worg Blood to aid Deathguard Kitsapell in resurecting a wounded horse.",
+    ["D"] = "What in Lordaeron\'s name did those poor Deathguard\'s find? We need to get it back to the Sepulcher as soon as possible so that I can decide how best to proceed. That crate is far too heavy to carry, we need a steed.\n\nThese horses are so damaged they can barely stand but we will need one of them to get this crate back. Bring me some Psathshroom spores from the nearby waters and 4 quarts of blood from the Worgs north west of here and I will see what I can do.",
+  },
+  [26227] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Bring the remainder of the caravan supplies to Quartermaster Kor in the Sepulcher.",
+    ["D"] = "I\'m going to rush this crate to the Sepulcher south west of here, we will figure out what to do with it. I shall give it to Quartermaster Kor for safekeeping.\n\nBring the last of the supplies I\'ve managed to group together from this convoy and meet me there they will be of more use in the Sepulcher than rotting by the road.",
+  },
+  [26228] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Show Deathguard Kitsapell the contents of the crate.",
+    ["D"] = "Crate bounce too much. Crate has fluffy inside. Crate licked my hand. Crate look scared when Kor peak. Crate not mean. Show Guard Crate.",
+  },
+  [26371] = {
+    ["T"] = "Anatomy of the Afterlife",
+    ["O"] = "Apothecary Renferrel at the Sepulcher wants you to collect 1 Mutated Head, 1 Deformed Chest, 2 Chewed Arms, and 2 Disfigured Legs.",
+    ["D"] = "The Sepulcher needs your help, $N! There is a dangerous grizzly bear that is killing off our guards. Nothing we have can kill it, so Undercity has tasked me with creating an abomination capable of slaying the beast.\n\nAbominations are mutated pieces of flesh stitched together. I\'m fresh out of body parts unfortunately, so I need your assistance in collecting some. I would like a head from one of the worgen nearby, the chest of a gnoll, both arms from an undead east of here, and the legs off a murloc by the lake.\n\nOnce you bring these back to me, we can get started on a spell to stitch together the abomination. Please hurry, lest the grizzly kill more of our men.",
+  },
+  [26372] = {
+    ["T"] = "Anatomy of the Afterlife",
+    ["O"] = "Apothecary Renferrel at the Sepulcher wants you to collect 10 Concentrated Blood from the humans at Ambermill.",
+    ["D"] = "The body parts you brought me will be perfect for the abomination, however I need one last thing. While you were out, I had to use up the last of my human blood for a...situation that occured here. Nevermind that, but the last thing I need for the spell is fresh human blood.\n\nThe best blood around here comes from the humans at Ambermill. You can find Ambermill by taking the road out of here south, and then head east towards the town. Be careful though, those humans put up quite a fight last time!",
+  },
+  [26373] = {
+    ["T"] = "Anatomy of the Afterlife",
+    ["O"] = "Summon and control the abomination. Then use him to kill Akagi south of the Sepulcher. Return to Apothecary Renferrel when the task is completed.",
+    ["D"] = "Normally we craft our abominations in Undercity, but with these dire circumstances we\'ll have to make do here. Because we don't have all the ingredients Undercity does, I\'m afraid the abomination will have no mind of its own, so you\'ll have to take control of it. I\'ve written down the incantation for the spell. As soon as you finish, the abominations mind will be under your control.\n\nI received a report from the guards just a bit ago, stating that the grizzly we've been looking for was found. His name is Akagi, and he is just south of here.\n\nTake the rugged path beside the flight master, and turn right at the first opening. You'll find the beast there. And be quick, the spell will only hold for a few minutes!",
+  },
   [26734] = {
     ["T"] = "Massive Profits",
     ["O"] = "Collect 3 Fossilised Gallbladder from the largest Kodo skeletons found within Desolace.",
