@@ -21,6 +21,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60029] = "Lionstout Ale",
   [60100] = "Joseph\'s Watch",
   [60101] = "Sealed Scarlet Documents",
+  [60102] = "Stillwater Eel",
   [60359] = "Defias Orders - I",
   [60360] = "Defias Orders - II",
   [60361] = "Defias Orders - III",
