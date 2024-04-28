@@ -1201,7 +1201,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26198] = {
     ["T"] = "Wanted: Jasone",
-    ["O"] = "",
-    ["D"] = "",
+    ["O"] = "Hunt down the Centaur Jasone roaming beneath Thunderbluff.",
+    ["D"] = "An expelled Galak Centaur has been roaming beneath the city of Thunderbluff attacking travellers. Not just the men, but the women, and the children. This can not stand, hunt them down.\n\nBring proof of your victory over this beast to Zangen Stonehoof atop Thunder Bluff and you will be rewarded.",
   },
 }
