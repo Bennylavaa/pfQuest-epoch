@@ -1249,4 +1249,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring the remainder of the caravan supplies to Quartermaster Kor in the Sepulcher.",
     ["D"] = "I\'m going to rush this crate to the Sepulcher south west of here, we will figure out what to do with it. I shall give it to Quartermaster Kor for safekeeping.\n\nBring the last of the supplies I\'ve managed to group together from this convoy and meet me there they will be of more use in the Sepulcher than rotting by the road.",
   },
+  [26228] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Show Deathguard Kitsapell the contents of the crate.",
+    ["D"] = "Crate bounce too much. Crate has fluffy inside. Crate licked my hand. Crate look scared when Kor peak. Crate not mean. Show Guard Crate.",
+  },
+  [26371] = {
+    ["T"] = "Anatomy of the Afterlife",
+    ["O"] = "Apothecary Renferrel at the Sepulcher wants you to collect 1 Mutated Head, 1 Deformed Chest, 2 Chewed Arms, and 2 Disfigured Legs.",
+    ["D"] = "The Sepulcher needs your help, $N! There is a dangerous grizzly bear that is killing off our guards. Nothing we have can kill it, so Undercity has tasked me with creating an abomination capable of slaying the beast.\n\nAbominations are mutated pieces of flesh stitched together. I\'m fresh out of body parts unfortunately, so I need your assistance in collecting some. I would like a head from one of the worgen nearby, the chest of a gnoll, both arms from an undead east of here, and the legs off a murloc by the lake.\n\nOnce you bring these back to me, we can get started on a spell to stitch together the abomination. Please hurry, lest the grizzly kill more of our men.",
+  },
+  [26372] = {
+    ["T"] = "Anatomy of the Afterlife",
+    ["O"] = "Apothecary Renferrel at the Sepulcher wants you to collect 10 Concentrated Blood from the humans at Ambermill.",
+    ["D"] = "The body parts you brought me will be perfect for the abomination, however I need one last thing. While you were out, I had to use up the last of my human blood for a...situation that occured here. Nevermind that, but the last thing I need for the spell is fresh human blood.\n\nThe best blood around here comes from the humans at Ambermill. You can find Ambermill by taking the road out of here south, and then head east towards the town. Be careful though, those humans put up quite a fight last time!",
+  },
 }

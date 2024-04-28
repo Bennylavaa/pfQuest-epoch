@@ -198,4 +198,5 @@ pfDB["units"]["enUS-epoch"] = {
   [46172] = "Lorraine Halford",
   [45139] = "Deathguard Kitsapell",
   [45141] = "Kor",
+  [45140] = "Deathguard Kitsapell",
 }

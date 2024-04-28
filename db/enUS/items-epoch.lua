@@ -157,4 +157,9 @@ pfDB["items"]["enUS-epoch"] = {
   [60163] = "Deathguard Orders",
   [60164] = "Psathshroom Spores",
   [60165] = "Worg Blood",
+  [60423] = "Mutated Head",
+  [60425] = "Chewed Arm",
+  [60424] = "Disfigured Chest",
+  [60426] = "Deformed Leg",
+  [60427] = "Concentrated Blood",
 }
