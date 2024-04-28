@@ -44,12 +44,12 @@ Detailed list of what each section is: https://github.com/Bennylavaa/pfQuest-epo
 #### Alliance Zones
 | Zone           | Level         | Alliance      | Horde          | 
 |----------------|---------------|---------------|----------------|
-Dun Morogh|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Elwynn Forest|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Teldrassil|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Darkshore|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Loch Modan|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Westfall|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Dun Morogh|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Elwynn Forest|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Teldrassil|1-10|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Darkshore|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Loch Modan|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Westfall|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 
 #### Horde Zones
 | Zone           | Level         | Alliance      | Horde          | 
