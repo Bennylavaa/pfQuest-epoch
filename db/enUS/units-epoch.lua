@@ -193,4 +193,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45115] = "Agatha Longcast",
   [45076] = "Darnell the Defender",
   [45077] = "The Fallen Knight",
+  [46172] = "Lorraine Halford",
 }
