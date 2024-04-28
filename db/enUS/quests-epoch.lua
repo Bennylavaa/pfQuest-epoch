@@ -1201,7 +1201,22 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26198] = {
     ["T"] = "Wanted: Jasone",
-    ["O"] = "",
-    ["D"] = "",
+    ["O"] = "Hunt down the Centaur Jasone roaming beneath Thunderbluff.",
+    ["D"] = "An expelled Galak Centaur has been roaming beneath the city of Thunderbluff attacking travellers. Not just the men, but the women, and the children. This can not stand, hunt them down.\n\nBring proof of your victory over this beast to Zangen Stonehoof atop Thunder Bluff and you will be rewarded.",
+  },
+  [26209] = {
+    ["T"] = "Consecrated Scroll",
+    ["O"] = "Read the Consecrated Scroll and speak to Darnell in Deathknell.",
+    ["D"] = "Before you go, I received this scroll from a messenger just a moment ago. It\'s from the nearby paladin trainer Darnell. Take a look, there aren\'t many paladins in the ranks of the Forsaken.",
+  },
+  [26703] = {
+    ["T"] = "A Noble Steed",
+    ["O"] = "Speak to The Fallen Knight in the Undercity.",
+    ["D"] = "Hello, $N. I see your dedication remains strong, as does your faith.\n\nI think it is time you spoke with the Fallen Knight in the Undercity. There are some more lessons for you to learn, and I feel you are prepared.\n\nSeek them out along the outer ring, and $N, take these lessons seriously. You\'ve attained your status through humility and hard work, do not disappoint us by becoming arrogant.\n\nBe well.",
+  },
+  [27617] = {
+    ["T"] = "Lightsworn Skeletal Charger",
+    ["O"] = "Speak to the Fallen Knight in the Undercity.",
+    ["D"] = "<Full Quest has been disabled to avoid launch day spoilers.>",
   },
 }

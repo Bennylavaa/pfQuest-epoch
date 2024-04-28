@@ -191,4 +191,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45113] = "Grimtotem Skirmisher",
   [45005] = "Helaku",
   [45115] = "Agatha Longcast",
+  [45076] = "Darnell the Defender",
+  [45077] = "The Fallen Knight",
 }
