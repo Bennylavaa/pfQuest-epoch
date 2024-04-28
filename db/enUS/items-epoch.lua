@@ -163,4 +163,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60426] = "Deformed Leg",
   [60427] = "Concentrated Blood",
   [60428] = "Renferrel\'s Incantation",
+  [61212] = "Fossilised Gallbladder",
 }

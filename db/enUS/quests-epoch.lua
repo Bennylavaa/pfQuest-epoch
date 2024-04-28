@@ -1269,4 +1269,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Summon and control the abomination. Then use him to kill Akagi south of the Sepulcher. Return to Apothecary Renferrel when the task is completed.",
     ["D"] = "Normally we craft our abominations in Undercity, but with these dire circumstances we\'ll have to make do here. Because we don't have all the ingredients Undercity does, I\'m afraid the abomination will have no mind of its own, so you\'ll have to take control of it. I\'ve written down the incantation for the spell. As soon as you finish, the abominations mind will be under your control.\n\nI received a report from the guards just a bit ago, stating that the grizzly we've been looking for was found. His name is Akagi, and he is just south of here.\n\nTake the rugged path beside the flight master, and turn right at the first opening. You'll find the beast there. And be quick, the spell will only hold for a few minutes!",
   },
+  [26734] = {
+    ["T"] = "Massive Profits",
+    ["O"] = "Collect 3 Fossilised Gallbladder from the largest Kodo skeletons found within Desolace.",
+    ["D"] = "All around the Kodo Graveyard to the south west there are some truly collosal Kodo that must have lived here eons ago before Desolace became... this. I think the key to that size is what they consumed and need samples of fossilised gallbladders to prove my theory.\nIf I\'m correct and I can manufacture beasts of that scale who knows how much certain people would pay for the power!? They will be hard to find so keep your eyes open.",
+  },
 }
