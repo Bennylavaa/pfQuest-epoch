@@ -200,4 +200,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45141] = "Kor",
   [45140] = "Deathguard Kitsapell",
   [45413] = "Akagi",
+  [11625] = "Cork Gizelton",
+  [11626] = "Rigger Gizelton",
 }
