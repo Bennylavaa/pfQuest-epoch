@@ -63,4 +63,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000054] = "Ocniir\'s Chest", --Placeholder ID
   [4001004] = "Water Vine", --Placeholder ID
   [4001003] = "Shrine of Sha'gri", --Placeholder ID
+  [4001005] = "WANTED", --Placeholder ID
+  [4001006] = "Thistleweed", --Placeholder ID
 }

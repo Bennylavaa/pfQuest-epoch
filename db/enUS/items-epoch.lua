@@ -145,4 +145,9 @@ pfDB["items"]["enUS-epoch"] = {
   [63143] = "Box of Corehound Manure",
   [63155] = "Essence of Starlight",
   [63156] = "Marvelous Owlkin Obtaining Neuralizer",
+  [60115] = "Thistleweed",
+  [60113] = "Felstalker Blood",
+  [61156] = "Dustpaw's Snout",
+  [60114] = "Bloodtalon Claw",
+  [60112] = "Jo\'gon\'s Rod",
 }
