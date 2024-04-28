@@ -202,4 +202,13 @@ pfDB["units"]["enUS-epoch"] = {
   [45413] = "Akagi",
   [11625] = "Cork Gizelton",
   [11626] = "Rigger Gizelton",
+  [45620] = "Innkeeper Teenyfuse",
+  [45615] = "Imu Copperspell",
+  [45622] = "Selrai Dewlight",
+  [45613] = "Dibi Squigglecord",
+  [46092] = "Burning Blade Courier",
+  [45614] = "Ekoc Niftypatch",
+  [46096] = "Shadow Wraith",
+  [46093] = "Winkle Screwbucket",
+  [46109] = "Wilfiz Silverbit",
 }

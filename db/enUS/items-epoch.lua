@@ -164,4 +164,11 @@ pfDB["items"]["enUS-epoch"] = {
   [60427] = "Concentrated Blood",
   [60428] = "Renferrel\'s Incantation",
   [61212] = "Fossilised Gallbladder",
+  [61285] = "Remnant of the Nether",
+  [61286] = "Sample of the Princess",
+  [61205] = "Undelivered Letter",
+  [61206] = "Trance Enhancer",
+  [61207] = "Uncharged Trance Enhancer",
+  [61208] = "Charged Trance Enhancer",
+  [61282] = "Head of Wilfiz Silverbit",
 }
