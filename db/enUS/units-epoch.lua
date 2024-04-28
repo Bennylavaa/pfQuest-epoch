@@ -143,6 +143,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45051] = "Wendel Sparkbright",
   [45340] = "Captain Mynera",
   [45826] = "Chief Dusthoof",
+  [45919] = "Starving Worg",
   [45976] = "Peach",
   [45827] = "Spiritwalker Muata (You have to be dead)",
   [45087] = "Alanea Miststriker",

@@ -529,6 +529,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Deliver news of the Burndural Victory to Captain Stoutfist.",
     ["D"] = "You were sent here by Captain Stoutfist and it is only right that we tell him what has happened here. Seek him back in Menethil and he can know that we do not need additional aid.",
   },
+  [26624] = {
+    ["T"] = "Encroaching Worgs",
+    ["O"] = "Slay 6 Starving Worgs and then return to Deathguard Terrence walking somewhere between Brill and the Ruins of Lordaeron in Tirisfal Glades.",
+    ["D"] = "Ah hello, $C. You seem like the type who enjoys being sent out to deal with other people\'s problems for pocket change. At the border between Tirisfal and Silverpine Forest, to our south-west, there have been some worgs crossing the border. Not much food to be had here for living wolves, so they occasionally attack wagons or passerbys.\n\nOff you go then!",
+  },
   [26685] = {
     ["T"] = "To The Hills",
     ["O"] = "Scout the Burning Hills to discover the source of the smoke.",
