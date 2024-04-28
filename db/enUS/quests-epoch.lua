@@ -949,6 +949,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Purify the Demon Essence at the moonwell in Dolanaar and return to Jeena Featherbow.",
     ["D"] = "Raw demon essence is extremely unstable, so if we are to remove their spirits from this world we must purify it.\n\nThere are many moonwells across Night Elf territory, but the closest one is right here in Dolanaar. Go to the moonwell and purify this essence, so their spirits will be banished forever.",
   },
+  [26185] = {
+    ["T"] = "Scarlet Intelligence",
+    ["O"] = "Kill Lieutenant Sanders and collect the Sealed Scarlet Documents and return to Deathguard Cyrus in Brill.",
+    ["D"] = "I hear you\'ve had some success with the Scarlet Crusade, $N. I have a task for you, should you accept it.\n\nFar to the east lies Venomweb Vale. The Scarlet Crusade has created a small outpost there, and I have it on good authority that they are up to something. I need to know what they are planning, and the best way is to open the Lieutenant\'s chest and bring me his documents.",
+  },
   [26176] = {
     ["T"] = "Attack on the Gnarlpine",
     ["O"] = "Kill 4 Gnarlpine Shamans, 4 Gnarlpine Defenders, 4 Gnarlpine Ambushers, and 4 Gnarlpine Warriors and then return to Melarith at Dolanaar.",
