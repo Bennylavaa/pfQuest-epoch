@@ -154,4 +154,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60112] = "Jo\'gon\'s Rod",
   [60117] = "Venture Co. Debris",
   [60118] = "Gnomish Coagulator",
+  [60163] = "Deathguard Orders",
+  [60164] = "Psathshroom Spores",
+  [60165] = "Worg Blood",
 }

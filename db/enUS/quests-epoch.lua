@@ -1234,4 +1234,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Speak to the Fallen Knight in the Undercity.",
     ["D"] = "<Full Quest has been disabled to avoid launch day spoilers.>",
   },
+  [26225] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Look for any evidence of the caravans occupants beneath the bridge near the ambush sight north of the Sepulcher.",
+    ["D"] = "This caravan convoy was headed towards the Undercity and came under attack from those vile beast Worgen. By the time I got here it looks like the guards and peons were all dragged off into the woods or worse.\n\nThe Worgen were scrambling to find something and it took all of my might to repel them. Look around for me and see if you can find a reason why they would have attacked, the claw marks and paw prints all over clearly lead beneath the nearby bridge.",
+  },
+  [26226] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Gather 8 Psathshroom Spores and 4 quarts of Worg Blood to aid Deathguard Kitsapell in resurecting a wounded horse.",
+    ["D"] = "What in Lordaeron\'s name did those poor Deathguard\'s find? We need to get it back to the Sepulcher as soon as possible so that I can decide how best to proceed. That crate is far too heavy to carry, we need a steed.\n\nThese horses are so damaged they can barely stand but we will need one of them to get this crate back. Bring me some Psathshroom spores from the nearby waters and 4 quarts of blood from the Worgs north west of here and I will see what I can do.",
+  },
+  [26227] = {
+    ["T"] = "Arugal Ambush",
+    ["O"] = "Bring the remainder of the caravan supplies to Quartermaster Kor in the Sepulcher.",
+    ["D"] = "I\'m going to rush this crate to the Sepulcher south west of here, we will figure out what to do with it. I shall give it to Quartermaster Kor for safekeeping.\n\nBring the last of the supplies I\'ve managed to group together from this convoy and meet me there they will be of more use in the Sepulcher than rotting by the road.",
+  },
 }
