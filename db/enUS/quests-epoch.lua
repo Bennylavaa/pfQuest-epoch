@@ -1219,4 +1219,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Hunt down the Centaur Jasone roaming beneath Thunderbluff.",
     ["D"] = "An expelled Galak Centaur has been roaming beneath the city of Thunderbluff attacking travellers. Not just the men, but the women, and the children. This can not stand, hunt them down.\n\nBring proof of your victory over this beast to Zangen Stonehoof atop Thunder Bluff and you will be rewarded.",
   },
+  [26734] = {
+    ["T"] = "Massive Profits",
+    ["O"] = "Collect 3 Fossilised Gallbladder from the largest Kodo skeletons found within Desolace.",
+    ["D"] = "All around the Kodo Graveyard to the south west there are some truly collosal Kodo that must have lived here eons ago before Desolace became... this. I think the key to that size is what they consumed and need samples of fossilised gallbladders to prove my theory.\nIf I\'m correct and I can manufacture beasts of that scale who knows how much certain people would pay for the power!? They will be hard to find so keep your eyes open.",
+  },
 }

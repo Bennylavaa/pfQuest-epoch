@@ -154,4 +154,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60112] = "Jo\'gon\'s Rod",
   [60117] = "Venture Co. Debris",
   [60118] = "Gnomish Coagulator",
+  [61212] = "Fossilised Gallbladder",
 }
