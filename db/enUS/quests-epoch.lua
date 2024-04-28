@@ -1269,4 +1269,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Summon and control the abomination. Then use him to kill Akagi south of the Sepulcher. Return to Apothecary Renferrel when the task is completed.",
     ["D"] = "Normally we craft our abominations in Undercity, but with these dire circumstances we\'ll have to make do here. Because we don't have all the ingredients Undercity does, I\'m afraid the abomination will have no mind of its own, so you\'ll have to take control of it. I\'ve written down the incantation for the spell. As soon as you finish, the abominations mind will be under your control.\n\nI received a report from the guards just a bit ago, stating that the grizzly we've been looking for was found. His name is Akagi, and he is just south of here.\n\nTake the rugged path beside the flight master, and turn right at the first opening. You'll find the beast there. And be quick, the spell will only hold for a few minutes!",
   },
+  [26291] = {
+    ["T"] = "Foreign Technology",
+    ["O"] = "Infiltrate The Deadmines and bring the Cognation Reconstructor to Traugh at The Crossroads.",
+    ["D"] = "Our technology is...limited here in The Barrens. I would like to further advance it, so we can create more complex tools and weapons. I do not have the knowledge, but there are those that do.\n\nHave you heard of The Deadmines? It\'s a stronghold for the Defias Brotherhood, located all the way in Westfall, over in the Eastern Kingdoms. In there you will find a nefarious goblin named Gilnid, who makes devices for the Brotherhood.\n\nI hear rumors, and it\'s been told to me that he has a new device capable of turning raw materials into weapons! Bring me this device so the Horde can become stronger! Beware though, the Brotherhood will not easily part with their machines, so bring some friends with you.",
+  },
+  [26296] = {
+    ["T"] = "WANTED: Deepskin",
+    ["O"] = "Slay Deepskin and bring his tooth to Thork at The Crossroads.",
+    ["D"] = "Many adventurers have fallen prey to this particularly aggressive crocolisk. He roams the river bordering The Barrens and Durotar.\n\nBring one of his fangs to Thork in The Crossroads as proof of his death.",
+  },
+  [26290] = {
+    ["T"] = "Burning Blade Signets",
+    ["O"] = "Collect 10 Burning Blade Signets from Burning Blade members and return to Thork at The Crossroads.",
+    ["D"] = "No doubt you\'ve heard of the Burning Blade, eh? A ruthless cult that has plagued Azeroth. They have invaded The Barrens, and have already pillaged a small village.\n\nMy first priority is the safety of this land, so go out and bring me some of their rings as proof of their demise. My scouts tell me they made camp at Dreadmist Peak, a mountain range quite a ways northwest of here.",
+  },
 }
