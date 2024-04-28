@@ -141,4 +141,9 @@ pfDB["items"]["enUS-epoch"] = {
   [61038] = "Karabore Fire Stew",
   [61028] = "Sturdy Crocolisk Skin",
   [61029] = "Rugged Panther Skin",
+  [60115] = "Thistleweed",
+  [60113] = "Felstalker Blood",
+  [61156] = "Dustpaw's Snout",
+  [60114] = "Bloodtalon Claw",
+  [60112] = "Jo\'gon\'s Rod",
 }

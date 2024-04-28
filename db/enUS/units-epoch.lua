@@ -174,4 +174,11 @@ pfDB["units"]["enUS-epoch"] = {
   [45875] = "Harborage Guard",
   [11198] = "Draenei Exile",
   [45885] = "Moruul",
+  [45110] = "Kul Tiras Admiral",
+  [45111] = "Kul Tiras Deckhand",
+  [45107] = "Garoki",
+  [46079] = "Dustpaw",
+  [46124] = "Bloodtalon Ravasaur",
+  [45106] = "Jo\'gon",
+  [45334] = "Supervisor Hink",
 }

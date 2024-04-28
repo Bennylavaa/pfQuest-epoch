@@ -1114,4 +1114,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect Sturdy Crocolisk Skins from Sawtooth Snapper and Rugged Panther Skin from Shadow Panther.",
     ["D"] = "Psst, hey you. Yes you. Earlier I saw you bringing a bundle of skins to Masat and I\'m wondering if you could help me with a little project.\nMasat is the most prolific leatherworker in the town but I think that if I produce something of high enough quality I can take over outfitting the guards. Would you be willing to get me some skins? They have to be of a much higher quality than the rubbish you brought to Masat.\nFar to the east you\'ll find Sawtooth Snappers and Shadow Panthers bring me their hides.",
   },
+  [26193] = {
+    ["T"] = "The Cursed Fleet",
+    ["O"] = "Kill 8 Kul Tiras Deckhands and 3 Kul Tiras Admirals and return to Gar\'Thok at Razor Hill.",
+    ["D"] = "Good work taking care of the keep $N, but there is still work to be done. The Kul Tiras started their assault on Durotar with their ships. The cannons and explosions nearly killed most of my men. We finally pushed them back when we got reinforcements from Orgrimmar, but I\'m told the dead crew members from the fleet are restless at sea, unable to die properly because their job is unfinished.\n\nI need you to go to the ships and kill any Kul Tirans still causing trouble. You can find the sunken ships at the Scuttle Coast, east of here.",
+  },
+  [26706] = {
+    ["T"] = "WANTED: Dustpaw",
+    ["O"] = "Bring Dustpaw\'s Snout to Foreman Thazz\'ril in the Valley of Trials.",
+    ["D"] = "By order of the guard, a dangerous wolf named Dustpaw is hereby sentenced to death! Having killed dozens of citizens in the Valley of Trials, Dustpaw will present a challenge to adventurer\'s seeking to claim this bounty.\n\nDustpaw has been sighted patrolling the eastern ridge of the valley. Should you succeed, bring his snout to Foreman Thazz\'ril.",
+  },
+  [26190] = {
+    ["T"] = "A Village In Need",
+    ["O"] = "Collect 5 Thistleweed, 3 vials of Felstalker Blood, and 3 Bloodtalon Claws for Garoki in the Valley of Trials.",
+    ["D"] = "Greetings, mon. I\'ve recieved a report from a local village that they are in need of some things. If you\'re looking for work the help would be appreciated.\n\nThe report said they need some thistleweed, which you can find scattered around the valley here. Next is the blood from Felstalkers at the cave north of here. Finally they need the claws off the raptor colony located south of here.",
+  },
+  [26189] = {
+    ["T"] = "A Touch of Lightning",
+    ["O"] = "Siphon 5 Essence of Lightning into Jo\'gon's Rod and return to Jo\'gon at Razor Hill.",
+    ["D"] = "Greetings mon. I could be using your help if you got da time. I be practicing my shamanistic skills, and wish to learn how to manipulate objects. To do that I be needing some lightning essence.\n\nDa best place to find that is up in Thunder Ridge. Take my rod and use it on the beasts. The kodo\'s hides are rich in lightning, and this rod will absorb it.",
+  },
+  [26348] = {
+    ["T"] = "Supervisor Hink",
+    ["O"] = "Report to Supervisor Hink at the Zeppelin Tower in Durotar.",
+    ["D"] = "One of my scouts delivered a letter to me, apparently the goblins constructing the new zeppelin tower are having some trouble. I\'m not entirely sure what that means...but the foreman requested help, so Razor Hill will answer.\n\nThe warchief says that getting the zeppelin tower built is a top priority, so it\'s important we assist with any issues the goblins are having! Go report to Supervisor Hink, he is overseeing the construction. You\'ll find the new zeppelin tower just southeast of the Orgrimmar gates.",
+  },
 }
