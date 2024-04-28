@@ -179,6 +179,7 @@ pfDB["units"]["enUS-epoch"] = {
   [46598] = "Leedil Jinglepocket",
   [45110] = "Kul Tiras Admiral",
   [45111] = "Kul Tiras Deckhand",
+  [45100] = "Gernal Burch",
   [45107] = "Garoki",
   [46079] = "Dustpaw",
   [46124] = "Bloodtalon Ravasaur",
