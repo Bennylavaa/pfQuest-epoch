@@ -1139,4 +1139,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Report to Supervisor Hink at the Zeppelin Tower in Durotar.",
     ["D"] = "One of my scouts delivered a letter to me, apparently the goblins constructing the new zeppelin tower are having some trouble. I\'m not entirely sure what that means...but the foreman requested help, so Razor Hill will answer.\n\nThe warchief says that getting the zeppelin tower built is a top priority, so it\'s important we assist with any issues the goblins are having! Go report to Supervisor Hink, he is overseeing the construction. You\'ll find the new zeppelin tower just southeast of the Orgrimmar gates.",
   },
+  [26349] = {
+    ["T"] = "Scythemaw Standstill",
+    ["O"] = "Kill 10 Bloodtalon Scythemaws and return to Supervisor Hink at the zeppelin tower in Durotar.",
+    ["D"] = "I knew I made a mistake when I took a job in Durotar! Of all the places in Azeroth, I chose to go where raptors and scorpions regularly roam the lands. I\'m telling ya, the only reason I\'m even here is because the Warchief is paying me a ton to construct this tower.\n\nEver since construction started, we\'ve been dealing with these damn raptors! They constantly raid our camps at night, and eat my workers during the day. I need you to go and \"prune\" their population a bit so that development can get back on schedule!",
+  },
+  [26351] = {
+    ["T"] = "Searching for Gizzle",
+    ["O"] = "Find Gizzle Screwsnip. You recall the foreman saying he might be held at Dustwind Cave.",
+    ["D"] = "My best engineer, Gizzle Screwsnip, mysteriously dissapeared a few days ago when he went out on a supply run. I\'m quite worried about him, and his designs are essential to the development on the zeppelin tower.\n\nIf I had to guess, it was the Burning Blade that took him. I heard they\'re occupying a cave just north of Razor Hill, named Dustwind Cave. They perform demonic rituals and other heinous acts on the people they capture.\n\nI think if you go to Dustwind Cave there is a good chance you\'ll find Gizzle. I\'ll reward you handsomely for your efforts.",
+  },
+  [26350] = {
+    ["T"] = "The Dustwind Escape",
+    ["O"] = "Help Gizzle Screwsnip escape Dustwind Cave. Should you succeed, report to Supervisor Hink at the zeppelin tower in Durotar.",
+    ["D"] = "I didn\'t think I would see another $R again! You gotta get me out of here, these cultists are crazy! They tried performing a ritual on me earlier, but I don't think they had all the materials.\n\nWhen they get back, they're sure to try again, except this time it might work! Let's hurry and bust out of here.",
+  },
 }

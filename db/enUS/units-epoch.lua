@@ -181,4 +181,5 @@ pfDB["units"]["enUS-epoch"] = {
   [46124] = "Bloodtalon Ravasaur",
   [45106] = "Jo\'gon",
   [45334] = "Supervisor Hink",
+  [45333] = "Grizzle Screwsnip",
 }
