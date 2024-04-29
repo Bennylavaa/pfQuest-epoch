@@ -179,4 +179,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61207] = "Uncharged Trance Enhancer",
   [61208] = "Charged Trance Enhancer",
   [61282] = "Head of Wilfiz Silverbit",
+  [60613] = "Adorned Letter",
 }

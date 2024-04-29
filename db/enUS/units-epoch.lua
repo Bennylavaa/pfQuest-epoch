@@ -222,4 +222,9 @@ pfDB["units"]["enUS-epoch"] = {
   [46096] = "Shadow Wraith",
   [46093] = "Winkle Screwbucket",
   [46109] = "Wilfiz Silverbit",
+  [45457] = "Deserter Honorguard",
+  [45521] = "Deserter Arcanist",
+  [45522] = "Deserter Medic",
+  [45519] = "Anna Kaspian",
+  [45520] = "Commander Airheart",
 }

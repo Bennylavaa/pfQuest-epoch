@@ -1444,4 +1444,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring Vimes\'s Report to Lady Jaina Proudmoore in Theramore.",
     ["D"] = "You\'ve done some good work, Bennylava, best I\'ve seen from an amateur.\nLady Proudmoore asked that I keep her apprised of this delicate situation, and I haven\'t spoken to her for some time now.\nI was going to deliver my report to her later, but it seems more fitting that you should be the one to speak with her about it. You can probably answer her questions better than I could.",
   },
+  [26454] = {
+    ["T"] = "Airheart Must Go",
+    ["O"] = "Locate Fort Airheart on the border of Dustwallow Marsh and The Barrens and slay the Commander within.",
+    ["D"] = "We have received troubling news from our scouts that a new group of deserters that have claimed a fort on the border of Dustwallow and the Barrens and settled in. We must clear them out before someone confuses the situation.\nThey are well armed and thoroughly entrenched beyond what we expected. Their leader is a fearless Commander named Airheart, find him deep within that fort and slay him to end this dire situation.",
+  },
+  [26460] = {
+    ["T"] = "Put Them Down",
+    ["O"] = "Assault Fort Airheart and slay 8 Deserter Honorguards and 8 Deserter Medics.",
+    ["D"] = "The Fort at the border of Dustwallow and the Barrens is full of deserters under the charge of Airheart. If we strike him down before long a new one will rise to the ranks.\nWe must assault them with full force, not only striking at the head but at the limbs. Take down his most fearsome of Honorguards and their Medics so that they can not recover from this blow.",
+  },
+  [26462] = {
+    ["T"] = "Reinforcements From Afar",
+    ["O"] = "Bring the Adorned Letter to Lady Jaina Proudmoore in Theramore for inspection.",
+    ["D"] = "Your request for supplies and reinforcements has been heard and our smugglers are doing their best to get you aid via Steamwheedle and Theramore itself.\nIt is important to our cause that the keep does not fall. The dogs of the Horde and the whelps within the Alliance will pay for what has been done.\nOur newfound neutrality with the owner of our isle has allowed us to begin building a true town for those who are loyal to our desires.\nBefore long you will be sent to attack Camp Taurajo in force but await our next report. For the Admiral!\n- R.D",
+  },
+  [26456] = {
+    ["T"] = "Escaping Airheart",
+    ["O"] = "Escort Anna Kaspian out of Fort Airheart and then inform her friend Janene at the Theramore Inn.",
+    ["D"] = "Me and my husband Gerald were making our way from Ratchet to Theramore with fresh supplies when these ruffians ambushed us.\nI can tell by the crest on their chests that they are no friend of Theramore and they saw we were in an instant too.\nMy poor husband tried to stand up for the honor of the Proudmoores and well... look behind me to see how that went...\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, Bennylava?",
+  },
 }
