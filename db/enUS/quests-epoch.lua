@@ -1469,4 +1469,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay Archmage Zygor in Durnholde Keep. Return to High Executor Darthalia in Tarren Mill for your reward.",
     ["D"] = "By the authority of Lady Sylvanas, the archmage known as Zygor is to be executed immediately. Zygor is guilty of training and instructing a dangerous organization known as the Syndicate in dark magic.\n\nHe can be found in Durnholde Keep, likely in the mage tower. A handsome reward is offered to all who bring proof of their deeds to High Executor Darthalia.",
   },
+  [26327] = {
+    ["T"] = "Hillsbrad Assault",
+    ["O"] = "Capture the Central Tower when it is under the control of the Alliance.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Hordes control of these lands. The banshee queen herself has ordered that whenever the Alliance claims it we must urgently take it back.\n\nRally your forces $N and do as she has bid.",
+  },
+  [26328] = {
+    ["T"] = "Hillsbrad Defense",
+    ["O"] = "Defend the Central Tower when it is under the control of the Horde.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Hordes control of these lands. The banshee queen herself has ordered that whenever the Alliance attempts to take control of it we must defend it at all costs.\n\nRally your forces $N and do as she has bid.",
+  },
 }
