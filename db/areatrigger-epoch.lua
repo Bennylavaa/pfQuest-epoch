@@ -39,4 +39,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 61.5, 23.8, 17 },
     },
   },
+  [4000007] = { --Blazing Hills
+    ["coords"] = {
+      [1] = { 82.8, 57.3, 45 },
+    },
+  },
 }

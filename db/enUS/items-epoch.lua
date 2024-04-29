@@ -182,4 +182,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60479] = "Eternal Torch",
   [60483] = "Zygor's Head",
   [61122] = "Bushel of Massive Shadowberry",
+  [61137] = "Creeper Chunks",
 }

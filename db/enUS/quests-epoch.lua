@@ -539,6 +539,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay 6 Starving Worgs and then return to Deathguard Terrence walking somewhere between Brill and the Ruins of Lordaeron in Tirisfal Glades.",
     ["D"] = "Ah hello, $C. You seem like the type who enjoys being sent out to deal with other people\'s problems for pocket change. At the border between Tirisfal and Silverpine Forest, to our south-west, there have been some worgs crossing the border. Not much food to be had here for living wolves, so they occasionally attack wagons or passerbys.\n\nOff you go then!",
   },
+  [26684] = {
+    ["T"] = "To The Hills",
+    ["O"] = "Scout the Burning Hills to discover the source of the smoke.",
+    ["D"] = "Me be seein\' some serious smoke comin\' from da Blazin\' Hills to da east of Hammerfall. Dis be worryin\' me, as da elementals dat call dat place home be normally peaceful.\n\nMe be askin\' ya to be headin\' over dere and seein\' what be causin\' all dat ruckus. Dere be danger afoot, so be sure to be stayin\' sharp and keepin\' yer wits about ya.",
+  },
   [26685] = {
     ["T"] = "To The Hills",
     ["O"] = "Scout the Burning Hills to discover the source of the smoke.",
@@ -1483,5 +1488,10 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Shadowberry Pie",
     ["O"] = "Collect 8 Bushels of Massive Shadowberry from the Blazing Hills south east of Hammerfall.",
     ["D"] = "Up in the Blazing Hills there is a special berry we call the Shadowberry. Delicious, rich in colour and only grows up there for reasons I do not understand.\n\nI know they sell for a good price on the black market due to that scarcity but we have troops to feed. Go get me some and I can make everyone a nice warm pie.",
+  },
+  [26722] = {
+    ["T"] = "Unusual Rations",
+    ["O"] = "Collect 10 Creeper Chunks from Blazing Creepers within the Blazing Hills.",
+    ["D"] = "Quality meat is scarce to find within Arathi and stuff that tastes good even less so but I do have one key ingredient I\'ve been slipping into our \"meat\" dumplings... Creeper Meat.\n\nYes, yes I know that look on your face. Don\'t judge me.\n\nMy stocks are running low though and without good grub we\'ll have a mutiny on our hands. The meat I need can only be found on the Blazing Creepers within the Blazing Hills south east of here. Bring me some and I\'ll pay you handsomly.",
   },
 }

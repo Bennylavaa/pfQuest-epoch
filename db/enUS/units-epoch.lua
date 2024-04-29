@@ -235,4 +235,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45441] = "Captured Prisoner",
   [45432] = "Beve Perenolde",
   [45428] = "Archmage Zygor",
+  [46041] = "Deathclaw",
+  [46028] = "Blazing Creeper",
 }
