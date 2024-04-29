@@ -3873,7 +3873,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 38,
   },
-  [639] = { --Prequest Removed
+  [639] = { --Sigil of the Storm - Prequest Removed
     ["start"] = {
       ["U"] = { 2703 },
     },
@@ -3914,4 +3914,84 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 37,
     ["race"] = 178,
   },
+  [26353] = {
+    ["start"] = {
+      ["U"] = { 4082 },
+    },
+    ["end"] = {
+      ["U"] = { 4082 },
+    },
+    ["obj"] = {
+      ["U"] = { 4003, 4004, 3999,  },
+    },
+    ["lvl"] = 22,
+    ["race"] = 178,
+  },
+  [26357] = {
+    ["start"] = {
+      ["U"] = { 4082 },
+    },
+    ["end"] = {
+      ["U"] = { 4082 },
+    },
+    ["obj"] = {
+      ["I"] = { 60410 },
+    },
+    ["lvl"] = 22,
+    ["race"] = 178,
+  },
+  [26355] = {
+    ["start"] = {
+      ["U"] = { 11864 },
+    },
+    ["end"] = {
+      ["U"] = { 11864 },
+    },
+    ["obj"] = {
+      ["I"] = { 60407 },
+    },
+    ["lvl"] = 23,
+    ["race"] = 178,
+  },
+  [26359] = {
+    ["start"] = {
+      ["U"] = { 5870 },
+    },
+    ["end"] = {
+      ["U"] = { 5870 },
+    },
+    ["obj"] = {
+      ["I"] = { 60413 },
+    },
+    ["lvl"] = 24,
+    ["race"] = 178,
+  },
+  [26352] = {
+    ["start"] = {
+      ["U"] = { 12043 },
+    },
+    ["end"] = {
+      ["U"] = { 12043 },
+    },
+    ["obj"] = {
+      ["I"] = { 60404, 60403,  },
+    },
+    ["lvl"] = 27,
+    ["race"] = 178,
+  },
+  [7866] = "_", --Outrider Basic Care Package
+  [7867] = "_", --Outrider Standard Care Package
+  [7868] = "_", --Outrider Advanced Care Package
+  [26720] = {
+    ["start"] = {
+      ["U"] = { 14781 },
+    },
+    ["end"] = {
+      ["U"] = { 14781 },
+    },
+    ["lvl"] = 60,
+  },
+  [7874] = "_", --Quell the Silverwing Usurpers
+  [7875] = "_", --Quell the Silverwing Usurpers
+  [7876] = "_", --Quell the Silverwing Usurpers
 }

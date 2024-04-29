@@ -1494,4 +1494,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 10 Creeper Chunks from Blazing Creepers within the Blazing Hills.",
     ["D"] = "Quality meat is scarce to find within Arathi and stuff that tastes good even less so but I do have one key ingredient I\'ve been slipping into our \"meat\" dumplings... Creeper Meat.\n\nYes, yes I know that look on your face. Don\'t judge me.\n\nMy stocks are running low though and without good grub we\'ll have a mutiny on our hands. The meat I need can only be found on the Blazing Creepers within the Blazing Hills south east of here. Bring me some and I\'ll pay you handsomly.",
   },
+  [26353] = {
+    ["T"] = "Attack on the Mine",
+    ["O"] = "Kill 5 Windshear Geomancers, 5 Windshear Overlords, and 10 Windshear Diggers in Windshear Mine and return to Grawnal at Sun Rock Retreat.",
+    ["D"] = "If you find yourself in Windshear Crag, be on the lookout for a mine the Venture Co. have constructed. I heard they started operations and are currently mining as we speak! This cannot be tolerated.\n\nThe operations in the mine must be stopped, as the Venture Co. cannot be allowed to advance their foothold in the mountains. Do what it takes, $N, but do not return to me until the task if completed.",
+  },
+  [26357] = {
+    ["T"] = "Ore for Sun Rock",
+    ["O"] = "Mine 8 Palladium Ore from Windshear Mine and return to Grawnal at Sun Rock Retreat.",
+    ["D"] = "I know it doesn\'t look it, but we're running low on materials. Specfically, metals that we can melt down into weapons for the guards. If we can\'t defend ourselves, we leave ourselves open to an Alliance attack!\n\nI\'ve heard that the Venture Co. has found a new ore, said to be more powerful than the iron we\'ve been using. I want you to take my pickaxe and go to Windshear Mine. Just enter Windshear Crag and head right along the mountain\'s edge. If you find any special ore, use my pickaxe and bring it back to me for examination.",
+  },
+  [26355] = {
+    ["T"] = "Mirkfallon Bracers",
+    ["O"] = "Collect 8 Mirkfallon Bracers from the water elementals at Mirkfallon Lake and return to Tammra Windfield at Sun Rock Retreat.",
+    ["D"] = "Greetings, $N. It\'s good to see a Warrior around here, there is work to be done. I have lived in Sun Rock Retreat for many years now, and these mountains never fail to amaze me. Recently, a magical stirring has popped up, and I would like to investigate it.\n\nNorth of here lies Mirkfallon Lake, an old and ancient refugee for creatures of the forest. Lately however, water elementals have sprung from the depths and are harming the creatures that inhabit the lake. I care deeply for the creatures of these mountains, and will not tolerate this! I want you to get rid of the water elementals, and bring me their bracers as proof of the deed.",
+  },
+  [26359] = {
+    ["T"] = "Twilight Fangs",
+    ["O"] = "Collect 10 Twilight Fangs and return to Krond at Sun Rock Retreat.",
+    ["D"] = "Should you find yourself at Stonetalon Grove, far north of here, keep a keen eye for the Twilight Runners that lurk there. Their fangs are said to be of the highest quality, but they are rare because the cats are elusive and quick.\n\nIf you bring me some of their fangs, I\'ll be happy to craft you something made of them. Some say the twilight fangs even have magical properties...",
+  },
+  [26352] = {
+    ["T"] = "A Trip to the Vale",
+    ["O"] = "Collect 1 Charred Wood and 1 Basilisk Tail from the Charred Vale and return to Kulwia at Sun Rock Retreat.",
+    ["D"] = "I am in need of some...exotic trade materials only found in The Charred Vale. It\'s a dangerous place that only the bravest of adventurers should go to. You can find it by going north of here, when you reach Mirkfallon Lake, go east and you should find the path.\n\nThe materials I need are one basilisk tail, and one piece of charred wood from the ancients that roam the vale. Bring me these materials and I will make it worth your while.",
+  },
+  [26720] = {
+    ["T"] = "Battle of Warsong Gulch",
+    ["O"] = "Achieve victory in Warsong Gulch 3 times, then return to Captain Shatterskull in Mor\'shan Base Camp in the Barrens. (This quest can be completed once every week)",
+    ["D"] = "The battle in Warsong Gulch against the Silverwing Sentinels is of great importance. Under the guise of protecting a forest that doesn\'t belong to them, the Alliance seeks to deny the Horde one of our largest sources for lumber.\n\nDo not let this happen, $N! Serve the Horde and fight for honor!",
+  },
 }

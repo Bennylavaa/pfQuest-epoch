@@ -183,4 +183,9 @@ pfDB["items"]["enUS-epoch"] = {
   [60483] = "Zygor's Head",
   [61122] = "Bushel of Massive Shadowberry",
   [61137] = "Creeper Chunks",
+  [60404] = "Basilisk Tail",
+  [60403] = "Charred Wood",
+  [60407] = "Mirkfallon Bracer",
+  [60413] = "Twilight Fang",
+  [60410] = "Palladium Ore",
 }
