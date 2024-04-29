@@ -1309,4 +1309,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill Archmage Korgar and bring his orb to Shin\'Zil in The Barrens.",
     ["D"] = "Aye, I can help you mon, but we need some things to begin da ritual so that we can center in on Nadia\'s location. Da only thing that be powerful enough to find her is located in Northwatch Hold.\n\nThere is a powerful mage there that goes by the name of Archmage Korgar. His orb, da source of his power, is under constant protection. If we are to find Nadia, we be needing that orb.\n\nYou be finding Northwatch Hold just south of Ratchet, mon. But you best be mindful, da guards don\'t take kindly to strangers.",
   },
+  [26257] = {
+    ["T"] = "Infusing the Orb",
+    ["O"] = "Siphon 5 Essence of Lightning into Korgar\'s Orb and return to Shin'Zil in The Barrens.",
+    ["D"] = "This be da orb we looking for, mon. But now dat we have the orb, we need to infuse it with the power of nature. Far south, past The Crossroads, lies packs of thunder lizard that look similar to kodos.\n\nWe need to harness their essence and infuse it into the orb...while they be alive for da most potent power. After you do that, return to me so that we may complete the ritual.",
+  },
 }

@@ -166,4 +166,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60225] = "Burning Blade Signet",
   [60169] = "Kolkar Head",
   [60186] = "Korgar\'s Orb",
+  [60184] = "Korgar\'s Orb",
 }
