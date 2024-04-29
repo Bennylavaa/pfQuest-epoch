@@ -1364,4 +1364,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 10 Chilling Owl Feathers from owls in Winterspring.",
     ["D"] = "How much would you pay for a good night\'s sleep? You don\'t have to answer - I know its worth a lot of gold. That\'s why Smokywood is developing an experimental pillow, made from the finest cooling technology.\n\nWe need more feathers for our prototype and only one source will do - the owls in Winterspring. Their feathers are innately chilled, making for a comfortable sleep even if you\'re bedding down next to Blackrock Mountain. Are you willing to take the job?",
   },
+  [26293] = {
+    ["T"] = "Straight to the Teeth",
+    ["O"] = "Gather 10 Hecklefang Teeth and bring them back to Kaliyah Stormshew at Camp Taurajo.",
+    ["D"] = "Greetings, warrior, by now you must know that Azeroth is a deadly place. To venture without fear, one needs a strong, sturdy weapon.\n\nI need some teeth from the local Hecklefang Hyenas for my tribe\'s weapons. I am not strong enough to go and fight them myself, but I\'ll make you a deal. Bring me back some of their teeth and I\'ll fashion you a weapon as well.",
+  },
+  [26457] = {
+    ["T"] = "Escaping Airheart",
+    ["O"] = "Escort Kaya Ragetotem out of Fort Airheart and then inform her friend Kaliya at the Camp Taurajo Inn.",
+    ["D"] = "Me and my husband Tonga were making our way from Freewind Post to Camp Taurajo with fresh supplies when these ruffians ambushed us.\n\nI can tell by the crest on their chests that they are no friend of the Horde and they saw we were in an instant.\n\nMy poor husband tried to stand up for us and well... they spread him on that garden as mulch...\n\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, $N?",
+  },
 }

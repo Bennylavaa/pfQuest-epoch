@@ -169,4 +169,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60184] = "Korgar\'s Orb",
   [60185] = "Gortak\'s Key",
   [60230] = "Box of Treasure",
+  [60228] = "Hecklefang Tooth",
+  [60119] = "Head of Jasone",
 }
