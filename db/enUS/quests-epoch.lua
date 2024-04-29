@@ -1334,4 +1334,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Tell Mankrik at The Crossroads of Nadia\'s escape.",
     ["D"] = "Thank you for all your assistance, $N. I owe my life to you. I know my way home from here, but you tell me it has been destroyed. I suppose I must take refuge at The Crossroads until we can build a new home.\n\nGo on ahead and tell Mankrik all that has happened. I know he must be dying of uncertainty, not knowing my fate. I will be right behind you!",
   },
+  [27241] = {
+    ["T"] = "Plundering Pirates",
+    ["O"] = "Locate Captain Steelgut at Faldir's Cove within the Arathi Highlands.",
+    ["D"] = "Listen up! I\'ve received from word from, well, let's just say an ally claiming that an assault appears to be taking place at Tol Barad.\n\nThat island hasn\'t been disturbed or stirred in many years so it is more than a little suspicious to receive this report.Head to Faldir\'s Cove and speak to Captain Steelgut and tell them I sent you. They\'ll know what it is about.",
+  },
+  [26295] = {
+    ["T"] = "The Merchant\'s Daughter",
+    ["O"] = "Bring the Box of Treasure back to Wrenix the Wretched in Ratchet.",
+    ["D"] = "Hey friend, you want to make some money? Times are tough around here, but I heard a rumor that off the coast of this town lies a ship at the bottom of the sea, called The Merchant\'s Daughter.\n\nInside the wreckage is some treasure. Who knows what the crew of that ship had in there! Bring that treasure back and maybe I\'ll give you a bit of the cut.",
+  },
 }
