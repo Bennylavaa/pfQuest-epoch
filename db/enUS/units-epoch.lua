@@ -237,4 +237,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45428] = "Archmage Zygor",
   [46041] = "Deathclaw",
   [46028] = "Blazing Creeper",
+  [45198] = "Taskmaster Baran",
+  [45197] = "Romgul",
+  [45200] = "Apprentice Donelly",
+  [45479] = "Splintertree Peon",
 }

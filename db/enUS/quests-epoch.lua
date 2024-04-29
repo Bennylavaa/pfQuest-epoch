@@ -1524,4 +1524,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Achieve victory in Warsong Gulch 3 times, then return to Captain Shatterskull in Mor\'shan Base Camp in the Barrens. (This quest can be completed once every week)",
     ["D"] = "The battle in Warsong Gulch against the Silverwing Sentinels is of great importance. Under the guise of protecting a forest that doesn\'t belong to them, the Alliance seeks to deny the Horde one of our largest sources for lumber.\n\nDo not let this happen, $N! Serve the Horde and fight for honor!",
   },
+  [26243] = {
+    ["T"] = "CHOP!",
+    ["O"] = "Protect Romgul as he lures Ashenvale Outrunners out. When done, return to Taskmaster Baran.",
+    ["D"] = "These cowardly elves hide in the shadows, ambushing anyone that enters their territory. It\'s time that we did something to throw them off of our peons.\n\nRomgul will be lended to you for this task. He\'s going to clumsily shamble along as peons do, making as much noise as he can. When the ambushers see this stupid idiot, they\'ll smell weakness and pounce on him. Your role will be to ensure that not only does he survive, but that none of the elven ambushers escape.\n\nDo this for me, and I\'ll pay you.",
+  },
+  [26415] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Question the peons within Splintertree Mine.",
+    ["D"] = "Normally the output of this mine is crucial to the war effort of the Horde. However of late these damned lazy peons have been slacking, some have even downed tools and ran out of here babbling.\n\nCan you ask them what on Azeroth is going on?",
+  },
+  [26246] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Find the apothecary camp south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+    ["D"] = "I have been asked to tell any adventurers that come by to find the apothecaries if they are looking for paying work. If you don\'t mind smelly corpses with objectionable goals, you might be interested.\n\nThe apothecary camp is to the south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+  },
 }
