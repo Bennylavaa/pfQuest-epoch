@@ -1374,4 +1374,64 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Escort Kaya Ragetotem out of Fort Airheart and then inform her friend Kaliya at the Camp Taurajo Inn.",
     ["D"] = "Me and my husband Tonga were making our way from Freewind Post to Camp Taurajo with fresh supplies when these ruffians ambushed us.\n\nI can tell by the crest on their chests that they are no friend of the Horde and they saw we were in an instant.\n\nMy poor husband tried to stand up for us and well... they spread him on that garden as mulch...\n\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, $N?",
   },
+  [26734] = {
+    ["T"] = "Massive Profits",
+    ["O"] = "Collect 3 Fossilised Gallbladder from the largest Kodo skeletons found within Desolace.",
+    ["D"] = "All around the Kodo Graveyard to the south west there are some truly collosal Kodo that must have lived here eons ago before Desolace became... this. I think the key to that size is what they consumed and need samples of fossilised gallbladders to prove my theory.\nIf I\'m correct and I can manufacture beasts of that scale who knows how much certain people would pay for the power!? They will be hard to find so keep your eyes open.",
+  },
+  [26744] = {
+    ["T"] = "Supplies for Squigglecord",
+    ["O"] = "Bring the crate of supplies to Squigglecord Outpost south west of Thunder Axe Fortress.",
+    ["D"] = "Out in these dangerous lands we members of the Alliance have to keep a close watch and a helping hand for our own. While it is a very recent addition to Desolace we get a lot of travellers heading over to Squigglecord Outpost.\nI\'ve gotten word from their Innkeeper Teenyfuse that his supplies are running low for both drinks and food, could you run these over for me? You can find it south west of here beyond Thunder Axe Fortress.",
+  },
+  [26746] = {
+    ["T"] = "Remnants Of The Nether",
+    ["O"] = "Collect 10 Remnant\'s of the Nether from demons within Mannoroc Coven.",
+    ["D"] = "South west of here you will find Mannoroc Coven a dangerous and fel rich place where the Burning Blade are summoning demons onto these very lands.\nAs a demon is ripped from the twisting nether onto Azeroth they bring with them strange remnants of the nether that I am studying intently. Could you collect me some samples?",
+  },
+  [26747] = {
+    ["T"] = "The Source Of Corruption",
+    ["O"] = "Collect a sample of Princess Theradras within Maraudon for Selrai Dewlight at Squigglecord Outpost.",
+    ["D"] = "It is said through oral history that these lands were once lush but the unleashing of Princess Theradras within Maraudon caused the calamity we see all around us. My aim is to attempt to restore these lands with the assistance of Dibi and Kelly here.\nOne key component we need to investigate further however is a sample of the Princess herself. Not only will slaying her end further corruption but by studying her closely we may be able to reverse it.\nDelve into Maraudon on my behalf and retrieve a sample for me please and I will repay you handsomely.",
+  },
+  [26724] = {
+    ["T"] = "A Gnome in Need",
+    ["O"] = "Track down the Burning Blade Courier and bring his letter to Dibi Squigglecord in Desolace.",
+    ["D"] = "I know I may not look like much, but I built this town from the ground up! It\'s my duty to look out for my citizens, and right now I need your help!\nOne of my engineers, Winkle Screwbucket, went out for a supply run and hasn\'t been seen since. I\'m worried the Burning Blade may have captured him.\nMy intel reports that one of their couriers is set to deliver a letter to the chief in Thunder Axe Fortress. It\'s possible that letter contains information about where Winkle is. You\'ll probably find the courier around the fortress, so be quick and bring me that letter!",
+  },
+  [26725] = {
+    ["T"] = "A Gnome in Need",
+    ["O"] = "Speak to Ekoc Niftypatch at Squigglecord Outpost.",
+    ["D"] = "Since the Burning Blade captured Winkle, we\'re going to need some special tools to get him back! My chief engineer, Ekoc Niftypatch, might be able to hook you up with something that can assist us. You\'ll find him in the building right behind me.",
+  },
+  [26726] = {
+    ["T"] = "A Gnome in Need",
+    ["O"] = "Recover the Trance Enhancer from the wreckage at Sar\'theris Strand and return to Ekoc Niftypatch at Squigglecord Outpost.",
+    ["D"] = "I might have a way we can force the Burning Blade to give up Winkle\'s position! The only problem is...we don\'t have the tool. A few years ago, a ship came to dock off the coast of Sar\'theris Strand just northwest of here. However, the naga attacked them and their ship sunk.\nI\'ve heard rumors that some of the tools the crew carried were quite advanced. There\'s even some goggles that hypnotize an enemy! You might find those goggles in the wreckage. Bring them to me, and we might be able to use them to find Winkle.",
+  },
+  [26727] = {
+    ["T"] = "A Gnome in Need",
+    ["O"] = "Siphon 5 Shadow Essence into the Trance Enhancer and return to Ekoc Niftypatch at Squigglecord Outpost.",
+    ["D"] = "The good news is we have the goggles, but the bad news is they aren\'t charged! Turns out being under the sea for a few years really drains the battery. Luckily I know just the place to recharge these.\nTake them to Sargeron, northeast of here. You\'ll find some shadow elementals there that are rich in energy. Siphon their energy into the goggles and bring them back to me.",
+  },
+  [26728] = {
+    ["T"] = "A Gnome in Need",
+    ["O"] = "Use the Charged Trance Enhancer to hypnotize a member of the Burning Blade Clan into telling you the location of Winkle Screwbucket. Return to Dibi Squigglecord at Squigglecord Outpost if you succeed.",
+    ["D"] = "The Trance Enhancer is charged and ready to go! Take it to Thunder Axe Fortress and use it on one of the Burning Blade members there. I can\'t gurantee how long the trance will last, so ask your questions quickly.\nIf you end up getting his location, let Dibi know at once so we can coordinate a rescue operation. Good luck, Bennylava, and bring Winkle home!",
+  },
+  [26729] = {
+    ["T"] = "A Gnome in Need",
+    ["O"] = "Locate Winkle Screwbucket at Thunder Axe Fortress in Desolace.",
+    ["D"] = "So, the Burning Blade you hypnotized said Winkle is being held in a cave on the south side of Thunder Axe Fortress? If that\'s true, we must hurry before they transport him to their main holding cells.\nBe careful though, the Burning Blade won\'t part with him easily. I wish I could spare some guards, but I leave this in your hands Bennylava. Bring Winkle home to us safely.",
+  },
+  [26730] = {
+    ["T"] = "A Gnome in Need",
+    ["O"] = "Escort Winkle Screwbucket out of Thunder Axe Fortress. Report to Dibi Squigglecord if you are successful.",
+    ["D"] = "Did Dibi send you? I\'ve been trapped in this cave for days. I thought about making a run for it, but I\'m just a cowardly gnome. Now that you\'re here, we have a chance to get out of here though! Lead the way, Human!",
+  },
+  [26745] = {
+    ["T"] = "Wanted: Wilfiz Silverbit",
+    ["O"] = "Locate and slay Wilfiz Silverbit north of Mannoroc Coven within Desolace.",
+    ["D"] = "My former apprentice ran off taking with him valuable knowledge to aid the Burning Blade in the region. This insolence shall not stand! I want his head brought to me on a pike if needed. He was last seen picking mushrooms just north of Mannoroc Coven.\n-- Imu Copperspell",
+  },
 }

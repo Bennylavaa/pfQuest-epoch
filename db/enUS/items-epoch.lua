@@ -171,4 +171,12 @@ pfDB["items"]["enUS-epoch"] = {
   [60230] = "Box of Treasure",
   [60228] = "Hecklefang Tooth",
   [60119] = "Head of Jasone",
+  [61212] = "Fossilised Gallbladder",
+  [61285] = "Remnant of the Nether",
+  [61286] = "Sample of the Princess",
+  [61205] = "Undelivered Letter",
+  [61206] = "Trance Enhancer",
+  [61207] = "Uncharged Trance Enhancer",
+  [61208] = "Charged Trance Enhancer",
+  [61282] = "Head of Wilfiz Silverbit",
 }
