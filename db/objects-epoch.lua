@@ -1010,4 +1010,14 @@ pfDB["objects"]["data-epoch"] = {
     },
   },
   [186426]  = "_", -- tbc wanted sign
+  [4001014] = { --Placeholder ID
+    ["coords"] = {
+      [1] = { 52.2, 30.2, 17, 0 },
+    },
+  },
+  [4001015] = { --Placeholder ID
+    ["coords"] = {
+      [1] = { 64.7, 39.3, 17, 0 },
+    },
+  },
 }

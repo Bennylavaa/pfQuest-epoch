@@ -1269,6 +1269,111 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Summon and control the abomination. Then use him to kill Akagi south of the Sepulcher. Return to Apothecary Renferrel when the task is completed.",
     ["D"] = "Normally we craft our abominations in Undercity, but with these dire circumstances we\'ll have to make do here. Because we don't have all the ingredients Undercity does, I\'m afraid the abomination will have no mind of its own, so you\'ll have to take control of it. I\'ve written down the incantation for the spell. As soon as you finish, the abominations mind will be under your control.\n\nI received a report from the guards just a bit ago, stating that the grizzly we've been looking for was found. His name is Akagi, and he is just south of here.\n\nTake the rugged path beside the flight master, and turn right at the first opening. You'll find the beast there. And be quick, the spell will only hold for a few minutes!",
   },
+  [26291] = {
+    ["T"] = "Foreign Technology",
+    ["O"] = "Infiltrate The Deadmines and bring the Cognation Reconstructor to Traugh at The Crossroads.",
+    ["D"] = "Our technology is...limited here in The Barrens. I would like to further advance it, so we can create more complex tools and weapons. I do not have the knowledge, but there are those that do.\n\nHave you heard of The Deadmines? It\'s a stronghold for the Defias Brotherhood, located all the way in Westfall, over in the Eastern Kingdoms. In there you will find a nefarious goblin named Gilnid, who makes devices for the Brotherhood.\n\nI hear rumors, and it\'s been told to me that he has a new device capable of turning raw materials into weapons! Bring me this device so the Horde can become stronger! Beware though, the Brotherhood will not easily part with their machines, so bring some friends with you.",
+  },
+  [26296] = {
+    ["T"] = "WANTED: Deepskin",
+    ["O"] = "Slay Deepskin and bring his tooth to Thork at The Crossroads.",
+    ["D"] = "Many adventurers have fallen prey to this particularly aggressive crocolisk. He roams the river bordering The Barrens and Durotar.\n\nBring one of his fangs to Thork in The Crossroads as proof of his death.",
+  },
+  [26290] = {
+    ["T"] = "Burning Blade Signets",
+    ["O"] = "Collect 10 Burning Blade Signets from Burning Blade members and return to Thork at The Crossroads.",
+    ["D"] = "No doubt you\'ve heard of the Burning Blade, eh? A ruthless cult that has plagued Azeroth. They have invaded The Barrens, and have already pillaged a small village.\n\nMy first priority is the safety of this land, so go out and bring me some of their rings as proof of their demise. My scouts tell me they made camp at Dreadmist Peak, a mountain range quite a ways northwest of here.",
+  },
+  [26232] = {
+    ["T"] = "Consumed by Hatred",
+    ["O"] = "Bring back 10 Kolkar Heads to Mankrik at The Crossroads.",
+    ["D"] = "Do you know what it\'s like to feel uncertain all the time? Not knowing of Nadia\'s fate? Perhaps you do, perhaps not, but there is one thing I am certain of...I want revenge. I want bloodshed. The Kolkar must die!\n\nI would go myself, but in the escape I injured my leg. Go for me, orc, and bring back their heads so I know the deed is done.",
+  },
+  [26253] = {
+    ["T"] = "Lost in Battle",
+    ["O"] = "Discover what happened to Nadia and report your findings back to Mankrik at The Crossroads.",
+    ["D"] = "They came in the middle of the night, a stampede of them. Vile, terrible, creatures the centaur are. I fled from my village and came here for sanctuary. My wife, Nadia, was not so fortunate.\n\nThey took her to one of their camps to the south, near The Stagnant Oasis. I fear the worst, $N, but I must know. Please see if you can find any clues in their tents, and bring her back if you can. Slaughter any centaur in your path.",
+  },
+  [26254] = {
+    ["T"] = "Searching the Wreckage",
+    ["O"] = "Search Mankrik\'s Village for signs of Nadia and return to Mankrik at The Crossroads.",
+    ["D"] = "So she escaped the village! Why has Nadia not come here? Perhaps she does not know where I am. In that case we must find her. She must have returned to our village, thinking I would be there.\n\n$N, go to my village and search for her. Follow the road north, then at the fork turn right. Go south down the shoreline where this land meets Durotar. There you will find our village, and hopefully Nadia.",
+  },
+  [26255] = {
+    ["T"] = "Out of My Hands",
+    ["O"] = "Track down the Shin\'Zil in The Barrens.",
+    ["D"] = "There is nothing more we can do to find her, $N, we must seek outside help. I am still confident she is alive, because the captives you questioned said she escaped.\n\nI have heard tales of a shaman named Shin\'Zil that has given aid to the people of these parts. He lives just a little bit north of this town, by the fork in the road. Go, talk to him and see if he can help us find Nadia.",
+  },
+  [26256] = {
+    ["T"] = "Retrieving the Orb",
+    ["O"] = "Kill Archmage Korgar and bring his orb to Shin\'Zil in The Barrens.",
+    ["D"] = "Aye, I can help you mon, but we need some things to begin da ritual so that we can center in on Nadia\'s location. Da only thing that be powerful enough to find her is located in Northwatch Hold.\n\nThere is a powerful mage there that goes by the name of Archmage Korgar. His orb, da source of his power, is under constant protection. If we are to find Nadia, we be needing that orb.\n\nYou be finding Northwatch Hold just south of Ratchet, mon. But you best be mindful, da guards don\'t take kindly to strangers.",
+  },
+  [26257] = {
+    ["T"] = "Infusing the Orb",
+    ["O"] = "Siphon 5 Essence of Lightning into Korgar\'s Orb and return to Shin'Zil in The Barrens.",
+    ["D"] = "This be da orb we looking for, mon. But now dat we have the orb, we need to infuse it with the power of nature. Far south, past The Crossroads, lies packs of thunder lizard that look similar to kodos.\n\nWe need to harness their essence and infuse it into the orb...while they be alive for da most potent power. After you do that, return to me so that we may complete the ritual.",
+  },
+  [26258] = {
+    ["T"] = "Report to Mankrik",
+    ["O"] = "Report to Mankrik at The Crossroads with the news of Nadia\'s location.",
+    ["D"] = "We found her, mon! Remember, southwest of da Lushwater Oasis is a Bristleback village. It is there that you will find her.\n\nWaste no time, go tell Mankrik the news! Also, if anyone else at da Crossroads be needing help, please send them my way.",
+  },
+  [26259] = {
+    ["T"] = "Finding Nadia",
+    ["O"] = "Locate Nadia in the Bristleback Village in The Barrens.",
+    ["D"] = "We are so close to finding her, $N. I am familiar with the area Shin\'Zil told you about. It is called Agama\'gor, and many Bristleback dwell there.\n\nYou will find it southwest of the Lushwater Oasis. I am counting on you, please, bring my beloved Nadia back to me.",
+  },
+  [26260] = {
+    ["T"] = "Opening the Cage",
+    ["O"] = "Collect Gortak\'s Key and release Nadia from her cage in The Barrens.",
+    ["D"] = "I\'m so glad you\'re here! Many days have I been trapped here...lost...waiting. But I think I know a way out!\n\nI have observed their leader from time to time, they call him Gortak. He always comes from a Bristleback village northwest of here. I\'ll bet anything he has the key to my cage! But be careful, he looks a lot tougher than the others...you might need some friends to take him on.",
+  },
+  [26261] = {
+    ["T"] = "The Good News",
+    ["O"] = "Tell Mankrik at The Crossroads of Nadia\'s escape.",
+    ["D"] = "Thank you for all your assistance, $N. I owe my life to you. I know my way home from here, but you tell me it has been destroyed. I suppose I must take refuge at The Crossroads until we can build a new home.\n\nGo on ahead and tell Mankrik all that has happened. I know he must be dying of uncertainty, not knowing my fate. I will be right behind you!",
+  },
+  [27241] = {
+    ["T"] = "Plundering Pirates",
+    ["O"] = "Locate Captain Steelgut at Faldir's Cove within the Arathi Highlands.",
+    ["D"] = "Listen up! I\'ve received from word from, well, let's just say an ally claiming that an assault appears to be taking place at Tol Barad.\n\nThat island hasn\'t been disturbed or stirred in many years so it is more than a little suspicious to receive this report.Head to Faldir\'s Cove and speak to Captain Steelgut and tell them I sent you. They\'ll know what it is about.",
+  },
+  [26295] = {
+    ["T"] = "The Merchant\'s Daughter",
+    ["O"] = "Bring the Box of Treasure back to Wrenix the Wretched in Ratchet.",
+    ["D"] = "Hey friend, you want to make some money? Times are tough around here, but I heard a rumor that off the coast of this town lies a ship at the bottom of the sea, called The Merchant\'s Daughter.\n\nInside the wreckage is some treasure. Who knows what the crew of that ship had in there! Bring that treasure back and maybe I\'ll give you a bit of the cut.",
+  },
+  [27577] = {
+    ["T"] = "The Terrorweb Trial",
+    ["O"] = "Retrieve the Smokeywood Pastures dropbox from Terrorweb Tunnel in Eastern Plaguelands.",
+    ["D"] = "Smokywood agents have been collecting a variety of spider silk in Eastern Plaguelands and arranged for a drop off at one of our secure box locations, located in Terrorweb Tunnel. There\'s a problem though - the Venture Company has been tailing our agent and I think they know the location of the drop box. I need you to secure that shipment by any means necessary!",
+  },
+  [27563] = {
+    ["T"] = "Contract #1010: Magical Residue",
+    ["O"] = "Collect 4 Vials of Magical Residue from Baradin Hold.",
+    ["D"] = "I have jobs available for contractors willing to assemble a team. Time to make the magic of the holidays! Here\'s one from the holiday decor division.\n\nContract #1010: Obtain Magical Residue from within Baradin Hold",
+  },
+  [27568] = {
+    ["T"] = "Supplies from Alterac Valley",
+    ["O"] = "Win a game of Alterac Valley to acquire the Alterac Supply Cache.",
+    ["D"] = "Smokywood does business all over Azeroth, including some of the most dangerous places. We even have agreements with some of the battleground factions to receive supply caches if we contribute combatants to their efforts.\n\nI need supplies from Alterac Mountains. Emerge victorious from Alterac Valley and you'll be able to pick up an Alterac cache containing pure snow and wintersbite used for our Wondervolt machines. Are you willing to join the fight?",
+  },
+  [27572] = {
+    ["T"] = "The Chilling Components",
+    ["O"] = "Collect 10 Chilling Owl Feathers from owls in Winterspring.",
+    ["D"] = "How much would you pay for a good night\'s sleep? You don\'t have to answer - I know its worth a lot of gold. That\'s why Smokywood is developing an experimental pillow, made from the finest cooling technology.\n\nWe need more feathers for our prototype and only one source will do - the owls in Winterspring. Their feathers are innately chilled, making for a comfortable sleep even if you\'re bedding down next to Blackrock Mountain. Are you willing to take the job?",
+  },
+  [26293] = {
+    ["T"] = "Straight to the Teeth",
+    ["O"] = "Gather 10 Hecklefang Teeth and bring them back to Kaliyah Stormshew at Camp Taurajo.",
+    ["D"] = "Greetings, warrior, by now you must know that Azeroth is a deadly place. To venture without fear, one needs a strong, sturdy weapon.\n\nI need some teeth from the local Hecklefang Hyenas for my tribe\'s weapons. I am not strong enough to go and fight them myself, but I\'ll make you a deal. Bring me back some of their teeth and I\'ll fashion you a weapon as well.",
+  },
+  [26457] = {
+    ["T"] = "Escaping Airheart",
+    ["O"] = "Escort Kaya Ragetotem out of Fort Airheart and then inform her friend Kaliya at the Camp Taurajo Inn.",
+    ["D"] = "Me and my husband Tonga were making our way from Freewind Post to Camp Taurajo with fresh supplies when these ruffians ambushed us.\n\nI can tell by the crest on their chests that they are no friend of the Horde and they saw we were in an instant.\n\nMy poor husband tried to stand up for us and well... they spread him on that garden as mulch...\n\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, $N?",
+  },
   [26734] = {
     ["T"] = "Massive Profits",
     ["O"] = "Collect 3 Fossilised Gallbladder from the largest Kodo skeletons found within Desolace.",

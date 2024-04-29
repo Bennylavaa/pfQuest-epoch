@@ -34,4 +34,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 76.47, 46.64, 267 },
     },
   },
+  [4000006] = { --Minkrik's Village
+    ["coords"] = {
+      [1] = { 61.5, 23.8, 17 },
+    },
+  },
 }
