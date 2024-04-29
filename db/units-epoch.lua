@@ -2931,7 +2931,7 @@ pfDB["units"]["data-epoch"] = {
       [1] = { 56.0, 48.2, 40, 0 },
     },
   },
-  [14846] = "_", -- Lhara Darkmoon Faire NPC
+  [14846] = "_", --Lhara Darkmoon Faire NPC
   [45032] = {
     ["fac"] = "A",
     ["lvl"] = "30",
@@ -4018,7 +4018,7 @@ pfDB["units"]["data-epoch"] = {
       [8] = { 78.31, 73.64, 400, 0 },
     },
   },
-  [17106] = "_", -- TBC Unit Vindicator Palanaar
+  [17106] = "_", --TBC Unit Vindicator Palanaar
   [3691] = {
     ["fac"] = "A",
     ["lvl"] = "60",
@@ -4068,8 +4068,8 @@ pfDB["units"]["data-epoch"] = {
       [1] = { 21.7, 53.3, 331, 300 },
     },
   },
-  [17303] = "_", -- Vindicator Vedaar
-  [17287] = "_", -- Sentinel Luciel Starwhisper
+  [17303] = "_", --Vindicator Vedaar
+  [17287] = "_", --Sentinel Luciel Starwhisper
   [45877] = {
     ["fac"] = "A",
     ["lvl"] = "30",
@@ -4192,7 +4192,7 @@ pfDB["units"]["data-epoch"] = {
       [1] = { 25.10, 35.21, 8, 0 },
     },
   },
-  [17127] = "_", -- remove tbc npc
+  [17127] = "_", --remove tbc npc
   [46595] = {
     ["fac"] = "AH",
     ["lvl"] = "55",
@@ -4214,7 +4214,7 @@ pfDB["units"]["data-epoch"] = {
       [1] = { 61.82, 38.64, 17, 0 },
     },
   },
-  [23535] = "_", -- Matero Zeshuwal
+  [23535] = "_", --Matero Zeshuwal
   [3169] = {
     ["fac"] = "H",
     ["lvl"] = "43",
@@ -4868,4 +4868,7 @@ pfDB["units"]["data-epoch"] = {
       [1] = { 77.9, 38.1, 267, 0 },
     },
   },
+  [13776] = "_", --Corporal Teeka Bloodsnarl
+  [13840] = "_", --Warmaster Laggrond
+  [15126] = "_", --Rutherford Twing
 }

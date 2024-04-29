@@ -181,4 +181,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61282] = "Head of Wilfiz Silverbit",
   [60479] = "Eternal Torch",
   [60483] = "Zygor's Head",
+  [61122] = "Bushel of Massive Shadowberry",
 }

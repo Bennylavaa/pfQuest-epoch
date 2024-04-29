@@ -1479,4 +1479,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Defend the Central Tower when it is under the control of the Horde.",
     ["D"] = "The tower in the center of Hillsbrad is key to the Hordes control of these lands. The banshee queen herself has ordered that whenever the Alliance attempts to take control of it we must defend it at all costs.\n\nRally your forces $N and do as she has bid.",
   },
+  [26723] = {
+    ["T"] = "Shadowberry Pie",
+    ["O"] = "Collect 8 Bushels of Massive Shadowberry from the Blazing Hills south east of Hammerfall.",
+    ["D"] = "Up in the Blazing Hills there is a special berry we call the Shadowberry. Delicious, rich in colour and only grows up there for reasons I do not understand.\n\nI know they sell for a good price on the black market due to that scarcity but we have troops to feed. Go get me some and I can make everyone a nice warm pie.",
+  },
 }
