@@ -1329,4 +1329,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Locate and slay Wilfiz Silverbit north of Mannoroc Coven within Desolace.",
     ["D"] = "My former apprentice ran off taking with him valuable knowledge to aid the Burning Blade in the region. This insolence shall not stand! I want his head brought to me on a pike if needed. He was last seen picking mushrooms just north of Mannoroc Coven.\n-- Imu Copperspell",
   },
+  [1218] = {
+    ["T"] = "Soothing Spices",
+    ["O"] = "Bring 3 Soothing Spices to \"Swamp Eye\" Jarl in Dustwallow Marsh.",
+    ["D"] = "I like cooking.  Good swamp cooking.  Fried green frog legs and the like.$B$BAnd for cooking, I need spice.  Soothing spice.  Then I\'ll make a stew and stew it up and suck it down and give you some too.$B$BDo you like stew?",
+  },
+  [1288] = {
+    ["T"] = "Vimes\'s Report",
+    ["O"] = "Bring Vimes\'s Report to Lady Jaina Proudmoore in Theramore.",
+    ["D"] = "You\'ve done some good work, Bennylava, best I\'ve seen from an amateur.\nLady Proudmoore asked that I keep her apprised of this delicate situation, and I haven\'t spoken to her for some time now.\nI was going to deliver my report to her later, but it seems more fitting that you should be the one to speak with her about it. You can probably answer her questions better than I could.",
+  },
 }

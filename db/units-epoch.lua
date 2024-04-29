@@ -4506,4 +4506,13 @@ pfDB["units"]["data-epoch"] = {
       [1] =  { 51.36, 68.61, 405, 0 },
     },
   },
+  [23570] = "_", -- Gizzix Grimegurgle
+  [23579] = "_", -- Brogg
+  [23600] = "_", -- Apprentice Morlann
+  [23601] = "_", -- Apprentice Garion
+  [23797] = "_", -- Moxie Steelgrille
+  [23723] = "_", -- Sergeant Lukas
+  [23843] = "_", -- Mordant Grimsby
+  [23566] = "_", -- Calia Hastings
+  [23835] = "_", -- Sergeant Amelyn
 }
