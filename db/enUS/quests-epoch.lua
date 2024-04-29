@@ -1529,14 +1529,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Protect Romgul as he lures Ashenvale Outrunners out. When done, return to Taskmaster Baran.",
     ["D"] = "These cowardly elves hide in the shadows, ambushing anyone that enters their territory. It\'s time that we did something to throw them off of our peons.\n\nRomgul will be lended to you for this task. He\'s going to clumsily shamble along as peons do, making as much noise as he can. When the ambushers see this stupid idiot, they\'ll smell weakness and pounce on him. Your role will be to ensure that not only does he survive, but that none of the elven ambushers escape.\n\nDo this for me, and I\'ll pay you.",
   },
+  [26246] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Find the apothecary camp south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+    ["D"] = "I have been asked to tell any adventurers that come by to find the apothecaries if they are looking for paying work. If you don\'t mind smelly corpses with objectionable goals, you might be interested.\n\nThe apothecary camp is to the south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+  },
   [26415] = {
     ["T"] = "Rumbles Of The Earth",
     ["O"] = "Question the peons within Splintertree Mine.",
     ["D"] = "Normally the output of this mine is crucial to the war effort of the Horde. However of late these damned lazy peons have been slacking, some have even downed tools and ran out of here babbling.\n\nCan you ask them what on Azeroth is going on?",
   },
-  [26246] = {
-    ["T"] = "Practical Science",
-    ["O"] = "Find the apothecary camp south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
-    ["D"] = "I have been asked to tell any adventurers that come by to find the apothecaries if they are looking for paying work. If you don\'t mind smelly corpses with objectionable goals, you might be interested.\n\nThe apothecary camp is to the south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+  [26416] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Locate and eliminate the thing scaring the peons.",
+    ["D"] = "So they\'re saying that there is a monster deep in the mine? I wonder if that is the cause of the tremors we\'ve been having here of late too.\n\nI need to get this operation back up and running glitch free, can you delve back into the mine and deal with it?",
+  },
+  [26417] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Collect 6 Sturdy Reeds from water sources and 4 chunks of broken glass from Rotting Slimes.",
+    ["D"] = "Now you definitely have my attention, these rumbles are still continuing and the peons aren\'t all that much happier about the situation. We need to try and find the true source of this.\n\nI have an idea but it will require you to get a few things for me. Throughout Ashenvale along bodies of water you can find sturdy reeds growing that I can hollow out to make an impromptu scope of sorts.\n\nAlongside that I need glass to make a lense, not exactly naturally occuring though... Hmm. I know! The Rotting Slimes nearby scoop up anything a traveller may have, I bet they\'ve absorbed some glassware here and there.",
   },
 }

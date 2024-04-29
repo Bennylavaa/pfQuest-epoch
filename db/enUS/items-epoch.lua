@@ -188,4 +188,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60407] = "Mirkfallon Bracer",
   [60413] = "Twilight Fang",
   [60410] = "Palladium Ore",
+  [60508] = "Glass Shards",
+  [60507] = "Sturdy Reed",
 }

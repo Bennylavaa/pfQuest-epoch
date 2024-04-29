@@ -78,4 +78,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001015] = "Box of Treasure", --Placeholder ID
   [4001016] = "Oversized Shadowberry Bush", --Placeholder ID
   [4001017] = "Palladium Ore", --Placeholder ID
+  [4001017] = "Sturdy Reed", --Placeholder ID
 }

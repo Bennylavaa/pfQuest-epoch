@@ -241,4 +241,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45197] = "Romgul",
   [45200] = "Apprentice Donelly",
   [45479] = "Splintertree Peon",
+  [45477] = "Furious Earth",
+  [45476] = "Foreman Springsocket",
 }
