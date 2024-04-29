@@ -3556,4 +3556,40 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 17,
   },
+  [27577] = { --Smokeywood Pastures - Missing Objective Item ID
+    ["start"] = {
+      ["U"] = { 46598 },
+    },
+    ["end"] = {
+      ["U"] = { 46598 },
+    },
+    ["lvl"] = 60,
+  },
+  [27563] = { --Smokeywood Pastures - Missing Objective Item ID
+    ["start"] = {
+      ["U"] = { 46595 },
+    },
+    ["end"] = {
+      ["U"] = { 46595 },
+    },
+    ["lvl"] = 60,
+  },
+  [27568] = { --Smokeywood Pastures - Missing Objective - Win Alterac Valley
+    ["start"] = {
+      ["U"] = { 46596 },
+    },
+    ["end"] = {
+      ["U"] = { 46596 },
+    },
+    ["lvl"] = 60,
+  },
+  [27572] = { --Smokeywood Pastures - Missing Objective Item ID
+    ["start"] = {
+      ["U"] = { 46598 },
+    },
+    ["end"] = {
+      ["U"] = { 46598 },
+    },
+    ["lvl"] = 60,
+  },
 }
