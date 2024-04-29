@@ -1344,4 +1344,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring the Box of Treasure back to Wrenix the Wretched in Ratchet.",
     ["D"] = "Hey friend, you want to make some money? Times are tough around here, but I heard a rumor that off the coast of this town lies a ship at the bottom of the sea, called The Merchant\'s Daughter.\n\nInside the wreckage is some treasure. Who knows what the crew of that ship had in there! Bring that treasure back and maybe I\'ll give you a bit of the cut.",
   },
+  [27577] = {
+    ["T"] = "The Terrorweb Trial",
+    ["O"] = "Retrieve the Smokeywood Pastures dropbox from Terrorweb Tunnel in Eastern Plaguelands.",
+    ["D"] = "Smokywood agents have been collecting a variety of spider silk in Eastern Plaguelands and arranged for a drop off at one of our secure box locations, located in Terrorweb Tunnel. There\'s a problem though - the Venture Company has been tailing our agent and I think they know the location of the drop box. I need you to secure that shipment by any means necessary!",
+  },
+  [27563] = {
+    ["T"] = "Contract #1010: Magical Residue",
+    ["O"] = "Collect 4 Vials of Magical Residue from Baradin Hold.",
+    ["D"] = "I have jobs available for contractors willing to assemble a team. Time to make the magic of the holidays! Here\'s one from the holiday decor division.\n\nContract #1010: Obtain Magical Residue from within Baradin Hold",
+  },
+  [27568] = {
+    ["T"] = "Supplies from Alterac Valley",
+    ["O"] = "Win a game of Alterac Valley to acquire the Alterac Supply Cache.",
+    ["D"] = "Smokywood does business all over Azeroth, including some of the most dangerous places. We even have agreements with some of the battleground factions to receive supply caches if we contribute combatants to their efforts.\n\nI need supplies from Alterac Mountains. Emerge victorious from Alterac Valley and you'll be able to pick up an Alterac cache containing pure snow and wintersbite used for our Wondervolt machines. Are you willing to join the fight?",
+  },
+  [27572] = {
+    ["T"] = "The Chilling Components",
+    ["O"] = "Collect 10 Chilling Owl Feathers from owls in Winterspring.",
+    ["D"] = "How much would you pay for a good night\'s sleep? You don\'t have to answer - I know its worth a lot of gold. That\'s why Smokywood is developing an experimental pillow, made from the finest cooling technology.\n\nWe need more feathers for our prototype and only one source will do - the owls in Winterspring. Their feathers are innately chilled, making for a comfortable sleep even if you\'re bedding down next to Blackrock Mountain. Are you willing to take the job?",
+  },
 }
