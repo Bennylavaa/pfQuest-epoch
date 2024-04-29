@@ -1434,4 +1434,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Locate and slay Wilfiz Silverbit north of Mannoroc Coven within Desolace.",
     ["D"] = "My former apprentice ran off taking with him valuable knowledge to aid the Burning Blade in the region. This insolence shall not stand! I want his head brought to me on a pike if needed. He was last seen picking mushrooms just north of Mannoroc Coven.\n-- Imu Copperspell",
   },
+  [26400] = {
+    ["T"] = "Syndicate Personnel",
+    ["O"] = "Kill 5 Syndicate Rogues and 5 Syndicate Watchmen. Return to High Executor Darthalia in Tarren Mill after your task is completed.",
+    ["D"] = "The Dark Lady has ordered the death of all members associated with The Syndicate. They are a dangerous band of thugs, preying on the weak and stealing from them.\n\nA group of them are currently occupying a tower southeast of here. Follow the road south, turn left at the fork, and you\'ll find the tower along there. Kill as many as you can, $N, who knows what they might be planning.",
+  },
+  [26401] = {
+    ["T"] = "Durnholde Extermination",
+    ["O"] = "Kill 10 Syndicate Taskmasters and 10 Syndicate Overseers. Return to High Executor Darthalia in Tarren Mill after the task is completed.",
+    ["D"] = "I have another task for you, $N. I recieved a report that more Syndicate were found in Durnholde Keep, southeast of here. It\'s a top priority of the Horde to keep these lands safe from thugs, so we need to purge the land of their filth.\n\nTo find Durnholde Keep, go past the tower you found, and continue a ways. You\'ll find the keep along the same road.",
+  },
+  [26388] = {
+    ["T"] = "A Lost Warrior",
+    ["O"] = "Search for signs of Tog\'Thar in Dunrholde Keep. You recall Krusk saying he may be in the sewers.",
+    ["D"] = "Me and my brother, Tog\'thar, were sent by the Warchief to retrieve an object from Durnholde and to investigate this so-called Syndicate.\n\nWe went to Durnholde to take a look around, but we were taken by surprise by a large number of the humans. We fought bravely, but their sheer numbers overwhelmed us.\n\nIn the struggle, I managed to escape, but my brother was not so lucky. I saw them drag him to the sewers that they are using as a prison, on the eastern side of the camp.\n\nWould you go and look for him, $N? I would be eternally grateful to have my brother back.",
+  },
+  [26389] = {
+    ["T"] = "A Lost Warrior",
+    ["O"] = "Loot Eston\'s Key from Jailer Eston in the Durnholde Sewers and return to Tog\'thar.",
+    ["D"] = "I can\'t believe you came! Did my brother send for you? I\'m relieved you\'re here, but unfortunately with these shackles on me, I won\'t be going anywhere.\n\nThe key to these shackles is held by Jailer Eston, who guards these sewers. I just saw him head over to the other side of these sewers.\n\nGo and get his key...use whatever force is necessary. I don't want to die here!",
+  },
+  [26390] = {
+    ["T"] = "A Lost Warrior",
+    ["O"] = "Escape from Durnholde Keep with Tog'thar. If you are successful, report to Krusk in Tarren Mill.",
+    ["D"] = "It\'s time to get out of here, $N. But be warned, these damned Syndicate are going to put up a fight!Stick together now, we can\'t afford to get seperated. I can\'t wait to see the look on my brother\'s face when I return to him.",
+  },
+  [26396] = {
+    ["T"] = "Burnt to a Crisp",
+    ["O"] = "Burn the Syndicate Food Supplies, located in the barracks of Durnholde Keep. Return to Tallow when you are finished.",
+    ["D"] = "I have lived in Tarren Mill all my life, $c. I am not about to see it be destroyed by a band of thugs.\n\nIndeed, I am talking about the Syndicate. They recently have moved into Durnholde Keep to the southeast, and I will not have it! It\'s time to give them a taste of the enemy they have declared war on.\n\nI want you to burn their food supplies, which are most likely found in their barracks. I was gifted an eternal torch by a friend, take it with you and use it to burn their food to a crisp.",
+  },
 }
