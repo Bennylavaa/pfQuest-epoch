@@ -997,7 +997,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26562] = {
     ["T"] = "Gathering Of Spirits",
     ["O"] = "Gather 8 bushels of Weaveleaf from the coasts of Desolace.",
-    ["D"] = "Many moons in our tribe\'s past, we made our home in the grasslands of Mashan\'she, but calamity struck the region, rendering it lifeless and barren. Our tribe left the wasteland, now called Desolace, under the guidance of Cheiftain Dusthoof. He kept hope in his heart that there was a verdant and untamed land far beyond the southern deserts, far beyond the centaur and elven lands. \nHowever, we were ill-prepared for the journey. As you can see, we did not last too long out in the flats. With the death of our chieftain, the rest of our tribe scattered, with many falling prey to the heat and beasts of the desert. You may have encountered some of their spirits wandering around this area.\nEven in this state, I do believe we can still make this journey in spirit, if just to walk the land as a tribe once again. But you must help us, warlock.\nYou must return to the living world and travel to Desolace, and gather weaveleaf from along the coast. When you have gathered enough, return here and use them to light the fire at this totem. In the past, we used weaveleaf for incense during ceremonial gatherings; the spirits of Dusthoof and our brethren will recognize the scent.\nEarthmother guide your path, friend.",
+    ["D"] = "Many moons in our tribe\'s past, we made our home in the grasslands of Mashan\'she, but calamity struck the region, rendering it lifeless and barren. Our tribe left the wasteland, now called Desolace, under the guidance of Cheiftain Dusthoof. He kept hope in his heart that there was a verdant and untamed land far beyond the southern deserts, far beyond the centaur and elven lands. \nHowever, we were ill-prepared for the journey. As you can see, we did not last too long out in the flats. With the death of our chieftain, the rest of our tribe scattered, with many falling prey to the heat and beasts of the desert. You may have encountered some of their spirits wandering around this area.\nEven in this state, I do believe we can still make this journey in spirit, if just to walk the land as a tribe once again. But you must help us, $c.\nYou must return to the living world and travel to Desolace, and gather weaveleaf from along the coast. When you have gathered enough, return here and use them to light the fire at this totem. In the past, we used weaveleaf for incense during ceremonial gatherings; the spirits of Dusthoof and our brethren will recognize the scent.\nEarthmother guide your path, friend.",
   },
   [26666] = {
     ["T"] = "Fresh Water Delivery",
@@ -1067,7 +1067,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [9609] = {
     ["T"] = "Help Watcher Biggs",
     ["O"] = "Find Watcher Biggs in the Swamp of Sorrows.",
-    ["D"] = "Magtoor has informed me that there\'s a stranded watcher nearby.  Apparently the caravan he was escorting from Darkshire was attacked by Lost Ones.  It sounds as if he\'s the sole survivor.\nHe\'s somewhere to the south.  Please, warlock, lend him your aid.",
+    ["D"] = "Magtoor has informed me that there\'s a stranded watcher nearby.  Apparently the caravan he was escorting from Darkshire was attacked by Lost Ones.  It sounds as if he\'s the sole survivor.\nHe\'s somewhere to the south.  Please, $c, lend him your aid.",
   },
   [26649] = {
     ["T"] = "Freshly Polished Rods",
@@ -1417,12 +1417,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [26728] = {
     ["T"] = "A Gnome in Need",
     ["O"] = "Use the Charged Trance Enhancer to hypnotize a member of the Burning Blade Clan into telling you the location of Winkle Screwbucket. Return to Dibi Squigglecord at Squigglecord Outpost if you succeed.",
-    ["D"] = "The Trance Enhancer is charged and ready to go! Take it to Thunder Axe Fortress and use it on one of the Burning Blade members there. I can\'t gurantee how long the trance will last, so ask your questions quickly.\nIf you end up getting his location, let Dibi know at once so we can coordinate a rescue operation. Good luck, Bennylava, and bring Winkle home!",
+    ["D"] = "The Trance Enhancer is charged and ready to go! Take it to Thunder Axe Fortress and use it on one of the Burning Blade members there. I can\'t gurantee how long the trance will last, so ask your questions quickly.\nIf you end up getting his location, let Dibi know at once so we can coordinate a rescue operation. Good luck, $N, and bring Winkle home!",
   },
   [26729] = {
     ["T"] = "A Gnome in Need",
     ["O"] = "Locate Winkle Screwbucket at Thunder Axe Fortress in Desolace.",
-    ["D"] = "So, the Burning Blade you hypnotized said Winkle is being held in a cave on the south side of Thunder Axe Fortress? If that\'s true, we must hurry before they transport him to their main holding cells.\nBe careful though, the Burning Blade won\'t part with him easily. I wish I could spare some guards, but I leave this in your hands Bennylava. Bring Winkle home to us safely.",
+    ["D"] = "So, the Burning Blade you hypnotized said Winkle is being held in a cave on the south side of Thunder Axe Fortress? If that\'s true, we must hurry before they transport him to their main holding cells.\nBe careful though, the Burning Blade won\'t part with him easily. I wish I could spare some guards, but I leave this in your hands $N. Bring Winkle home to us safely.",
   },
   [26730] = {
     ["T"] = "A Gnome in Need",
@@ -1442,7 +1442,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [1288] = {
     ["T"] = "Vimes\'s Report",
     ["O"] = "Bring Vimes\'s Report to Lady Jaina Proudmoore in Theramore.",
-    ["D"] = "You\'ve done some good work, Bennylava, best I\'ve seen from an amateur.\nLady Proudmoore asked that I keep her apprised of this delicate situation, and I haven\'t spoken to her for some time now.\nI was going to deliver my report to her later, but it seems more fitting that you should be the one to speak with her about it. You can probably answer her questions better than I could.",
+    ["D"] = "You\'ve done some good work, $N, best I\'ve seen from an amateur.\nLady Proudmoore asked that I keep her apprised of this delicate situation, and I haven\'t spoken to her for some time now.\nI was going to deliver my report to her later, but it seems more fitting that you should be the one to speak with her about it. You can probably answer her questions better than I could.",
   },
   [26454] = {
     ["T"] = "Airheart Must Go",
@@ -1462,17 +1462,17 @@ pfDB["quests"]["enUS-epoch"] = {
   [26456] = {
     ["T"] = "Escaping Airheart",
     ["O"] = "Escort Anna Kaspian out of Fort Airheart and then inform her friend Janene at the Theramore Inn.",
-    ["D"] = "Me and my husband Gerald were making our way from Ratchet to Theramore with fresh supplies when these ruffians ambushed us.\nI can tell by the crest on their chests that they are no friend of Theramore and they saw we were in an instant too.\nMy poor husband tried to stand up for the honor of the Proudmoores and well... look behind me to see how that went...\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, Bennylava?",
+    ["D"] = "Me and my husband Gerald were making our way from Ratchet to Theramore with fresh supplies when these ruffians ambushed us.\nI can tell by the crest on their chests that they are no friend of Theramore and they saw we were in an instant too.\nMy poor husband tried to stand up for the honor of the Proudmoores and well... look behind me to see how that went...\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, $N?",
   },
   [26464] = {
     ["T"] = "The Downed Zeppelin",
     ["O"] = "Scout the area west of the Theramore docks to locate the downed zeppelin that Watcher Wallace spotted.",
-    ["D"] = "Did you see it warlock? A burst of flames and next thing I know on the horizon due west of here is a zepellin tumbling out of the air!\nI\'ve asked for a scouting party to go and investigate what is going on but all the red tape mumbo jumbo is getting in the way.\nPlease could you go investigate what happened and check for survivors?",
+    ["D"] = "Did you see it $c? A burst of flames and next thing I know on the horizon due west of here is a zepellin tumbling out of the air!\nI\'ve asked for a scouting party to go and investigate what is going on but all the red tape mumbo jumbo is getting in the way.\nPlease could you go investigate what happened and check for survivors?",
   },
   [26466] = {
     ["T"] = "Grab The Goods",
     ["O"] = "Collect 8 crates of Zepellin Cargo from the area surrounding Beezil\'s Wreck.",
-    ["D"] = "The companies second highest priority after finding the Captain is to recover our assets! Anything that survived the crash and hasn\'t been absorbed by a damned ooze is ours and we need it back.\nWe have to salvage at least some profit from this disaster. Go collect the surviving cargo that is scattered around Bennylava.",
+    ["D"] = "The companies second highest priority after finding the Captain is to recover our assets! Anything that survived the crash and hasn\'t been absorbed by a damned ooze is ours and we need it back.\nWe have to salvage at least some profit from this disaster. Go collect the surviving cargo that is scattered around $N.",
   },
   [26465] = {
     ["T"] = "Where In The World Is Beezil Linkspanner?",
