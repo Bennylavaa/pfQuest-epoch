@@ -1464,4 +1464,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Burn the Syndicate Food Supplies, located in the barracks of Durnholde Keep. Return to Tallow when you are finished.",
     ["D"] = "I have lived in Tarren Mill all my life, $c. I am not about to see it be destroyed by a band of thugs.\n\nIndeed, I am talking about the Syndicate. They recently have moved into Durnholde Keep to the southeast, and I will not have it! It\'s time to give them a taste of the enemy they have declared war on.\n\nI want you to burn their food supplies, which are most likely found in their barracks. I was gifted an eternal torch by a friend, take it with you and use it to burn their food to a crisp.",
   },
+  [26399] = {
+    ["T"] = "WANTED: Archmage Zygor",
+    ["O"] = "Slay Archmage Zygor in Durnholde Keep. Return to High Executor Darthalia in Tarren Mill for your reward.",
+    ["D"] = "By the authority of Lady Sylvanas, the archmage known as Zygor is to be executed immediately. Zygor is guilty of training and instructing a dangerous organization known as the Syndicate in dark magic.\n\nHe can be found in Durnholde Keep, likely in the mage tower. A handsome reward is offered to all who bring proof of their deeds to High Executor Darthalia.",
+  },
 }

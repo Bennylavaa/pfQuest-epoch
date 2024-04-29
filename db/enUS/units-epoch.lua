@@ -233,4 +233,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45439] = "Captured Prisoner",
   [45440] = "Captured Prisoner",
   [45441] = "Captured Prisoner",
+  [45432] = "Beve Perenolde",
+  [45428] = "Archmage Zygor",
 }
