@@ -180,4 +180,10 @@ pfDB["items"]["enUS-epoch"] = {
   [61208] = "Charged Trance Enhancer",
   [61282] = "Head of Wilfiz Silverbit",
   [60613] = "Adorned Letter",
+  [60662] = "Zeppelin Cargo",
+  [60659] = "Beezil Location Clue I",
+  [60660] = "Beezil Location Clue II",
+  [60661] = "Beezil Location Clue III",
+  [60663] = "Bodged Defibrillator",
+  [60664] = "Sniffotron Kit",
 }

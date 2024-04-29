@@ -1464,4 +1464,44 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Escort Anna Kaspian out of Fort Airheart and then inform her friend Janene at the Theramore Inn.",
     ["D"] = "Me and my husband Gerald were making our way from Ratchet to Theramore with fresh supplies when these ruffians ambushed us.\nI can tell by the crest on their chests that they are no friend of Theramore and they saw we were in an instant too.\nMy poor husband tried to stand up for the honor of the Proudmoores and well... look behind me to see how that went...\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, Bennylava?",
   },
+  [26464] = {
+    ["T"] = "The Downed Zeppelin",
+    ["O"] = "Scout the area west of the Theramore docks to locate the downed zeppelin that Watcher Wallace spotted.",
+    ["D"] = "Did you see it warlock? A burst of flames and next thing I know on the horizon due west of here is a zepellin tumbling out of the air!\nI\'ve asked for a scouting party to go and investigate what is going on but all the red tape mumbo jumbo is getting in the way.\nPlease could you go investigate what happened and check for survivors?",
+  },
+  [26466] = {
+    ["T"] = "Grab The Goods",
+    ["O"] = "Collect 8 crates of Zepellin Cargo from the area surrounding Beezil\'s Wreck.",
+    ["D"] = "The companies second highest priority after finding the Captain is to recover our assets! Anything that survived the crash and hasn\'t been absorbed by a damned ooze is ours and we need it back.\nWe have to salvage at least some profit from this disaster. Go collect the surviving cargo that is scattered around Bennylava.",
+  },
+  [26465] = {
+    ["T"] = "Where In The World Is Beezil Linkspanner?",
+    ["O"] = "Locate clues of what may have happened to Beezil Linkspanner from nearby oozes.",
+    ["D"] = "My job on the zepellin is simple, keep an eye out for Dragons as we\'re flying over the swamp and next thing I know there\'s an almighty boom and a box smacks me in the head! Out cold in an instant.\nI may be the only one of us still conscious and I can\'t find the Captain Beezil Linkspanner anywhere! The oozes nearby have been swallowing up anything they can wrap themselves around and may have some clues that lead us to him. Cull them and bring me what you find.",
+  },
+  [26467] = {
+    ["T"] = "Defibrillated",
+    ["O"] = "Zap awake 6 crew members to uncover more information about what may have happened on the zeppelin.",
+    ["D"] = "I didn\'t want to have to wake up any of the crew. By the looks of it their medical costs will be higher than the payout to their next of kin. However... needs must.\nTake this Defibrillator and wake them up and see what information they have about where Beezil went. A sharp pulse should do it right to the heart.",
+  },
+  [26482] = {
+    ["T"] = "Sniffotron MK IV",
+    ["O"] = "Enquire with Gazlowe in Ratchet about getting Cys\'s Sniffotron MK IV.",
+    ["D"] = "This operation is just getting more and more expensive, my boss won\'t be liking that!\nIf we are to track down Beezil we\'ll have to go to desperate measures. With the cloak you found we can track him down but we\'re going to need some technological assistance.\nGo speak with Gazlowe in Ratchet about a Sniffotron MK IV Kit that I left in his care, we\'re going to use that to locate Beezil.",
+  },
+  [26468] = {
+    ["T"] = "Sniff Him Out",
+    ["O"] = "Use the Sniffotron MK IV Controller to summon the Sniffotron which will lead you to Beezil.",
+    ["D"] = "With this Sniffotron and the cloak that you found we can find Beezil. Bring it out and it will sniff at the cloak and set off with you following in tow. Defend it with your life we don\'t have a second one at hand!\nFind the Captain and bring him back to me safely.",
+  },
+  [26469] = {
+    ["T"] = "Beezil And The Burning Blade",
+    ["O"] = "Return to Cys Craftcharge with the information you have found out about Beezil Linkspanner.",
+    ["D"] = "If it weren\'t for the fact you've just saved my life from that Infernal I wouldn\'t even speak to you. I owe you that much and a part of me thinks I can play both sides in this.\nThe Burning Blade recruited me to transport a massive Infernal to Steamwheedle Port to do who knows what with it, nothing good. Luckily they paid me up front. I need to go inform them what happened but have a little insurance plan under my sleeve.\nSee ya around chump!",
+  },
+  [26471] = {
+    ["T"] = "Burning Blade Dossier",
+    ["O"] = "Bring Cys Craftcharge\'s Report to Watcher Wallace in Theramore.",
+    ["D"] = "So Beezil was working with the Burning Blade behind the companies back? That rat bastard! I think it wise that you bring a copy of my report to your seniors they will want to know the lengths that the Blade have gone too.",
+  },
 }
