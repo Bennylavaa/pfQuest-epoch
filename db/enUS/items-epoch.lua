@@ -167,4 +167,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60169] = "Kolkar Head",
   [60186] = "Korgar\'s Orb",
   [60184] = "Korgar\'s Orb",
+  [60185] = "Gortak\'s Key",
 }

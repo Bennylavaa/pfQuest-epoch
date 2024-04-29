@@ -1314,4 +1314,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Siphon 5 Essence of Lightning into Korgar\'s Orb and return to Shin'Zil in The Barrens.",
     ["D"] = "This be da orb we looking for, mon. But now dat we have the orb, we need to infuse it with the power of nature. Far south, past The Crossroads, lies packs of thunder lizard that look similar to kodos.\n\nWe need to harness their essence and infuse it into the orb...while they be alive for da most potent power. After you do that, return to me so that we may complete the ritual.",
   },
+  [26258] = {
+    ["T"] = "Report to Mankrik",
+    ["O"] = "Report to Mankrik at The Crossroads with the news of Nadia\'s location.",
+    ["D"] = "We found her, mon! Remember, southwest of da Lushwater Oasis is a Bristleback village. It is there that you will find her.\n\nWaste no time, go tell Mankrik the news! Also, if anyone else at da Crossroads be needing help, please send them my way.",
+  },
+  [26259] = {
+    ["T"] = "Finding Nadia",
+    ["O"] = "Locate Nadia in the Bristleback Village in The Barrens.",
+    ["D"] = "We are so close to finding her, $N. I am familiar with the area Shin\'Zil told you about. It is called Agama\'gor, and many Bristleback dwell there.\n\nYou will find it southwest of the Lushwater Oasis. I am counting on you, please, bring my beloved Nadia back to me.",
+  },
+  [26260] = {
+    ["T"] = "Opening the Cage",
+    ["O"] = "Collect Gortak\'s Key and release Nadia from her cage in The Barrens.",
+    ["D"] = "I\'m so glad you\'re here! Many days have I been trapped here...lost...waiting. But I think I know a way out!\n\nI have observed their leader from time to time, they call him Gortak. He always comes from a Bristleback village northwest of here. I\'ll bet anything he has the key to my cage! But be careful, he looks a lot tougher than the others...you might need some friends to take him on.",
+  },
+  [26261] = {
+    ["T"] = "The Good News",
+    ["O"] = "Tell Mankrik at The Crossroads of Nadia\'s escape.",
+    ["D"] = "Thank you for all your assistance, $N. I owe my life to you. I know my way home from here, but you tell me it has been destroyed. I suppose I must take refuge at The Crossroads until we can build a new home.\n\nGo on ahead and tell Mankrik all that has happened. I know he must be dying of uncertainty, not knowing my fate. I will be right behind you!",
+  },
 }
