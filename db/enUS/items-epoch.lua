@@ -206,4 +206,8 @@ pfDB["items"]["enUS-epoch"] = {
   [60182] = "Lidya's Head",
   [60861] = "Deadly Venom Gland",
   [61218] = "Oversized Drysnap Claw",
+  [61213] = "Orca Blubber",
+  [61220] = "Storming Essence",
+  [61221] = "Capacitive Horn",
+  [61215] = "Keiko\'s Thrills",
 }

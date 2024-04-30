@@ -260,4 +260,9 @@ pfDB["units"]["enUS-epoch"] = {
   [45202] = "Silverwing Ambusher",
   [46099] = "Sora Eaglewind",
   [46100] = "Streak",
+  [46102] = "Annie Grim",
+  [46101] = "Marwin Shrillwill",
+  [46105] = "Ten\'siz the Exiled",
+  [46103] = "Shadowprey Orca",
+  [46104] = "Keiko",
 }

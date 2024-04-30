@@ -1734,4 +1734,44 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay 8 Dread Flyers for Strek at Scrabblescrew\'s Camp within Desolace.",
     ["D"] = "As our caravan makes it\'s way across Desolace it is often at risk of ambush from centaurs and lately even beasts. For some reason the Dread Flyers across Desolace have taken a particular liking to trying to steal the raw meat we haul and have taken to ever bolder assaults. Could you thin their numbers for me so the caravan can be safe?",
   },
+  [26740] = {
+    ["T"] = "Wanted: Keiko",
+    ["O"] = "Locate and slay Keiko in the bay outside of Shadowprey Village within Desolace.",
+    ["D"] = "Fishing is an important part of keeping this Village fed but out in the bay a great Orca we name Keiko has been tossing our fishing boats and injuring Troll and Tauren alike. This brutish Orca must be slain so that we can continue to feed as many as we can.\n\nBring proof of this act to Jinar\'Zillen within Shadowprey Village once completed.",
+  },
+  [26742] = {
+    ["T"] = "Pleading To Return",
+    ["O"] = "Collect 4 Storming Essence\'s from Whirlwind Stormwalker\'s north east of Shadowprey Village.",
+    ["D"] = "My home and my heart lies in the Hinterlands with the Revantusk Tribe but I was exiled for teaching some Witherbark about de darker side of being a Shaman. I deeply regret dese actions and all I want is to finally feel the grass under my feet, see trees sway and spend nights with family.\n\nTo be able to do that I am offering de Primal a lightning totem of great power and I hope you can help me with dis task.\n\nNorth east of here are Whirlwind Stormwalker\'s, powerful air elementals that roam dese lands. Within them lies a fury that I can channel into de totem. Collect it and bring it back to me please.",
+  },
+  [26743] = {
+    ["T"] = "Pleading To Return",
+    ["O"] = "Collect 10 Capacitive Horn\'s from Elder Thunder Lizard\'s throughout Desolace.",
+    ["D"] = "I need one last thing to be able to make da totem, around Desolace you will find de Elder Thunder Lizards who are oldest, strongest and have the largest horns. With the energy that has flown through dem over da years I can create a potent lightning totem as a gift to de Primal. Can ya collect me some?",
+  },
+  [26735] = {
+    ["T"] = "The Freshest Oil",
+    ["O"] = "Collect 7 Chunks of Orca Blubber for Marwin Shrillwill along the coast of Shadowprey Village.",
+    ["D"] = "Some of the best oil to be had for lanterns and certain explosives come from the Orca along the shores of this town. Both the Tauren and Troll refuse to help me get ahold of their blubber however so I need an intrepid adventurer like you to get their hands dirty on my behalf. Could you enter the bay and collect the blubber for me?",
+  },
+  [26736] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Bring 10 Hatefury Claws, and 10 Hatefury Horns to Annie Grim in Desolace.",
+    ["D"] = "One of my tasks out here involves picking up some reagents for Theodore Griffs, a powerful alchemist within the Undercity. Marwin seems to think it\'s easy coin in the bank since we\'re out here already. He doesn\'t really care that we\'re short-handed as is.\n\nThe first few items on his list should be easy enough to get, and it\'d be a good chunk of coin for anyone helping me out.\n\nI need some horns and claws from the Hatefury satyr far to the north east of Desolace. Bring \'em back to me and we\'ll get started on the rest of the list.",
+  },
+  [26737] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Bring 7 vials of Scorpashi Venom and 3 Aged Kodo Hides to Annie Grim in Desolace.",
+    ["D"] = "Next on Theodore\'s list is... let\'s see... hmm. Oh, here it is.\n\nSimple enough, but pretty explicit in his directions. He needs venom from the scorpashi, and hide from some kodo. The fine print says both are from specific creatures: the venom\'s got to come from any of the scorpashi, and the hide\'s got to come from an aged kodo, not the dying or ancient ones.\n\nAlchemists, I tell ya, some of the stuff they want... it\'s just weird.",
+  },
+  [26738] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Bring 10 Felhound Brains, 10 Nether Wings, and 10 vials of Doomwarder Blood to Annie Grim in Desolace.",
+    ["D"] = "This is the last of the items, and I won\'t lie, it ain\'t pretty. I\'m also expecting this to take you a little bit longer than the other items.\n\nSo, enough with the warning, let\'s get this started. Theodore says he needs: ten brains from either mana eaters, mage hunters, or ley hunters. Ten nether wings from a nether maiden, sister or sorceress. And... ten vials of doomwarder blood from a doomwarder captain, or lord.\n\nSimple enough, huh? Sheesh... if you wanna pass on this one, I\'d understand.",
+  },
+  [26739] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Deliver Theodore\'s Package to Theodore Griffs at the Apothecarium within the Undercity.",
+    ["D"] = "To get paid, you\'re gonna have to get back to the Undercity and speak to Theodore himself. Just give him this and it should be enough to get your booty.\n\nAnd don\'t worry, I\'m still going to put in a good word for you when I get back. I shouldn\'t be in Desolace much longer.",
+  },
 }
