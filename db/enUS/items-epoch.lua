@@ -204,4 +204,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60178] = "Vile Concoction",
   [60181] = "Viktor\'s Head",
   [60182] = "Lidya's Head",
+  [60861] = "Deadly Venom Gland",
 }

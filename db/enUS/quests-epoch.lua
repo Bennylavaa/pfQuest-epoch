@@ -1699,4 +1699,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Conclude Viktor and Lidya\'s experiment by killing them and taking their heads, then return to Taskmaster Baran.",
     ["D"] = "Donnely wants a solution that will save face for his little alchemy cult? He\'ll get his solution!\n\nGo to Viktor and Lidya. \"Conclude\" their project by bringing me their heads! If Donnely helps them in any way, take his head too!\n\nDismissed!",
   },
+  [26563] = {
+    ["T"] = "Serpent\'s Bite",
+    ["O"] = "Bring 10 Deadly Venom Gland\'s to Motega Firemane.",
+    ["D"] = "Danger abounds in the Thousand Needles, friend. Not just from the centaur, but from the native wildlife as well. I\'ve had to treat more than my fair share of injuries as a result of travelers not heeding my warnings.\n\nThe bites from the cloud serpents require care to treat, especially with their venomous brethren. An antivenom made from the serpents\' venom is the only way to completely neutralize the effects, and I\'m running short on supplies.\n\nI\'d rather you not risk your life over this, but I can pay you well if you give me some venom glands from the cloud serpents.",
+  },
+  [26367] = {
+    ["T"] = "Canyon Patrol",
+    ["O"] = "Motega Firemane wants you to kill 8 Pesterhide Hyenas.",
+    ["D"] = "Despite their reputation as vicious scavengers, the hyenas of these lands are capable hunters. They are a part of the Earthmother\'s cycle of life, no less important than the lions of the Barrens or the great kodo beasts of Mulgore.\n\nUnfortunately, this also makes them a danger to those traveling through the Thousand Needles. Could you do me a favor, and thin out their numbers?",
+  },
+  [26368] = {
+    ["T"] = "Crag Stalking",
+    ["O"] = "Motega Firemane wants you to kill 6 Crag Stalkers.",
+    ["D"] = "Hyenas are not the only danger present in the Needles, $N. One must always be ready face to threats both seen and unseen.\n\nThe crag stalkers are experts of camouflage, making them much more of a threat than your average cougar. Those foolish enough to stray off the beaten roads soon know this firsthand.\n\nWhile I see you\'re no fool, you\'ll need to venture further into the canyons to face them. Stay sharp, warrior. We\'re counting on you.",
+  },
 }
