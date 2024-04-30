@@ -1669,6 +1669,111 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring Cys Craftcharge\'s Report to Watcher Wallace in Theramore.",
     ["D"] = "So Beezil was working with the Burning Blade behind the companies back? That rat bastard! I think it wise that you bring a copy of my report to your seniors they will want to know the lengths that the Blade have gone too.",
   },
+  [26246] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Find the apothecary camp south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+    ["D"] = "I have been asked to tell any adventurers that come by to find the apothecaries if they are looking for paying work. If you don\'t mind smelly corpses with objectionable goals, you might be interested.\n\nThe apothecary camp is to the south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+  },
+  [26247] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Use Vile Concoctions on Ashenvale Outrunners 5 times, and then return to Apothecary Viktor.",
+    ["D"] = "You there! Are you interested in making money? Do you like helping the Horde?\n\nIt just so happens that I am in need of a research assistant for my work here. The task is quite simple, really. You will take my delightful concoctions and throw them on those outrunners prowling around this area.\nThis concoction I mention is the latest and greatest in anti-night elf technology, and it will help our Warsong allies hold their ground here.\n\nWhen you\'re done, please report the results to me.",
+  },
+  [26248] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Use Vile Concoctions on Silverwing Ambushers 5 times, and then return to Apothecary Viktor.",
+    ["D"] = "You there! Are you interested in making money? Do you like helping the Horde?\n\nWait, no, we went through that already. Sorry, $N. The job is much like the last one, though this time I want to see it used on those ambushers to the south. They are a thorn in the side of the Warsong Clan, and thus we\'ll be doing them a favor by taking some of these enemy soldiers out of the picture.\n\nApply the concoction generously to the elves, and let\'s see what happens!",
+  },
+  [26249] = {
+    ["T"] = "Improved Swiftness Potion",
+    ["O"] = "Give Improved Swiftness Potions to 5 Horde Scouts, then return to Apothecary Lidya.",
+    ["D"] = "You\'re quite the research assistant, $N. My name is Lidya, and I am with the Royal Apothecary Society. I am working on a project independent of Viktor, and perhaps you\'d be willing to assist me with it.\n\nTo the south are a number of Warsong scouts who are on a constant vigil for night elf ambushers. While they are capable of holding their own in a fight, we need to give them every edge we can.\n\nI\'ve been working on a special variant of swiftness potion. It should give them superior reflexes and general dexterity, enough that they can defeat any ambusher that comes their way. Would you be willing to distribute some of the potions to the Warsong scouts for me? I\'d be more than happy to pay you for your work.",
+  },
+  [26250] = {
+    ["T"] = "Ethical Quandry",
+    ["O"] = "Tell on Apothecaries Viktor and Lidya to Taskmaster Baran.",
+    ["D"] = "$N, was it? I overheard some of what Lidya said to you about her project. I find it curious that she said all of that, given we\'re all working on one project, and there\'s no such thing as the \"improved swiftness potion\" she had you hand out to the scouts.\n\nI\'ll put it bluntly. She lied to you. What she gave to you was the same concoction you used on those night elves. Lidya has been very eager to expand the pool of test subjects for our project, but has had only night elves to experiment on until you came along.\n\nSomeone must put a stop to Lidya and Viktor. They don\'t seem to care any more who they are experimenting on, just as long as the Royal Apothecary Society sees results. I am powerless to do anything about them, but if you were to seek out Taskmaster Baran... maybe she would have a solution to this problem that could save face for the Royal Apothecary Society and Warsong Clan both.",
+  },
+  [26251] = {
+    ["T"] = "The Experiment\'s Conclusion",
+    ["O"] = "Conclude Viktor and Lidya\'s experiment by killing them and taking their heads, then return to Taskmaster Baran.",
+    ["D"] = "Donnely wants a solution that will save face for his little alchemy cult? He\'ll get his solution!\n\nGo to Viktor and Lidya. \"Conclude\" their project by bringing me their heads! If Donnely helps them in any way, take his head too!\n\nDismissed!",
+  },
+  [26563] = {
+    ["T"] = "Serpent\'s Bite",
+    ["O"] = "Bring 10 Deadly Venom Gland\'s to Motega Firemane.",
+    ["D"] = "Danger abounds in the Thousand Needles, friend. Not just from the centaur, but from the native wildlife as well. I\'ve had to treat more than my fair share of injuries as a result of travelers not heeding my warnings.\n\nThe bites from the cloud serpents require care to treat, especially with their venomous brethren. An antivenom made from the serpents\' venom is the only way to completely neutralize the effects, and I\'m running short on supplies.\n\nI\'d rather you not risk your life over this, but I can pay you well if you give me some venom glands from the cloud serpents.",
+  },
+  [26367] = {
+    ["T"] = "Canyon Patrol",
+    ["O"] = "Motega Firemane wants you to kill 8 Pesterhide Hyenas.",
+    ["D"] = "Despite their reputation as vicious scavengers, the hyenas of these lands are capable hunters. They are a part of the Earthmother\'s cycle of life, no less important than the lions of the Barrens or the great kodo beasts of Mulgore.\n\nUnfortunately, this also makes them a danger to those traveling through the Thousand Needles. Could you do me a favor, and thin out their numbers?",
+  },
+  [26368] = {
+    ["T"] = "Crag Stalking",
+    ["O"] = "Motega Firemane wants you to kill 6 Crag Stalkers.",
+    ["D"] = "Hyenas are not the only danger present in the Needles, $N. One must always be ready face to threats both seen and unseen.\n\nThe crag stalkers are experts of camouflage, making them much more of a threat than your average cougar. Those foolish enough to stray off the beaten roads soon know this firsthand.\n\nWhile I see you\'re no fool, you\'ll need to venture further into the canyons to face them. Stay sharp, warrior. We\'re counting on you.",
+  },
+  [26741] = {
+    ["T"] = "Drysnap Delicacy",
+    ["O"] = "Collect Oversized Drysnap Claw from Drysnap Makura on the coast of Desolace and return to Harnor at Ghost Walker Post.",
+    ["D"] = "The mood around here is often dire what with the nature of these hallowed grounds. It is painful for the Tauren to witness the end of a Kodo\'s life but we know it must happen.\n\nThe one thing that can warm any soul though is a nice wholesome seafood stew if I can get ahold of some Drysnap Claws the bigger the better I can make a delicious meal for everyone.\n\nWill you head to the coast and collect some for me from the Drysnaps there?",
+  },
+  [26732] = {
+    ["T"] = "The Kindest Act",
+    ["O"] = "Slay 8 Dying Kodo within the Kodo Graveyard.",
+    ["D"] = "It is not fully understood why the Kodo on Kalimdor try so desperately to reach here when they feel their long lives are coming to an end but it is as predictable as the rising sun.\n\nHowever some are gravely sick and simply roaming the land in agony unable to cross over to her embrace yet.\n\nThe kindest thing we can do is guide them towards her. Will you do this for me?",
+  },
+  [26731] = {
+    ["T"] = "Crazed Carrion",
+    ["O"] = "Slay 8 Carrion Horror within the Kodo Graveyard.",
+    ["D"] = "It is a natural part of the life and death cycle to become food for what comes after you. Be it worms in the dirt or carrion picking at your bones.\n\nI believe deep down the Kodo know this in some capacity which is why they come here.\n\nHowever where there is a feast there is growth and the Carrions in the area have become too numerous in number and aggressive. They peck and scratch at the kodo that are still living and this can not stand.\n\nThin their numbers Pftestsix and restore balance to this hallowed ground.",
+  },
+  [26733] = {
+    ["T"] = "An End To Dread",
+    ["O"] = "Slay 8 Dread Flyers for Strek at Scrabblescrew\'s Camp within Desolace.",
+    ["D"] = "As our caravan makes it\'s way across Desolace it is often at risk of ambush from centaurs and lately even beasts. For some reason the Dread Flyers across Desolace have taken a particular liking to trying to steal the raw meat we haul and have taken to ever bolder assaults. Could you thin their numbers for me so the caravan can be safe?",
+  },
+  [26740] = {
+    ["T"] = "Wanted: Keiko",
+    ["O"] = "Locate and slay Keiko in the bay outside of Shadowprey Village within Desolace.",
+    ["D"] = "Fishing is an important part of keeping this Village fed but out in the bay a great Orca we name Keiko has been tossing our fishing boats and injuring Troll and Tauren alike. This brutish Orca must be slain so that we can continue to feed as many as we can.\n\nBring proof of this act to Jinar\'Zillen within Shadowprey Village once completed.",
+  },
+  [26742] = {
+    ["T"] = "Pleading To Return",
+    ["O"] = "Collect 4 Storming Essence\'s from Whirlwind Stormwalker\'s north east of Shadowprey Village.",
+    ["D"] = "My home and my heart lies in the Hinterlands with the Revantusk Tribe but I was exiled for teaching some Witherbark about de darker side of being a Shaman. I deeply regret dese actions and all I want is to finally feel the grass under my feet, see trees sway and spend nights with family.\n\nTo be able to do that I am offering de Primal a lightning totem of great power and I hope you can help me with dis task.\n\nNorth east of here are Whirlwind Stormwalker\'s, powerful air elementals that roam dese lands. Within them lies a fury that I can channel into de totem. Collect it and bring it back to me please.",
+  },
+  [26743] = {
+    ["T"] = "Pleading To Return",
+    ["O"] = "Collect 10 Capacitive Horn\'s from Elder Thunder Lizard\'s throughout Desolace.",
+    ["D"] = "I need one last thing to be able to make da totem, around Desolace you will find de Elder Thunder Lizards who are oldest, strongest and have the largest horns. With the energy that has flown through dem over da years I can create a potent lightning totem as a gift to de Primal. Can ya collect me some?",
+  },
+  [26735] = {
+    ["T"] = "The Freshest Oil",
+    ["O"] = "Collect 7 Chunks of Orca Blubber for Marwin Shrillwill along the coast of Shadowprey Village.",
+    ["D"] = "Some of the best oil to be had for lanterns and certain explosives come from the Orca along the shores of this town. Both the Tauren and Troll refuse to help me get ahold of their blubber however so I need an intrepid adventurer like you to get their hands dirty on my behalf. Could you enter the bay and collect the blubber for me?",
+  },
+  [26736] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Bring 10 Hatefury Claws, and 10 Hatefury Horns to Annie Grim in Desolace.",
+    ["D"] = "One of my tasks out here involves picking up some reagents for Theodore Griffs, a powerful alchemist within the Undercity. Marwin seems to think it\'s easy coin in the bank since we\'re out here already. He doesn\'t really care that we\'re short-handed as is.\n\nThe first few items on his list should be easy enough to get, and it\'d be a good chunk of coin for anyone helping me out.\n\nI need some horns and claws from the Hatefury satyr far to the north east of Desolace. Bring \'em back to me and we\'ll get started on the rest of the list.",
+  },
+  [26737] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Bring 7 vials of Scorpashi Venom and 3 Aged Kodo Hides to Annie Grim in Desolace.",
+    ["D"] = "Next on Theodore\'s list is... let\'s see... hmm. Oh, here it is.\n\nSimple enough, but pretty explicit in his directions. He needs venom from the scorpashi, and hide from some kodo. The fine print says both are from specific creatures: the venom\'s got to come from any of the scorpashi, and the hide\'s got to come from an aged kodo, not the dying or ancient ones.\n\nAlchemists, I tell ya, some of the stuff they want... it\'s just weird.",
+  },
+  [26738] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Bring 10 Felhound Brains, 10 Nether Wings, and 10 vials of Doomwarder Blood to Annie Grim in Desolace.",
+    ["D"] = "This is the last of the items, and I won\'t lie, it ain\'t pretty. I\'m also expecting this to take you a little bit longer than the other items.\n\nSo, enough with the warning, let\'s get this started. Theodore says he needs: ten brains from either mana eaters, mage hunters, or ley hunters. Ten nether wings from a nether maiden, sister or sorceress. And... ten vials of doomwarder blood from a doomwarder captain, or lord.\n\nSimple enough, huh? Sheesh... if you wanna pass on this one, I\'d understand.",
+  },
+  [26739] = {
+    ["T"] = "Reagants For The Undercity",
+    ["O"] = "Deliver Theodore\'s Package to Theodore Griffs at the Apothecarium within the Undercity.",
+    ["D"] = "To get paid, you\'re gonna have to get back to the Undercity and speak to Theodore himself. Just give him this and it should be enough to get your booty.\n\nAnd don\'t worry, I\'m still going to put in a good word for you when I get back. I shouldn\'t be in Desolace much longer.",
+  },
   [26437] = {
     ["T"] = "Stop The Shrinking",
     ["O"] = "Release 8 Alliance Adventurers from the Bloodscalp Trolls in the Ruins of Zul\'Kunda.",
