@@ -193,4 +193,11 @@ pfDB["items"]["enUS-epoch"] = {
   [60509] = "Tremortmatic MK I",
   [60519] = "Metallic Tail Spine",
   [60520] = "Lightning Totem",
+  [60613] = "Adorned Letter",
+  [60662] = "Zeppelin Cargo",
+  [60659] = "Beezil Location Clue I",
+  [60660] = "Beezil Location Clue II",
+  [60661] = "Beezil Location Clue III",
+  [60663] = "Bodged Defibrillator",
+  [60664] = "Sniffotron Kit",
 }

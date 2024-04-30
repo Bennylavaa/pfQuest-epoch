@@ -246,4 +246,13 @@ pfDB["units"]["enUS-epoch"] = {
   [45387] = "Ezee Fastrocket",
   [45478] = "Outraged Earth",
   [45480] = "Ditsy Springsocket",
+  [45457] = "Deserter Honorguard",
+  [45521] = "Deserter Arcanist",
+  [45522] = "Deserter Medic",
+  [45519] = "Anna Kaspian",
+  [45520] = "Commander Airheart",
+  [45612] = "Watcher Wallace",
+  [45610] = "Cys Craftcharge",
+  [45686] = "Beezil\'s Crew",
+  [45609] = "Beezil Linkspanner",
 }

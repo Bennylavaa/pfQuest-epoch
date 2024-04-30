@@ -1002,7 +1002,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26562] = {
     ["T"] = "Gathering Of Spirits",
     ["O"] = "Gather 8 bushels of Weaveleaf from the coasts of Desolace.",
-    ["D"] = "Many moons in our tribe\'s past, we made our home in the grasslands of Mashan\'she, but calamity struck the region, rendering it lifeless and barren. Our tribe left the wasteland, now called Desolace, under the guidance of Cheiftain Dusthoof. He kept hope in his heart that there was a verdant and untamed land far beyond the southern deserts, far beyond the centaur and elven lands. \nHowever, we were ill-prepared for the journey. As you can see, we did not last too long out in the flats. With the death of our chieftain, the rest of our tribe scattered, with many falling prey to the heat and beasts of the desert. You may have encountered some of their spirits wandering around this area.\nEven in this state, I do believe we can still make this journey in spirit, if just to walk the land as a tribe once again. But you must help us, warlock.\nYou must return to the living world and travel to Desolace, and gather weaveleaf from along the coast. When you have gathered enough, return here and use them to light the fire at this totem. In the past, we used weaveleaf for incense during ceremonial gatherings; the spirits of Dusthoof and our brethren will recognize the scent.\nEarthmother guide your path, friend.",
+    ["D"] = "Many moons in our tribe\'s past, we made our home in the grasslands of Mashan\'she, but calamity struck the region, rendering it lifeless and barren. Our tribe left the wasteland, now called Desolace, under the guidance of Cheiftain Dusthoof. He kept hope in his heart that there was a verdant and untamed land far beyond the southern deserts, far beyond the centaur and elven lands. \nHowever, we were ill-prepared for the journey. As you can see, we did not last too long out in the flats. With the death of our chieftain, the rest of our tribe scattered, with many falling prey to the heat and beasts of the desert. You may have encountered some of their spirits wandering around this area.\nEven in this state, I do believe we can still make this journey in spirit, if just to walk the land as a tribe once again. But you must help us, $c.\nYou must return to the living world and travel to Desolace, and gather weaveleaf from along the coast. When you have gathered enough, return here and use them to light the fire at this totem. In the past, we used weaveleaf for incense during ceremonial gatherings; the spirits of Dusthoof and our brethren will recognize the scent.\nEarthmother guide your path, friend.",
   },
   [26666] = {
     ["T"] = "Fresh Water Delivery",
@@ -1072,7 +1072,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [9609] = {
     ["T"] = "Help Watcher Biggs",
     ["O"] = "Find Watcher Biggs in the Swamp of Sorrows.",
-    ["D"] = "Magtoor has informed me that there\'s a stranded watcher nearby.  Apparently the caravan he was escorting from Darkshire was attacked by Lost Ones.  It sounds as if he\'s the sole survivor.\nHe\'s somewhere to the south.  Please, warlock, lend him your aid.",
+    ["D"] = "Magtoor has informed me that there\'s a stranded watcher nearby.  Apparently the caravan he was escorting from Darkshire was attacked by Lost Ones.  It sounds as if he\'s the sole survivor.\nHe\'s somewhere to the south.  Please, $c, lend him your aid.",
   },
   [26649] = {
     ["T"] = "Freshly Polished Rods",
@@ -1422,12 +1422,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [26728] = {
     ["T"] = "A Gnome in Need",
     ["O"] = "Use the Charged Trance Enhancer to hypnotize a member of the Burning Blade Clan into telling you the location of Winkle Screwbucket. Return to Dibi Squigglecord at Squigglecord Outpost if you succeed.",
-    ["D"] = "The Trance Enhancer is charged and ready to go! Take it to Thunder Axe Fortress and use it on one of the Burning Blade members there. I can\'t gurantee how long the trance will last, so ask your questions quickly.\nIf you end up getting his location, let Dibi know at once so we can coordinate a rescue operation. Good luck, Bennylava, and bring Winkle home!",
+    ["D"] = "The Trance Enhancer is charged and ready to go! Take it to Thunder Axe Fortress and use it on one of the Burning Blade members there. I can\'t gurantee how long the trance will last, so ask your questions quickly.\nIf you end up getting his location, let Dibi know at once so we can coordinate a rescue operation. Good luck, $N, and bring Winkle home!",
   },
   [26729] = {
     ["T"] = "A Gnome in Need",
     ["O"] = "Locate Winkle Screwbucket at Thunder Axe Fortress in Desolace.",
-    ["D"] = "So, the Burning Blade you hypnotized said Winkle is being held in a cave on the south side of Thunder Axe Fortress? If that\'s true, we must hurry before they transport him to their main holding cells.\nBe careful though, the Burning Blade won\'t part with him easily. I wish I could spare some guards, but I leave this in your hands Bennylava. Bring Winkle home to us safely.",
+    ["D"] = "So, the Burning Blade you hypnotized said Winkle is being held in a cave on the south side of Thunder Axe Fortress? If that\'s true, we must hurry before they transport him to their main holding cells.\nBe careful though, the Burning Blade won\'t part with him easily. I wish I could spare some guards, but I leave this in your hands $N. Bring Winkle home to us safely.",
   },
   [26730] = {
     ["T"] = "A Gnome in Need",
@@ -1598,5 +1598,75 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Rumbles Of The Earth",
     ["O"] = "Bring the Coprolite Sample to Thrall in Orgrimmar.",
     ["D"] = "No one dares venture into the caverns. Once upon a time the Warchief himself however did. Take the sample you have brought me to him and tell him of the journey you have been down.\n\nThere is no one who will understand the implications better than him.",
+  },
+  [1218] = {
+    ["T"] = "Soothing Spices",
+    ["O"] = "Bring 3 Soothing Spices to \"Swamp Eye\" Jarl in Dustwallow Marsh.",
+    ["D"] = "I like cooking.  Good swamp cooking.  Fried green frog legs and the like.$B$BAnd for cooking, I need spice.  Soothing spice.  Then I\'ll make a stew and stew it up and suck it down and give you some too.$B$BDo you like stew?",
+  },
+  [1288] = {
+    ["T"] = "Vimes\'s Report",
+    ["O"] = "Bring Vimes\'s Report to Lady Jaina Proudmoore in Theramore.",
+    ["D"] = "You\'ve done some good work, $N, best I\'ve seen from an amateur.\nLady Proudmoore asked that I keep her apprised of this delicate situation, and I haven\'t spoken to her for some time now.\nI was going to deliver my report to her later, but it seems more fitting that you should be the one to speak with her about it. You can probably answer her questions better than I could.",
+  },
+  [26454] = {
+    ["T"] = "Airheart Must Go",
+    ["O"] = "Locate Fort Airheart on the border of Dustwallow Marsh and The Barrens and slay the Commander within.",
+    ["D"] = "We have received troubling news from our scouts that a new group of deserters that have claimed a fort on the border of Dustwallow and the Barrens and settled in. We must clear them out before someone confuses the situation.\nThey are well armed and thoroughly entrenched beyond what we expected. Their leader is a fearless Commander named Airheart, find him deep within that fort and slay him to end this dire situation.",
+  },
+  [26460] = {
+    ["T"] = "Put Them Down",
+    ["O"] = "Assault Fort Airheart and slay 8 Deserter Honorguards and 8 Deserter Medics.",
+    ["D"] = "The Fort at the border of Dustwallow and the Barrens is full of deserters under the charge of Airheart. If we strike him down before long a new one will rise to the ranks.\nWe must assault them with full force, not only striking at the head but at the limbs. Take down his most fearsome of Honorguards and their Medics so that they can not recover from this blow.",
+  },
+  [26462] = {
+    ["T"] = "Reinforcements From Afar",
+    ["O"] = "Bring the Adorned Letter to Lady Jaina Proudmoore in Theramore for inspection.",
+    ["D"] = "Your request for supplies and reinforcements has been heard and our smugglers are doing their best to get you aid via Steamwheedle and Theramore itself.\nIt is important to our cause that the keep does not fall. The dogs of the Horde and the whelps within the Alliance will pay for what has been done.\nOur newfound neutrality with the owner of our isle has allowed us to begin building a true town for those who are loyal to our desires.\nBefore long you will be sent to attack Camp Taurajo in force but await our next report. For the Admiral!\n- R.D",
+  },
+  [26456] = {
+    ["T"] = "Escaping Airheart",
+    ["O"] = "Escort Anna Kaspian out of Fort Airheart and then inform her friend Janene at the Theramore Inn.",
+    ["D"] = "Me and my husband Gerald were making our way from Ratchet to Theramore with fresh supplies when these ruffians ambushed us.\nI can tell by the crest on their chests that they are no friend of Theramore and they saw we were in an instant too.\nMy poor husband tried to stand up for the honor of the Proudmoores and well... look behind me to see how that went...\nMy ankle was badly twisted and I need help getting out of here so I can make my way home. Will you help, $N?",
+  },
+  [26464] = {
+    ["T"] = "The Downed Zeppelin",
+    ["O"] = "Scout the area west of the Theramore docks to locate the downed zeppelin that Watcher Wallace spotted.",
+    ["D"] = "Did you see it $c? A burst of flames and next thing I know on the horizon due west of here is a zepellin tumbling out of the air!\nI\'ve asked for a scouting party to go and investigate what is going on but all the red tape mumbo jumbo is getting in the way.\nPlease could you go investigate what happened and check for survivors?",
+  },
+  [26466] = {
+    ["T"] = "Grab The Goods",
+    ["O"] = "Collect 8 crates of Zepellin Cargo from the area surrounding Beezil\'s Wreck.",
+    ["D"] = "The companies second highest priority after finding the Captain is to recover our assets! Anything that survived the crash and hasn\'t been absorbed by a damned ooze is ours and we need it back.\nWe have to salvage at least some profit from this disaster. Go collect the surviving cargo that is scattered around $N.",
+  },
+  [26465] = {
+    ["T"] = "Where In The World Is Beezil Linkspanner?",
+    ["O"] = "Locate clues of what may have happened to Beezil Linkspanner from nearby oozes.",
+    ["D"] = "My job on the zepellin is simple, keep an eye out for Dragons as we\'re flying over the swamp and next thing I know there\'s an almighty boom and a box smacks me in the head! Out cold in an instant.\nI may be the only one of us still conscious and I can\'t find the Captain Beezil Linkspanner anywhere! The oozes nearby have been swallowing up anything they can wrap themselves around and may have some clues that lead us to him. Cull them and bring me what you find.",
+  },
+  [26467] = {
+    ["T"] = "Defibrillated",
+    ["O"] = "Zap awake 6 crew members to uncover more information about what may have happened on the zeppelin.",
+    ["D"] = "I didn\'t want to have to wake up any of the crew. By the looks of it their medical costs will be higher than the payout to their next of kin. However... needs must.\nTake this Defibrillator and wake them up and see what information they have about where Beezil went. A sharp pulse should do it right to the heart.",
+  },
+  [26482] = {
+    ["T"] = "Sniffotron MK IV",
+    ["O"] = "Enquire with Gazlowe in Ratchet about getting Cys\'s Sniffotron MK IV.",
+    ["D"] = "This operation is just getting more and more expensive, my boss won\'t be liking that!\nIf we are to track down Beezil we\'ll have to go to desperate measures. With the cloak you found we can track him down but we\'re going to need some technological assistance.\nGo speak with Gazlowe in Ratchet about a Sniffotron MK IV Kit that I left in his care, we\'re going to use that to locate Beezil.",
+  },
+  [26468] = {
+    ["T"] = "Sniff Him Out",
+    ["O"] = "Use the Sniffotron MK IV Controller to summon the Sniffotron which will lead you to Beezil.",
+    ["D"] = "With this Sniffotron and the cloak that you found we can find Beezil. Bring it out and it will sniff at the cloak and set off with you following in tow. Defend it with your life we don\'t have a second one at hand!\nFind the Captain and bring him back to me safely.",
+  },
+  [26469] = {
+    ["T"] = "Beezil And The Burning Blade",
+    ["O"] = "Return to Cys Craftcharge with the information you have found out about Beezil Linkspanner.",
+    ["D"] = "If it weren\'t for the fact you've just saved my life from that Infernal I wouldn\'t even speak to you. I owe you that much and a part of me thinks I can play both sides in this.\nThe Burning Blade recruited me to transport a massive Infernal to Steamwheedle Port to do who knows what with it, nothing good. Luckily they paid me up front. I need to go inform them what happened but have a little insurance plan under my sleeve.\nSee ya around chump!",
+  },
+  [26471] = {
+    ["T"] = "Burning Blade Dossier",
+    ["O"] = "Bring Cys Craftcharge\'s Report to Watcher Wallace in Theramore.",
+    ["D"] = "So Beezil was working with the Burning Blade behind the companies back? That rat bastard! I think it wise that you bring a copy of my report to your seniors they will want to know the lengths that the Blade have gone too.",
   },
 }
