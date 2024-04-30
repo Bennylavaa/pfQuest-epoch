@@ -1729,4 +1729,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay 8 Carrion Horror within the Kodo Graveyard.",
     ["D"] = "It is a natural part of the life and death cycle to become food for what comes after you. Be it worms in the dirt or carrion picking at your bones.\n\nI believe deep down the Kodo know this in some capacity which is why they come here.\n\nHowever where there is a feast there is growth and the Carrions in the area have become too numerous in number and aggressive. They peck and scratch at the kodo that are still living and this can not stand.\n\nThin their numbers Pftestsix and restore balance to this hallowed ground.",
   },
+  [26733] = {
+    ["T"] = "An End To Dread",
+    ["O"] = "Slay 8 Dread Flyers for Strek at Scrabblescrew\'s Camp within Desolace.",
+    ["D"] = "As our caravan makes it\'s way across Desolace it is often at risk of ambush from centaurs and lately even beasts. For some reason the Dread Flyers across Desolace have taken a particular liking to trying to steal the raw meat we haul and have taken to ever bolder assaults. Could you thin their numbers for me so the caravan can be safe?",
+  },
 }

@@ -259,4 +259,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45201] = "Apprentice Lidya",
   [45202] = "Silverwing Ambusher",
   [46099] = "Sora Eaglewind",
+  [46100] = "Streak",
 }
