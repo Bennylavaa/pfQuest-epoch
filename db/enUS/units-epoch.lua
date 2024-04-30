@@ -255,4 +255,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45610] = "Cys Craftcharge",
   [45686] = "Beezil\'s Crew",
   [45609] = "Beezil Linkspanner",
+  [45199] = "Apothecary Viktor",
+  [45201] = "Apprentice Lidya",
+  [45202] = "Silverwing Ambusher",
 }

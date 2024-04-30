@@ -200,4 +200,8 @@ pfDB["items"]["enUS-epoch"] = {
   [60661] = "Beezil Location Clue III",
   [60663] = "Bodged Defibrillator",
   [60664] = "Sniffotron Kit",
+  [60177] = "Vile Concoction",
+  [60178] = "Vile Concoction",
+  [60181] = "Viktor\'s Head",
+  [60182] = "Lidya's Head",
 }

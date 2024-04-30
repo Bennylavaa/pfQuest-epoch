@@ -1669,4 +1669,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring Cys Craftcharge\'s Report to Watcher Wallace in Theramore.",
     ["D"] = "So Beezil was working with the Burning Blade behind the companies back? That rat bastard! I think it wise that you bring a copy of my report to your seniors they will want to know the lengths that the Blade have gone too.",
   },
+  [26246] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Find the apothecary camp south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+    ["D"] = "I have been asked to tell any adventurers that come by to find the apothecaries if they are looking for paying work. If you don\'t mind smelly corpses with objectionable goals, you might be interested.\n\nThe apothecary camp is to the south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+  },
+  [26247] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Use Vile Concoctions on Ashenvale Outrunners 5 times, and then return to Apothecary Viktor.",
+    ["D"] = "You there! Are you interested in making money? Do you like helping the Horde?\n\nIt just so happens that I am in need of a research assistant for my work here. The task is quite simple, really. You will take my delightful concoctions and throw them on those outrunners prowling around this area.\nThis concoction I mention is the latest and greatest in anti-night elf technology, and it will help our Warsong allies hold their ground here.\n\nWhen you\'re done, please report the results to me.",
+  },
+  [26248] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Use Vile Concoctions on Silverwing Ambushers 5 times, and then return to Apothecary Viktor.",
+    ["D"] = "You there! Are you interested in making money? Do you like helping the Horde?\n\nWait, no, we went through that already. Sorry, $N. The job is much like the last one, though this time I want to see it used on those ambushers to the south. They are a thorn in the side of the Warsong Clan, and thus we\'ll be doing them a favor by taking some of these enemy soldiers out of the picture.\n\nApply the concoction generously to the elves, and let\'s see what happens!",
+  },
+  [26249] = {
+    ["T"] = "Improved Swiftness Potion",
+    ["O"] = "Give Improved Swiftness Potions to 5 Horde Scouts, then return to Apothecary Lidya.",
+    ["D"] = "You\'re quite the research assistant, $N. My name is Lidya, and I am with the Royal Apothecary Society. I am working on a project independent of Viktor, and perhaps you\'d be willing to assist me with it.\n\nTo the south are a number of Warsong scouts who are on a constant vigil for night elf ambushers. While they are capable of holding their own in a fight, we need to give them every edge we can.\n\nI\'ve been working on a special variant of swiftness potion. It should give them superior reflexes and general dexterity, enough that they can defeat any ambusher that comes their way. Would you be willing to distribute some of the potions to the Warsong scouts for me? I\'d be more than happy to pay you for your work.",
+  },
+  [26250] = {
+    ["T"] = "Ethical Quandry",
+    ["O"] = "Tell on Apothecaries Viktor and Lidya to Taskmaster Baran.",
+    ["D"] = "$N, was it? I overheard some of what Lidya said to you about her project. I find it curious that she said all of that, given we\'re all working on one project, and there\'s no such thing as the \"improved swiftness potion\" she had you hand out to the scouts.\n\nI\'ll put it bluntly. She lied to you. What she gave to you was the same concoction you used on those night elves. Lidya has been very eager to expand the pool of test subjects for our project, but has had only night elves to experiment on until you came along.\n\nSomeone must put a stop to Lidya and Viktor. They don\'t seem to care any more who they are experimenting on, just as long as the Royal Apothecary Society sees results. I am powerless to do anything about them, but if you were to seek out Taskmaster Baran... maybe she would have a solution to this problem that could save face for the Royal Apothecary Society and Warsong Clan both.",
+  },
+  [26251] = {
+    ["T"] = "The Experiment\'s Conclusion",
+    ["O"] = "Conclude Viktor and Lidya\'s experiment by killing them and taking their heads, then return to Taskmaster Baran.",
+    ["D"] = "Donnely wants a solution that will save face for his little alchemy cult? He\'ll get his solution!\n\nGo to Viktor and Lidya. \"Conclude\" their project by bringing me their heads! If Donnely helps them in any way, take his head too!\n\nDismissed!",
+  },
 }
