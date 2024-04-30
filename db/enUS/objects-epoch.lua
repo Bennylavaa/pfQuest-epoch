@@ -76,4 +76,9 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001013] = "The Sepulcher", --Placeholder ID
   [4001014] = "WANTED", --Placeholder ID
   [4001015] = "Box of Treasure", --Placeholder ID
+  [4001016] = "Oversized Shadowberry Bush", --Placeholder ID
+  [4001017] = "Palladium Ore", --Placeholder ID
+  [4001017] = "Sturdy Reed", --Placeholder ID
+  [4001018] = "Splintertree Mine", --Placeholder ID
+  [4001019] = "Coprolite Node", --Placeholder ID
 }

@@ -539,6 +539,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Slay 6 Starving Worgs and then return to Deathguard Terrence walking somewhere between Brill and the Ruins of Lordaeron in Tirisfal Glades.",
     ["D"] = "Ah hello, $C. You seem like the type who enjoys being sent out to deal with other people\'s problems for pocket change. At the border between Tirisfal and Silverpine Forest, to our south-west, there have been some worgs crossing the border. Not much food to be had here for living wolves, so they occasionally attack wagons or passerbys.\n\nOff you go then!",
   },
+  [26684] = {
+    ["T"] = "To The Hills",
+    ["O"] = "Scout the Burning Hills to discover the source of the smoke.",
+    ["D"] = "Me be seein\' some serious smoke comin\' from da Blazin\' Hills to da east of Hammerfall. Dis be worryin\' me, as da elementals dat call dat place home be normally peaceful.\n\nMe be askin\' ya to be headin\' over dere and seein\' what be causin\' all dat ruckus. Dere be danger afoot, so be sure to be stayin\' sharp and keepin\' yer wits about ya.",
+  },
   [26685] = {
     ["T"] = "To The Hills",
     ["O"] = "Scout the Burning Hills to discover the source of the smoke.",
@@ -1433,6 +1438,166 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Wanted: Wilfiz Silverbit",
     ["O"] = "Locate and slay Wilfiz Silverbit north of Mannoroc Coven within Desolace.",
     ["D"] = "My former apprentice ran off taking with him valuable knowledge to aid the Burning Blade in the region. This insolence shall not stand! I want his head brought to me on a pike if needed. He was last seen picking mushrooms just north of Mannoroc Coven.\n-- Imu Copperspell",
+  },
+  [26400] = {
+    ["T"] = "Syndicate Personnel",
+    ["O"] = "Kill 5 Syndicate Rogues and 5 Syndicate Watchmen. Return to High Executor Darthalia in Tarren Mill after your task is completed.",
+    ["D"] = "The Dark Lady has ordered the death of all members associated with The Syndicate. They are a dangerous band of thugs, preying on the weak and stealing from them.\n\nA group of them are currently occupying a tower southeast of here. Follow the road south, turn left at the fork, and you\'ll find the tower along there. Kill as many as you can, $N, who knows what they might be planning.",
+  },
+  [26401] = {
+    ["T"] = "Durnholde Extermination",
+    ["O"] = "Kill 10 Syndicate Taskmasters and 10 Syndicate Overseers. Return to High Executor Darthalia in Tarren Mill after the task is completed.",
+    ["D"] = "I have another task for you, $N. I recieved a report that more Syndicate were found in Durnholde Keep, southeast of here. It\'s a top priority of the Horde to keep these lands safe from thugs, so we need to purge the land of their filth.\n\nTo find Durnholde Keep, go past the tower you found, and continue a ways. You\'ll find the keep along the same road.",
+  },
+  [26388] = {
+    ["T"] = "A Lost Warrior",
+    ["O"] = "Search for signs of Tog\'Thar in Dunrholde Keep. You recall Krusk saying he may be in the sewers.",
+    ["D"] = "Me and my brother, Tog\'thar, were sent by the Warchief to retrieve an object from Durnholde and to investigate this so-called Syndicate.\n\nWe went to Durnholde to take a look around, but we were taken by surprise by a large number of the humans. We fought bravely, but their sheer numbers overwhelmed us.\n\nIn the struggle, I managed to escape, but my brother was not so lucky. I saw them drag him to the sewers that they are using as a prison, on the eastern side of the camp.\n\nWould you go and look for him, $N? I would be eternally grateful to have my brother back.",
+  },
+  [26389] = {
+    ["T"] = "A Lost Warrior",
+    ["O"] = "Loot Eston\'s Key from Jailer Eston in the Durnholde Sewers and return to Tog\'thar.",
+    ["D"] = "I can\'t believe you came! Did my brother send for you? I\'m relieved you\'re here, but unfortunately with these shackles on me, I won\'t be going anywhere.\n\nThe key to these shackles is held by Jailer Eston, who guards these sewers. I just saw him head over to the other side of these sewers.\n\nGo and get his key...use whatever force is necessary. I don't want to die here!",
+  },
+  [26390] = {
+    ["T"] = "A Lost Warrior",
+    ["O"] = "Escape from Durnholde Keep with Tog'thar. If you are successful, report to Krusk in Tarren Mill.",
+    ["D"] = "It\'s time to get out of here, $N. But be warned, these damned Syndicate are going to put up a fight!Stick together now, we can\'t afford to get seperated. I can\'t wait to see the look on my brother\'s face when I return to him.",
+  },
+  [26396] = {
+    ["T"] = "Burnt to a Crisp",
+    ["O"] = "Burn the Syndicate Food Supplies, located in the barracks of Durnholde Keep. Return to Tallow when you are finished.",
+    ["D"] = "I have lived in Tarren Mill all my life, $c. I am not about to see it be destroyed by a band of thugs.\n\nIndeed, I am talking about the Syndicate. They recently have moved into Durnholde Keep to the southeast, and I will not have it! It\'s time to give them a taste of the enemy they have declared war on.\n\nI want you to burn their food supplies, which are most likely found in their barracks. I was gifted an eternal torch by a friend, take it with you and use it to burn their food to a crisp.",
+  },
+  [26399] = {
+    ["T"] = "WANTED: Archmage Zygor",
+    ["O"] = "Slay Archmage Zygor in Durnholde Keep. Return to High Executor Darthalia in Tarren Mill for your reward.",
+    ["D"] = "By the authority of Lady Sylvanas, the archmage known as Zygor is to be executed immediately. Zygor is guilty of training and instructing a dangerous organization known as the Syndicate in dark magic.\n\nHe can be found in Durnholde Keep, likely in the mage tower. A handsome reward is offered to all who bring proof of their deeds to High Executor Darthalia.",
+  },
+  [26327] = {
+    ["T"] = "Hillsbrad Assault",
+    ["O"] = "Capture the Central Tower when it is under the control of the Alliance.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Hordes control of these lands. The banshee queen herself has ordered that whenever the Alliance claims it we must urgently take it back.\n\nRally your forces $N and do as she has bid.",
+  },
+  [26328] = {
+    ["T"] = "Hillsbrad Defense",
+    ["O"] = "Defend the Central Tower when it is under the control of the Horde.",
+    ["D"] = "The tower in the center of Hillsbrad is key to the Hordes control of these lands. The banshee queen herself has ordered that whenever the Alliance attempts to take control of it we must defend it at all costs.\n\nRally your forces $N and do as she has bid.",
+  },
+  [26723] = {
+    ["T"] = "Shadowberry Pie",
+    ["O"] = "Collect 8 Bushels of Massive Shadowberry from the Blazing Hills south east of Hammerfall.",
+    ["D"] = "Up in the Blazing Hills there is a special berry we call the Shadowberry. Delicious, rich in colour and only grows up there for reasons I do not understand.\n\nI know they sell for a good price on the black market due to that scarcity but we have troops to feed. Go get me some and I can make everyone a nice warm pie.",
+  },
+  [26722] = {
+    ["T"] = "Unusual Rations",
+    ["O"] = "Collect 10 Creeper Chunks from Blazing Creepers within the Blazing Hills.",
+    ["D"] = "Quality meat is scarce to find within Arathi and stuff that tastes good even less so but I do have one key ingredient I\'ve been slipping into our \"meat\" dumplings... Creeper Meat.\n\nYes, yes I know that look on your face. Don\'t judge me.\n\nMy stocks are running low though and without good grub we\'ll have a mutiny on our hands. The meat I need can only be found on the Blazing Creepers within the Blazing Hills south east of here. Bring me some and I\'ll pay you handsomly.",
+  },
+  [26353] = {
+    ["T"] = "Attack on the Mine",
+    ["O"] = "Kill 5 Windshear Geomancers, 5 Windshear Overlords, and 10 Windshear Diggers in Windshear Mine and return to Grawnal at Sun Rock Retreat.",
+    ["D"] = "If you find yourself in Windshear Crag, be on the lookout for a mine the Venture Co. have constructed. I heard they started operations and are currently mining as we speak! This cannot be tolerated.\n\nThe operations in the mine must be stopped, as the Venture Co. cannot be allowed to advance their foothold in the mountains. Do what it takes, $N, but do not return to me until the task if completed.",
+  },
+  [26357] = {
+    ["T"] = "Ore for Sun Rock",
+    ["O"] = "Mine 8 Palladium Ore from Windshear Mine and return to Grawnal at Sun Rock Retreat.",
+    ["D"] = "I know it doesn\'t look it, but we're running low on materials. Specfically, metals that we can melt down into weapons for the guards. If we can\'t defend ourselves, we leave ourselves open to an Alliance attack!\n\nI\'ve heard that the Venture Co. has found a new ore, said to be more powerful than the iron we\'ve been using. I want you to take my pickaxe and go to Windshear Mine. Just enter Windshear Crag and head right along the mountain\'s edge. If you find any special ore, use my pickaxe and bring it back to me for examination.",
+  },
+  [26355] = {
+    ["T"] = "Mirkfallon Bracers",
+    ["O"] = "Collect 8 Mirkfallon Bracers from the water elementals at Mirkfallon Lake and return to Tammra Windfield at Sun Rock Retreat.",
+    ["D"] = "Greetings, $N. It\'s good to see a Warrior around here, there is work to be done. I have lived in Sun Rock Retreat for many years now, and these mountains never fail to amaze me. Recently, a magical stirring has popped up, and I would like to investigate it.\n\nNorth of here lies Mirkfallon Lake, an old and ancient refugee for creatures of the forest. Lately however, water elementals have sprung from the depths and are harming the creatures that inhabit the lake. I care deeply for the creatures of these mountains, and will not tolerate this! I want you to get rid of the water elementals, and bring me their bracers as proof of the deed.",
+  },
+  [26359] = {
+    ["T"] = "Twilight Fangs",
+    ["O"] = "Collect 10 Twilight Fangs and return to Krond at Sun Rock Retreat.",
+    ["D"] = "Should you find yourself at Stonetalon Grove, far north of here, keep a keen eye for the Twilight Runners that lurk there. Their fangs are said to be of the highest quality, but they are rare because the cats are elusive and quick.\n\nIf you bring me some of their fangs, I\'ll be happy to craft you something made of them. Some say the twilight fangs even have magical properties...",
+  },
+  [26352] = {
+    ["T"] = "A Trip to the Vale",
+    ["O"] = "Collect 1 Charred Wood and 1 Basilisk Tail from the Charred Vale and return to Kulwia at Sun Rock Retreat.",
+    ["D"] = "I am in need of some...exotic trade materials only found in The Charred Vale. It\'s a dangerous place that only the bravest of adventurers should go to. You can find it by going north of here, when you reach Mirkfallon Lake, go east and you should find the path.\n\nThe materials I need are one basilisk tail, and one piece of charred wood from the ancients that roam the vale. Bring me these materials and I will make it worth your while.",
+  },
+  [26720] = {
+    ["T"] = "Battle of Warsong Gulch",
+    ["O"] = "Achieve victory in Warsong Gulch 3 times, then return to Captain Shatterskull in Mor\'shan Base Camp in the Barrens. (This quest can be completed once every week)",
+    ["D"] = "The battle in Warsong Gulch against the Silverwing Sentinels is of great importance. Under the guise of protecting a forest that doesn\'t belong to them, the Alliance seeks to deny the Horde one of our largest sources for lumber.\n\nDo not let this happen, $N! Serve the Horde and fight for honor!",
+  },
+  [26243] = {
+    ["T"] = "CHOP!",
+    ["O"] = "Protect Romgul as he lures Ashenvale Outrunners out. When done, return to Taskmaster Baran.",
+    ["D"] = "These cowardly elves hide in the shadows, ambushing anyone that enters their territory. It\'s time that we did something to throw them off of our peons.\n\nRomgul will be lended to you for this task. He\'s going to clumsily shamble along as peons do, making as much noise as he can. When the ambushers see this stupid idiot, they\'ll smell weakness and pounce on him. Your role will be to ensure that not only does he survive, but that none of the elven ambushers escape.\n\nDo this for me, and I\'ll pay you.",
+  },
+  [26246] = {
+    ["T"] = "Practical Science",
+    ["O"] = "Find the apothecary camp south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+    ["D"] = "I have been asked to tell any adventurers that come by to find the apothecaries if they are looking for paying work. If you don\'t mind smelly corpses with objectionable goals, you might be interested.\n\nThe apothecary camp is to the south of Splintertree Post, near the Dor\'Dranil Barrow Den.",
+  },
+  [26415] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Question the peons within Splintertree Mine.",
+    ["D"] = "Normally the output of this mine is crucial to the war effort of the Horde. However of late these damned lazy peons have been slacking, some have even downed tools and ran out of here babbling.\n\nCan you ask them what on Azeroth is going on?",
+  },
+  [26416] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Locate and eliminate the thing scaring the peons.",
+    ["D"] = "So they\'re saying that there is a monster deep in the mine? I wonder if that is the cause of the tremors we\'ve been having here of late too.\n\nI need to get this operation back up and running glitch free, can you delve back into the mine and deal with it?",
+  },
+  [26417] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Collect 6 Sturdy Reeds from water sources and 4 chunks of broken glass from Rotting Slimes.",
+    ["D"] = "Now you definitely have my attention, these rumbles are still continuing and the peons aren\'t all that much happier about the situation. We need to try and find the true source of this.\n\nI have an idea but it will require you to get a few things for me. Throughout Ashenvale along bodies of water you can find sturdy reeds growing that I can hollow out to make an impromptu scope of sorts.\n\nAlongside that I need glass to make a lense, not exactly naturally occuring though... Hmm. I know! The Rotting Slimes nearby scoop up anything a traveller may have, I bet they\'ve absorbed some glassware here and there.",
+  },
+  [26418] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Test the Tremormatic MK I to find the location of the rumbling.",
+    ["D"] = "With what you\'ve given me I will build my latest invention. The Tremormatic! Take this outside of the mine and give it a go. I\'m positive that it will point us the way.",
+  },
+  [26419] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Locate Ezee Fastrocket within Orgrimmar and collect Foreman Springsockets Supplies.",
+    ["D"] = "Well that\'s what I get for trying to cut corners and solve this problem on the cheap. Literal plants and slime covered glass. Oh well, it was worth a try.\n\nI guess the only way this gets solved is if I dip into my coffers. Here take this sack of cogs as payment and find my old colleague Ezee Fastrocket within the Zepellin area of Orgrimmar and ask her for the high quality parts I\'ll need.",
+  },
+  [26420] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Return to Foreman Springsocket in Splintertree Mine.",
+    ["D"] = "Here, this is everything that the Foreman will want. You'll have to come back here and tell me what comes of this. Whatever it was that made him finally come to me for help must be one heck of a find.\n\nTake this crate with you back to Splintertree Post and deliver it to him.",
+  },
+  [26421] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Using the Tremormatic MK II locate the source of the tremors within Ashenvale.",
+    ["D"] = "This right here is the Tremormatic MK II. Isn\'t she a beauty? Place it on the ground and it will point you towards the source of the tremors in Ashenvale.\n\nThat is as much as I can help, please track it down and shut it off for the sake of these damned peons sanity.",
+  },
+  [26422] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Bring the Tremormatic MK II to Ditsy Springsocket in Sun Rock Retreat",
+    ["D"] = "My sister Ditsy is based in Sun Rock Retreat she may be able to help you with the next steps. Bring the Tremormatic with you she will want to add her own spin to it. Whatever is going on is both powerful and deeply rooted within the earth itself.\n\nTo reach her you can take the Talondeep Path south west of Splintertree Post or if you\'re more familiar with the terrain of the Barrens then you can find your way in there via Honor\'s Stand on the western side of that dusty hellhole.",
+  },
+  [26427] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Collect 3 Metallic Tail Spines from Pridewing Skyhunters, Consorts and Patriarchs.",
+    ["D"] = "Well I can\'t deny that my brother has saved me some time building this gizmo but there\'s one thing this needs, more power! I can super charge this with a makeshift battery but I\'m going to need a couple things. The first of which are the metallic tails of the strongest Pridewings that you can find north west of here.\n\nI only want the biggest, meanest and toughest of them though. A nice mature tail. The Skyhunters, Consorts and Patriarchs.",
+  },
+  [26428] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Collect 4 Lightning Totems from Bloodfury Storm Witches within the Charred Vale.",
+    ["D"] = "Within the Charred Vale you will find Bloodfury Storm Witches. The lightning that they channel must be coming from some form of source, kill them and bring me whatever it is. I can merge that with the tails you\'ve brought me and super charge this Tremormatic.\n\nI think 4 should suffice. The Charred Vale can be found west of Sun Rock Retreat.",
+  },
+  [26429] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Using the Tremormatic MK III locate the source of the tremors within Stonetalon.",
+    ["D"] = "There we go. I introduce, the MK III. I always was better at bodging things together than my brother. You know the score I can tell, slap it on the ground and it will locate those tremors. Get at it!",
+  },
+  [26430] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Bring a sample of the ore to Ditsy Springsocket in Sun Rock Retreat.",
+    ["D"] = "The ore you see before you is unlike anything you have seen before you. With great effort you manage to pull a chunk off to bring to Ditsy Springsocket.",
+  },
+  [26431] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Bring the Coprolite Sample to Thrall in Orgrimmar.",
+    ["D"] = "No one dares venture into the caverns. Once upon a time the Warchief himself however did. Take the sample you have brought me to him and tell him of the journey you have been down.\n\nThere is no one who will understand the implications better than him.",
   },
   [1218] = {
     ["T"] = "Soothing Spices",
