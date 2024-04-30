@@ -44,4 +44,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 82.8, 57.3, 45 },
     },
   },
+  [4000008] = { --Stonetalon Caverns
+    ["coords"] = {
+      [1] = { 30.7, 48.3, 406 },
+    },
+  },
 }

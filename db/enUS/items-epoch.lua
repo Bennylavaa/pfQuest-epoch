@@ -191,4 +191,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60508] = "Glass Shards",
   [60507] = "Sturdy Reed",
   [60509] = "Tremortmatic MK I",
+  [60519] = "Metallic Tail Spine",
+  [60520] = "Lightning Totem",
 }

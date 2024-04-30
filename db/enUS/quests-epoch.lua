@@ -1574,4 +1574,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring the Tremormatic MK II to Ditsy Springsocket in Sun Rock Retreat",
     ["D"] = "My sister Ditsy is based in Sun Rock Retreat she may be able to help you with the next steps. Bring the Tremormatic with you she will want to add her own spin to it. Whatever is going on is both powerful and deeply rooted within the earth itself.\n\nTo reach her you can take the Talondeep Path south west of Splintertree Post or if you\'re more familiar with the terrain of the Barrens then you can find your way in there via Honor\'s Stand on the western side of that dusty hellhole.",
   },
+  [26427] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Collect 3 Metallic Tail Spines from Pridewing Skyhunters, Consorts and Patriarchs.",
+    ["D"] = "Well I can\'t deny that my brother has saved me some time building this gizmo but there\'s one thing this needs, more power! I can super charge this with a makeshift battery but I\'m going to need a couple things. The first of which are the metallic tails of the strongest Pridewings that you can find north west of here.\n\nI only want the biggest, meanest and toughest of them though. A nice mature tail. The Skyhunters, Consorts and Patriarchs.",
+  },
+  [26428] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Collect 4 Lightning Totems from Bloodfury Storm Witches within the Charred Vale.",
+    ["D"] = "Within the Charred Vale you will find Bloodfury Storm Witches. The lightning that they channel must be coming from some form of source, kill them and bring me whatever it is. I can merge that with the tails you\'ve brought me and super charge this Tremormatic.\n\nI think 4 should suffice. The Charred Vale can be found west of Sun Rock Retreat.",
+  },
+  [26429] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Using the Tremormatic MK III locate the source of the tremors within Stonetalon.",
+    ["D"] = "There we go. I introduce, the MK III. I always was better at bodging things together than my brother. You know the score I can tell, slap it on the ground and it will locate those tremors. Get at it!",
+  },
+  [26430] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Bring a sample of the ore to Ditsy Springsocket in Sun Rock Retreat.",
+    ["D"] = "The ore you see before you is unlike anything you have seen before you. With great effort you manage to pull a chunk off to bring to Ditsy Springsocket.",
+  },
+  [26431] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Bring the Coprolite Sample to Thrall in Orgrimmar.",
+    ["D"] = "No one dares venture into the caverns. Once upon a time the Warchief himself however did. Take the sample you have brought me to him and tell him of the journey you have been down.\n\nThere is no one who will understand the implications better than him.",
+  },
 }
