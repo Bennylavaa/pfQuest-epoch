@@ -1714,4 +1714,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Motega Firemane wants you to kill 6 Crag Stalkers.",
     ["D"] = "Hyenas are not the only danger present in the Needles, $N. One must always be ready face to threats both seen and unseen.\n\nThe crag stalkers are experts of camouflage, making them much more of a threat than your average cougar. Those foolish enough to stray off the beaten roads soon know this firsthand.\n\nWhile I see you\'re no fool, you\'ll need to venture further into the canyons to face them. Stay sharp, warrior. We\'re counting on you.",
   },
+  [26741] = {
+    ["T"] = "Drysnap Delicacy",
+    ["O"] = "Collect Oversized Drysnap Claw from Drysnap Makura on the coast of Desolace and return to Harnor at Ghost Walker Post.",
+    ["D"] = "The mood around here is often dire what with the nature of these hallowed grounds. It is painful for the Tauren to witness the end of a Kodo\'s life but we know it must happen.\n\nThe one thing that can warm any soul though is a nice wholesome seafood stew if I can get ahold of some Drysnap Claws the bigger the better I can make a delicious meal for everyone.\n\nWill you head to the coast and collect some for me from the Drysnaps there?",
+  },
+  [26732] = {
+    ["T"] = "The Kindest Act",
+    ["O"] = "Slay 8 Dying Kodo within the Kodo Graveyard.",
+    ["D"] = "It is not fully understood why the Kodo on Kalimdor try so desperately to reach here when they feel their long lives are coming to an end but it is as predictable as the rising sun.\n\nHowever some are gravely sick and simply roaming the land in agony unable to cross over to her embrace yet.\n\nThe kindest thing we can do is guide them towards her. Will you do this for me?",
+  },
+  [26731] = {
+    ["T"] = "Crazed Carrion",
+    ["O"] = "Slay 8 Carrion Horror within the Kodo Graveyard.",
+    ["D"] = "It is a natural part of the life and death cycle to become food for what comes after you. Be it worms in the dirt or carrion picking at your bones.\n\nI believe deep down the Kodo know this in some capacity which is why they come here.\n\nHowever where there is a feast there is growth and the Carrions in the area have become too numerous in number and aggressive. They peck and scratch at the kodo that are still living and this can not stand.\n\nThin their numbers Pftestsix and restore balance to this hallowed ground.",
+  },
 }
