@@ -210,4 +210,10 @@ pfDB["items"]["enUS-epoch"] = {
   [61220] = "Storming Essence",
   [61221] = "Capacitive Horn",
   [61215] = "Keiko\'s Thrills",
+  [61008] = "Foreman's Head",
+  [60542] = "Chest of Memories",
+  [60544] = "Daniels Spice Box",
+  [60545] = "Tulips Music Box",
+  [60546] = "Tulips Pendant",
+  [60548] = "Daniels Pendant",
 }
