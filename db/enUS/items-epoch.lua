@@ -200,4 +200,10 @@ pfDB["items"]["enUS-epoch"] = {
   [60661] = "Beezil Location Clue III",
   [60663] = "Bodged Defibrillator",
   [60664] = "Sniffotron Kit",
+  [61008] = "Foreman's Head",
+  [60542] = "Chest of Memories",
+  [60544] = "Daniels Spice Box",
+  [60545] = "Tulips Music Box",
+  [60546] = "Tulips Pendant",
+  [60548] = "Daniels Pendant",
 }

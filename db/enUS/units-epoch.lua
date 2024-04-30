@@ -258,4 +258,12 @@ pfDB["units"]["enUS-epoch"] = {
   [45473] = "Warlord Rhurg",
   [45468] = "Fik Fizzfingers",
   [45472] = "Unja the Troll-Servant",
+  [45506] = "Chel Moonwood",
+  [45508] = "Captain Teuta",
+  [45465] = "Brokenhorn",
+  [45469] = "Einna",
+  [45470] = "Eillah",
+  [45471] = "Stonegaze",
+  [45474] = "Winston",
+  [45466] = "Dekked",
 }

@@ -1674,4 +1674,64 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Release 8 Alliance Adventurers from the Bloodscalp Trolls in the Ruins of Zul\'Kunda.",
     ["D"] = "South West of here you will find the Bloodscalp Trolls of Zul\'Kunda who are renowned in all of Stranglethorn for their art of making shrunken heads. But what no one seems to talk about is who is getting their head shrunk!\nThey have been capturing adventurers all throughout Stranglethorn to bring to their witch doctors. Please release them from where they are being captive before they end up strapped around some Bloodscalps neck.",
   },
+  [26639] = {
+    ["T"] = "Kill the Foreman",
+    ["O"] = "Slay the Venture Co. Foreman within Glittermurk Mines.",
+    ["D"] = "They have a whole damned mining complex up there! No wonder I\'m struggling to get ahold of any Singing Crystals. An operation of that size has a good chance to make the foundations of the jungle crumble, someone is going to have to deal with that.\nDo me a favour, go take out the competition and bring me the head of the Foreman. With him gone not only can I start to make some tidy profit around here but the jungle won\'t be destroyed in the process!",
+  },
+  [26439] = {
+    ["T"] = "Wild Tulip",
+    ["O"] = "Using Tulip\'s Diary locate her Chest of Memories to help find where she is.",
+    ["D"] = "I\'m no pirate, not like my best friend Tulip. She\'s amazing! I once saw her bite a rope clean in half, you know. She\'s so fierce! Unless she\'s with Daniel... \nHe\'s her fiance now, and she sent me this beautiful diary! All about how they both met and fell in love. They\'ve even asked me to officiate their wedding. It\'s such an honor.\nExcept... You see... They were due to be married three days ago, but they never arrived and I\'ve been worried sick ever since.\nTulip wrote about burying precious keepsakes, find their Chest of Memories and bring me any mementoes it leads you to!",
+  },
+  [26440] = {
+    ["T"] = "Wild Tulip",
+    ["O"] = "Using Tulip\'s Diary locate the buried memory mementos to help find where she is.",
+    ["D"] = "I expected more but it seems all this contains are descriptions of the memories they both hold dear.\nI will attach these to her diary for you to use. It appears to me they left important mementos in two places, perhaps those can help is track down Tulip.",
+  },
+  [26441] = {
+    ["T"] = "Wild Tulip",
+    ["O"] = "Using the Enchanted Compass track down Wild Tulip.",
+    ["D"] = "There... This compass will lead the way towards Wild Tulip and Daniel. Wherever they may be. Please, do whatever it take to get them home safely... So they can finally have their wedding day!\nAs Tulips memories are the most strong it will lead you to her first and from then onto Daniel bring them to me safely in any way possible Bennylava.",
+  },
+  [26442] = {
+    ["T"] = "Wild Tulip",
+    ["O"] = "Using the Enchanted Compass track down Daniel.",
+    ["D"] = "It was always you Daniel.\nThat was why Teuta was chasing us, to take you from me. I was so ANGRY! I cut and stabbed and sliced because all I could think of was reaching you. If I had been careful I might have heard her behind me.\nMy pendant is glowing in my hand. It burns like ice and weighs more than a mountain. I know death and this does not feel like death. Today was supposed to be our Wedding Day. Please will you forgive me?\nI hope you will be safe Daniel. I hope you escape. I lov...",
+  },
+  [26443] = {
+    ["T"] = "Wild Tulip",
+    ["O"] = "Witness Chel Moonwoods Ritual",
+    ["D"] = "I thank you for all you\'ve done for me, but whatever happens now you must not interfere.\nThere\'s one last ritual I can attempt, but it\'s forbidden. Because... Because few can take the pain. But even if I don\'t survive, Tulip? Well... She\'d do the same for me.",
+  },
+  [26409] = {
+    ["T"] = "The Ring of Strength: Brokenhorn",
+    ["O"] = "Defeat Brokenhorn. Should you win, speak with Unja the Troll-Servant to collect your reward.",
+    ["D"] = "So are you ready for your first battle? If you are, let me know and I\'ll get things started. All you have to do is go wait in the Ring of Strength for your opponent to arrive.\nThis fight is against Brokenhorn, a ferocious kodo.\nGood luck! I hope you brought friends.\nAnd remember, the fight\'s over when either you or your opponent are lying face down on the arena floor.",
+  },
+  [26410] = {
+    ["T"] = "The Ring of Strength: The Twins",
+    ["O"] = "Defeat the Naga Twins, should you win, speak with Unja the Troll-Servant to collect your reward.",
+    ["D"] = "This next battle involves a duo - twin sisters to be precise.\nIt\'s not too late to chicken out, Anistine. I\'d certainly understand.\nBut if you\'re ready for some action, step in the Ring of Strength and wait for the twins to arrive.\nLast one standing is the winner!",
+  },
+  [26411] = {
+    ["T"] = "The Ring of Strength: Stonegaze",
+    ["O"] = "Defeat Stonegaze, should you win, speak with Unja the Troll-Servant to collect your reward.",
+    ["D"] = "You\'re murderin\' \'em out there, kid! They got a ringer for the next match. They say he\'s a basilisk or something... No way do they want you up against their champion. The bets are through the roof!\nGet in that ring and take this one out fast!",
+  },
+  [26412] = {
+    ["T"] = "The Ring of Strength: Winston",
+    ["O"] = "Defeat Winston, should you win, speak with Unja the Troll-Servant to collect your reward.",
+    ["D"] = "This fight is gonna be painful, Anistine. Do you have any friends that are brave enough to help you out? We\'ve managed to get a giant ape named Winston! Trust me, you\'re gonna need friends, he seems unbeatable! He\'s hard as a rock!\nIf you still want to fight him, step into the Ring of Strength and he will come.",
+  },
+  [26413] = {
+    ["T"] = "The Ring of Strength: Dekked",
+    ["O"] = "Defeat Ring Champion, should you win, speak with Unja the Troll-Servant to collect your reward.",
+    ["D"] = "They had to ship the champion in from the Zul\'Aman gladiator pits. He was training on mountain giants - three at a time.\nIf you win this one, you become the new champion. What do you think your odds are, kid? Do you have a shot? Just give me the word and I\'ll bet the house on you.\nNow get in there and win!",
+  },
+  [26414] = {
+    ["T"] = "The Ring of Strength: The Final Challenge",
+    ["O"] = "Defeat Warlord Rhurg. Should you win, speak with Unja the Troll-Servant to collect your reward.",
+    ["D"] = "<Fik is counting his massive pile of gold.>\nYou\'ve made me a lot of money, kid. If you can defeat Rhurg, I promise to make it worth your while. All that pain you suffered in the Ring of Strength is gonna end up paying off.\nNow get in there and show him what you\'re made of!",
+  },
 }
