@@ -243,4 +243,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45479] = "Splintertree Peon",
   [45477] = "Furious Earth",
   [45476] = "Foreman Springsocket",
+  [45387] = "Ezee Fastrocket",
+  [45478] = "Outraged Earth",
+  [45480] = "Ditsy Springsocket",
 }

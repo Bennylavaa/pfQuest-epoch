@@ -1549,4 +1549,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 6 Sturdy Reeds from water sources and 4 chunks of broken glass from Rotting Slimes.",
     ["D"] = "Now you definitely have my attention, these rumbles are still continuing and the peons aren\'t all that much happier about the situation. We need to try and find the true source of this.\n\nI have an idea but it will require you to get a few things for me. Throughout Ashenvale along bodies of water you can find sturdy reeds growing that I can hollow out to make an impromptu scope of sorts.\n\nAlongside that I need glass to make a lense, not exactly naturally occuring though... Hmm. I know! The Rotting Slimes nearby scoop up anything a traveller may have, I bet they\'ve absorbed some glassware here and there.",
   },
+  [26418] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Test the Tremormatic MK I to find the location of the rumbling.",
+    ["D"] = "With what you\'ve given me I will build my latest invention. The Tremormatic! Take this outside of the mine and give it a go. I\'m positive that it will point us the way.",
+  },
+  [26419] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Locate Ezee Fastrocket within Orgrimmar and collect Foreman Springsockets Supplies.",
+    ["D"] = "Well that\'s what I get for trying to cut corners and solve this problem on the cheap. Literal plants and slime covered glass. Oh well, it was worth a try.\n\nI guess the only way this gets solved is if I dip into my coffers. Here take this sack of cogs as payment and find my old colleague Ezee Fastrocket within the Zepellin area of Orgrimmar and ask her for the high quality parts I\'ll need.",
+  },
+  [26420] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Return to Foreman Springsocket in Splintertree Mine.",
+    ["D"] = "Here, this is everything that the Foreman will want. You'll have to come back here and tell me what comes of this. Whatever it was that made him finally come to me for help must be one heck of a find.\n\nTake this crate with you back to Splintertree Post and deliver it to him.",
+  },
+  [26421] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Using the Tremormatic MK II locate the source of the tremors within Ashenvale.",
+    ["D"] = "This right here is the Tremormatic MK II. Isn\'t she a beauty? Place it on the ground and it will point you towards the source of the tremors in Ashenvale.\n\nThat is as much as I can help, please track it down and shut it off for the sake of these damned peons sanity.",
+  },
+  [26422] = {
+    ["T"] = "Rumbles Of The Earth",
+    ["O"] = "Bring the Tremormatic MK II to Ditsy Springsocket in Sun Rock Retreat",
+    ["D"] = "My sister Ditsy is based in Sun Rock Retreat she may be able to help you with the next steps. Bring the Tremormatic with you she will want to add her own spin to it. Whatever is going on is both powerful and deeply rooted within the earth itself.\n\nTo reach her you can take the Talondeep Path south west of Splintertree Post or if you\'re more familiar with the terrain of the Barrens then you can find your way in there via Honor\'s Stand on the western side of that dusty hellhole.",
+  },
 }

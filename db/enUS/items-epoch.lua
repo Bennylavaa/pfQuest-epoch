@@ -190,4 +190,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60410] = "Palladium Ore",
   [60508] = "Glass Shards",
   [60507] = "Sturdy Reed",
+  [60509] = "Tremortmatic MK I",
 }
