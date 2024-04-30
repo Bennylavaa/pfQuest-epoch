@@ -266,4 +266,10 @@ pfDB["units"]["enUS-epoch"] = {
   [45471] = "Stonegaze",
   [45474] = "Winston",
   [45466] = "Dekked",
+  [45575] = "Joakim Sparkroot",
+  [45572] = "Drizzle",
+  [45549] = "Zeemo",
+  [45574] = "Noogle",
+  [45573] = "Ando Darkshadow",
+  [45571] = "Raging Ember",
 }

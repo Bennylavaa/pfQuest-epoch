@@ -65,6 +65,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000063] = "Conspicuous Sand Pile", --Placeholder ID
   [4000064] = "Conspicuous Sand Pile", --Placeholder ID
   [4000065] = "Tulips Final Entry", --Placeholder ID
+  [4000066] = "Shadowforge Treasure", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID

@@ -1734,4 +1734,39 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Defeat Warlord Rhurg. Should you win, speak with Unja the Troll-Servant to collect your reward.",
     ["D"] = "<Fik is counting his massive pile of gold.>\nYou\'ve made me a lot of money, kid. If you can defeat Rhurg, I promise to make it worth your while. All that pain you suffered in the Ring of Strength is gonna end up paying off.\nNow get in there and show him what you\'re made of!",
   },
+  [26452] = {
+    ["T"] = "Amulet Shakedown",
+    ["O"] = "Bring 10 Dustbelcher Amulets to Joakim Sparkroot at Springsocket.",
+    ["D"] = "What\'s a goblin got to live for if not to make money? I\'m no different, and I\'m sure if you were a goblin you would feel the same way! Anyways, I got info on some high value products that might be worth your while.\nQuite a ways southwest you\'ll find Dustbelch Grotto, the home of all the ogres you see roaming around here. Rumor has it, they carry amulets on them to mark their tribe. It\'s possible that the materials the amulets are made of could be quite valuable! Go get me some of those amulets, Anistine, and if they\'re worth anything maybe we can make a bit of money.",
+  },
+  [26447] = {
+    ["T"] = "A Fine Potion",
+    ["O"] = "Bring 10 Flaming Cores to Drizzle at Springsocket.",
+    ["D"] = "As a goblin, naturally I experiment and tinker with things. At the moment I\'m brewing the greatest potion known to Azeroth, right here in Springsocket! I\'m missing a few key ingredients however, and I need your help if I am going to finish the potion.\nThe first ingredient I need is fiery cores from the elementals far to the west, on the ridge just past Kargath. Those fire elementals sizzle and pop, and their cores are such a potent material. Bring me some of them and I\'ll be one step closer to completing my potion.",
+  },
+  [26446] = {
+    ["T"] = "Springsocket Eels",
+    ["O"] = "Bring 10 Raw Springsocket Eels to Zeemo at Springsocket.",
+    ["D"] = "Believe it or not, Springsocket has quite an active fishing scene! Even though I\'m the only one that actually participates in the sport, I have no doubt others will come around in time. Anyways, I have a challenge for you if you\'re up to the task.\nThis pond draws water from an underground natural cave system deep below. The fish down there are blind, and occasionally swim upwards and find their way to the surface. I\'ve only caught a few here and there, but they sure are the tastiest fish I\'ve ever had!\nYou should try your hand at fishing, and see if you can catch a few. If you have any luck, bring them to me and I\'ll show you how to cook them.",
+  },
+  [26450] = {
+    ["T"] = "A Lost Treasure",
+    ["O"] = "Journey to Hammertoe\'s Digsite and uncover any clues that might lead to the discovery of the treasure. Return to Noogle in Springsocket should you find out something.",
+    ["D"] = "I heard the Shadowforge Dwarves have started an excavation northwest of here at Hammertoe\'s Digsite! Who knows what they could have discovered? The rumor going around is that there\'s a treasure buried there...filled with riches and precious metals!\nIf you help me get that treasure, I\'ll be happy to share a little bit of the profit with you. Once you manage to find the digsite, keep an eye out for Ando Darkshadow. My sources informed me that he is overseeing the excavation, so it\'s likely he knows where the treasure is.",
+  },
+  [26448] = {
+    ["T"] = "A Fine Potion",
+    ["O"] = "Bring 10 Concentrated Waters to Drizzle at Springsocket.",
+    ["D"] = "The next ingredient on my list is in Arathi Highlands. Specifically, the water elementals at the Circle of East Binding. They possess a powerful reagent that I shall combine with the cores you brought me earlier.\nWhen killed, the elementals should morph into concentrated water. I want you to bring it to me, so that I may continue with my potion.\nYou\'ll find Arathi Highlands far to the north, past Loch Modan and Wetlands. Be careful, Anistine, it is a long and dangerous journey.",
+  },
+  [26451] = {
+    ["T"] = "A Lost Treasure",
+    ["O"] = "Go to Angor Fortress and find the Shadowforge Treasure. Return to Noogle in Springsocket once you are finished.",
+    ["D"] = "The letter you found on Ando\'s body revealed that the treasure is located in Angor Fortress. It won\'t be there for long though! The dwarves are planning on shipping it off to Blackrock Mountain sometime soon.\nIf we want this treasure, you\'re going to have to hurry Anistine. You can find Angor Fortress northwest of here, but be careful...it\'s a stronghold full of Shadowforge! I wish you the best of luck, because you sure are going to need it.",
+  },
+  [26449] = {
+    ["T"] = "A Fine Potion",
+    ["O"] = "Bring 1 Ground Rock to Drizzle at Springsocket.",
+    ["D"] = "The final ingredient we need can be found in Angor Fortress. The dwarves have awoken great stone golems, and the last thing on my list calls for ground rock. I have no doubt those golems will produce the best sample.\nYou can find Angor Fortress, northwest of here. But be careful, the dwarves do not take kindly to outsiders.",
+  },
 }
