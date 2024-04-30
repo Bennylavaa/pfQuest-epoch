@@ -60,6 +60,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000058] = "Fossilised Gallbladder", --Placeholder ID
   [4000059] = "Sunken Treasure", --Placeholder ID
   [4000060] = "Wanted: Wilfiz Silverbit", --Placeholder ID
+  [4000061] = "Zul\'Kunda Cage", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID

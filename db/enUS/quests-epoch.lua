@@ -1669,4 +1669,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring Cys Craftcharge\'s Report to Watcher Wallace in Theramore.",
     ["D"] = "So Beezil was working with the Burning Blade behind the companies back? That rat bastard! I think it wise that you bring a copy of my report to your seniors they will want to know the lengths that the Blade have gone too.",
   },
+  [26437] = {
+    ["T"] = "Stop The Shrinking",
+    ["O"] = "Release 8 Alliance Adventurers from the Bloodscalp Trolls in the Ruins of Zul\'Kunda.",
+    ["D"] = "South West of here you will find the Bloodscalp Trolls of Zul\'Kunda who are renowned in all of Stranglethorn for their art of making shrunken heads. But what no one seems to talk about is who is getting their head shrunk!\nThey have been capturing adventurers all throughout Stranglethorn to bring to their witch doctors. Please release them from where they are being captive before they end up strapped around some Bloodscalps neck.",
+  },
 }
