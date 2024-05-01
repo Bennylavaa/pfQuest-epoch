@@ -233,4 +233,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61047] = "Head of Tamura",
   [61046] = "Swamp Reed",
   [63319] = "Redstone Flank",
+  [63303] = "Shadowsworn Tome",
 }

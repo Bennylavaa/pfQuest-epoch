@@ -289,4 +289,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45475] = "Vile Shark",
   [45975] = "Tamura",
   [46645] = "Scout Morgria",
+  [46640] = "Lydia Cartwright",
+  [46632] = "Izalnir",
 }

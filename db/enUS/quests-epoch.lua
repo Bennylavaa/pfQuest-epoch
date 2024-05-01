@@ -1959,4 +1959,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill Shadowsworn cult members in the Blasted Lands.",
     ["D"] = "The dispatch commander sent me here to gather information. I\'ve gathered all I need! The cult is a festering wound in our side, spreading curses and terrorizing us from afar.\n\n<Morgria shoots the nearby undead a stern look. The undead reticently meets her glare.>\n\nKill them all, $N. Start with the chaff roaming the outskirts of the fortress southwest of here to sate your thirst for blood. We\'ll paint this land an even deeper red. For the Horde!",
   },
+  [27640] = {
+    ["T"] = "Dark Literature",
+    ["O"] = "Collect 8 Shadowsworn Tomes from cult members in the wastes of the Blasted Lands.",
+    ["D"] = "You\'re with the Horde, right? I\'m looking to join a faction, and it\'s the obvious choice, all things considered...\n\nMorgria and her caravan ran into me here at my camp. I explained my situation, and they all explained their own. It\'s a match made in the twisting nether -- would you believe our goals completely align?\n\nSo, we\'ve tentatively agreed: I provide intelligence on Felstone and a remedy to this curse going around... in exchange for naturalization into the Horde.\n\nRegarding the curse, I have a plan that may or may not pan out. It\'s no permanent solution, but I can try to give the Horde a bit of a reprieve. That is, as long as I have some help only a Warrior can provide.\n\nI need tomes from the cultists near here, specifically the ones that practice magic or ritual. Thugs and enforcers won\'t do. The thicker the tome, the better. I\'ll explain more when I have them.",
+  },
+  [27674] = {
+    ["T"] = "The Best of the Worst",
+    ["O"] = "Kill Lydia Cartwright in Felstone Outpost southwest of Morgria\'s Camp.",
+    ["D"] = "I\'ll say this outright -- I\'ve not aligned with a faction yet, but there\'s no love lost for my former colleagues. I\'ll work with anyone to teach those fools a lesson they\'ll never forget!\n\nMy tenure at the fortress wasn\'t long, but I know all of its secrets... more importantly, I know how to grind it all to a halt. For a time, anyway...\n\nI need to ensure you\'re up to the task. In a nearby outpost, a stealthy sort directs the rabble of the cult, one \'Lydia Cartwright\'.\n\nBring friends... see to her demise, and we shall proceed.",
+  },
 }
