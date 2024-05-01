@@ -56,7 +56,7 @@ Westfall|10-20|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 |----------------|---------------|---------------|----------------|
 Durotar|1-10|<ul><li>[X] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Mulgore|1-10|<ul><li>[X] Done</li></ul>|<ul><li>[x] Done</li></ul>
-Tirisfal Glades|1-10|<ul><li>[X] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Tirisfal Glades|1-10|<ul><li>[X] Done</li></ul>|<ul><li>[X] Done</li></ul>
 Silverpine Forest|10-20|<ul><li>[X] Done</li></ul>|<ul><li>[X] Done</li></ul>
 Barrens|10-25|<ul><li>[X] Done</li></ul>|<ul><li>[x] Done</li></ul>
 
