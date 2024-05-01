@@ -288,4 +288,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45571] = "Raging Ember",
   [45475] = "Vile Shark",
   [45975] = "Tamura",
+  [46645] = "Scout Morgria",
 }

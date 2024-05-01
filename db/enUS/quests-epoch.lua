@@ -1949,4 +1949,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Gather 8 Swamp Reed and return to Thultazor at Stonard.",
     ["D"] = "The swamp is home to plenty of exotic herbs and wildlife. It\'s my job to examine them for possible remedial uses for the town.\n\nIn particular, there is a certain herb that grows in the Misty Valley to the northwest. I want you to bring me some samples that grow there so that I can investigate them for possible uses.",
   },
+  [27654] = {
+    ["T"] = "Acquired Taste",
+    ["O"] = "Gather 10 Redstone Flanks from Redstone Crystalhides around the Blasted Lands.",
+    ["D"] = "We\'re running low on supplies, and this land is harsher than Durotar\'s midsummer! Everything here is poisonous to eat... unless you know your history.\n\nThose red basilisks roaming the land are the easiest to butcher and process into something edible. Just make sure to sever the head from the body, then reach in to the neck and pull out the orange glands. The meat isn\'t good if you aren\'t fast enough.\n\nBring some flanks to me, and we\'ll get cooking! You get some grub too, don\'t worry.",
+  },
+  [27651] = {
+    ["T"] = "Slay the Weaklings",
+    ["O"] = "Kill Shadowsworn cult members in the Blasted Lands.",
+    ["D"] = "The dispatch commander sent me here to gather information. I\'ve gathered all I need! The cult is a festering wound in our side, spreading curses and terrorizing us from afar.\n\n<Morgria shoots the nearby undead a stern look. The undead reticently meets her glare.>\n\nKill them all, $N. Start with the chaff roaming the outskirts of the fortress southwest of here to sate your thirst for blood. We\'ll paint this land an even deeper red. For the Horde!",
+  },
 }

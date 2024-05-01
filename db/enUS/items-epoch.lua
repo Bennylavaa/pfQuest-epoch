@@ -232,4 +232,5 @@ pfDB["items"]["enUS-epoch"] = {
   [61021] = "Deathstrike Venom",
   [61047] = "Head of Tamura",
   [61046] = "Swamp Reed",
+  [63319] = "Redstone Flank",
 }
