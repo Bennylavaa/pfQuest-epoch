@@ -228,4 +228,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60602] = "Ground Rock",
   [60526] = "Water Damaged Weapon",
   [60527] = "Intact Shark Fin",
+  [60540] = "Zul'kunda Cage Key",
 }
