@@ -1909,4 +1909,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring 1 Ground Rock to Drizzle at Springsocket.",
     ["D"] = "The final ingredient we need can be found in Angor Fortress. The dwarves have awoken great stone golems, and the last thing on my list calls for ground rock. I have no doubt those golems will produce the best sample.\nYou can find Angor Fortress, northwest of here. But be careful, the dwarves do not take kindly to outsiders.",
   },
+  [26432] = {
+    ["T"] = "Pilfering the Reef",
+    ["O"] = "Collect 10 Water Damaged Weapons from around the sunken ships within the Vile Reef.",
+    ["D"] = "The waters around Grom\'gol are known as the Vile Reef. Once a route for smugglers trying to make a quick sack of coin taking goods from Booty Bay into Stormwind.\n\nHowever, the seas are a cruel mistress and not all make it. Various shiprecks lie at the bottom and within them are weapons I can smelt down and forge anew for the Horde.\n\nBring me 10 of them and I can arm our troops.",
+  },
+  [26438] = {
+    ["T"] = "Stop The Shrinking",
+    ["O"] = "Release 8 Horde Adventurers from the Bloodscalp Trolls in the Ruins of Zul\'Kunda.",
+    ["D"] = "North West of here you will find the Bloodscalp Trolls of Zul\'Kunda who are renowned in all of Stranglethorn for their art of making shrunken heads. But what no one seems to talk about is who is getting their head shrunk!\n\nThey have been capturing adventurers all throughout Stranglethorn to bring to their witch doctors. Please release them from where they are being captive before they end up strapped around some Bloodscalps neck.",
+  },
+  [26433] = {
+    ["T"] = "Shark Fin Stew",
+    ["O"] = "Collect 8 Intact Shark Fins from Vile Sharks within the Vile Reef.",
+    ["D"] = "The locals around here apparently love something they call Shark Fin Stew. The process for making it is awkward but alledgedly the result is great for physical health.\n\nGo out to the reef and collect fins from the sharks in the area and bring them to me so I can make a stew.",
+  },
 }

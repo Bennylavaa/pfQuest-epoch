@@ -226,4 +226,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60601] = "Concentrated Water",
   [60606] = "Shadowforge Treasure",
   [60602] = "Ground Rock",
+  [60526] = "Water Damaged Weapon",
+  [60527] = "Intact Shark Fin",
 }
