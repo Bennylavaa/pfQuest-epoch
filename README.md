@@ -74,7 +74,7 @@ Alterac Mountains|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Arathi Highlands|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Desolace|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Stranglethorn Vale|30-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Dustwallow Marsh|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Dustwallow Marsh|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Badlands|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Swamp of Sorrows|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Feralas|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
