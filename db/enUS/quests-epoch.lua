@@ -1839,4 +1839,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Defeat Warlord Rhurg. Should you win, speak with Unja the Troll-Servant to collect your reward.",
     ["D"] = "<Fik is counting his massive pile of gold.>\nYou\'ve made me a lot of money, kid. If you can defeat Rhurg, I promise to make it worth your while. All that pain you suffered in the Ring of Strength is gonna end up paying off.\nNow get in there and show him what you\'re made of!",
   },
+  [26486] = {
+    ["T"] = "Wanted: Dragon Killers",
+    ["O"] = "Track down Brogg at Brogg\'s Hollow",
+    ["D"] = "Brogg needs strong warriors and powerful magic people to come and help reclaim Stonemaul. The fat, lazy Overlord won\'t do anything but I can. Find Brogg in my hollow in the south west corner of the marshes.",
+  },
 }

@@ -87,4 +87,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001018] = "Splintertree Mine", --Placeholder ID
   [4001019] = "Coprolite Node", --Placeholder ID
   [4001020] = "Wanted: Keiko", --Placeholder ID
+  [4001021] = "Wanted: Dragon Crushers!", --Placeholder ID
 }

@@ -276,4 +276,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45471] = "Stonegaze",
   [45474] = "Winston",
   [45466] = "Dekked",
+  [23579] = "Brogg",
 }
