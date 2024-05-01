@@ -280,4 +280,10 @@ pfDB["units"]["enUS-epoch"] = {
   [45579] = "Darkmist Egg Sack",
   [45611] = "Scout Ghak",
   [45513] = "King Krool",
+  [45575] = "Joakim Sparkroot",
+  [45572] = "Drizzle",
+  [45549] = "Zeemo",
+  [45574] = "Noogle",
+  [45573] = "Ando Darkshadow",
+  [45571] = "Raging Ember",
 }

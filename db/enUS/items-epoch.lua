@@ -219,4 +219,11 @@ pfDB["items"]["enUS-epoch"] = {
   [60611] = "Burning Torch",
   [60612] = "Adorned Letter",
   [60552] = "Giant Crocolisk Tooth",
+  [60607] = "Dustbelcher Amulet",
+  [60600] = "Flaming Core",
+  [60597] = "Raw Springsocket Eel",
+  [60604] = "Shadowforge Letter",
+  [60601] = "Concentrated Water",
+  [60606] = "Shadowforge Treasure",
+  [60602] = "Ground Rock",
 }
