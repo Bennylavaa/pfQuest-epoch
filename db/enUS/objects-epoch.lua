@@ -88,4 +88,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001019] = "Coprolite Node", --Placeholder ID
   [4001020] = "Wanted: Keiko", --Placeholder ID
   [4001021] = "Wanted: Dragon Crushers!", --Placeholder ID
+  [4001022] = "Wanted: King Krool", --Placeholder ID
 }

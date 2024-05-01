@@ -216,4 +216,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60545] = "Tulips Music Box",
   [60546] = "Tulips Pendant",
   [60548] = "Daniels Pendant",
+  [60611] = "Burning Torch",
+  [60612] = "Adorned Letter",
+  [60552] = "Giant Crocolisk Tooth",
 }

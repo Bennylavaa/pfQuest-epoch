@@ -277,4 +277,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45474] = "Winston",
   [45466] = "Dekked",
   [23579] = "Brogg",
+  [45579] = "Darkmist Egg Sack",
+  [45611] = "Scout Ghak",
+  [45513] = "King Krool",
 }

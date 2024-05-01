@@ -1844,4 +1844,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Track down Brogg at Brogg\'s Hollow",
     ["D"] = "Brogg needs strong warriors and powerful magic people to come and help reclaim Stonemaul. The fat, lazy Overlord won\'t do anything but I can. Find Brogg in my hollow in the south west corner of the marshes.",
   },
+  [26463] = {
+    ["T"] = "The Downed Zeppelin",
+    ["O"] = "Scout the area south east of the Brackenwall Village to locate the downed zeppelin that Scout Ghak spotted.",
+    ["D"] = "Did you see it warrior? A burst of flames and next thing I know on the horizon due south east of here is a zepellin tumbling out of the air!\n\nI\'ve asked for a scouting party to go and investigate what is going on but all the red tape mumbo jumbo is getting in the way.\n\nPlease could you go investigate what happened and check for survivors?",
+  },
+  [26444] = {
+    ["T"] = "Wanted: King Krool",
+    ["O"] = "Locate King Krool south of the Stonemaul Ruins and defeat him.",
+    ["D"] = "Big Croc eat Ogre! Family go missing. Do not wander south of Stonemaul. King Krool gonna get you. Kill croc, get shinies.",
+  },
+  [26453] = {
+    ["T"] = "Airheart Must Go",
+    ["O"] = "Locate Fort Airheart on the border of Dustwallow Marsh and The Barrens and slay the Commander within.",
+    ["D"] = "We have received troubling news from Camp Taurajo that our supplies are being decimated by a new group of deserters that have claimed a fort on the border of Dustwallow and the Barrens and settled in. My... contacts within the Alliance say that it is not them so we must clear them out before someone confuses the situation.\n\nThey are well armed and thoroughly entrenched beyond what we expected. Their leader is a fearless Commander named Airheart, find him deep within that fort and slay him to end this dire situation.",
+  },
+  [26459] = {
+    ["T"] = "Put Them Down",
+    ["O"] = "Assault Fort Airheart and slay 8 Deserter Honorguards and 8 Deserter Medics.",
+    ["D"] = "The Fort at the border of Dustwallow and the Barrens is full of deserters under the charge of Airheart. If we strike him down before long a new one will rise to the ranks.\n\nWe must assault them with full force, not only striking at the head but at the limbs. Take down his most fearsome of Honorguards and their Medics so that they can not recover from this blow.",
+  },
+  [26458] = {
+    ["T"] = "Kill It With Fire",
+    ["O"] = "Enter Darkmist Cavern and set fire to 8 Darkmist Egg Sacks to reduce their population.",
+    ["D"] = "Since we move here Ogres go missing. Wander too far and the spiders get you. If we are to survive, meanie bugs must go. Take my torch, burn their eggs.",
+  },
+  [26461] = {
+    ["T"] = "Reinforcements From Afar",
+    ["O"] = "Bring the Adorned Letter to Nazeer Bloodpike in Brackenwall Village for inspection.",
+    ["D"] = "Your request for supplies and reinforcements has been heard and our smugglers are doing their best to get you aid via Steamwheedle and Theramore itself.\n\nIt is important to our cause that the keep does not fall. The dogs of the Horde and the whelps within the Alliance will pay for what has been done.\n\nOur newfound neutrality with the owner of our isle has allowed us to begin building a true town for those who are loyal to our desires.\n\nBefore long you will be sent to attack Camp Taurajo in force but await our next report. For the Admiral!\n\n- R.D",
+  },
 }
