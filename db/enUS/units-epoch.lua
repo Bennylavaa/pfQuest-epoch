@@ -287,4 +287,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45573] = "Ando Darkshadow",
   [45571] = "Raging Ember",
   [45475] = "Vile Shark",
+  [45975] = "Tamura",
 }

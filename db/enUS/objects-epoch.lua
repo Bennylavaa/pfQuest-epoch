@@ -92,4 +92,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001022] = "Wanted: King Krool", --Placeholder ID
   [4001023] = "Waterlogged Weapons Cache", --Placeholder ID
   [4001024] = "Zul\'Kunda Cage", --Placeholder ID
+  [4001025] = "WANTED", --Placeholder ID
+  [4001026] = "Swamp Reed", --Placeholder ID
 }

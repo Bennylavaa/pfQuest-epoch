@@ -1924,4 +1924,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 8 Intact Shark Fins from Vile Sharks within the Vile Reef.",
     ["D"] = "The locals around here apparently love something they call Shark Fin Stew. The process for making it is awkward but alledgedly the result is great for physical health.\n\nGo out to the reef and collect fins from the sharks in the area and bring them to me so I can make a stew.",
   },
+  [27650] = {
+    ["T"] = "Scout Morgria",
+    ["O"] = "Find Scout Morgria somewhere on the coast in the Blasted Lands.",
+    ["D"] = "Just the Orc I was looking for, $N.\n\nYou probably haven\'t seen them, but some of our scouts and grunts are coming back from the Blasted Lands afflicted by a curse. It doesn\'t expire, and our warlocks haven\'t seen anything like it.\n\nOne of our remaining scouts has been sent south on a reconnaissance mission to find out more, and I think you\'d be able to do good work with her.\n\nShe\'s a known hot head, so try to balance her out. Don\'t underestimate that wasteland down there either.\n\nThe last report I read places her and her caravan on the Blasted Lands coast. Strength and honor, $N.",
+  },
+  [26646] = {
+    ["T"] = "Deathstrike Remedy",
+    ["O"] = "Collect 8 Deathstrike Venom and return to Thultazor at Stonard.",
+    ["D"] = "For some reason the boss sent me to Stonard of all places! Apparently they needed an alchemist to help them wtih all the damned wildlife in the area.\n\nRecently, a gigantic nest of spiders have taken a home in the area southeast of here. We\'ve had a few close incidents, and I want some of their venom to examine so I can make a remedy for their bites. I\'m no fighter $N, will you bring me the venom I need?",
+  },
+  [26658] = {
+    ["T"] = "WANTED: Tamura",
+    ["O"] = "Slay Tamura and bring her head to Zun\'dartha in Stonard.",
+    ["D"] = "Roaming the northern jungles of the swamp lies a dangerous lion, nicknamed Tamura by the locals. Repsonsible for the deaths of dozens, Stonard has ordered the beast be put down by any means neccesary.\n\nAdventurers seeking this bounty are advised to not fight her alone. Should you succeed, bring her head to Zun\'dartha in Stonard.",
+  },
+  [26656] = {
+    ["T"] = "Horrors of the Swamp",
+    ["O"] = "Kill 10 Tangled Horrors and 3 Swampwalker Elders and return to Zun\'dartha at Stonard.",
+    ["D"] = "To the northwest lies the Misty Valley, a once lush and beautiful region of forest life. However, recently a plague of horrors has unleashed its terror upon the valley.\n\nStonard would like control of the valley for tactical reasons, so it\'s in our best interest to take control of it. Go to the valley, and cleanse it of the terrors waiting there, $N. For Stonard!",
+  },
+  [26657] = {
+    ["T"] = "Swamp Reed",
+    ["O"] = "Gather 8 Swamp Reed and return to Thultazor at Stonard.",
+    ["D"] = "The swamp is home to plenty of exotic herbs and wildlife. It\'s my job to examine them for possible remedial uses for the town.\n\nIn particular, there is a certain herb that grows in the Misty Valley to the northwest. I want you to bring me some samples that grow there so that I can investigate them for possible uses.",
+  },
 }

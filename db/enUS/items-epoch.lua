@@ -229,4 +229,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60526] = "Water Damaged Weapon",
   [60527] = "Intact Shark Fin",
   [60540] = "Zul'kunda Cage Key",
+  [61021] = "Deathstrike Venom",
+  [61047] = "Head of Tamura",
+  [61046] = "Swamp Reed",
 }
