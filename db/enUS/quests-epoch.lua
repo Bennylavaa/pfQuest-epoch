@@ -2084,4 +2084,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect Ubo\'s Ornate Chest from the island north of us hut.",
     ["D"] = "The next step for us is to get a nice fancy box so they think it\'s a real nice gift. Now that I think about it I probably should have made you get the box first to save your hands getting nuggety... Oh well!\n\nNorth of here is a small island where I laid me muddas ashes to rest after she passed away. It\'s a wonderful hand crafted piece so it will work perfectly and even more importantly me mudda would find this whole situation hilarious.",
   },
+  [26578] = {
+    ["T"] = "An Offering Of Peace",
+    ["O"] = "Bring Ubo\'s Peace Offering to Watcher Owey at Revantusk Village in the Hinterlands.",
+    ["D"] = "Bring dis \"Peace Offering\" to Watcher Owey back in de village and I think he will finally stop sending adventurer\'s like you to come and talk to me.\n\nGo and you better be the last.",
+  },
 }
