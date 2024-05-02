@@ -1284,6 +1284,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Steal the Crate of Assorted Armor from Northwatch Hold and bring it to Thork at The Crossroads.",
     ["D"] = "Psst! You, yeah you! You see that keep in front of us? Those Theramore guards are using it as an outpost for supplies. I\'ve been observing them for the past few days, and I\'m concerned they have enough supplies to launch an attack on The Crossroads!\n\nI want you to get in there and steal their armor. You can probably find it in their blacksmith building. Bring it back to Thork at The Crossroads so we can use it for our soldiers.",
   },
+  [26294] = {
+    ["T"] = "The Kolkar Report",
+    ["O"] = "Bring the Kolkar Report to Thork at The Crossroads.",
+    ["D"] = "This appears to be a note scrawled in Kolkar writing and is unreadable to you. It would be a good idea to bring this report to Thork at The Crossroads.",
+  },
   [26296] = {
     ["T"] = "WANTED: Deepskin",
     ["O"] = "Slay Deepskin and bring his tooth to Thork at The Crossroads.",
