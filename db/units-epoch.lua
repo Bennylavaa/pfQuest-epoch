@@ -5001,7 +5001,6 @@ pfDB["units"]["data-epoch"] = {
     },
   },
   [23570] = "_", -- Gizzix Grimegurgle
-  [23579] = "_", -- Brogg
   [23600] = "_", -- Apprentice Morlann
   [23601] = "_", -- Apprentice Garion
   [23797] = "_", -- Moxie Steelgrille
