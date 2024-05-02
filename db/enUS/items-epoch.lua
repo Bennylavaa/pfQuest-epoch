@@ -61,6 +61,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60222] = "Dragonmaw Trousers",
   [60223] = "Crude Dragonmaw Outfit",
   [60224] = "Dragonmaw Weapon",
+  [60227] = "Crate of Assorted Armor",
   [3625] = "Nek\'rosh\'s Head",
   [61143] = "Cooled Aqual Essence",
   [61144] = "Bottle of Soothing Waters",

@@ -208,6 +208,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45211] = "Archmage Korgar",
   [45205] = "Nadia",
   [45204] = "Gortak",
+  [45252] = "Zephrix",
   [45253] = "Kaliyah Stormshew",
   [45523] = "Kaya Ragetotem",
   [45117] = "Jasone",
