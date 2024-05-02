@@ -238,4 +238,8 @@ pfDB["items"]["enUS-epoch"] = {
   [63317] = "Nethergarde Insignia",
   [61005] = "Case of Mithril",
   [60879] = "Camp Mojache Supplies",
+  [60682] = "Shadraspawn",
+  [60691] = "Foulcrest Plume",
+  [60670] = "Direglob Sample",
+  [60874] = "Lards Beads",
 }

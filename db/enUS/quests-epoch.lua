@@ -2034,4 +2034,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 10 Camp Mojache Supplies from the Gordunni Ogres in Feralas.",
     ["D"] = "It\'s hard enough for us to get supplies through to us here at Camp Mojache with the disturbences on the road in the barrens but the limited crates that get through to Ferelas are being stolen and ransacked by the Gordunni.\n\nCan you take them back from the thieves so we\'re not running on bare minimum. Follow the river north, and you will find their outpost.",
   },
+  [26572] = {
+    ["T"] = "Can\'t Make An Omelette Without...",
+    ["O"] = "Collect 12 Shadraspawn Eggs from Shadra\'Alor and return to Primal Torntusk at Revantusk Village.",
+    ["D"] = "Da Witherbark to da west be tendin\' da eggs of Shadra\'s brood. Even if we be killin\' da Witherbark, dose eggs still be sittin\' dere, waitin\' to hatch and release dose horrible creatures further into da wilds.\n\nWe be needin\' to take care of dis properly. Tear any eggs you be seein\' out of da egg sacks and bring dem to me. Don\'t be tryin\' to destroy dem on your own; you might be lettin\' da little ones out. When you be gettin\' dem back here, I be seein\' dat dey be properly disposed of!",
+  },
+  [26574] = {
+    ["T"] = "Hinterlands Hermit",
+    ["O"] = "Find Ubo the Hermit, a former guard of Revantusk Village who left because he was annoyed at the village\'s usage of turtle meat for food.",
+    ["D"] = "We got a problem, need someone strong like you to solve it.\n\nOne of our guards, Ubo da Hermit, left village \'cause he no like turtle meat. Now he live alone, north of here.\n\nWe miss Ubo and his guardin\' skills. We want him back in village. You find him, bring him back, we reward you good. You do dis for us, mon?",
+  },
+  [26570] = {
+    ["T"] = "Prime Slime",
+    ["O"] = "Collect a Direglob Sample from The Direglob.",
+    ["D"] = "Haha, ye be wanting to study them slimy critters, eh? Well, ye better be careful, because those Skulk Rock slimes are tricky little buggers. No matter how many times ye clear \'em out, they always seem to come back, as if they be regeneratin\' or something.\n\nBut ye know what I think? I think there be some kind of source down there, churnin\' out all those slimes. And I want to find out what it is! So go on, adventurer, venture down into Skulk Rock and bring me back a sample of whatever be makin\' all them slimes. It\'ll be a real treat for me to study!",
+  },
+  [26581] = {
+    ["T"] = "Clear The Shore",
+    ["O"] = "Slay 10 Salty Shore Swimmer\'s along the coast of the Hinterlands.",
+    ["D"] = "The fishing waters around the village have been getting more and more sparse and I know why, those damned Salty Shore Swimmers. I need a brave adventurer to do one simple thing for me... cull them all. As many as you can. Can you manage that?",
+  },
+  [26582] = {
+    ["T"] = "Lards Lost Beads",
+    ["O"] = "Collect Lards Beads from Jabberjaw the shark found patrolling along the Hinterlands coast.",
+    ["D"] = "Sometimes Lard likes to wander to the dock and throw rocks in the sea. I even skimmed one 3 times. I got a little too excited and threw my beads into the water... Next thing I know that big meanie shark Jabberjaw swam by and swallowed them up. Can you go get them from his belly for me?",
+  },
+  [26573] = {
+    ["T"] = "Wanted: Foulcrest",
+    ["O"] = "Find Foulcrest patrolling around Valorwind Lake and slay him.",
+    ["D"] = "Some months ago one of dose Wildhammer be brought out of da sky by a volley of our spears. His gryphon Foulcrest, raised from a babe, took it... badly. Ever since den he be fallin\' into a blood fury dat means he be slayin\' wildlife, trolls and dwarves alike. Bring proof of his demise to Watcher Owey of Revantusk Village.",
+  },
 }

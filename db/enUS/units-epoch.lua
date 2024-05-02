@@ -296,4 +296,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45581] = "Binkle Screwsnip",
   [45945] = "Shadowforge Miner",
   [45947] = "Shadowforge Overseer",
+  [45704] = "Watcher Owey",
+  [45847] = "Salty Shore Swimmer",
+  [] = "Jabberjaw",
 }
