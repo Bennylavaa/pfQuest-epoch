@@ -307,6 +307,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45702] = "The Direglob",
   [45683] = "Golith Slatestrike",
   [45706] = "Foulcrest",
-  [45702] = "The Direglob",
   [45697] = "Gryphon Master Stonemace",
 }
