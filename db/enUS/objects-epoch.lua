@@ -95,4 +95,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001025] = "WANTED", --Placeholder ID
   [4001026] = "Swamp Reed", --Placeholder ID
   [4001027] = "Ore Crate", --Placeholder ID
+  [4001028] = "Case of Mithril", --Placeholder ID
 }

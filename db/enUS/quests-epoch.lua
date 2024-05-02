@@ -2014,4 +2014,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 16 Nethergarde Insignias from the Alliance soldiers around Nethergarde Keep.",
     ["D"] = "Cultists are one thing, but nothing makes my blood boil more than the sight of the Alliance. We\'re guests in this camp, so we must hold to tradition... but it\'s all I can do to contain myself when I see those scum passing through!\n\nWere it up to me, we\'d mount a full scale assault on Nethergarde! My superior says we need them to buffer any demons heading for the swamp... I say hogwash!\n\nGo, $N. Bring me some Alliance insignias from those soldiers around the keep, and you\'ll be well rewarded.",
   },
+  [26636] = {
+    ["T"] = "Excavation Investigation",
+    ["O"] = "Investigate the excavation site and return to Gapple at Springsocket.",
+    ["D"] = "Hey, you got a moment?\n\nI overheard some guys at the inn talking about a digsite out in the northeast. Now those aren\'t uncommon around here, but from what I heard, this one\'s a pretty big operation. The guys weren\'t really clear about who\'s behind it, just that one of them got chased off when they tried getting a closer look.\n\nBut you seem like a pretty strong fella, you wanna look into it for me? I could give you a cut of the profit if I manage to get ahold of it.",
+  },
+  [26638] = {
+    ["T"] = "Ore for Gapple",
+    ["O"] = "Collect 8 Cases of Mithril from the Shadowforge Excavation and return to Gapple at Springsocket.",
+    ["D"] = "That mine must be filled to the brim with ore deposits! Just think of all the money we could make if we took hold of it!\n\nSay...you seem quite capable, why don\'t you give it a shot? Bring me some cases of whatever ore they are mining in there and I\'ll give you a bit of the cut!",
+  },
+  [26637] = {
+    ["T"] = "Binkle\'s Justice",
+    ["O"] = "Kill 10 Shadowforge Miners and 10 Shadowforge Overseers from the Shadowforge Excavation and return to Binkle Screwsnip at Springsocket.",
+    ["D"] = "I heard from Gapple that the Shadowforge have started an excavavation? This cannot be tolerated! The Shadowforge are ruthless, and I have a personal vendetta that needs to be fulfilled.\n\nYears ago, my wife Lachta was murdered by the Shadowforge. I lost half of myself that day, and have never been the same. I\'m stuck here making more weapons for Springsocket, but I want you to go and slay as many Shadowforge as you can at that excavation. Bring me peace, $N.",
+  },
 }

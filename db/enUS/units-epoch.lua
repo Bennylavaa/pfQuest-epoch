@@ -292,4 +292,8 @@ pfDB["units"]["enUS-epoch"] = {
   [46640] = "Lydia Cartwright",
   [46632] = "Izalnir",
   [46649] = "Torthrak",
+  [45584] = "Gapple",
+  [45581] = "Binkle Screwsnip",
+  [45945] = "Shadowforge Miner",
+  [45947] = "Shadowforge Overseer",
 }

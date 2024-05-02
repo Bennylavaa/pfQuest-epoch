@@ -49,4 +49,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 30.7, 48.3, 406 },
     },
   },
+  [4000009] = { --Shadowforge Excavation
+    ["coords"] = {
+      [1] = { 81.0, 33.1, 3 },
+    },
+  },
 }
