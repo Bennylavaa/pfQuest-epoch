@@ -289,4 +289,9 @@ pfDB["units"]["enUS-epoch"] = {
   [45571] = "Raging Ember",
   [45697] = "Gryphon Master Stonemace",
   [45695] = "Chunky Grouper",
+  [45694] = "Tizzie Sparkcraft",
+  [45701] = "Murdug Drunkbelly",
+  [45700] = "Chief Engineer Urul",
+  [45702] = "The Direglob",
+  [45683] = "Golith Slatestrike",
 }

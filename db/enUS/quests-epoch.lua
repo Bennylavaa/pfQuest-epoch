@@ -1919,4 +1919,69 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 8 Grouper Steaks and 12 Royal Bite Reed Stalks to be made into Gryphon Treats.",
     ["D"] = "Our clan reveres the gryphon as a sacred animal. They\'re majestic creatures of the skies, and more than just beasts; they\'re intelligent and cunning.\nSome say we keep them, but it\'s more of a friendship. If you want to befriend the Wildhammer here, first befriend our gryphons! Their favourite treat is an uncommon one, a blend of crunchy reeds and fresh fish steaks. The blighers go nuts for it.\nIf we are to make some treats for them you\'ll need to gather the materials. East of here you will find a great leak that leads into a river down the coast beginning near Agol\'watha, it is there that you will find Chunky Groupers and Royal Bite Reeds. Go and bring them to me and we can make up a fresh batch.",
   },
+  [26490] = {
+    ["T"] = "Razorbeak Friends",
+    ["O"] = "Give Gryphon Treats to Trained Razorbeaks found south east of Aerie Peak.",
+    ["D"] = "Take this bag o\' chow, it\'s nice and fresh. Our trained razorbeak gryphons wander the forests to the south east of the aviary. Go on and feed a few of \'em for me, aye?",
+  },
+  [26492] = {
+    ["T"] = "Stalking the Stalkers",
+    ["O"] = "Gryphon Master Talonaxe at Aerie Peak in the Hinterlands wants you to kill 15 Silvermane Stalkers and 15 Silvermane Howlers. Return to him once the task is complete. Talonaxe mentioned that the wolves hide in the wilds of the Hinterlands.",
+    ["D"] = "Many brave dwarves have been lost to the harsh wilds of the Hinterlands, human. The Silvermane wolves are one of the biggest threats to our hunters. They lay in wait, hiding amongst the bushes and landscape, then strike out when the opportunity presents itself.\nThis type of ferocity will not go unchecked!\nYou must think like the Silvermane. Stalk the stalkers! Slay them all!",
+  },
+  [26498] = {
+    ["T"] = "Falling Up To Grace",
+    ["O"] = "Collect 8 Witherbark Shawl Scraps and 8 Perfect Broodguard Silk from the Witherbark within Shadra\'Alor.",
+    ["D"] = "I\'ve been sent here by the High Tinker himself to help bolster relations between the Alliance and the Wildhammer Clan. My role is simple, make their Gryphon\'s safer.\nI plan on building some parachutes that will sense when the rider is falling and automatically engage. Sounds great right?\nHowever, to make them I need some supplies that the Wildhammer don\'t have around. The first thing to cover is the parachute itself. The Witherbark nearby have some high quality tailoring experience and their spiders while icky create wonderful thread. Go get me some and I can start working on these parachutes.",
+  },
+  [26499] = {
+    ["T"] = "Falling Up To Grace",
+    ["O"] = "Locate Ruppo Zipcoil in the mountains of the Hinterlands.",
+    ["D"] = "The next important part of this plan will be the Altometer! To put it simply, thing fall? Altometer does stuff. Easy.\nHowever this isn\'t something I have at hand though. We do however have a smaller outpost here in the Hinterlands where a colleague of mine may have the goods. Could you go speak to him?\nYou\'ll find them tucked away in the mountains east of here at a secret outpost north of Quel\'Danil Lodge.",
+  },
+  [26488] = {
+    ["T"] = "Prime Slime",
+    ["O"] = "Collect a Direglob Sample from The Direglob.",
+    ["D"] = "Not many dwarves know this, but to get a REAL kick out of my brew I add a wee bit of the oozes around here. Aye, the giant green dwarf-eatin\' oozes, those ones.\nThis brew\'s gonna have a HUGE kick to it though, so we need a huge slime! There\'s one lurkin\' down in Skulk Rock that\'s the mother o\' them all, absolutely huge...the Direglob, we call it.\nIf you\'ve got what it takes, head down there and take a chunk out of the Direglob for me!",
+  },
+  [26487] = {
+    ["T"] = "Turtle Power",
+    ["O"] = "Collect 10 Lean Turtle Flank\'s from Turtles on the eastern coast along the Overlook Cliffs.",
+    ["D"] = "One of the first things a hardy Wildhammer asks for after a long day and a nice ale is something to eat. The best eating around here is a delicious Turtle Stew.\nSadly Aerie Peak is about as far away from the giant oafs as possible. Head to the Overlook Cliffs and cull some for me so I can get cooking, bring me their lean flanks.",
+  },
+  [26497] = {
+    ["T"] = "A Sticky Situation",
+    ["O"] = "Recover 10 bottles of Hinterlands Honey Ripple from the crates located around the abandoned Horde base in Skulk Rock.",
+    ["D"] = "I\'ve got some salvage work for you, and if you\'re an aficionado of fine ripple like I am, then you\'ll love this task. Ripple!\nIt\'s a drink, you dummy.\nAn abandoned Horde outpost has a stash of Hinterlands Honey Ripple from when they were in business. You can\'t get fine ripple like that anymore!\nNo matter what selection we have available here the lads and lasses just want something a bit... different. Something with some culture.\nThey are located in crates found in the abandoned Horde base near Skulk Rock.\nIt will be an arduous task, to wit; foul slimes and oozes will be found sticking to the ruins; rumor has it they are led by some sort of master ooze. Regardless, procure the ripple and return to me here.",
+  },
+  [26504] = {
+    ["T"] = "Parts From Afar",
+    ["O"] = "Bring the Basket of Treats to Myolor Sunderfury in Ironforge in exchange for Siege Engine Parts.",
+    ["D"] = "It is hell trying to maintain these siege engines all the way out here. We\'re not formally part of the Alliance so don\'t have access to the latest and greatest parts however I know that Ironforge does.\nI could ask that Diplomat outside but we\'ll get swept up in red tape and nonsense. There is a simpler method that my wife planned that will seal the deal.\nFood! Every Dwarf is weak to it. Bring this basket of treats to Myolor Sunderfury in Ironforge and bring me back some parts.",
+  },
+  [26500] = {
+    ["T"] = "Falling Up To Grace",
+    ["O"] = "Collect an Altometer from the bottom of the Agol\'Watha lake.",
+    ["D"] = "Ah so Tizzie is after an Altometer? We did have one, key word being \"did\". Not too long ago there was an accident while we set up an experiment along the lake next to Agol\'Watha and sadly some of our supplies fell right in. If you go down there and get them I\'m sure the Altometer you\'re seeking will be present too.",
+  },
+  [26501] = {
+    ["T"] = "Falling Up To Grace",
+    ["O"] = "Bring the Pristine Altometer back to Tizzie Sparkcraft in Aerie Peak.",
+    ["D"] = "There we go a Pristine Altometer for Miss Sparkcraft. What is it she\'s even using them for? An automatic parachute deploy... fascinating... I\'ll have to arrange a proper demonstration of the final apparatus.",
+  },
+  [26502] = {
+    ["T"] = "Falling Up To Grace",
+    ["O"] = "Use Tizzie\'s Jetpack to launch yourself high into the air and test the automatically deploying parachute.",
+    ["D"] = "This is it... showtime! Go take this down to Falstad himself so he has an up close view of the action and pull the cord on this here jetpack.\nBefore you know it you\'ll be sky high and the moment you fall the parachute opens. I think... Well only one way to find out!",
+  },
+  [26503] = {
+    ["T"] = "Falling Up To Grace",
+    ["O"] = "Deliver the Altomatic Parachute Kit to Falstad Wildhammer.",
+    ["D"] = "If this doesn\'t put us in the good graces of the Wildhammer I don\'t know what will. Would you do the honors of handing this to Falstad for me?",
+  },
+  [26491] = {
+    ["T"] = "Can\'t Make An Omelette Without...",
+    ["O"] = "Collect 12 Shadraspawn Eggs from Shadra\'Alor and return to Kerr Ironsight in Aerie Peak.",
+    ["D"] = "The Witherbark to the southeast tend the eggs of Shadra\'s brood. Even if we kill the Witherbark, those eggs will still sit there, waiting to hatch and release those horrible creatures further into the wilds.\nWe need to take care of this properly. Tear any eggs you see out of the egg sacks and bring them to me. Don\'t try to destroy them on your own; you might let the little ones out.\nWhen you get them back here, I\'ll see that they\'re properly disposed of!",
+  },
 }

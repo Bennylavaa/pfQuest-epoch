@@ -229,4 +229,13 @@ pfDB["items"]["enUS-epoch"] = {
   [60602] = "Ground Rock",
   [60674] = "Grouper Steak",
   [60675] = "Royal Bite Reed",
+  [60676] = "Razorbeak Treats",
+  [60683] = "Witherbark Shawl Scraps",
+  [60684] = "Perfect Broodguard Silk",
+  [60670] = "Direglob Sample",
+  [60668] = "Lean Turtle Flank",
+  [8684] = "Hinterlands Honey Ripple",
+  [60685] = "Warbling Altometer",
+  [60686] = "Tizzie's Jetpack",
+  [60681] = "Shadraspawn Egg",
 }
