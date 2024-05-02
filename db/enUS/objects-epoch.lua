@@ -106,4 +106,8 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001031] = "Turtle \"Nugget\"", --Placeholder ID
   [4001032] = "Ubo\'s Chest", --Placeholder ID
   [4001034] = "Oil Spill", --Placeholder ID
+  [4001035] = "Ancient Troll Pot", --Placeholder ID
+  [4001036] = "Slightly Open Oil Barrel", --Placeholder ID
+  [4001037] = "Filter Parts", --Placeholder ID
+  [4001038] = "Oil Platform Base Valve", --Placeholder ID
 }

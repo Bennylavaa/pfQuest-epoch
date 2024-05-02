@@ -2189,11 +2189,6 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 8 Flame Sack\'s from Fire Roc\'s in the Abyssal Sands of Tanaris. Usually found around Dragon bones.",
     ["D"] = "Boom! Boom! Boom! I\'m making a biiig grenade! Why? Why not!? Boom! Boom! Boom!\n\nI need an extra boost that can come from only one thing, Fire Roc\'s. Can you go collect me some of their Flame Sack\'s?",
   },
-  [26507] = {
-    ["T"] = "The Perfect Fuel",
-    ["O"] = "Collect 8 Ancient Batteries from the Noonshade Ruins and 6 Extracted Scorpid Venom Sacks from Scorpid Hunters.",
-    ["D"] = "I\'m working on the perfect rocket fuel for my prized construction you see right behind me. The fuel is the key to everything and without that this is nothing more than an overgrown phalic symbol. We can\'t be having that! The Trolls of the Noonshade Ruins west of here used to create a very rudimentary form of battery that as it has sat baking in the desert sun has only grown more potent. Could you go and get me some $N? While you\'re at it I\'m going to need to biggest venom sacks you can get from the Scorpid nearby.",
-  },
   [26522] = {
     ["T"] = "Water Co. Saviour",
     ["O"] = "Collect 8 Filter Parts from the seabed surrounding Steamwheedle Port.",
@@ -2208,5 +2203,35 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Waste Removal",
     ["O"] = "Cleanup 6 Oil Spills in the waters along the Tanaris coast.",
     ["D"] = "If we don\'t remove the barrels in the ocean that are leaking this oil it won\'t matter how many critters we clean up.\n\nTake this and head along the coast and in the shallows remove any oil spills you find. The more the better.\n\nCan you do that?",
+  },
+  [26517] = {
+    ["T"] = "Desperate Measures",
+    ["O"] = "Collect Marai\'s \"Supplies\" from her contact Buzzek Bracketswing in Gadgetzan.",
+    ["D"] = "I\'m sick of this! I can already see new critters suffering and fresh barrels dumped into the ocean. The Water Co. won\'t help me since they have their fancy filter nonsense. If we want this stopped we have to go to the real source... that oil rig has to go... permanently...\n\nI reached out to a master engineer in Gadgetzan by the name of Buzzek and he has prepared some \"Supplies\" for me. Can you go fetch them for me? They will be important for what is to come.",
+  },
+  [26518] = {
+    ["T"] = "Oil Baron Beatdown",
+    ["O"] = "Slay 8 Oil Rig Workers and their leader Overseer Looney at the Oil Rig north of Steamwheedle Port.",
+    ["D"] = "The first step to taking down that rig is removing their workers and their leader. He goes by the name Overseer Looney and apparently can be find right at the top of the rig in his control room.\n\nThe rest of them are just lackeys but they\'re happy to make critters suffer for their own financial gain so that\'s good enough for me. What kind of monster does that?",
+  },
+  [26519] = {
+    ["T"] = "Sink The Rig",
+    ["O"] = "Place 4 Explosives around Slightly Opened Oil Barrel\"s on the oil rig north of Steamwheedle Port.",
+    ["D"] = "And now for the ultimate solution to this little problem. Once their workers are dead it will be easy for you to plant these explosives near any open barrel and the resulting chain reaction will be catastrophic. Place them in as many places as you can so we can ensure that rig is never fit for purpose again.",
+  },
+  [26520] = {
+    ["T"] = "No One Drinks For Free",
+    ["O"] = "Have a stern talk with the occupants of Steamwheedle Port who have not paid their water bill.",
+    ["D"] = "Well don\'t you look like a walking, talking, mean son of a gun... Open to a little side work? Around here if you want the best clean water you have to go through us. We pipe it directly to all the homes in town for a fee.\n\nSome people however don\'t seem to understand how generous we\'ve been and have \"forgotten\" to pay their bills. I need someone to convince them. You can do that can\'t you?\n\nThe first is miss Miki Springsocket, she sells Food and Drinks behind the inn. The second will be Inabit Wedgefeet, he is our resident explosives obsessive. You\'ll find him easily he\'s the only Gnome in town. Thirdly you\'ll have to track down Stelx, she recently set up shop selling and fixing armor. And finally, that fishy smelling fool Gikkix.",
+  },
+  [26507] = {
+    ["T"] = "The Perfect Fuel",
+    ["O"] = "Collect 8 Ancient Batteries from the Noonshade Ruins and 6 Extracted Scorpid Venom Sacks from Scorpid Hunters.",
+    ["D"] = "I\'m working on the perfect rocket fuel for my prized construction you see right behind me. The fuel is the key to everything and without that this is nothing more than an overgrown phalic symbol. We can\'t be having that! The Trolls of the Noonshade Ruins west of here used to create a very rudimentary form of battery that as it has sat baking in the desert sun has only grown more potent. Could you go and get me some $N? While you\'re at it I\'m going to need to biggest venom sacks you can get from the Scorpid nearby.",
+  },
+  [26508] = {
+    ["T"] = "The Perfect Fuel",
+    ["O"] = "Collect Crude Oil from the base of the Oil Rig northeast of Steamwheedle Port.",
+    ["D"] = "At the base of the Oil Platform northeast of here you can find a valve that they use to test the purity before and after they refine the oil. I need the crudest most unrefined oil available so that means we need to steal some from underwater. Go to that platform and bring this vessel with you, fill it up at the valve and bring it back for me and we can continue.",
   },
 }

@@ -262,4 +262,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60758] = "Filter Parts",
   [60752] = "Cleaning Supplies",
   [60753] = "Oil Absorber",
+  [60754] = "Marai's \"Supplies\"",
+  [60755] = "Timed Explosives",
+  [60743] = "Empty Oil Cannister",
 }

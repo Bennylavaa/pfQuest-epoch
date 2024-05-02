@@ -316,4 +316,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45530] = "Kyx Rustwrench",
   [45531] = "Marai Ravenwater",
   [45715] = "Oil Soaked Critter",
+  [45532] = "Miki Smallsprocket",
+  [45536] = "Stelx",
+  [45714] = "Oil Rig Worker",
+  [45716] = "Overseer Looney",
 }
