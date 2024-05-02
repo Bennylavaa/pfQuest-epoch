@@ -291,4 +291,5 @@ pfDB["units"]["enUS-epoch"] = {
   [46645] = "Scout Morgria",
   [46640] = "Lydia Cartwright",
   [46632] = "Izalnir",
+  [46649] = "Torthrak",
 }

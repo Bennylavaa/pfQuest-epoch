@@ -1969,4 +1969,49 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill Lydia Cartwright in Felstone Outpost southwest of Morgria\'s Camp.",
     ["D"] = "I\'ll say this outright -- I\'ve not aligned with a faction yet, but there\'s no love lost for my former colleagues. I\'ll work with anyone to teach those fools a lesson they\'ll never forget!\n\nMy tenure at the fortress wasn\'t long, but I know all of its secrets... more importantly, I know how to grind it all to a halt. For a time, anyway...\n\nI need to ensure you\'re up to the task. In a nearby outpost, a stealthy sort directs the rabble of the cult, one \'Lydia Cartwright\'.\n\nBring friends... see to her demise, and we shall proceed.",
   },
+  [27655] = {
+    ["T"] = "Felling Felstone",
+    ["O"] = "Collect 50 Ragged Ears from the inhabitants of Felstone Fortress.",
+    ["D"] = "That fortress is a blight even in this land. The longer we \'wait and watch\', the more dangerous it grows.\n\nBefore I left Stonard, we sent for aid from Orgrimmar. Can you stomach sitting here, twiddling your thumbs, waiting for a missive to find its way to the other side of the world... all for some limpwrist to toss it in a pile with all the others?!\n\nI\'ve had it! Find yourself a war party! Bring back trophies, Pftestsix. Ears. I want evidence of the bloodbath you\'re making! Enter that fortress and crack some heads. No one needs permission to do the Horde a service!",
+  },
+  [27656] = {
+    ["T"] = "Felstone Mines",
+    ["O"] = "Collect 30 Felstone Gold Ore from the mine inside Felstone Fortress.",
+    ["D"] = "The undead over there told me about the mines under Felstone. He said the vein\'s still going strong last he heard, and it\'s the biggest in the area.\n\nLet\'s have a piece of that pie, Warrior. The way things are going, no one\'s gonna be left alive in that fortress. Better take some now before any rats start jumping ship with it.",
+  },
+  [27641] = {
+    ["T"] = "Reverse Affliction",
+    ["O"] = "Find a Glyph of Affliction off of warlocks inside Felstone Fortress.",
+    ["D"] = "<Izalnir hunches over, scanning the grimoire\'s pages with his milky eyes for what seems like hours. Eventually, he looks up at you.>\n\nHave you come across anything that looks like this? Something written on a scroll, or perhaps even a stone?\n\n<Izalnir shows you a page filled with chaotic script encircling a wicked looking rune.>\n\nThe warlocks are using these to play around with the curse -- the balefire, in ways I didn\'t think possible. Ha, the fools are even using it for alchemy.\n\nI\'ll need one of these glyphs if we\'re to continue, and I don\'t imagine anyone but Felstone\'s warlocks would have anything like this. The fortress is too dangerous alone, so bring friends. I\'ll read on until you\'re back.",
+  },
+  [27675] = {
+    ["T"] = "The Foundation Crumbles",
+    ["O"] = "Kill 15 Felstone Merchants, 15 Felstone Miners, and 15 Felstone Builders inside Felstone Fortress.",
+    ["D"] = "Felstone\'s foundation is made of workers. Nothing functions without their involvement. Warlord Narokk has spent an inordinate amount of time tightening his grip on them using fear and pain.\n\nThe fortress sits upon one of the largest gold veins in the area, and the workers harvest it. Felstone\'s older structures are in ruin, but the workers are repairing them. The docks have goods in need of transport -- bought with harvested gold, and so on, and so forth...\n\nYou know what to do, $N.",
+  },
+  [27677] = {
+    ["T"] = "The Sting of Betrayal",
+    ["O"] = "Find Izalnir\'s Belongings and loot Izalnir\'s Glyph from Etheldrin inside Felstone Fortress.",
+    ["D"] = "I had what the living might call a friend, believe it or not.\n\nThe high elf \'Etheldrin\' and I shared many interests. It was intoxicating. As we collaborated, I relaxed my guard... his actions were subtle, and his influence on those around me grew like a weed. In the end, he inherited everything I owned.\n\nI want some of it back. My tent, which sits on the rise adjacent to the docks, has a pack with my belongings inside. He should also have, on his person, my glyph: a sort of \'key\' to the curse and something we\'ll need if we\'re to stop it.",
+  },
+  [27676] = {
+    ["T"] = "True Believers",
+    ["O"] = "Kill Jinla the Beastmaster, Devin the Cook, and Liam the Dockmaster inside Felstone Fortress.",
+    ["D"] = "Amongst Felstone\'s ranks, there are a few indispensable members that come to mind. Killing them would sow a deep discord in the hierarchy.\n\nJinla the Beastmaster, a rugged woman that shepherds the wolves, oversees the mounted patrols and important deliveries inside the fortress. The beasts look to her and her alone. She dwells in a large hut on the westernmost rise near the stables.\n\nDevin the Cook is a real piece of work -- chef by day, torturer by night, and none would dare question where the cooked meat comes from. He keeps fear alive and well in the fortress, haunting a walled enclosure on the middle terrace to the south.\n\nLastly, Liam the Dockmaster is the genius behind Felstone\'s logistics and sea trade. He\'s treated well enough... likely buried in his books at the harbor office.",
+  },
+  [27678] = {
+    ["T"] = "The Thorn in my Side",
+    ["O"] = "Loot Seiana\'s Glyph from Seiana Brightglen inside Felstone Fortress.",
+    ["D"] = "My counterpart was Seiana Brightglen, an accomplished warlock with an unfortunate penchant for annoyance. Every minor flaw invited her snide remarks, and I still see her devilish grin after I fell from grace.\n\nI admit, this curse that\'s going around... the balefire, is the product of our two minds. She handled its deleterious aspects, while I handled its potency and lasting power.\n\n<Izalnir raises his hands and bows his head in half-hearted apology.>\n\nDon\'t expect an easy fight. She holds another glyph that we\'ll need to combat the curse. Head west from Felstone\'s center, and you\'ll find her on the rise to the right of the main path.",
+  },
+  [27653] = {
+    ["T"] = "Ripe for the Taking",
+    ["O"] = "Steal 10 Nethergarde Ore Shipments from the Garrison Armory in the Blasted Lands.",
+    ["D"] = "<Torthrak turns his head to the side, looking at you with his right eye.>\n\nGot a bad eye, $C.... that don\'t mean I can\'t see a good opportunity.\n\nBack in Stonard, we need metal for weapons, building maintenance, repairs... you name it. Up on the rise northwest of here, Nethergarde\'s got a mine filled with some high quality ore. I bet they\'ve got boxes of it, all sitting somewhere waiting to ship back to those sissy smiths in Stormwind.\n\nNeed some of that ore, $C.",
+  },
+  [27652] = {
+    ["T"] = "Slay the Alliance",
+    ["O"] = "Collect 16 Nethergarde Insignias from the Alliance soldiers around Nethergarde Keep.",
+    ["D"] = "Cultists are one thing, but nothing makes my blood boil more than the sight of the Alliance. We\'re guests in this camp, so we must hold to tradition... but it\'s all I can do to contain myself when I see those scum passing through!\n\nWere it up to me, we\'d mount a full scale assault on Nethergarde! My superior says we need them to buffer any demons heading for the swamp... I say hogwash!\n\nGo, $N. Bring me some Alliance insignias from those soldiers around the keep, and you\'ll be well rewarded.",
+  },
 }

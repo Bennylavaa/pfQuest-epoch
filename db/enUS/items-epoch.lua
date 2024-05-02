@@ -234,4 +234,6 @@ pfDB["items"]["enUS-epoch"] = {
   [61046] = "Swamp Reed",
   [63319] = "Redstone Flank",
   [63303] = "Shadowsworn Tome",
+  [63318] = "Nethergarde Ore Shipment",
+  [63317] = "Nethergarde Insignia",
 }
