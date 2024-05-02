@@ -78,7 +78,7 @@ Dustwallow Marsh|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Badlands|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Swamp of Sorrows|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Feralas|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Hinterlands|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Hinterlands|40-50|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Tanaris|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Searing Gorge|45-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Azshara|45-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
