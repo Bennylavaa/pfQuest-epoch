@@ -96,4 +96,8 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001026] = "Swamp Reed", --Placeholder ID
   [4001027] = "Ore Crate", --Placeholder ID
   [4001028] = "Case of Mithril", --Placeholder ID
+  [4001029] = "Royal Bite Reed", --Placeholder ID
+  [4001030] = "Shadraspawn Egg", --Placeholder ID
+  [4001031] = "Turtle \"Nugget\"", --Placeholder ID
+  [4001032] = "Ubo\'s Chest", --Placeholder ID
 }

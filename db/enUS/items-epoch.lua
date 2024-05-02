@@ -242,4 +242,9 @@ pfDB["items"]["enUS-epoch"] = {
   [60691] = "Foulcrest Plume",
   [60670] = "Direglob Sample",
   [60874] = "Lards Beads",
+  [60675] = "Royal Bite Reed",
+  [60674] = "Grouper Steak",
+  [60870] = "Snapjaw Snacks",
+  [60871] = "Turtle \"Nugget\"",
+  [60872] = "Ubo\'s Ornate Chest",
 }

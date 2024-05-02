@@ -2064,4 +2064,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Find Foulcrest patrolling around Valorwind Lake and slay him.",
     ["D"] = "Some months ago one of dose Wildhammer be brought out of da sky by a volley of our spears. His gryphon Foulcrest, raised from a babe, took it... badly. Ever since den he be fallin\' into a blood fury dat means he be slayin\' wildlife, trolls and dwarves alike. Bring proof of his demise to Watcher Owey of Revantusk Village.",
   },
+  [26575] = {
+    ["T"] = "Snapjaw Snacks",
+    ["O"] = "Collect 8 Grouper Steaks and 12 Royal Bite Reed Stalks to be made into Snapjaw Snacks.",
+    ["D"] = "If dere is a whole Loa taking on de form of a Turtle then they must be very special beings. I\'m not a Zandalari and my mudda wasn\'t either but I loved hearing her tales of what Loa\'s all de Trolls worship.\n\nDe Revantusk Tribe consumes a massive amount of Turtle meat, even killing em just for sport some times. It makes me sick.\n\nI want to give these Turtles an offering that even Torga would be pleased with. I\'ve seen them consuming a special kind of reed and a type of fish that sometimes get swept down here to the coast from da river above. Could you go collect some of it for me as well as some steaks from the fish so I can make dem a tasty treat.",
+  },
+  [26579] = {
+    ["T"] = "Snack Distribution",
+    ["O"] = "Feed Snacks to Snapjaws along the coast of the Hinterlands.",
+    ["D"] = "With what ya brought me I\'ve made some special snacks for the Snapjaws, do me a favour and hand dem out to the Snapjaw all along the coast.",
+  },
+  [26576] = {
+    ["T"] = "An Offering Of Peace",
+    ["O"] = "Collect 8 Turtle \"Nugget\"\'s from along the coast of the Hinterlands.",
+    ["D"] = "Now do ya see why I love dese Turtle\'s so much and why I won\'t go back to de village? I\'m tired of them sending adventurers like you to try and convince me to come back so I have a perfect message to send them which I think will put this to rest.\n\nThe snacks you dished out have a secondary benefit of passing through de Turtle\'s rapidly which means plenty of \"nugget\"\'s for us to gift wrap for de Revantusk.\n\nGo collect some for me and return as soon as you can so they\'re still fresh.",
+  },
+  [26577] = {
+    ["T"] = "An Offering Of Peace",
+    ["O"] = "Collect Ubo\'s Ornate Chest from the island north of us hut.",
+    ["D"] = "The next step for us is to get a nice fancy box so they think it\'s a real nice gift. Now that I think about it I probably should have made you get the box first to save your hands getting nuggety... Oh well!\n\nNorth of here is a small island where I laid me muddas ashes to rest after she passed away. It\'s a wonderful hand crafted piece so it will work perfectly and even more importantly me mudda would find this whole situation hilarious.",
+  },
 }

@@ -298,5 +298,9 @@ pfDB["units"]["enUS-epoch"] = {
   [45947] = "Shadowforge Overseer",
   [45704] = "Watcher Owey",
   [45847] = "Salty Shore Swimmer",
-  [] = "Jabberjaw",
+  [45846] = "Jabberjaw",
+  [45844] = "Ubo the Hermit",
+  [45695] = "Chunky Grouper",
+  [45706] = "Foulcrest",
+  [45702] = "The Direglob",
 }
