@@ -248,5 +248,4 @@ pfDB["items"]["enUS-epoch"] = {
   [60870] = "Snapjaw Snacks",
   [60871] = "Turtle \"Nugget\"",
   [60872] = "Ubo\'s Ornate Chest",
-  [60675] = "Royal Bite Reed",
 }
