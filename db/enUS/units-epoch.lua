@@ -115,7 +115,6 @@ pfDB["units"]["enUS-epoch"] = {
   [46015] = "Rambling Earth",
   [45464] = "Jenna Thunderbrew",
   [45429] = "Syndicate Mage",
-  [45432] = "Beve Perenolde",
   [45415] = "Captain Thallen",
   [6577] = "Bingles Blastenheimer",
   [45328] = "Mother Tessa",
