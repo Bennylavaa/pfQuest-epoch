@@ -1914,6 +1914,186 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring 1 Ground Rock to Drizzle at Springsocket.",
     ["D"] = "The final ingredient we need can be found in Angor Fortress. The dwarves have awoken great stone golems, and the last thing on my list calls for ground rock. I have no doubt those golems will produce the best sample.\nYou can find Angor Fortress, northwest of here. But be careful, the dwarves do not take kindly to outsiders.",
   },
+  [26432] = {
+    ["T"] = "Pilfering the Reef",
+    ["O"] = "Collect 10 Water Damaged Weapons from around the sunken ships within the Vile Reef.",
+    ["D"] = "The waters around Grom\'gol are known as the Vile Reef. Once a route for smugglers trying to make a quick sack of coin taking goods from Booty Bay into Stormwind.\n\nHowever, the seas are a cruel mistress and not all make it. Various shiprecks lie at the bottom and within them are weapons I can smelt down and forge anew for the Horde.\n\nBring me 10 of them and I can arm our troops.",
+  },
+  [26438] = {
+    ["T"] = "Stop The Shrinking",
+    ["O"] = "Release 8 Horde Adventurers from the Bloodscalp Trolls in the Ruins of Zul\'Kunda.",
+    ["D"] = "North West of here you will find the Bloodscalp Trolls of Zul\'Kunda who are renowned in all of Stranglethorn for their art of making shrunken heads. But what no one seems to talk about is who is getting their head shrunk!\n\nThey have been capturing adventurers all throughout Stranglethorn to bring to their witch doctors. Please release them from where they are being captive before they end up strapped around some Bloodscalps neck.",
+  },
+  [26433] = {
+    ["T"] = "Shark Fin Stew",
+    ["O"] = "Collect 8 Intact Shark Fins from Vile Sharks within the Vile Reef.",
+    ["D"] = "The locals around here apparently love something they call Shark Fin Stew. The process for making it is awkward but alledgedly the result is great for physical health.\n\nGo out to the reef and collect fins from the sharks in the area and bring them to me so I can make a stew.",
+  },
+  [27650] = {
+    ["T"] = "Scout Morgria",
+    ["O"] = "Find Scout Morgria somewhere on the coast in the Blasted Lands.",
+    ["D"] = "Just the Orc I was looking for, $N.\n\nYou probably haven\'t seen them, but some of our scouts and grunts are coming back from the Blasted Lands afflicted by a curse. It doesn\'t expire, and our warlocks haven\'t seen anything like it.\n\nOne of our remaining scouts has been sent south on a reconnaissance mission to find out more, and I think you\'d be able to do good work with her.\n\nShe\'s a known hot head, so try to balance her out. Don\'t underestimate that wasteland down there either.\n\nThe last report I read places her and her caravan on the Blasted Lands coast. Strength and honor, $N.",
+  },
+  [26646] = {
+    ["T"] = "Deathstrike Remedy",
+    ["O"] = "Collect 8 Deathstrike Venom and return to Thultazor at Stonard.",
+    ["D"] = "For some reason the boss sent me to Stonard of all places! Apparently they needed an alchemist to help them wtih all the damned wildlife in the area.\n\nRecently, a gigantic nest of spiders have taken a home in the area southeast of here. We\'ve had a few close incidents, and I want some of their venom to examine so I can make a remedy for their bites. I\'m no fighter $N, will you bring me the venom I need?",
+  },
+  [26658] = {
+    ["T"] = "WANTED: Tamura",
+    ["O"] = "Slay Tamura and bring her head to Zun\'dartha in Stonard.",
+    ["D"] = "Roaming the northern jungles of the swamp lies a dangerous lion, nicknamed Tamura by the locals. Repsonsible for the deaths of dozens, Stonard has ordered the beast be put down by any means neccesary.\n\nAdventurers seeking this bounty are advised to not fight her alone. Should you succeed, bring her head to Zun\'dartha in Stonard.",
+  },
+  [26656] = {
+    ["T"] = "Horrors of the Swamp",
+    ["O"] = "Kill 10 Tangled Horrors and 3 Swampwalker Elders and return to Zun\'dartha at Stonard.",
+    ["D"] = "To the northwest lies the Misty Valley, a once lush and beautiful region of forest life. However, recently a plague of horrors has unleashed its terror upon the valley.\n\nStonard would like control of the valley for tactical reasons, so it\'s in our best interest to take control of it. Go to the valley, and cleanse it of the terrors waiting there, $N. For Stonard!",
+  },
+  [26657] = {
+    ["T"] = "Swamp Reed",
+    ["O"] = "Gather 8 Swamp Reed and return to Thultazor at Stonard.",
+    ["D"] = "The swamp is home to plenty of exotic herbs and wildlife. It\'s my job to examine them for possible remedial uses for the town.\n\nIn particular, there is a certain herb that grows in the Misty Valley to the northwest. I want you to bring me some samples that grow there so that I can investigate them for possible uses.",
+  },
+  [27654] = {
+    ["T"] = "Acquired Taste",
+    ["O"] = "Gather 10 Redstone Flanks from Redstone Crystalhides around the Blasted Lands.",
+    ["D"] = "We\'re running low on supplies, and this land is harsher than Durotar\'s midsummer! Everything here is poisonous to eat... unless you know your history.\n\nThose red basilisks roaming the land are the easiest to butcher and process into something edible. Just make sure to sever the head from the body, then reach in to the neck and pull out the orange glands. The meat isn\'t good if you aren\'t fast enough.\n\nBring some flanks to me, and we\'ll get cooking! You get some grub too, don\'t worry.",
+  },
+  [27651] = {
+    ["T"] = "Slay the Weaklings",
+    ["O"] = "Kill Shadowsworn cult members in the Blasted Lands.",
+    ["D"] = "The dispatch commander sent me here to gather information. I\'ve gathered all I need! The cult is a festering wound in our side, spreading curses and terrorizing us from afar.\n\n<Morgria shoots the nearby undead a stern look. The undead reticently meets her glare.>\n\nKill them all, $N. Start with the chaff roaming the outskirts of the fortress southwest of here to sate your thirst for blood. We\'ll paint this land an even deeper red. For the Horde!",
+  },
+  [27640] = {
+    ["T"] = "Dark Literature",
+    ["O"] = "Collect 8 Shadowsworn Tomes from cult members in the wastes of the Blasted Lands.",
+    ["D"] = "You\'re with the Horde, right? I\'m looking to join a faction, and it\'s the obvious choice, all things considered...\n\nMorgria and her caravan ran into me here at my camp. I explained my situation, and they all explained their own. It\'s a match made in the twisting nether -- would you believe our goals completely align?\n\nSo, we\'ve tentatively agreed: I provide intelligence on Felstone and a remedy to this curse going around... in exchange for naturalization into the Horde.\n\nRegarding the curse, I have a plan that may or may not pan out. It\'s no permanent solution, but I can try to give the Horde a bit of a reprieve. That is, as long as I have some help only a Warrior can provide.\n\nI need tomes from the cultists near here, specifically the ones that practice magic or ritual. Thugs and enforcers won\'t do. The thicker the tome, the better. I\'ll explain more when I have them.",
+  },
+  [27674] = {
+    ["T"] = "The Best of the Worst",
+    ["O"] = "Kill Lydia Cartwright in Felstone Outpost southwest of Morgria\'s Camp.",
+    ["D"] = "I\'ll say this outright -- I\'ve not aligned with a faction yet, but there\'s no love lost for my former colleagues. I\'ll work with anyone to teach those fools a lesson they\'ll never forget!\n\nMy tenure at the fortress wasn\'t long, but I know all of its secrets... more importantly, I know how to grind it all to a halt. For a time, anyway...\n\nI need to ensure you\'re up to the task. In a nearby outpost, a stealthy sort directs the rabble of the cult, one \'Lydia Cartwright\'.\n\nBring friends... see to her demise, and we shall proceed.",
+  },
+  [27655] = {
+    ["T"] = "Felling Felstone",
+    ["O"] = "Collect 50 Ragged Ears from the inhabitants of Felstone Fortress.",
+    ["D"] = "That fortress is a blight even in this land. The longer we \'wait and watch\', the more dangerous it grows.\n\nBefore I left Stonard, we sent for aid from Orgrimmar. Can you stomach sitting here, twiddling your thumbs, waiting for a missive to find its way to the other side of the world... all for some limpwrist to toss it in a pile with all the others?!\n\nI\'ve had it! Find yourself a war party! Bring back trophies, Pftestsix. Ears. I want evidence of the bloodbath you\'re making! Enter that fortress and crack some heads. No one needs permission to do the Horde a service!",
+  },
+  [27656] = {
+    ["T"] = "Felstone Mines",
+    ["O"] = "Collect 30 Felstone Gold Ore from the mine inside Felstone Fortress.",
+    ["D"] = "The undead over there told me about the mines under Felstone. He said the vein\'s still going strong last he heard, and it\'s the biggest in the area.\n\nLet\'s have a piece of that pie, Warrior. The way things are going, no one\'s gonna be left alive in that fortress. Better take some now before any rats start jumping ship with it.",
+  },
+  [27641] = {
+    ["T"] = "Reverse Affliction",
+    ["O"] = "Find a Glyph of Affliction off of warlocks inside Felstone Fortress.",
+    ["D"] = "<Izalnir hunches over, scanning the grimoire\'s pages with his milky eyes for what seems like hours. Eventually, he looks up at you.>\n\nHave you come across anything that looks like this? Something written on a scroll, or perhaps even a stone?\n\n<Izalnir shows you a page filled with chaotic script encircling a wicked looking rune.>\n\nThe warlocks are using these to play around with the curse -- the balefire, in ways I didn\'t think possible. Ha, the fools are even using it for alchemy.\n\nI\'ll need one of these glyphs if we\'re to continue, and I don\'t imagine anyone but Felstone\'s warlocks would have anything like this. The fortress is too dangerous alone, so bring friends. I\'ll read on until you\'re back.",
+  },
+  [27675] = {
+    ["T"] = "The Foundation Crumbles",
+    ["O"] = "Kill 15 Felstone Merchants, 15 Felstone Miners, and 15 Felstone Builders inside Felstone Fortress.",
+    ["D"] = "Felstone\'s foundation is made of workers. Nothing functions without their involvement. Warlord Narokk has spent an inordinate amount of time tightening his grip on them using fear and pain.\n\nThe fortress sits upon one of the largest gold veins in the area, and the workers harvest it. Felstone\'s older structures are in ruin, but the workers are repairing them. The docks have goods in need of transport -- bought with harvested gold, and so on, and so forth...\n\nYou know what to do, $N.",
+  },
+  [27677] = {
+    ["T"] = "The Sting of Betrayal",
+    ["O"] = "Find Izalnir\'s Belongings and loot Izalnir\'s Glyph from Etheldrin inside Felstone Fortress.",
+    ["D"] = "I had what the living might call a friend, believe it or not.\n\nThe high elf \'Etheldrin\' and I shared many interests. It was intoxicating. As we collaborated, I relaxed my guard... his actions were subtle, and his influence on those around me grew like a weed. In the end, he inherited everything I owned.\n\nI want some of it back. My tent, which sits on the rise adjacent to the docks, has a pack with my belongings inside. He should also have, on his person, my glyph: a sort of \'key\' to the curse and something we\'ll need if we\'re to stop it.",
+  },
+  [27676] = {
+    ["T"] = "True Believers",
+    ["O"] = "Kill Jinla the Beastmaster, Devin the Cook, and Liam the Dockmaster inside Felstone Fortress.",
+    ["D"] = "Amongst Felstone\'s ranks, there are a few indispensable members that come to mind. Killing them would sow a deep discord in the hierarchy.\n\nJinla the Beastmaster, a rugged woman that shepherds the wolves, oversees the mounted patrols and important deliveries inside the fortress. The beasts look to her and her alone. She dwells in a large hut on the westernmost rise near the stables.\n\nDevin the Cook is a real piece of work -- chef by day, torturer by night, and none would dare question where the cooked meat comes from. He keeps fear alive and well in the fortress, haunting a walled enclosure on the middle terrace to the south.\n\nLastly, Liam the Dockmaster is the genius behind Felstone\'s logistics and sea trade. He\'s treated well enough... likely buried in his books at the harbor office.",
+  },
+  [27678] = {
+    ["T"] = "The Thorn in my Side",
+    ["O"] = "Loot Seiana\'s Glyph from Seiana Brightglen inside Felstone Fortress.",
+    ["D"] = "My counterpart was Seiana Brightglen, an accomplished warlock with an unfortunate penchant for annoyance. Every minor flaw invited her snide remarks, and I still see her devilish grin after I fell from grace.\n\nI admit, this curse that\'s going around... the balefire, is the product of our two minds. She handled its deleterious aspects, while I handled its potency and lasting power.\n\n<Izalnir raises his hands and bows his head in half-hearted apology.>\n\nDon\'t expect an easy fight. She holds another glyph that we\'ll need to combat the curse. Head west from Felstone\'s center, and you\'ll find her on the rise to the right of the main path.",
+  },
+  [27653] = {
+    ["T"] = "Ripe for the Taking",
+    ["O"] = "Steal 10 Nethergarde Ore Shipments from the Garrison Armory in the Blasted Lands.",
+    ["D"] = "<Torthrak turns his head to the side, looking at you with his right eye.>\n\nGot a bad eye, $C.... that don\'t mean I can\'t see a good opportunity.\n\nBack in Stonard, we need metal for weapons, building maintenance, repairs... you name it. Up on the rise northwest of here, Nethergarde\'s got a mine filled with some high quality ore. I bet they\'ve got boxes of it, all sitting somewhere waiting to ship back to those sissy smiths in Stormwind.\n\nNeed some of that ore, $C.",
+  },
+  [27652] = {
+    ["T"] = "Slay the Alliance",
+    ["O"] = "Collect 16 Nethergarde Insignias from the Alliance soldiers around Nethergarde Keep.",
+    ["D"] = "Cultists are one thing, but nothing makes my blood boil more than the sight of the Alliance. We\'re guests in this camp, so we must hold to tradition... but it\'s all I can do to contain myself when I see those scum passing through!\n\nWere it up to me, we\'d mount a full scale assault on Nethergarde! My superior says we need them to buffer any demons heading for the swamp... I say hogwash!\n\nGo, $N. Bring me some Alliance insignias from those soldiers around the keep, and you\'ll be well rewarded.",
+  },
+  [26636] = {
+    ["T"] = "Excavation Investigation",
+    ["O"] = "Investigate the excavation site and return to Gapple at Springsocket.",
+    ["D"] = "Hey, you got a moment?\n\nI overheard some guys at the inn talking about a digsite out in the northeast. Now those aren\'t uncommon around here, but from what I heard, this one\'s a pretty big operation. The guys weren\'t really clear about who\'s behind it, just that one of them got chased off when they tried getting a closer look.\n\nBut you seem like a pretty strong fella, you wanna look into it for me? I could give you a cut of the profit if I manage to get ahold of it.",
+  },
+  [26638] = {
+    ["T"] = "Ore for Gapple",
+    ["O"] = "Collect 8 Cases of Mithril from the Shadowforge Excavation and return to Gapple at Springsocket.",
+    ["D"] = "That mine must be filled to the brim with ore deposits! Just think of all the money we could make if we took hold of it!\n\nSay...you seem quite capable, why don\'t you give it a shot? Bring me some cases of whatever ore they are mining in there and I\'ll give you a bit of the cut!",
+  },
+  [26637] = {
+    ["T"] = "Binkle\'s Justice",
+    ["O"] = "Kill 10 Shadowforge Miners and 10 Shadowforge Overseers from the Shadowforge Excavation and return to Binkle Screwsnip at Springsocket.",
+    ["D"] = "I heard from Gapple that the Shadowforge have started an excavavation? This cannot be tolerated! The Shadowforge are ruthless, and I have a personal vendetta that needs to be fulfilled.\n\nYears ago, my wife Lachta was murdered by the Shadowforge. I lost half of myself that day, and have never been the same. I\'m stuck here making more weapons for Springsocket, but I want you to go and slay as many Shadowforge as you can at that excavation. Bring me peace, $N.",
+  },
+  [26583] = {
+    ["T"] = "Gordunni Thieves",
+    ["O"] = "Collect 10 Camp Mojache Supplies from the Gordunni Ogres in Feralas.",
+    ["D"] = "It\'s hard enough for us to get supplies through to us here at Camp Mojache with the disturbences on the road in the barrens but the limited crates that get through to Ferelas are being stolen and ransacked by the Gordunni.\n\nCan you take them back from the thieves so we\'re not running on bare minimum. Follow the river north, and you will find their outpost.",
+  },
+  [26572] = {
+    ["T"] = "Can\'t Make An Omelette Without...",
+    ["O"] = "Collect 12 Shadraspawn Eggs from Shadra\'Alor and return to Primal Torntusk at Revantusk Village.",
+    ["D"] = "Da Witherbark to da west be tendin\' da eggs of Shadra\'s brood. Even if we be killin\' da Witherbark, dose eggs still be sittin\' dere, waitin\' to hatch and release dose horrible creatures further into da wilds.\n\nWe be needin\' to take care of dis properly. Tear any eggs you be seein\' out of da egg sacks and bring dem to me. Don\'t be tryin\' to destroy dem on your own; you might be lettin\' da little ones out. When you be gettin\' dem back here, I be seein\' dat dey be properly disposed of!",
+  },
+  [26574] = {
+    ["T"] = "Hinterlands Hermit",
+    ["O"] = "Find Ubo the Hermit, a former guard of Revantusk Village who left because he was annoyed at the village\'s usage of turtle meat for food.",
+    ["D"] = "We got a problem, need someone strong like you to solve it.\n\nOne of our guards, Ubo da Hermit, left village \'cause he no like turtle meat. Now he live alone, north of here.\n\nWe miss Ubo and his guardin\' skills. We want him back in village. You find him, bring him back, we reward you good. You do dis for us, mon?",
+  },
+  [26570] = {
+    ["T"] = "Prime Slime",
+    ["O"] = "Collect a Direglob Sample from The Direglob.",
+    ["D"] = "Haha, ye be wanting to study them slimy critters, eh? Well, ye better be careful, because those Skulk Rock slimes are tricky little buggers. No matter how many times ye clear \'em out, they always seem to come back, as if they be regeneratin\' or something.\n\nBut ye know what I think? I think there be some kind of source down there, churnin\' out all those slimes. And I want to find out what it is! So go on, adventurer, venture down into Skulk Rock and bring me back a sample of whatever be makin\' all them slimes. It\'ll be a real treat for me to study!",
+  },
+  [26581] = {
+    ["T"] = "Clear The Shore",
+    ["O"] = "Slay 10 Salty Shore Swimmer\'s along the coast of the Hinterlands.",
+    ["D"] = "The fishing waters around the village have been getting more and more sparse and I know why, those damned Salty Shore Swimmers. I need a brave adventurer to do one simple thing for me... cull them all. As many as you can. Can you manage that?",
+  },
+  [26582] = {
+    ["T"] = "Lards Lost Beads",
+    ["O"] = "Collect Lards Beads from Jabberjaw the shark found patrolling along the Hinterlands coast.",
+    ["D"] = "Sometimes Lard likes to wander to the dock and throw rocks in the sea. I even skimmed one 3 times. I got a little too excited and threw my beads into the water... Next thing I know that big meanie shark Jabberjaw swam by and swallowed them up. Can you go get them from his belly for me?",
+  },
+  [26573] = {
+    ["T"] = "Wanted: Foulcrest",
+    ["O"] = "Find Foulcrest patrolling around Valorwind Lake and slay him.",
+    ["D"] = "Some months ago one of dose Wildhammer be brought out of da sky by a volley of our spears. His gryphon Foulcrest, raised from a babe, took it... badly. Ever since den he be fallin\' into a blood fury dat means he be slayin\' wildlife, trolls and dwarves alike. Bring proof of his demise to Watcher Owey of Revantusk Village.",
+  },
+  [26575] = {
+    ["T"] = "Snapjaw Snacks",
+    ["O"] = "Collect 8 Grouper Steaks and 12 Royal Bite Reed Stalks to be made into Snapjaw Snacks.",
+    ["D"] = "If dere is a whole Loa taking on de form of a Turtle then they must be very special beings. I\'m not a Zandalari and my mudda wasn\'t either but I loved hearing her tales of what Loa\'s all de Trolls worship.\n\nDe Revantusk Tribe consumes a massive amount of Turtle meat, even killing em just for sport some times. It makes me sick.\n\nI want to give these Turtles an offering that even Torga would be pleased with. I\'ve seen them consuming a special kind of reed and a type of fish that sometimes get swept down here to the coast from da river above. Could you go collect some of it for me as well as some steaks from the fish so I can make dem a tasty treat.",
+  },
+  [26579] = {
+    ["T"] = "Snack Distribution",
+    ["O"] = "Feed Snacks to Snapjaws along the coast of the Hinterlands.",
+    ["D"] = "With what ya brought me I\'ve made some special snacks for the Snapjaws, do me a favour and hand dem out to the Snapjaw all along the coast.",
+  },
+  [26576] = {
+    ["T"] = "An Offering Of Peace",
+    ["O"] = "Collect 8 Turtle \"Nugget\"\'s from along the coast of the Hinterlands.",
+    ["D"] = "Now do ya see why I love dese Turtle\'s so much and why I won\'t go back to de village? I\'m tired of them sending adventurers like you to try and convince me to come back so I have a perfect message to send them which I think will put this to rest.\n\nThe snacks you dished out have a secondary benefit of passing through de Turtle\'s rapidly which means plenty of \"nugget\"\'s for us to gift wrap for de Revantusk.\n\nGo collect some for me and return as soon as you can so they\'re still fresh.",
+  },
+  [26577] = {
+    ["T"] = "An Offering Of Peace",
+    ["O"] = "Collect Ubo\'s Ornate Chest from the island north of us hut.",
+    ["D"] = "The next step for us is to get a nice fancy box so they think it\'s a real nice gift. Now that I think about it I probably should have made you get the box first to save your hands getting nuggety... Oh well!\n\nNorth of here is a small island where I laid me muddas ashes to rest after she passed away. It\'s a wonderful hand crafted piece so it will work perfectly and even more importantly me mudda would find this whole situation hilarious.",
+  },
+  [26578] = {
+    ["T"] = "An Offering Of Peace",
+    ["O"] = "Bring Ubo\'s Peace Offering to Watcher Owey at Revantusk Village in the Hinterlands.",
+    ["D"] = "Bring dis \"Peace Offering\" to Watcher Owey back in de village and I think he will finally stop sending adventurer\'s like you to come and talk to me.\n\nGo and you better be the last.",
+  },
   [26489] = {
     ["T"] = "Razorbeak Friends",
     ["O"] = "Collect 8 Grouper Steaks and 12 Royal Bite Reed Stalks to be made into Gryphon Treats.",
