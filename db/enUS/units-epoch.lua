@@ -308,4 +308,12 @@ pfDB["units"]["enUS-epoch"] = {
   [45683] = "Golith Slatestrike",
   [45706] = "Foulcrest",
   [45697] = "Gryphon Master Stonemace",
+  [45711] = "Kranz",
+  [45740] = "Grimgaz",
+  [45526] = "Inabit Wedgefeet",
+  [45525] = "Goddard",
+  [45529] = "Kria Flatgear",
+  [45530] = "Kyx Rustwrench",
+  [45531] = "Marai Ravenwater",
+  [45715] = "Oil Soaked Critter",
 }

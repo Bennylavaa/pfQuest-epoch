@@ -256,4 +256,10 @@ pfDB["items"]["enUS-epoch"] = {
   [60870] = "Snapjaw Snacks",
   [60871] = "Turtle \"Nugget\"",
   [60872] = "Ubo\'s Ornate Chest",
+  [60757] = "Flame Sack",
+  [60740] = "Ancient Battery",
+  [60741] = "Extracted Scorpid Venom Sack",
+  [60758] = "Filter Parts",
+  [60752] = "Cleaning Supplies",
+  [60753] = "Oil Absorber",
 }

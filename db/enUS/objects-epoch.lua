@@ -105,4 +105,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001030] = "Shadraspawn Egg", --Placeholder ID
   [4001031] = "Turtle \"Nugget\"", --Placeholder ID
   [4001032] = "Ubo\'s Chest", --Placeholder ID
+  [4001034] = "Oil Spill", --Placeholder ID
 }

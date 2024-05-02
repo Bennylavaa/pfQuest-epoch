@@ -2169,4 +2169,44 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Find Foulcrest patrolling around Valorwind Lake and put him out of his misery.",
     ["D"] = "Some months ago while on a routine patrol of the skies a brave Wildhammer was brought out of the sky by a volley of troll spears. His faithful companion Foulcrest, raised from a babe, took it... badly. Ever since then he\'s fallen into a blood fury that means he\'s slaying wildlife, trolls and dwarves alike. Bring proof of his demise to the Gryphon Masters of Aerie Peak.",
   },
+  [26640] = {
+    ["T"] = "Reclaiming Tools",
+    ["O"] = "Recover tools from the Venture Co. within Glittermurk Mines.",
+    ["D"] = "So here\'s the deal a few months back I was commissioned to craft some high quality tools for a certain operation being undertaken within Stranglethorn that the foreman had named Glittermurk.\n\nI don\'t know what they were digging up but they threw manpower at the problem and gold at supplying them with tools.\n\nHowever, I\'ve received a much much more profitable commission right here in Tanaris and I need every tool I can get back to fill the order.\n\nIf you keep this between me and you I think you can go and \"recover\" the tools I made and everyone is happy, well, minus the Glittermurk chumps. Whaddya say?",
+  },
+  [26513] = {
+    ["T"] = "Azeroth Space Society",
+    ["O"] = "Locate Goddard of the Azeroth Space Society in Steamwheedle Port.",
+    ["D"] = "Our chief rocket scientist Goddard has set up his experimental rocket development platform in Steamwheedle Port. Something about it being safer to launch over the ocean but since when has safety mattered?\n\nHe was recently complaining that he needs some assistance tracking down key ingredients.\n\nCould you go find him and see what he wants?",
+  },
+  [26538] = {
+    ["T"] = "Supplying Anje\'Watha",
+    ["O"] = "Bring the supplies to Urulg in Anje\'Watha in the south east corner of Tanaris.",
+    ["D"] = "Greetings, adventurer. I have a mission for you, if you\'re up for the challenge. We\'ve received word that our outpost in Anje\'Watha, to the southeast of here, is running low on supplies. I need someone to take a shipment of supplies to them and make sure they get there safely. You\'ll find the outpost near The Gaping Chasm - just head southeast from Gadgetzan and you should be able to find it. Are you interested?",
+  },
+  [26521] = {
+    ["T"] = "Boom! Boom! Boom!",
+    ["O"] = "Collect 8 Flame Sack\'s from Fire Roc\'s in the Abyssal Sands of Tanaris. Usually found around Dragon bones.",
+    ["D"] = "Boom! Boom! Boom! I\'m making a biiig grenade! Why? Why not!? Boom! Boom! Boom!\n\nI need an extra boost that can come from only one thing, Fire Roc\'s. Can you go collect me some of their Flame Sack\'s?",
+  },
+  [26507] = {
+    ["T"] = "The Perfect Fuel",
+    ["O"] = "Collect 8 Ancient Batteries from the Noonshade Ruins and 6 Extracted Scorpid Venom Sacks from Scorpid Hunters.",
+    ["D"] = "I\'m working on the perfect rocket fuel for my prized construction you see right behind me. The fuel is the key to everything and without that this is nothing more than an overgrown phalic symbol. We can\'t be having that! The Trolls of the Noonshade Ruins west of here used to create a very rudimentary form of battery that as it has sat baking in the desert sun has only grown more potent. Could you go and get me some $N? While you\'re at it I\'m going to need to biggest venom sacks you can get from the Scorpid nearby.",
+  },
+  [26522] = {
+    ["T"] = "Water Co. Saviour",
+    ["O"] = "Collect 8 Filter Parts from the seabed surrounding Steamwheedle Port.",
+    ["D"] = "This right here is the heart of the Water Co. empire but right now we\'re entirely running on reserves because there\'s been some serious damage to the filter system.\n\nWe were expecting a shipment of parts to prevent exactly this situation but those lumbering oafs knocked the majority off the boat when docking. Just can\'t get the talent these days!\n\nCan you go down there and get them before they\'re rusted beyond use?",
+  },
+  [26515] = {
+    ["T"] = "Think Of The Animals",
+    ["O"] = "Clean 8 Oil Coated Critter\'s along the Tanaris coast.",
+    ["D"] = "Ever since that oil rig went up I\'ve been finding animals up and down the coast coated in the result of their spills. They\'re suffering and it breaks my heart to see them like this.\n\nCan you do something about it? I can\'t save them all. Here, take these cleaning supplies and aid any of them you come across.",
+  },
+  [26516] = {
+    ["T"] = "Waste Removal",
+    ["O"] = "Cleanup 6 Oil Spills in the waters along the Tanaris coast.",
+    ["D"] = "If we don\'t remove the barrels in the ocean that are leaking this oil it won\'t matter how many critters we clean up.\n\nTake this and head along the coast and in the shallows remove any oil spills you find. The more the better.\n\nCan you do that?",
+  },
 }
