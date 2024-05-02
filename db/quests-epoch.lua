@@ -3020,6 +3020,7 @@ pfDB["quests"]["data-epoch"] = {
       ["IR"] = { 63143 },
     },
     ["lvl"] = 60,
+    ["min"] = 60,
   },
   [27570] = {
     ["start"] = {
@@ -3032,6 +3033,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 17689, 17690, 17696, 17698 },
     },
     ["lvl"] = 60,
+    ["min"] = 60,
   },
   [27576] = {
     ["start"] = {
@@ -3044,6 +3046,7 @@ pfDB["quests"]["data-epoch"] = {
       ["IR"] = { 63156 },
     },
     ["lvl"] = 60,
+    ["min"] = 60,
   },
   [26193] = {
     ["start"] = {
@@ -3573,6 +3576,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 46598 },
     },
     ["lvl"] = 60,
+    ["min"] = 60,
   },
   [27563] = { --Smokeywood Pastures - Missing Objective Item ID
     ["start"] = {
@@ -3582,6 +3586,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 46595 },
     },
     ["lvl"] = 60,
+    ["min"] = 60,
   },
   [27568] = { --Smokeywood Pastures - Missing Objective - Win Alterac Valley
     ["start"] = {
@@ -3591,6 +3596,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 46596 },
     },
     ["lvl"] = 60,
+    ["min"] = 60,
   },
   [27572] = { --Smokeywood Pastures - Missing Objective Item ID
     ["start"] = {
@@ -3600,6 +3606,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 46598 },
     },
     ["lvl"] = 60,
+    ["min"] = 60,
   },
   [26293] = {
     ["start"] = {
