@@ -237,4 +237,5 @@ pfDB["items"]["enUS-epoch"] = {
   [63318] = "Nethergarde Ore Shipment",
   [63317] = "Nethergarde Insignia",
   [61005] = "Case of Mithril",
+  [60879] = "Camp Mojache Supplies",
 }

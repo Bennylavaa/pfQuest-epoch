@@ -2029,4 +2029,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill 10 Shadowforge Miners and 10 Shadowforge Overseers from the Shadowforge Excavation and return to Binkle Screwsnip at Springsocket.",
     ["D"] = "I heard from Gapple that the Shadowforge have started an excavavation? This cannot be tolerated! The Shadowforge are ruthless, and I have a personal vendetta that needs to be fulfilled.\n\nYears ago, my wife Lachta was murdered by the Shadowforge. I lost half of myself that day, and have never been the same. I\'m stuck here making more weapons for Springsocket, but I want you to go and slay as many Shadowforge as you can at that excavation. Bring me peace, $N.",
   },
+  [26583] = {
+    ["T"] = "Gordunni Thieves",
+    ["O"] = "Collect 10 Camp Mojache Supplies from the Gordunni Ogres in Feralas.",
+    ["D"] = "It\'s hard enough for us to get supplies through to us here at Camp Mojache with the disturbences on the road in the barrens but the limited crates that get through to Ferelas are being stolen and ransacked by the Gordunni.\n\nCan you take them back from the thieves so we\'re not running on bare minimum. Follow the river north, and you will find their outpost.",
+  },
 }
