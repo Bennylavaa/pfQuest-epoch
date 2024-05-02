@@ -5240,4 +5240,30 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 41,
     ["pre"] = { 26636 },
   },
+  [4134] = { --Prequest Removed - Lost Thunderbrew Recipe
+    ["start"] = {
+      ["U"] = { 9078 },
+    },
+    ["end"] = {
+      ["U"] = { 9078 },
+    },
+    ["obj"] = {
+      ["I"] = { 11312 },
+    },
+    ["lvl"] = 55,
+    ["min"] = 50,
+  },
+  [4768] = { --Prequest Removed - The Darkstone Tablet
+    ["start"] = {
+      ["U"] = { 9078 },
+    },
+    ["end"] = {
+      ["U"] = { 9078 },
+    },
+    ["obj"] = {
+      ["I"] = { 12358 },
+    },
+    ["lvl"] = 60,
+    ["min"] = 57,
+  },
 }
