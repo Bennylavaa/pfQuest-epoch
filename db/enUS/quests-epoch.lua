@@ -1989,4 +1989,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Find Foulcrest patrolling around Valorwind Lake and put him out of his misery.",
     ["D"] = "Some months ago while on a routine patrol of the skies a brave Wildhammer was brought out of the sky by a volley of troll spears. His faithful companion Foulcrest, raised from a babe, took it... badly. Ever since then he\'s fallen into a blood fury that means he\'s slaying wildlife, trolls and dwarves alike. Bring proof of his demise to the Gryphon Masters of Aerie Peak.",
   },
+  [26505] = {
+    ["T"] = "Parts From Afar",
+    ["O"] = "Bring the Box of Siege Tank Parts back to Chief Engineer Urul in Aerie Peak.",
+    ["D"] = "Normally I\'d be making sure these parts stay here defending Ironforge but considering what you\'ve brought me... well... we can let that slide now can\'t we? I can\'t wait to tuck in. Bring these back to the Wildhammer and we\'ll consider this settled.\nNext time, throw in some ale.",
+  },
 }
