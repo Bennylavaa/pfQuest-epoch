@@ -1279,6 +1279,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Infiltrate The Deadmines and bring the Cognation Reconstructor to Traugh at The Crossroads.",
     ["D"] = "Our technology is...limited here in The Barrens. I would like to further advance it, so we can create more complex tools and weapons. I do not have the knowledge, but there are those that do.\n\nHave you heard of The Deadmines? It\'s a stronghold for the Defias Brotherhood, located all the way in Westfall, over in the Eastern Kingdoms. In there you will find a nefarious goblin named Gilnid, who makes devices for the Brotherhood.\n\nI hear rumors, and it\'s been told to me that he has a new device capable of turning raw materials into weapons! Bring me this device so the Horde can become stronger! Beware though, the Brotherhood will not easily part with their machines, so bring some friends with you.",
   },
+  [26292] = {
+    ["T"] = "Operation: Northwatch Hold",
+    ["O"] = "Steal the Crate of Assorted Armor from Northwatch Hold and bring it to Thork at The Crossroads.",
+    ["D"] = "Psst! You, yeah you! You see that keep in front of us? Those Theramore guards are using it as an outpost for supplies. I\'ve been observing them for the past few days, and I\'m concerned they have enough supplies to launch an attack on The Crossroads!\n\nI want you to get in there and steal their armor. You can probably find it in their blacksmith building. Bring it back to Thork at The Crossroads so we can use it for our soldiers.",
+  },
   [26296] = {
     ["T"] = "WANTED: Deepskin",
     ["O"] = "Slay Deepskin and bring his tooth to Thork at The Crossroads.",
@@ -2088,5 +2093,10 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "An Offering Of Peace",
     ["O"] = "Bring Ubo\'s Peace Offering to Watcher Owey at Revantusk Village in the Hinterlands.",
     ["D"] = "Bring dis \"Peace Offering\" to Watcher Owey back in de village and I think he will finally stop sending adventurer\'s like you to come and talk to me.\n\nGo and you better be the last.",
+  },
+  [26489] = {
+    ["T"] = "Razorbeak Friends",
+    ["O"] = "Collect 8 Grouper Steaks and 12 Royal Bite Reed Stalks to be made into Gryphon Treats.",
+    ["D"] = "Our clan reveres the gryphon as a sacred animal. They\'re majestic creatures of the skies, and more than just beasts; they\'re intelligent and cunning.\nSome say we keep them, but it\'s more of a friendship. If you want to befriend the Wildhammer here, first befriend our gryphons! Their favourite treat is an uncommon one, a blend of crunchy reeds and fresh fish steaks. The blighers go nuts for it.\nIf we are to make some treats for them you\'ll need to gather the materials. East of here you will find a great leak that leads into a river down the coast beginning near Agol\'watha, it is there that you will find Chunky Groupers and Royal Bite Reeds. Go and bring them to me and we can make up a fresh batch.",
   },
 }

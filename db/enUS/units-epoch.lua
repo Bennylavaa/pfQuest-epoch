@@ -208,6 +208,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45211] = "Archmage Korgar",
   [45205] = "Nadia",
   [45204] = "Gortak",
+  [45252] = "Zephrix",
   [45253] = "Kaliyah Stormshew",
   [45523] = "Kaya Ragetotem",
   [45117] = "Jasone",
@@ -303,4 +304,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45695] = "Chunky Grouper",
   [45706] = "Foulcrest",
   [45702] = "The Direglob",
+  [45697] = "Gryphon Master Stonemace",
+  [45695] = "Chunky Grouper",
 }
