@@ -70,6 +70,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000068] = "Royal Bite Reed", -- Placeholder ID
   [4000069] = "Waterlogged Chest", -- Placeholder ID
   [4000070] = "Shadraspawn Sack", -- Placeholder ID
+  [4000071] = "Wanted: Foulcrest", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID

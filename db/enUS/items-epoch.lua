@@ -238,4 +238,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60685] = "Warbling Altometer",
   [60686] = "Tizzie's Jetpack",
   [60681] = "Shadraspawn Egg",
+  [60691] = "Foulcrest Plume",
 }

@@ -294,4 +294,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45700] = "Chief Engineer Urul",
   [45702] = "The Direglob",
   [45683] = "Golith Slatestrike",
+  [45706] = "Foulcrest",
 }

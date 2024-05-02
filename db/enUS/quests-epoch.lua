@@ -1984,4 +1984,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 12 Shadraspawn Eggs from Shadra\'Alor and return to Kerr Ironsight in Aerie Peak.",
     ["D"] = "The Witherbark to the southeast tend the eggs of Shadra\'s brood. Even if we kill the Witherbark, those eggs will still sit there, waiting to hatch and release those horrible creatures further into the wilds.\nWe need to take care of this properly. Tear any eggs you see out of the egg sacks and bring them to me. Don\'t try to destroy them on your own; you might let the little ones out.\nWhen you get them back here, I\'ll see that they\'re properly disposed of!",
   },
+  [26506] = {
+    ["T"] = "Wanted: Foulcrest",
+    ["O"] = "Find Foulcrest patrolling around Valorwind Lake and put him out of his misery.",
+    ["D"] = "Some months ago while on a routine patrol of the skies a brave Wildhammer was brought out of the sky by a volley of troll spears. His faithful companion Foulcrest, raised from a babe, took it... badly. Ever since then he\'s fallen into a blood fury that means he\'s slaying wildlife, trolls and dwarves alike. Bring proof of his demise to the Gryphon Masters of Aerie Peak.",
+  },
 }
