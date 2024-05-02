@@ -287,4 +287,6 @@ pfDB["units"]["enUS-epoch"] = {
   [45574] = "Noogle",
   [45573] = "Ando Darkshadow",
   [45571] = "Raging Ember",
+  [45697] = "Gryphon Master Stonemace",
+  [45695] = "Chunky Grouper",
 }

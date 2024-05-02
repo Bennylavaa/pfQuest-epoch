@@ -67,6 +67,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000065] = "Tulips Final Entry", --Placeholder ID
   [4000066] = "Shadowforge Treasure", --Placeholder ID
   [4000067] = "Crate of Assorted Armor", -- Placeholder ID
+  [4000068] = "Royal Bite Reed", -- Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID

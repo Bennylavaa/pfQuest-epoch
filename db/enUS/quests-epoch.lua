@@ -1914,4 +1914,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring 1 Ground Rock to Drizzle at Springsocket.",
     ["D"] = "The final ingredient we need can be found in Angor Fortress. The dwarves have awoken great stone golems, and the last thing on my list calls for ground rock. I have no doubt those golems will produce the best sample.\nYou can find Angor Fortress, northwest of here. But be careful, the dwarves do not take kindly to outsiders.",
   },
+  [26489] = {
+    ["T"] = "Razorbeak Friends",
+    ["O"] = "Collect 8 Grouper Steaks and 12 Royal Bite Reed Stalks to be made into Gryphon Treats.",
+    ["D"] = "Our clan reveres the gryphon as a sacred animal. They\'re majestic creatures of the skies, and more than just beasts; they\'re intelligent and cunning.\nSome say we keep them, but it\'s more of a friendship. If you want to befriend the Wildhammer here, first befriend our gryphons! Their favourite treat is an uncommon one, a blend of crunchy reeds and fresh fish steaks. The blighers go nuts for it.\nIf we are to make some treats for them you\'ll need to gather the materials. East of here you will find a great leak that leads into a river down the coast beginning near Agol\'watha, it is there that you will find Chunky Groupers and Royal Bite Reeds. Go and bring them to me and we can make up a fresh batch.",
+  },
 }
