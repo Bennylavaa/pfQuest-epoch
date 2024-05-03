@@ -2289,16 +2289,6 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 10 Nightstalker Mandibles from Nightstalkers in Tanaris.",
     ["D"] = "The blasted silithid are causing trouble again. They\'ve been spotted sending their Nightstalkers to guard their territory in Tanaris. These beasts only come out at night, so you\'ll need to be careful if you want to track them down.\n\nYou can find the Nightstalkers at the Noxious Lair and the Gaping Chasm. The Noxious Lair is in the far northwest, and the Gaping Chasm is just outside Anje\'Watha.\n\nUse your strength and cunning to defeat them, and collect their mandibles as proof of your victory.",
   },
-  [26549] = {
-    ["T"] = "A Loa\'s Respect",
-    ["O"] = "Collect meat from Searing Rocs and Glasshide Petrifiers in the southwest region of Tanaris as an offering to Gral, the Loa of the sea.",
-    ["D"] = "Ey, mon. I be Akiha, powerful shaman and servant of da Loa of da sea, Gral. I come to you wit a task of great importance.\n\nTo da west of Anje\'Watha, dere be Searing Roc\'s and Glasshide Petrifiers. Dese beasts be known for da succulent meat dey provide, and I need a large amount of it to gain da favour of Gral.\n\nI need Gral\'s blessing to keep da Water Elementals flowing. Without his favour, dey will wither and fade away.\n\nBring me as much as you can manage.",
-  },
-  [26540] = {
-    ["T"] = "The Great Brain Robbery",
-    ["O"] = "Collect brains from the Silithid at the two hives in Tanaris.",
-    ["D"] = "Ah, so you\'re the hero that\'s going to help me with my research, are you? Well, let me tell you, it\'s no easy task. I need brains from the Silithid at the two hives in Tanaris. Think you can handle that, or do I need to find someone else?\n\nI don\'t have time to explain the details, but let\'s just say I\'m conducting a study on the Silithid and I need brains from those critters. The hives in Tanaris are crawling with them, so get over there and collect as many brains as you can. I\'ll be waiting for you when you get back",
-  },
   [26548] = {
     ["T"] = "Lightfoot\'s Rescue",
     ["O"] = "Escort Scout Lightfoot out of the Noxious Lair and defend him from any threats along the way.",
@@ -2323,5 +2313,45 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "On Your Feet",
     ["O"] = "Locate and revive 8 Unconscious Scout\'s on the surface of the Noxious Lair.",
     ["D"] = "The safety of my scouting party is at stake, and we need to revive them as soon as possible. Head to the Noxious Lair and use the salve to revive the unconscious scouts. Do not return until you have successfully revived all of the scouts. Do I make myself clear, $N?",
+  },
+  [26545] = {
+    ["T"] = "Silithid Scramble",
+    ["O"] = "Scout deeper into the hive and eradicate 6 Centipaar Tunnelers and 6 Centipaar Sandreavers.",
+    ["D"] = "Thank you for your help with reviving the scouts, $N. Now it is time for us to seek vengeance for what the Centipaar have done to my scouting party. I need you to scout deeper into the hive and eradicate the Centipaar Tunnelers and Centipaar Sandreavers who are responsible for digging the tunnels under the sands of Tanaris.\n\nThe hives are dangerous places, filled with all manner of deadly insects. You must be careful, $N, and be prepared for a difficult and dangerous fight. Once you have killed the Tunnelers and Sandreavers, return to me.",
+  },
+  [26546] = {
+    ["T"] = "Bug Burnout",
+    ["O"] = "Burn 6 Centipaar Stinger or Centipaar Swarmer corpses in the deepest parts of the Noxious Lair.",
+    ["D"] = "I have a special mission for you, $N. The lowest depths of the Noxious Lair are filled with the toughest Centipaar, including the Centipaar Stingers and Centipaar Swarmers. I need you to reach them and kill these insects.\n\nHowever, there is a catch. When you kill the Stingers and Swarmers, you must use a torch that I have coated with the crushed stinger paste to set them on fire. The stinger paste is highly flammable.\n\nYou see, $N, the Centipaar Stingers and Centipaar Swarmers are the most potent breeders of the Centipaar. By killing them and setting them on fire, we can decimate their population and prevent them from rebuilding the hive. It is a risky plan, but it is the only way to ensure the safety of the people of Tanaris. Can I trust you to do this, $N?",
+  },
+  [26540] = {
+    ["T"] = "The Great Brain Robbery",
+    ["O"] = "Collect brains from the Silithid at the two hives in Tanaris.",
+    ["D"] = "Ah, so you\'re the hero that\'s going to help me with my research, are you? Well, let me tell you, it\'s no easy task. I need brains from the Silithid at the two hives in Tanaris. Think you can handle that, or do I need to find someone else?\n\nI don\'t have time to explain the details, but let\'s just say I\'m conducting a study on the Silithid and I need brains from those critters. The hives in Tanaris are crawling with them, so get over there and collect as many brains as you can. I\'ll be waiting for you when you get back",
+  },
+  [26555] = {
+    ["T"] = "Hive Mind",
+    ["O"] = "Collect Dumont\'s Secret Supplies from Inabit Wedgefeet at Steamwheedle Port in Tanaris.",
+    ["D"] = "We\'ve noticed something with the Silithid brains. A sort of... psychic link. They\'re not just driven by instinct somewhere in the dunes is a great Hazzali leader that controls the Silithid here and at the Noxious Lair.\n\nSilithid brains are very simple so we\'re going to make a special mind control cap rigged with explosives. I think Dennis would suit well...\n\nI\'ve commissioned the cap from an eccentric Gnome in Steamwheedle named Inabit Wedgefeet, can you get it for me?",
+  },
+  [26549] = {
+    ["T"] = "A Loa\'s Respect",
+    ["O"] = "Collect meat from Searing Rocs and Glasshide Petrifiers in the southwest region of Tanaris as an offering to Gral, the Loa of the sea.",
+    ["D"] = "Ey, mon. I be Akiha, powerful shaman and servant of da Loa of da sea, Gral. I come to you wit a task of great importance.\n\nTo da west of Anje\'Watha, dere be Searing Roc\'s and Glasshide Petrifiers. Dese beasts be known for da succulent meat dey provide, and I need a large amount of it to gain da favour of Gral.\n\nI need Gral\'s blessing to keep da Water Elementals flowing. Without his favour, dey will wither and fade away.\n\nBring me as much as you can manage.",
+  },
+  [26550] = {
+    ["T"] = "A Loa\'s Respect",
+    ["O"] = "Make an offering to Gral at an altar on Land\'s End Beach in order to gain his favour.",
+    ["D"] = "Now, I have another task for you. I need you to take dis meat to an altar on Land\'s End Beach and place it dere as an offering to Gral. Hopefully, he will be pleased with da offering and appear to us.\n\nTo find da altar on Land\'s End Beach, simply travel east of Anje\'Watha until you reach the sandy shores. The altar can be found near the water\'s edge.\n\nOnce you have made da offering, return to me at Anje\'Watha and I will reward you for your efforts. May Gral guide you on your journey.",
+  },
+  [26547] = {
+    ["T"] = "Urulgs Report",
+    ["O"] = "Bring the Scouting Report back to Urulg in Anje\'Watha.",
+    ["D"] = "We have successfully cleared the lair of all hostile creatures and have discovered a potential weapon in the Silithid Stingers. I would be grateful if you could deliver this report to my superior, Urulg, and inform him of our success.",
+  },
+  [26551] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Locate Melchor Bloodrunner at Anje\'Watha in Tanaris.",
+    ["D"] = "I understand that you have recently discovered that Silithid Stingers can be crushed into a paste and used as a flammable weapon. This information could be valuable to our cause in the ongoing war against the Alliance and the Silithid. I am asking for your help in delivering this information to the forsaken named Melchor Bloodrunner. He can be found nearby, in a cave within Anje\'Watha.",
   },
 }

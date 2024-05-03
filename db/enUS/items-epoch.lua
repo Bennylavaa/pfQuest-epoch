@@ -279,4 +279,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60782] = "Silithid Brain",
   [60783] = "Centipaar Wasp Stinger",
   [60785] = "Scout Salve",
+  [60786] = "Shadowdancer Torch",
+  [60794] = "Dumont\'s Secret Supplies",
+  [60790] = "Offering to Gral",
 }
