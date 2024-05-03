@@ -2409,4 +2409,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Place the empowered cooler next to the Tuskarr to cure him of his heat stroke.",
     ["D"] = "Adventurer, you have been instrumental in our quest to save the Tuskarr. Without your help, we would have surely failed.\n\nI would like to ask one final favor of you. Would you do the honors of placing the cooler next to the Tuskarr and saving his life? It would be a great honor for me, and I know that the Tuskarr would be grateful as well.",
   },
+  [26554] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Bring the Fire Arrows to Remi Coldeye in Anje\'Watha.",
+    ["D"] = "The fire arrows are complete, $N. And now it is time to put them to use. I want you to deliver them to Remi Coldeye, who will dispatch them among our new recruits for use in battle against the Silithid.",
+  },
 }
