@@ -282,4 +282,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60786] = "Shadowdancer Torch",
   [60794] = "Dumont\'s Secret Supplies",
   [60790] = "Offering to Gral",
+  [60767] = "Sandshore Seagrass",
+  [60768] = "Phial of Surf Glider Water",
 }

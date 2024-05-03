@@ -336,4 +336,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45744] = "Centipaar Nightstalker",
   [45750] = "Scout Lightfoot",
   [45749] = "Unconscious Scout",
+  [45736] = "Wuti Sunjumper",
 }

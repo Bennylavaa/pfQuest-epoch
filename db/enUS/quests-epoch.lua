@@ -2279,11 +2279,6 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect Marvon\'s Pocket Watch, Brimmed Hat and Ham Radio from the looters at his crashed Zepellin.",
     ["D"] = "I\'ve been crashed in this zone for only a couple of weeks and my Zepellin behind me has already been quickly taken taken over by looters.\n\nThey\'re no better than vultures swooping down to pick apart what isn\'t theirs.\n\nHowever there\'s only me out here and I\'m focused on my research. Could you be a dear and go get my things from the looters? As you can see I\'ve barely a thing to my name here.",
   },
-  [26530] = {
-    ["T"] = "Find Wuti",
-    ["O"] = "Locate Wuti Sunjumper on Land\'s End Beach and ensure she is safe.",
-    ["D"] = "Greetings, adventurer. I am in need of your help. My dear friend, Wuti Sunjumper, has been missing for several days. She is a skilled fisherman and a valuable member of our community. I fear something terrible may have happened to her.\n\nWill you please search for Wuti on Land\'s End Beach? Her home is located there, and it is the last place she was seen. I beg of you, ensure she is safe. I will be forever in your debt.",
-  },
   [26539] = {
     ["T"] = "They Mostly Come At Night... Mostly",
     ["O"] = "Collect 10 Nightstalker Mandibles from Nightstalkers in Tanaris.",
@@ -2353,5 +2348,15 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Tips Of Fire",
     ["O"] = "Locate Melchor Bloodrunner at Anje\'Watha in Tanaris.",
     ["D"] = "I understand that you have recently discovered that Silithid Stingers can be crushed into a paste and used as a flammable weapon. This information could be valuable to our cause in the ongoing war against the Alliance and the Silithid. I am asking for your help in delivering this information to the forsaken named Melchor Bloodrunner. He can be found nearby, in a cave within Anje\'Watha.",
+  },
+  [26530] = {
+    ["T"] = "Find Wuti",
+    ["O"] = "Locate Wuti Sunjumper on Land\'s End Beach and ensure she is safe.",
+    ["D"] = "Greetings, adventurer. I am in need of your help. My dear friend, Wuti Sunjumper, has been missing for several days. She is a skilled fisherman and a valuable member of our community. I fear something terrible may have happened to her.\n\nWill you please search for Wuti on Land\'s End Beach? Her home is located there, and it is the last place she was seen. I beg of you, ensure she is safe. I will be forever in your debt.",
+  },
+  [26531] = {
+    ["T"] = "A Chilly Stranger",
+    ["O"] = "Collect 8 Sandshore Seagrass and 6 Phial\'s of Surf Glider Water for Wuti Sunjumper.",
+    ["D"] = "The Tuskarr is still in great danger from the heat of the desert. I fear that he will not survive much longer without a cooling totem to protect him.\n\nTo create the totem, we will need a specific type of kelp that can only be found on the desert coasts named Sandshore Seagrass, as well as water from a turtle shell. Yes you heard me. A turtle shell.\n\nI know it will be a difficult and dangerous task, but I beg of you, please help us gather these ingredients. The Tuskarr\'s life depends on it.",
   },
 }
