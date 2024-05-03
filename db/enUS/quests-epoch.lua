@@ -2249,4 +2249,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect Kyx\'s Battery Boosted Welder from Razzeric at the Mirage Raceway in the salt flats.",
     ["D"] = "One of the thing\'s we were expecting from our shipment was a new powerful arc welder that I can use here. The second it touched the water however it was ruined so I didn\'t even bother asking you to fish that up.\n\nI do have a spare that I loaned to a good buddy of mine who works for the Goblin Race Team at the Mirage Raceway. Could you go ask him for it? I\'m sure he won\'t be best pleased but our needs are greater than some race car.",
   },
+  [26524] = {
+    ["T"] = "A Workwomans Tools",
+    ["O"] = "Charge Kyx\'s Batteries using weakened Raging Tempest\'s across the dunes of Tanaris.",
+    ["D"] = "The only issue with this welder is that apparently Razzeric didn\'t keep it charged. Typical of him.\n\nOut in the dunes there is a rare elemental that we\'ve taken to calling a Raging Tempest. They\'re chocked full of extremely potent electricity if we use them then we can charge these cells rapidly.\n\nYou will have to weaken them first and then blast them with the charger and before you know it we\'ll be on our way to some high quality H2O flowing through here again.",
+  },
+  [26525] = {
+    ["T"] = "Water Injection",
+    ["O"] = "Collect 8 Fuel Injector\'s from the downed Zepellin near the Broken Pillar Ruins in the center of the dunes.",
+    ["D"] = "Something is definitely off here the pressure is just no where near what we need. Let me think...\n\nI know! South west of here at the Broken Pillar ruins there\'s a mad scientist that we once employed. His Zeppelin was downed and on it were some fuel injectors. With a little bit of tinkering I can modify them to be water injectors. It\'s a bit of a treck but could you go get them? It should be easy to spot once you\'re in the middle of the dunes.",
+  },
+  [26529] = {
+    ["T"] = "Two Legged Vultures",
+    ["O"] = "Collect Marvon\'s Pocket Watch, Brimmed Hat and Ham Radio from the looters at his crashed Zepellin.",
+    ["D"] = "I\'ve been crashed in this zone for only a couple of weeks and my Zepellin behind me has already been quickly taken taken over by looters.\n\nThey\'re no better than vultures swooping down to pick apart what isn\'t theirs.\n\nHowever there\'s only me out here and I\'m focused on my research. Could you be a dear and go get my things from the looters? As you can see I\'ve barely a thing to my name here.",
+  },
 }

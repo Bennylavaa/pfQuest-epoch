@@ -269,4 +269,9 @@ pfDB["items"]["enUS-epoch"] = {
   [60746] = "Glasshide Glands",
   [60744] = "Gnome Car Parts",
   [60759] = "Battery Boosted Welder",
+  [60760] = "Bulky Battery Charger",
+  [60761] = "Fuel Injector",
+  [60764] = "Marvon\'s Pocket Watch",
+  [60765] = "Marvon\'s Brimmed Hat",
+  [60766] = "Marvon\'s Ham Radio",
 }

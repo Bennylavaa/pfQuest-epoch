@@ -320,5 +320,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45536] = "Stelx",
   [45714] = "Oil Rig Worker",
   [45716] = "Overseer Looney",
-  [45533] = "",
+  [45533] = "Poole",
+  [45710] = "Hagesh",
+  [45726] = "Raging Tempest",
+  [45727] = "Ravenous Looter",
 }
