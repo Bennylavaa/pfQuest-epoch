@@ -2179,4 +2179,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring the Box of Siege Tank Parts back to Chief Engineer Urul in Aerie Peak.",
     ["D"] = "Normally I\'d be making sure these parts stay here defending Ironforge but considering what you\'ve brought me... well... we can let that slide now can\'t we? I can\'t wait to tuck in. Bring these back to the Wildhammer and we\'ll consider this settled.\nNext time, throw in some ale.",
   },
+  [26455] = {
+    ["T"] = "Cast Away",
+    ["O"] = "Escort Argyle Wilkes to Theramore safely.",
+    ["D"] = "First I get kicked out by my own cremates over a minor disagreement, cast away into a storm with nothing more than this dingy to help me. And then I wake up in this light forsaken swamp!\nI just want to go back to my shack on the beach alone. Enough whining! Drink! Where\'s the nearest bar eh?",
+  },
 }

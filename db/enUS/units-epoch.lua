@@ -308,4 +308,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45683] = "Golith Slatestrike",
   [45706] = "Foulcrest",
   [45697] = "Gryphon Master Stonemace",
+  [45577] = "Argyle Wilkes ",
 }
