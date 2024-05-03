@@ -265,4 +265,8 @@ pfDB["items"]["enUS-epoch"] = {
   [60754] = "Marai's \"Supplies\"",
   [60755] = "Timed Explosives",
   [60743] = "Empty Oil Cannister",
+  [60745] = "Mutated Basilisk Gland",
+  [60746] = "Glasshide Glands",
+  [60744] = "Gnome Car Parts",
+  [60759] = "Battery Boosted Welder",
 }

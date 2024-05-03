@@ -320,4 +320,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45536] = "Stelx",
   [45714] = "Oil Rig Worker",
   [45716] = "Overseer Looney",
+  [45533] = "",
 }

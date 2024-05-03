@@ -2189,11 +2189,6 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 8 Flame Sack\'s from Fire Roc\'s in the Abyssal Sands of Tanaris. Usually found around Dragon bones.",
     ["D"] = "Boom! Boom! Boom! I\'m making a biiig grenade! Why? Why not!? Boom! Boom! Boom!\n\nI need an extra boost that can come from only one thing, Fire Roc\'s. Can you go collect me some of their Flame Sack\'s?",
   },
-  [26522] = {
-    ["T"] = "Water Co. Saviour",
-    ["O"] = "Collect 8 Filter Parts from the seabed surrounding Steamwheedle Port.",
-    ["D"] = "This right here is the heart of the Water Co. empire but right now we\'re entirely running on reserves because there\'s been some serious damage to the filter system.\n\nWe were expecting a shipment of parts to prevent exactly this situation but those lumbering oafs knocked the majority off the boat when docking. Just can\'t get the talent these days!\n\nCan you go down there and get them before they\'re rusted beyond use?",
-  },
   [26515] = {
     ["T"] = "Think Of The Animals",
     ["O"] = "Clean 8 Oil Coated Critter\'s along the Tanaris coast.",
@@ -2233,5 +2228,25 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "The Perfect Fuel",
     ["O"] = "Collect Crude Oil from the base of the Oil Rig northeast of Steamwheedle Port.",
     ["D"] = "At the base of the Oil Platform northeast of here you can find a valve that they use to test the purity before and after they refine the oil. I need the crudest most unrefined oil available so that means we need to steal some from underwater. Go to that platform and bring this vessel with you, fill it up at the valve and bring it back for me and we can continue.",
+  },
+  [26509] = {
+    ["T"] = "The Perfect Container",
+    ["O"] = "Acquire 6 Gnome Car Parts from the crashed Gnome racer west of Gadgetzan.",
+    ["D"] = "The perfect fuel is useless if we don\'t have a reliable way to store it on the rocket. The best metalurgy around is done by the Gnome racing crew at the Mirage Raceway but sadly they won\'t share! Something to do with \"trade screts\" and \"stop trying to steal our stuff\", whatever.\n\nGossip has been spreading that one of their experimental cars crashed all the way here in Tanaris. I want that metal! Find them just outside of Gadgetzan and bring me it by any means neccesary.",
+  },
+  [26510] = {
+    ["T"] = "Even Better Fuel",
+    ["O"] = "Collect a Mutated Basilisk Gland and 6 Glasshide Glands for Poole in Steamwheedle Port.",
+    ["D"] = "Psst... Over here... Keep your voice down.\n\nLook, between you and me I think Goddard here is a bozo. Constantly pushing me around and ranting about how brilliant he is. I\'m tired of it! There can only be one chief rocket scientiest, the budget doesn\'t allow for more. So... help me get rid of him. Whaddya say?\n\nI\'m going to add some extra ingredients into the mix that will have catastrophic results when ignited. Can you go get them for me? Firstly I need glands from the Glasshide Basilisk\'s in the dunes, those are a relatively normal component in fuel. The extra spark comes from a mutated one I\'ve seen near by. I think the oil made it go all wonky! He\'s been seen patrolling the beaches south of here, go get me his gland to add to the mix.\n\nAnd keep this between us or it\'s both our necks being rung outside Gadgetzan.",
+  },
+  [26522] = {
+    ["T"] = "Water Co. Saviour",
+    ["O"] = "Collect 8 Filter Parts from the seabed surrounding Steamwheedle Port.",
+    ["D"] = "This right here is the heart of the Water Co. empire but right now we\'re entirely running on reserves because there\'s been some serious damage to the filter system.\n\nWe were expecting a shipment of parts to prevent exactly this situation but those lumbering oafs knocked the majority off the boat when docking. Just can\'t get the talent these days!\n\nCan you go down there and get them before they\'re rusted beyond use?",
+  },
+  [26523] = {
+    ["T"] = "A Workwomans Tools",
+    ["O"] = "Collect Kyx\'s Battery Boosted Welder from Razzeric at the Mirage Raceway in the salt flats.",
+    ["D"] = "One of the thing\'s we were expecting from our shipment was a new powerful arc welder that I can use here. The second it touched the water however it was ruined so I didn\'t even bother asking you to fish that up.\n\nI do have a spare that I loaned to a good buddy of mine who works for the Goblin Race Team at the Mirage Raceway. Could you go ask him for it? I\'m sure he won\'t be best pleased but our needs are greater than some race car.",
   },
 }
