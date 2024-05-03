@@ -327,4 +327,12 @@ pfDB["units"]["enUS-epoch"] = {
   [45535] = "Steamwheedle Bruiser",
   [45725] = "Doszurd",
   [45647] = "Urulg",
+  [45651] = "Topanga Plainchaser",
+  [45655] = "Remi Coldeye",
+  [45641] = "Akiha",
+  [45646] = "Dumont Hollowcry",
+  [45745] = "Hazzali Nightstalker",
+  [45743] = "Scout Shadowdancer",
+  [45744] = "Centipaar Nightstalker",
+  [45750] = "Scout Lightfoot",
 }

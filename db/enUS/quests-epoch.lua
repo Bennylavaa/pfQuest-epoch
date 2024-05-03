@@ -2279,4 +2279,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect Marvon\'s Pocket Watch, Brimmed Hat and Ham Radio from the looters at his crashed Zepellin.",
     ["D"] = "I\'ve been crashed in this zone for only a couple of weeks and my Zepellin behind me has already been quickly taken taken over by looters.\n\nThey\'re no better than vultures swooping down to pick apart what isn\'t theirs.\n\nHowever there\'s only me out here and I\'m focused on my research. Could you be a dear and go get my things from the looters? As you can see I\'ve barely a thing to my name here.",
   },
+  [26541] = {
+    ["T"] = "Scouts Honor",
+    ["O"] = "Head northwest to the Noxious Lair and locate a scout named Shadowdancer who is monitoring the situation there.",
+    ["D"] = "Listen carefully, adventurer. I have sent a strong Troll named Shadowdancer and her scouting party to monitor the situation at the Noxious Lair to the northwest. They have not reported back in weeks, and I am concerned for their safety. I need someone to head to the Noxious Lair and locate them, and ensure that they are safe.\n\nI will not tolerate incompetence. If Shadowdancer and her party are in danger, it is your duty to locate them and ensure their safety. Head to the Noxious Lair and do not return until you have found them. And be warned - if you fail in this task, you will face the full wrath of my anger. Do I make myself clear?",
+  },
+  [26530] = {
+    ["T"] = "Find Wuti",
+    ["O"] = "Locate Wuti Sunjumper on Land\'s End Beach and ensure she is safe.",
+    ["D"] = "Greetings, adventurer. I am in need of your help. My dear friend, Wuti Sunjumper, has been missing for several days. She is a skilled fisherman and a valuable member of our community. I fear something terrible may have happened to her.\n\nWill you please search for Wuti on Land\'s End Beach? Her home is located there, and it is the last place she was seen. I beg of you, ensure she is safe. I will be forever in your debt.",
+  },
+  [26539] = {
+    ["T"] = "They Mostly Come At Night... Mostly",
+    ["O"] = "Collect 10 Nightstalker Mandibles from Nightstalkers in Tanaris.",
+    ["D"] = "The blasted silithid are causing trouble again. They\'ve been spotted sending their Nightstalkers to guard their territory in Tanaris. These beasts only come out at night, so you\'ll need to be careful if you want to track them down.\n\nYou can find the Nightstalkers at the Noxious Lair and the Gaping Chasm. The Noxious Lair is in the far northwest, and the Gaping Chasm is just outside Anje\'Watha.\n\nUse your strength and cunning to defeat them, and collect their mandibles as proof of your victory.",
+  },
+  [26549] = {
+    ["T"] = "A Loa\'s Respect",
+    ["O"] = "Collect meat from Searing Rocs and Glasshide Petrifiers in the southwest region of Tanaris as an offering to Gral, the Loa of the sea.",
+    ["D"] = "Ey, mon. I be Akiha, powerful shaman and servant of da Loa of da sea, Gral. I come to you wit a task of great importance.\n\nTo da west of Anje\'Watha, dere be Searing Roc\'s and Glasshide Petrifiers. Dese beasts be known for da succulent meat dey provide, and I need a large amount of it to gain da favour of Gral.\n\nI need Gral\'s blessing to keep da Water Elementals flowing. Without his favour, dey will wither and fade away.\n\nBring me as much as you can manage.",
+  },
+  [26540] = {
+    ["T"] = "The Great Brain Robbery",
+    ["O"] = "Collect brains from the Silithid at the two hives in Tanaris.",
+    ["D"] = "Ah, so you\'re the hero that\'s going to help me with my research, are you? Well, let me tell you, it\'s no easy task. I need brains from the Silithid at the two hives in Tanaris. Think you can handle that, or do I need to find someone else?\n\nI don\'t have time to explain the details, but let\'s just say I\'m conducting a study on the Silithid and I need brains from those critters. The hives in Tanaris are crawling with them, so get over there and collect as many brains as you can. I\'ll be waiting for you when you get back",
+  },
+  [26548] = {
+    ["T"] = "Lightfoot\'s Rescue",
+    ["O"] = "Escort Scout Lightfoot out of the Noxious Lair and defend him from any threats along the way.",
+    ["D"] = "Thank you for finding me. I was on a scouting mission in the Noxious Lair when I was ambushed and knocked unconscious. I need your help to get out of here and back to Anje\'Watha. Will you help me?",
+  },
 }

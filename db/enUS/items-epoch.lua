@@ -274,4 +274,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60764] = "Marvon\'s Pocket Watch",
   [60765] = "Marvon\'s Brimmed Hat",
   [60766] = "Marvon\'s Ham Radio",
+  [60779] = "Nightstalker Mandible",
+  [60789] = "Hunk of Meat",
+  [60782] = "Silithid Brain",
 }
