@@ -2259,6 +2259,16 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 8 Fuel Injector\'s from the downed Zepellin near the Broken Pillar Ruins in the center of the dunes.",
     ["D"] = "Something is definitely off here the pressure is just no where near what we need. Let me think...\n\nI know! South west of here at the Broken Pillar ruins there\'s a mad scientist that we once employed. His Zeppelin was downed and on it were some fuel injectors. With a little bit of tinkering I can modify them to be water injectors. It\'s a bit of a treck but could you go get them? It should be easy to spot once you\'re in the middle of the dunes.",
   },
+  [26526] = {
+    ["T"] = "A Saboteur In Our Midst",
+    ["O"] = "Question Bruiser\'s in Steamwheedle Port to find out who the Shadowy Figure is and where they went.",
+    ["D"] = "A sabateur! It all makes so much sense now... They must have knocked our parts into the ocean, they were the ones who sabotaged the filter in the first place. But who could it be?\n\nI didn\'t quite see where they fled but that\'s what the Bruisers are paid for. Go and ask them what they saw.",
+  },
+  [26527] = {
+    ["T"] = "Clear Accusations",
+    ["O"] = "Inform Security Chief Bilgewhizzle of who damaged the water filtration system.",
+    ["D"] = "So they all kept mentioning the same person, Doszard. Why does that name ring such a bell? A bruiser! He\'s one of the guards. It\'s an inside job! The security chief must be told of this, go to him now.",
+  },
   [26529] = {
     ["T"] = "Two Legged Vultures",
     ["O"] = "Collect Marvon\'s Pocket Watch, Brimmed Hat and Ham Radio from the looters at his crashed Zepellin.",

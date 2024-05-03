@@ -324,4 +324,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45710] = "Hagesh",
   [45726] = "Raging Tempest",
   [45727] = "Ravenous Looter",
+  [45535] = "Steamwheedle Bruiser",
 }
