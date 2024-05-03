@@ -770,7 +770,7 @@ pfDB["items"]["data-epoch"] = {
     },
   },
   [60229] = {
-    ["U"] = { -- dropchance % is a guess
+    ["U"] = {
       [9523] = 20,
       [3272] = 20,
       [3273] = 20,
