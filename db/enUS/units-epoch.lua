@@ -340,4 +340,9 @@ pfDB["units"]["enUS-epoch"] = {
   [45644] = "Melchor Bloodrunner",
   [45738] = "Thistleshrub Thornseeker",
   [45737] = "Roknar",
+  [45527] = "Innkeeper Fizzmind",
+  [45759] = "Dennis",
+  [45731] = "Nereid",
+  [45739] = "Sylph",
+  [45757] = "Hazzali Brainlord",
 }

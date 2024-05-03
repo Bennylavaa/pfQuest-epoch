@@ -2379,4 +2379,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Place the Water Totem next to Roknar the Tuskarr at Wuti Sunjumper\'s home.",
     ["D"] = "The totem is almost ready, adventurer. I just need your help to place it next to the Tuskarr. His condition is still critical, and the totem will provide the healing he needs.\n\nCan you please assist me in placing the totem next to the Tuskarr? Your help is greatly appreciated.",
   },
+  [26534] = {
+    ["T"] = "Technological Advances",
+    ["O"] = "Journey to Steamwheedle Port and ask Innkeeper Fizzmind for a cooler for the Tuskarr.",
+    ["D"] = "I have not yet contacted Steamwheedle Port, but I have heard that they have a cooler that we could use to save the Tuskarr. However, I fear that they may not be willing to lend it to us without a good reason.\n\nCan you please go to Steamwheedle Port and convince Innkeeper Fizzmind to lend us the cooler? I understand that it may be difficult, but I am confident in your skills and abilities.\n\nPlease, do everything in your power to convince Innkeeper Fizzmind to lend us the cooler. The Tuskarr\'s life depends on it.",
+  },
+  [26535] = {
+    ["T"] = "Keep On Chilling",
+    ["O"] = "Bring the cooler to Akiha in Anje\'Watha and ask for his guidance on how to empower it.",
+    ["D"] = "I must admit, I am fond of Wuti Sunjumper and I would like to help her. I will lend you the cooler, but I must warn you that it is not powerful enough on its own to save the Tuskarr.\n\nTo empower the cooler and make it strong enough to save them, you will need the assistance of a water elemental. The nearest water elementals can be found in Anje\'Watha, an outpost to the south that I don\'t doubt you are familiar with. Go speak with a powerful Shaman there named Akiha for his guidance.",
+  },
+  [26556] = {
+    ["T"] = "Mind Blown",
+    ["O"] = "Using the Explosive Mind Control Cap escort Dennis into the northern Gaping Chasm Hive and destroy the Hazzali Brainlord inside.",
+    ["D"] = "The Silithid are simple beasts who can even \"function\" with half their brain missing, little Dennis over there is a prime example. Sadly this cap is for him.\n\nThe Silithid will not attack him which lets us get deep into the Gaping Chasm hive and take out the Brainlord that is controlling them. I\'m sure that Lillyn won\'t mind...",
+  },
+  [26536] = {
+    ["T"] = "A Blessing of Aqua",
+    ["O"] = "Ask both water elementals in Anje\'Watha for their blessing upon the cooler.",
+    ["D"] = "I see da determination and passion in your eyes, adventurer. You truly believe in da importance of saving da Tuskarr. I am impressed by your resolve and I will do everyting in my power to help you.\n\nBut be warned, mon. Da water elementals are not bound to me by force. Dey be bonded to me by choice, and I cannot command dem to do anyting against dere will.\n\nYou must request da aid of da water elementals and convince dem of da need for da cooler and da importance of saving da Tuskarr. If you can do dat, dey will willingly empower da cooler and make it strong enough to save da Tuskarr\'s life.",
+  },
+  [26557] = {
+    ["T"] = "A Hive Cleared",
+    ["O"] = "Inform Urulg that you have successfully cleared the Gaping Chasm hive of it\'s strongest Silithid.",
+    ["D"] = "This was far more successful than I anticipated. I think before long we can clear out of here and back to our real research in the Undercity. Go give that gruff oaf Urulg the good knews.",
+  },
+  [26537] = {
+    ["T"] = "A Chilly Friend",
+    ["O"] = "Place the empowered cooler next to the Tuskarr to cure him of his heat stroke.",
+    ["D"] = "Adventurer, you have been instrumental in our quest to save the Tuskarr. Without your help, we would have surely failed.\n\nI would like to ask one final favor of you. Would you do the honors of placing the cooler next to the Tuskarr and saving his life? It would be a great honor for me, and I know that the Tuskarr would be grateful as well.",
+  },
 }

@@ -289,4 +289,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60791] = "Hazzali Wasp Stinger",
   [60793] = "Tar Collector",
   [60773] = "Wuti\'s War Totem",
+  [60795] = "Explosive Mind Control Cap",
+  [60777] = "Empowered Kezan\'s Premium Refrigerator",
 }

@@ -115,4 +115,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001041] = "Altar of Gral", --Placeholder ID
   [4001042] = "Sandshore Seagrass", --Placeholder ID
   [4001043] = "Thistleshrub Valley Moonwell", --Placeholder ID
+  [4001044] = "Gnome Car Parts", --Placeholder ID
 }
