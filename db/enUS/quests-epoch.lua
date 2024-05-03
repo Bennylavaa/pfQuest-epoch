@@ -2279,11 +2279,6 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect Marvon\'s Pocket Watch, Brimmed Hat and Ham Radio from the looters at his crashed Zepellin.",
     ["D"] = "I\'ve been crashed in this zone for only a couple of weeks and my Zepellin behind me has already been quickly taken taken over by looters.\n\nThey\'re no better than vultures swooping down to pick apart what isn\'t theirs.\n\nHowever there\'s only me out here and I\'m focused on my research. Could you be a dear and go get my things from the looters? As you can see I\'ve barely a thing to my name here.",
   },
-  [26541] = {
-    ["T"] = "Scouts Honor",
-    ["O"] = "Head northwest to the Noxious Lair and locate a scout named Shadowdancer who is monitoring the situation there.",
-    ["D"] = "Listen carefully, adventurer. I have sent a strong Troll named Shadowdancer and her scouting party to monitor the situation at the Noxious Lair to the northwest. They have not reported back in weeks, and I am concerned for their safety. I need someone to head to the Noxious Lair and locate them, and ensure that they are safe.\n\nI will not tolerate incompetence. If Shadowdancer and her party are in danger, it is your duty to locate them and ensure their safety. Head to the Noxious Lair and do not return until you have found them. And be warned - if you fail in this task, you will face the full wrath of my anger. Do I make myself clear?",
-  },
   [26530] = {
     ["T"] = "Find Wuti",
     ["O"] = "Locate Wuti Sunjumper on Land\'s End Beach and ensure she is safe.",
@@ -2308,5 +2303,25 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Lightfoot\'s Rescue",
     ["O"] = "Escort Scout Lightfoot out of the Noxious Lair and defend him from any threats along the way.",
     ["D"] = "Thank you for finding me. I was on a scouting mission in the Noxious Lair when I was ambushed and knocked unconscious. I need your help to get out of here and back to Anje\'Watha. Will you help me?",
+  },
+  [26541] = {
+    ["T"] = "Scouts Honor",
+    ["O"] = "Head northwest to the Noxious Lair and locate a scout named Shadowdancer who is monitoring the situation there.",
+    ["D"] = "Listen carefully, adventurer. I have sent a strong Troll named Shadowdancer and her scouting party to monitor the situation at the Noxious Lair to the northwest. They have not reported back in weeks, and I am concerned for their safety. I need someone to head to the Noxious Lair and locate them, and ensure that they are safe.\n\nI will not tolerate incompetence. If Shadowdancer and her party are in danger, it is your duty to locate them and ensure their safety. Head to the Noxious Lair and do not return until you have found them. And be warned - if you fail in this task, you will face the full wrath of my anger. Do I make myself clear?",
+  },
+  [26542] = {
+    ["T"] = "A Party Fractured",
+    ["O"] = "Collect 8 stingers from the Centipaar Wasps above ground.",
+    ["D"] = "Listen carefully, $c. The rest of my scouting party was stung and knocked unconscious by a paralysing toxin during a fight with the insect Silithid, and I am worried about their safety. I need the stingers from the Centipaar Wasps that are found above ground at the Noxious Lair to create a salve that will cleanse the toxin and help them recover.",
+  },
+  [26543] = {
+    ["T"] = "Workers Rebellion",
+    ["O"] = "Kill 10 Centipaar Workers at the Noxious Lair for Scout Shadowdancer.",
+    ["D"] = "Listen carefully, $N. While you are collecting the stingers from the Centipaar Wasps, I have seen the Centipaar Workers dragging away my unconscious scouting party into the hive for unknown reasons. I need you to kill these workers to prevent them from taking any more scouts into the hive.",
+  },
+  [26544] = {
+    ["T"] = "On Your Feet",
+    ["O"] = "Locate and revive 8 Unconscious Scout\'s on the surface of the Noxious Lair.",
+    ["D"] = "The safety of my scouting party is at stake, and we need to revive them as soon as possible. Head to the Noxious Lair and use the salve to revive the unconscious scouts. Do not return until you have successfully revived all of the scouts. Do I make myself clear, $N?",
   },
 }

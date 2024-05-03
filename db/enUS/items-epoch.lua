@@ -277,4 +277,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60779] = "Nightstalker Mandible",
   [60789] = "Hunk of Meat",
   [60782] = "Silithid Brain",
+  [60783] = "Centipaar Wasp Stinger",
+  [60785] = "Scout Salve",
 }
