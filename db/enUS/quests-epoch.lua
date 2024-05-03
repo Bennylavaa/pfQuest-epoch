@@ -2269,6 +2269,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Inform Security Chief Bilgewhizzle of who damaged the water filtration system.",
     ["D"] = "So they all kept mentioning the same person, Doszard. Why does that name ring such a bell? A bruiser! He\'s one of the guards. It\'s an inside job! The security chief must be told of this, go to him now.",
   },
+  [26528] = {
+    ["T"] = "Wanted: Doszurd",
+    ["O"] = "Locate and slay Doszurd the former bruiser. He was reportedly seen just outside of Gadgetzan.",
+    ["D"] = "Our agents have informed us that the traitor Doszurd has been spotted getting supplies from Gadgetzan and walking out of the gates. Wherever he is must be a short walk away. Find him and slay him on behalf of the Water Co. Report to the Security Chief when the deed is done.",
+  },
   [26529] = {
     ["T"] = "Two Legged Vultures",
     ["O"] = "Collect Marvon\'s Pocket Watch, Brimmed Hat and Ham Radio from the looters at his crashed Zepellin.",

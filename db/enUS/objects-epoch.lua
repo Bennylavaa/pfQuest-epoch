@@ -111,4 +111,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001037] = "Filter Parts", --Placeholder ID
   [4001038] = "Oil Platform Base Valve", --Placeholder ID
   [4001039] = "Zeppelin Cargo", --Placeholder ID
+  [4001040] = "Wanted Poster", --Placeholder ID
 }
