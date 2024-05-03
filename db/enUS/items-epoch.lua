@@ -284,4 +284,9 @@ pfDB["items"]["enUS-epoch"] = {
   [60790] = "Offering to Gral",
   [60767] = "Sandshore Seagrass",
   [60768] = "Phial of Surf Glider Water",
+  [60769] = "Half Filled Phial",
+  [60771] = "Sturdy Root",
+  [60791] = "Hazzali Wasp Stinger",
+  [60793] = "Tar Collector",
+  [60773] = "Wuti\'s War Totem",
 }

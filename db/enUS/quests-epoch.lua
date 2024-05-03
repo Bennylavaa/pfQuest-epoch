@@ -2349,6 +2349,16 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Locate Melchor Bloodrunner at Anje\'Watha in Tanaris.",
     ["D"] = "I understand that you have recently discovered that Silithid Stingers can be crushed into a paste and used as a flammable weapon. This information could be valuable to our cause in the ongoing war against the Alliance and the Silithid. I am asking for your help in delivering this information to the forsaken named Melchor Bloodrunner. He can be found nearby, in a cave within Anje\'Watha.",
   },
+  [26552] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Collect 8 Hazzali Wasp Stinger\'s from Hazzali Wasps in the Gaping Chasm.",
+    ["D"] = "Now that we know the potential of Silithid Stingers, I want to take this opportunity to explore it further. I have a new quest for you, Pftestseven. I want you to collect more of these stingers, but this time from the much stronger Hazzali Wasps. With a larger supply of the paste, we can create specialised fire arrows for our Horde troops in Tanaris. Can I count on you to help us with this?",
+  },
+  [26553] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Collect Tar from Tar Beasts in Tanaris into the item Melchor Bloodrunner provided. Tar Beasts must be in a weakened state.",
+    ["D"] = "Now that we have the stingers, we must focus on making the fire arrows as potent as possible. I have devised a special container that can absorb the Tar straight from the core of the Tar Beasts, but it requires that they be weakened and alive. It is a painful process, but these creatures are of no use to us otherwise. You can find the Tar Beasts at the Lakkari Troll Pits in Un\'Goro Crater.",
+  },
   [26530] = {
     ["T"] = "Find Wuti",
     ["O"] = "Locate Wuti Sunjumper on Land\'s End Beach and ensure she is safe.",
@@ -2358,5 +2368,15 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "A Chilly Stranger",
     ["O"] = "Collect 8 Sandshore Seagrass and 6 Phial\'s of Surf Glider Water for Wuti Sunjumper.",
     ["D"] = "The Tuskarr is still in great danger from the heat of the desert. I fear that he will not survive much longer without a cooling totem to protect him.\n\nTo create the totem, we will need a specific type of kelp that can only be found on the desert coasts named Sandshore Seagrass, as well as water from a turtle shell. Yes you heard me. A turtle shell.\n\nI know it will be a difficult and dangerous task, but I beg of you, please help us gather these ingredients. The Tuskarr\'s life depends on it.",
+  },
+  [26532] = {
+    ["T"] = "A Chilly Stranger",
+    ["O"] = "Fill the Crystal Phial with water from the Moonwell in Thistleshrub Valley as well as 8 Sturdy Root\'s from Thistleshrub Thornseekers.",
+    ["D"] = "I fear that the cooling totem will not be powerful enough to help the Tuskarr. The desert heat is too strong, and he needs more powerful ingredients to recover.\n\nI have heard of a Moonwell in Thistleshrub Valley, to the northwest. The water from the Moonwell is said to have powerful healing properties. If we could obtain some of that water, it would greatly strengthen the totem.\n\nAdditionally, the most powerful Thistleshrub monsters that inhabit the valley are known to have powerful roots that can enhance the potency of herbal remedies. If you could collect some of those roots for us, it would be a great help.\n\nI know it is a long and dangerous journey, but I beg of you, please help us obtain these ingredients. The Tuskarr\'s life depends on it.",
+  },
+  [26533] = {
+    ["T"] = "A Chilly Stranger",
+    ["O"] = "Place the Water Totem next to Roknar the Tuskarr at Wuti Sunjumper\'s home.",
+    ["D"] = "The totem is almost ready, adventurer. I just need your help to place it next to the Tuskarr. His condition is still critical, and the totem will provide the healing he needs.\n\nCan you please assist me in placing the totem next to the Tuskarr? Your help is greatly appreciated.",
   },
 }

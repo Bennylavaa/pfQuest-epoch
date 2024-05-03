@@ -337,4 +337,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45750] = "Scout Lightfoot",
   [45749] = "Unconscious Scout",
   [45736] = "Wuti Sunjumper",
+  [45644] = "Melchor Bloodrunner",
+  [45738] = "Thistleshrub Thornseeker",
+  [45737] = "Roknar",
 }
