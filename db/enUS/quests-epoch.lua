@@ -1284,6 +1284,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Steal the Crate of Assorted Armor from Northwatch Hold and bring it to Thork at The Crossroads.",
     ["D"] = "Psst! You, yeah you! You see that keep in front of us? Those Theramore guards are using it as an outpost for supplies. I\'ve been observing them for the past few days, and I\'m concerned they have enough supplies to launch an attack on The Crossroads!\n\nI want you to get in there and steal their armor. You can probably find it in their blacksmith building. Bring it back to Thork at The Crossroads so we can use it for our soldiers.",
   },
+  [26294] = {
+    ["T"] = "The Kolkar Report",
+    ["O"] = "Bring the Kolkar Report to Thork at The Crossroads.",
+    ["D"] = "This appears to be a note scrawled in Kolkar writing and is unreadable to you. It would be a good idea to bring this report to Thork at The Crossroads.",
+  },
   [26296] = {
     ["T"] = "WANTED: Deepskin",
     ["O"] = "Slay Deepskin and bring his tooth to Thork at The Crossroads.",
@@ -2413,5 +2418,15 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Tips Of Fire",
     ["O"] = "Bring the Fire Arrows to Remi Coldeye in Anje\'Watha.",
     ["D"] = "The fire arrows are complete, $N. And now it is time to put them to use. I want you to deliver them to Remi Coldeye, who will dispatch them among our new recruits for use in battle against the Silithid.",
+  },
+  [26505] = {
+    ["T"] = "Parts From Afar",
+    ["O"] = "Bring the Box of Siege Tank Parts back to Chief Engineer Urul in Aerie Peak.",
+    ["D"] = "Normally I\'d be making sure these parts stay here defending Ironforge but considering what you\'ve brought me... well... we can let that slide now can\'t we? I can\'t wait to tuck in. Bring these back to the Wildhammer and we\'ll consider this settled.\nNext time, throw in some ale.",
+  },
+  [26455] = {
+    ["T"] = "Cast Away",
+    ["O"] = "Escort Argyle Wilkes to Theramore safely.",
+    ["D"] = "First I get kicked out by my own cremates over a minor disagreement, cast away into a storm with nothing more than this dingy to help me. And then I wake up in this light forsaken swamp!\nI just want to go back to my shack on the beach alone. Enough whining! Drink! Where\'s the nearest bar eh?",
   },
 }

@@ -67,18 +67,18 @@ Redridge Mountains|15-27|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Stonetalon Mountains|15-27|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Ashenvale|18-30|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Duskwood|18-30|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
-Hillsbrad Foothills|20-30|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Wetlands|20-30|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Thousand Needles|25-35|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Alterac Mountains|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Hillsbrad Foothills|20-30|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Wetlands|20-30|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Thousand Needles|25-35|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Alterac Mountains|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Arathi Highlands|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Desolace|30-40|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
-Stranglethorn Vale|30-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Stranglethorn Vale|30-45|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Dustwallow Marsh|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
-Badlands|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Swamp of Sorrows|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Feralas|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Hinterlands|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Badlands|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Swamp of Sorrows|35-45|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Feralas|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Hinterlands|40-50|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Tanaris|40-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Searing Gorge|45-50|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Azshara|45-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>

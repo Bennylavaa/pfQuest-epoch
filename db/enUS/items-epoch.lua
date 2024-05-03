@@ -171,6 +171,7 @@ pfDB["items"]["enUS-epoch"] = {
   [60185] = "Gortak\'s Key",
   [60230] = "Box of Treasure",
   [60228] = "Hecklefang Tooth",
+  [60229] = "Kolkar Report",
   [60119] = "Head of Jasone",
   [61212] = "Fossilised Gallbladder",
   [61285] = "Remnant of the Nether",
