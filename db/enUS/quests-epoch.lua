@@ -2579,4 +2579,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Prove to Trog that he is dead.",
     ["D"] = "There\'s no way that Trog won\'t believe this. You show him for me?",
   },
+  [27251] = {
+    ["T"] = "Descendants of Exiles",
+    ["O"] = "Captain Ashyla at Talrendis Point wants you to kill 10 Blood Elf Reclaimers and 10 Blood Elf Surveyors at the Thalassian Base Camp in Azshara.",
+    ["D"] = "Sightseeing in Azshara, Warlock? There\'s nothing worth seeing here for those that do not learn from history. The land itself and its namesake both are a testament to the dangers magic pose.\nThe Highborne were exiled from Kalimdor for their reckless use of magic that endangered us all. However, they came to Azshara recently with orc protectors. What\'s more concerning is the report that they killed the orcs, and are now surveying the area to the northwest of here for something.\nThey\'re up to no good, and I would have them stopped. Eliminate the intruders for me, and you will be rewarded.",
+  },
+  [27585] = {
+    ["T"] = "Eau de Parfish",
+    ["O"] = "Collect a Fragrant Felfish from within Felwood and return to Wifla at Blackmaw Village in Azshara.",
+    ["D"] = "I\'ll never understand fashion, Bennylava. Especially furbolg fashion. Wifla tells me that the Blackmaw make a cologne from fish they used to get from what is now Felwood. Stinky!\nBut, if it\'s important to our furry friends here, it\'s important to me. I\'d like to see if we can still get this fragrant beast even after the waterways have been corrupted by fel magic. Willin\' to give it a go?",
+  },
 }

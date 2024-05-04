@@ -360,4 +360,7 @@ pfDB["units"]["enUS-epoch"] = {
   [45863] = "Dee",
   [45864] = "Dum",
   [45861] = "Traitor Gluk",
+  [46173] = "Captain Ashyla",
+  [25580] = "Old Man Barlo",
+  [46218] = "Wifla",
 }

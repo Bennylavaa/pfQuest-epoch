@@ -313,4 +313,5 @@ pfDB["items"]["enUS-epoch"] = {
   [60889] = "Salted Cooling Essence",
   [60890] = "Massive Cooling Essence",
   [60895] = "Amplified Water Essence",
+  [63171] = "Fragrant Felfish",
 }
