@@ -346,4 +346,5 @@ pfDB["units"]["enUS-epoch"] = {
   [45739] = "Sylph",
   [45757] = "Hazzali Brainlord",
   [45577] = "Argyle Wilkes ",
+  [25580] = "Old Man Barlo",
 }

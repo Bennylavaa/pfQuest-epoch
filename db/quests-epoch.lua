@@ -6265,4 +6265,5 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 37,
   },
+  [5527] = "_", --A Reliquary of Purity
 }
