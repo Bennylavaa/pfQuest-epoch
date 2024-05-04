@@ -2699,4 +2699,49 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Prove to Trog that he is dead.",
     ["D"] = "There\'s no way that Trog won\'t believe this. You show him for me?",
   },
+  [27252] = {
+    ["T"] = "A Gift for the Spiritseer",
+    ["O"] = "Take the Strangely Faceted Crystal to Spiritseer Ni\'shelle near Lake Kel\'Theril.",
+    ["D"] = "Adventure calls to ya -- Mau\'ari knows! I have just da thing to test a young $C like you.\n\nMy dear friend Nishelle is especially touched by da spirits. Take dis crystal focus to her down by Lake Kel\'Theril and you\'ll find plenty of adventure follows. But be warned - the ghosts of dis land be angry and restless. If ya fail to appease dem, dey might haunt ya forever!",
+  },
+  [27285] = {
+    ["T"] = "Biz with The Fizz",
+    ["O"] = "Talk to Tanum in his camp adjacent to the southern road from Everlook.",
+    ["D"] = "Hey, hotshot! Lookin\' for work? I got a business going in the alchemy world, makin\' some primo quality brew.\n\n...least, that\'s what I thought! My partner Tanum\'s been missing for over a week now and I\'m startin\' to worry. I need my product, and he\'s the only chemist this side of Kalimdor I trust makin\' it! Even paid the big bucks to haul him over here!\n\nWork\'s crazy, so won\'t ya go see what\'s the holdup? Head out south of Everlook, he\'s along the main road a little ways down. He better not be doin\' what I think he\'s doin\'!",
+  },
+  [27528] = {
+    ["T"] = "Road to Teles\'aran",
+    ["O"] = "Follow the road north out of Everlook and turn right at the fork just past Starfall Village.",
+    ["D"] = "You dere. Tzakaja\'s employer needs a strong fighter wit\' a brave heart... Tzakaja thinkin\' you have what it takes.\n\nHead out on de road north of Everlook, then you be turnin\' right at de fork just past Starfall. She be waitin\' for ya.",
+  },
+  [27253] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Obtain an Undamaged Bear Femur, an Undamaged Wildkin Eye, and an Undamaged Chimera Venom Sac from beasts north of Everlook for Spiritseer Nishelle.",
+    ["D"] = "Welcome to Lake Kel\'Theril, $N. Do you feel drawn here as I do? I have spent every waking hour studying these ruins.\n\nLong ago, even before the Sundering split the land, a terrible tragedy befell this temple. The cause of this tragedy is a mystery, but one the spirits themselves can unravel for us if only we could speak to them. The crystal Mau\'ari gave you is the key component in a special ritual I have devised that should allow us to summon a spirit we can talk to.\n\nI need your help to collect the components needed for the ritual from the local wildlife. Bring me a Bear Femur, a Wildkin Eye, and a Chimera Venom Sac. You can find all of these creatures north of Everlook - but mind you, we need undamaged parts for the ritual to work.",
+  },
+  [27254] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Attune the Unattuned Crystal to Highborne Spirits around Lake Kel\'Theril and return to Spiritseer Nishelle near Lake Kel\'Theril.",
+    ["D"] = "Before we can begin the ritual we must attune the crystal to the type of spiritual energy we want to summon. The ruins of Lake Kel\'Theril are inhabited by the anguished and suffering spirits of the elves who witnessed this tragedy. You will need to use the crystal on these spirits to attune it to the spirit world my brethren inhabit. I mean, their brethren. Forgive me, I have spent so much time here I feel as though I am a part of this place. \n\nIt pains me to destroy these spirits but sacrifices must be made if we are to save the rest of them. Return to me when this task is complete. I will assemble the ritual components you brought me while you are gone.",
+  },
+  [27255] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Help Spiritseer Nishelle complete the ritual.",
+    ["D"] = "I feel the tingle of the ethereal on my hide C$. We are so close! I will now combine the items you brought with the attuned crystal from Mau\'ari and spirit dust of my own concoction. This will take a few moments, but when I am done, a spirit will appear.\n\nThere is no turning back from this point Pftestseven. Once you have reached into the world beyond the mortal plane, the spirits beyond will know where to find you forevermore. I won\'t fault you if you choose to walk away now. If you choose to stay, be on your guard. I do not know what form this spirit will take. ",
+  },
+  [27256] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Find Umbranse the Spiritspeaker in eastern Winterspring, and ask for help translating the Ancient Journal.",
+    ["D"] = "Alas, I cannot make heads nor tails of this journal. I fear its contents has been twisted by its passage through the void. And the ritual crystal is damaged. What a catastrophe! But there is someone nearby who may be able to help us.\n\nUmbranse the Spiritspeaker was once Nishelle\'s - that is - my mentor. You will find him at his remote shack northeast of Everlook. Take the book and crystal to him and ask if he can translate it for us. I would go myself but we...had a falling out. I think it better if this request comes from a neutral third party, such as yourself. ",
+  },
+  [27257] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Use the Repaired Crystal to drive out the malevolent spirit within Spiritseer Nichelle and destroy it.",
+    ["D"] = "I can translate the journal but there is a more urgent matter before us. Nishelle\'s research has left her possessed by a malevolent spirit. Let me explain.\n\nThe Highborne at Lake Kel\'Theril abused a powerful magical artifact called the Crystal of Zin-Malor. This crystal is too dangerous to repair. You have seen with your own eyes the destruction wrecked on the inhabitants of the temple. I warned Nishelle that some mysteries are better left alone.\n\nNishelle believed if she could understand how the spirits used the crystal, she could control it. Her research opened her up to possession by the lake spirits, and now a malevolent force drives her actions. The ritual you attempted was intended to open a door for more spirits to enter our world. Fortunately, you disrupted this doorway.\n\nSince this entity trusts you, I will repair this crystal so you may use to drive the spirit from her body and destroy it. Perhaps then she will come to her senses and abandon this foolish quest.",
+  },
+  [27258] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Return to Umbranse the Spiritspeaker in eastern Winterspring.",
+    ["D"] = "Umbranse was right, the Crystal of Zin-Malor is too dangerous to be found and used again. Many days I have endured that spirit residing inside me, and that was the least of the evils the crystal could potentially cause.\n\nPlease, $N will you return to Umbranse and let him know that I am myself again. I no longer care about the journal translation. He can do whatever he wants with the tome. I will return shortly, once I\'ve had a chance to reflect on the experience. May the spirits bless you $C. ",
+  },
 }

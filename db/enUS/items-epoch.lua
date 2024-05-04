@@ -330,4 +330,10 @@ pfDB["items"]["enUS-epoch"] = {
   [60889] = "Salted Cooling Essence",
   [60890] = "Massive Cooling Essence",
   [60895] = "Amplified Water Essence",
+  [61782] = "Undamaged Bear Femur",
+  [61783] = "Undamaged Wildkin Eye",
+  [61784] = "Undamaged Chimera Venom Sac",
+  [61779] = "Unattuned Crystal",
+  [61780] = "Ancient Journal",
+  [61778] = "Repaired Crystal",
 }

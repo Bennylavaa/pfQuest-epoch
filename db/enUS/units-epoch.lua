@@ -377,4 +377,8 @@ pfDB["units"]["enUS-epoch"] = {
   [45863] = "Dee",
   [45864] = "Dum",
   [45861] = "Traitor Gluk",
+  [46241] = "Roxxie Fizzwhistle",
+  [46557] = "Tzakaja",
+  [46174] = "Spiritseer Nishelle",
+  [46182] = "Angry Highborne Spirit",
 }
