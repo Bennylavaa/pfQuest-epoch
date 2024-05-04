@@ -1807,7 +1807,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26441] = {
     ["T"] = "Wild Tulip",
     ["O"] = "Using the Enchanted Compass track down Wild Tulip.",
-    ["D"] = "There... This compass will lead the way towards Wild Tulip and Daniel. Wherever they may be. Please, do whatever it take to get them home safely... So they can finally have their wedding day!\nAs Tulips memories are the most strong it will lead you to her first and from then onto Daniel bring them to me safely in any way possible Bennylava.",
+    ["D"] = "There... This compass will lead the way towards Wild Tulip and Daniel. Wherever they may be. Please, do whatever it take to get them home safely... So they can finally have their wedding day!\nAs Tulips memories are the most strong it will lead you to her first and from then onto Daniel bring them to me safely in any way possible $n.",
   },
   [26442] = {
     ["T"] = "Wild Tulip",
@@ -1827,7 +1827,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26410] = {
     ["T"] = "The Ring of Strength: The Twins",
     ["O"] = "Defeat the Naga Twins, should you win, speak with Unja the Troll-Servant to collect your reward.",
-    ["D"] = "This next battle involves a duo - twin sisters to be precise.\nIt\'s not too late to chicken out, Anistine. I\'d certainly understand.\nBut if you\'re ready for some action, step in the Ring of Strength and wait for the twins to arrive.\nLast one standing is the winner!",
+    ["D"] = "This next battle involves a duo - twin sisters to be precise.\nIt\'s not too late to chicken out, $n. I\'d certainly understand.\nBut if you\'re ready for some action, step in the Ring of Strength and wait for the twins to arrive.\nLast one standing is the winner!",
   },
   [26411] = {
     ["T"] = "The Ring of Strength: Stonegaze",
@@ -1837,7 +1837,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26412] = {
     ["T"] = "The Ring of Strength: Winston",
     ["O"] = "Defeat Winston, should you win, speak with Unja the Troll-Servant to collect your reward.",
-    ["D"] = "This fight is gonna be painful, Anistine. Do you have any friends that are brave enough to help you out? We\'ve managed to get a giant ape named Winston! Trust me, you\'re gonna need friends, he seems unbeatable! He\'s hard as a rock!\nIf you still want to fight him, step into the Ring of Strength and he will come.",
+    ["D"] = "This fight is gonna be painful, $n. Do you have any friends that are brave enough to help you out? We\'ve managed to get a giant ape named Winston! Trust me, you\'re gonna need friends, he seems unbeatable! He\'s hard as a rock!\nIf you still want to fight him, step into the Ring of Strength and he will come.",
   },
   [26413] = {
     ["T"] = "The Ring of Strength: Dekked",
@@ -1887,7 +1887,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26452] = {
     ["T"] = "Amulet Shakedown",
     ["O"] = "Bring 10 Dustbelcher Amulets to Joakim Sparkroot at Springsocket.",
-    ["D"] = "What\'s a goblin got to live for if not to make money? I\'m no different, and I\'m sure if you were a goblin you would feel the same way! Anyways, I got info on some high value products that might be worth your while.\nQuite a ways southwest you\'ll find Dustbelch Grotto, the home of all the ogres you see roaming around here. Rumor has it, they carry amulets on them to mark their tribe. It\'s possible that the materials the amulets are made of could be quite valuable! Go get me some of those amulets, Anistine, and if they\'re worth anything maybe we can make a bit of money.",
+    ["D"] = "What\'s a goblin got to live for if not to make money? I\'m no different, and I\'m sure if you were a goblin you would feel the same way! Anyways, I got info on some high value products that might be worth your while.\nQuite a ways southwest you\'ll find Dustbelch Grotto, the home of all the ogres you see roaming around here. Rumor has it, they carry amulets on them to mark their tribe. It\'s possible that the materials the amulets are made of could be quite valuable! Go get me some of those amulets, $n, and if they\'re worth anything maybe we can make a bit of money.",
   },
   [26447] = {
     ["T"] = "A Fine Potion",
@@ -1907,12 +1907,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [26448] = {
     ["T"] = "A Fine Potion",
     ["O"] = "Bring 10 Concentrated Waters to Drizzle at Springsocket.",
-    ["D"] = "The next ingredient on my list is in Arathi Highlands. Specifically, the water elementals at the Circle of East Binding. They possess a powerful reagent that I shall combine with the cores you brought me earlier.\nWhen killed, the elementals should morph into concentrated water. I want you to bring it to me, so that I may continue with my potion.\nYou\'ll find Arathi Highlands far to the north, past Loch Modan and Wetlands. Be careful, Anistine, it is a long and dangerous journey.",
+    ["D"] = "The next ingredient on my list is in Arathi Highlands. Specifically, the water elementals at the Circle of East Binding. They possess a powerful reagent that I shall combine with the cores you brought me earlier.\nWhen killed, the elementals should morph into concentrated water. I want you to bring it to me, so that I may continue with my potion.\nYou\'ll find Arathi Highlands far to the north, past Loch Modan and Wetlands. Be careful, $n, it is a long and dangerous journey.",
   },
   [26451] = {
     ["T"] = "A Lost Treasure",
     ["O"] = "Go to Angor Fortress and find the Shadowforge Treasure. Return to Noogle in Springsocket once you are finished.",
-    ["D"] = "The letter you found on Ando\'s body revealed that the treasure is located in Angor Fortress. It won\'t be there for long though! The dwarves are planning on shipping it off to Blackrock Mountain sometime soon.\nIf we want this treasure, you\'re going to have to hurry Anistine. You can find Angor Fortress northwest of here, but be careful...it\'s a stronghold full of Shadowforge! I wish you the best of luck, because you sure are going to need it.",
+    ["D"] = "The letter you found on Ando\'s body revealed that the treasure is located in Angor Fortress. It won\'t be there for long though! The dwarves are planning on shipping it off to Blackrock Mountain sometime soon.\nIf we want this treasure, you\'re going to have to hurry $n. You can find Angor Fortress northwest of here, but be careful...it\'s a stronghold full of Shadowforge! I wish you the best of luck, because you sure are going to need it.",
   },
   [26449] = {
     ["T"] = "A Fine Potion",
@@ -2637,7 +2637,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26598] = {
     ["T"] = "Fit For A King",
     ["O"] = "Collect Salted Cooling Essence from the coast of Feralas.",
-    ["D"] = "Heat is only one half of this equation warlock. We need to temper the flames and manage it slowly allowing the alloys to melt, fuse and become something wholly new. You\'re in luck however I won\'t have to send you far.\nRight on the coast of Feralas you will find water elementals that have been soaking up the cooling essence of the sea itself. Go and collect as much of it as you can and we will use it during the forging process to avoid torching this whole compound!",
+    ["D"] = "Heat is only one half of this equation $c. We need to temper the flames and manage it slowly allowing the alloys to melt, fuse and become something wholly new. You\'re in luck however I won\'t have to send you far.\nRight on the coast of Feralas you will find water elementals that have been soaking up the cooling essence of the sea itself. Go and collect as much of it as you can and we will use it during the forging process to avoid torching this whole compound!",
   },
   [26599] = {
     ["T"] = "Fit For A King",
@@ -2702,17 +2702,17 @@ pfDB["quests"]["enUS-epoch"] = {
   [27251] = {
     ["T"] = "Descendants of Exiles",
     ["O"] = "Captain Ashyla at Talrendis Point wants you to kill 10 Blood Elf Reclaimers and 10 Blood Elf Surveyors at the Thalassian Base Camp in Azshara.",
-    ["D"] = "Sightseeing in Azshara, Warlock? There\'s nothing worth seeing here for those that do not learn from history. The land itself and its namesake both are a testament to the dangers magic pose.\nThe Highborne were exiled from Kalimdor for their reckless use of magic that endangered us all. However, they came to Azshara recently with orc protectors. What\'s more concerning is the report that they killed the orcs, and are now surveying the area to the northwest of here for something.\nThey\'re up to no good, and I would have them stopped. Eliminate the intruders for me, and you will be rewarded.",
+    ["D"] = "Sightseeing in Azshara, $c? There\'s nothing worth seeing here for those that do not learn from history. The land itself and its namesake both are a testament to the dangers magic pose.\nThe Highborne were exiled from Kalimdor for their reckless use of magic that endangered us all. However, they came to Azshara recently with orc protectors. What\'s more concerning is the report that they killed the orcs, and are now surveying the area to the northwest of here for something.\nThey\'re up to no good, and I would have them stopped. Eliminate the intruders for me, and you will be rewarded.",
   },
   [27585] = {
     ["T"] = "Eau de Parfish",
     ["O"] = "Collect a Fragrant Felfish from within Felwood and return to Wifla at Blackmaw Village in Azshara.",
-    ["D"] = "I\'ll never understand fashion, Bennylava. Especially furbolg fashion. Wifla tells me that the Blackmaw make a cologne from fish they used to get from what is now Felwood. Stinky!\nBut, if it\'s important to our furry friends here, it\'s important to me. I\'d like to see if we can still get this fragrant beast even after the waterways have been corrupted by fel magic. Willin\' to give it a go?",
+    ["D"] = "I\'ll never understand fashion, $n. Especially furbolg fashion. Wifla tells me that the Blackmaw make a cologne from fish they used to get from what is now Felwood. Stinky!\nBut, if it\'s important to our furry friends here, it\'s important to me. I\'d like to see if we can still get this fragrant beast even after the waterways have been corrupted by fel magic. Willin\' to give it a go?",
   },
   [3382] = {
     ["T"] = "A Crew Under Fire",
     ["O"] = "Defend Captain Vanessa Beltis, her crew and the Horizon Scout\'s passengers against the naga attack. Captain Vanessa Beltis must survive.",
-    ["D"] = "We were just off the coast looking for a safe haven to make anchor. The sun hadn\'t been down for more than an hour when they attacked... those damned naga!\nI\'m not sure what they were looking for, but it\'s clear they didn\'t find it--they\'ve already come back once. A couple of my scouts are on watch at the entrance of the valley to give us fair warning when the next attack comes.\nI\'m sorry you\'ve come along now, Bennylava, but it\'s out of my hands.\nAre you ready for the fight of your life?",
+    ["D"] = "We were just off the coast looking for a safe haven to make anchor. The sun hadn\'t been down for more than an hour when they attacked... those damned naga!\nI\'m not sure what they were looking for, but it\'s clear they didn\'t find it--they\'ve already come back once. A couple of my scouts are on watch at the entrance of the valley to give us fair warning when the next attack comes.\nI\'m sorry you\'ve come along now, $n, but it\'s out of my hands.\nAre you ready for the fight of your life?",
   },
   [27264] = {
     ["T"] = "Thieves!",
