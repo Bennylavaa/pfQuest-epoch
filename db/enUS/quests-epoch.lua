@@ -2709,4 +2709,44 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect a Fragrant Felfish from within Felwood and return to Wifla at Blackmaw Village in Azshara.",
     ["D"] = "I\'ll never understand fashion, Bennylava. Especially furbolg fashion. Wifla tells me that the Blackmaw make a cologne from fish they used to get from what is now Felwood. Stinky!\nBut, if it\'s important to our furry friends here, it\'s important to me. I\'d like to see if we can still get this fragrant beast even after the waterways have been corrupted by fel magic. Willin\' to give it a go?",
   },
+  [3382] = {
+    ["T"] = "A Crew Under Fire",
+    ["O"] = "Defend Captain Vanessa Beltis, her crew and the Horizon Scout\'s passengers against the naga attack. Captain Vanessa Beltis must survive.",
+    ["D"] = "We were just off the coast looking for a safe haven to make anchor. The sun hadn\'t been down for more than an hour when they attacked... those damned naga!\nI\'m not sure what they were looking for, but it\'s clear they didn\'t find it--they\'ve already come back once. A couple of my scouts are on watch at the entrance of the valley to give us fair warning when the next attack comes.\nI\'m sorry you\'ve come along now, Bennylava, but it\'s out of my hands.\nAre you ready for the fight of your life?",
+  },
+  [27264] = {
+    ["T"] = "Thieves!",
+    ["O"] = "Recover Alexandra\'s Text from the Rethress Sanctum, and then return it to her at the Ruined Reaches in Azshara.",
+    ["D"] = "This isn\'t the first attack we\'ve suffered at the hands- claws- fins, whatever- of the naga! When we first arrived, we set up right on the beach. Before we knew it, murlocs and naga alike ambushed us and forced us to go back here.\nI looked back only once, but I saw one of those murlocs getting their fishy fingers all over a text I\'ve spent years of my life working with. Please, if you could retrieve it for me, I would be happy to pay you. They looked like they came from the way of the Rethress Sanctum to the east.",
+  },
+  [27265] = {
+    ["T"] = "Just To Be Safe",
+    ["O"] = "Kill 10 Spitelash Raiders and 5 Spitelash Witches at the Rethress Sanctum, and then return to Patrick Mills at the Ruined Reaches in Azshara.",
+    ["D"] = "Ever since the naga pushed us back here, we\'ve been on the constant defensive. We can breathe for a moment, but something needs to be done to keep them off us while the doctor tends to our wounded.\nAlexandra said she saw them coming from around the Rethress Sanctum. If I can convince you to help, that\'d be the place to strike at them. With any luck, they\'ll think twice about sending more attacks.",
+  },
+  [27266] = {
+    ["T"] = "On the Brink",
+    ["O"] = "Gather 3 Medical Supply Crates for Doctor Teltin at the Ruined Reaches in Azshara.",
+    ["D"] = "This is a nightmare. First we\'re sunk, then we\'re besieged, and now we\'re running out of supplies.\nDo me a favor? Some of our medical supply might\'ve floated up from the wreck of the Horizon Scout to the south. I did also see what looked like one of those gnome houses that might sell supplies to the west.\nIf you can bring me medical supplies from either, you\'ll be keeping us alive through whatever else the sea throws at us.",
+  },
+  [27267] = {
+    ["T"] = "The Horizon Scout",
+    ["O"] = "Find Second Mate Shandril near the Horizon Scout in Azshara.",
+    ["D"] = "Me and my crew are lucky you came by. Things are starting to look up for us.\nI know we\'ve asked a lot of you already, but when we were first pinned here my second mate Shandril set out to check for any other survivors near the Horizon Scout. Could you check in with her while I hold down the fort? She should just be to the south of our position.",
+  },
+  [27268] = {
+    ["T"] = "The Horizon Scout",
+    ["O"] = "Locate the missing crew in the wreck of the Horizon Scout, then return to Second Mate Shandril.",
+    ["D"] = "When the ship sank, most of us escaped with our lives, but I noticed that three of our crew were completely missing. I swam down to the wreck to see if I could find them, but I was hurt and couldn\'t keep looking.\nI\'m still recovering from my injuries. Do a gal a favor and see if you can\'t find our first mate, our cook, and our engineer. If we\'re lucky, they got out, but I got a bad feeling.",
+  },
+  [27269] = {
+    ["T"] = "Trying, But Not That Hard",
+    ["O"] = "\"Try your best\" to save Roland Geardabbler in the wreck of the Horizon Scout.",
+    ["D"] = "That bastard gnome! The Horizon Scout had a few passengers, and one of them was this sniveling little gnome named Roland. I tried to see if I could find our missing crew, and that gnome attacked me.\nI think he\'s going through an episode. I\'d be bad at my job if I didn\'t try my best to snap him out of it and bring him to safety, but that\'s not possible for me. Maybe you\'ll have more luck than I did?\nIf you have to kill him in self defense, I understand.",
+  },
+  [27270] = {
+    ["T"] = "The Horizon Scout",
+    ["O"] = "Return to Captain Vanessa Beltis at the Ruined Reaches in Azshara.",
+    ["D"] = "You\'ve done about all you can do right now. I\'m going to stick around here and see what I can salvage before heading back.\nYou ought to check in with cap\'n.",
+  },
 }

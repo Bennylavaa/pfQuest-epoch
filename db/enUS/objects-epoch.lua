@@ -75,6 +75,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000073] = "Wetland Hemp", --Placeholder ID
   [4000074] = "Silithid Metal Alloy", --Placeholder ID
   [4000075] = "Ogre Corpse", --Placeholder ID
+  [4000076] = "Medical Supply Crate", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID

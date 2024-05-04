@@ -331,4 +331,6 @@ pfDB["items"]["enUS-epoch"] = {
   [60890] = "Massive Cooling Essence",
   [60895] = "Amplified Water Essence",
   [63171] = "Fragrant Felfish",
+  [61791] = "Alexandra\'s Text",
+  [61793] = "Medical Supply Crate",
 }
