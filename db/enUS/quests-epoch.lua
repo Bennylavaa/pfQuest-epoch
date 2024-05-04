@@ -2174,6 +2174,251 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Find Foulcrest patrolling around Valorwind Lake and put him out of his misery.",
     ["D"] = "Some months ago while on a routine patrol of the skies a brave Wildhammer was brought out of the sky by a volley of troll spears. His faithful companion Foulcrest, raised from a babe, took it... badly. Ever since then he\'s fallen into a blood fury that means he\'s slaying wildlife, trolls and dwarves alike. Bring proof of his demise to the Gryphon Masters of Aerie Peak.",
   },
+  [26640] = {
+    ["T"] = "Reclaiming Tools",
+    ["O"] = "Recover tools from the Venture Co. within Glittermurk Mines.",
+    ["D"] = "So here\'s the deal a few months back I was commissioned to craft some high quality tools for a certain operation being undertaken within Stranglethorn that the foreman had named Glittermurk.\n\nI don\'t know what they were digging up but they threw manpower at the problem and gold at supplying them with tools.\n\nHowever, I\'ve received a much much more profitable commission right here in Tanaris and I need every tool I can get back to fill the order.\n\nIf you keep this between me and you I think you can go and \"recover\" the tools I made and everyone is happy, well, minus the Glittermurk chumps. Whaddya say?",
+  },
+  [26513] = {
+    ["T"] = "Azeroth Space Society",
+    ["O"] = "Locate Goddard of the Azeroth Space Society in Steamwheedle Port.",
+    ["D"] = "Our chief rocket scientist Goddard has set up his experimental rocket development platform in Steamwheedle Port. Something about it being safer to launch over the ocean but since when has safety mattered?\n\nHe was recently complaining that he needs some assistance tracking down key ingredients.\n\nCould you go find him and see what he wants?",
+  },
+  [26538] = {
+    ["T"] = "Supplying Anje\'Watha",
+    ["O"] = "Bring the supplies to Urulg in Anje\'Watha in the south east corner of Tanaris.",
+    ["D"] = "Greetings, adventurer. I have a mission for you, if you\'re up for the challenge. We\'ve received word that our outpost in Anje\'Watha, to the southeast of here, is running low on supplies. I need someone to take a shipment of supplies to them and make sure they get there safely. You\'ll find the outpost near The Gaping Chasm - just head southeast from Gadgetzan and you should be able to find it. Are you interested?",
+  },
+  [26521] = {
+    ["T"] = "Boom! Boom! Boom!",
+    ["O"] = "Collect 8 Flame Sack\'s from Fire Roc\'s in the Abyssal Sands of Tanaris. Usually found around Dragon bones.",
+    ["D"] = "Boom! Boom! Boom! I\'m making a biiig grenade! Why? Why not!? Boom! Boom! Boom!\n\nI need an extra boost that can come from only one thing, Fire Roc\'s. Can you go collect me some of their Flame Sack\'s?",
+  },
+  [26515] = {
+    ["T"] = "Think Of The Animals",
+    ["O"] = "Clean 8 Oil Coated Critter\'s along the Tanaris coast.",
+    ["D"] = "Ever since that oil rig went up I\'ve been finding animals up and down the coast coated in the result of their spills. They\'re suffering and it breaks my heart to see them like this.\n\nCan you do something about it? I can\'t save them all. Here, take these cleaning supplies and aid any of them you come across.",
+  },
+  [26516] = {
+    ["T"] = "Waste Removal",
+    ["O"] = "Cleanup 6 Oil Spills in the waters along the Tanaris coast.",
+    ["D"] = "If we don\'t remove the barrels in the ocean that are leaking this oil it won\'t matter how many critters we clean up.\n\nTake this and head along the coast and in the shallows remove any oil spills you find. The more the better.\n\nCan you do that?",
+  },
+  [26517] = {
+    ["T"] = "Desperate Measures",
+    ["O"] = "Collect Marai\'s \"Supplies\" from her contact Buzzek Bracketswing in Gadgetzan.",
+    ["D"] = "I\'m sick of this! I can already see new critters suffering and fresh barrels dumped into the ocean. The Water Co. won\'t help me since they have their fancy filter nonsense. If we want this stopped we have to go to the real source... that oil rig has to go... permanently...\n\nI reached out to a master engineer in Gadgetzan by the name of Buzzek and he has prepared some \"Supplies\" for me. Can you go fetch them for me? They will be important for what is to come.",
+  },
+  [26518] = {
+    ["T"] = "Oil Baron Beatdown",
+    ["O"] = "Slay 8 Oil Rig Workers and their leader Overseer Looney at the Oil Rig north of Steamwheedle Port.",
+    ["D"] = "The first step to taking down that rig is removing their workers and their leader. He goes by the name Overseer Looney and apparently can be find right at the top of the rig in his control room.\n\nThe rest of them are just lackeys but they\'re happy to make critters suffer for their own financial gain so that\'s good enough for me. What kind of monster does that?",
+  },
+  [26519] = {
+    ["T"] = "Sink The Rig",
+    ["O"] = "Place 4 Explosives around Slightly Opened Oil Barrel\"s on the oil rig north of Steamwheedle Port.",
+    ["D"] = "And now for the ultimate solution to this little problem. Once their workers are dead it will be easy for you to plant these explosives near any open barrel and the resulting chain reaction will be catastrophic. Place them in as many places as you can so we can ensure that rig is never fit for purpose again.",
+  },
+  [26520] = {
+    ["T"] = "No One Drinks For Free",
+    ["O"] = "Have a stern talk with the occupants of Steamwheedle Port who have not paid their water bill.",
+    ["D"] = "Well don\'t you look like a walking, talking, mean son of a gun... Open to a little side work? Around here if you want the best clean water you have to go through us. We pipe it directly to all the homes in town for a fee.\n\nSome people however don\'t seem to understand how generous we\'ve been and have \"forgotten\" to pay their bills. I need someone to convince them. You can do that can\'t you?\n\nThe first is miss Miki Springsocket, she sells Food and Drinks behind the inn. The second will be Inabit Wedgefeet, he is our resident explosives obsessive. You\'ll find him easily he\'s the only Gnome in town. Thirdly you\'ll have to track down Stelx, she recently set up shop selling and fixing armor. And finally, that fishy smelling fool Gikkix.",
+  },
+  [26507] = {
+    ["T"] = "The Perfect Fuel",
+    ["O"] = "Collect 8 Ancient Batteries from the Noonshade Ruins and 6 Extracted Scorpid Venom Sacks from Scorpid Hunters.",
+    ["D"] = "I\'m working on the perfect rocket fuel for my prized construction you see right behind me. The fuel is the key to everything and without that this is nothing more than an overgrown phalic symbol. We can\'t be having that! The Trolls of the Noonshade Ruins west of here used to create a very rudimentary form of battery that as it has sat baking in the desert sun has only grown more potent. Could you go and get me some $N? While you\'re at it I\'m going to need to biggest venom sacks you can get from the Scorpid nearby.",
+  },
+  [26508] = {
+    ["T"] = "The Perfect Fuel",
+    ["O"] = "Collect Crude Oil from the base of the Oil Rig northeast of Steamwheedle Port.",
+    ["D"] = "At the base of the Oil Platform northeast of here you can find a valve that they use to test the purity before and after they refine the oil. I need the crudest most unrefined oil available so that means we need to steal some from underwater. Go to that platform and bring this vessel with you, fill it up at the valve and bring it back for me and we can continue.",
+  },
+  [26509] = {
+    ["T"] = "The Perfect Container",
+    ["O"] = "Acquire 6 Gnome Car Parts from the crashed Gnome racer west of Gadgetzan.",
+    ["D"] = "The perfect fuel is useless if we don\'t have a reliable way to store it on the rocket. The best metalurgy around is done by the Gnome racing crew at the Mirage Raceway but sadly they won\'t share! Something to do with \"trade screts\" and \"stop trying to steal our stuff\", whatever.\n\nGossip has been spreading that one of their experimental cars crashed all the way here in Tanaris. I want that metal! Find them just outside of Gadgetzan and bring me it by any means neccesary.",
+  },
+  [26510] = {
+    ["T"] = "Even Better Fuel",
+    ["O"] = "Collect a Mutated Basilisk Gland and 6 Glasshide Glands for Poole in Steamwheedle Port.",
+    ["D"] = "Psst... Over here... Keep your voice down.\n\nLook, between you and me I think Goddard here is a bozo. Constantly pushing me around and ranting about how brilliant he is. I\'m tired of it! There can only be one chief rocket scientiest, the budget doesn\'t allow for more. So... help me get rid of him. Whaddya say?\n\nI\'m going to add some extra ingredients into the mix that will have catastrophic results when ignited. Can you go get them for me? Firstly I need glands from the Glasshide Basilisk\'s in the dunes, those are a relatively normal component in fuel. The extra spark comes from a mutated one I\'ve seen near by. I think the oil made it go all wonky! He\'s been seen patrolling the beaches south of here, go get me his gland to add to the mix.\n\nAnd keep this between us or it\'s both our necks being rung outside Gadgetzan.",
+  },
+  [26522] = {
+    ["T"] = "Water Co. Saviour",
+    ["O"] = "Collect 8 Filter Parts from the seabed surrounding Steamwheedle Port.",
+    ["D"] = "This right here is the heart of the Water Co. empire but right now we\'re entirely running on reserves because there\'s been some serious damage to the filter system.\n\nWe were expecting a shipment of parts to prevent exactly this situation but those lumbering oafs knocked the majority off the boat when docking. Just can\'t get the talent these days!\n\nCan you go down there and get them before they\'re rusted beyond use?",
+  },
+  [26523] = {
+    ["T"] = "A Workwomans Tools",
+    ["O"] = "Collect Kyx\'s Battery Boosted Welder from Razzeric at the Mirage Raceway in the salt flats.",
+    ["D"] = "One of the thing\'s we were expecting from our shipment was a new powerful arc welder that I can use here. The second it touched the water however it was ruined so I didn\'t even bother asking you to fish that up.\n\nI do have a spare that I loaned to a good buddy of mine who works for the Goblin Race Team at the Mirage Raceway. Could you go ask him for it? I\'m sure he won\'t be best pleased but our needs are greater than some race car.",
+  },
+  [26524] = {
+    ["T"] = "A Workwomans Tools",
+    ["O"] = "Charge Kyx\'s Batteries using weakened Raging Tempest\'s across the dunes of Tanaris.",
+    ["D"] = "The only issue with this welder is that apparently Razzeric didn\'t keep it charged. Typical of him.\n\nOut in the dunes there is a rare elemental that we\'ve taken to calling a Raging Tempest. They\'re chocked full of extremely potent electricity if we use them then we can charge these cells rapidly.\n\nYou will have to weaken them first and then blast them with the charger and before you know it we\'ll be on our way to some high quality H2O flowing through here again.",
+  },
+  [26525] = {
+    ["T"] = "Water Injection",
+    ["O"] = "Collect 8 Fuel Injector\'s from the downed Zepellin near the Broken Pillar Ruins in the center of the dunes.",
+    ["D"] = "Something is definitely off here the pressure is just no where near what we need. Let me think...\n\nI know! South west of here at the Broken Pillar ruins there\'s a mad scientist that we once employed. His Zeppelin was downed and on it were some fuel injectors. With a little bit of tinkering I can modify them to be water injectors. It\'s a bit of a treck but could you go get them? It should be easy to spot once you\'re in the middle of the dunes.",
+  },
+  [26526] = {
+    ["T"] = "A Saboteur In Our Midst",
+    ["O"] = "Question Bruiser\'s in Steamwheedle Port to find out who the Shadowy Figure is and where they went.",
+    ["D"] = "A sabateur! It all makes so much sense now... They must have knocked our parts into the ocean, they were the ones who sabotaged the filter in the first place. But who could it be?\n\nI didn\'t quite see where they fled but that\'s what the Bruisers are paid for. Go and ask them what they saw.",
+  },
+  [26527] = {
+    ["T"] = "Clear Accusations",
+    ["O"] = "Inform Security Chief Bilgewhizzle of who damaged the water filtration system.",
+    ["D"] = "So they all kept mentioning the same person, Doszard. Why does that name ring such a bell? A bruiser! He\'s one of the guards. It\'s an inside job! The security chief must be told of this, go to him now.",
+  },
+  [26528] = {
+    ["T"] = "Wanted: Doszurd",
+    ["O"] = "Locate and slay Doszurd the former bruiser. He was reportedly seen just outside of Gadgetzan.",
+    ["D"] = "Our agents have informed us that the traitor Doszurd has been spotted getting supplies from Gadgetzan and walking out of the gates. Wherever he is must be a short walk away. Find him and slay him on behalf of the Water Co. Report to the Security Chief when the deed is done.",
+  },
+  [26529] = {
+    ["T"] = "Two Legged Vultures",
+    ["O"] = "Collect Marvon\'s Pocket Watch, Brimmed Hat and Ham Radio from the looters at his crashed Zepellin.",
+    ["D"] = "I\'ve been crashed in this zone for only a couple of weeks and my Zepellin behind me has already been quickly taken taken over by looters.\n\nThey\'re no better than vultures swooping down to pick apart what isn\'t theirs.\n\nHowever there\'s only me out here and I\'m focused on my research. Could you be a dear and go get my things from the looters? As you can see I\'ve barely a thing to my name here.",
+  },
+  [26539] = {
+    ["T"] = "They Mostly Come At Night... Mostly",
+    ["O"] = "Collect 10 Nightstalker Mandibles from Nightstalkers in Tanaris.",
+    ["D"] = "The blasted silithid are causing trouble again. They\'ve been spotted sending their Nightstalkers to guard their territory in Tanaris. These beasts only come out at night, so you\'ll need to be careful if you want to track them down.\n\nYou can find the Nightstalkers at the Noxious Lair and the Gaping Chasm. The Noxious Lair is in the far northwest, and the Gaping Chasm is just outside Anje\'Watha.\n\nUse your strength and cunning to defeat them, and collect their mandibles as proof of your victory.",
+  },
+  [26548] = {
+    ["T"] = "Lightfoot\'s Rescue",
+    ["O"] = "Escort Scout Lightfoot out of the Noxious Lair and defend him from any threats along the way.",
+    ["D"] = "Thank you for finding me. I was on a scouting mission in the Noxious Lair when I was ambushed and knocked unconscious. I need your help to get out of here and back to Anje\'Watha. Will you help me?",
+  },
+  [26541] = {
+    ["T"] = "Scouts Honor",
+    ["O"] = "Head northwest to the Noxious Lair and locate a scout named Shadowdancer who is monitoring the situation there.",
+    ["D"] = "Listen carefully, adventurer. I have sent a strong Troll named Shadowdancer and her scouting party to monitor the situation at the Noxious Lair to the northwest. They have not reported back in weeks, and I am concerned for their safety. I need someone to head to the Noxious Lair and locate them, and ensure that they are safe.\n\nI will not tolerate incompetence. If Shadowdancer and her party are in danger, it is your duty to locate them and ensure their safety. Head to the Noxious Lair and do not return until you have found them. And be warned - if you fail in this task, you will face the full wrath of my anger. Do I make myself clear?",
+  },
+  [26542] = {
+    ["T"] = "A Party Fractured",
+    ["O"] = "Collect 8 stingers from the Centipaar Wasps above ground.",
+    ["D"] = "Listen carefully, $c. The rest of my scouting party was stung and knocked unconscious by a paralysing toxin during a fight with the insect Silithid, and I am worried about their safety. I need the stingers from the Centipaar Wasps that are found above ground at the Noxious Lair to create a salve that will cleanse the toxin and help them recover.",
+  },
+  [26543] = {
+    ["T"] = "Workers Rebellion",
+    ["O"] = "Kill 10 Centipaar Workers at the Noxious Lair for Scout Shadowdancer.",
+    ["D"] = "Listen carefully, $N. While you are collecting the stingers from the Centipaar Wasps, I have seen the Centipaar Workers dragging away my unconscious scouting party into the hive for unknown reasons. I need you to kill these workers to prevent them from taking any more scouts into the hive.",
+  },
+  [26544] = {
+    ["T"] = "On Your Feet",
+    ["O"] = "Locate and revive 8 Unconscious Scout\'s on the surface of the Noxious Lair.",
+    ["D"] = "The safety of my scouting party is at stake, and we need to revive them as soon as possible. Head to the Noxious Lair and use the salve to revive the unconscious scouts. Do not return until you have successfully revived all of the scouts. Do I make myself clear, $N?",
+  },
+  [26545] = {
+    ["T"] = "Silithid Scramble",
+    ["O"] = "Scout deeper into the hive and eradicate 6 Centipaar Tunnelers and 6 Centipaar Sandreavers.",
+    ["D"] = "Thank you for your help with reviving the scouts, $N. Now it is time for us to seek vengeance for what the Centipaar have done to my scouting party. I need you to scout deeper into the hive and eradicate the Centipaar Tunnelers and Centipaar Sandreavers who are responsible for digging the tunnels under the sands of Tanaris.\n\nThe hives are dangerous places, filled with all manner of deadly insects. You must be careful, $N, and be prepared for a difficult and dangerous fight. Once you have killed the Tunnelers and Sandreavers, return to me.",
+  },
+  [26546] = {
+    ["T"] = "Bug Burnout",
+    ["O"] = "Burn 6 Centipaar Stinger or Centipaar Swarmer corpses in the deepest parts of the Noxious Lair.",
+    ["D"] = "I have a special mission for you, $N. The lowest depths of the Noxious Lair are filled with the toughest Centipaar, including the Centipaar Stingers and Centipaar Swarmers. I need you to reach them and kill these insects.\n\nHowever, there is a catch. When you kill the Stingers and Swarmers, you must use a torch that I have coated with the crushed stinger paste to set them on fire. The stinger paste is highly flammable.\n\nYou see, $N, the Centipaar Stingers and Centipaar Swarmers are the most potent breeders of the Centipaar. By killing them and setting them on fire, we can decimate their population and prevent them from rebuilding the hive. It is a risky plan, but it is the only way to ensure the safety of the people of Tanaris. Can I trust you to do this, $N?",
+  },
+  [26540] = {
+    ["T"] = "The Great Brain Robbery",
+    ["O"] = "Collect brains from the Silithid at the two hives in Tanaris.",
+    ["D"] = "Ah, so you\'re the hero that\'s going to help me with my research, are you? Well, let me tell you, it\'s no easy task. I need brains from the Silithid at the two hives in Tanaris. Think you can handle that, or do I need to find someone else?\n\nI don\'t have time to explain the details, but let\'s just say I\'m conducting a study on the Silithid and I need brains from those critters. The hives in Tanaris are crawling with them, so get over there and collect as many brains as you can. I\'ll be waiting for you when you get back",
+  },
+  [26555] = {
+    ["T"] = "Hive Mind",
+    ["O"] = "Collect Dumont\'s Secret Supplies from Inabit Wedgefeet at Steamwheedle Port in Tanaris.",
+    ["D"] = "We\'ve noticed something with the Silithid brains. A sort of... psychic link. They\'re not just driven by instinct somewhere in the dunes is a great Hazzali leader that controls the Silithid here and at the Noxious Lair.\n\nSilithid brains are very simple so we\'re going to make a special mind control cap rigged with explosives. I think Dennis would suit well...\n\nI\'ve commissioned the cap from an eccentric Gnome in Steamwheedle named Inabit Wedgefeet, can you get it for me?",
+  },
+  [26549] = {
+    ["T"] = "A Loa\'s Respect",
+    ["O"] = "Collect meat from Searing Rocs and Glasshide Petrifiers in the southwest region of Tanaris as an offering to Gral, the Loa of the sea.",
+    ["D"] = "Ey, mon. I be Akiha, powerful shaman and servant of da Loa of da sea, Gral. I come to you wit a task of great importance.\n\nTo da west of Anje\'Watha, dere be Searing Roc\'s and Glasshide Petrifiers. Dese beasts be known for da succulent meat dey provide, and I need a large amount of it to gain da favour of Gral.\n\nI need Gral\'s blessing to keep da Water Elementals flowing. Without his favour, dey will wither and fade away.\n\nBring me as much as you can manage.",
+  },
+  [26550] = {
+    ["T"] = "A Loa\'s Respect",
+    ["O"] = "Make an offering to Gral at an altar on Land\'s End Beach in order to gain his favour.",
+    ["D"] = "Now, I have another task for you. I need you to take dis meat to an altar on Land\'s End Beach and place it dere as an offering to Gral. Hopefully, he will be pleased with da offering and appear to us.\n\nTo find da altar on Land\'s End Beach, simply travel east of Anje\'Watha until you reach the sandy shores. The altar can be found near the water\'s edge.\n\nOnce you have made da offering, return to me at Anje\'Watha and I will reward you for your efforts. May Gral guide you on your journey.",
+  },
+  [26547] = {
+    ["T"] = "Urulgs Report",
+    ["O"] = "Bring the Scouting Report back to Urulg in Anje\'Watha.",
+    ["D"] = "We have successfully cleared the lair of all hostile creatures and have discovered a potential weapon in the Silithid Stingers. I would be grateful if you could deliver this report to my superior, Urulg, and inform him of our success.",
+  },
+  [26551] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Locate Melchor Bloodrunner at Anje\'Watha in Tanaris.",
+    ["D"] = "I understand that you have recently discovered that Silithid Stingers can be crushed into a paste and used as a flammable weapon. This information could be valuable to our cause in the ongoing war against the Alliance and the Silithid. I am asking for your help in delivering this information to the forsaken named Melchor Bloodrunner. He can be found nearby, in a cave within Anje\'Watha.",
+  },
+  [26552] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Collect 8 Hazzali Wasp Stinger\'s from Hazzali Wasps in the Gaping Chasm.",
+    ["D"] = "Now that we know the potential of Silithid Stingers, I want to take this opportunity to explore it further. I have a new quest for you, Pftestseven. I want you to collect more of these stingers, but this time from the much stronger Hazzali Wasps. With a larger supply of the paste, we can create specialised fire arrows for our Horde troops in Tanaris. Can I count on you to help us with this?",
+  },
+  [26553] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Collect Tar from Tar Beasts in Tanaris into the item Melchor Bloodrunner provided. Tar Beasts must be in a weakened state.",
+    ["D"] = "Now that we have the stingers, we must focus on making the fire arrows as potent as possible. I have devised a special container that can absorb the Tar straight from the core of the Tar Beasts, but it requires that they be weakened and alive. It is a painful process, but these creatures are of no use to us otherwise. You can find the Tar Beasts at the Lakkari Troll Pits in Un\'Goro Crater.",
+  },
+  [26530] = {
+    ["T"] = "Find Wuti",
+    ["O"] = "Locate Wuti Sunjumper on Land\'s End Beach and ensure she is safe.",
+    ["D"] = "Greetings, adventurer. I am in need of your help. My dear friend, Wuti Sunjumper, has been missing for several days. She is a skilled fisherman and a valuable member of our community. I fear something terrible may have happened to her.\n\nWill you please search for Wuti on Land\'s End Beach? Her home is located there, and it is the last place she was seen. I beg of you, ensure she is safe. I will be forever in your debt.",
+  },
+  [26531] = {
+    ["T"] = "A Chilly Stranger",
+    ["O"] = "Collect 8 Sandshore Seagrass and 6 Phial\'s of Surf Glider Water for Wuti Sunjumper.",
+    ["D"] = "The Tuskarr is still in great danger from the heat of the desert. I fear that he will not survive much longer without a cooling totem to protect him.\n\nTo create the totem, we will need a specific type of kelp that can only be found on the desert coasts named Sandshore Seagrass, as well as water from a turtle shell. Yes you heard me. A turtle shell.\n\nI know it will be a difficult and dangerous task, but I beg of you, please help us gather these ingredients. The Tuskarr\'s life depends on it.",
+  },
+  [26532] = {
+    ["T"] = "A Chilly Stranger",
+    ["O"] = "Fill the Crystal Phial with water from the Moonwell in Thistleshrub Valley as well as 8 Sturdy Root\'s from Thistleshrub Thornseekers.",
+    ["D"] = "I fear that the cooling totem will not be powerful enough to help the Tuskarr. The desert heat is too strong, and he needs more powerful ingredients to recover.\n\nI have heard of a Moonwell in Thistleshrub Valley, to the northwest. The water from the Moonwell is said to have powerful healing properties. If we could obtain some of that water, it would greatly strengthen the totem.\n\nAdditionally, the most powerful Thistleshrub monsters that inhabit the valley are known to have powerful roots that can enhance the potency of herbal remedies. If you could collect some of those roots for us, it would be a great help.\n\nI know it is a long and dangerous journey, but I beg of you, please help us obtain these ingredients. The Tuskarr\'s life depends on it.",
+  },
+  [26533] = {
+    ["T"] = "A Chilly Stranger",
+    ["O"] = "Place the Water Totem next to Roknar the Tuskarr at Wuti Sunjumper\'s home.",
+    ["D"] = "The totem is almost ready, adventurer. I just need your help to place it next to the Tuskarr. His condition is still critical, and the totem will provide the healing he needs.\n\nCan you please assist me in placing the totem next to the Tuskarr? Your help is greatly appreciated.",
+  },
+  [26534] = {
+    ["T"] = "Technological Advances",
+    ["O"] = "Journey to Steamwheedle Port and ask Innkeeper Fizzmind for a cooler for the Tuskarr.",
+    ["D"] = "I have not yet contacted Steamwheedle Port, but I have heard that they have a cooler that we could use to save the Tuskarr. However, I fear that they may not be willing to lend it to us without a good reason.\n\nCan you please go to Steamwheedle Port and convince Innkeeper Fizzmind to lend us the cooler? I understand that it may be difficult, but I am confident in your skills and abilities.\n\nPlease, do everything in your power to convince Innkeeper Fizzmind to lend us the cooler. The Tuskarr\'s life depends on it.",
+  },
+  [26535] = {
+    ["T"] = "Keep On Chilling",
+    ["O"] = "Bring the cooler to Akiha in Anje\'Watha and ask for his guidance on how to empower it.",
+    ["D"] = "I must admit, I am fond of Wuti Sunjumper and I would like to help her. I will lend you the cooler, but I must warn you that it is not powerful enough on its own to save the Tuskarr.\n\nTo empower the cooler and make it strong enough to save them, you will need the assistance of a water elemental. The nearest water elementals can be found in Anje\'Watha, an outpost to the south that I don\'t doubt you are familiar with. Go speak with a powerful Shaman there named Akiha for his guidance.",
+  },
+  [26556] = {
+    ["T"] = "Mind Blown",
+    ["O"] = "Using the Explosive Mind Control Cap escort Dennis into the northern Gaping Chasm Hive and destroy the Hazzali Brainlord inside.",
+    ["D"] = "The Silithid are simple beasts who can even \"function\" with half their brain missing, little Dennis over there is a prime example. Sadly this cap is for him.\n\nThe Silithid will not attack him which lets us get deep into the Gaping Chasm hive and take out the Brainlord that is controlling them. I\'m sure that Lillyn won\'t mind...",
+  },
+  [26536] = {
+    ["T"] = "A Blessing of Aqua",
+    ["O"] = "Ask both water elementals in Anje\'Watha for their blessing upon the cooler.",
+    ["D"] = "I see da determination and passion in your eyes, adventurer. You truly believe in da importance of saving da Tuskarr. I am impressed by your resolve and I will do everyting in my power to help you.\n\nBut be warned, mon. Da water elementals are not bound to me by force. Dey be bonded to me by choice, and I cannot command dem to do anyting against dere will.\n\nYou must request da aid of da water elementals and convince dem of da need for da cooler and da importance of saving da Tuskarr. If you can do dat, dey will willingly empower da cooler and make it strong enough to save da Tuskarr\'s life.",
+  },
+  [26557] = {
+    ["T"] = "A Hive Cleared",
+    ["O"] = "Inform Urulg that you have successfully cleared the Gaping Chasm hive of it\'s strongest Silithid.",
+    ["D"] = "This was far more successful than I anticipated. I think before long we can clear out of here and back to our real research in the Undercity. Go give that gruff oaf Urulg the good knews.",
+  },
+  [26537] = {
+    ["T"] = "A Chilly Friend",
+    ["O"] = "Place the empowered cooler next to the Tuskarr to cure him of his heat stroke.",
+    ["D"] = "Adventurer, you have been instrumental in our quest to save the Tuskarr. Without your help, we would have surely failed.\n\nI would like to ask one final favor of you. Would you do the honors of placing the cooler next to the Tuskarr and saving his life? It would be a great honor for me, and I know that the Tuskarr would be grateful as well.",
+  },
+  [26554] = {
+    ["T"] = "Tips Of Fire",
+    ["O"] = "Bring the Fire Arrows to Remi Coldeye in Anje\'Watha.",
+    ["D"] = "The fire arrows are complete, $N. And now it is time to put them to use. I want you to deliver them to Remi Coldeye, who will dispatch them among our new recruits for use in battle against the Silithid.",
+  },
   [26505] = {
     ["T"] = "Parts From Afar",
     ["O"] = "Bring the Box of Siege Tank Parts back to Chief Engineer Urul in Aerie Peak.",
