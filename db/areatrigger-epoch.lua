@@ -54,4 +54,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 81.0, 33.1, 3 },
     },
   },
+  [4000010] = { --Centar Artifact
+    ["coords"] = {
+      [1] = { 42.15, 34.78, 400 },
+    },
+  },
 }
