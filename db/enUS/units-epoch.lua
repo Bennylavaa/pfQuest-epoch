@@ -354,4 +354,13 @@ pfDB["units"]["enUS-epoch"] = {
   [46876] = "Karum Mallister",
   [46890] = "Peryn Mallister",
   [46888] = "Myldis",
+  [46889] = "Meeran",
+  [46892] = "Dayna Stonekeg",
+  [46896] = "Golemancer Lugar",
+  [46904] = "Everstill Lurker",
+  [46879] = "Sorcerer Maltarg",
+  [46880] = "Forgemaster Tralak",
+  [46877] = "Captain Grumma",
+  [46881] = "Nargosh Rageblade",
+  [46887] = "Raha\'glor the Inferno",
 }

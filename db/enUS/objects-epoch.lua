@@ -117,4 +117,9 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001043] = "Thistleshrub Valley Moonwell", --Placeholder ID
   [4001044] = "Gnome Car Parts", --Placeholder ID
   [4001045] = "Abandoned Herb Pouch", --Placeholder ID
+  [4001046] = "Torn Shirt", --Placeholder ID
+  [4001047] = "Ornate Wardrobe", --Placeholder ID
+  [4001048] = "Lava Pool", --Placeholder ID
+  [4001049] = "The Altar of Storms", --Placeholder ID
+  [4001050] = "Dreadmaul Peak Altar", --Placeholder ID
 }
