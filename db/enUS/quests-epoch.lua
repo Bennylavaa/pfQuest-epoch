@@ -2549,4 +2549,154 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Summon and defeat the manifestation of fire at the altar upon the summit of Dreadmaul Rock.",
     ["D"] = "<Gruhl murmurs and waves his hand over the runes, each one rattling and glowing in response.>\n\nHmm... this is the one. This rune whispers to me as the voice yells out. Allow me to prepare it for binding.\n\n<Minutes pass, and Gruhl finishes his work using all the components gathered.>\n\nThere. The ritual is simple -- use this rune at the altar atop Dreadmaul Rock. The roiling energy of the land will flare out into the bracers, bound to an elemental form. Defeating it will extinguish all the energy spent in its binding.\n\nAs I said before, fire is a violent element. You may need to enlist some allies in the fight ahead.",
   },
+  [26567] = {
+    ["T"] = "Stitching Supplies",
+    ["O"] = "Bring 10 Dusty Leather to Rendow at Thalanaar in Thousand Needles.",
+    ["D"] = "Pardon me, but do you have a moment? I\'m running low on materials for armor repairs, and I don\'t expect any caravans to pass through here after the centaurs\' latest attack. I need some fresh leather from the beasts roaming around the Thousand Needles.\nI\'m not particularly picky on what animals you gather them from or the quality of the leather, but if you can gather ten pieces, I can pay you well for the lot.",
+  },
+  [26565] = {
+    ["T"] = "Why Oh Wyvern",
+    ["O"] = "Rescue Kristy\'s cat Cody from Highperch.",
+    ["D"] = "$c, you have to help me!\nCody, my little devil of a cat... he\'s been catnapped! I leave his carrier door open for a moment and he bolts out into the desert! Before I could catch him, one of those wyverns swooped by and grabbed my dear Cody! They must\'ve mistook him for one of their cubs!\nTake Cody\'s carrier and head up to the wyverns\' nesting grounds in Highperch, but please be careful! The wyverns there are said to be ferocious, and I don\'t want my little boy getting hurt!\nPlease $c, hurry!",
+  },
+  [26564] = {
+    ["T"] = "Bad News Has Horns",
+    ["O"] = "Locate and retrieve the three Secret Notes in Darkcloud Pinnacle.",
+    ["D"] = "Outside of the centaur, tauren, and the occasional goblin caravan, we rarely see travelers in the Needles. Though there\'s one group in particular that\'s caught my concern.\nShadowy individuals have been seen discussing things with the Grimtotem clan. They wore cowls so I couldn\'t make out their identity, but I have my doubts about them being members of the Horde, given the clan\'s hostility towards them.\nI don\'t know what the Grimtotem are planning, but it can\'t possibly be good. I understand this is a huge risk, but I need you to infiltrate the clan\'s village on Darkcloud Pinnacle. See if you can find any documents, messages, anything that could explain the collaboration between those agents and the Grimtotem.",
+  },
+  [26568] = {
+    ["T"] = "The Sacred Flame",
+    ["O"] = "Scout the location of the centaur artifact.",
+    ["D"] = "I\'ve heard rumors about the centaur of this region. Supposedly the Galak clan are protecting an artifact from the time of the centaurs\' creation.\nI have no idea what it is exactly, but I believe it could shed some light on the origins of the centaur. Unfortunately we have no ides of the artifact\'s whereabouts, and I doubt the Galak would disclose its location so easily.\nThe largest Galak settlement is in Splithoof Crag further down the canyon. I\'d suggest looking there for any possible clues, but I don\'t think even the centaur would leave something so valuable out in the open.",
+  },
+  [26566] = {
+    ["T"] = "Kristy\'s Delivery Service",
+    ["O"] = "Bring Cody to Nelae Skymoon at Squigglecord Outpost in Desolace.",
+    ["D"] = "Well, Cody seems alright after his little adventure; a little shaken but otherwise he\'s not hurt. I just don\'t know if I can keep Cody around Thalanaar any longer with how much trouble he keeps getting himself into.\nIf you don\'t mind, could you keep an eye on him for a little longer and bring him to a friend of mine? Nelae Skymoon up in Squigglecord Outpost, she\'s an absolute sweetheart with cats of all kinds and I\'m sure she\'d be more than happy to babysit my little Cody.\nDesolace is a little bit of a walk from here, but after what you\'ve been through, it should be no problem for you!",
+  },
+  [26569] = {
+    ["T"] = "The Sacred Flame",
+    ["O"] = "Retrieve the Cloven Hoof for Falfindel Waywarder.",
+    ["D"] = "Take this phial, and fill it at the moonwell here. If my assumption is correct, the water of the moonwells can be used to douse the flame and retrieve the hoof. It will not be extinguished forever, so you\'ll have to be quick about it.\nGo back to Splithoof Hold and retrieve the Cloven Hoof for me. The centaur and the dryads appear to share similar ancestry, no doubt the Hoof is connected to that.",
+  },
+  [26602] = {
+    ["T"] = "Wanted: Lost Ancient",
+    ["O"] = "Locate and slay the Lost Ancient and collect a Hefty Ancient Log as proof.",
+    ["D"] = "Soon to be King Gluk\'s demand for weapons to bolster his forces knows no bounds and we\'re going to need a lot of very strong wood.\nRoaming south of the compound a Lost Ancient has been seen decimating adventurers and ogres alike. Slay him on my behalf and you will be handsomely rewarded.\n-- Viggo",
+  },
+  [26593] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Collect Walker Branches from Wandering Forest Walkers throughout Feralas.",
+    ["D"] = "You don\'t look too busy... how about a little task? I\'ve been sent here by the Steamwheedle Cartel to hedge on a little bet, Gluk here thinks that one day he\'s going to be King Gordok just like his father was before him but the current King branded him as a traitor and expelled them from Dire Maul. We think Gluk has what it takes, with some help from friends.\nI plan to forge a mighty weapon for Gluk that he can use in the coming battle and you are going to get me all the parts I need. Deal?\nThe first thing I need is a special type of magical wood that you can find on the Forest Walkers nearby, it\'s light but as strong as any metal and will make a fine handle.",
+  },
+  [26635] = {
+    ["T"] = "Meat!",
+    ["O"] = "Collect Ironfur Meat and Ape Meat for Mek\'nell at Gluk\'s Compound.",
+    ["D"] = "Me running low on supplies! It takes a lot to feed Gluk\'s Enforcers! We need more! Will you help?\nThe young Ironfur Bears have the yummiest meat so get them and the Groddocs taste sweet, me love them! Go get, they\'re nearby.",
+  },
+  [26605] = {
+    ["T"] = "Convincing the Denied",
+    ["O"] = "Collect Broken Mirror Shards from Harpies that are found North West of Gluk\'s Compound at the Ravenwind Ruins.",
+    ["D"] = "Me Jrall. Me need help. My friend Trog, he dead but he no know it. He walk around like alive. Me want him find peace. Me hear Harpies at Ravenwind ruins, they love mirror pieces. They vain, always looking at themselves. You go get for me, okay? Me pay good. Help me, friend",
+  },
+  [26617] = {
+    ["T"] = "A Reflection of Death",
+    ["O"] = "Show Trog his own reflection to prove to him that he is dead.",
+    ["D"] = "You help me before, thank you. Now me need more help. Me make crude mirror with pieces you bring. Me want you take it to Trog and show him reflection. He see he dead, he find peace. You do this for me, friend?",
+  },
+  [26606] = {
+    ["T"] = "Dead and Gone",
+    ["O"] = "Ask around Gluk's Compound to get information about where Trog died.",
+    ["D"] = "Trog not believe he dead, need see body. You help me find out where he die. Go talk to Enforcer\'s, Mek\'nell, and Gark. They know things. You bring back information, me pay you.",
+  },
+  [26607] = {
+    ["T"] = "Dental Records",
+    ["O"] = "Collect Ironfur Patriarch teeth from the areas north of Gluk\'s Compound.",
+    ["D"] = "Me need you to go find Ironfur Patriarch teeth. Me think maybe when Trog see teeth, he remember how he die. You go find teeth, bring them back to me. We show Trog, maybe he remember and finally know he dead. You go now. Hurry up!",
+  },
+  [26594] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Collect 8 bushels of Wetland Hemp for Viggo at Gluk\'s Compound.",
+    ["D"] = "Around these parts grows a special type of hemp that I can use to create a very strong rope to ensure even if the King loses his grip he won\'t lose his weapon!\nRumour has it that Gluk\'s father, the previous King, smoked a bushel of this stuff and wandered away from his post. As soon as he\'d left the line of sight of the ogres they just proclaimed a new King thus ending Gluk\'s line.\nIt grows closest to the rivers in Feralas and can be found all over.",
+  },
+  [26595] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Collect 20 Vial\'s of Beast Blood from weakened beasts in Feralas.",
+    ["D"] = "An important part of my plan requires heavily refined iron interspersed with a special alloy that you\'ll collect for me later. However, iron is very hard to come by in these parts!\nI have a bit of a workaround though, I don\'t need much so we can extract it from the beasts right here in Feralas.\nHere is what I call a Hemovac Max, weaken a beast and slurp the blood right out of them! With enough vials I can have enough iron to work with. Sadly each vial has a small quantity so I guess it\'s time for a good old fashioned massacre.",
+  },
+  [26596] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Collect 12 chunks of Silithid Alloy from the Writhing Deep in Feralas.",
+    ["D"] = "And now on to the... less pleasant stuff. There\'s a reason I waited until you felt invested to ask of this. South East of here you will find the Writhing Deep home to the skittering beasts that some have taken to calling Silithid.\nIt is well known that sometimes they mistake ore for food and coat it with a sticky ooze but did you know what happens when they fully consume and... pass... it?\nWell what we get is a mismatch of ores that somehow form a new alloy, don\'t ask me how I\'ve never wanted to inspect the insides of one to find out.\nAll I care about is you getting me those alloys for Gluk\'s new weapon.",
+  },
+  [26597] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Collect Swirling Molten Rock and Blistering Flame Essence from earth and fire elementals within the Searing Gorge.",
+    ["D"] = "We\'re not far from being able to finally craft this kingly weapon but bottleneck now is simple, heat and maintaining heat. This forge here is well suited for churning out the standard low quality fare the Ogres enjoy using but it can\'t get hot enough to smelt these alloys and combine it with the Iron.\nUnfortunately this means that the heat has to come to us. Far to the east in the Eastern Kingdoms you will find the fiery Searing Gorge.\nLava flows, rock melts and elementals run wild. I need you to collect their essences and bring them to me.\nWith those I can beef up this forge to handle our harsh demands.",
+  },
+  [26598] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Collect Salted Cooling Essence from the coast of Feralas.",
+    ["D"] = "Heat is only one half of this equation warlock. We need to temper the flames and manage it slowly allowing the alloys to melt, fuse and become something wholly new. You\'re in luck however I won\'t have to send you far.\nRight on the coast of Feralas you will find water elementals that have been soaking up the cooling essence of the sea itself. Go and collect as much of it as you can and we will use it during the forging process to avoid torching this whole compound!",
+  },
+  [26599] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Enter Maraudon and slay Noxxion collecting his essence to bring to Viggo in Feralas.",
+    ["D"] = "Right, scratch the idea of you having an easy day. There\'s only one place I\'ve heard rumours of that may have what we need. The Centaur homeland of Maraudon.\nDeep within you will find an extremely powerful water elemental named Noxxion who\'s essence will serve as a far more worthy base for a weapon as powerful as this.\nWill you risk your life and your limbs in getting his essence for me? This will all pay off once Gluk assaults Dire Maul.",
+  },
+  [26600] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Cool down Dee and Dum while they forge Gluk\'s new weapon.",
+    ["D"] = "These two lumbering oafs behind me are Dee and Dum. They\'re far from smart but they\'re great at whacking a great big hammer so as far as I\'m concerned they\'re as intelligent as the average Blacksmith.\nWhile they forge the weapon and suffer under the heat I\'ll need you to calm the flames and cool them down with the essence from Noxxion. Don\'t let them overheat or this will have all been for naught.",
+  },
+  [26601] = {
+    ["T"] = "Fit For A King",
+    ["O"] = "Deliver Gluk\'s new weapon.",
+    ["D"] = "It\'s time to present this champion of a weapon to Gluk. Would you do the honors for me?\nHe\'s in that cave nearby.",
+  },
+  [26608] = {
+    ["T"] = "Dental Records",
+    ["O"] = "Show Trog the teeth you have collected to see if he recollects being killed.",
+    ["D"] = "You bring back teeth, good. Now, me need you to go show Trog. Me think maybe if he see teeth, he remember how he die. You go to Trog, show him teeth, see if he remember. Hurry, we need to know so Trog can finally rest in peace.",
+  },
+  [26609] = {
+    ["T"] = "Dental Records",
+    ["O"] = "Collect teeth from the Elder Rage Scar found north of Gluk\'s Compound near the Twin Collosals.",
+    ["D"] = "Me think maybe Elder Rage Scar in cave north of camp, they big and strong. Me need you go get teeth from them, me hope Trog recognize them and finally understand. You go now, bring back teeth, help Trog rest in peace.",
+  },
+  [26610] = {
+    ["T"] = "Dental Records",
+    ["O"] = "Show Trog the teeth you have collected to see if he recollects being killed.",
+    ["D"] = "Me want you to go show big teeth to Trog. Me hope he remember dem, go now!",
+  },
+  [26611] = {
+    ["T"] = "Dental Records",
+    ["O"] = "Collect teeth from the Groddoc Thunderer\'s found north of Gluk\'s Compound near the Twin Collosals.",
+    ["D"] = "Me Jrall and Trog, we goin\' huntin\' long time ago. We find big mean Groddocs. They got big teeth, big mean teeth. We run away fast, but Jrall remember dem teeth. Now, me think dem teeth what kill Trog. Me need you go get dem teeth from Groddocs. You bring back, we show Trog, maybe he remember.",
+  },
+  [26612] = {
+    ["T"] = "Dental Records",
+    ["O"] = "Show Trog the teeth you have collected to see if he recollects being killed.",
+    ["D"] = "Maybe this the one? Go show Groddoc teeth to Trog. I bet all my rocks he remember now.",
+  },
+  [26613] = {
+    ["T"] = "Curious Groddoc",
+    ["O"] = "Collect a Crate of Tel\'abim Bananas.",
+    ["D"] = "Groddocs! Groddocs are usually nice if you leave dem alone. I bet they not eat all of Trog. Groddoc loves bananas if we give then maybe they nice and show the way?\nViggo eats lots of fancy fruits that he no share with us. Maybe ask him for bananas?",
+  },
+  [26614] = {
+    ["T"] = "Curios Groddoc",
+    ["O"] = "Throw Tel\'abim Bananas at Groddoc Thunderer\'s in the Twin Colossals to locate Trog\'s Corpse.",
+    ["D"] = "We killed Groddoc for teeth earlier... me hope that these bananas sweeten their hearts and they might show us where they usually take their food. Go try!",
+  },
+  [26615] = {
+    ["T"] = "Facing Oneself",
+    ["O"] = "Bring Trog\'s Head to Jrall in Gluk\'s Compound.",
+    ["D"] = "There is barely anything left of a body but the head laying nearby is pristine, perhaps too ugly for any nearby beasts to consume. Bring the head to Jrall in Gluk\'s Compound.",
+  },
+  [26616] = {
+    ["T"] = "Facing Oneself",
+    ["O"] = "Prove to Trog that he is dead.",
+    ["D"] = "There\'s no way that Trog won\'t believe this. You show him for me?",
+  },
 }
