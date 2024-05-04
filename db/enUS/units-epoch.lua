@@ -347,4 +347,11 @@ pfDB["units"]["enUS-epoch"] = {
   [45757] = "Hazzali Brainlord",
   [45577] = "Argyle Wilkes ",
   [25580] = "Old Man Barlo",
+  [46895] = "Helga Ashgate",
+  [46903] = "Jason Tinling",
+  [46883] = "Gruhl Stonecreek",
+  [46875] = "Mogern Blackeye",
+  [46876] = "Karum Mallister",
+  [46890] = "Peryn Mallister",
+  [46888] = "Myldis",
 }

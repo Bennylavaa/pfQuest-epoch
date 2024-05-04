@@ -292,4 +292,8 @@ pfDB["items"]["enUS-epoch"] = {
   [60773] = "Wuti\'s War Totem",
   [60795] = "Explosive Mind Control Cap",
   [60777] = "Empowered Kezan\'s Premium Refrigerator",
+  [63502] = "Fireguts",
+  [63463] = "Dark Iron Dagger",
+  [63464] = "Dark Iron Gun",
+  [63480] = "Evidence of Pursuit",
 }

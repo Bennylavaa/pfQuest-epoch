@@ -2429,4 +2429,49 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Escort Argyle Wilkes to Theramore safely.",
     ["D"] = "First I get kicked out by my own cremates over a minor disagreement, cast away into a storm with nothing more than this dingy to help me. And then I wake up in this light forsaken swamp!\nI just want to go back to my shack on the beach alone. Enough whining! Drink! Where\'s the nearest bar eh?",
   },
+  [27739] = {
+    ["T"] = "Meeran\'s Missing",
+    ["O"] = "Investigate the area just outside of Ashfall Post for clues as to Meeran\'s whereabouts.",
+    ["D"] = "Oh, an adventurer! Did ya see my sign over by the tavern entrance?\n\nMy sweet husband, Meeran... he\'s been missing for days! He\'s an herbalist -- told me he was goin\' outside the walls to get some herbs he saw to sell for some coin.\n\n<Myldis starts to tear up.>\n\nHaven\'t s-seen him s-since! We... we weren\'t prepared for a place like this!\n\nPlease... will ya look for him?! There\'s gotta be something you can do!",
+  },
+  [27730] = {
+    ["T"] = "Arming Ashfall",
+    ["O"] = "Retrieve 10 Dark Iron Daggers and 5 Dark Iron Guns from Thaurissan Spies and Thaurissan Agents in the Ruins of Thaurissan.",
+    ["D"] = "Got a moment? You look like someone tha\' ain\'t afraid ta fight.\n\nBack in Shadowforge, I was an officer... somewhat... meanin\' lots o\' dwarves under my command. I\'d be useless doin\' anything else, so I\'ve a mind to be invaluable to the Brotherhood. Could use yer help.\n\nYou\'d think this little hamlet safe, but every few moons an orc raiding party passes by. That lad Mogern tries his best ta keep everyone\'s weapons in good shape, but the raids are comin\' too often.\n\nOver in what\'s left o\' Thaurissan, ya got nasty spies and agents armed up the wazoo. Wanna appropriate some o\' them weapons for the guards here? I\'ll pay ya.",
+  },
+  [27733] = {
+    ["T"] = "Hitting Where it Hurts",
+    ["O"] = "Kill Nargosh Rageblade inside of Blackrock Stronghold to the northwest of Ashfall Post.",
+    ["D"] = "Right, so... found out about the region\'s head orc or whatever ya wanna call him... he\'s a bit o\' an upstart from what I can tell -- only recently came into his role.\n\nName\'s Nargosh Rageblade. Big fortress east o\' Blackrock Mountain is where you\'ll find him... so northwest o\' here. Had some serious muscles on him, so watch yerself... probably lives up to tha\' ridiculous name.\n\nGood hunting, $C.",
+  },
+  [27743] = {
+    ["T"] = "Spies Among Us",
+    ["O"] = "Find evidence of pursuit off of the dwarves roaming the Ruins of Thaurissan.",
+    ["D"] = "$C. I\'ve a proposition for you. Things in Shadowforge were getting a bit too heated for my brother and I, so we made the journey out here to start new lives with the Brotherhood.\n\n<Peryn draws closer, lowering his voice to a whisper.>\n\nTruth be told, I think we\'ve been followed. The senate isn\'t through with us -- want to haul us back into the Ring of Law, given past grievances...\n\nSpies lurk the ruins further north like rats. Kill a few... see how the rest scurry back to the Depths. Most importantly, see if you can find anything of note concerning my brother and I.",
+  },
+  [27734] = {
+    ["T"] = "Absent Discourse",
+    ["O"] = "Deliver Gruhl Stonecreek\'s Design to Mogern Blackeye.",
+    ["D"] = "Well met, $C. The Earthen Ring have sent me here to assess the state of the land.\n\nFire is the only element I hear speaking here. It is violence incarnate, from the demeanor of its elementals to the very dialect they speak. I hear one voice above all others -- a rasp that commands the land to shudder... one I would see silenced. Will you help me?\n\nWe can bind the force behind this voice into an elemental, making it vulnerable. Preparations must be made, however. Please take this etching to that dwarf over yonder... Mogern, I believe he is called.\n\nSee if he can craft what I\'ve drawn. In the meantime, I\'ll gather reagents for our goal and seek you when the time is nigh.",
+  },
+  [27751] = {
+    ["T"] = "Fireguts",
+    ["O"] = "Gather 30 Fireguts from Firegut Ogres at Dreadmaul Rock.",
+    ["D"] = "Hey there... know anything about magic?\n\nGonna make some fogstones -- kids love \'em. Need some reagents off those ogres to the east first, though.\n\nBeen too long since I seen \'em, but I doubt ogre insides have changed much. Need their guts, if it wasn\'t obvious.",
+  },
+  [27746] = {
+    ["T"] = "Golem Grabbing",
+    ["O"] = "Find Golemancer Lugar in the foothills north of Ruins of Thaurissan and take his control rod.",
+    ["D"] = "Been looking for one of you adventurous types! Think you could lend me a hand?\n\nI want a golem to help the guards here. I pride myself on the golemancy I learned in my youth, but this place ain\'t no manufactory. Making one of them reavers from scratch is tough work.\n\nI\'ve heard rumblings of a golemancer named Lugar up in the foothills beyond the ruins north of here, fixing up old war reavers in the area -- has a pet project goin\' that I\'m interested in...\n\nHe\'s got some kind of wand, one that lets him take control of his personal golem. See if you can get that wand and we\'ll be in business!",
+  },
+  [27735] = {
+    ["T"] = "Bracers that Bind",
+    ["O"] = "Loot 30 Dark Iron Scraps from various enemies across the Burning Steppes.",
+    ["D"] = "Hmm... bracers? Interestin\' design we got here. Fatter than my round ol\' gut! Does that big guy really have wrists to fit these?!\n\n<Mogern listens to you explain the plan to bind a fire elemental and destroy it, calming the land.>\n\nHa, now there\'s a plan I can get behind! Be glad to help, but don\'t think I\'ve got the metal on hand fer a project like this. Could use dark iron scraps fer this, though...\n\nPlenty o\' people use dark iron fer their armor, weapons, trinkets -- you name it! Bring me back some scraps and I\'ll start work on those bracers pro bono -- wanna stick it to that nasty firelord!",
+  },
+  [27740] = {
+    ["T"] = "Is it Ogre?",
+    ["O"] = "Find signs of Meeran somewhere on the north side of Dreadmaul Rock.",
+    ["D"] = "<Signs of a struggle and the abandoned pouch indicate Meeran was taken from this spot instead of killed.>\n\n<Large footprints and proximity to Dreadmaul Rock suggest the assailants were ogres. The footprints head north a ways. Meeran may yet live.>",
+  },
 }
