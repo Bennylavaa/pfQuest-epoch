@@ -342,4 +342,10 @@ pfDB["items"]["enUS-epoch"] = {
   [61942] = "Icesap",
   [61943] = "Frost Crystal",
   [61941] = "Blood Feather",
+  [62741] = "Chunk of Furbolg Flesh",
+  [62742] = "Large Furbolg Bone",
+  [62743] = "Wrinkled Furbolg Brain",
+  [62744] = "Hawthorn\'s Volatile Solution",
+  [62745] = "Restless Ectoplasm",
+  [62746] = "Hawthorn\'s Stable Solution",
 }

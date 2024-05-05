@@ -2819,4 +2819,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Delevan Frostgaze wants you to gather 8 Icesap from roots, 6 Frost Crystals from rocks, and 5 Blood Feathers from airborne owls near The Hidden Grove.",
     ["D"] = "I trust Roxxie explained my objective? No? Something stirs the hearts of the owlbeasts north of here. The cause is difficult to explain, but I believe we can lessen their turmoil at the very least. The first step is to treat a rod with local reagents. I\'d gather it all myself... only to return to a ravaged camp. Would you go in my stead?\n\nIcesap from nearby roots will act as a sealant, slowing the mind. Frost crystals atop the rocks hum in the chill, soothing the mind; and lastly, the ever-wise owls that fly in Winterspring are resolute, so perhaps their blood feathers will impart that same quality to their larger kin. Grant them a dignified end, please.\n\nIf you\'ll gather these components, I\'ll be in your debt. Please take care, for Winterspring can be unkind.",
   },
+  [27293] = {
+    ["T"] = "In Moonlit Mourning",
+    ["O"] = "At night, assist Delevan Frostgaze in defeating the Mooncrazed Owlbeast inside The Hidden Grove.",
+    ["D"] = "In my dreams, I\'ve met a lone owlbeast haunting the grove, roiling in hatred. It feels... desperate, despite no apparent dangers. I suspect this creature knows my intentions but remains fixed in fury.\n\nThe rod is complete, but I must avail myself of your strength yet again. As night falls, the grove\'s flora and fauna attune: this shall be our avenue of action. The rod will tap into the attunement; I shall confront the rage, and if I am to guess, this lone owlbeast will embody that rage.\n\nSpeak to me when you are ready to face the perils ahead. I shall join you this time, but we must go at night.",
+  },
+  [27350] = {
+    ["T"] = "A Pound of Flesh",
+    ["O"] = "Alan Hawthorn wants you to gather 4 Wrinkled Furbolg Brains, 20 Chunks of Furbolg Flesh, and 15 Large Furbolg Bones from furbolgs in Winterspring.",
+    ["D"] = "Tidings, $C.\n\nI\'ve need of a butcher... one with a discerning eye and a less-than-moral compass. Interested?\n\nThe furbolg here are hardy creatures -- mountains of muscle, so to speak. They imbibe a \'firewater\', something I\'ve harnessed for my own uses, but I digress...\n\nI have plans. Plans for a work of art. I require furbolg brains, their flesh, as well as their bones. Here\'s a list for you.\n\n<Alan Hawthorn hands you a ragged scroll covered with barely legible scribbles.>",
+  },
+  [27351] = {
+    ["T"] = "Sinister Supplies",
+    ["O"] = "Purchase 20 Leaded Vials, 10 Coal, and 5 Blank Parchment from vendors in Everlook and return to Alan Hawthorn.",
+    ["D"] = "Now to draft a design for the gore before us. This will take some time.\n\nI suspect you\'re travelling the land? If you find yourself in that hive called Everlook, pick up these supplies. You\'ll be compensated well, of course...\n\n<Alan hands you another illegible scroll and stares at you for a moment, eventually shifting his sour gaze back to his work.>",
+  },
+  [27352] = {
+    ["T"] = "A Life\'s Work",
+    ["O"] = "Use Hawthorn\'s Volatile Solution on the Heap of Flesh in Alan Hawthorn\'s cave.",
+    ["D"] = "I intend to share my work with the world, starting in you. While you were away, I perused my master\'s teachings on abominations. Everything is in place -- see for yourself.\n\n<The pile of gore looks exactly as you left it.>\n\nTake this vial in hand and pour its contents onto the heap.",
+  },
+  [27353] = {
+    ["T"] = "Suffering the Suffering",
+    ["O"] = "Gather 10 Restless Ectoplasm from ghosts at Lake Kel\'Theril and return to Alan Hawthorn.",
+    ["D"] = "No, certainly not what I intended. At least you dealt with it... uh, admirably. Hmm...\n\nHere\'s a thought -- misery loves company, no? I can\'t imagine our beast is all too happy when it wakes. I spied some terribly miserable ghosts roaming that lake in the east.\n\nWhy don\'t you pay those spectres a visit, $C? A heaping of their ectoplasm will suffice; they cling to undeath so dearly, after all...",
+  },
+  [27354] = {
+    ["T"] = "A Task Never Finished",
+    ["O"] = "Use Hawthorn\'s Stable Solution on the Heap of Flesh in Alan Hawthorn\'s cave.",
+    ["D"] = "Let\'s try again, shall we?\n\nWhile you were away, I \'enhanced\' the brains, and with the ectoplasm, the creature\'s mind will have far more distractions from its rage. Plus, the better it can reason, the easier it is to control... strangely enough.\n\nI\'ve refined the solution. All that\'s left is to pour it, and that task falls to you once more.",
+  },
 }

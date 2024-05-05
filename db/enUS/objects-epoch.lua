@@ -129,4 +129,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001051] = "Quel\'dorei Tablet", --Placeholder ID
   [4001052] = "Arcanaeum Vault", --Placeholder ID
   [4001053] = "Icesap", --Placeholder ID
+  [4001054] = "Frost Crystal", --Placeholder ID
+  [4001055] = "Heap of Flesh", --Placeholder ID
 }

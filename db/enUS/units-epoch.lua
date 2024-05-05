@@ -392,4 +392,6 @@ pfDB["units"]["enUS-epoch"] = {
   [46574] = "Foul Tender",
   [46556] = "Marius Hedrin",
   [46210] = "Delevan Frostgaze",
+  [46240] = "Mooncrazed Owlbeast",
+  [46298] = "Alan Hawthorn",
 }
