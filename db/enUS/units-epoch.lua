@@ -394,4 +394,6 @@ pfDB["units"]["enUS-epoch"] = {
   [46210] = "Delevan Frostgaze",
   [46240] = "Mooncrazed Owlbeast",
   [46298] = "Alan Hawthorn",
+  [46641] = "Nibi Muckswagger",
+  [46631] = "Grox Muckswagger",
 }

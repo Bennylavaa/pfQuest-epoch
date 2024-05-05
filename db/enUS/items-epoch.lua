@@ -348,4 +348,8 @@ pfDB["items"]["enUS-epoch"] = {
   [62744] = "Hawthorn\'s Volatile Solution",
   [62745] = "Restless Ectoplasm",
   [62746] = "Hawthorn\'s Stable Solution",
+  [63333] = "Sunken Treasure",
+  [63314] = "Twisted Staff",
+  [63312] = "Elaborate Timepiece",
+  [63313] = "Magic Drum",
 }

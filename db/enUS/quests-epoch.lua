@@ -2849,4 +2849,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Use Hawthorn\'s Stable Solution on the Heap of Flesh in Alan Hawthorn\'s cave.",
     ["D"] = "Let\'s try again, shall we?\n\nWhile you were away, I \'enhanced\' the brains, and with the ectoplasm, the creature\'s mind will have far more distractions from its rage. Plus, the better it can reason, the easier it is to control... strangely enough.\n\nI\'ve refined the solution. All that\'s left is to pour it, and that task falls to you once more.",
   },
+  [27669] = {
+    ["T"] = "Sunken Treasure",
+    ["O"] = "Find the Sunken Treasure in one of the shipwrecks off the coast of the Blasted Lands.",
+    ["D"] = "Hey! You look like a good swimmer, and I need a good swimmer.\n\nSee those wrecks out there? I keep seeing them on our way in to port and had a thought: sunken treasure!\n\nI\'ll PAY you to go check for me. I\'ve counted four wrecks down there. If you find anything, bring it back and we can divvy out the loot...\n\nOh, and I think I saw some nasty bonemen swimming around down there. Be careful, $R!",
+  },
+  [27645] = {
+    ["T"] = "Collecting on Debt",
+    ["O"] = "Loot Grox\'s merchandise off of John Taylor, Joel Taylor, and Joshua Taylor inside Felstone Fortress.",
+    ["D"] = "So I\'ve got a problem that needs some muscle.\n\nSome deadbeats here in the fortress owe me big -- a trio of undead brothers. Time before last we docked here, they each wanted something I was selling but didn\'t have the coin on hand. I agreed to let them have the items, so long as they\'d pay me next time I stop in.\n\nWell guess what? I\'m still waiting on those payments! A goblin never forgets, Orc, and don\'t you forget it!\n\nOne\'s got a staff of mine, the other a timepiece, and the last one a magical drum. Don\'t care if you gotta break some bones to get my stuff back, if ya catch my drift.",
+  },
 }
