@@ -3039,4 +3039,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill Professor Rasmussen and collect 4 Project Notes from Honors Students.",
     ["D"] = "Please, do not be fooled by my association with the Scholomance, $C. My heart serves the Argent Dawn. I have spent many days embedded with the Cult of the Damned, looking for an opportunity to thwart their plans. Your arrival presents an opportunity for me to preserve my cover and still meddle in their affairs.\n\nA group of Scholomance's honors students has been sent on a Field Trip to the Eastern Plaguelands to conduct research of some kind. Their teacher, Professor Rasmussen, is suspicious of me and will not tell me what they are doing here.\n\nSlay him and his foul students, and recover their notes. Perhaps we can piece together the purpose of their presence here.",
   },
+  [27363] = {
+    ["T"] = "The Plaguewood Cauldrons",
+    ["O"] = "Add the All-Purpose Neutralizing Agent to the Scourge cauldrons in the Plaguewoods, then return to Alchemist Arbington.",
+    ["D"] = "You\'ve done excellent work on the cauldrons in Western Plaguelands. It\'s time to turn our attention to similar Scourge activities in Eastern Plaguelands. \nOur intelligence indicates there are three plague cauldrons operating in the Plaguewood. These do not have cauldron lords, and I believe we can use a generic neutralizing agent on all of them to contaminate their contents and make them unusable, at least for a time. Take this vial and attend to those cauldrons, but beware. The Plaguewood is at the heart of Scourge power in the Plaguelands and filled with all manner of their soldiers.",
+  },
+  [27364] = {
+    ["T"] = "The Final Cauldrons",
+    ["O"] = "Add the All-Purpose Neutralizing Agent to the Scourge cauldrons in the Fungal Vale and Noxious Glade, then return to Alchemist Arbington.",
+    ["D"] = "A report has come in that two final cauldrons remain, one each in the Noxious Glade and Fungal Vale of the Eastern Plaguelands. Once you have added the neutralizing agent to these two cauldrons, we should have the spread of the plague under control - at least for now. \nGo swiftly hero, so we can put this matter to rest.",
+  },
 }

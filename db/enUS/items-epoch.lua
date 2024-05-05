@@ -381,4 +381,5 @@ pfDB["items"]["enUS-epoch"] = {
   [62765] = "Soil Sample",
   [62766] = "Weeping Cave Fungus Sample",
   [62767] = "Watering Can",
+  [62755] = "All-Purpose Neutralizing Agent",
 }
