@@ -136,4 +136,9 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001053] = "Icesap", --Placeholder ID
   [4001054] = "Frost Crystal", --Placeholder ID
   [4001055] = "Heap of Flesh", --Placeholder ID
+  [4001056] = "Barov Sepulcher Plaque", --Placeholder ID
+  [4001057] = "Scarlet Outhouse", --Placeholder ID
+  [4001058] = "Pure Elwynn Soil Sample", --Placeholder ID
+  [4001059] = "Prepared Soil", --Placeholder ID
+  [4001060] = "Prank Bag", --Placeholder ID
 }
