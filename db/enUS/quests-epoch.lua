@@ -2944,4 +2944,99 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Equip the Scholomance Academy Tabard.",
     ["D"] = "Greetings $N. I\'m glad to see you made it through your first day. Twelve percent of prospective students don\'t.\n\nNow that you have acquired your uniform, you are ready to wear it with pride. You are now officially under the Academy\'s instruction. Go Ghosts!",
   },
+  [27374] = {
+    ["T"] = "Extra Credit",
+    ["O"] = "Collect 4 Shadow-Resistant Notebooks from Scarlet Lumberjacks and bring them to Dean Blackwood.",
+    ["D"] = "$N I\'m sure you\'re nervous about passing your classes here, so I have a special offer for you. The Scarlet Crusade issues special notebooks to their Lumberjacks that are difficult to damage with shadow magic. Something about being able to write to their loved ones back home on paper that won\'t carry the taint of the Scourge. That\'s utter nonsense - but the notebooks are perfect for our careless Necromancy students.\n\nNaturally, the lumberjacks can be found to the north, at the Scarlet Lumber Mill. Restock our collection of notebooks and I\'ll give you a bonus on your report card.",
+  },
+  [27369] = {
+    ["T"] = "Scourge Botany",
+    ["O"] = "Obtain 6 Fungus Samples from the Weeping Cave and bring them to Doctor Atwood.",
+    ["D"] = "Welcome to class $N. The passage of the Scourge through the Plaguelands has left its mark on all its inhabitants. I wish to have you study the evolution of the mirebeasts that dwell in the Weeping Cave. Your homework is to acquire six samples of fungus from the creatures. The cave can be found by following the road through Plaguelands to the east, until you come to a bridge. Then follow the river north.\n\nAnd if you see their leader, Lord Klaq, I\'d give him a wide berth.",
+  },
+  [27375] = {
+    ["T"] = "Advanced Alchemy",
+    ["O"] = "Use the Collection Syringe to get three samples of ooze from the Weeping Cave.",
+    ["D"] = "The Weeping Cave is a fascinating place to observe mutated oozes in their natural habitat. I tried to adopt one as a pet but it took too long to find one with the right temperment. Docile, slimy but not too slimy, disgusting...oh, where was I? Oh yes, alchemy class.\n\nResearch must be done to see if we can breed the perfect ooze pet in captivity. Take this syringe and use it to extract samples from dead oozes. Three or so should do. ",
+  },
+  [27372] = {
+    ["T"] = "Cooking with Carrion",
+    ["O"] = "Gather 4 Exceptionally Large Eggs from Carrion Vultures and bring them to Isabelle Pickman.",
+    ["D"] = "As your home economics instructor it is my job to make sure you can take care of yourself during your academic career at Scholomance Academy. The workload is strenuous and not for the faint of heart. I\'ve whipped up a concoction that will help keep you strong enough to endure the trials ahead. Start by bring me some exceptionally large eggs from the vultures that inhabit the Plaguelands north of the Ruins of Andorhal or along the lake\'s southern edge.",
+  },
+  [27378] = {
+    ["T"] = "History 101",
+    ["O"] = "Copy the text of the plaque in the basement of the Barov Sepulcher.",
+    ["D"] = "Time for a history lesson. Look around you Pftestseven. If these stones could speak, what a tale they might tell us of the mighty Barov family who donated this land for our Academy.\n\nI would like us to document the history of the Barovs while they\'re still fresh in their graves. While the esteemed members of our faculty are buried within the school, their ancestors lie elsewhere. Across the lake to the west is the graveyard at Sorrow Hill. The Barov ancestral sepulcher is there. Descend into its depths and bring back the names of all who lie interred within.",
+  },
+  [27381] = {
+    ["T"] = "Senior Prank",
+    ["O"] = "Get some dung from the Scarlet Outhouse along the road leading north to Hearthglen.",
+    ["D"] = "Hey! Freshman! Over here!\n\nThe end of the term is nearing and I just have to go out with a bang. That means a senior prank worthy of Scholomance Academy. But I need to study to actually graduate. Lorekeeper Polket is a real stickler for dates. That\'s where you come in. Get me the supplies for the best senior prank ever and I\'ll make it worth your while! First, I\'ll need some kind of smelly thing. The Scarlet Crusade have an outhouse near their defenses northeast of Dalson\'s Tears, on the road leading up to Hearthglen. Get me some dung from there!",
+  },
+  [27379] = {
+    ["T"] = "History 101",
+    ["O"] = "Speak to the Ghost of Alexei Barov.",
+    ["D"] = "As you hastily scribble down the list of names, there is a strange noise behind you.\n\nAn ethereal form appears that wasn\'t present before. The ghost beckons you closer. Perhaps you should speak to it?",
+  },
+  [27380] = {
+    ["T"] = "History 101",
+    ["O"] = "Return to Professor Hanlon at Caer Darrow with this information.",
+    ["D"] = "Now that you know my story, please set the record straight. Maybe some day, the hold Darkmaster Gandling has on me will be released and my spirit can be at peace. Until that happens, I will be content that at least one person out there knows the truth. May the light bless you, Paladin. I know it has forsaken me.",
+  },
+  [27373] = {
+    ["T"] = "Cooking with Carrion",
+    ["O"] = "Obtain a Thresher Saliva Gland from a Putrid Lake Thresher and return to Isabelle Pickman.",
+    ["D"] = "The waters of Darrowmere lake used to be full of boring old fish and the occasional Lake Thresher. The Scourge plague has killed the fish, but the threshers remain. Furthermore, they\'ve been transformed into a more aggressive and toxic version of their former selves. Their saliva glands now contain a potent compound that helps build muscle and restore vitality. This is our secret ingredient!\n\nKill the threshers until you recover an intact saliva gland. Then we\'ll be ready to blend!",
+  },
+  [27382] = {
+    ["T"] = "Senior Prank",
+    ["O"] = "Collect a piece of Brimstone from a Scarlet Invoker.",
+    ["D"] = "Next we\'re going to need something that\'ll make fire real quick. Scarlet Invokers carry around pieces of brimstone as a reagent for their fire spells. That\'ll probably do the trick. Bring a piece of that back here too. This is gonna be epic!",
+  },
+  [27370] = {
+    ["T"] = "Scourge Botany",
+    ["O"] = "Acquire a pure Elwynn Soil Sample from the dirt mound at the Northridge Lumber Camp.",
+    ["D"] = "Interesting. These samples you brought me are far more delicate that I would have presumed for something created by the Scourge Plague. This requires a change in the lesson plan.The Scarlet fools up at the Northridge Lumber Camp north of Dalson\'s Tears have imported a great mound of dirt from Elwynn Forest in an attempt to replant healthy trees here. I will plant a sample of the fungus in the satisfyingly noxious soil of the local area, but I would like to see what happens if a sample is planted in the soil imported from Elwynn. Bring me some!",
+  },
+  [27376] = {
+    ["T"] = "Advanced Alchemy",
+    ["O"] = "Speak to Proctor Blackwood to begin the experiment.",
+    ["D"] = "Now that we have the samples, I will have my assistant, Proctor Phillips, administer this next test. He will need help if the substance reacts the way I expect it will. Find Proctor Phillips outside the courtyard walls to the east, along the road to the docks.\n\nAnd $N, it should go without saying that this will be your test for this course.",
+  },
+  [27377] = {
+    ["T"] = "Advanced Alchemy",
+    ["O"] = "Protect Proctor Phillips as he completes the experiment.",
+    ["D"] = "Stand here. Test begin soon. Much slime. Much ooze. Good luck.",
+  },
+  [27383] = {
+    ["T"] = "Senior Prank",
+    ["O"] = "Take the bags of dung to Uther\'s Tomb, The Bulwark, and Chillwind Camp and light them on fire.",
+    ["D"] = "I almost flunked my combat exam with the Ravenian but he\'s letting me make it up now that my hair has grown back. I\'m going to have to rely on you to complete the prank.\n\nI put out the bags of dung at Uther\'s Tomb, Chillwind Camp, and The Bulwark. Go light them on fire for me, $N. Classic! And if anyone asks who did it, make sure to tell them it was me.\n\nUnless its a teacher. Then it was you.",
+  },
+  [27371] = {
+    ["T"] = "Scourge Botany",
+    ["O"] = "Plant the fungus samples in the prepared soil and observe the results.",
+    ["D"] = "Let\'s see how you handle some real botany. Take this soil sample, fungus, and a watering can to a spare planter up above the square. Fill the planter with soil and plant the fungus. Give it a little water with the watering can and observe the results. Then report back to me.",
+  },
+  [27384] = {
+    ["T"] = "Last Day of School",
+    ["O"] = "Review your report card with Dean Blackwood.",
+    ["D"] = "Well $N, it looks like you\'ve completed all the introductory courses. The fact that you\'re still alive and have all your limbs intact is a good sign. Hand over your report card and we\'ll see how you did. ",
+  },
+  [27386] = {
+    ["T"] = "Field Trip",
+    ["O"] = "Find Professor Starling on the shore of Darrowmere Lake in Eastern Plaguelands.",
+    ["D"] = "On the northern shore of Darrowmere Lake you\'ll find our hands-on field instructor Professor Starling. She will give you the next introduction to our remedial learning course. If you thought the introductory courses were hard, well...this curriculum is positively deadly. Goodbye $N.",
+  },
+  [27385] = {
+    ["T"] = "Invitation for Tirion Fordring",
+    ["O"] = "Extend Doctor Hanlon\'s invitation to Tirion Fordring, who is found along the river on the border of Eastern Plaguelands. ",
+    ["D"] = "Wait $N, before you go I have something to say. I am sorry I couldn\'t pass you for history. But you\'re in luck. You can still get back in my good graces by running a small errand for me.\n\nSince you\'ve shown you\'re good at talking to people, I want you to talk to an infamous person I\'ve just learned survived the Scourge. His name is Tirion Fordring, and he was once a prominent figure in Lordaeron society. I\'d like to interview him to find out what it was like to betray his order.\n\nPlease take this interview request to him. He lives at the north end of the Thondroril River, in Eastern Plaguelands.",
+  },
+  [27498] = {
+    ["T"] = "Field Trip",
+    ["O"] = "Kill Professor Rasmussen and collect 4 Project Notes from Honors Students.",
+    ["D"] = "Please, do not be fooled by my association with the Scholomance, $C. My heart serves the Argent Dawn. I have spent many days embedded with the Cult of the Damned, looking for an opportunity to thwart their plans. Your arrival presents an opportunity for me to preserve my cover and still meddle in their affairs.\n\nA group of Scholomance's honors students has been sent on a Field Trip to the Eastern Plaguelands to conduct research of some kind. Their teacher, Professor Rasmussen, is suspicious of me and will not tell me what they are doing here.\n\nSlay him and his foul students, and recover their notes. Perhaps we can piece together the purpose of their presence here.",
+  },
 }

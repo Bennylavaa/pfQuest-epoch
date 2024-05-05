@@ -417,4 +417,7 @@ pfDB["units"]["enUS-epoch"] = {
   [46329] = "Professor Hanlon",
   [46326] = "Isabelle Pickman",
   [46332] = "Sharlot",
+  [46324] = "Alexei Barov",
+  [46330] = "Putrid Lake Thresher",
+  [46320] = "Professor Starling",
 }
