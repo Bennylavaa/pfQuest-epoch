@@ -2699,6 +2699,166 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Prove to Trog that he is dead.",
     ["D"] = "There\'s no way that Trog won\'t believe this. You show him for me?",
   },
+  [27252] = {
+    ["T"] = "A Gift for the Spiritseer",
+    ["O"] = "Take the Strangely Faceted Crystal to Spiritseer Ni\'shelle near Lake Kel\'Theril.",
+    ["D"] = "Adventure calls to ya -- Mau\'ari knows! I have just da thing to test a young $C like you.\n\nMy dear friend Nishelle is especially touched by da spirits. Take dis crystal focus to her down by Lake Kel\'Theril and you\'ll find plenty of adventure follows. But be warned - the ghosts of dis land be angry and restless. If ya fail to appease dem, dey might haunt ya forever!",
+  },
+  [27285] = {
+    ["T"] = "Biz with The Fizz",
+    ["O"] = "Talk to Tanum in his camp adjacent to the southern road from Everlook.",
+    ["D"] = "Hey, hotshot! Lookin\' for work? I got a business going in the alchemy world, makin\' some primo quality brew.\n\n...least, that\'s what I thought! My partner Tanum\'s been missing for over a week now and I\'m startin\' to worry. I need my product, and he\'s the only chemist this side of Kalimdor I trust makin\' it! Even paid the big bucks to haul him over here!\n\nWork\'s crazy, so won\'t ya go see what\'s the holdup? Head out south of Everlook, he\'s along the main road a little ways down. He better not be doin\' what I think he\'s doin\'!",
+  },
+  [27528] = {
+    ["T"] = "Road to Teles\'aran",
+    ["O"] = "Follow the road north out of Everlook and turn right at the fork just past Starfall Village.",
+    ["D"] = "You dere. Tzakaja\'s employer needs a strong fighter wit\' a brave heart... Tzakaja thinkin\' you have what it takes.\n\nHead out on de road north of Everlook, then you be turnin\' right at de fork just past Starfall. She be waitin\' for ya.",
+  },
+  [27253] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Obtain an Undamaged Bear Femur, an Undamaged Wildkin Eye, and an Undamaged Chimera Venom Sac from beasts north of Everlook for Spiritseer Nishelle.",
+    ["D"] = "Welcome to Lake Kel\'Theril, $N. Do you feel drawn here as I do? I have spent every waking hour studying these ruins.\n\nLong ago, even before the Sundering split the land, a terrible tragedy befell this temple. The cause of this tragedy is a mystery, but one the spirits themselves can unravel for us if only we could speak to them. The crystal Mau\'ari gave you is the key component in a special ritual I have devised that should allow us to summon a spirit we can talk to.\n\nI need your help to collect the components needed for the ritual from the local wildlife. Bring me a Bear Femur, a Wildkin Eye, and a Chimera Venom Sac. You can find all of these creatures north of Everlook - but mind you, we need undamaged parts for the ritual to work.",
+  },
+  [27254] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Attune the Unattuned Crystal to Highborne Spirits around Lake Kel\'Theril and return to Spiritseer Nishelle near Lake Kel\'Theril.",
+    ["D"] = "Before we can begin the ritual we must attune the crystal to the type of spiritual energy we want to summon. The ruins of Lake Kel\'Theril are inhabited by the anguished and suffering spirits of the elves who witnessed this tragedy. You will need to use the crystal on these spirits to attune it to the spirit world my brethren inhabit. I mean, their brethren. Forgive me, I have spent so much time here I feel as though I am a part of this place. \n\nIt pains me to destroy these spirits but sacrifices must be made if we are to save the rest of them. Return to me when this task is complete. I will assemble the ritual components you brought me while you are gone.",
+  },
+  [27255] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Help Spiritseer Nishelle complete the ritual.",
+    ["D"] = "I feel the tingle of the ethereal on my hide C$. We are so close! I will now combine the items you brought with the attuned crystal from Mau\'ari and spirit dust of my own concoction. This will take a few moments, but when I am done, a spirit will appear.\n\nThere is no turning back from this point Pftestseven. Once you have reached into the world beyond the mortal plane, the spirits beyond will know where to find you forevermore. I won\'t fault you if you choose to walk away now. If you choose to stay, be on your guard. I do not know what form this spirit will take. ",
+  },
+  [27256] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Find Umbranse the Spiritspeaker in eastern Winterspring, and ask for help translating the Ancient Journal.",
+    ["D"] = "Alas, I cannot make heads nor tails of this journal. I fear its contents has been twisted by its passage through the void. And the ritual crystal is damaged. What a catastrophe! But there is someone nearby who may be able to help us.\n\nUmbranse the Spiritspeaker was once Nishelle\'s - that is - my mentor. You will find him at his remote shack northeast of Everlook. Take the book and crystal to him and ask if he can translate it for us. I would go myself but we...had a falling out. I think it better if this request comes from a neutral third party, such as yourself. ",
+  },
+  [27257] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Use the Repaired Crystal to drive out the malevolent spirit within Spiritseer Nichelle and destroy it.",
+    ["D"] = "I can translate the journal but there is a more urgent matter before us. Nishelle\'s research has left her possessed by a malevolent spirit. Let me explain.\n\nThe Highborne at Lake Kel\'Theril abused a powerful magical artifact called the Crystal of Zin-Malor. This crystal is too dangerous to repair. You have seen with your own eyes the destruction wrecked on the inhabitants of the temple. I warned Nishelle that some mysteries are better left alone.\n\nNishelle believed if she could understand how the spirits used the crystal, she could control it. Her research opened her up to possession by the lake spirits, and now a malevolent force drives her actions. The ritual you attempted was intended to open a door for more spirits to enter our world. Fortunately, you disrupted this doorway.\n\nSince this entity trusts you, I will repair this crystal so you may use to drive the spirit from her body and destroy it. Perhaps then she will come to her senses and abandon this foolish quest.",
+  },
+  [27258] = {
+    ["T"] = "A Door to the Past",
+    ["O"] = "Return to Umbranse the Spiritspeaker in eastern Winterspring.",
+    ["D"] = "Umbranse was right, the Crystal of Zin-Malor is too dangerous to be found and used again. Many days I have endured that spirit residing inside me, and that was the least of the evils the crystal could potentially cause.\n\nPlease, $N will you return to Umbranse and let him know that I am myself again. I no longer care about the journal translation. He can do whatever he wants with the tome. I will return shortly, once I\'ve had a chance to reflect on the experience. May the spirits bless you $C. ",
+  },
+  [27286] = {
+    ["T"] = "Quality Reagents",
+    ["O"] = "Use Tanum\'s Hacksaw to harvest 80 Yeti Fingers from Ice Thistle Yeti corpses east of Tanum\'s Camp.",
+    ["D"] = "Sooo, the lady wants her potions, does she? Got no patience, tha\' little goblin! Only been a day since I sent \'em over...\n\n<Tanum scratches his potion-stained beard, hair coming out in handfuls.>\n\nWhat\'s yer name again... $N..? $N, since yer here, why don\'t ye lend this tired ol\' dwarf some help. Ta make these potions, I be needin\' yeti fingers from them big beasties roamin\' the hills east. Yes, fingers -- need \'em intact, \'specially them claws! Ye can find \'em wanderin\' the cave up yonder too.Don\'t get all queasy now! Take me hacksaw an\' have a grand ol\' time.",
+  },
+  [27287] = {
+    ["T"] = "Kill Wraithroar",
+    ["O"] = "Kill Wraithroar in the cliffside cave to the east of Tanum\'s Camp.",
+    ["D"] = "Listen, $N. Do ye hear that noise?\n\n<Tanum pauses, and you hear a faint roar in the east.>\n\nI been dealin\' with this racket the whole time I been out here! An\' I know who\'s causin\' it... tha\' fat chunk o\' fur way back o\' the cave up there! Now, he\'s a tad too dangerous fer me... \'umble abilities, but fer yerself...\n\n<Tanum rubs his fingers, scanning your gear with beady eyes. A sinister smile creeps across his face when he meets your gaze.>\n\nI need silence ta work! Make it worth yer while, $C..?",
+  },
+  [27288] = {
+    ["T"] = "The Fizz",
+    ["O"] = "Tanum wants you to charge the Electro B.T.L.R. Device 8 times with Lightning Breath from Chillwind Chimeras.",
+    ["D"] = "Okay, $C. We got the fingers, we got peace n\' quiet, now we be needin\' the fizz... an\' what\'s the fizz, ye ask?\n\n<Tanum pauses, looking at you with empty eyes.>\n\nLightnin\' breath, o\' course! From them chimaera... but only the ones that\'ll zap ye! Here\'s the tool fer the job.\n\n<Tanum hands you a dangerous looking device covered in buttons, switches and lights.>\n\nDun worry if ye feel a littl\' bit of a sting... oh, an\' try not ta die!",
+  },
+  [27289] = {
+    ["T"] = "A Fine... Product?",
+    ["O"] = "Deliver the Crate of Potions to Roxxie Fizzwhistle in Everlook.",
+    ["D"] = "Alright, $N... ugh...\n\n<Tanum sighs loudly, reaching for various potions of different colors and consistencies, then tosses them all into a crate.>\n\nTake these to tha\' wee firecracker! Auh, she\'s ruinin\' me!! Ain\'t got t-time fer thisssh...\n\n<Tanum\'s words start to slur as he murmurs to himself, turning his hungry eyes to the freshly brewed potions on his alchemy bench.>",
+  },
+  [27290] = {
+    ["T"] = "The Universal Language",
+    ["O"] = "Teach Tanum a lesson and return to Roxxie Fizzwhistle in Everlook.",
+    ["D"] = "<Roxxie inspects the disordered crate of potions. Listening to your story, her face curls in disgust.>\n\nNo, no! NO!! He's drinkin' the product again! Sending me this trash... I don't even wanna know what's in these bottles -- I know it ain't my product!\n\nThat buffoon's lucky he makes a decent brew! Oh... but what's the boss gonna do when he finds out!?\n\nTeach that runt a lesson! Don't kill him, just... rough him up a little. Tell him \"the cartel sends its regards\", that'll shape him up!\n\n",
+  },
+  [27291] = {
+    ["T"] = "To Delevan\'s Aid",
+    ["O"] = "Talk to Delevan Frostgaze northeast of Everlook and south of The Hidden Grove.",
+    ["D"] = "You did great work, kid. Put the fear back in that rug-beard! How\'d you like to do another job?\n\nI got a friend in Winterspring -- nice fella, good with animals, helped me tons over in Felwood, Ashenvale... anyway, name\'s Delevan and he\'s tryin\' to do somethin\' or other with the wildkin up north.\n\n<Roxxie flings up her palms.>\n\nDon\'t ask me what! I never understand him when he talks. He told me to keep an eye out for people like you and send \'em his way. He mentioned danger, which seems right up your alley.",
+  },
+  [27529] = {
+    ["T"] = "Words in Stone",
+    ["O"] = "Lady Lyrene wants you to search Teles\'aran and collect 12 Quel\'dorei Tablets.",
+    ["D"] = "You\'ve come prepared, I see. How would you like to line your pockets, $C?\n\nI collect all things Quel\'dorei, and I\'m searching for something in the ruins to the north. I need any literature you can find, but tablets are likely all you\'ll come across.\n\nNo reading necessary. Do we have an accord?",
+  },
+  [27554] = {
+    ["T"] = "Shadow of the Vilehorn",
+    ["O"] = "Rootspeaker Aharu wants you to kill 12 Vilehorn Satyr inside Teles\'aran to the north.",
+    ["D"] = "Greetings $C, though I wish we\'d met under better circumstances.\n\nEven from Moonglade, I sensed something wrong in Winterspring. I communed with the trees, and they showed me a tainted wound in the land growing larger and more vicious -- coaxed into being by baleful magic.\n\n<Rootspeaker Aharu shakes his head in dismay.>\n\nDo you smell that foulness in the air? The sulfur fumes riding the wind this far can only mean one thing: Satyr. Follow their scent north and dispatch them -- put an end to their dark deeds!",
+  },
+  [27540] = {
+    ["T"] = "Lost Souls",
+    ["O"] = "Ismir Dawnfall wants you to put the ghostly citizens of Teles\'aran to rest.",
+    ["D"] = "You\'ll speak with me? How long has it been..? Most travelers pay me no heed... that, or they run the other direction.\n\n<Ismir pauses as if anticipating your departure, his piercing eyes belie a deep sadness.>\n\nI\'ve failed my mission, $C... Teles\'aran is my father\'s ancestral home, and I came here years ago to lay his suffering kindred to rest. I was a ranger in life, and I had nothing but confidence in my ability. Instead, as you can see...\n\n<Ismir waves his ethereal hand through his chest, his body\'s ghostly aura distorting in response.>\n\nYou look as though you\'re headed to the ruins. I don\'t have anything to offer you, but please -- lend your kindness to the spirits of this place. Relieve them of their suffering. Tragically, they don\'t even realize the state they\'re in...",
+  },
+  [27530] = {
+    ["T"] = "A Scribe\'s Work",
+    ["O"] = "Take the Quel\'dorei Tablet to Marius Hedrin at the Everlook inn.",
+    ["D"] = "My escort is loitering about in Everlook. The two of them don\'t share my enthusiasm, but that\'s not what they\'re here for.\n\nFind the scribe, Marius Hedrin. Have him etch this part of the tablet onto a spellscroll.\n\n<Lady Lyrene frames a section of the tablet\'s script with her finger.>\n\nTell him the scroll needs to be potent -- only his strongest effort will suffice.",
+  },
+  [27531] = {
+    ["T"] = "The Illusory Key",
+    ["O"] = "Marius Hedrin needs 7 Illusion Dust to create a Quel\'dorei Spellscroll. Illusion Dust is a product of the Enchanting profession.",
+    ["D"] = "Wow, beautiful calligraphy! I can\'t read it, but I assume the Lady wants this transcribed?\n\nA spellscroll? And the most powerful ones are inked using illusion dust... ah, but I ran out last week!\n\nUh... could you supply the reagents? Illusion dust is the ken of enchanters, and you might find it on the auction house if you can\'t elsewhere.",
+  },
+  [27532] = {
+    ["T"] = "Unknown Magic",
+    ["O"] = "Return to Lady Lyrene outside of Teles\'aran with the Durable Scrollcase.",
+    ["D"] = "Alright, $C. That should do it! I\'ll be keeping the tablet, but you\'ll need to take this.\n\n<Marius hands you a heavy-duty scrollcase, tightly sealed.>\n\nThe scroll is inside, please deliver it to Lady Lyrene. Safe travels, and good luck!",
+  },
+  [27533] = {
+    ["T"] = "The Arcanaeum",
+    ["O"] = "Use the Teles\'aran Spellscroll to open the Arcanaeum\'s door and find the Arcaneum Vault.",
+    ["D"] = "Alright, here\'s the plan...\n\nTeles\'aran houses a vast Quel\'dorei repository called an Arcanaeum. It was built into the mountains to safeguard the city\'s many treasures, and the magic inside is powerful enough to preserve the artifacts it contains after all these years. That tablet you found is an incantation to open the door. See where I\'m going with this?\n\nThe ghosts won\'t help us, and I doubt anyone living can speak the words, so you\'ll use the scroll instead. Based on my studies, the Arcanaeum\'s grandest vault sits on its upper floor under heavy guard. Bring me its contents, $C.",
+  },
+  [27534] = {
+    ["T"] = "Decadent Desires",
+    ["O"] = "Return to Lady Lyrene outside of Teles\'aran with the Quel\'dorei Artifacts.",
+    ["D"] = "<Lady Lyrene will want to see the artifacts you\'ve found.>",
+  },
+  [27292] = {
+    ["T"] = "A Rod of Reagents",
+    ["O"] = "Delevan Frostgaze wants you to gather 8 Icesap from roots, 6 Frost Crystals from rocks, and 5 Blood Feathers from airborne owls near The Hidden Grove.",
+    ["D"] = "I trust Roxxie explained my objective? No? Something stirs the hearts of the owlbeasts north of here. The cause is difficult to explain, but I believe we can lessen their turmoil at the very least. The first step is to treat a rod with local reagents. I\'d gather it all myself... only to return to a ravaged camp. Would you go in my stead?\n\nIcesap from nearby roots will act as a sealant, slowing the mind. Frost crystals atop the rocks hum in the chill, soothing the mind; and lastly, the ever-wise owls that fly in Winterspring are resolute, so perhaps their blood feathers will impart that same quality to their larger kin. Grant them a dignified end, please.\n\nIf you\'ll gather these components, I\'ll be in your debt. Please take care, for Winterspring can be unkind.",
+  },
+  [27293] = {
+    ["T"] = "In Moonlit Mourning",
+    ["O"] = "At night, assist Delevan Frostgaze in defeating the Mooncrazed Owlbeast inside The Hidden Grove.",
+    ["D"] = "In my dreams, I\'ve met a lone owlbeast haunting the grove, roiling in hatred. It feels... desperate, despite no apparent dangers. I suspect this creature knows my intentions but remains fixed in fury.\n\nThe rod is complete, but I must avail myself of your strength yet again. As night falls, the grove\'s flora and fauna attune: this shall be our avenue of action. The rod will tap into the attunement; I shall confront the rage, and if I am to guess, this lone owlbeast will embody that rage.\n\nSpeak to me when you are ready to face the perils ahead. I shall join you this time, but we must go at night.",
+  },
+  [27350] = {
+    ["T"] = "A Pound of Flesh",
+    ["O"] = "Alan Hawthorn wants you to gather 4 Wrinkled Furbolg Brains, 20 Chunks of Furbolg Flesh, and 15 Large Furbolg Bones from furbolgs in Winterspring.",
+    ["D"] = "Tidings, $C.\n\nI\'ve need of a butcher... one with a discerning eye and a less-than-moral compass. Interested?\n\nThe furbolg here are hardy creatures -- mountains of muscle, so to speak. They imbibe a \'firewater\', something I\'ve harnessed for my own uses, but I digress...\n\nI have plans. Plans for a work of art. I require furbolg brains, their flesh, as well as their bones. Here\'s a list for you.\n\n<Alan Hawthorn hands you a ragged scroll covered with barely legible scribbles.>",
+  },
+  [27351] = {
+    ["T"] = "Sinister Supplies",
+    ["O"] = "Purchase 20 Leaded Vials, 10 Coal, and 5 Blank Parchment from vendors in Everlook and return to Alan Hawthorn.",
+    ["D"] = "Now to draft a design for the gore before us. This will take some time.\n\nI suspect you\'re travelling the land? If you find yourself in that hive called Everlook, pick up these supplies. You\'ll be compensated well, of course...\n\n<Alan hands you another illegible scroll and stares at you for a moment, eventually shifting his sour gaze back to his work.>",
+  },
+  [27352] = {
+    ["T"] = "A Life\'s Work",
+    ["O"] = "Use Hawthorn\'s Volatile Solution on the Heap of Flesh in Alan Hawthorn\'s cave.",
+    ["D"] = "I intend to share my work with the world, starting in you. While you were away, I perused my master\'s teachings on abominations. Everything is in place -- see for yourself.\n\n<The pile of gore looks exactly as you left it.>\n\nTake this vial in hand and pour its contents onto the heap.",
+  },
+  [27353] = {
+    ["T"] = "Suffering the Suffering",
+    ["O"] = "Gather 10 Restless Ectoplasm from ghosts at Lake Kel\'Theril and return to Alan Hawthorn.",
+    ["D"] = "No, certainly not what I intended. At least you dealt with it... uh, admirably. Hmm...\n\nHere\'s a thought -- misery loves company, no? I can\'t imagine our beast is all too happy when it wakes. I spied some terribly miserable ghosts roaming that lake in the east.\n\nWhy don\'t you pay those spectres a visit, $C? A heaping of their ectoplasm will suffice; they cling to undeath so dearly, after all...",
+  },
+  [27354] = {
+    ["T"] = "A Task Never Finished",
+    ["O"] = "Use Hawthorn\'s Stable Solution on the Heap of Flesh in Alan Hawthorn\'s cave.",
+    ["D"] = "Let\'s try again, shall we?\n\nWhile you were away, I \'enhanced\' the brains, and with the ectoplasm, the creature\'s mind will have far more distractions from its rage. Plus, the better it can reason, the easier it is to control... strangely enough.\n\nI\'ve refined the solution. All that\'s left is to pour it, and that task falls to you once more.",
+  },
+  [27669] = {
+    ["T"] = "Sunken Treasure",
+    ["O"] = "Find the Sunken Treasure in one of the shipwrecks off the coast of the Blasted Lands.",
+    ["D"] = "Hey! You look like a good swimmer, and I need a good swimmer.\n\nSee those wrecks out there? I keep seeing them on our way in to port and had a thought: sunken treasure!\n\nI\'ll PAY you to go check for me. I\'ve counted four wrecks down there. If you find anything, bring it back and we can divvy out the loot...\n\nOh, and I think I saw some nasty bonemen swimming around down there. Be careful, $R!",
+  },
+  [27645] = {
+    ["T"] = "Collecting on Debt",
+    ["O"] = "Loot Grox\'s merchandise off of John Taylor, Joel Taylor, and Joshua Taylor inside Felstone Fortress.",
+    ["D"] = "So I\'ve got a problem that needs some muscle.\n\nSome deadbeats here in the fortress owe me big -- a trio of undead brothers. Time before last we docked here, they each wanted something I was selling but didn\'t have the coin on hand. I agreed to let them have the items, so long as they\'d pay me next time I stop in.\n\nWell guess what? I\'m still waiting on those payments! A goblin never forgets, Orc, and don\'t you forget it!\n\nOne\'s got a staff of mine, the other a timepiece, and the last one a magical drum. Don\'t care if you gotta break some bones to get my stuff back, if ya catch my drift.",
+  },
   [27251] = {
     ["T"] = "Descendants of Exiles",
     ["O"] = "Captain Ashyla at Talrendis Point wants you to kill 10 Blood Elf Reclaimers and 10 Blood Elf Surveyors at the Thalassian Base Camp in Azshara.",
