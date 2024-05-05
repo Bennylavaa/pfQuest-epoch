@@ -410,4 +410,10 @@ pfDB["units"]["enUS-epoch"] = {
   [46202] = "Galley Chief Benny",
   [8478] = "Second Mate Shandril",
   [46878] = "Watcher Steelsong",
+  [46327] = "Proctor Phillips",
+  [46331] = "Senior Student Selina",
+  [46322] = "Dean Blackwood",
+  [46323] = "Doctor Atwood",
+  [46329] = "Professor Hanlon",
+  [46326] = "Isabelle Pickman",
 }

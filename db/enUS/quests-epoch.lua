@@ -2924,4 +2924,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Take the Box of Grisly Mementos to Tyrande Whisperwind at the Temple of the Moon in Darnassus.",
     ["D"] = "I\'m glad you\'re here $n. Looking over these items I find that they are much more gruesome than I expected - these are skulls of some of the victims the Legion claimed as they made their way to Hyjal.\nThe cultists have imprinted them with names. Though I know nothing about their victims, they deserve a proper burial with full honor as heroes who defended the world tree.\nPlease take these trophies to Tyrande Whisperwind, high priestess of Elune in Darnassus. I trust her judgment when it comes to deciding what to do next.",
   },
+  [27365] = {
+    ["T"] = "First Day of School",
+    ["O"] = "Talk to the Scholomance School Staff to learn about the available courses and sign the appropriate paperwork.",
+    ["D"] = "First things first - this is no ordinary academic institution. We believe in hands-on learning and loosely guided, self-directed, practical approach. I was informed by a particularly nasty ghoul known as a \"lawyer\" that I need you to sign certain forms that protect the school and the student from \"indemnity\" and \"too many people poking about\". Hmph.\n\nIt is true that magic and martial abilities are inherently hazardous, especially when wielded by novices. You can use this requirement as an opportunity to meet the introductory staff: Doctor Atwood, Doctor Hanlon, Isabelle Pickman, and Proctor Phillips.",
+  },
 }
