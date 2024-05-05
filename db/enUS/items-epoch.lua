@@ -362,4 +362,10 @@ pfDB["items"]["enUS-epoch"] = {
   [63446] = "Memento of Illidan",
   [63447] = "Memento of Kil\'jaeden",
   [63448] = "Memento of Tichondrius",
+  [63200] = "Glyph of Affliction",
+  [63364] = "Izalnir\'s Belongings",
+  [63350] = "Izalnir\'s Glyph",
+  [63351] = "Seiana\'s Glyph",
+  [63320] = "Ragged Ear",
+  [63321] = "Felstone Gold Ore",
 }
