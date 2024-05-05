@@ -2929,4 +2929,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Talk to the Scholomance School Staff to learn about the available courses and sign the appropriate paperwork.",
     ["D"] = "First things first - this is no ordinary academic institution. We believe in hands-on learning and loosely guided, self-directed, practical approach. I was informed by a particularly nasty ghoul known as a \"lawyer\" that I need you to sign certain forms that protect the school and the student from \"indemnity\" and \"too many people poking about\". Hmph.\n\nIt is true that magic and martial abilities are inherently hazardous, especially when wielded by novices. You can use this requirement as an opportunity to meet the introductory staff: Doctor Atwood, Doctor Hanlon, Isabelle Pickman, and Proctor Phillips.",
   },
+  [27366] = {
+    ["T"] = "Observing the Dress Code",
+    ["O"] = "Bring 8 Putrid Spider Silk to Isabelle Pickman at Caer Darrow.",
+    ["D"] = "Your first course will be in home economics. The school budget is tight and students will need to supply the raw materials for their own uniform. Fortunately, this is an easy task.\n\nThe spiders that live in the Plaguelands spin strong exceptionally putrid silk. Slay them until you have enough raw materials for your uniform, then bring the silk to our Home Economics teacher, Isabelle Pickman. You can find these spiders north of the Ruins of Andorhal, near the cauldron fields, or even up by the lumber yard. Get to it!",
+  },
 }

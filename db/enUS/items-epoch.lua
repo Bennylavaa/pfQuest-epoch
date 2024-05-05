@@ -368,4 +368,5 @@ pfDB["items"]["enUS-epoch"] = {
   [63351] = "Seiana\'s Glyph",
   [63320] = "Ragged Ear",
   [63321] = "Felstone Gold Ore",
+  [62759] = "Putrid Spider Silk",
 }
