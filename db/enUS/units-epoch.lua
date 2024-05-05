@@ -390,4 +390,5 @@ pfDB["units"]["enUS-epoch"] = {
   [46201] = "First Mate Jen",
   [46202] = "Galley Chief Benny",
   [8478] = "Second Mate Shandril",
+  [46878] = "Watcher Steelsong",
 }

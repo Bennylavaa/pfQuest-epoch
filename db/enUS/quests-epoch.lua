@@ -2749,4 +2749,19 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Return to Captain Vanessa Beltis at the Ruined Reaches in Azshara.",
     ["D"] = "You\'ve done about all you can do right now. I\'m going to stick around here and see what I can salvage before heading back.\nYou ought to check in with cap\'n.",
   },
+  [27721] = {
+    ["T"] = "The Garden of Jadefire Glen",
+    ["O"] = "Kill Jadefire Satyrs and Felsworn until you retrieve Kelek Skykeeper\'s gardening tools, then return them to him at Emerald Sanctuary in Felwood.",
+    ["D"] = "Before the Legion came I spent much of my time at Jadefire Glen, where I created a luminous garden. Sadly nothing remains of the many years of cultivation and effort that went into building that restful sanctuary.\nThe Jadefire demons that now inhabit my old garden are known as packrats who hoard any scraps they get their filthy hands on. I\'m hoping that means they have my tools, and I\'d give anything to have them back.\nI\'m no fighter, but I will reward you handsomely if you bring me back my tools - especially if it means killing every demon in the place!",
+  },
+  [27722] = {
+    ["T"] = "The Shrine of the Deceiver",
+    ["O"] = "Recover the mementos of Illidan, Tichondrius, Kil\'jaeden, and Archimonde that are kept in the Shrine of the Deceiver and bring them to Watcher Steelsong at Emerald Sanctuary in Felwood.",
+    ["D"] = "I greet you $c. My name is Vela Steelsong and I am a Warden. Or, at least I hope to be. I\'m actually still in training.\nI was sent here to examine the demonic forces that have taken over Jaedenar. I\'ve determined that these cultists have collected mementos from when the Burning Legion passed through Felwood, and are storing them in the Shrine of the Deceiver within Jadenar.\nTaking these mementos away from them would remove a powerful symbol of their devotion to the Legion.\nI\'m not supposed to engage them directly and I don\'t want to disobey orders on my first assignment - but if you could act as my agent and retrieve these relics, I would be most grateful.",
+  },
+  [27723] = {
+    ["T"] = "Mementos of the Third War",
+    ["O"] = "Take the Box of Grisly Mementos to Tyrande Whisperwind at the Temple of the Moon in Darnassus.",
+    ["D"] = "I\'m glad you\'re here $n. Looking over these items I find that they are much more gruesome than I expected - these are skulls of some of the victims the Legion claimed as they made their way to Hyjal.\nThe cultists have imprinted them with names. Though I know nothing about their victims, they deserve a proper burial with full honor as heroes who defended the world tree.\nPlease take these trophies to Tyrande Whisperwind, high priestess of Elune in Darnassus. I trust her judgment when it comes to deciding what to do next.",
+  },
 }

@@ -333,4 +333,11 @@ pfDB["items"]["enUS-epoch"] = {
   [63171] = "Fragrant Felfish",
   [61791] = "Alexandra\'s Text",
   [61793] = "Medical Supply Crate",
+  [63442] = "Kelek\'s Bucket",
+  [63443] = "Kelek\'s Trowel",
+  [63444] = "Kelek\'s Weeder",
+  [63445] = "Memento of Archimonde",
+  [63446] = "Memento of Illidan",
+  [63447] = "Memento of Kil\'jaeden",
+  [63448] = "Memento of Tichondrius",
 }
