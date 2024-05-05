@@ -369,4 +369,5 @@ pfDB["items"]["enUS-epoch"] = {
   [63320] = "Ragged Ear",
   [63321] = "Felstone Gold Ore",
   [62759] = "Putrid Spider Silk",
+  [62760] = "Sharlot\'s Spinneret",
 }

@@ -2934,4 +2934,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Bring 8 Putrid Spider Silk to Isabelle Pickman at Caer Darrow.",
     ["D"] = "Your first course will be in home economics. The school budget is tight and students will need to supply the raw materials for their own uniform. Fortunately, this is an easy task.\n\nThe spiders that live in the Plaguelands spin strong exceptionally putrid silk. Slay them until you have enough raw materials for your uniform, then bring the silk to our Home Economics teacher, Isabelle Pickman. You can find these spiders north of the Ruins of Andorhal, near the cauldron fields, or even up by the lumber yard. Get to it!",
   },
+  [27367] = {
+    ["T"] = "Observing the Dress Code",
+    ["O"] = "Kill Sharlot and bring her Spinneret to Isabelle Pickman.",
+    ["D"] = "While you were out acquiring the materials for your uniform, the shuttle on my loom broke. It will take a long time to replace if we have to send for one from Northrend, but fortunately I know of a local solution.\n\nThe matriarch of the local brood of spiders is a great beast the locals called Sharlot. Her spinneret should be a close match to the size I need for the loom. You can find her in a hollow northwest of Felstone Field. Consider this your first opportunity for extra credit.",
+  },
+  [27368] = {
+    ["T"] = "Second Day of School",
+    ["O"] = "Equip the Scholomance Academy Tabard.",
+    ["D"] = "Greetings $N. I\'m glad to see you made it through your first day. Twelve percent of prospective students don\'t.\n\nNow that you have acquired your uniform, you are ready to wear it with pride. You are now officially under the Academy\'s instruction. Go Ghosts!",
+  },
 }
