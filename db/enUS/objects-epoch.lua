@@ -85,6 +85,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [4000083] = "South West Plague Cauldron", --Placeholder ID
   [4000084] = "Noxious Glade Cauldron", --Placeholder ID
   [4000085] = "Fungal Vale Cauldron", --Placeholder ID
+  [4000086] = "Mound of Clay", --Placeholder ID
   [4001000] = "Bloodfeather Egg", --Placeholder ID
   [4001001] = "Lily Whip", --Placeholder ID
   [4001002] = "Dolanaar Moonwell", --Placeholder ID

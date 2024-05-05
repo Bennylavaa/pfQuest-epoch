@@ -382,4 +382,7 @@ pfDB["items"]["enUS-epoch"] = {
   [62766] = "Weeping Cave Fungus Sample",
   [62767] = "Watering Can",
   [62755] = "All-Purpose Neutralizing Agent",
+  [63326] = "Bundle of Cultist Writings",
+  [63315] = "Sulfurous Meat",
+  [63316] = "Red Clay",
 }

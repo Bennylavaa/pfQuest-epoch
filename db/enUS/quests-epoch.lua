@@ -3049,4 +3049,34 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Add the All-Purpose Neutralizing Agent to the Scourge cauldrons in the Fungal Vale and Noxious Glade, then return to Alchemist Arbington.",
     ["D"] = "A report has come in that two final cauldrons remain, one each in the Noxious Glade and Fungal Vale of the Eastern Plaguelands. Once you have added the neutralizing agent to these two cauldrons, we should have the spread of the plague under control - at least for now. \nGo swiftly hero, so we can put this matter to rest.",
   },
+  [27661] = {
+    ["T"] = "Gathering Intelligence",
+    ["O"] = "Collect 12 Bundles of Cultist Writings from Shadowsworn cult members around the Blasted Lands.",
+    ["D"] = "The Shadowsworn have always been a hindrance to our watch over the Dark Portal. It\'s usually only in isolated incidents and altercations, but they\'ve been growing more bold and organized. We\'re unable to confirm anything, as most scouts we send out never come back. To top it all off, the enemy is using a strange new magic that our people aren\'t recovering from.\nI\'m curious about what\'s going on here. Would you act as our agent? The lower level members aren\'t the best source of intel, but they\'re the only ones we ever see. Start with them in the valleys south of here, and bring back any notes or letters they may have. Be careful out there, Warlock.",
+  },
+  [27646] = {
+    ["T"] = "Feeding the Troops",
+    ["O"] = "Gather 10 Sulfurous Meat from Ashmane Boars.",
+    ["D"] = "It\'s important to stay positive in a place like this, but I take it many people here are giving you the cold shoulder? Try not to hold it against them.\nNot only is this a stressful post, but hunger does terrible things to a person. We\'re tapping into our emergency food supply until the next big shipment comes in... which is who knows when!\nThe animals here aren\'t fit for consumption, but I\'ve got a plan. Care to help out?\nI need meat from the Ashmane Boars around the area. As much as you can carry, please, but avoid the really tough stuff.",
+  },
+  [27647] = {
+    ["T"] = "Alchemy is the Answer",
+    ["O"] = "Talk to Nina Lightbrew inside Nethergarde Keep\'s mage tower.",
+    ["D"] = "Have you met Nina up in the tower? She travels between here and Duskwood, selling alchemy supplies.\nShe\'s told me her true passion is in alchemy itself, but she lacks confidence in her ability. This is the perfect opportunity to try and solve a practical problem.\nWhat do you say, Anistine? Could you ask her for some help to get this stuff edible? Also, tell her I said hey!\n\<Lungertz gives you a genial grin.\>",
+  },
+  [27648] = {
+    ["T"] = "The Clay Cleanse",
+    ["O"] = "Find 7 Red Clay from deposits near the coast of the Blasted Lands.",
+    ["D"] = "So... the plan is to get something edible out of all this meat using alchemy? Hmm... I don\'t know, but I suppose there\'s no harm in at least trying.\n\<Nina rubs her chin for a long while, deep in thought.\>\nWell, this may sound absurd. The horses we ride here are prone to sickness after going through the swamp, but when we arrive, I always notice them eating clay off the ground. The next day, it\'s like nothing was ever wrong.\nMaybe... maybe the clay has some kind of purifying properties? It\'s everywhere in small amounts, but I think you\'ll have better luck on the coast due to the tides and all.",
+  },
+  [27649] = {
+    ["T"] = "Ready for Distribution",
+    ["O"] = "Bring the news to Quartermaster Lungertz inside Nethergarde Keep.",
+    ["D"] = "Okay, let\'s put this to the test. I boiled the water, added in some crushed charcoal, bruiseweed, gromsblood... and now the clay.\n\<Nina mixes the clay with the odorous solution, making it viscous.\>\nHere goes nothing...\n\<The mixture makes contact with the meat, furiously sizzling. As things calm down, it becomes clear something went right.\>\nOh, wow... the smell is gone! No more ooze, the color is brighter, and it seems it got cooked too!\n\<Nina looks at you warily, then samples it.\>\nHmm... not bad! I guess we got lucky, Anistine. Why don\'t you tell Lungertz the good news? I\'ll finish treating the rest of this and bring it to him later. Thanks a bunch!",
+  },
+  [27673] = {
+    ["T"] = "An Unlikely Ally",
+    ["O"] = "Find and speak to Izalnir somewhere on the coast of the Blasted Lands.",
+    ["D"] = "Most of us won\'t admit to it, but we\'re in dire straits. Nethergarde hasn\'t received reinforcements for some time, people are suffering a curse we\'ve not seen before, and the lands grow more dangerous each day.\nWhile gathering some reagents a fortnight ago, I came across an undead fleeing the ruins of that fortress to the south. I prepared myself for a fight, but he raised his arms and explained his situation.\nHe used to be a high ranking member of the cult and nearly got himself killed. Now he\'s seeking shelter with the Horde or Alliance, but seeing as he\'s undead...\nThe Watcher thinks it\'s some kind of a trap, but honestly, we need a break. Someone like that is bound to have useful information.\nWon\'t you look for him, Warlock? Last I saw he was headed for the coast.",
+  },
 }
