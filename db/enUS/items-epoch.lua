@@ -336,4 +336,10 @@ pfDB["items"]["enUS-epoch"] = {
   [61779] = "Unattuned Crystal",
   [61780] = "Ancient Journal",
   [61778] = "Repaired Crystal",
+  [61937] = "Tanum\'s Hacksaw",
+  [61938] = "Yeti Finger",
+  [63100] = "Quel\'dorei Tablet",
+  [61942] = "Icesap",
+  [61943] = "Frost Crystal",
+  [61941] = "Blood Feather",
 }

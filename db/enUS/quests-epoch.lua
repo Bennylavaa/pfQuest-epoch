@@ -2744,4 +2744,79 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Return to Umbranse the Spiritspeaker in eastern Winterspring.",
     ["D"] = "Umbranse was right, the Crystal of Zin-Malor is too dangerous to be found and used again. Many days I have endured that spirit residing inside me, and that was the least of the evils the crystal could potentially cause.\n\nPlease, $N will you return to Umbranse and let him know that I am myself again. I no longer care about the journal translation. He can do whatever he wants with the tome. I will return shortly, once I\'ve had a chance to reflect on the experience. May the spirits bless you $C. ",
   },
+  [27286] = {
+    ["T"] = "Quality Reagents",
+    ["O"] = "Use Tanum\'s Hacksaw to harvest 80 Yeti Fingers from Ice Thistle Yeti corpses east of Tanum\'s Camp.",
+    ["D"] = "Sooo, the lady wants her potions, does she? Got no patience, tha\' little goblin! Only been a day since I sent \'em over...\n\n<Tanum scratches his potion-stained beard, hair coming out in handfuls.>\n\nWhat\'s yer name again... $N..? $N, since yer here, why don\'t ye lend this tired ol\' dwarf some help. Ta make these potions, I be needin\' yeti fingers from them big beasties roamin\' the hills east. Yes, fingers -- need \'em intact, \'specially them claws! Ye can find \'em wanderin\' the cave up yonder too.Don\'t get all queasy now! Take me hacksaw an\' have a grand ol\' time.",
+  },
+  [27287] = {
+    ["T"] = "Kill Wraithroar",
+    ["O"] = "Kill Wraithroar in the cliffside cave to the east of Tanum\'s Camp.",
+    ["D"] = "Listen, $N. Do ye hear that noise?\n\n<Tanum pauses, and you hear a faint roar in the east.>\n\nI been dealin\' with this racket the whole time I been out here! An\' I know who\'s causin\' it... tha\' fat chunk o\' fur way back o\' the cave up there! Now, he\'s a tad too dangerous fer me... \'umble abilities, but fer yerself...\n\n<Tanum rubs his fingers, scanning your gear with beady eyes. A sinister smile creeps across his face when he meets your gaze.>\n\nI need silence ta work! Make it worth yer while, $C..?",
+  },
+  [27288] = {
+    ["T"] = "The Fizz",
+    ["O"] = "Tanum wants you to charge the Electro B.T.L.R. Device 8 times with Lightning Breath from Chillwind Chimeras.",
+    ["D"] = "Okay, $C. We got the fingers, we got peace n\' quiet, now we be needin\' the fizz... an\' what\'s the fizz, ye ask?\n\n<Tanum pauses, looking at you with empty eyes.>\n\nLightnin\' breath, o\' course! From them chimaera... but only the ones that\'ll zap ye! Here\'s the tool fer the job.\n\n<Tanum hands you a dangerous looking device covered in buttons, switches and lights.>\n\nDun worry if ye feel a littl\' bit of a sting... oh, an\' try not ta die!",
+  },
+  [27289] = {
+    ["T"] = "A Fine... Product?",
+    ["O"] = "Deliver the Crate of Potions to Roxxie Fizzwhistle in Everlook.",
+    ["D"] = "Alright, $N... ugh...\n\n<Tanum sighs loudly, reaching for various potions of different colors and consistencies, then tosses them all into a crate.>\n\nTake these to tha\' wee firecracker! Auh, she\'s ruinin\' me!! Ain\'t got t-time fer thisssh...\n\n<Tanum\'s words start to slur as he murmurs to himself, turning his hungry eyes to the freshly brewed potions on his alchemy bench.>",
+  },
+  [27290] = {
+    ["T"] = "The Universal Language",
+    ["O"] = "Teach Tanum a lesson and return to Roxxie Fizzwhistle in Everlook.",
+    ["D"] = "<Roxxie inspects the disordered crate of potions. Listening to your story, her face curls in disgust.>\n\nNo, no! NO!! He's drinkin' the product again! Sending me this trash... I don't even wanna know what's in these bottles -- I know it ain't my product!\n\nThat buffoon's lucky he makes a decent brew! Oh... but what's the boss gonna do when he finds out!?\n\nTeach that runt a lesson! Don't kill him, just... rough him up a little. Tell him \"the cartel sends its regards\", that'll shape him up!\n\n",
+  },
+  [27291] = {
+    ["T"] = "To Delevan\'s Aid",
+    ["O"] = "Talk to Delevan Frostgaze northeast of Everlook and south of The Hidden Grove.",
+    ["D"] = "You did great work, kid. Put the fear back in that rug-beard! How\'d you like to do another job?\n\nI got a friend in Winterspring -- nice fella, good with animals, helped me tons over in Felwood, Ashenvale... anyway, name\'s Delevan and he\'s tryin\' to do somethin\' or other with the wildkin up north.\n\n<Roxxie flings up her palms.>\n\nDon\'t ask me what! I never understand him when he talks. He told me to keep an eye out for people like you and send \'em his way. He mentioned danger, which seems right up your alley.",
+  },
+  [27529] = {
+    ["T"] = "Words in Stone",
+    ["O"] = "Lady Lyrene wants you to search Teles\'aran and collect 12 Quel\'dorei Tablets.",
+    ["D"] = "You\'ve come prepared, I see. How would you like to line your pockets, $C?\n\nI collect all things Quel\'dorei, and I\'m searching for something in the ruins to the north. I need any literature you can find, but tablets are likely all you\'ll come across.\n\nNo reading necessary. Do we have an accord?",
+  },
+  [27554] = {
+    ["T"] = "Shadow of the Vilehorn",
+    ["O"] = "Rootspeaker Aharu wants you to kill 12 Vilehorn Satyr inside Teles\'aran to the north.",
+    ["D"] = "Greetings $C, though I wish we\'d met under better circumstances.\n\nEven from Moonglade, I sensed something wrong in Winterspring. I communed with the trees, and they showed me a tainted wound in the land growing larger and more vicious -- coaxed into being by baleful magic.\n\n<Rootspeaker Aharu shakes his head in dismay.>\n\nDo you smell that foulness in the air? The sulfur fumes riding the wind this far can only mean one thing: Satyr. Follow their scent north and dispatch them -- put an end to their dark deeds!",
+  },
+  [27540] = {
+    ["T"] = "Lost Souls",
+    ["O"] = "Ismir Dawnfall wants you to put the ghostly citizens of Teles\'aran to rest.",
+    ["D"] = "You\'ll speak with me? How long has it been..? Most travelers pay me no heed... that, or they run the other direction.\n\n<Ismir pauses as if anticipating your departure, his piercing eyes belie a deep sadness.>\n\nI\'ve failed my mission, $C... Teles\'aran is my father\'s ancestral home, and I came here years ago to lay his suffering kindred to rest. I was a ranger in life, and I had nothing but confidence in my ability. Instead, as you can see...\n\n<Ismir waves his ethereal hand through his chest, his body\'s ghostly aura distorting in response.>\n\nYou look as though you\'re headed to the ruins. I don\'t have anything to offer you, but please -- lend your kindness to the spirits of this place. Relieve them of their suffering. Tragically, they don\'t even realize the state they\'re in...",
+  },
+  [27530] = {
+    ["T"] = "A Scribe\'s Work",
+    ["O"] = "Take the Quel\'dorei Tablet to Marius Hedrin at the Everlook inn.",
+    ["D"] = "My escort is loitering about in Everlook. The two of them don\'t share my enthusiasm, but that\'s not what they\'re here for.\n\nFind the scribe, Marius Hedrin. Have him etch this part of the tablet onto a spellscroll.\n\n<Lady Lyrene frames a section of the tablet\'s script with her finger.>\n\nTell him the scroll needs to be potent -- only his strongest effort will suffice.",
+  },
+  [27531] = {
+    ["T"] = "The Illusory Key",
+    ["O"] = "Marius Hedrin needs 7 Illusion Dust to create a Quel\'dorei Spellscroll. Illusion Dust is a product of the Enchanting profession.",
+    ["D"] = "Wow, beautiful calligraphy! I can\'t read it, but I assume the Lady wants this transcribed?\n\nA spellscroll? And the most powerful ones are inked using illusion dust... ah, but I ran out last week!\n\nUh... could you supply the reagents? Illusion dust is the ken of enchanters, and you might find it on the auction house if you can\'t elsewhere.",
+  },
+  [27532] = {
+    ["T"] = "Unknown Magic",
+    ["O"] = "Return to Lady Lyrene outside of Teles\'aran with the Durable Scrollcase.",
+    ["D"] = "Alright, $C. That should do it! I\'ll be keeping the tablet, but you\'ll need to take this.\n\n<Marius hands you a heavy-duty scrollcase, tightly sealed.>\n\nThe scroll is inside, please deliver it to Lady Lyrene. Safe travels, and good luck!",
+  },
+  [27533] = {
+    ["T"] = "The Arcanaeum",
+    ["O"] = "Use the Teles\'aran Spellscroll to open the Arcanaeum\'s door and find the Arcaneum Vault.",
+    ["D"] = "Alright, here\'s the plan...\n\nTeles\'aran houses a vast Quel\'dorei repository called an Arcanaeum. It was built into the mountains to safeguard the city\'s many treasures, and the magic inside is powerful enough to preserve the artifacts it contains after all these years. That tablet you found is an incantation to open the door. See where I\'m going with this?\n\nThe ghosts won\'t help us, and I doubt anyone living can speak the words, so you\'ll use the scroll instead. Based on my studies, the Arcanaeum\'s grandest vault sits on its upper floor under heavy guard. Bring me its contents, $C.",
+  },
+  [27534] = {
+    ["T"] = "Decadent Desires",
+    ["O"] = "Return to Lady Lyrene outside of Teles\'aran with the Quel\'dorei Artifacts.",
+    ["D"] = "<Lady Lyrene will want to see the artifacts you\'ve found.>",
+  },
+  [27292] = {
+    ["T"] = "A Rod of Reagents",
+    ["O"] = "Delevan Frostgaze wants you to gather 8 Icesap from roots, 6 Frost Crystals from rocks, and 5 Blood Feathers from airborne owls near The Hidden Grove.",
+    ["D"] = "I trust Roxxie explained my objective? No? Something stirs the hearts of the owlbeasts north of here. The cause is difficult to explain, but I believe we can lessen their turmoil at the very least. The first step is to treat a rod with local reagents. I\'d gather it all myself... only to return to a ravaged camp. Would you go in my stead?\n\nIcesap from nearby roots will act as a sealant, slowing the mind. Frost crystals atop the rocks hum in the chill, soothing the mind; and lastly, the ever-wise owls that fly in Winterspring are resolute, so perhaps their blood feathers will impart that same quality to their larger kin. Grant them a dignified end, please.\n\nIf you\'ll gather these components, I\'ll be in your debt. Please take care, for Winterspring can be unkind.",
+  },
 }
