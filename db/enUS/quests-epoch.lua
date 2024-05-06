@@ -3209,4 +3209,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Take Chillbone\'s Phylactery to Blackrock Mountain and attempt to destroy it in the lava inside the mountain. Then return to Professor Starling near the Abandoned Chapel in Eastern Plaguelands with the results.",
     ["D"] = "Cleansing a lich\'s phylactery is no trivial matter, but there is one easy way to do it - plunge it into the molten hot lava of Blackrock Mountain. If the searing heat of the mountain can\'t melt the frame that keeps Chillbone\'s spirit inside, nothing will.You can easily reach the pool of lava at the bottom of The Molten Span by following the chains through Franclorn Forgewright\'s tomb.",
   },
+  [27504] = {
+    ["T"] = "Field Trip",
+    ["O"] = "Take the Urgent Report to Sir Nicholas Zeverenhoff at Light\'s Hope Chapel in Eastern Plaguelands.",
+    ["D"] = "While you were traveling, I\'ve had time to decode Chillbone\'s journal. What I\'ve learned has sickened me. I don\'t know how much I can share with you now, so I will leave that to my superiors. Please take this report I have prepared to Duke Nicholas Zeverenhoff at Light\'s Hope Chapel, immediately!",
+  },
 }
