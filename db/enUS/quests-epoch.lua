@@ -3109,4 +3109,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Visit the four ruins of Aru-Talis and look for tablets. Take a rubbing of any tablets you find and bring the rubbings to Jaylssa Stonesong in Un\'Goro Crater.",
     ["D"] = "Hello again, $N. I\'ve looked over the relics you brought back and they mention something called the \"keystone tablet\". It\'s a rough translation so I\'m not sure exactly what it means, but I think it implies that different parts of a whole were dispersed through Aru-Talis.\n\nI\'m sure the whole thing isn\'t intact but if we can collect enough parts of it, perhaps we can understand the rest through context.\n\nWould you travel to the different ruin sites you found earlier and look for a tablet with writing on it, possibly circular writing? Take these rubbing supplies and make a rubbing of the tablets for me please.",
   },
+  [27497] = {
+    ["T"] = "The Legend of Aru-Talis",
+    ["O"] = "Take the Box of Aru-Talis Research Materials to Hamuul Runetotem on the Elder Rise in Thunder Bluff.",
+    ["D"] = "I think you have done all that you can to help me for now. When I recover I can continue the work myself.\n\n Please, do me one last favor. Take the core samples, tablet rubbings, and my report back to Hamuul Runetotem in Thunder Bluff. He expressed interest in finding out if the legend was true, and its the least I can do since a member of the Horde helped me.",
+  },
 }
