@@ -3104,4 +3104,9 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Use Leakey\'s Core Driller to extract samples from the back of Crystal Cave at Marshal\'s Refuge, the top of Fire Plume Ridge, the Ironstone Plateau, and the Golakka Hot Springs, then bring the samples back to Leakey Cartspark in Un\'Goro Crater.",
     ["D"] = "Did Jaylssa mention that in the legend a massive arcane explosion destroyed Aru-Talis? The relics you found might support this theory. If it\'s true, we should see a layer of arcane residue in samples of the sediment that has accumulated over time in the crater.\n\nI need to tend to Jaylssa but if you don\'t mind helping, take this core driller and use it to extract some sediment cores from a wide variety of places in Un\'Goro. I\'ll give you a list.",
   },
+  [27495] = {
+    ["T"] = "The Legend of Aru-Talis",
+    ["O"] = "Visit the four ruins of Aru-Talis and look for tablets. Take a rubbing of any tablets you find and bring the rubbings to Jaylssa Stonesong in Un\'Goro Crater.",
+    ["D"] = "Hello again, $N. I\'ve looked over the relics you brought back and they mention something called the \"keystone tablet\". It\'s a rough translation so I\'m not sure exactly what it means, but I think it implies that different parts of a whole were dispersed through Aru-Talis.\n\nI\'m sure the whole thing isn\'t intact but if we can collect enough parts of it, perhaps we can understand the rest through context.\n\nWould you travel to the different ruin sites you found earlier and look for a tablet with writing on it, possibly circular writing? Take these rubbing supplies and make a rubbing of the tablets for me please.",
+  },
 }

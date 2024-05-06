@@ -392,4 +392,8 @@ pfDB["items"]["enUS-epoch"] = {
   [62792] = "Devilsaur Head",
   [63027] = "Atu-Tails Artifact",
   [63028] = "Leakey\'s Core Driller",
+  [63034] = "First Tablet Rubbing",
+  [63035] = "Second Tablet Rubbing",
+  [63036] = "Third Tablet Rubbing",
+  [63037] = "Fourth Tablet Rubbing",
 }
