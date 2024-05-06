@@ -1,4 +1,212 @@
 pfDB["quests"]["data-epoch"] = {
+  [9] = "_", -- Quest Removed - The Killing Fields
+  [11] = {
+    ["start"] = {
+      ["U"] = { 963 },
+    },
+    ["end"] = {
+      ["U"] = { 963 },
+    },
+    ["obj"] = {
+      ["I"] = { 782 },
+    },
+    ["lvl"] = 10,
+    ["min"] = 6,
+    ["race"] = 77,
+  },
+  [46] = {
+    ["start"] = {
+      ["U"] = { 261 },
+    },
+    ["end"] = {
+      ["U"] = { 261 },
+    },
+    ["obj"] = {
+      ["I"] = { 780 },
+    },
+    ["lvl"] = 10,
+    ["min"] = 7,
+    ["pre"] = { 39 },
+    ["race"] = 77,
+  },
+  [76] = {
+    ["start"] = {
+      ["U"] = { 240 },
+    },
+    ["end"] = {
+      ["U"] = { 240 },
+    },
+    ["obj"] = {
+      ["A"] = { 87,342 },
+      ["U"] = { 40, 476 },
+    },
+    ["lvl"] = 10,
+    ["min"] = 4,
+    ["pre"] = { 62 },
+    ["race"] = 77,
+  },
+  [109] = {
+    ["start"] = {
+      ["U"] = { 261,233,237,240,294,963 },
+    },
+    ["end"] = {
+      ["U"] = { 234 },
+    },
+    ["lvl"] = 10,
+    ["min"] = 9,
+    ["race"] = 77,
+  },
+  [164] = "_", --Remove unused Deliveries to Sven
+  [233] = {
+    ["start"] = {
+      ["U"] = { 658 },
+    },
+    ["end"] = {
+      ["U"] = { 714 },
+    },
+    ["lvl"] = 3,
+    ["min"] = 1,
+    ["pre"] = { 179 },
+    ["race"] = 77,
+  },
+  [432] = {
+    ["start"] = {
+      ["U"] = { 1254 },
+    },
+    ["end"] = {
+      ["U"] = { 1254 },
+    },
+    ["obj"] = {
+      ["U"] = { 1115, 1117 },
+    },
+    ["lvl"] = 9,
+    ["min"] = 5,
+    ["race"] = 77,
+  },
+  [433] = {
+    ["start"] = {
+      ["U"] = { 1977 },
+    },
+    ["end"] = {
+      ["U"] = { 1977 },
+    },
+    ["obj"] = {
+      ["I"] = { 60056 },
+    },
+    ["lvl"] = 11,
+    ["min"] = 6,
+    ["race"] = 77,
+  },
+  [464] = {
+    ["start"] = {
+      ["U"] = { 2104 },
+    },
+    ["end"] = {
+      ["U"] = { 2104 },
+    },
+    ["obj"] = {
+      ["I"] = { 3337 },
+    },
+    ["lvl"] = 28,
+    ["min"] = 23,
+    ["pre"] = { 26283 },
+  },
+  [466] = {
+    ["start"] = {
+      ["U"] = { 1377 },
+    },
+    ["end"] = {
+      ["U"] = { 1377 },
+    },
+    ["obj"] = {
+      ["I"] = { 3340 },
+    },
+    ["lvl"] = 22,
+    ["min"] = 20,
+    ["race"] = 77,
+  },
+  [474] = {
+    ["start"] = {
+      ["O"] = { 1609 },
+    },
+    ["end"] = {
+      ["U"] = { 2104 },
+    },
+    ["obj"] = {
+      ["I"] = { 60214 },
+    },
+    ["lvl"] = 32,
+    ["min"] = 23,
+    ["pre"] = { 465 },
+  },
+  [487] = {
+    ["start"] = {
+      ["U"] = { 2151 },
+    },
+    ["end"] = {
+      ["U"] = { 2151 },
+    },
+    ["obj"] = {
+      ["I"] = { 60063 },
+    },
+    ["lvl"] = 8,
+    ["min"] = 5,
+  },
+  [498] = "_", --The Rescue - Durnhold Keep
+  [526] = "_", --Remove unused Lightforge Ingots
+  [549] = "_", --WANTED: Syndicate Personnel
+  [637] = {
+    ["start"] = {
+      ["O"] = { 2656 },
+    },
+    ["end"] = {
+      ["U"] = { 2695 },
+    },
+    ["lvl"] = 30,
+    ["min"] = 25,
+    ["race"] = 77,
+  },
+  [639] = { --Sigil of the Storm - Prequest Removed
+    ["start"] = {
+      ["U"] = { 2703 },
+    },
+    ["end"] = {
+      ["U"] = { 2703 },
+    },
+    ["obj"] = {
+      ["I"] = { 4440 },
+    },
+    ["lvl"] = 37,
+    ["min"] = 32,
+    ["race"] = 178,
+  },
+  [786] = { ---- Doesnt appear on the map
+    ["start"] = {
+      ["U"] = { 3140 },
+    },
+    ["end"] = {
+      ["U"] = { 3140 },
+    },
+    ["obj"] = {
+      ["O"] = { 3189,3190,3192 },
+    },
+    ["lvl"] = 8,
+    ["min"] = 5,
+  },
+  [787] = "_", -- Eitrigg
+  [899] = "_", --Consumed by Hatred
+  [934] = "_", -- OLD Crown Of The Earth
+  [991] = {
+    ["start"] = {
+      ["U"] = { 3691 },
+    },
+    ["end"] = {
+      ["U"] = { 3891 },
+    },
+    ["lvl"] = 19,
+    ["min"] = 18,
+    ["race"] = 77,
+  },
   [1027] = {
     ["start"] = {
       ["U"] = { 3916 },
@@ -30,17 +238,6 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 17,
     ["race"] = 77,
   },
-  [109] = {
-    ["start"] = {
-      ["U"] = { 261,233,237,240,294,963 },
-    },
-    ["end"] = {
-      ["U"] = { 234 },
-    },
-    ["lvl"] = 10,
-    ["min"] = 9,
-    ["race"] = 77,
-  },
   [1093] = { ---- Prequest Removed
     ["start"] = {
       ["U"] = { 4201 },
@@ -54,24 +251,6 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 21,
     ["min"] = 16,
   },
-  [11] = {
-    ["start"] = {
-      ["U"] = { 963 },
-    },
-    ["end"] = {
-      ["U"] = { 963 },
-    },
-    ["obj"] = {
-      ["I"] = { 782 },
-    },
-    ["lvl"] = 10,
-    ["min"] = 6,
-    ["race"] = 77,
-  },
-  [11211] = "_", -- Help for Mudsprocket
-  [11212] = "_", -- Tabetha's Farm
-  [11214] = "_", -- Mission to Mudsprocket
-  [11451] = "_", --Remove tbc quest Alicia's Poem
   [1203] = {
     ["start"] = {
       ["U"] = { 4792 },
@@ -121,19 +300,6 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 30,
     ["race"] = 77,
   },
-  [13887] = {
-    ["start"] = {
-      ["U"] = { 11701 },
-    },
-    ["end"] = {
-      ["U"] = { 11701 },
-    },
-    ["obj"] = {
-      ["I"] = { 46364 },
-    },
-    ["lvl"] = 53,
-  },
-  [164] = "_", --Remove unused Deliveries to Sven
   [2038] = {
     ["start"] = {
       ["U"] = { 6577 },
@@ -148,17 +314,151 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 12,
     ["race"] = 77,
   },
-  [233] = {
+  [4134] = { --Prequest Removed - Lost Thunderbrew Recipe
     ["start"] = {
-      ["U"] = { 658 },
+      ["U"] = { 9078 },
     },
     ["end"] = {
-      ["U"] = { 714 },
+      ["U"] = { 9078 },
     },
-    ["lvl"] = 3,
-    ["min"] = 1,
-    ["pre"] = { 179 },
+    ["obj"] = {
+      ["I"] = { 11312 },
+    },
+    ["lvl"] = 55,
+    ["min"] = 50,
+  },
+  [4764] = {
+    ["start"] = {
+      ["U"] = { 9565 },
+    },
+    ["end"] = {
+      ["U"] = { 9565 },
+    },
+    ["obj"] = {
+      ["I"] = { 12352 },
+    },
+    ["lvl"] = 60,
+    ["min"] = 57,
+    ["pre"] = "_",
     ["race"] = 77,
+  },
+  [4768] = { --Prequest Removed - The Darkstone Tablet
+    ["start"] = {
+      ["U"] = { 9078 },
+    },
+    ["end"] = {
+      ["U"] = { 9078 },
+    },
+    ["obj"] = {
+      ["I"] = { 12358 },
+    },
+    ["lvl"] = 60,
+    ["min"] = 57,
+  },
+  [4921] = "_", --Lost in Battle
+  [5527] = "_", --A Reliquary of Purity
+  [7863] = "_", -- Sentinel Basic Care Package
+  [7864] = "_", -- Sentinel Standard Care Package
+  [7865] = "_", -- Sentinel Advanced Care Package
+  [7866] = "_", --Outrider Basic Care Package
+  [7867] = "_", --Outrider Standard Care Package
+  [7868] = "_", --Outrider Advanced Care Package
+  [7874] = "_", --Quell the Silverwing Usurpers
+  [7875] = "_", --Quell the Silverwing Usurpers
+  [7876] = "_", --Quell the Silverwing Usurpers
+  [9435] = "_", --Remove tbc quest Missing crystals
+  [9469] = {
+    ["start"] = {
+      ["U"] = { 45683 },
+    },
+    ["end"] = {
+      ["O"] = { 181649 },
+    },
+    ["lvl"] = 46,
+    ["min"] = 42,
+  },
+  [9470] = {
+    ["start"] = {
+      ["U"] = { 45683 },
+    },
+    ["end"] = {
+      ["U"] = { 45683 },
+    },
+    ["obj"] = {
+      ["U"] = { 17235, 17236 },
+    },
+    ["lvl"] = 46,
+    ["min"] = 42,
+  },
+  [9471] = {
+    ["start"] = {
+      ["U"] = { 5636 },
+    },
+    ["end"] = {
+      ["U"] = { 5636 },
+    },
+    ["obj"] = {
+      ["U"] = { 2923, 2924 },
+    },
+    ["lvl"] = 44,
+    ["min"] = 40,
+    ["race"] = 1101,
+  },
+  [9516] = "_", -- Destroy the Legion A
+  [9517] = { ---- A Shameful Waste TBC Quest Start and End Units Replaced
+    ["start"] = {
+      ["U"] = { 3848 },
+    },
+    ["end"] = {
+      ["U"] = { 17310 },
+    },
+    ["obj"] = {
+      ["I"] = { 23776, 24081 },
+    },
+    ["lvl"] = 28,
+    ["min"] = 24,
+    ["race"] = 77,
+  },
+  [9518] = "_", -- Agents of Destruction
+  [9519] = "_", -- The Lost Chalice
+  [9521] = "_", -- Report from the Northern Front
+  [9609] = {
+    ["start"] = {
+      ["U"] = { 45878 },
+    },
+    ["end"] = {
+      ["U"] = { 5476 },
+    },
+    ["lvl"] = 37,
+  },
+  [9610] = {
+    ["start"] = {
+      ["U"] = { 45877 },
+    },
+    ["end"] = {
+      ["U"] = { 45877 },
+    },
+    ["obj"] = {
+      ["I"] = { 6175 },
+    },
+    ["lvl"] = 43,
+    ["min"] = 38,
+  },
+  [11211] = "_", -- Help for Mudsprocket
+  [11212] = "_", -- Tabetha's Farm
+  [11214] = "_", -- Mission to Mudsprocket
+  [11451] = "_", --Remove tbc quest Alicia's Poem
+  [13887] = {
+    ["start"] = {
+      ["U"] = { 11701 },
+    },
+    ["end"] = {
+      ["U"] = { 11701 },
+    },
+    ["obj"] = {
+      ["I"] = { 46364 },
+    },
+    ["lvl"] = 53,
   },
   [26147] = {
     ["start"] = {
@@ -7929,305 +8229,5 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 6508 },
     },
     ["lvl"] = 60,
-  },
-  [4134] = { --Prequest Removed - Lost Thunderbrew Recipe
-    ["start"] = {
-      ["U"] = { 9078 },
-    },
-    ["end"] = {
-      ["U"] = { 9078 },
-    },
-    ["obj"] = {
-      ["I"] = { 11312 },
-    },
-    ["lvl"] = 55,
-    ["min"] = 50,
-  },
-  [432] = {
-    ["start"] = {
-      ["U"] = { 1254 },
-    },
-    ["end"] = {
-      ["U"] = { 1254 },
-    },
-    ["obj"] = {
-      ["U"] = { 1115, 1117 },
-    },
-    ["lvl"] = 9,
-    ["min"] = 5,
-    ["race"] = 77,
-  },
-  [433] = {
-    ["start"] = {
-      ["U"] = { 1977 },
-    },
-    ["end"] = {
-      ["U"] = { 1977 },
-    },
-    ["obj"] = {
-      ["I"] = { 60056 },
-    },
-    ["lvl"] = 11,
-    ["min"] = 6,
-    ["race"] = 77,
-  },
-  [46] = {
-    ["start"] = {
-      ["U"] = { 261 },
-    },
-    ["end"] = {
-      ["U"] = { 261 },
-    },
-    ["obj"] = {
-      ["I"] = { 780 },
-    },
-    ["lvl"] = 10,
-    ["min"] = 7,
-    ["pre"] = { 39 },
-    ["race"] = 77,
-  },
-  [464] = {
-    ["start"] = {
-      ["U"] = { 2104 },
-    },
-    ["end"] = {
-      ["U"] = { 2104 },
-    },
-    ["obj"] = {
-      ["I"] = { 3337 },
-    },
-    ["lvl"] = 28,
-    ["min"] = 23,
-    ["pre"] = { 26283 },
-  },
-  [466] = {
-    ["start"] = {
-      ["U"] = { 1377 },
-    },
-    ["end"] = {
-      ["U"] = { 1377 },
-    },
-    ["obj"] = {
-      ["I"] = { 3340 },
-    },
-    ["lvl"] = 22,
-    ["min"] = 20,
-    ["race"] = 77,
-  },
-  [474] = {
-    ["start"] = {
-      ["O"] = { 1609 },
-    },
-    ["end"] = {
-      ["U"] = { 2104 },
-    },
-    ["obj"] = {
-      ["I"] = { 60214 },
-    },
-    ["lvl"] = 32,
-    ["min"] = 23,
-    ["pre"] = { 465 },
-  },
-  [4764] = {
-    ["start"] = {
-      ["U"] = { 9565 },
-    },
-    ["end"] = {
-      ["U"] = { 9565 },
-    },
-    ["obj"] = {
-      ["I"] = { 12352 },
-    },
-    ["lvl"] = 60,
-    ["min"] = 57,
-    ["pre"] = "_",
-    ["race"] = 77,
-  },
-  [4768] = { --Prequest Removed - The Darkstone Tablet
-    ["start"] = {
-      ["U"] = { 9078 },
-    },
-    ["end"] = {
-      ["U"] = { 9078 },
-    },
-    ["obj"] = {
-      ["I"] = { 12358 },
-    },
-    ["lvl"] = 60,
-    ["min"] = 57,
-  },
-  [487] = {
-    ["start"] = {
-      ["U"] = { 2151 },
-    },
-    ["end"] = {
-      ["U"] = { 2151 },
-    },
-    ["obj"] = {
-      ["I"] = { 60063 },
-    },
-    ["lvl"] = 8,
-    ["min"] = 5,
-  },
-  [4921] = "_", --Lost in Battle
-  [498] = "_", --The Rescue - Durnhold Keep
-  [526] = "_", --Remove unused Lightforge Ingots
-  [549] = "_", --WANTED: Syndicate Personnel
-  [5527] = "_", --A Reliquary of Purity
-  [637] = {
-    ["start"] = {
-      ["O"] = { 2656 },
-    },
-    ["end"] = {
-      ["U"] = { 2695 },
-    },
-    ["lvl"] = 30,
-    ["min"] = 25,
-    ["race"] = 77,
-  },
-  [639] = { --Sigil of the Storm - Prequest Removed
-    ["start"] = {
-      ["U"] = { 2703 },
-    },
-    ["end"] = {
-      ["U"] = { 2703 },
-    },
-    ["obj"] = {
-      ["I"] = { 4440 },
-    },
-    ["lvl"] = 37,
-    ["min"] = 32,
-    ["race"] = 178,
-  },
-  [76] = {
-    ["start"] = {
-      ["U"] = { 240 },
-    },
-    ["end"] = {
-      ["U"] = { 240 },
-    },
-    ["obj"] = {
-      ["A"] = { 87,342 },
-      ["U"] = { 40, 476 },
-    },
-    ["lvl"] = 10,
-    ["min"] = 4,
-    ["pre"] = { 62 },
-    ["race"] = 77,
-  },
-  [786] = { ---- Doesnt appear on the map
-    ["start"] = {
-      ["U"] = { 3140 },
-    },
-    ["end"] = {
-      ["U"] = { 3140 },
-    },
-    ["obj"] = {
-      ["O"] = { 3189,3190,3192 },
-    },
-    ["lvl"] = 8,
-    ["min"] = 5,
-  },
-  [7863] = "_", -- Sentinel Basic Care Package
-  [7864] = "_", -- Sentinel Standard Care Package
-  [7865] = "_", -- Sentinel Advanced Care Package
-  [7866] = "_", --Outrider Basic Care Package
-  [7867] = "_", --Outrider Standard Care Package
-  [7868] = "_", --Outrider Advanced Care Package
-  [787] = "_", -- Eitrigg
-  [7874] = "_", --Quell the Silverwing Usurpers
-  [7875] = "_", --Quell the Silverwing Usurpers
-  [7876] = "_", --Quell the Silverwing Usurpers
-  [899] = "_", --Consumed by Hatred
-  [9] = "_", -- Quest Removed - The Killing Fields
-  [934] = "_", -- OLD Crown Of The Earth
-  [9435] = "_", --Remove tbc quest Missing crystals
-  [9469] = {
-    ["start"] = {
-      ["U"] = { 45683 },
-    },
-    ["end"] = {
-      ["O"] = { 181649 },
-    },
-    ["lvl"] = 46,
-    ["min"] = 42,
-  },
-  [9470] = {
-    ["start"] = {
-      ["U"] = { 45683 },
-    },
-    ["end"] = {
-      ["U"] = { 45683 },
-    },
-    ["obj"] = {
-      ["U"] = { 17235, 17236 },
-    },
-    ["lvl"] = 46,
-    ["min"] = 42,
-  },
-  [9471] = {
-    ["start"] = {
-      ["U"] = { 5636 },
-    },
-    ["end"] = {
-      ["U"] = { 5636 },
-    },
-    ["obj"] = {
-      ["U"] = { 2923, 2924 },
-    },
-    ["lvl"] = 44,
-    ["min"] = 40,
-    ["race"] = 1101,
-  },
-  [9516] = "_", -- Destroy the Legion A
-  [9517] = { ---- A Shameful Waste TBC Quest Start and End Units Replaced
-    ["start"] = {
-      ["U"] = { 3848 },
-    },
-    ["end"] = {
-      ["U"] = { 17310 },
-    },
-    ["obj"] = {
-      ["I"] = { 23776, 24081 },
-    },
-    ["lvl"] = 28,
-    ["min"] = 24,
-    ["race"] = 77,
-  },
-  [9518] = "_", -- Agents of Destruction
-  [9519] = "_", -- The Lost Chalice
-  [9521] = "_", -- Report from the Northern Front
-  [9609] = {
-    ["start"] = {
-      ["U"] = { 45878 },
-    },
-    ["end"] = {
-      ["U"] = { 5476 },
-    },
-    ["lvl"] = 37,
-  },
-  [9610] = {
-    ["start"] = {
-      ["U"] = { 45877 },
-    },
-    ["end"] = {
-      ["U"] = { 45877 },
-    },
-    ["obj"] = {
-      ["I"] = { 6175 },
-    },
-    ["lvl"] = 43,
-    ["min"] = 38,
-  },
-  [991] = {
-    ["start"] = {
-      ["U"] = { 3691 },
-    },
-    ["end"] = {
-      ["U"] = { 3891 },
-    },
-    ["lvl"] = 19,
-    ["min"] = 18,
-    ["race"] = 77,
   },
 }
