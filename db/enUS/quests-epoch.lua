@@ -1487,7 +1487,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26492] = {
     ["T"] = "Stalking the Stalkers",
     ["O"] = "Gryphon Master Talonaxe at Aerie Peak in the Hinterlands wants you to kill 15 Silvermane Stalkers and 15 Silvermane Howlers. Return to him once the task is complete. Talonaxe mentioned that the wolves hide in the wilds of the Hinterlands.",
-    ["D"] = "Many brave dwarves have been lost to the harsh wilds of the Hinterlands, human. The Silvermane wolves are one of the biggest threats to our hunters. They lay in wait, hiding amongst the bushes and landscape, then strike out when the opportunity presents itself.\nThis type of ferocity will not go unchecked!\nYou must think like the Silvermane. Stalk the stalkers! Slay them all!",
+    ["D"] = "Many brave dwarves have been lost to the harsh wilds of the Hinterlands, $R. The Silvermane wolves are one of the biggest threats to our hunters. They lay in wait, hiding amongst the bushes and landscape, then strike out when the opportunity presents itself.\nThis type of ferocity will not go unchecked!\nYou must think like the Silvermane. Stalk the stalkers! Slay them all!",
   },
   [26497] = {
     ["T"] = "A Sticky Situation",
@@ -2337,7 +2337,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26730] = {
     ["T"] = "A Gnome in Need",
     ["O"] = "Escort Winkle Screwbucket out of Thunder Axe Fortress. Report to Dibi Squigglecord if you are successful.",
-    ["D"] = "Did Dibi send you? I\'ve been trapped in this cave for days. I thought about making a run for it, but I\'m just a cowardly gnome. Now that you\'re here, we have a chance to get out of here though! Lead the way, Human!",
+    ["D"] = "Did Dibi send you? I\'ve been trapped in this cave for days. I thought about making a run for it, but I\'m just a cowardly gnome. Now that you\'re here, we have a chance to get out of here though! Lead the way, $R!",
   },
   [26731] = {
     ["T"] = "Crazed Carrion",
@@ -2802,7 +2802,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27505] = {
     ["T"] = "To Have a Purpose",
     ["O"] = "Kill 8 Ghost Tarantulas for Adon in the Eastern Plaguelands.",
-    ["D"] = "Hail and well met adventurer! It is long since I have seen a friendly face in this blighted land.\nI was assigned here to watch for the coming of danger to Quel\'Thalas and I will not shirk that duty, however ridiculous it seems to keep orders from superiors long dead or missing. But I have observed problems in this land that could be put to rights by someone willing to take up arms and solve them.\nIf you are one such Human, I direct your attention to a cave south of the Plaguewood that is teeming with spiders. Show me your combat prowess by thinning their numbers.",
+    ["D"] = "Hail and well met adventurer! It is long since I have seen a friendly face in this blighted land.\nI was assigned here to watch for the coming of danger to Quel\'Thalas and I will not shirk that duty, however ridiculous it seems to keep orders from superiors long dead or missing. But I have observed problems in this land that could be put to rights by someone willing to take up arms and solve them.\nIf you are one such $R, I direct your attention to a cave south of the Plaguewood that is teeming with spiders. Show me your combat prowess by thinning their numbers.",
   },
   [27506] = {
     ["T"] = "The Land Beyond the Forest",
@@ -2822,7 +2822,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27509] = {
     ["T"] = "The Land Beyond the Forest",
     ["O"] = "Find Ranger Larya in the abattoir at the Noxious Glade in Eastern Plaguelands and slay her, then return to Adon in the Eastern Plaguelands.",
-    ["D"] = "There is one more task I would ask of you, Human.\nWhen the Scourge marched through my people\'s lands we lost many of our best rangers. The lucky ones died. Others were raised to service through the curse of undeath. One of these was someone close to me.\nThe Noxious Glade is one of the bases of operation for the Scourge\'s foul machinations in this land. The commander of the glade is Ranger Larya, formerly of Silvermoon. Please grant her the death she was denied earlier. It would ease my heart greatly to know she is at rest.",
+    ["D"] = "There is one more task I would ask of you, $R.\nWhen the Scourge marched through my people\'s lands we lost many of our best rangers. The lucky ones died. Others were raised to service through the curse of undeath. One of these was someone close to me.\nThe Noxious Glade is one of the bases of operation for the Scourge\'s foul machinations in this land. The commander of the glade is Ranger Larya, formerly of Silvermoon. Please grant her the death she was denied earlier. It would ease my heart greatly to know she is at rest.",
   },
   [27510] = {
     ["T"] = "Where No Shadows Fall",
@@ -2972,7 +2972,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27647] = {
     ["T"] = "Alchemy is the Answer",
     ["O"] = "Talk to Nina Lightbrew inside Nethergarde Keep\'s mage tower.",
-    ["D"] = "Have you met Nina up in the tower? She travels between here and Duskwood, selling alchemy supplies.\nShe\'s told me her true passion is in alchemy itself, but she lacks confidence in her ability. This is the perfect opportunity to try and solve a practical problem.\nWhat do you say, Anistine? Could you ask her for some help to get this stuff edible? Also, tell her I said hey!\n<Lungertz gives you a genial grin.>",
+    ["D"] = "Have you met Nina up in the tower? She travels between here and Duskwood, selling alchemy supplies.\nShe\'s told me her true passion is in alchemy itself, but she lacks confidence in her ability. This is the perfect opportunity to try and solve a practical problem.\nWhat do you say, $n? Could you ask her for some help to get this stuff edible? Also, tell her I said hey!\n<Lungertz gives you a genial grin.>",
   },
   [27648] = {
     ["T"] = "The Clay Cleanse",
@@ -2982,7 +2982,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27649] = {
     ["T"] = "Ready for Distribution",
     ["O"] = "Bring the news to Quartermaster Lungertz inside Nethergarde Keep.",
-    ["D"] = "Okay, let\'s put this to the test. I boiled the water, added in some crushed charcoal, bruiseweed, gromsblood... and now the clay.\n<Nina mixes the clay with the odorous solution, making it viscous.>\nHere goes nothing...\n<The mixture makes contact with the meat, furiously sizzling. As things calm down, it becomes clear something went right.>\nOh, wow... the smell is gone! No more ooze, the color is brighter, and it seems it got cooked too!\n<Nina looks at you warily, then samples it.>\nHmm... not bad! I guess we got lucky, Anistine. Why don\'t you tell Lungertz the good news? I\'ll finish treating the rest of this and bring it to him later. Thanks a bunch!",
+    ["D"] = "Okay, let\'s put this to the test. I boiled the water, added in some crushed charcoal, bruiseweed, gromsblood... and now the clay.\n<Nina mixes the clay with the odorous solution, making it viscous.>\nHere goes nothing...\n<The mixture makes contact with the meat, furiously sizzling. As things calm down, it becomes clear something went right.>\nOh, wow... the smell is gone! No more ooze, the color is brighter, and it seems it got cooked too!\n<Nina looks at you warily, then samples it.>\nHmm... not bad! I guess we got lucky, $n. Why don\'t you tell Lungertz the good news? I\'ll finish treating the rest of this and bring it to him later. Thanks a bunch!",
   },
   [27650] = {
     ["T"] = "Scout Morgria",
@@ -3022,7 +3022,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27661] = {
     ["T"] = "Gathering Intelligence",
     ["O"] = "Collect 12 Bundles of Cultist Writings from Shadowsworn cult members around the Blasted Lands.",
-    ["D"] = "The Shadowsworn have always been a hindrance to our watch over the Dark Portal. It\'s usually only in isolated incidents and altercations, but they\'ve been growing more bold and organized. We\'re unable to confirm anything, as most scouts we send out never come back. To top it all off, the enemy is using a strange new magic that our people aren\'t recovering from.\nI\'m curious about what\'s going on here. Would you act as our agent? The lower level members aren\'t the best source of intel, but they\'re the only ones we ever see. Start with them in the valleys south of here, and bring back any notes or letters they may have. Be careful out there, Warlock.",
+    ["D"] = "The Shadowsworn have always been a hindrance to our watch over the Dark Portal. It\'s usually only in isolated incidents and altercations, but they\'ve been growing more bold and organized. We\'re unable to confirm anything, as most scouts we send out never come back. To top it all off, the enemy is using a strange new magic that our people aren\'t recovering from.\nI\'m curious about what\'s going on here. Would you act as our agent? The lower level members aren\'t the best source of intel, but they\'re the only ones we ever see. Start with them in the valleys south of here, and bring back any notes or letters they may have. Be careful out there, $c.",
   },
   [27669] = {
     ["T"] = "Sunken Treasure",
@@ -3032,7 +3032,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27673] = {
     ["T"] = "An Unlikely Ally",
     ["O"] = "Find and speak to Izalnir somewhere on the coast of the Blasted Lands.",
-    ["D"] = "Most of us won\'t admit to it, but we\'re in dire straits. Nethergarde hasn\'t received reinforcements for some time, people are suffering a curse we\'ve not seen before, and the lands grow more dangerous each day.\nWhile gathering some reagents a fortnight ago, I came across an undead fleeing the ruins of that fortress to the south. I prepared myself for a fight, but he raised his arms and explained his situation.\nHe used to be a high ranking member of the cult and nearly got himself killed. Now he\'s seeking shelter with the Horde or Alliance, but seeing as he\'s undead...\nThe Watcher thinks it\'s some kind of a trap, but honestly, we need a break. Someone like that is bound to have useful information.\nWon\'t you look for him, Warlock? Last I saw he was headed for the coast.",
+    ["D"] = "Most of us won\'t admit to it, but we\'re in dire straits. Nethergarde hasn\'t received reinforcements for some time, people are suffering a curse we\'ve not seen before, and the lands grow more dangerous each day.\nWhile gathering some reagents a fortnight ago, I came across an undead fleeing the ruins of that fortress to the south. I prepared myself for a fight, but he raised his arms and explained his situation.\nHe used to be a high ranking member of the cult and nearly got himself killed. Now he\'s seeking shelter with the Horde or Alliance, but seeing as he\'s undead...\nThe Watcher thinks it\'s some kind of a trap, but honestly, we need a break. Someone like that is bound to have useful information.\nWon\'t you look for him, $c? Last I saw he was headed for the coast.",
   },
   [27674] = {
     ["T"] = "The Best of the Worst",
