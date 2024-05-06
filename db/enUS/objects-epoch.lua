@@ -157,4 +157,6 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001067] = "Aru-Talis Site Two", --Placeholder ID
   [4001068] = "Aru-Talis Site Three", --Placeholder ID
   [4001069] = "Aru-Talis Site Four", --Placeholder ID
+  [4001070] = "Comfortably Large Crate", --Placeholder ID
+  [4001071] = "Blackrock Mountain Lava", --Placeholder ID
 }

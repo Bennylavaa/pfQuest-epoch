@@ -434,4 +434,9 @@ pfDB["units"]["enUS-epoch"] = {
   [46509] = "Ghost Tarantula",
   [46507] = "Celeste Corealis",
   [46510] = "Ranger Larya",
+  [46500] = "Honors Student",
+  [46502] = "Professor Rasmussen",
+  [46501] = "Professor Emeritus Chillbone",
+  [46497] = "Cult Courier",
+  [46498] = "Grand Apothecary Putress",
 }

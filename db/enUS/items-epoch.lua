@@ -404,4 +404,9 @@ pfDB["items"]["enUS-epoch"] = {
   [63053] = "Suntouched Special Reserve",
   [63054] = "Globe of Pure Spring Water",
   [63058] = "Letter from Larya",
+  [63042] = "Project Notes",
+  [63043] = "Chillbone\'s Journal",
+  [63044] = "Suspicious Letter",
+  [63045] = "Chillbone\'s Phylactery",
+  [63046] = "Chillbone\'s Phylactery",
 }

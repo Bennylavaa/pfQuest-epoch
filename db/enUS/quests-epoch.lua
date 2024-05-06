@@ -3184,4 +3184,29 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Take the Letter from Larya to Adon in the Eastern Plaguelands.",
     ["D"] = "This letter on Ranger Larya\'s body appears old and hastily written - it\'s not even sealed. Adon would certainly be interested in this.",
   },
+  [27499] = {
+    ["T"] = "Field Trip",
+    ["O"] = "Find Professor Emeritus Chillbone at Corrin\'s Crossing, kill him, and recover his Journal.",
+    ["D"] = "It appears this unnamed former teacher is now called Chillbone. There's a note here that indicates he was headed to Corrin's Crossing to continue the search. From what we know about liches, Chillbone has not yet grown into his powers if he is newly raised. That means you should be able to handle him without calling in the entire army.\n\nIt is my hope that he will possess more information about what the Cult is looking for here. But we should take the opportunity to eliminate him now, before he can become any stronger.",
+  },
+  [27500] = {
+    ["T"] = "A Suspicious Letter",
+    ["O"] = "Take the Suspicious Letter to Professor Starling in Eastern Plaguelands.",
+    ["D"] = "Within Chillbone\'s possessions you find a half-completed letter addressed to Ras Frostwhisper. It reads:\n\nRas, I received the notification of the meeting site and have dispatched a courier with the item. Are you sure it is wise to meet so close to Lordaeron, and after traveling through Syndicate controlled lands? The cover of darkness means little to the Forsaken. If the phylactery were to fall into the wrong hands, the conseqences...\"\n\nProfessor Starling would be interested in this item.",
+  },
+  [27501] = {
+    ["T"] = "Field Trip",
+    ["O"] = "During the night, locate the meeting spot for the handoff and find a place to observe the meeting.",
+    ["D"] = "A lich is never truly defeated until you obtain and cleanse its phylactery. Chillbone\'s phylactery was not on his person, and this letter indicates its been taken somewhere.\n\nLook - the last entry in the journal indicates that there is an upcoming meeting with a member of the Royal Apothecary Society, at a secluded area in the shadows of the Ruins of Lordaeron itself. The directions from the letter indicate you would travel through the Alterac Mountains, past Dandred\'s Fold, and along the eastern edge of Lordamere Lake.\n\nThis meeting should certainly be interrupted - and it is supposed to occur at night. I will stay here and break the code used to write the rest of the journal\'s contents.",
+  },
+  [27502] = {
+    ["T"] = "Field Trip",
+    ["O"] = "Observe the meeting and intercept Chillbone\'s Phylactery.",
+    ["D"] = "You position yourself inside the crate, hoping it won\'t be too long until this meeting takes place - assuming you arrived in time.\n\nYour patience is rewarded when torchlight dances across the stockpiled barrels and figures come into view in the dusky gloom of night.",
+  },
+  [27503] = {
+    ["T"] = "Field Trip",
+    ["O"] = "Take Chillbone\'s Phylactery to Blackrock Mountain and attempt to destroy it in the lava inside the mountain. Then return to Professor Starling near the Abandoned Chapel in Eastern Plaguelands with the results.",
+    ["D"] = "Cleansing a lich\'s phylactery is no trivial matter, but there is one easy way to do it - plunge it into the molten hot lava of Blackrock Mountain. If the searing heat of the mountain can\'t melt the frame that keeps Chillbone\'s spirit inside, nothing will.You can easily reach the pool of lava at the bottom of The Molten Span by following the chains through Franclorn Forgewright\'s tomb.",
+  },
 }
