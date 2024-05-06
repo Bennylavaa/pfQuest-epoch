@@ -66,6 +66,7 @@ pfDB["areatrigger"]["data-epoch"] = {
   },
   [4000012] = { --Meeting Location
     ["coords"] = {
+      [1] = { 67.1, 78.7, 85 },
     },
   },
 }
