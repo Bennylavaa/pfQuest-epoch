@@ -7468,14 +7468,29 @@ pfDB["units"]["data-epoch"] = {
     ["lvl"] = "55",
     ["rnk"] = "1",
   },
-  [16212] = "_", --Dispatch Commander Metz missing epl
-  [16133] = "_", --Mataus the Wrathcaster missing epl
-  [16116] = "_", --Archmage Angela Dosantos missing epl
-  [16131] = "_", --Rohan the Assassin missing epl
-  [16132] = "_", --Huntsman Leopold missing epl
-  [16112] = "_", --Korfax, Champion of the Light missing epl
-  [16135] = "_", --Rayne missing epl
-  [17069] = "_", --Emissary Whitebeard missing epl
+  [12384] = {
+    ["coords"] = {
+      [1] = { 11.34, 28.59, 139, 345 },
+      [2] = { 11.34, 28.59, 139, 345 },
+    },
+    ["fac"] = "AH",
+    ["lvl"] = "55",
+  },
+  [11140] = {
+    ["coords"] = {
+      [1] = { 11.34, 28.84, 139, 345 },
+    },
+    ["fac"] = "AH",
+    ["lvl"] = "59",
+  },
+  [16212] = "_", --Dispatch Commander Metz missing epl will need to be added later with correct cords
+  [16133] = "_", --Mataus the Wrathcaster missing epl will need to be added later with correct cords
+  [16116] = "_", --Archmage Angela Dosantos missing epl will need to be added later with correct cords
+  [16131] = "_", --Rohan the Assassin missing epl will need to be added later with correct cords
+  [16132] = "_", --Huntsman Leopold missing epl will need to be added later with correct cords
+  [16112] = "_", --Korfax, Champion of the Light missing epl will need to be added later with correct cords
+  [16135] = "_", --Rayne missing epl will need to be added later with correct cords
+  [17069] = "_", --Emissary Whitebeard missing epl will need to be added later with correct cords
   [11038] = {
     ["coords"] = {
       [1] = { 73.83, 57.94, 139, 345 },
