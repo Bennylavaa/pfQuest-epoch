@@ -3079,4 +3079,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Find and speak to Izalnir somewhere on the coast of the Blasted Lands.",
     ["D"] = "Most of us won\'t admit to it, but we\'re in dire straits. Nethergarde hasn\'t received reinforcements for some time, people are suffering a curse we\'ve not seen before, and the lands grow more dangerous each day.\nWhile gathering some reagents a fortnight ago, I came across an undead fleeing the ruins of that fortress to the south. I prepared myself for a fight, but he raised his arms and explained his situation.\nHe used to be a high ranking member of the cult and nearly got himself killed. Now he\'s seeking shelter with the Horde or Alliance, but seeing as he\'s undead...\nThe Watcher thinks it\'s some kind of a trap, but honestly, we need a break. Someone like that is bound to have useful information.\nWon\'t you look for him, Warlock? Last I saw he was headed for the coast.",
   },
+  [27505] = {
+    ["T"] = "To Have a Purpose",
+    ["O"] = "Kill 8 Ghost Tarantulas for Adon in the Eastern Plaguelands.",
+    ["D"] = "Hail and well met adventurer! It is long since I have seen a friendly face in this blighted land.\nI was assigned here to watch for the coming of danger to Quel\'Thalas and I will not shirk that duty, however ridiculous it seems to keep orders from superiors long dead or missing. But I have observed problems in this land that could be put to rights by someone willing to take up arms and solve them.\nIf you are one such Human, I direct your attention to a cave south of the Plaguewood that is teeming with spiders. Show me your combat prowess by thinning their numbers.",
+  },
+  [27506] = {
+    ["T"] = "The Land Beyond the Forest",
+    ["O"] = "Collect 6 Quel\'dorei Silk Strands from Ghost Tarantula egg sacs and bring them to Adon in the Eastern Plaguelands.",
+    ["D"] = "After the fall of Quel\'Thalas I find myself an exile from my people. The elves at Quel\'lithian Lodge have eschewed contact with outsiders and the way back to Silvermoon is blocked. I am alone.\nPerhaps you would be willing to help me? The egg sacs of the Ghost Tarantulas that dwell in the south of the Plaguewood contain delicate silk strands used to make fine cloaks in Silvermoon. Bring me some of those strands that I might remember what it once felt like to live there.",
+  },
 }

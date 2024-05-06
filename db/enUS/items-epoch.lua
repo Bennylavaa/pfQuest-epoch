@@ -385,4 +385,5 @@ pfDB["items"]["enUS-epoch"] = {
   [63326] = "Bundle of Cultist Writings",
   [63315] = "Sulfurous Meat",
   [63316] = "Red Clay",
+  [63048] = "Quel\'dorei Silk Strand",
 }
