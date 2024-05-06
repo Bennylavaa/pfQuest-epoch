@@ -222,7 +222,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26186] = {
     ["T"] = "Stillwater Eels",
     ["O"] = "Fish 10 Stillwater Eels from Stillwater Pond and return to Gernal Burch in Brill.",
-    ["D"] = "Even in death we need to eat $N! I imagine you\'re tired of the stale bread you\'ve been scrounging on until now. It\'s time for a real meal!\n\nI can cook some tasy stuff if you bring me the materials. Why don\'t you head over to Stillwater Pond to the west and fish me some eel? Bring it back to me and I\`ll fix us both something to remember.",
+    ["D"] = "Even in death we need to eat $N! I imagine you\'re tired of the stale bread you\'ve been scrounging on until now. It\'s time for a real meal!\n\nI can cook some tasy stuff if you bring me the materials. Why don\'t you head over to Stillwater Pond to the west and fish me some eel? Bring it back to me and I\'ll fix us both something to remember.",
   },
   [26187] = {
     ["T"] = "Filling the Armory",
@@ -572,7 +572,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26276] = {
     ["T"] = "Report to the Front Lines",
     ["O"] = "Report to Commander Strongborn on the Burndural Front Lines",
-    ["D"] = "I used to be the Mayor of Burndural but I \* Hic \* didn\'t take it very seriously when people started going missing through the Dun Guldar Pass.\nNext thing we know they attacked in the dead of night and before a proper response could be formed they took half the town!\nOur Commander who goes by Strongborn is still at the front lines. Please go offer him your services. Head east out of town and you\'ll see Burndural right before ye.",
+    ["D"] = "I used to be the Mayor of Burndural but I * Hic * didn\'t take it very seriously when people started going missing through the Dun Guldar Pass.\nNext thing we know they attacked in the dead of night and before a proper response could be formed they took half the town!\nOur Commander who goes by Strongborn is still at the front lines. Please go offer him your services. Head east out of town and you\'ll see Burndural right before ye.",
   },
   [26277] = {
     ["T"] = "Calm and Collected",
@@ -582,7 +582,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26278] = {
     ["T"] = "Evacuation Report",
     ["O"] = "Get the latest evacuation report from Corporal Mountainview.",
-    ["D"] = "The Dragonmaw have not pushed all the way through \* Hic \* Burndural yet... There are those who could have been spared... Find Corporal Mountainview at Longview Outpost just outside of town, you\'ll have passed it already.\nAsk him for a full report of who is yet to leave. By now it should be \* Hic \* everyone.",
+    ["D"] = "The Dragonmaw have not pushed all the way through * Hic * Burndural yet... There are those who could have been spared... Find Corporal Mountainview at Longview Outpost just outside of town, you\'ll have passed it already.\nAsk him for a full report of who is yet to leave. By now it should be * Hic * everyone.",
   },
   [26279] = {
     ["T"] = "Golem Gyroscope",
@@ -722,7 +722,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26307] = {
     ["T"] = "Riders In The Night",
     ["O"] = "Locate Revils Camp south of Darkshire.",
-    ["D"] = "Well, we have name now at least\; Revil. Does that mean something to you?\nYou\'ve met? Now that explains why the three of you all had that haunted expression.\nHead south of town and try to catch up with them, they must have made camp somewhere close.",
+    ["D"] = "Well, we have name now at least; Revil. Does that mean something to you?\nYou\'ve met? Now that explains why the three of you all had that haunted expression.\nHead south of town and try to catch up with them, they must have made camp somewhere close.",
   },
   [26308] = {
     ["T"] = "Riders In The Night",
@@ -765,7 +765,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "Deep within the heart of Duskwood is a place of great beauty where life flourishes even among this corruption. It is called the Twilight Grove. There you will find a moonwell left by my forebearers, I believe this is the final key to saving Duskwood.\nHead West out of Darkshire before you reach the fork in the road that leads to Stranglethorn, from there head North and you will find the Grove. Take the ingredients you have gathered and fill the phial with the waters of the well and bring it to me.",
   },
   [26325] = {
-    ["T"] = "Wanted: Plagued Shambler \(Night\)",
+    ["T"] = "Wanted: Plagued Shambler (Night)",
     ["O"] = "Slay the Plagued Shambler patrolling along the river North of Darkshire.",
     ["D"] = "A foul plagued beast has been spotted patrolling along the river North of Darkshire exclusively at night leaving a trail of death and destruction in its wake.\nAny adventurers of stout heart and firm skill please take it out before it begins to venture too close to Darkshire and the surrounding roads.",
   },
@@ -2107,7 +2107,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26665] = {
     ["T"] = "Driving License Approval",
     ["O"] = "Beg and Plead with Trackmaster Zherin, Race Master Kronkrider, Razzeric and Wizzle Brassbolts to get a Mirage Raceway License.",
-    ["D"] = "If you want to take part in the Mirage Raceway you\'re going to need a formal sign off from some key people around these parts. Race Master Kronkrider is the head honcho but he alone can\'t give the thumbs up. You\'ll need the approval of the heads of each team\; Wizzle Brassbolts for the Gnome team and Razzeric for the Goblin Team. And finally Trackmaster Zherin holds great sway.\nIf you go to them begging and pleading I\'m sure a formal petition will come through for you and you can get out onto the track.",
+    ["D"] = "If you want to take part in the Mirage Raceway you\'re going to need a formal sign off from some key people around these parts. Race Master Kronkrider is the head honcho but he alone can\'t give the thumbs up. You\'ll need the approval of the heads of each team; Wizzle Brassbolts for the Gnome team and Razzeric for the Goblin Team. And finally Trackmaster Zherin holds great sway.\nIf you go to them begging and pleading I\'m sure a formal petition will come through for you and you can get out onto the track.",
   },
   [26666] = {
     ["T"] = "Fresh Water Delivery",
@@ -2972,17 +2972,17 @@ pfDB["quests"]["enUS-epoch"] = {
   [27647] = {
     ["T"] = "Alchemy is the Answer",
     ["O"] = "Talk to Nina Lightbrew inside Nethergarde Keep\'s mage tower.",
-    ["D"] = "Have you met Nina up in the tower? She travels between here and Duskwood, selling alchemy supplies.\nShe\'s told me her true passion is in alchemy itself, but she lacks confidence in her ability. This is the perfect opportunity to try and solve a practical problem.\nWhat do you say, Anistine? Could you ask her for some help to get this stuff edible? Also, tell her I said hey!\n\<Lungertz gives you a genial grin.\>",
+    ["D"] = "Have you met Nina up in the tower? She travels between here and Duskwood, selling alchemy supplies.\nShe\'s told me her true passion is in alchemy itself, but she lacks confidence in her ability. This is the perfect opportunity to try and solve a practical problem.\nWhat do you say, Anistine? Could you ask her for some help to get this stuff edible? Also, tell her I said hey!\n<Lungertz gives you a genial grin.>",
   },
   [27648] = {
     ["T"] = "The Clay Cleanse",
     ["O"] = "Find 7 Red Clay from deposits near the coast of the Blasted Lands.",
-    ["D"] = "So... the plan is to get something edible out of all this meat using alchemy? Hmm... I don\'t know, but I suppose there\'s no harm in at least trying.\n\<Nina rubs her chin for a long while, deep in thought.\>\nWell, this may sound absurd. The horses we ride here are prone to sickness after going through the swamp, but when we arrive, I always notice them eating clay off the ground. The next day, it\'s like nothing was ever wrong.\nMaybe... maybe the clay has some kind of purifying properties? It\'s everywhere in small amounts, but I think you\'ll have better luck on the coast due to the tides and all.",
+    ["D"] = "So... the plan is to get something edible out of all this meat using alchemy? Hmm... I don\'t know, but I suppose there\'s no harm in at least trying.\n<Nina rubs her chin for a long while, deep in thought.>\nWell, this may sound absurd. The horses we ride here are prone to sickness after going through the swamp, but when we arrive, I always notice them eating clay off the ground. The next day, it\'s like nothing was ever wrong.\nMaybe... maybe the clay has some kind of purifying properties? It\'s everywhere in small amounts, but I think you\'ll have better luck on the coast due to the tides and all.",
   },
   [27649] = {
     ["T"] = "Ready for Distribution",
     ["O"] = "Bring the news to Quartermaster Lungertz inside Nethergarde Keep.",
-    ["D"] = "Okay, let\'s put this to the test. I boiled the water, added in some crushed charcoal, bruiseweed, gromsblood... and now the clay.\n\<Nina mixes the clay with the odorous solution, making it viscous.\>\nHere goes nothing...\n\<The mixture makes contact with the meat, furiously sizzling. As things calm down, it becomes clear something went right.\>\nOh, wow... the smell is gone! No more ooze, the color is brighter, and it seems it got cooked too!\n\<Nina looks at you warily, then samples it.\>\nHmm... not bad! I guess we got lucky, Anistine. Why don\'t you tell Lungertz the good news? I\'ll finish treating the rest of this and bring it to him later. Thanks a bunch!",
+    ["D"] = "Okay, let\'s put this to the test. I boiled the water, added in some crushed charcoal, bruiseweed, gromsblood... and now the clay.\n<Nina mixes the clay with the odorous solution, making it viscous.>\nHere goes nothing...\n<The mixture makes contact with the meat, furiously sizzling. As things calm down, it becomes clear something went right.>\nOh, wow... the smell is gone! No more ooze, the color is brighter, and it seems it got cooked too!\n<Nina looks at you warily, then samples it.>\nHmm... not bad! I guess we got lucky, Anistine. Why don\'t you tell Lungertz the good news? I\'ll finish treating the rest of this and bring it to him later. Thanks a bunch!",
   },
   [27650] = {
     ["T"] = "Scout Morgria",
