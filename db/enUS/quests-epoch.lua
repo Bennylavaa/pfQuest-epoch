@@ -3089,4 +3089,24 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 6 Quel\'dorei Silk Strands from Ghost Tarantula egg sacs and bring them to Adon in the Eastern Plaguelands.",
     ["D"] = "After the fall of Quel\'Thalas I find myself an exile from my people. The elves at Quel\'lithian Lodge have eschewed contact with outsiders and the way back to Silvermoon is blocked. I am alone.\nPerhaps you would be willing to help me? The egg sacs of the Ghost Tarantulas that dwell in the south of the Plaguewood contain delicate silk strands used to make fine cloaks in Silvermoon. Bring me some of those strands that I might remember what it once felt like to live there.",
   },
+  [27507] = {
+    ["T"] = "The Land Beyond the Forest",
+    ["O"] = "Bring a bottle of Suntouched Special Reserve to Adon in the Eastern Plaguelands.",
+    ["D"] = "In happier days I would toast your victory with a bottle of Suntouched Special Reserve, a wine fermented with the light of the sun. What I wouldn\'t give to taste it again.\nThe elves at Quel\'Lithian Lodge might have some but they were exiled from old Quel\'Thalas. When I last tried to speak with them they tossed me out and warned me from re-entering their domain. I do not wish to incur their ill will. Perhaps you could go there instead and see if you can acquire some for me?",
+  },
+  [27508] = {
+    ["T"] = "Water of the Sun",
+    ["O"] = "Collect 8 Globes of Pure Spring Water from Living Water and Splashing Elementals at the Golakka Hot Springs in Un\'Goro Crater, then return to Celeste Corealis at the Quel\'Lithian Lodge in Eastern Plaguelands.",
+    ["D"] = "You\'re looking for Suntouched Special Reserve? Expensive tastes! That\'s a hard to acquire beverage these days.\nFortunately for you, I have bottles of Suntouched Special Reserve fermenting as we speak and I\'ve run out of a crucial ingredient needed to make more of it. Fetch me the ingredient and a bottle is all yours!\nI need pure spring water, like what flowed through Eversong Woods. Since Eversong was devastated by the Scourge, you will have to look elsewhere for another source. Perhaps somewhere primordial, with a hot springs? I\'ll leave it to you to figure out where that is.",
+  },
+  [27509] = {
+    ["T"] = "The Land Beyond the Forest",
+    ["O"] = "Find Ranger Larya in the abattoir at the Noxious Glade in Eastern Plaguelands and slay her, then return to Adon in the Eastern Plaguelands.",
+    ["D"] = "There is one more task I would ask of you, Human.\nWhen the Scourge marched through my people\'s lands we lost many of our best rangers. The lucky ones died. Others were raised to service through the curse of undeath. One of these was someone close to me.\nThe Noxious Glade is one of the bases of operation for the Scourge\'s foul machinations in this land. The commander of the glade is Ranger Larya, formerly of Silvermoon. Please grant her the death she was denied earlier. It would ease my heart greatly to know she is at rest.",
+  },
+  [27510] = {
+    ["T"] = "Where No Shadows Fall",
+    ["O"] = "Take the Letter from Larya to Adon in the Eastern Plaguelands.",
+    ["D"] = "This letter on Ranger Larya\'s body appears old and hastily written - it\'s not even sealed. Adon would certainly be interested in this.",
+  },
 }

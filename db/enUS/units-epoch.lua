@@ -423,4 +423,6 @@ pfDB["units"]["enUS-epoch"] = {
   [10667] = "Chromie",
   [10976] = "Jeziba",
   [46509] = "Ghost Tarantula",
+  [46507] = "Celeste Corealis",
+  [46510] = "Ranger Larya",
 }
