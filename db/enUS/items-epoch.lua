@@ -1,7 +1,9 @@
 pfDB["items"]["enUS-epoch"] = {
+  [782] = "Painted Gnoll Armband",
   [2678] = "Mild Spices",
-  [33849] = "Mana Berry",
   [3625] = "Nek\'rosh\'s Head",
+  [8684] = "Hinterlands Honey Ripple",
+  [33849] = "Mana Berry",
   [60015] = "Mana Tainted Sludge",
   [60016] = "Well Reel",
   [60017] = "Sarah\'s \"Special\" Cake",
@@ -407,6 +409,4 @@ pfDB["items"]["enUS-epoch"] = {
   [63503] = "Misty Core",
   [63504] = "Ember Worg Pelt",
   [67288] = "Spinescale\'s Head",
-  [782] = "Painted Gnoll Armband",
-  [8684] = "Hinterlands Honey Ripple",
 }
