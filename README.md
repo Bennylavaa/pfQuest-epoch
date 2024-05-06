@@ -83,7 +83,7 @@ Tanaris|40-50|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Searing Gorge|45-50|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Azshara|45-55|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Blasted Lands|45-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Un'goro Crater|48-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Un'goro Crater|48-55|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Felwood|48-55|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Burning Steppes|50-58|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Western Plaguelands|51-58|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
