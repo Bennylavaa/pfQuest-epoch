@@ -3039,4 +3039,69 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill Professor Rasmussen and collect 4 Project Notes from Honors Students.",
     ["D"] = "Please, do not be fooled by my association with the Scholomance, $C. My heart serves the Argent Dawn. I have spent many days embedded with the Cult of the Damned, looking for an opportunity to thwart their plans. Your arrival presents an opportunity for me to preserve my cover and still meddle in their affairs.\n\nA group of Scholomance's honors students has been sent on a Field Trip to the Eastern Plaguelands to conduct research of some kind. Their teacher, Professor Rasmussen, is suspicious of me and will not tell me what they are doing here.\n\nSlay him and his foul students, and recover their notes. Perhaps we can piece together the purpose of their presence here.",
   },
+  [27511] = {
+    ["T"] = "Storm, Earth, Wind, and Fire",
+    ["O"] = "Weaken six Tar Elementals and then absorb the power of earth into Yaluni Flamewatcher's totem.",
+    ["D"] = "I greet you on behalf of the Earthen Ring, Undead. I am conducting research on the primordial elements and I wonder if you might assist me.\n\nI wished to capture essences of each of the elemental forces of Un'Goro in this totem, but after many years in Felwood I fear that I will taint them with residual fel. I could use someone to collect the essences for me. Simply weaken the elementals, then use the totem to capture their primordial essences.\n\nYou can start with the primordial forces of earth - the tar elementals around the Lakkari Tar Pits.",
+  },
+  [27512] = {
+    ["T"] = "Storm, Earth, Wind, and Fire",
+    ["O"] = "Weaken six Air Elementals to absorb the power of air into Yaluni Flamewatcher\'s totem.",
+    ["D"] = "The earth is heavy, sticky, dense. We will move on to its opposite - air.\n\nThe essence of air hides in the mountains around Un\'Goro. You will need to seek them out around the crater\'s rim, venturing up hill and valley to the northeast and southwest.\n\nRepeat the same process, weaken them, then claim their essence with the totem.",
+  },
+  [27513] = {
+    ["T"] = "Storm, Earth, Wind, and Fire",
+    ["O"] = "Weaken six Fire Elementals to absorb the power of fire into Yaluni Flamewatcher\'s totem.",
+    ["D"] = "Air is breezy, light, easily pushed aside by brighter energy - like fire.\n\nFire is easy to spot in Un\'Goro. Fire Plume Ridge in the center of the crater swarms with scorching elementals.\n\nUse care around the open pools of lava and their leader, Blazerunner. He is not for our research.\n\nThe other elementals you may weaken and absorb into the totem.",
+  },
+  [27514] = {
+    ["T"] = "Storm, Earth, Wind, and Fire",
+    ["O"] = "Weaken six Water Elementals to absorb the power of water into Yaluni Flamewatcher\'s totem.",
+    ["D"] = "Lastly, I need you to travel to the west. The Golakka Hot Springs are populated by water elementals - tough, resilient beings.\n\n<Yaluni Flamewatcher sizes you up.>\n\nI\'m sure you can handle them though.\n\nThe process is the same, weaken them and then use the totem to capture their essences. We are nearly done.",
+  },
+  [27515] = {
+    ["T"] = "Storm, Earth, Wind, and Fire",
+    ["O"] = "Use Yaluni\'s Elementally Empowered Totem on a Stone Guardian, then defeat it.",
+    ["D"] = "There is a stronger force of earth in Un\'Goro than the Tar Lords and it is what drew me here.\n\nGreat Stone Guardians wander along solitary routes such as the river and the crater walls. Normally they would be formidable opponents, much too formidable for either of us alone. But I believe the primordial power we collected can be used to bring a robust enemy down to size.\n\nTake this totem. It is charged with all the elemental powers you gathered. Unleash the totem\'s force on a Stone Guardian and defeat it.\n\nThe guardians are peaceful for now but we must be prepared with a defense against them should they ever become corrupted like the elementals of Felwood.",
+  },
+  [27389] = {
+    ["T"] = "The Un\'Goro Hunt",
+    ["O"] = "Kill Spinescale and bring its head back to S.J. Erlgadin Jr. at Marshal\'s Refuge in Un\'Goro Crater.",
+    ["D"] = "I hitched a ride to Un\'Goro Crater with Marshal Expeditions but I\'m afraid I\'m in over my head. Maybe you can help me?\n\nMy parents are big time hunters, so I decided I would show them I was ready to hunt by coming to Un\'Goro.\n\nFrankly, it\'s terrifying here, and I want to go home. But if I leave empty-handed, I\'ll never hear the end of it. Can you hunt some trophy beasts for me so I can secure my legend?\n\nI heard a massive Diemetradon named Spinescale lives near a giant boulder on the north rim of the crater. Bring me his head for a trophy. I can pay!\n\n",
+  },
+  [27390] = {
+    ["T"] = "The Un\'Goro Hunt",
+    ["O"] = "Kill Terrorwing and bring its head back to S.J. Erlgadin Jr. at Marshal\'s Refuge in Un\'Goro Crater.",
+    ["D"] = "When the Marshal Expedition first came into the crater we passed an area Hol\'anyee called Ironstone Plateau. There were a bunch of flying beasts there and one of them looked larger and fiercer than the others. We nicknamed it Terrorwing.\n\nCan you find Terrorwing and bring me its head? I think that would be a more impressive trophy than this one.",
+  },
+  [27391] = {
+    ["T"] = "The Un\'Goro Hunt",
+    ["O"] = "Kill a Stegodon and bring its head back to S.J. Erlgadin Jr. at Marshal\'s Refuge in Un\'Goro Crater.",
+    ["D"] = "Petra Grossen has traveled through Un\'Goro before and she told me there are great beasts with massive ridged plates on their backs somewhere in the southwest part of the crater. I hear they\'re very dangerous, which makes it all the more impressive if you can kill one.\n\nThis is the one $N! Bring me the head of one of these \"stegodons\" and I\'ll double your pay.",
+  },
+  [27392] = {
+    ["T"] = "The Un\'Goro Hunt",
+    ["O"] = "Kill a Devilsaur and bring its head back to S.J. Erlgadin Jr. at Marshal\'s Refuge in Un\'Goro Crater.",
+    ["D"] = "I climbed up on the ridge near here and when I got to the top I felt the ground tremble. A huge monster came walking past - like a raptor only ten times larger! Petra told me they\'re called Devilsaurs and they\'re only found here in Un\'Goro Crater. I must have the head from one for my collection. It\'s better than anything either of my parents ever brought back. Please, $N, kill a devilsaur for me and bring back its head!",
+  },
+  [27760] = {
+    ["T"] = "Toxic Tolerance",
+    ["O"] = "Attack Venomhide Ravasaurs in Un\'Goro Crater until you are splashed with Venomhide blood 20 times.",
+    ["D"] = "You want to ride a Venomhide? Then I\'ve got bad news for you.\n\nThe Venomhide Ravasaurs, they\'re all poison: Poison blood, poison spit, poison skin. You climb on one, you fall off dead in a few hours.\n\nYou\'d have to build up a resistance to their toxins before I sold you one, and that takes a long, LONG time... you\'d need to be splashed with poisonous blood while fighting one numerous times. If you\'re really interested, the venomhides prefer the northern area of of the Marshlands, northwest of here.",
+  },
+  [27492] = {
+    ["T"] = "The Legend of Aru-Talis",
+    ["O"] = "Search for the ruins of Aru-Talis along the edges of Un\'Goro Crater and return to Jaylssa Stonesong with anything you find.",
+    ["D"] = "Hello, $R. Please excuse my weakened state. I am Jaylssa Stonesong, a sister of Elune. I\'ve come to Un\'Goro Crater to search for a legend: the fabled elven city of Aru-Talis.\n\nSupposedly my people\'s ancestors hid in this crater to avoid rampaging troll warbands. They built a city on par with any in Azshara and called it Aru-Talis. Then it came to ruin, many years even before the Sundering of Azeroth.\n\nThe crater is a dangerous place and I was hurt badly by the creatures in this area. I will recover, but would you continue the search? I passed through the center of the crater but I haven\'t searched its rim. Please, look in the hills and plateaus that surround us for any sign of my ancestors.",
+  },
+  [27493] = {
+    ["T"] = "The Legend of Aru-Talis",
+    ["O"] = "Collect 6 Aru-Talis Artifacts from ruin sites and air elementals for Jaylssa Stonesong in Un\'Goro Crater.",
+    ["D"] = "We must understand more about what happened to Aru-Talis. It would take months, years to perform a full archaeological excavation here. But often there are relics on the surface, even picked up by the local creatures.\n\nThe air elementals you described may have sucked up relics that we can retrieve easily by slaying them. Would you please collect several for comparison?",
+  },
+  [27494] = {
+    ["T"] = "The Legend of Aru-Talis",
+    ["O"] = "Use Leakey\'s Core Driller to extract samples from the back of Crystal Cave at Marshal\'s Refuge, the top of Fire Plume Ridge, the Ironstone Plateau, and the Golakka Hot Springs, then bring the samples back to Leakey Cartspark in Un\'Goro Crater.",
+    ["D"] = "Did Jaylssa mention that in the legend a massive arcane explosion destroyed Aru-Talis? The relics you found might support this theory. If it\'s true, we should see a layer of arcane residue in samples of the sediment that has accumulated over time in the crater.\n\nI need to tend to Jaylssa but if you don\'t mind helping, take this core driller and use it to extract some sediment cores from a wide variety of places in Un\'Goro. I\'ll give you a list.",
+  },
 }

@@ -141,4 +141,13 @@ pfDB["objects"]["enUS-epoch"] = {
   [4001058] = "Pure Elwynn Soil Sample", --Placeholder ID
   [4001059] = "Prepared Soil", --Placeholder ID
   [4001060] = "Prank Bag", --Placeholder ID
+  [4001061] = "Aru-Talis Artifact", --Placeholder ID
+  [4001062] = "Golakka Hot Springs", --Placeholder ID
+  [4001063] = "Crystal Cave", --Placeholder ID
+  [4001064] = "Ironstone Plateau", --Placeholder ID
+  [4001065] = "Fire Plume Ridge", --Placeholder ID
+  [4001066] = "Atu-Talis Site One", --Placeholder ID
+  [4001067] = "Atu-Talis Site Two", --Placeholder ID
+  [4001068] = "Atu-Talis Site Three", --Placeholder ID
+  [4001069] = "Atu-Talis Site Four", --Placeholder ID
 }

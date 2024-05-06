@@ -420,4 +420,13 @@ pfDB["units"]["enUS-epoch"] = {
   [46324] = "Alexei Barov",
   [46330] = "Putrid Lake Thresher",
   [46320] = "Professor Starling",
+  [46522] = "Yaluni Flamewatcher",
+  [46488] = "Living Wind",
+  [46511] = "Living Tide",
+  [46512] = "Splashing Elemental",
+  [46352] = "Spinescale",
+  [46351] = "S.J. Erlgadin Jr.",
+  [46353] = "Terrorwing",
+  [46486] = "Jaylssa Stonesong",
+  [46487] = "Leakey Cartspark",
 }
