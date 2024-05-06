@@ -917,7 +917,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26355] = {
     ["T"] = "Mirkfallon Bracers",
     ["O"] = "Collect 8 Mirkfallon Bracers from the water elementals at Mirkfallon Lake and return to Tammra Windfield at Sun Rock Retreat.",
-    ["D"] = "Greetings, $N. It\'s good to see a Warrior around here, there is work to be done. I have lived in Sun Rock Retreat for many years now, and these mountains never fail to amaze me. Recently, a magical stirring has popped up, and I would like to investigate it.\n\nNorth of here lies Mirkfallon Lake, an old and ancient refugee for creatures of the forest. Lately however, water elementals have sprung from the depths and are harming the creatures that inhabit the lake. I care deeply for the creatures of these mountains, and will not tolerate this! I want you to get rid of the water elementals, and bring me their bracers as proof of the deed.",
+    ["D"] = "Greetings, $N. It\'s good to see a $C around here, there is work to be done. I have lived in Sun Rock Retreat for many years now, and these mountains never fail to amaze me. Recently, a magical stirring has popped up, and I would like to investigate it.\n\nNorth of here lies Mirkfallon Lake, an old and ancient refugee for creatures of the forest. Lately however, water elementals have sprung from the depths and are harming the creatures that inhabit the lake. I care deeply for the creatures of these mountains, and will not tolerate this! I want you to get rid of the water elementals, and bring me their bracers as proof of the deed.",
   },
   [26356] = {
     ["T"] = "Mirkfallon Lake",
@@ -2232,7 +2232,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26705] = {
     ["T"] = "A Cloak of Shadows",
     ["O"] = "Report to Carlo Aurelius at Ravenholdt Manor.",
-    ["D"] = "It is time Rogue for you to take the next step on your journey and learn an art that has saved many a Rogue from their demise. I have received word from Ravenholdt Manor within the Hillsbrad Foothills.\n\nThis is quite a rarity the denizens of the Manor are a very secretive organisation. Have you been making an impression on certain shadowy figures? Read the letter that arrived over an open flame and make your way.",
+    ["D"] = "It is time $C for you to take the next step on your journey and learn an art that has saved many a $C from their demise. I have received word from Ravenholdt Manor within the Hillsbrad Foothills.\n\nThis is quite a rarity the denizens of the Manor are a very secretive organisation. Have you been making an impression on certain shadowy figures? Read the letter that arrived over an open flame and make your way.",
   },
   [26706] = {
     ["T"] = "WANTED: Dustpaw",
@@ -2672,7 +2672,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27380] = {
     ["T"] = "History 101",
     ["O"] = "Return to Professor Hanlon at Caer Darrow with this information.",
-    ["D"] = "Now that you know my story, please set the record straight. Maybe some day, the hold Darkmaster Gandling has on me will be released and my spirit can be at peace. Until that happens, I will be content that at least one person out there knows the truth. May the light bless you, Paladin. I know it has forsaken me.",
+    ["D"] = "Now that you know my story, please set the record straight. Maybe some day, the hold Darkmaster Gandling has on me will be released and my spirit can be at peace. Until that happens, I will be content that at least one person out there knows the truth. May the light bless you, $C. I know it has forsaken me.",
   },
   [27381] = {
     ["T"] = "Senior Prank",
@@ -2832,7 +2832,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27511] = {
     ["T"] = "Storm, Earth, Wind, and Fire",
     ["O"] = "Weaken six Tar Elementals and then absorb the power of earth into Yaluni Flamewatcher's totem.",
-    ["D"] = "I greet you on behalf of the Earthen Ring, Undead. I am conducting research on the primordial elements and I wonder if you might assist me.\n\nI wished to capture essences of each of the elemental forces of Un'Goro in this totem, but after many years in Felwood I fear that I will taint them with residual fel. I could use someone to collect the essences for me. Simply weaken the elementals, then use the totem to capture their primordial essences.\n\nYou can start with the primordial forces of earth - the tar elementals around the Lakkari Tar Pits.",
+    ["D"] = "I greet you on behalf of the Earthen Ring, $R. I am conducting research on the primordial elements and I wonder if you might assist me.\n\nI wished to capture essences of each of the elemental forces of Un'Goro in this totem, but after many years in Felwood I fear that I will taint them with residual fel. I could use someone to collect the essences for me. Simply weaken the elementals, then use the totem to capture their primordial essences.\n\nYou can start with the primordial forces of earth - the tar elementals around the Lakkari Tar Pits.",
   },
   [27512] = {
     ["T"] = "Storm, Earth, Wind, and Fire",
@@ -2952,7 +2952,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27640] = {
     ["T"] = "Dark Literature",
     ["O"] = "Collect 8 Shadowsworn Tomes from cult members in the wastes of the Blasted Lands.",
-    ["D"] = "You\'re with the Horde, right? I\'m looking to join a faction, and it\'s the obvious choice, all things considered...\n\nMorgria and her caravan ran into me here at my camp. I explained my situation, and they all explained their own. It\'s a match made in the twisting nether -- would you believe our goals completely align?\n\nSo, we\'ve tentatively agreed: I provide intelligence on Felstone and a remedy to this curse going around... in exchange for naturalization into the Horde.\n\nRegarding the curse, I have a plan that may or may not pan out. It\'s no permanent solution, but I can try to give the Horde a bit of a reprieve. That is, as long as I have some help only a Warrior can provide.\n\nI need tomes from the cultists near here, specifically the ones that practice magic or ritual. Thugs and enforcers won\'t do. The thicker the tome, the better. I\'ll explain more when I have them.",
+    ["D"] = "You\'re with the Horde, right? I\'m looking to join a faction, and it\'s the obvious choice, all things considered...\n\nMorgria and her caravan ran into me here at my camp. I explained my situation, and they all explained their own. It\'s a match made in the twisting nether -- would you believe our goals completely align?\n\nSo, we\'ve tentatively agreed: I provide intelligence on Felstone and a remedy to this curse going around... in exchange for naturalization into the Horde.\n\nRegarding the curse, I have a plan that may or may not pan out. It\'s no permanent solution, but I can try to give the Horde a bit of a reprieve. That is, as long as I have some help only a $C can provide.\n\nI need tomes from the cultists near here, specifically the ones that practice magic or ritual. Thugs and enforcers won\'t do. The thicker the tome, the better. I\'ll explain more when I have them.",
   },
   [27641] = {
     ["T"] = "Reverse Affliction",
@@ -2962,7 +2962,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27645] = {
     ["T"] = "Collecting on Debt",
     ["O"] = "Loot Grox\'s merchandise off of John Taylor, Joel Taylor, and Joshua Taylor inside Felstone Fortress.",
-    ["D"] = "So I\'ve got a problem that needs some muscle.\n\nSome deadbeats here in the fortress owe me big -- a trio of undead brothers. Time before last we docked here, they each wanted something I was selling but didn\'t have the coin on hand. I agreed to let them have the items, so long as they\'d pay me next time I stop in.\n\nWell guess what? I\'m still waiting on those payments! A goblin never forgets, Orc, and don\'t you forget it!\n\nOne\'s got a staff of mine, the other a timepiece, and the last one a magical drum. Don\'t care if you gotta break some bones to get my stuff back, if ya catch my drift.",
+    ["D"] = "So I\'ve got a problem that needs some muscle.\n\nSome deadbeats here in the fortress owe me big -- a trio of undead brothers. Time before last we docked here, they each wanted something I was selling but didn\'t have the coin on hand. I agreed to let them have the items, so long as they\'d pay me next time I stop in.\n\nWell guess what? I\'m still waiting on those payments! A goblin never forgets, $R, and don\'t you forget it!\n\nOne\'s got a staff of mine, the other a timepiece, and the last one a magical drum. Don\'t care if you gotta break some bones to get my stuff back, if ya catch my drift.",
   },
   [27646] = {
     ["T"] = "Feeding the Troops",
@@ -2987,7 +2987,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27650] = {
     ["T"] = "Scout Morgria",
     ["O"] = "Find Scout Morgria somewhere on the coast in the Blasted Lands.",
-    ["D"] = "Just the Orc I was looking for, $N.\n\nYou probably haven\'t seen them, but some of our scouts and grunts are coming back from the Blasted Lands afflicted by a curse. It doesn\'t expire, and our warlocks haven\'t seen anything like it.\n\nOne of our remaining scouts has been sent south on a reconnaissance mission to find out more, and I think you\'d be able to do good work with her.\n\nShe\'s a known hot head, so try to balance her out. Don\'t underestimate that wasteland down there either.\n\nThe last report I read places her and her caravan on the Blasted Lands coast. Strength and honor, $N.",
+    ["D"] = "Just the $R I was looking for, $N.\n\nYou probably haven\'t seen them, but some of our scouts and grunts are coming back from the Blasted Lands afflicted by a curse. It doesn\'t expire, and our warlocks haven\'t seen anything like it.\n\nOne of our remaining scouts has been sent south on a reconnaissance mission to find out more, and I think you\'d be able to do good work with her.\n\nShe\'s a known hot head, so try to balance her out. Don\'t underestimate that wasteland down there either.\n\nThe last report I read places her and her caravan on the Blasted Lands coast. Strength and honor, $N.",
   },
   [27651] = {
     ["T"] = "Slay the Weaklings",
@@ -3017,7 +3017,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27656] = {
     ["T"] = "Felstone Mines",
     ["O"] = "Collect 30 Felstone Gold Ore from the mine inside Felstone Fortress.",
-    ["D"] = "The undead over there told me about the mines under Felstone. He said the vein\'s still going strong last he heard, and it\'s the biggest in the area.\n\nLet\'s have a piece of that pie, Warrior. The way things are going, no one\'s gonna be left alive in that fortress. Better take some now before any rats start jumping ship with it.",
+    ["D"] = "The undead over there told me about the mines under Felstone. He said the vein\'s still going strong last he heard, and it\'s the biggest in the area.\n\nLet\'s have a piece of that pie, $C. The way things are going, no one\'s gonna be left alive in that fortress. Better take some now before any rats start jumping ship with it.",
   },
   [27661] = {
     ["T"] = "Gathering Intelligence",
@@ -3102,7 +3102,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27732] = {
     ["T"] = "The Blazing Hydra",
     ["O"] = "Kill Captain Grumma, Sorcerer Maltarg, and Forgemaster Tralak west of Ashfall Post.",
-    ["D"] = "Been lookin\' into the orcs callin\' the shots out there a while now, and I\'ve found a few ya might want to take out if yer willing.\n\nCaptain Grumma barks patrol orders out to the troops over at the big tower west of here. Sorcerer Maltarg\'s doin\' some ritual not much further southwest of the tower... definitely up to no good. Forgemaster Tralak is, you guessed it -- at the forge... not much else to say \'bout these guys.\n\nWatch yer back, Paladin. I\'ll keep scoutin\' while yer gone.",
+    ["D"] = "Been lookin\' into the orcs callin\' the shots out there a while now, and I\'ve found a few ya might want to take out if yer willing.\n\nCaptain Grumma barks patrol orders out to the troops over at the big tower west of here. Sorcerer Maltarg\'s doin\' some ritual not much further southwest of the tower... definitely up to no good. Forgemaster Tralak is, you guessed it -- at the forge... not much else to say \'bout these guys.\n\nWatch yer back, $C. I\'ll keep scoutin\' while yer gone.",
   },
   [27733] = {
     ["T"] = "Hitting Where it Hurts",
