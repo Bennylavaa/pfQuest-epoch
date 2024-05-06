@@ -59,4 +59,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 42.15, 34.78, 400 },
     },
   },
+  [4000011] = { --Aru-Tails Site One
+    ["coords"] = {
+      [1] = { 38.8, 87.2, 490 },
+    },
+  },
 }
