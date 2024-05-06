@@ -396,4 +396,12 @@ pfDB["items"]["enUS-epoch"] = {
   [63035] = "Second Tablet Rubbing",
   [63036] = "Third Tablet Rubbing",
   [63037] = "Fourth Tablet Rubbing",
+  [62755] = "All-Purpose Neutralizing Agent",
+  [63326] = "Bundle of Cultist Writings",
+  [63315] = "Sulfurous Meat",
+  [63316] = "Red Clay",
+  [63048] = "Quel\'dorei Silk Strand",
+  [63053] = "Suntouched Special Reserve",
+  [63054] = "Globe of Pure Spring Water",
+  [63058] = "Letter from Larya",
 }

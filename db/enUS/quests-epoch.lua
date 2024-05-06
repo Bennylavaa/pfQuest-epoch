@@ -3114,4 +3114,74 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Take the Box of Aru-Talis Research Materials to Hamuul Runetotem on the Elder Rise in Thunder Bluff.",
     ["D"] = "I think you have done all that you can to help me for now. When I recover I can continue the work myself.\n\n Please, do me one last favor. Take the core samples, tablet rubbings, and my report back to Hamuul Runetotem in Thunder Bluff. He expressed interest in finding out if the legend was true, and its the least I can do since a member of the Horde helped me.",
   },
+  [27363] = {
+    ["T"] = "The Plaguewood Cauldrons",
+    ["O"] = "Add the All-Purpose Neutralizing Agent to the Scourge cauldrons in the Plaguewoods, then return to Alchemist Arbington.",
+    ["D"] = "You\'ve done excellent work on the cauldrons in Western Plaguelands. It\'s time to turn our attention to similar Scourge activities in Eastern Plaguelands. \nOur intelligence indicates there are three plague cauldrons operating in the Plaguewood. These do not have cauldron lords, and I believe we can use a generic neutralizing agent on all of them to contaminate their contents and make them unusable, at least for a time. Take this vial and attend to those cauldrons, but beware. The Plaguewood is at the heart of Scourge power in the Plaguelands and filled with all manner of their soldiers.",
+  },
+  [27364] = {
+    ["T"] = "The Final Cauldrons",
+    ["O"] = "Add the All-Purpose Neutralizing Agent to the Scourge cauldrons in the Fungal Vale and Noxious Glade, then return to Alchemist Arbington.",
+    ["D"] = "A report has come in that two final cauldrons remain, one each in the Noxious Glade and Fungal Vale of the Eastern Plaguelands. Once you have added the neutralizing agent to these two cauldrons, we should have the spread of the plague under control - at least for now. \nGo swiftly hero, so we can put this matter to rest.",
+  },
+  [27661] = {
+    ["T"] = "Gathering Intelligence",
+    ["O"] = "Collect 12 Bundles of Cultist Writings from Shadowsworn cult members around the Blasted Lands.",
+    ["D"] = "The Shadowsworn have always been a hindrance to our watch over the Dark Portal. It\'s usually only in isolated incidents and altercations, but they\'ve been growing more bold and organized. We\'re unable to confirm anything, as most scouts we send out never come back. To top it all off, the enemy is using a strange new magic that our people aren\'t recovering from.\nI\'m curious about what\'s going on here. Would you act as our agent? The lower level members aren\'t the best source of intel, but they\'re the only ones we ever see. Start with them in the valleys south of here, and bring back any notes or letters they may have. Be careful out there, Warlock.",
+  },
+  [27646] = {
+    ["T"] = "Feeding the Troops",
+    ["O"] = "Gather 10 Sulfurous Meat from Ashmane Boars.",
+    ["D"] = "It\'s important to stay positive in a place like this, but I take it many people here are giving you the cold shoulder? Try not to hold it against them.\nNot only is this a stressful post, but hunger does terrible things to a person. We\'re tapping into our emergency food supply until the next big shipment comes in... which is who knows when!\nThe animals here aren\'t fit for consumption, but I\'ve got a plan. Care to help out?\nI need meat from the Ashmane Boars around the area. As much as you can carry, please, but avoid the really tough stuff.",
+  },
+  [27647] = {
+    ["T"] = "Alchemy is the Answer",
+    ["O"] = "Talk to Nina Lightbrew inside Nethergarde Keep\'s mage tower.",
+    ["D"] = "Have you met Nina up in the tower? She travels between here and Duskwood, selling alchemy supplies.\nShe\'s told me her true passion is in alchemy itself, but she lacks confidence in her ability. This is the perfect opportunity to try and solve a practical problem.\nWhat do you say, Anistine? Could you ask her for some help to get this stuff edible? Also, tell her I said hey!\n\<Lungertz gives you a genial grin.\>",
+  },
+  [27648] = {
+    ["T"] = "The Clay Cleanse",
+    ["O"] = "Find 7 Red Clay from deposits near the coast of the Blasted Lands.",
+    ["D"] = "So... the plan is to get something edible out of all this meat using alchemy? Hmm... I don\'t know, but I suppose there\'s no harm in at least trying.\n\<Nina rubs her chin for a long while, deep in thought.\>\nWell, this may sound absurd. The horses we ride here are prone to sickness after going through the swamp, but when we arrive, I always notice them eating clay off the ground. The next day, it\'s like nothing was ever wrong.\nMaybe... maybe the clay has some kind of purifying properties? It\'s everywhere in small amounts, but I think you\'ll have better luck on the coast due to the tides and all.",
+  },
+  [27649] = {
+    ["T"] = "Ready for Distribution",
+    ["O"] = "Bring the news to Quartermaster Lungertz inside Nethergarde Keep.",
+    ["D"] = "Okay, let\'s put this to the test. I boiled the water, added in some crushed charcoal, bruiseweed, gromsblood... and now the clay.\n\<Nina mixes the clay with the odorous solution, making it viscous.\>\nHere goes nothing...\n\<The mixture makes contact with the meat, furiously sizzling. As things calm down, it becomes clear something went right.\>\nOh, wow... the smell is gone! No more ooze, the color is brighter, and it seems it got cooked too!\n\<Nina looks at you warily, then samples it.\>\nHmm... not bad! I guess we got lucky, Anistine. Why don\'t you tell Lungertz the good news? I\'ll finish treating the rest of this and bring it to him later. Thanks a bunch!",
+  },
+  [27673] = {
+    ["T"] = "An Unlikely Ally",
+    ["O"] = "Find and speak to Izalnir somewhere on the coast of the Blasted Lands.",
+    ["D"] = "Most of us won\'t admit to it, but we\'re in dire straits. Nethergarde hasn\'t received reinforcements for some time, people are suffering a curse we\'ve not seen before, and the lands grow more dangerous each day.\nWhile gathering some reagents a fortnight ago, I came across an undead fleeing the ruins of that fortress to the south. I prepared myself for a fight, but he raised his arms and explained his situation.\nHe used to be a high ranking member of the cult and nearly got himself killed. Now he\'s seeking shelter with the Horde or Alliance, but seeing as he\'s undead...\nThe Watcher thinks it\'s some kind of a trap, but honestly, we need a break. Someone like that is bound to have useful information.\nWon\'t you look for him, Warlock? Last I saw he was headed for the coast.",
+  },
+  [27505] = {
+    ["T"] = "To Have a Purpose",
+    ["O"] = "Kill 8 Ghost Tarantulas for Adon in the Eastern Plaguelands.",
+    ["D"] = "Hail and well met adventurer! It is long since I have seen a friendly face in this blighted land.\nI was assigned here to watch for the coming of danger to Quel\'Thalas and I will not shirk that duty, however ridiculous it seems to keep orders from superiors long dead or missing. But I have observed problems in this land that could be put to rights by someone willing to take up arms and solve them.\nIf you are one such Human, I direct your attention to a cave south of the Plaguewood that is teeming with spiders. Show me your combat prowess by thinning their numbers.",
+  },
+  [27506] = {
+    ["T"] = "The Land Beyond the Forest",
+    ["O"] = "Collect 6 Quel\'dorei Silk Strands from Ghost Tarantula egg sacs and bring them to Adon in the Eastern Plaguelands.",
+    ["D"] = "After the fall of Quel\'Thalas I find myself an exile from my people. The elves at Quel\'lithian Lodge have eschewed contact with outsiders and the way back to Silvermoon is blocked. I am alone.\nPerhaps you would be willing to help me? The egg sacs of the Ghost Tarantulas that dwell in the south of the Plaguewood contain delicate silk strands used to make fine cloaks in Silvermoon. Bring me some of those strands that I might remember what it once felt like to live there.",
+  },
+  [27507] = {
+    ["T"] = "The Land Beyond the Forest",
+    ["O"] = "Bring a bottle of Suntouched Special Reserve to Adon in the Eastern Plaguelands.",
+    ["D"] = "In happier days I would toast your victory with a bottle of Suntouched Special Reserve, a wine fermented with the light of the sun. What I wouldn\'t give to taste it again.\nThe elves at Quel\'Lithian Lodge might have some but they were exiled from old Quel\'Thalas. When I last tried to speak with them they tossed me out and warned me from re-entering their domain. I do not wish to incur their ill will. Perhaps you could go there instead and see if you can acquire some for me?",
+  },
+  [27508] = {
+    ["T"] = "Water of the Sun",
+    ["O"] = "Collect 8 Globes of Pure Spring Water from Living Water and Splashing Elementals at the Golakka Hot Springs in Un\'Goro Crater, then return to Celeste Corealis at the Quel\'Lithian Lodge in Eastern Plaguelands.",
+    ["D"] = "You\'re looking for Suntouched Special Reserve? Expensive tastes! That\'s a hard to acquire beverage these days.\nFortunately for you, I have bottles of Suntouched Special Reserve fermenting as we speak and I\'ve run out of a crucial ingredient needed to make more of it. Fetch me the ingredient and a bottle is all yours!\nI need pure spring water, like what flowed through Eversong Woods. Since Eversong was devastated by the Scourge, you will have to look elsewhere for another source. Perhaps somewhere primordial, with a hot springs? I\'ll leave it to you to figure out where that is.",
+  },
+  [27509] = {
+    ["T"] = "The Land Beyond the Forest",
+    ["O"] = "Find Ranger Larya in the abattoir at the Noxious Glade in Eastern Plaguelands and slay her, then return to Adon in the Eastern Plaguelands.",
+    ["D"] = "There is one more task I would ask of you, Human.\nWhen the Scourge marched through my people\'s lands we lost many of our best rangers. The lucky ones died. Others were raised to service through the curse of undeath. One of these was someone close to me.\nThe Noxious Glade is one of the bases of operation for the Scourge\'s foul machinations in this land. The commander of the glade is Ranger Larya, formerly of Silvermoon. Please grant her the death she was denied earlier. It would ease my heart greatly to know she is at rest.",
+  },
+  [27510] = {
+    ["T"] = "Where No Shadows Fall",
+    ["O"] = "Take the Letter from Larya to Adon in the Eastern Plaguelands.",
+    ["D"] = "This letter on Ranger Larya\'s body appears old and hastily written - it\'s not even sealed. Adon would certainly be interested in this.",
+  },
 }

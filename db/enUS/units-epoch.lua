@@ -429,4 +429,9 @@ pfDB["units"]["enUS-epoch"] = {
   [46353] = "Terrorwing",
   [46486] = "Jaylssa Stonesong",
   [46487] = "Leakey Cartspark",
+  [10667] = "Chromie",
+  [10976] = "Jeziba",
+  [46509] = "Ghost Tarantula",
+  [46507] = "Celeste Corealis",
+  [46510] = "Ranger Larya",
 }

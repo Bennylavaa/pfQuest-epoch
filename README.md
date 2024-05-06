@@ -86,9 +86,9 @@ Blasted Lands|45-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Un'goro Crater|48-55|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Felwood|48-55|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
 Burning Steppes|50-58|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
-Western Plaguelands|51-58|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Eastern Plaguelands|53-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
-Winterspring|53-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Western Plaguelands|51-58|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
+Eastern Plaguelands|53-60|<ul><li>[x] Done</li></ul>|<ul><li>[ ] Done</li></ul>
+Winterspring|53-60|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Deadwind Pass|55-60|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Moonglade|55-60|<ul><li>[x] Done</li></ul>|<ul><li>[x] Done</li></ul>
 Silithus|55-60|<ul><li>[ ] Done</li></ul>|<ul><li>[ ] Done</li></ul>
