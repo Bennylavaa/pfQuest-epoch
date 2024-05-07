@@ -1,8 +1,8 @@
 ## Interface: 30300
-## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[BETA]
+## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[RELEASE]
 ## Author: Shagu
 ## Notes: A Project Epoch DB extension for pfQuest
-## Version: 1.10
+## Version: 1.11
 ## Dependencies: pfQuest-wotlk
 
 init\data-epoch.xml
