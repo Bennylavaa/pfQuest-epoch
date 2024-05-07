@@ -29,7 +29,7 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
                 if remoteversion > localversion then
                     gpiupdateavailable = remoteversion
                     if not alreadyshown then
-                        print("|cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[BETA]|r New version available! |cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch|r")
+                        print("|cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[RELEASE]|r New version available! |cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch|r")
                         alreadyshown = true
                     end
                 end
@@ -57,7 +57,7 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
 
     elseif event == "PLAYER_ENTERING_WORLD" then
         if not alreadyshown and localversion < remoteversion then
-            print("|cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[BETA]|r New version available! |cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch|r")
+            print("|cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[RELEASE]|r New version available! |cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch|r")
             gpiupdateavailable = localversion
             alreadyshown = true
         end
