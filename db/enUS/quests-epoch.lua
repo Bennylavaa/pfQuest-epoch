@@ -127,7 +127,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26158] = {
     ["T"] = "No Regrets! Well, Maybe Some",
     ["O"] = "Find Dromul Oddrink in Northshire Falls.",
-    ["D"] = "Me and my partner Dromul made our way here from Dun Morogh. We battled fiercely through the Burning Steppes, on our way to seeking riches in this here valley.\n\nAye, we had hoped to be the first to lay claim to it, but we fell out...He took my tools, I took most of his brewing gear. And now we're both stuck here! I didn't brew that ale $N, the only one who could is Dromul, up the river. I doubt he\'ll ever speak to me again...but please make sure he\'s okay.",
+    ["D"] = "Me and my partner Dromul made our way here from Dun Morogh. We battled fiercely through the Burning Steppes, on our way to seeking riches in this here valley.\n\nAye, we had hoped to be the first to lay claim to it, but we fell out...He took my tools, I took most of his brewing gear. And now we\'re both stuck here! I didn\'t brew that ale $N, the only one who could is Dromul, up the river. I doubt he\'ll ever speak to me again...but please make sure he\'s okay.",
   },
   [26159] = {
     ["T"] = "Lionstout Ale",
@@ -192,7 +192,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26180] = {
     ["T"] = "Demons In Fel Rock",
     ["O"] = "Collect 10 Demon Essence from Fel Rock and return to Jeena Featherbow in Dolanaar.",
-    ["D"] = "Greetings, how nice to see a $c. I assume you've heard of the recent corruption occuring in Teldrassil?\n\nThere are demons that have invaded these lands, and some of our scouts report that a large concentration of them is located in Fel Rock, just north of here.\n\nCan you kill them and bring me their demon essence so we can purify it?",
+    ["D"] = "Greetings, how nice to see a $c. I assume you\'ve heard of the recent corruption occuring in Teldrassil?\n\nThere are demons that have invaded these lands, and some of our scouts report that a large concentration of them is located in Fel Rock, just north of here.\n\nCan you kill them and bring me their demon essence so we can purify it?",
   },
   [26181] = {
     ["T"] = "Purifying the Essence",
@@ -236,7 +236,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26189] = {
     ["T"] = "A Touch of Lightning",
-    ["O"] = "Siphon 5 Essence of Lightning into Jo\'gon's Rod and return to Jo\'gon at Razor Hill.",
+    ["O"] = "Siphon 5 Essence of Lightning into Jo\'gon\'s Rod and return to Jo\'gon at Razor Hill.",
     ["D"] = "Greetings mon. I could be using your help if you got da time. I be practicing my shamanistic skills, and wish to learn how to manipulate objects. To do that I be needing some lightning essence.\n\nDa best place to find that is up in Thunder Ridge. Take my rod and use it on the beasts. The kodo\'s hides are rich in lightning, and this rod will absorb it.",
   },
   [26190] = {
@@ -292,7 +292,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26201] = {
     ["T"] = "The Twilight\'s Hammer",
     ["O"] = "Kill 8 Twilight Thugs and 8 Twilight Disciples and return to Alanndarian Nightsong in Auberdine.",
-    ["D"] = "There is a grave threat to Auberdine, $N. They call themselves The Twilight\'s Hammer. They are a cult that spreads chaos and unrest, disrupting the balance of the forest. They worship the Old Gods and desire to bring them back, wishing for destruction across Azeroth.\n\nThey must be stopped! They have an outpost called The Master\'s Glaive far to the south, near the border of Ashenvale. Go, $N, and cleanse the cult's stain on Darkshore.",
+    ["D"] = "There is a grave threat to Auberdine, $N. They call themselves The Twilight\'s Hammer. They are a cult that spreads chaos and unrest, disrupting the balance of the forest. They worship the Old Gods and desire to bring them back, wishing for destruction across Azeroth.\n\nThey must be stopped! They have an outpost called The Master\'s Glaive far to the south, near the border of Ashenvale. Go, $N, and cleanse the cult\'s stain on Darkshore.",
   },
   [26202] = {
     ["T"] = "Welcome to Auberdine",
@@ -372,7 +372,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26231] = {
     ["T"] = "Thumbs Up, Man Down",
     ["O"] = "Bring the Donald\'s Bloodied Thumb to Nancy Eastworth.",
-    ["D"] = "I\'m not going to wait any longer for that old bravado who is capable of risking not only his own but his family\'s life in order to pursue a few coins.\nAt first I've lost my braid, but next time I may have a knife stuck in my throat, or even worse - my little Tina taken away from me. Oh, The Light guide us, we\'ll need it for the dark times that are about to come. No home, no livestock, no source of income.\nWe need to grow strong and independent, literally right now. We\'re moving on, even if I had to carry the Blackrock Mountain on my own shoulders - we NEED to move on. But to secure our future, I want to ask you the one last thing. Teach Donald the lesson he\'ll never forget.\nBeat the living hell out of him and let his words become flesh. Bring me his thumb, that he was so eager to lose. Don\'t need to... You know, kill him. A few broken bones will be enough. Just make sure he won\'t follow us later on - wherever he is, misfortune follows.",
+    ["D"] = "I\'m not going to wait any longer for that old bravado who is capable of risking not only his own but his family\'s life in order to pursue a few coins.\nAt first I\'ve lost my braid, but next time I may have a knife stuck in my throat, or even worse - my little Tina taken away from me. Oh, The Light guide us, we\'ll need it for the dark times that are about to come. No home, no livestock, no source of income.\nWe need to grow strong and independent, literally right now. We\'re moving on, even if I had to carry the Blackrock Mountain on my own shoulders - we NEED to move on. But to secure our future, I want to ask you the one last thing. Teach Donald the lesson he\'ll never forget.\nBeat the living hell out of him and let his words become flesh. Bring me his thumb, that he was so eager to lose. Don\'t need to... You know, kill him. A few broken bones will be enough. Just make sure he won\'t follow us later on - wherever he is, misfortune follows.",
   },
   [26232] = {
     ["T"] = "Consumed by Hatred",
@@ -412,7 +412,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26239] = {
     ["T"] = "Annals of Hajiri",
     ["O"] = "Speak to Ashalen at the Zoram Stand in Ashenvale to confront Liallas.",
-    ["D"] = "Seeing as you've helped me, it\'s time I explain why I need this focus.\n\nThe foul sea witch, Liallas, has been meticulously searching ancient ruins in search of rather dated and frankly mundane texts. Regardless of the importance of these texts, she has made the critical mistake of exposing herself.\n\nIn the War of the Ancients, my family stood with the Kaldorei Resistance, which placed us at odds with Liallas. According to my family\'s texts, she erected a nearly impenetrable ward. With this focus in hand, she won\'t be able to hide behind her foul magics.\n\nFind me at the Zoram Strand. Together, we will crush Liallas and get Tyraeth her coveted text.",
+    ["D"] = "Seeing as you\'ve helped me, it\'s time I explain why I need this focus.\n\nThe foul sea witch, Liallas, has been meticulously searching ancient ruins in search of rather dated and frankly mundane texts. Regardless of the importance of these texts, she has made the critical mistake of exposing herself.\n\nIn the War of the Ancients, my family stood with the Kaldorei Resistance, which placed us at odds with Liallas. According to my family\'s texts, she erected a nearly impenetrable ward. With this focus in hand, she won\'t be able to hide behind her foul magics.\n\nFind me at the Zoram Strand. Together, we will crush Liallas and get Tyraeth her coveted text.",
   },
   [26243] = {
     ["T"] = "CHOP!",
@@ -481,7 +481,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26257] = {
     ["T"] = "Infusing the Orb",
-    ["O"] = "Siphon 5 Essence of Lightning into Korgar\'s Orb and return to Shin'Zil in The Barrens.",
+    ["O"] = "Siphon 5 Essence of Lightning into Korgar\'s Orb and return to Shin\'Zil in The Barrens.",
     ["D"] = "This be da orb we looking for, mon. But now dat we have the orb, we need to infuse it with the power of nature. Far south, past The Crossroads, lies packs of thunder lizard that look similar to kodos.\n\nWe need to harness their essence and infuse it into the orb...while they be alive for da most potent power. After you do that, return to me so that we may complete the ritual.",
   },
   [26258] = {
@@ -517,7 +517,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26265] = {
     ["T"] = "Assisting Nonere",
     ["O"] = "Collect 5 pelts from nearby Elder Ice Claw Bears, you can find them south-east of the Airfield, east of the frozen lake.",
-    ["D"] = "Now now, before you go runnin\' off I have a second task for ye. Don't worry, I\'ll pay ya yer due. I figure you are the kinda $R that has slain a bear or two in yer lifetime, am I right? Down to the south-east o\' here there\'s a right good den of those beasties. Could you grab a couple pelts for me to fashion goodies with?",
+    ["D"] = "Now now, before you go runnin\' off I have a second task for ye. Don\'t worry, I\'ll pay ya yer due. I figure you are the kinda $R that has slain a bear or two in yer lifetime, am I right? Down to the south-east o\' here there\'s a right good den of those beasties. Could you grab a couple pelts for me to fashion goodies with?",
   },
   [26266] = {
     ["T"] = "Assisting Topsy",
@@ -556,13 +556,13 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26273] = {
     ["T"] = "Destroying the Armaments",
-    ["O"] = "Use any fire to light the Unlit Torch, then burn 6 Frostmane Armaments in Rik\'watha. Rik'watha has a bonfire you can use to light the torch.",
+    ["O"] = "Use any fire to light the Unlit Torch, then burn 6 Frostmane Armaments in Rik\'watha. Rik\'watha has a bonfire you can use to light the torch.",
     ["D"] = "The Frostmane trolls in Rik\'watha are preparing for an assault on the Airfield. I learned about this shortly before I was attacked, they have caches of weapons stored around the village that I thought merely contained food.\n\nHere, I fashioned a makeshift torch for you. Take it to their bonfire, or any fire for that matter, and set those armaments ablaze!",
   },
   [26274] = {
     ["T"] = "High Priest Rikkari",
     ["O"] = "Kill High Priest Rikkari.",
-    ["D"] = "I am feeling much better now already, but sadly I still can\'t help. We need to show the trolls that we can't be so easily defeated. High Priest Rikkari needs to be killed, it is our best chance. We can then only hope that the next leader is less open to attack.\n\nDon\'t underestimate him, he commands power over shadows. I hope you have some friends you can call on.\n\nWhen you\'ve succeeded please report to Fleet Commander Stoneflint in the Airfield. He is in the bunker.",
+    ["D"] = "I am feeling much better now already, but sadly I still can\'t help. We need to show the trolls that we can\'t be so easily defeated. High Priest Rikkari needs to be killed, it is our best chance. We can then only hope that the next leader is less open to attack.\n\nDon\'t underestimate him, he commands power over shadows. I hope you have some friends you can call on.\n\nWhen you\'ve succeeded please report to Fleet Commander Stoneflint in the Airfield. He is in the bunker.",
   },
   [26275] = {
     ["T"] = "Guldar Gamble",
@@ -892,7 +892,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26350] = {
     ["T"] = "The Dustwind Escape",
     ["O"] = "Help Gizzle Screwsnip escape Dustwind Cave. Should you succeed, report to Supervisor Hink at the zeppelin tower in Durotar.",
-    ["D"] = "I didn\'t think I would see another $R again! You gotta get me out of here, these cultists are crazy! They tried performing a ritual on me earlier, but I don't think they had all the materials.\n\nWhen they get back, they're sure to try again, except this time it might work! Let's hurry and bust out of here.",
+    ["D"] = "I didn\'t think I would see another $R again! You gotta get me out of here, these cultists are crazy! They tried performing a ritual on me earlier, but I don\'t think they had all the materials.\n\nWhen they get back, they\'re sure to try again, except this time it might work! Let\'s hurry and bust out of here.",
   },
   [26351] = {
     ["T"] = "Searching for Gizzle",
@@ -927,7 +927,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26357] = {
     ["T"] = "Ore for Sun Rock",
     ["O"] = "Mine 8 Palladium Ore from Windshear Mine and return to Grawnal at Sun Rock Retreat.",
-    ["D"] = "I know it doesn\'t look it, but we're running low on materials. Specfically, metals that we can melt down into weapons for the guards. If we can\'t defend ourselves, we leave ourselves open to an Alliance attack!\n\nI\'ve heard that the Venture Co. has found a new ore, said to be more powerful than the iron we\'ve been using. I want you to take my pickaxe and go to Windshear Mine. Just enter Windshear Crag and head right along the mountain\'s edge. If you find any special ore, use my pickaxe and bring it back to me for examination.",
+    ["D"] = "I know it doesn\'t look it, but we\'re running low on materials. Specfically, metals that we can melt down into weapons for the guards. If we can\'t defend ourselves, we leave ourselves open to an Alliance attack!\n\nI\'ve heard that the Venture Co. has found a new ore, said to be more powerful than the iron we\'ve been using. I want you to take my pickaxe and go to Windshear Mine. Just enter Windshear Crag and head right along the mountain\'s edge. If you find any special ore, use my pickaxe and bring it back to me for examination.",
   },
   [26358] = {
     ["T"] = "Tinkering in the Vale",
@@ -997,7 +997,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26373] = {
     ["T"] = "Anatomy of the Afterlife",
     ["O"] = "Summon and control the abomination. Then use him to kill Akagi south of the Sepulcher. Return to Apothecary Renferrel when the task is completed.",
-    ["D"] = "Normally we craft our abominations in Undercity, but with these dire circumstances we\'ll have to make do here. Because we don't have all the ingredients Undercity does, I\'m afraid the abomination will have no mind of its own, so you\'ll have to take control of it. I\'ve written down the incantation for the spell. As soon as you finish, the abominations mind will be under your control.\n\nI received a report from the guards just a bit ago, stating that the grizzly we've been looking for was found. His name is Akagi, and he is just south of here.\n\nTake the rugged path beside the flight master, and turn right at the first opening. You'll find the beast there. And be quick, the spell will only hold for a few minutes!",
+    ["D"] = "Normally we craft our abominations in Undercity, but with these dire circumstances we\'ll have to make do here. Because we don\'t have all the ingredients Undercity does, I\'m afraid the abomination will have no mind of its own, so you\'ll have to take control of it. I\'ve written down the incantation for the spell. As soon as you finish, the abominations mind will be under your control.\n\nI received a report from the guards just a bit ago, stating that the grizzly we\'ve been looking for was found. His name is Akagi, and he is just south of here.\n\nTake the rugged path beside the flight master, and turn right at the first opening. You\'ll find the beast there. And be quick, the spell will only hold for a few minutes!",
   },
   [26374] = {
     ["T"] = "Breaking the Armory",
@@ -1072,11 +1072,11 @@ pfDB["quests"]["enUS-epoch"] = {
   [26389] = {
     ["T"] = "A Lost Warrior",
     ["O"] = "Loot Eston\'s Key from Jailer Eston in the Durnholde Sewers and return to Tog\'thar.",
-    ["D"] = "I can\'t believe you came! Did my brother send for you? I\'m relieved you\'re here, but unfortunately with these shackles on me, I won\'t be going anywhere.\n\nThe key to these shackles is held by Jailer Eston, who guards these sewers. I just saw him head over to the other side of these sewers.\n\nGo and get his key...use whatever force is necessary. I don't want to die here!",
+    ["D"] = "I can\'t believe you came! Did my brother send for you? I\'m relieved you\'re here, but unfortunately with these shackles on me, I won\'t be going anywhere.\n\nThe key to these shackles is held by Jailer Eston, who guards these sewers. I just saw him head over to the other side of these sewers.\n\nGo and get his key...use whatever force is necessary. I don\'t want to die here!",
   },
   [26390] = {
     ["T"] = "A Lost Warrior",
-    ["O"] = "Escape from Durnholde Keep with Tog'thar. If you are successful, report to Krusk in Tarren Mill.",
+    ["O"] = "Escape from Durnholde Keep with Tog\'thar. If you are successful, report to Krusk in Tarren Mill.",
     ["D"] = "It\'s time to get out of here, $N. But be warned, these damned Syndicate are going to put up a fight!Stick together now, we can\'t afford to get seperated. I can\'t wait to see the look on my brother\'s face when I return to him.",
   },
   [26391] = {
@@ -1222,7 +1222,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26420] = {
     ["T"] = "Rumbles Of The Earth",
     ["O"] = "Return to Foreman Springsocket in Splintertree Mine.",
-    ["D"] = "Here, this is everything that the Foreman will want. You'll have to come back here and tell me what comes of this. Whatever it was that made him finally come to me for help must be one heck of a find.\n\nTake this crate with you back to Splintertree Post and deliver it to him.",
+    ["D"] = "Here, this is everything that the Foreman will want. You\'ll have to come back here and tell me what comes of this. Whatever it was that made him finally come to me for help must be one heck of a find.\n\nTake this crate with you back to Splintertree Post and deliver it to him.",
   },
   [26421] = {
     ["T"] = "Rumbles Of The Earth",
@@ -1427,7 +1427,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26469] = {
     ["T"] = "Beezil And The Burning Blade",
     ["O"] = "Return to Cys Craftcharge with the information you have found out about Beezil Linkspanner.",
-    ["D"] = "If it weren\'t for the fact you've just saved my life from that Infernal I wouldn\'t even speak to you. I owe you that much and a part of me thinks I can play both sides in this.\nThe Burning Blade recruited me to transport a massive Infernal to Steamwheedle Port to do who knows what with it, nothing good. Luckily they paid me up front. I need to go inform them what happened but have a little insurance plan under my sleeve.\nSee ya around chump!",
+    ["D"] = "If it weren\'t for the fact you\'ve just saved my life from that Infernal I wouldn\'t even speak to you. I owe you that much and a part of me thinks I can play both sides in this.\nThe Burning Blade recruited me to transport a massive Infernal to Steamwheedle Port to do who knows what with it, nothing good. Luckily they paid me up front. I need to go inform them what happened but have a little insurance plan under my sleeve.\nSee ya around chump!",
   },
   [26471] = {
     ["T"] = "Burning Blade Dossier",
@@ -1946,7 +1946,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26606] = {
     ["T"] = "Dead and Gone",
-    ["O"] = "Ask around Gluk's Compound to get information about where Trog died.",
+    ["O"] = "Ask around Gluk\'s Compound to get information about where Trog died.",
     ["D"] = "Trog not believe he dead, need see body. You help me find out where he die. Go talk to Enforcer\'s, Mek\'nell, and Gark. They know things. You bring back information, me pay you.",
   },
   [26607] = {
@@ -2277,7 +2277,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26714] = {
     ["T"] = "The Killing Fields",
     ["O"] = "Slay 10 Harvest Watchers and return to Farmer Saldean at Saldean\'s Farm.",
-    ["D"] = "Those golems you killed earlier aren\'t the only ones damaging our lands! One of my farmers claims he saw some more out by The Alexston Farmstead, near the Gold Coast Quarry. If you wouldn't mind killing some more golems, your assistance would be most appreciated.",
+    ["D"] = "Those golems you killed earlier aren\'t the only ones damaging our lands! One of my farmers claims he saw some more out by The Alexston Farmstead, near the Gold Coast Quarry. If you wouldn\'t mind killing some more golems, your assistance would be most appreciated.",
   },
   [26715] = {
     ["T"] = "The Killing Fields",
@@ -2426,8 +2426,8 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [27241] = {
     ["T"] = "Plundering Pirates",
-    ["O"] = "Locate Captain Steelgut at Faldir's Cove within the Arathi Highlands.",
-    ["D"] = "Listen up! I\'ve received from word from, well, let's just say an ally claiming that an assault appears to be taking place at Tol Barad.\n\nThat island hasn\'t been disturbed or stirred in many years so it is more than a little suspicious to receive this report.Head to Faldir\'s Cove and speak to Captain Steelgut and tell them I sent you. They\'ll know what it is about.",
+    ["O"] = "Locate Captain Steelgut at Faldir\'s Cove within the Arathi Highlands.",
+    ["D"] = "Listen up! I\'ve received from word from, well, let\'s just say an ally claiming that an assault appears to be taking place at Tol Barad.\n\nThat island hasn\'t been disturbed or stirred in many years so it is more than a little suspicious to receive this report.Head to Faldir\'s Cove and speak to Captain Steelgut and tell them I sent you. They\'ll know what it is about.",
   },
   [27242] = {
     ["T"] = "Do Slavers Keep Records?",
@@ -2542,7 +2542,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27290] = {
     ["T"] = "The Universal Language",
     ["O"] = "Teach Tanum a lesson and return to Roxxie Fizzwhistle in Everlook.",
-    ["D"] = "<Roxxie inspects the disordered crate of potions. Listening to your story, her face curls in disgust.>\n\nNo, no! NO!! He's drinkin' the product again! Sending me this trash... I don't even wanna know what's in these bottles -- I know it ain't my product!\n\nThat buffoon's lucky he makes a decent brew! Oh... but what's the boss gonna do when he finds out!?\n\nTeach that runt a lesson! Don't kill him, just... rough him up a little. Tell him \"the cartel sends its regards\", that'll shape him up!\n\n",
+    ["D"] = "<Roxxie inspects the disordered crate of potions. Listening to your story, her face curls in disgust.>\n\nNo, no! NO!! He\'s drinkin\' the product again! Sending me this trash... I don\'t even wanna know what\'s in these bottles -- I know it ain\'t my product!\n\nThat buffoon\'s lucky he makes a decent brew! Oh... but what\'s the boss gonna do when he finds out!?\n\nTeach that runt a lesson! Don\'t kill him, just... rough him up a little. Tell him \"the cartel sends its regards\", that\'ll shape him up!\n\n",
   },
   [27291] = {
     ["T"] = "To Delevan\'s Aid",
@@ -2767,12 +2767,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [27498] = {
     ["T"] = "Field Trip",
     ["O"] = "Kill Professor Rasmussen and collect 4 Project Notes from Honors Students.",
-    ["D"] = "Please, do not be fooled by my association with the Scholomance, $C. My heart serves the Argent Dawn. I have spent many days embedded with the Cult of the Damned, looking for an opportunity to thwart their plans. Your arrival presents an opportunity for me to preserve my cover and still meddle in their affairs.\n\nA group of Scholomance's honors students has been sent on a Field Trip to the Eastern Plaguelands to conduct research of some kind. Their teacher, Professor Rasmussen, is suspicious of me and will not tell me what they are doing here.\n\nSlay him and his foul students, and recover their notes. Perhaps we can piece together the purpose of their presence here.",
+    ["D"] = "Please, do not be fooled by my association with the Scholomance, $C. My heart serves the Argent Dawn. I have spent many days embedded with the Cult of the Damned, looking for an opportunity to thwart their plans. Your arrival presents an opportunity for me to preserve my cover and still meddle in their affairs.\n\nA group of Scholomance\'s honors students has been sent on a Field Trip to the Eastern Plaguelands to conduct research of some kind. Their teacher, Professor Rasmussen, is suspicious of me and will not tell me what they are doing here.\n\nSlay him and his foul students, and recover their notes. Perhaps we can piece together the purpose of their presence here.",
   },
   [27499] = {
     ["T"] = "Field Trip",
     ["O"] = "Find Professor Emeritus Chillbone at Corrin\'s Crossing, kill him, and recover his Journal.",
-    ["D"] = "It appears this unnamed former teacher is now called Chillbone. There's a note here that indicates he was headed to Corrin's Crossing to continue the search. From what we know about liches, Chillbone has not yet grown into his powers if he is newly raised. That means you should be able to handle him without calling in the entire army.\n\nIt is my hope that he will possess more information about what the Cult is looking for here. But we should take the opportunity to eliminate him now, before he can become any stronger.",
+    ["D"] = "It appears this unnamed former teacher is now called Chillbone. There\'s a note here that indicates he was headed to Corrin\'s Crossing to continue the search. From what we know about liches, Chillbone has not yet grown into his powers if he is newly raised. That means you should be able to handle him without calling in the entire army.\n\nIt is my hope that he will possess more information about what the Cult is looking for here. But we should take the opportunity to eliminate him now, before he can become any stronger.",
   },
   [27500] = {
     ["T"] = "A Suspicious Letter",
@@ -2831,8 +2831,8 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [27511] = {
     ["T"] = "Storm, Earth, Wind, and Fire",
-    ["O"] = "Weaken six Tar Elementals and then absorb the power of earth into Yaluni Flamewatcher's totem.",
-    ["D"] = "I greet you on behalf of the Earthen Ring, $R. I am conducting research on the primordial elements and I wonder if you might assist me.\n\nI wished to capture essences of each of the elemental forces of Un'Goro in this totem, but after many years in Felwood I fear that I will taint them with residual fel. I could use someone to collect the essences for me. Simply weaken the elementals, then use the totem to capture their primordial essences.\n\nYou can start with the primordial forces of earth - the tar elementals around the Lakkari Tar Pits.",
+    ["O"] = "Weaken six Tar Elementals and then absorb the power of earth into Yaluni Flamewatcher\'s totem.",
+    ["D"] = "I greet you on behalf of the Earthen Ring, $R. I am conducting research on the primordial elements and I wonder if you might assist me.\n\nI wished to capture essences of each of the elemental forces of Un\'Goro in this totem, but after many years in Felwood I fear that I will taint them with residual fel. I could use someone to collect the essences for me. Simply weaken the elementals, then use the totem to capture their primordial essences.\n\nYou can start with the primordial forces of earth - the tar elementals around the Lakkari Tar Pits.",
   },
   [27512] = {
     ["T"] = "Storm, Earth, Wind, and Fire",
@@ -2912,7 +2912,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27568] = {
     ["T"] = "Supplies from Alterac Valley",
     ["O"] = "Win a game of Alterac Valley to acquire the Alterac Supply Cache.",
-    ["D"] = "Smokywood does business all over Azeroth, including some of the most dangerous places. We even have agreements with some of the battleground factions to receive supply caches if we contribute combatants to their efforts.\n\nI need supplies from Alterac Mountains. Emerge victorious from Alterac Valley and you'll be able to pick up an Alterac cache containing pure snow and wintersbite used for our Wondervolt machines. Are you willing to join the fight?",
+    ["D"] = "Smokywood does business all over Azeroth, including some of the most dangerous places. We even have agreements with some of the battleground factions to receive supply caches if we contribute combatants to their efforts.\n\nI need supplies from Alterac Mountains. Emerge victorious from Alterac Valley and you\'ll be able to pick up an Alterac cache containing pure snow and wintersbite used for our Wondervolt machines. Are you willing to join the fight?",
   },
   [27570] = {
     ["T"] = "Supplies from Eastern Plaguelands",
