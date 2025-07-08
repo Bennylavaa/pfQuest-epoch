@@ -2,7 +2,7 @@
 ## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[RELEASE]
 ## Author: Shagu
 ## Notes: A Project Epoch DB extension for pfQuest
-## Version: 1.12
+## Version: 1.13
 ## Dependencies: pfQuest-wotlk
 
 init\data-epoch.xml
