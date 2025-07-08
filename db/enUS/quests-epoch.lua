@@ -2254,6 +2254,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Collect 5 Thistleweed, 3 vials of Felstalker Blood, and 3 Bloodtalon Claws for Garoki in the Valley of Trials.",
     ["D"] = "Greetings, mon. I\'ve recieved a report from a local village that they are in need of some things. If you\'re looking for work the help would be appreciated.\n\nThe report said they need some thistleweed, which you can find scattered around the valley here. Next is the blood from Felstalkers at the cave north of here. Finally they need the claws off the raptor colony located south of here.",
   },
+  [27268] = {
+    ["T"] = "Delivery to Vornal",
+    ["O"] = "",
+    ["D"] = "",
+  },
   [27273] = {
     ["T"] = "Sha\'gri",
     ["O"] = "Kill the Spirit of Sha\'gri and return to Bom\'bay at Sen\'jin Village.",
@@ -3198,11 +3203,6 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Shadow of the Vilehorn",
     ["O"] = "Rootspeaker Aharu wants you to kill 12 Vilehorn Satyr inside Teles\'aran to the north.",
     ["D"] = "Greetings $C, though I wish we\'d met under better circumstances.\n\nEven from Moonglade, I sensed something wrong in Winterspring. I communed with the trees, and they showed me a tainted wound in the land growing larger and more vicious -- coaxed into being by baleful magic.\n\n<Rootspeaker Aharu shakes his head in dismay.>\n\nDo you smell that foulness in the air? The sulfur fumes riding the wind this far can only mean one thing: Satyr. Follow their scent north and dispatch them -- put an end to their dark deeds!",
-  },
-  [27617] = {
-    ["T"] = "Lightsworn Skeletal Charger",
-    ["O"] = "Speak to the Fallen Knight in the Undercity.",
-    ["D"] = "<Full Quest has been disabled to avoid launch day spoilers.>",
   },
   [27881] = {
     ["T"] = "Fight for Warsong Gulch",
