@@ -4,11 +4,12 @@ An extension for [pfQuest-wotlk](https://github.com/shagu/pfQuest) which adds su
 The latest version of [pfQuest-wotlk](https://github.com/shagu/pfQuest) is required and only enUS-Gameclients are supported at the time.
 
 ### Installation
-1. Download **[Latest Version](https://github.com/Bennylavaa/pfQuest-epoch/archive/master.zip)**
-2. Unpack the Zip file
-3. Rename the folder "pfQuest-epoch-master" to "pfQuest-epoch"
-4. Copy "pfQuest-epoch" into Wow-Directory\Interface\AddOns
-5. Restart Wow
+1. Download the latest [pfQuest-wotlk](https://github.com/shagu/pfQuest/releases/latest/download/pfQuest-enUS-wotlk.zip) 
+2. Unzip it and place the "pfQuest-wotlk" folder into Wow-Directory\Interface\AddOns
+3. Download **[Latest Version](https://github.com/Bennylavaa/pfQuest-epoch/archive/master.zip)**
+4. Unzip the file and Rename the folder "pfQuest-epoch-master" to "pfQuest-epoch"
+5. Copy "pfQuest-epoch" into Wow-Directory\Interface\AddOns
+6. It is not installed Congrats. 
 
 ## Contribute
 
