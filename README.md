@@ -9,7 +9,11 @@ The latest version of [pfQuest-wotlk](https://github.com/shagu/pfQuest) is requi
 3. Download the latest **[pfQuest-epoch](https://github.com/Bennylavaa/pfQuest-epoch/archive/master.zip)**
 4. Unzip the file and Rename the folder "pfQuest-epoch-master" to "pfQuest-epoch"
 5. Copy "pfQuest-epoch" into Wow-Directory\Interface\AddOns
-6. It is now installed Congrats. 
+6. It should look something like this:
+
+<img width="328" height="62" alt="image" src="https://github.com/user-attachments/assets/1f4be26d-a126-4903-a17e-2aa1ba7334b5" />
+
+8. It is now installed Congrats. 
 
 ## Contribute
 
