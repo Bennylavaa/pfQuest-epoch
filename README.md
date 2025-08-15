@@ -50,3 +50,9 @@ Detailed list of what each section is: https://github.com/Bennylavaa/pfQuest-epo
 
 - Finish fixing the ID's due to the ID squish Epoch devs did before launch
 - Start adding missing quests and quests added after the last beta
+
+
+![License](https://img.shields.io/badge/License-Custom-blue.svg)
+
+## License
+This project is licensed under a custom license that allows personal use and GitHub forks only. Redistribution or rehosting elsewhere is not permitted. See the [LICENSE](LICENSE) file for details.
