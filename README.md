@@ -1,6 +1,6 @@
 # pfQuest [Project Epoch DB]
 
-**NOTE: I do not give permission for this addon to be hosted in any servers launchers of any kind unless directly pulled from my repo. **
+**NOTE: I do not give permission for this addon to be hosted in any servers launchers of any kind unless directly pulled from my repo.**
 
 An extension for [pfQuest-wotlk](https://github.com/shagu/pfQuest) which adds support for [Project Epoch](https://www.project-epoch.net/).
 The latest version of [pfQuest-wotlk](https://github.com/shagu/pfQuest) is required and only enUS-Gameclients are supported at the time.
