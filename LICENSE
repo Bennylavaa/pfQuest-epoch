@@ -1,21 +1,31 @@
-MIT License
+# pfQuest-epoch License
 
-Copyright (c) 2021 Eric Mauser (Shagu)
+Copyright (c) 2025 Bennylavaa
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted to use this software for personal use only, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## PERMITTED USES:
+- Personal use and modification of the software
+- Creating forks on GitHub for development and contribution purposes
+- Contributing improvements back to the original repository via pull requests
+- Using the software for personal World of Warcraft gameplay
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## PROHIBITED USES:
+- Redistributing, rehosting, or republishing this software on any platform other than GitHub forks
+- Including this software in game launchers, modpacks, or any distribution collections
+- Commercial use, sale, or monetization of this software in any form
+- Claiming this work as your own or removing attribution
+- Hosting modified versions outside of the GitHub fork system
+
+## FORK REQUIREMENTS:
+Any forks of this repository must:
+- Clearly indicate in the repository name and description that it is derived from pfQuest-epoch
+- Retain this license file and all copyright notices
+- Include a prominent link back to the original repository (https://github.com/Bennylavaa/pfQuest-epoch)
+- Not misrepresent the fork as the original or official version
+
+## DISCLAIMER:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## ADDITIONAL NOTES:
+This license applies only to the pfQuest-epoch code and modifications. World of Warcraft and related assets remain the property of Blizzard Entertainment and are subject to their Terms of Service and End User License Agreement.
