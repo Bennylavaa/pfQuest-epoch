@@ -1,6 +1,7 @@
 ## Interface: 30300
 ## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[RELEASE]
-## Author: Shagu
+## Author: Bennylavaa
+## OG: Shagu
 ## Notes: A Project Epoch DB extension for pfQuest
 ## Version: 1.15
 ## Dependencies: pfQuest-wotlk
