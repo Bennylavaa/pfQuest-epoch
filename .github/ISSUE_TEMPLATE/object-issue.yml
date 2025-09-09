@@ -1,0 +1,49 @@
+name: Object Issue
+description: Report an issue with a game object
+title: "[Object] "
+labels: ["object", "bug"]
+body:
+  - type: input
+    id: object_id
+    attributes:
+      label: Object ID (If known)
+      description: The ID of the object (optional if unknown)
+      placeholder: "e.g., 1234"
+    validations:
+      required: false
+      
+  - type: input
+    id: object_name
+    attributes:
+      label: Object Name
+      description: The name of the object
+      placeholder: "e.g., Chest of Booty"
+    validations:
+      required: true
+      
+  - type: input
+    id: object_zone
+    attributes:
+      label: Object Zone
+      description: The zone where the object is located
+      placeholder: "e.g., The Barrens"
+    validations:
+      required: true
+      
+  - type: input
+    id: object_coords
+    attributes:
+      label: Object Coordinates (X, Y)
+      description: The X and Y coordinates of the object
+      placeholder: "e.g., 52.3, 41.7"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: Details of the Issue
+      description: Please provide a detailed description of the issue
+      placeholder: "Describe what's wrong with the object..."
+    validations:
+      required: true

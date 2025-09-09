@@ -1,0 +1,61 @@
+name: Item Issue
+description: Report an issue with an item
+title: "[Item] "
+labels: ["item", "bug"]
+body:
+  - type: input
+    id: item_id
+    attributes:
+      label: Item ID
+      description: The ID of the item
+      placeholder: "e.g., 1234"
+    validations:
+      required: true
+      
+  - type: input
+    id: item_name
+    attributes:
+      label: Item Name
+      description: The name of the item
+      placeholder: "e.g., Linen Cloth"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: drops_from_type
+    attributes:
+      label: Drops From Type
+      description: Type of entity that drops this item
+      options:
+        - Unit
+        - Object
+        - None
+    validations:
+      required: true
+      
+  - type: input
+    id: drops_from_id
+    attributes:
+      label: Drops From ID
+      description: ID of the Unit or Object that drops this item
+      placeholder: "e.g., 5678"
+    validations:
+      required: false
+
+  - type: input
+    id: drops_from_name
+    attributes:
+      label: Drops From Name
+      description: Name of the Unit or Object that drops this item
+      placeholder: "e.g., Hogger"
+    validations:
+      required: false
+      
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: Details of the Issue
+      description: Please provide a detailed description of the issue
+      placeholder: "Describe what's wrong with the item..."
+    validations:
+      required: true

@@ -1,0 +1,70 @@
+name: Unit Issue
+description: Report an issue with a unit (NPC/Mob)
+title: "[Unit] "
+labels: ["unit", "bug"]
+body:
+  - type: input
+    id: unit_id
+    attributes:
+      label: Unit ID
+      description: The ID of the unit
+      placeholder: "e.g., 1234"
+    validations:
+      required: true
+      
+  - type: input
+    id: unit_name
+    attributes:
+      label: Unit Name
+      description: The name of the unit
+      placeholder: "e.g., Hogger"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: unit_faction
+    attributes:
+      label: Unit Faction
+      description: The faction of the unit
+      options:
+        - Horde
+        - Alliance
+        - Neutral
+    validations:
+      required: true
+      
+  - type: input
+    id: unit_level
+    attributes:
+      label: Unit Level
+      description: The level of the unit
+      placeholder: "e.g., 10"
+    validations:
+      required: true
+      
+  - type: input
+    id: unit_zone
+    attributes:
+      label: Unit Zone
+      description: The zone where the unit is located
+      placeholder: "e.g., Elwynn Forest"
+    validations:
+      required: true
+      
+  - type: input
+    id: unit_coords
+    attributes:
+      label: Unit Coordinates (X, Y)
+      description: The X and Y coordinates of the unit
+      placeholder: "e.g., 45.2, 67.8"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: Details of the Issue
+      description: Please provide a detailed description of the issue
+      placeholder: "Describe what's wrong with the unit..."
+    validations:
+      required: true

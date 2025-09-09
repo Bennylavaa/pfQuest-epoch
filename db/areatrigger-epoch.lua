@@ -1,4 +1,9 @@
 pfDB["areatrigger"]["data-epoch"] = {
+  [2726] = {
+    ["coords"] = {
+      [1] = { 23.9, 68.4, 139 },
+    },
+  },
   [10000] = {
     ["coords"] = {
       [1] = { 55.6, 35.2, 12 },
@@ -67,6 +72,31 @@ pfDB["areatrigger"]["data-epoch"] = {
   [4000012] = { --Meeting Location
     ["coords"] = {
       [1] = { 67.1, 78.7, 85 },
+    },
+  },
+  [4000013] = { --Odor's Source
+    ["coords"] = {
+      [1] = { 60.6, 15.1, 618 },
+    },
+  },
+  [4000014] = { --Blackmaw Village Overlook
+    ["coords"] = {
+      [1] = { 52.4, 13.1, 16, 0 },
+    },
+  },
+  [4000015] = { --Tul'Mari's Tomb
+    ["coords"] = {
+      [1] = { 46.3, 90.2, 440, 0 },
+    },
+  },
+  [4000016] = { --Northshore Mine
+    ["coords"] = {
+      [1] = { 22.4, 50.9, 85, 0 },
+    },
+  },
+  [4000017] = { --Stillwater Pond
+    ["coords"] = {
+      [1] = { 49.75, 52.0, 85, 0 },
     },
   },
 }

@@ -1,0 +1,89 @@
+name: Quest Issue
+description: Report an issue with a quest
+title: "[Quest] "
+labels: ["quest", "bug"]
+body:
+  - type: input
+    id: quest_id
+    attributes:
+      label: Quest ID
+      description: The ID of the quest
+      placeholder: "e.g., 1234"
+    validations:
+      required: true
+      
+  - type: input
+    id: quest_name
+    attributes:
+      label: Quest Name
+      description: The name of the quest
+      placeholder: "e.g., The Missing Diplomat"
+    validations:
+      required: true
+      
+  - type: input
+    id: starting_id
+    attributes:
+      label: Starting ID
+      description: ID of the Unit, Object, or Item that starts the quest
+      placeholder: "e.g., 5678"
+    validations:
+      required: true
+      
+  - type: input
+    id: starting_name
+    attributes:
+      label: Starting Name
+      description: Name of the Unit, Object, or Item that starts the quest
+      placeholder: "e.g., Guard Thomas"
+    validations:
+      required: true
+      
+  - type: input
+    id: ending_id
+    attributes:
+      label: Ending ID
+      description: ID of the Unit, Object, or Item where the quest ends
+      placeholder: "e.g., 9012"
+    validations:
+      required: true
+      
+  - type: input
+    id: ending_name
+    attributes:
+      label: Ending Name
+      description: Name of the Unit, Object, or Item where the quest ends
+      placeholder: "e.g., Marshal Dughan"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: objective_type
+    attributes:
+      label: Objective Type
+      description: Type of objective for this quest
+      options:
+        - Item
+        - Unit
+        - Object
+        - None
+    validations:
+      required: true
+      
+  - type: input
+    id: objective_id
+    attributes:
+      label: Objective ID
+      description: ID of the objective (Item, Unit, or Object)
+      placeholder: "e.g., 3456"
+    validations:
+      required: false
+      
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: Details of the Issue
+      description: Please provide a detailed description of the issue
+      placeholder: "Describe what's wrong with the quest..."
+    validations:
+      required: true

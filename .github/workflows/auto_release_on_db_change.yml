@@ -1,0 +1,36 @@
+name: Release pfQuest-epoch on changes
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Extract version from TOC file
+        id: get_version
+        run: |
+          VERSION=$(grep "## Version:" pfQuest-epoch.toc | sed 's/## Version: //')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Found version: $VERSION"
+      
+      - name: Create pfQuest-epoch zip
+        run: |
+          zip -r pfQuest-epoch.zip . \
+            -x ".git/*" ".github/*" "*.md" "LICENSE" ".gitattributes"
+      
+      - name: Create Versioned Release and Upload Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: pfQuest-epoch-v${{ steps.get_version.outputs.version }}
+          name: pfQuest-epoch v${{ steps.get_version.outputs.version }}
+          files: pfQuest-epoch.zip
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

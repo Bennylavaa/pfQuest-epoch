@@ -1,12 +1,15 @@
 ## Interface: 30300
-## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB] |cffff5555[RELEASE]
-## Author: Bennylavaa, Shagu
+## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB]
+## Author: Bennylavaa
+# Contributors: Exuria, Shagu, snifflewow, skmd0
 ## Notes: A Project Epoch DB extension for pfQuest
-## Version: 1.15
+## Version: 2.00
 ## Dependencies: pfQuest-wotlk
+## SavedVariables: pfQuest_epochcount
 
 init\data-epoch.xml
 init\enUS-epoch.xml
 
+overwrites.lua
 patchtable.lua
 pfQuest-epoch.lua
