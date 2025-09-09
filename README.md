@@ -10,7 +10,7 @@ pfQuest-epoch is dependant on pfQuest to work.
 
 1. Download the latest release **[pfQuest-wotlk](https://github.com/shagu/pfQuest/releases/latest/download/pfQuest-full-wotlk.zip)**
 2. Unzip it and place the "pfQuest-wotlk" folder into Wow-Directory\Interface\AddOns
-3. Download the latest release **[pfQuest-epoch](https://github.com/Bennylavaa/pfQuest-epoch/releases/latest/download/pfQuest-epoch.zip)**
+3. Download the latest release **[pfQuest-epoch](https://github.com/Bennylavaa/pfQuest-epoch/archive/refs/heads/main.zip)**
 4. Unzip it and place the "pfQuest-epoch" folder into Wow-Directory\Interface\AddOns
 
 ## Contribute
