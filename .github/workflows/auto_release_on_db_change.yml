@@ -1,11 +1,9 @@
 name: Release pfQuest-epoch on changes
 on:
   workflow_dispatch:
-
 permissions:
   contents: write
   actions: read
-
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -22,8 +20,9 @@ jobs:
       
       - name: Create pfQuest-epoch zip
         run: |
-          zip -r pfQuest-epoch.zip . \
-            -x ".git/*" ".github/*" "*.md" "LICENSE" ".gitattributes"
+          mkdir pfQuest-epoch
+          rsync -av --exclude='.git' --exclude='.github' --exclude='*.md' --exclude='LICENSE' --exclude='.gitattributes' --exclude='pfQuest-epoch' . pfQuest-epoch/
+          zip -r pfQuest-epoch.zip pfQuest-epoch/
       
       - name: Create Versioned Release and Upload Asset
         uses: softprops/action-gh-release@v2
