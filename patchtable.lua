@@ -337,3 +337,132 @@ SlashCmdList["PFDB"] = function(input, editbox)
   end
   originalSlashHandler(input, editbox)
 end
+
+function pfDatabase:QueryServer()
+  if not QueryQuestsCompleted then
+    DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Option is not available on your server.")
+    return
+  end
+  QueryQuestsCompleted()
+  local frame = CreateFrame("Frame")
+  frame:RegisterEvent("QUEST_QUERY_COMPLETE")
+  local function OnQuestQueryComplete()
+    frame:UnregisterEvent("QUEST_QUERY_COMPLETE")
+    local completedQuests = GetQuestsCompleted()
+    if type(completedQuests) == "table" then
+      local count = 0
+      for questID, _ in pairs(completedQuests) do
+        pfQuest_history[questID] = { time(), UnitLevel("player") }
+        count = count + 1
+      end
+      DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Found " .. count .. " completed quests.")
+      pfQuest:ResetAll()
+      DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Query Complete. Please /reload to save the changes.")
+    elseif completedQuests == nil then
+      print("Error: GetQuestsCompleted() returned nil.")
+    else
+      print("Error: GetQuestsCompleted() did not return a valid table. Value: ", completedQuests)
+    end
+  end
+  frame:SetScript("OnEvent", OnQuestQueryComplete)
+end
+
+function pfDatabase:PrintQuestData()
+  local completedQuests = GetQuestsCompleted()
+  if completedQuests then
+    DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Raw quest data:")
+    for questID, data in pairs(completedQuests) do
+      DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuestID: " .. questID .. " = " .. tostring(data))
+    end
+  else
+    DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: No quest data available. Try running QueryQuestsCompleted() first.")
+  end
+end
+
+pfQuest_CompletedQuestData = pfQuest_CompletedQuestData or {}
+
+function pfDatabase:SaveCompletedQuests()
+  if not QueryQuestsCompleted then
+    DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Option is not available on your server.")
+    return
+  end
+
+  QueryQuestsCompleted()
+  local frame = CreateFrame("Frame")
+  frame:RegisterEvent("QUEST_QUERY_COMPLETE")
+
+  local function OnQuestQueryComplete()
+    frame:UnregisterEvent("QUEST_QUERY_COMPLETE")
+
+    local completedQuests = GetQuestsCompleted()
+    if type(completedQuests) == "table" then
+      pfQuest_CompletedQuestData = {
+        data = completedQuests,
+        timestamp = time(),
+        characterName = UnitName("player"),
+        realm = GetRealmName()
+      }
+
+      local count = 0
+      for questID, _ in pairs(completedQuests) do
+        count = count + 1
+      end
+
+      DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Saved " .. count .. " completed quests to SavedVariables.")
+      DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Data will persist between sessions.")
+    else
+      DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Error - Could not retrieve quest data.")
+    end
+  end
+
+  frame:SetScript("OnEvent", OnQuestQueryComplete)
+end
+
+-- Function to calculate gray level (no XP level) based on WoW's system
+local function GetGrayLevel(charLevel)
+  if charLevel <= 5 then
+    return 0  -- all mobs give XP
+  elseif charLevel <= 49 then
+    return charLevel - math.floor(charLevel / 10) - 5
+  elseif charLevel == 50 then
+    return 40  -- charLevel - 10
+  elseif charLevel <= 59 then
+    return charLevel - math.floor(charLevel / 5) - 1
+  else -- level 60-70
+    return charLevel - 9
+  end
+end
+
+function pfDatabase:QuestFilter(id, plevel, pclass, prace)
+  -- hide active quest
+  if pfQuest.questlog[id] then return end
+  -- hide completed quests
+  if pfQuest_history[id] then return end
+  -- hide broken quests without names
+  if not pfDB.quests.loc[id] or not pfDB.quests.loc[id].T then return end
+  -- hide missing pre-quests
+  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["pre"] then
+    -- check all pre-quests for one to be completed
+    local one_complete = nil
+    for _, prequest in pairs(pfDB["quests"]["data"][id]["pre"]) do
+      if pfQuest_history[prequest] then
+        one_complete = true
+      end
+    end
+    -- hide if none of the pre-quests has been completed
+    if not one_complete then return end
+  end
+  -- hide non-available quests for your race
+  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["race"] and not ( bit.band(pfDB["quests"]["data"][id]["race"], prace) == prace ) then return end
+  -- hide non-available quests for your class
+  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["class"] and not ( bit.band(pfDB["quests"]["data"][id]["class"], pclass) == pclass ) then return end
+  -- hide non-available quests for your profession
+  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["skill"] and not pfDatabase:GetPlayerSkill(pfDB["quests"]["data"][id]["skill"]) then return end
+  -- hide lowlevel quests using WoW's gray level system
+  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["lvl"] and pfDB["quests"]["data"][id]["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then return end
+  -- hide highlevel quests (or show those that are 3 levels above)
+  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["min"] and pfDB["quests"]["data"][id]["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
+  -- hide event quests
+  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["event"] and pfQuest_config["showfestival"] == "0" then return end
+  return true
+end

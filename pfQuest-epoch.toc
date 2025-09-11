@@ -5,7 +5,7 @@
 ## Notes: A Project Epoch DB extension for pfQuest
 ## Version: 2.00
 ## Dependencies: pfQuest-wotlk
-## SavedVariables: pfQuest_epochcount
+## SavedVariables: pfQuest_epochcount, pfQuest_CompletedQuestData
 
 init\data-epoch.xml
 init\enUS-epoch.xml
@@ -13,3 +13,4 @@ init\enUS-epoch.xml
 overwrites.lua
 patchtable.lua
 pfQuest-epoch.lua
+pfQuest-announce.lua
