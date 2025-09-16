@@ -108,7 +108,7 @@ if pfDB["meta-epoch"] then patchtable(pfDB["meta"], pfDB["meta-epoch"]) end
 -- end
 
 -- Use wowhead database url for now
-pfQuest.dburl = "https://www.wowhead.com/tbc/quest="
+pfQuest.dburl = "https://epochhead.com/?quest="
 
 -- Disable Minimap in custom dungeon maps
 function pfMap:HasMinimap(map_id)

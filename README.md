@@ -30,3 +30,4 @@ This project is licensed under a custom license that allows personal use and Git
 - Shagu: for making the base addon and creating pfQuest-turtle which this is based off of.
 - snifflewow: for the auto release workflow idea as well as the cleaned up readme documentation.
 - Exuria: for their countless hours spent contrubuting. 
+- trav346: for the foundation of the overworld map markers.

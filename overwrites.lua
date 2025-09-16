@@ -93,6 +93,8 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][14828] = { } -- Gelvas Grimegate
   pfDB["units"]["data-epoch"][14832] = { } -- Kerri Hicks
   pfDB["units"]["data-epoch"][14829] = { } -- Yebb Neblegear
+  pfDB["units"]["data-epoch"][14842] = { } -- Melnan Darkstone
+  pfDB["units"]["data-epoch"][14843] = { } -- Kruban Darkblade
 
   -- Removing Linar Festival Units
   pfDB["units"]["data-epoch"][15556] = { } -- Elder Splitrock
@@ -144,6 +146,9 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][15606] = { } -- Elder Brightspear
   pfDB["units"]["data-epoch"][15607] = { } -- Elder Farwhisper
   pfDB["units"]["data-epoch"][15892] = { } -- Lunar Festival Emissary
+  pfDB["units"]["data-epoch"][15871] = { } -- Elder Bronzebeard
+  pfDB["units"]["data-epoch"][15864] = { } -- Valadar Starsong
+  pfDB["units"]["data-epoch"][15909] = { } -- Fariel Starsong
 
   -- Remove Fire Festival
   pfDB["units"]["data-epoch"][25962] = { } -- Fire Eater
@@ -275,6 +280,8 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][16817] = { } -- Festival Loremaster
   pfDB["units"]["data-epoch"][25975] = { } -- Master Fire Eater
   pfDB["units"]["data-epoch"][26221] = { } -- Earthen Ring Elder
+  pfDB["units"]["data-epoch"][19148] = { } -- Dwarf Commoner
+  pfDB["units"]["data-epoch"][19172] = { } -- Dwarf Commoner
   
 
   -- Remove Holloween
@@ -363,10 +370,25 @@ do -- units/npcs
   -- Remove Christmas and New Years
   pfDB["units"]["data-epoch"][15732] = { } -- Wonderform Operator
   pfDB["units"]["data-epoch"][13435] = { } -- Khole Jinglepocket
+  pfDB["objects"]["data-epoch"][180743] = { } -- xmas Present
+  pfDB["objects"]["data-epoch"][180793] = { } -- xmas Present
+  pfDB["objects"]["data-epoch"][180748] = { } -- xmas Present
+  pfDB["objects"]["data-epoch"][180746] = { } -- xmas Present
+  pfDB["objects"]["data-epoch"][180747] = { } -- xmas Present
+  pfDB["objects"]["data-epoch"][187236] = { } -- xmas Present
+  pfDB["units"]["data-epoch"][1365] = { } -- Goli Krumn
+  pfDB["units"]["data-epoch"][13433] = { } -- Wulmort Jinglepocket
+  pfDB["units"]["data-epoch"][13444] = { } -- Greatfather Winter
+  pfDB["units"]["data-epoch"][13418] = { } -- Kaymard Copperpinch
 
   -- Remove Scourge Event
   pfDB["units"]["data-epoch"][16484] = { } -- Lieutenant Nevell
   pfDB["units"]["data-epoch"][16478] = { } -- Lieutenant Orrin
+  pfDB["units"]["data-epoch"][16494] = { } -- Lieutenant Rukag
+  pfDB["units"]["data-epoch"][16361] = { } -- Commander Thomas Helleran
+  pfDB["units"]["data-epoch"][16495] = { } -- Lieutenant Beitha
+  pfDB["units"]["data-epoch"][16493] = { } -- Lieutenant Dagel
+  pfDB["units"]["data-epoch"][16490] = { } -- Lieutenant Lisande
 
   -- Remove Wickerman
   pfDB["units"]["data-epoch"][15199] = { } -- Sergeant Hartman
@@ -375,13 +397,47 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][16075] = { } -- Kwee Q. Paddlefeet
   pfDB["units"]["data-epoch"][16005] = { } -- Lieutenant Jocryn Heldric
   pfDB["units"]["data-epoch"][16105] = { } -- Aristan Mottar
+  pfDB["units"]["data-epoch"][16009] = { } -- Tormek Stoneriver
+  pfDB["units"]["data-epoch"][16001] = { } -- Aldris Fourclouds
 
   -- Remove Brewfest
   pfDB["units"]["data-epoch"][18927] = { } -- Human Commoner
+  pfDB["objects"]["data-epoch"][186881] = { } -- Human Commoner
+
+  -- Remove Harvest Festival
+  pfDB["units"]["data-epoch"][15011] = { } -- Wagner Hammerstrike
 
   -- Remove AQ War Effort
   pfDB["units"]["data-epoch"][15766] = { } -- Officer Maloof
   pfDB["units"]["data-epoch"][15708] = { } -- Master Sergeant Maclure
+  pfDB["units"]["data-epoch"][15762] = { } -- Officer Lunalight
+  pfDB["units"]["data-epoch"][15709] = { } -- Master Sergeant Moonshadow
+  pfDB["units"]["data-epoch"][15707] = { } -- Master Sergeant Fizzlebolt
+  pfDB["units"]["data-epoch"][15764] = { } -- Officer Ironbeard
+  pfDB["units"]["data-epoch"][15763] = { } -- Officer Porterhouse
+
+  pfDB["units"]["data-epoch"][15701] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15453] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15452] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15451] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15701] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15446] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15448] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15733] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15450] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15734] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15731] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15735] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15432] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15383] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15431] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15437] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15457] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15455] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15437] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15445] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15434] = { } -- war effort npc ironforge
+  pfDB["units"]["data-epoch"][15456] = { } -- war effort npc ironforge
 
 end
 

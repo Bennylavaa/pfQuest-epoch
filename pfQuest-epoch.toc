@@ -1,9 +1,9 @@
 ## Interface: 30300
 ## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB]
 ## Author: Bennylavaa
-# Contributors: Exuria, Shagu, snifflewow, skmd0
+# Contributors: Exuria, Shagu, snifflewow, skmd0, trav346
 ## Notes: A Project Epoch DB extension for pfQuest
-## Version: 2.01
+## Version: 2.02
 ## Dependencies: pfQuest-wotlk
 ## SavedVariables: pfQuest_epochcount, pfQuest_CompletedQuestData
 
@@ -14,3 +14,4 @@ overwrites.lua
 patchtable.lua
 pfQuest-epoch.lua
 pfQuest-announce.lua
+pfQuest-worldmap.lua
