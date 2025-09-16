@@ -69,6 +69,7 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][23843] = { } -- Mordant Grimsby
   pfDB["units"]["data-epoch"][16287] = { } -- Ambassador Sunsorrow
   pfDB["units"]["data-epoch"][17355] = { } -- Valusha
+  pfDB["units"]["data-epoch"][17109] = { } -- Cersei Dusksinger
 
   -- Remove zg island npc 
   pfDB["units"]["data-epoch"][14903] = { } -- Al'tabim the All-Seeing
