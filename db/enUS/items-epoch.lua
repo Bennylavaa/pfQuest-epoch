@@ -3,6 +3,7 @@ pfDB["items"]["enUS-epoch"] = {
   [2678] = "Mild Spices",
   [3625] = "Nek\'rosh\'s Head",
   [8684] = "Hinterlands Honey Ripple",
+  [21937] = "Inundated Ectoplasm",
   [33849] = "Mana Berry",
   [45621] = "Elixir of Accuracy",
   [62284] = "Empty Brown Waterskin",
