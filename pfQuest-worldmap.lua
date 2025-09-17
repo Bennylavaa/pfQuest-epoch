@@ -395,6 +395,28 @@ function pfMap:UpdateNodes()
 
                                 for title, data in pairs(node) do
                                     local needsDeduplication = false
+                                    local isUtilityNPC = false
+
+                                    if data.addon == "PFDB" then
+                                        local utilityTypes = {
+                                            "flight", "repair", "vendor", "auctioneer", "banker",
+                                            "battlemaster", "innkeeper", "mailbox", "stablemaster", "spirithealer"
+                                        }
+
+                                        for _, utilityType in pairs(utilityTypes) do
+                                            if pfDB["meta-epoch"] and pfDB["meta-epoch"][utilityType] then
+                                                for objectId, faction in pairs(pfDB["meta-epoch"][utilityType]) do
+                                                    if data.id and tonumber(data.id) == objectId then
+                                                        isUtilityNPC = true
+                                                        break
+                                                    end
+                                                end
+                                                if isUtilityNPC then break end
+                                            end
+                                        end
+                                    elseif data.addon and string.find(data.addon, "TRACK_") then
+                                        isUtilityNPC = true
+                                    end
 
                                     if
                                         (zID == 141 or zID == 1657) or (zID == 12 or zID == 1519) or
@@ -460,8 +482,20 @@ function pfMap:UpdateNodes()
                                     local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                                     local minLevel = tonumber(data.min) or 0
 
-                                    if pfQuest_config["showlowlevel"] == "0" then
-                                        if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
+                                    if not isUtilityNPC then
+                                        if pfQuest_config["showlowlevel"] == "0" then
+                                            if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
+                                                if not (data.texture and string.find(data.texture, "complete")) then
+                                                    skipNode = true
+                                                    break
+                                                end
+                                            end
+                                        end
+                                    end
+
+                                    -- Skip quests that are way too high level (red quests) - only if high level display is disabled
+                                    if not isUtilityNPC then
+                                        if minLevel > playerLevel + (pfQuest_config["showhighlevel"] == "1" and 3 or 0) then
                                             if not (data.texture and string.find(data.texture, "complete")) then
                                                 skipNode = true
                                                 break
@@ -469,20 +503,14 @@ function pfMap:UpdateNodes()
                                         end
                                     end
 
-                                    -- Skip quests that are way too high level (red quests) - only if high level display is disabled
-                                    if minLevel > playerLevel + (pfQuest_config["showhighlevel"] == "1" and 3 or 0) then
-                                        if not (data.texture and string.find(data.texture, "complete")) then
-                                            skipNode = true
-                                            break
-                                        end
-                                    end
-
                                     -- Special filter for quests with suspiciously low min level - only if low level display is disabled
-                                    if pfQuest_config["showlowlevel"] == "0" then
-                                        if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
-                                            if not (data.texture and string.find(data.texture, "complete")) then
-                                                skipNode = true
-                                                break
+                                    if not isUtilityNPC then
+                                        if pfQuest_config["showlowlevel"] == "0" then
+                                            if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
+                                                if not (data.texture and string.find(data.texture, "complete")) then
+                                                    skipNode = true
+                                                    break
+                                                end
                                             end
                                         end
                                     end
@@ -607,6 +635,28 @@ function pfMap:UpdateNodes()
 
                         for title, data in pairs(node) do
                             local needsDeduplication = false
+                            local isUtilityNPC = false
+
+                            if data.addon == "PFDB" then
+                                local utilityTypes = {
+                                    "flight", "repair", "vendor", "auctioneer", "banker",
+                                    "battlemaster", "innkeeper", "mailbox", "stablemaster", "spirithealer"
+                                }
+
+                                for _, utilityType in pairs(utilityTypes) do
+                                    if pfDB["meta-epoch"] and pfDB["meta-epoch"][utilityType] then
+                                        for objectId, faction in pairs(pfDB["meta-epoch"][utilityType]) do
+                                            if data.id and tonumber(data.id) == objectId then
+                                                isUtilityNPC = true
+                                                break
+                                            end
+                                        end
+                                        if isUtilityNPC then break end
+                                    end
+                                end
+                            elseif data.addon and string.find(data.addon, "TRACK_") then
+                                isUtilityNPC = true
+                            end
 
                             -- Only apply deduplication to specific problem zones
                             if
@@ -676,8 +726,20 @@ function pfMap:UpdateNodes()
                             local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                             local minLevel = tonumber(data.min) or 0
 
-                            if pfQuest_config["showlowlevel"] == "0" then
-                                if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
+                            if not isUtilityNPC then
+                                if pfQuest_config["showlowlevel"] == "0" then
+                                    if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
+                                        if not (data.texture and string.find(data.texture, "complete")) then
+                                            skipNode = true
+                                            break
+                                        end
+                                    end
+                                end
+                            end
+
+                            -- Skip quests that are way too high level (red quests) - only if high level display is disabled
+                            if not isUtilityNPC then
+                                if minLevel > playerLevel + (pfQuest_config["showhighlevel"] == "1" and 3 or 0) then
                                     if not (data.texture and string.find(data.texture, "complete")) then
                                         skipNode = true
                                         break
@@ -685,20 +747,14 @@ function pfMap:UpdateNodes()
                                 end
                             end
 
-                            -- Skip quests that are way too high level (red quests) - only if high level display is disabled
-                            if minLevel > playerLevel + (pfQuest_config["showhighlevel"] == "1" and 3 or 0) then
-                                if not (data.texture and string.find(data.texture, "complete")) then
-                                    skipNode = true
-                                    break
-                                end
-                            end
-
                             -- Special filter for quests with suspiciously low min level - only if low level display is disabled
-                            if pfQuest_config["showlowlevel"] == "0" then
-                                if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
-                                    if not (data.texture and string.find(data.texture, "complete")) then
-                                        skipNode = true
-                                        break
+                            if not isUtilityNPC then
+                                if pfQuest_config["showlowlevel"] == "0" then
+                                    if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
+                                        if not (data.texture and string.find(data.texture, "complete")) then
+                                            skipNode = true
+                                            break
+                                        end
                                     end
                                 end
                             end
