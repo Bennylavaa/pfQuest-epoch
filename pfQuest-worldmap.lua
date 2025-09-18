@@ -265,11 +265,56 @@ local function NodeAnimate(self, max)
     return
 end
 
+local inverseMapScale = 1.0
+local function ResizeContinentNode(frame)
+    if not frame.icon then
+        frame.defsize = 12
+        frame.defsize = frame.defsize * inverseMapScale
+    else
+        -- Make utility NPCs a bit bigger
+        frame.defsize = 14
+        -- Compensate for icon's 1 pixel padding so it doesn't shrink down to nothing
+        frame.defsize = (frame.defsize - 2) * inverseMapScale + 2
+    end
+    frame:SetWidth(frame.defsize)
+    frame:SetHeight(frame.defsize)
+    frame.hl:SetWidth(frame.defsize)
+    frame.hl:SetHeight(frame.defsize)
+end
+
+local function ResizeContinentNodes()
+    local i = 1
+    if continentPins then
+        while continentPins[i] and continentPins[i]:IsShown() do
+            ResizeContinentNode(continentPins[i])
+            i = i + 1
+        end
+    end
+end
+
+-- Resize icons on map zoom change
+local function OnMapScaleChanged(frame, scale, originalfunction)
+  originalfunction(frame, scale)
+
+  local newInverseScale = 1.0 / WorldMapButton:GetEffectiveScale()
+  if (inverseMapScale ~= newInverseScale) then
+    inverseMapScale = newInverseScale
+    ResizeContinentNodes()
+  end
+end
+-- Listen for WorldMapFrame scale changes
+local originalWorldMapFrame_SetScale = WorldMapFrame.SetScale
+WorldMapFrame.SetScale = function(frame, scale) OnMapScaleChanged(frame, scale, originalWorldMapFrame_SetScale) end
+-- Listen for WorldMapDetailFrame scale changes
+local originalWorldMapDetailFrame_SetScale = WorldMapDetailFrame.SetScale
+WorldMapDetailFrame.SetScale = function(frame, scale) OnMapScaleChanged(frame, scale, originalWorldMapDetailFrame_SetScale) end
+-- Listen for WorldMapButton scale changes
+local originalWorldMapButton_SetScale = WorldMapButton.SetScale
+WorldMapButton.SetScale = function(frame, scale) OnMapScaleChanged(frame, scale, originalWorldMapButton_SetScale) end
+
 local function CreateContinentPin(index)
     if not continentPins[index] then
         local pin = CreateFrame("Button", "pfQuestContinentPin" .. index, WorldMapButton)
-        pin:SetWidth(8)
-        pin:SetHeight(8)
         pin:SetFrameLevel(WorldMapButton:GetFrameLevel() + 10)
         pin:SetFrameStrata("DIALOG")
 
@@ -283,12 +328,9 @@ local function CreateContinentPin(index)
         pin.hl = pin:CreateTexture(nil, "OVERLAY")
         pin.hl:SetTexture(pfQuestConfig.path .. "\\img\\track")
         pin.hl:SetPoint("TOPLEFT", pin, "TOPLEFT", -5, 5)
-        pin.hl:SetWidth(8)
-        pin.hl:SetHeight(8)
         pin.hl:Hide()
 
         pin.defalpha = 1
-        pin.defsize = 12
         pin.Animate = NodeAnimate
         pin.dt = 0
 
@@ -317,15 +359,6 @@ local function CreateContinentPin(index)
     return continentPins[index]
 end
 
-local questsLoaded = false
-local function LoadAvailableQuests()
-    if not questsLoaded then
-        local meta = {["lvl"] = UnitLevel("player")}
-        pfDatabase:SearchQuests(meta)
-        questsLoaded = true
-    end
-end
-
 function pfMap:UpdateNodes()
     local continent = GetCurrentMapContinent()
     local zone = GetCurrentMapZone()
@@ -333,7 +366,7 @@ function pfMap:UpdateNodes()
     original_UpdateNodes(self)
 
     local mapName = GetMapInfo()
-    local isContinent = (mapName == "Kalimdor" or mapName == "Azeroth" or mapName == "World")
+    local isContinent = (mapName == "Kalimdor" and zone == 0) or (mapName == "Azeroth" and zone == 0) or (mapName == nil and continent == 0 and zone == 0)
 
     -- Function to calculate gray level (no XP level) based on WoW's system
     local function GetGrayLevel(charLevel)
@@ -365,8 +398,6 @@ function pfMap:UpdateNodes()
     if zone > 0 and not isContinent then
         return
     end
-
-    LoadAvailableQuests()
 
     for _, pin in pairs(pfMap.pins) do
         if pin then
@@ -559,6 +590,8 @@ function pfMap:UpdateNodes()
                                                     pin.sourceContinent = targetContinent
 
                                                     pfMap:UpdateNode(pin, node, nil, nil, nil)
+
+                                                    ResizeContinentNode(pin)
 
                                                     pin:ClearAllPoints()
                                                     pin:SetPoint(
@@ -784,6 +817,8 @@ function pfMap:UpdateNodes()
                                         pin.sourceContinent = continent
 
                                         pfMap:UpdateNode(pin, node, nil, nil, nil)
+
+                                        ResizeContinentNode(pin)
 
                                         pin:ClearAllPoints()
                                         pin:SetPoint(

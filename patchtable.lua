@@ -466,3 +466,25 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["event"] and pfQuest_config["showfestival"] == "0" then return end
   return true
 end
+
+-- fix wotlk linking from db menu
+pfQuestCompat.InsertQuestLink = function(questid, name)
+  local questid = questid or 0
+  local fallback = name or UNKNOWN
+  local level = pfDB["quests"]["data"][questid] and pfDB["quests"]["data"][questid]["lvl"] or 0
+  local name = pfDB["quests"]["loc"][questid] and pfDB["quests"]["loc"][questid]["T"] or fallback
+  local hex = pfUI.api.rgbhex(pfQuestCompat.GetDifficultyColor(level))
+
+  -- Use the correct editbox for 3.3.5
+  local editBox = ChatFrame1EditBox or ChatFrameEditBox
+  
+  if editBox then
+    editBox:Show()
+    if pfQuest_config["questlinks"] == "1" then
+	-- seems server blocks the other method so I used this
+      editBox:Insert("\124cffffff00\124Hquest:" .. questid .. ":" .. level .. "\124h[" .. name .. "]\124h\124r")
+    else
+      editBox:Insert("[" .. name .. "]")
+    end
+  end
+end
