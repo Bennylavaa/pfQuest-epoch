@@ -341,25 +341,108 @@ local function CreateContinentPin(index)
         pin.Animate = NodeAnimate
         pin.dt = 0
 
-        pin:SetScript(
-            "OnEnter",
-            function(self)
-                if self.node then
-                    pfMap.NodeEnter(self)
+        if pfQuest_config["continentClickThrough"] == "1" then
+            pin.tooltipTimer = 0
+            pin.wasMouseOver = false
+
+            local function CheckTooltip(self, elapsed)
+                if not self:IsVisible() then return end
+
+                local x, y = GetCursorPosition()
+                local scale = self:GetEffectiveScale()
+                x = x / scale
+                y = y / scale
+
+                local left = self:GetLeft()
+                local right = self:GetRight()
+                local top = self:GetTop()
+                local bottom = self:GetBottom()
+
+                local isMouseOver = false
+                if left and right and top and bottom then
+                    isMouseOver = (x >= left and x <= right and y >= bottom and y <= top)
+                end
+
+                if isMouseOver and not self.wasMouseOver then
+                    if self.node then
+                        pfMap.NodeEnter(self)
+                    end
+                    self.wasMouseOver = true
+                elseif not isMouseOver and self.wasMouseOver then
+                    self.pulse = 1
+                    self.mod = 1
+                    self:SetWidth(self.defsize)
+                    self:SetHeight(self.defsize)
+                    pfMap.NodeLeave(self)
+                    self.wasMouseOver = false
                 end
             end
-        )
 
-        pin:SetScript(
-            "OnLeave",
-            function(self)
-                self.pulse = 1
-                self.mod = 1
-                self:SetWidth(self.defsize)
-                self:SetHeight(self.defsize)
-                pfMap.NodeLeave(self)
-            end
-        )
+            pin:SetScript("OnUpdate", function(self, elapsed)
+                if IsControlKeyDown() then
+                    -- Enable full mouse interaction when Ctrl is held
+                    if not self.mouseEnabled then
+                        self:EnableMouse(true)
+                        self:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+                        self.mouseEnabled = true
+                    end
+                else
+                    -- Disable mouse interaction when Ctrl is not held, but keep tooltips
+                    if self.mouseEnabled ~= false then
+                        self:EnableMouse(false)
+                        self:RegisterForClicks()
+                        self.mouseEnabled = false
+                    end
+                end
+
+                CheckTooltip(self, elapsed)
+            end)
+
+            pin:SetScript(
+                "OnClick",
+                function(self, button)
+                    if IsControlKeyDown() and self.node then
+                        if pfMap.NodeClick then
+                            pfMap.NodeClick(self, button)
+                        end
+                    end
+                end
+            )
+        else
+            pin:EnableMouse(true)
+            pin:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+
+            pin:SetScript(
+                "OnEnter",
+                function(self)
+                    if self.node then
+                        pfMap.NodeEnter(self)
+                    end
+                end
+            )
+
+            pin:SetScript(
+                "OnLeave",
+                function(self)
+                    self.pulse = 1
+                    self.mod = 1
+                    self:SetWidth(self.defsize)
+                    self:SetHeight(self.defsize)
+                    pfMap.NodeLeave(self)
+                end
+            )
+
+            pin:SetScript(
+                "OnClick",
+                function(self, button)
+                    if self.node then
+                        if pfMap.NodeClick then
+                            pfMap.NodeClick(self, button)
+                        end
+                    end
+                end
+            )
+        end
 
         continentPins[index] = pin
     end
@@ -1027,6 +1110,16 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
+            text = "Require Ctrl+Click for Pin Interaction",
+            default = "0",
+            type = "checkbox",
+            config = "continentClickThrough"
+        }
+    )
+
+    table.insert(
+        pfQuest_defconfig,
+        {
             text = "Continent Node Size",
             default = "12",
             type = "text",
@@ -1086,6 +1179,7 @@ local function ExtendPfQuestConfig()
 
     -- Initialize the config values with defaults
     pfQuest_config["epochContinentPins"] = pfQuest_config["epochContinentPins"] or "1"
+    pfQuest_config["continentClickThrough"] = pfQuest_config["continentClickThrough"] or "0"
     pfQuest_config["continentNodeSize"] = pfQuest_config["continentNodeSize"] or "12"
     pfQuest_config["continentUtilityNodeSize"] = pfQuest_config["continentUtilityNodeSize"] or "14"
     pfQuest_config["epochHideChickenQuests"] = pfQuest_config["epochHideChickenQuests"] or "1"
