@@ -268,11 +268,12 @@ end
 local inverseMapScale = 1.0
 local function ResizeContinentNode(frame)
     if not frame.icon then
-        frame.defsize = 12
+        -- Use config value for regular nodes, fallback to 12 if not set
+        frame.defsize = tonumber(pfQuest_config["continentNodeSize"]) or 12
         frame.defsize = frame.defsize * inverseMapScale
     else
-        -- Make utility NPCs a bit bigger
-        frame.defsize = 14
+        -- Use config value for utility NPCs, fallback to 14 if not set
+        frame.defsize = tonumber(pfQuest_config["continentUtilityNodeSize"]) or 14
         -- Compensate for icon's 1 pixel padding so it doesn't shrink down to nothing
         frame.defsize = (frame.defsize - 2) * inverseMapScale + 2
     end
@@ -294,23 +295,29 @@ end
 
 -- Resize icons on map zoom change
 local function OnMapScaleChanged(frame, scale, originalfunction)
-  originalfunction(frame, scale)
+    originalfunction(frame, scale)
 
-  local newInverseScale = 1.0 / WorldMapButton:GetEffectiveScale()
-  if (inverseMapScale ~= newInverseScale) then
-    inverseMapScale = newInverseScale
-    ResizeContinentNodes()
-  end
+    local newInverseScale = 1.0 / WorldMapButton:GetEffectiveScale()
+    if (inverseMapScale ~= newInverseScale) then
+        inverseMapScale = newInverseScale
+        ResizeContinentNodes()
+    end
 end
 -- Listen for WorldMapFrame scale changes
 local originalWorldMapFrame_SetScale = WorldMapFrame.SetScale
-WorldMapFrame.SetScale = function(frame, scale) OnMapScaleChanged(frame, scale, originalWorldMapFrame_SetScale) end
+WorldMapFrame.SetScale = function(frame, scale)
+    OnMapScaleChanged(frame, scale, originalWorldMapFrame_SetScale)
+end
 -- Listen for WorldMapDetailFrame scale changes
 local originalWorldMapDetailFrame_SetScale = WorldMapDetailFrame.SetScale
-WorldMapDetailFrame.SetScale = function(frame, scale) OnMapScaleChanged(frame, scale, originalWorldMapDetailFrame_SetScale) end
+WorldMapDetailFrame.SetScale = function(frame, scale)
+    OnMapScaleChanged(frame, scale, originalWorldMapDetailFrame_SetScale)
+end
 -- Listen for WorldMapButton scale changes
 local originalWorldMapButton_SetScale = WorldMapButton.SetScale
-WorldMapButton.SetScale = function(frame, scale) OnMapScaleChanged(frame, scale, originalWorldMapButton_SetScale) end
+WorldMapButton.SetScale = function(frame, scale)
+    OnMapScaleChanged(frame, scale, originalWorldMapButton_SetScale)
+end
 
 local function CreateContinentPin(index)
     if not continentPins[index] then
@@ -366,7 +373,9 @@ function pfMap:UpdateNodes()
     original_UpdateNodes(self)
 
     local mapName = GetMapInfo()
-    local isContinent = (mapName == "Kalimdor" and zone == 0) or (mapName == "Azeroth" and zone == 0) or (mapName == nil and continent == 0 and zone == 0)
+    local isContinent =
+        (mapName == "Kalimdor" and zone == 0) or (mapName == "Azeroth" and zone == 0) or
+        (mapName == nil and continent == 0 and zone == 0)
 
     -- Function to calculate gray level (no XP level) based on WoW's system
     local function GetGrayLevel(charLevel)
@@ -430,8 +439,15 @@ function pfMap:UpdateNodes()
 
                                     if data.addon == "PFDB" then
                                         local utilityTypes = {
-                                            "flight", "repair", "vendor", "auctioneer", "banker",
-                                            "battlemaster", "innkeeper", "mailbox", "stablemaster", "spirithealer"
+                                            "flight",
+                                            "auctioneer",
+                                            "banker",
+                                            "battlemaster",
+                                            "innkeeper",
+                                            "mailbox",
+                                            "stablemaster",
+                                            "spirithealer",
+                                            "meetingstone"
                                         }
 
                                         for _, utilityType in pairs(utilityTypes) do
@@ -442,11 +458,55 @@ function pfMap:UpdateNodes()
                                                         break
                                                     end
                                                 end
-                                                if isUtilityNPC then break end
+                                                if isUtilityNPC then
+                                                    break
+                                                end
+                                            end
+                                        end
+
+                                        -- Block unwanted PFDB trackables (herbs, mines, chests, etc.)
+                                        if not isUtilityNPC then
+                                            local blockedTypes = {"herbs", "mines", "chests", "fish", "rares"}
+                                            for _, blockedType in pairs(blockedTypes) do
+                                                if pfDB["meta-epoch"] and pfDB["meta-epoch"][blockedType] then
+                                                    for objectId, faction in pairs(pfDB["meta-epoch"][blockedType]) do
+                                                        if data.id and tonumber(data.id) == objectId then
+                                                            skipNode = true
+                                                            break
+                                                        end
+                                                    end
+                                                    if skipNode then
+                                                        break
+                                                    end
+                                                end
                                             end
                                         end
                                     elseif data.addon and string.find(data.addon, "TRACK_") then
-                                        isUtilityNPC = true
+                                        local allowedTracks = {
+                                            "TRACK_FLIGHT",
+                                            "TRACK_AUCTIONEER",
+                                            "TRACK_BANKER",
+                                            "TRACK_BATTLEMASTER",
+                                            "TRACK_INNKEEPER",
+                                            "TRACK_MAILBOX",
+                                            "TRACK_STABLEMASTER",
+                                            "TRACK_SPIRITHEALER",
+                                            "TRACK_MEETINGSTONE"
+                                        }
+
+                                        local isAllowed = false
+                                        for _, track in pairs(allowedTracks) do
+                                            if string.find(data.addon, track) then
+                                                isAllowed = true
+                                                break
+                                            end
+                                        end
+
+                                        if isAllowed then
+                                            isUtilityNPC = true
+                                        else
+                                            skipNode = true
+                                        end
                                     end
 
                                     if
@@ -504,6 +564,16 @@ function pfMap:UpdateNodes()
                                             string.find(title, "Warsong") or string.find(title, "Arathi") or
                                                 string.find(title, "Alterac") or
                                                 string.find(title, "Battleground")
+                                         then
+                                            skipNode = true
+                                            break
+                                        end
+                                    end
+
+                                    -- Skip Commission quests (if enabled in config)
+                                    if pfQuest_config["epochHideCommissionQuests"] == "1" then
+                                        if
+                                            string.find(title, "Commission for")
                                          then
                                             skipNode = true
                                             break
@@ -672,8 +742,15 @@ function pfMap:UpdateNodes()
 
                             if data.addon == "PFDB" then
                                 local utilityTypes = {
-                                    "flight", "repair", "vendor", "auctioneer", "banker",
-                                    "battlemaster", "innkeeper", "mailbox", "stablemaster", "spirithealer"
+                                    "flight",
+                                    "auctioneer",
+                                    "banker",
+                                    "battlemaster",
+                                    "innkeeper",
+                                    "mailbox",
+                                    "stablemaster",
+                                    "spirithealer",
+                                    "meetingstone"
                                 }
 
                                 for _, utilityType in pairs(utilityTypes) do
@@ -684,11 +761,55 @@ function pfMap:UpdateNodes()
                                                 break
                                             end
                                         end
-                                        if isUtilityNPC then break end
+                                        if isUtilityNPC then
+                                            break
+                                        end
+                                    end
+                                end
+
+                                -- Block unwanted PFDB trackables (herbs, mines, chests, etc.)
+                                if not isUtilityNPC then
+                                    local blockedTypes = {"herbs", "mines", "chests", "fish", "rares"}
+                                    for _, blockedType in pairs(blockedTypes) do
+                                        if pfDB["meta-epoch"] and pfDB["meta-epoch"][blockedType] then
+                                            for objectId, faction in pairs(pfDB["meta-epoch"][blockedType]) do
+                                                if data.id and tonumber(data.id) == objectId then
+                                                    skipNode = true
+                                                    break
+                                                end
+                                            end
+                                            if skipNode then
+                                                break
+                                            end
+                                        end
                                     end
                                 end
                             elseif data.addon and string.find(data.addon, "TRACK_") then
-                                isUtilityNPC = true
+                                local allowedTracks = {
+                                    "TRACK_FLIGHT",
+                                    "TRACK_AUCTIONEER",
+                                    "TRACK_BANKER",
+                                    "TRACK_BATTLEMASTER",
+                                    "TRACK_INNKEEPER",
+                                    "TRACK_MAILBOX",
+                                    "TRACK_STABLEMASTER",
+                                    "TRACK_SPIRITHEALER",
+                                    "TRACK_MEETINGSTONE"
+                                }
+
+                                local isAllowed = false
+                                for _, track in pairs(allowedTracks) do
+                                    if string.find(data.addon, track) then
+                                        isAllowed = true
+                                        break
+                                    end
+                                end
+
+                                if isAllowed then
+                                    isUtilityNPC = true
+                                else
+                                    skipNode = true
+                                end
                             end
 
                             -- Only apply deduplication to specific problem zones
@@ -750,6 +871,16 @@ function pfMap:UpdateNodes()
                                     string.find(title, "Warsong") or string.find(title, "Arathi") or
                                         string.find(title, "Alterac") or
                                         string.find(title, "Battleground")
+                                 then
+                                    skipNode = true
+                                    break
+                                end
+                            end
+
+                            -- Skip Commission quests (if enabled in config)
+                            if pfQuest_config["epochHideCommissionQuests"] == "1" then
+                                if
+                                    string.find(title, "Commission for")
                                  then
                                     skipNode = true
                                     break
@@ -896,6 +1027,26 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
+            text = "Continent Node Size",
+            default = "12",
+            type = "text",
+            config = "continentNodeSize"
+        }
+    )
+
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "Continent Utility Node Size",
+            default = "14",
+            type = "text",
+            config = "continentUtilityNodeSize"
+        }
+    )
+
+    table.insert(
+        pfQuest_defconfig,
+        {
             text = "Hide Chicken Quests (CLUCK!)",
             default = "1",
             type = "checkbox",
@@ -923,10 +1074,24 @@ local function ExtendPfQuestConfig()
         }
     )
 
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "Hide Commission Quests",
+            default = "0",
+            type = "checkbox",
+            config = "epochHideCommissionQuests"
+        }
+    )
+
+    -- Initialize the config values with defaults
     pfQuest_config["epochContinentPins"] = pfQuest_config["epochContinentPins"] or "1"
+    pfQuest_config["continentNodeSize"] = pfQuest_config["continentNodeSize"] or "12"
+    pfQuest_config["continentUtilityNodeSize"] = pfQuest_config["continentUtilityNodeSize"] or "14"
     pfQuest_config["epochHideChickenQuests"] = pfQuest_config["epochHideChickenQuests"] or "1"
     pfQuest_config["epochHideFelwoodFlowers"] = pfQuest_config["epochHideFelwoodFlowers"] or "1"
     pfQuest_config["epochHidePvPQuests"] = pfQuest_config["epochHidePvPQuests"] or "1"
+    pfQuest_config["epochHideCommissionQuests"] = pfQuest_config["epochHideCommissionQuests"] or "0"
 end
 
 local f = CreateFrame("Frame")

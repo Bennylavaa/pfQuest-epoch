@@ -477,14 +477,201 @@ pfQuestCompat.InsertQuestLink = function(questid, name)
 
   -- Use the correct editbox for 3.3.5
   local editBox = ChatFrame1EditBox or ChatFrameEditBox
-  
+
   if editBox then
     editBox:Show()
     if pfQuest_config["questlinks"] == "1" then
-	-- seems server blocks the other method so I used this
+    -- seems server blocks the other method so I used this
       editBox:Insert("\124cffffff00\124Hquest:" .. questid .. ":" .. level .. "\124h[" .. name .. "]\124h\124r")
     else
       editBox:Insert("[" .. name .. "]")
     end
   end
 end
+
+local corpseMessage = ""
+local wasDeadLastFrame = false
+
+pfQuest.route.arrow:SetScript("OnUpdate", function()
+  if not this.parent then return end
+
+local isCurrentlyDead = UnitIsDead("player") or UnitIsGhost("player")
+
+if isCurrentlyDead then
+  if not wasDeadLastFrame then
+    local corpseMessages = {
+      "Skill Issue, have fun running back",
+      "Git Gud Scrub",
+      "You Died LOL",
+      "Walk of Shame Initiated",
+      "Corpse Run Express",
+      "Better Luck Next Time",
+      "RIP Your Repair Bill",
+      "Death Tax Collector Awaits",
+      "Your Body is Over There Dummy",
+      "Congratulations, You're Dead",
+      "Achievement Unlocked: Floor Tank",
+      "Press F to Pay Respects",
+      "This is Why We Can't Have Nice Things",
+      "Maybe Try Reading the Tactics Next Time",
+      "Outstanding Move, Chief",
+      "Welcome to the Spirit World",
+      "Ghost Mode: ACTIVATED",
+      "That Went Well",
+      "Professional Grave Digger",
+      "Another Happy Landing",
+      "Task Failed Successfully",
+      "Speedrun: Any% Death Category",
+      "You've Been Disconnected from Life",
+      "Error 404: HP Not Found",
+      "Critical Hit: Your Pride",
+      "Respawn Timer: Your Dignity",
+      "New Personal Best: Worst Decision",
+      "Plot Twist: You're the Bad Guy",
+      "Congratulations, You Played Yourself",
+      "Tutorial Complete: How to Die",
+      "Achievement: First Time?",
+      "Pro Tip: Don't Die Next Time",
+      "Your Performance Review: Needs Improvement",
+      "Status Update: Currently Deceased",
+      "That's a Bold Strategy Cotton",
+      "The Afterlife Called, They're Expecting You",
+      "Death Certificate: Cause of Death - Bad Decision"
+    }
+    corpseMessage = corpseMessages[math.random(1, #corpseMessages)]
+    wasDeadLastFrame = true
+  end
+
+  local cx, cy = GetCorpseMapPosition()
+  -- corpse coords are 0–1; ignore if invalid (0,0)
+  if cx and cy and (cx > 0 or cy > 0) then
+    local xplayer, yplayer = GetPlayerMapPosition("player")
+    local dx = (cx - xplayer) * 100 * 1.5
+    local dy = (cy - yplayer) * 100
+
+    -- Calculate distance to corpse
+    local corpseDistance = ceil(math.sqrt(dx*dx + dy*dy)*100)/100
+
+    local dir = atan2(dx, -dy)
+    dir = dir > 0 and (2*math.pi) - dir or -dir
+    if dir < 0 then dir = dir + 360 end
+    local angle = math.rad(dir) - pfQuestCompat.GetPlayerFacing()
+
+    -- rotate the arrow model to point at corpse
+    local cell = modulo(floor(angle / (2*math.pi) * 108 + .5), 108)
+    local col = modulo(cell, 9)
+    local row = floor(cell / 9)
+    this.model:SetTexCoord(
+      (col    * 56)/512, ((col+1)*56)/512,
+      (row    * 42)/512, ((row+1)*42)/512
+    )
+
+    this.title:SetText("Corpse")
+    this.description:SetText("|cffff0000" .. corpseMessage .. "|r")
+    this.distance:SetText("|cffaaaaaa" .. (pfQuest_Loc["Distance"] or "Distance") .. ": " .. string.format("%.1f", corpseDistance))
+
+    this:Show()
+    return
+  end
+else
+
+  if wasDeadLastFrame then
+    wasDeadLastFrame = false
+    corpseMessage = ""
+  end
+end
+
+  xplayer, yplayer = GetPlayerMapPosition("player")
+  wrongmap = xplayer == 0 and yplayer == 0 and true or nil
+  target = this.parent.coords and this.parent.coords[1] and this.parent.coords[1][4] and this.parent.coords[1] or nil
+
+  if not target or wrongmap or pfQuest_config["arrow"] == "0" then
+    if invalid and invalid < GetTime() then
+      this:Hide()
+    elseif not invalid then
+      invalid = GetTime() + 1
+    end
+
+    return
+  else
+    invalid = nil
+  end
+
+  xDelta = (target[1] - xplayer*100)*1.5
+  yDelta = (target[2] - yplayer*100)
+  dir = atan2(xDelta, -(yDelta))
+  dir = dir > 0 and (math.pi*2) - dir or -dir
+  if dir < 0 then dir = dir + 360 end
+  angle = math.rad(dir)
+
+  player = pfQuestCompat.GetPlayerFacing()
+  angle = angle - player
+  perc = math.abs(((math.pi - math.abs(angle)) / math.pi))
+  r, g, b = pfUI.api.GetColorGradient(floor(perc*100)/100)
+  cell = modulo(floor(angle / (math.pi*2) * 108 + 0.5), 108)
+  column = modulo(cell, 9)
+  row = floor(cell / 9)
+  xstart = (column * 56) / 512
+  ystart = (row * 42) / 512
+  xend = ((column + 1) * 56) / 512
+  yend = ((row + 1) * 42) / 512
+
+  area = target[3].priority and target[3].priority or 1
+  area = max(1, area)
+  area = min(20, area)
+  area = (area / 10) + 1
+
+  alpha = target[4] - area
+  alpha = alpha > 1 and 1 or alpha
+  alpha = alpha < .5 and .5 or alpha
+
+  texalpha = (1 - alpha) * 2
+  texalpha = texalpha > 1 and 1 or texalpha
+  texalpha = texalpha < 0 and 0 or texalpha
+
+  r, g, b = r + texalpha, g + texalpha, b + texalpha
+
+  this.model:SetTexCoord(xstart,xend,ystart,yend)
+  this.model:SetVertexColor(r,g,b)
+
+  if target ~= lasttarget then
+    color = defcolor
+    if tonumber(target[3]["qlvl"]) then
+      color = pfMap:HexDifficultyColor(tonumber(target[3]["qlvl"]))
+    end
+
+    if target[3].texture then
+      this.texture:SetTexture(target[3].texture)
+
+      if target[3].vertex and ( target[3].vertex[1] > 0
+        or target[3].vertex[2] > 0
+        or target[3].vertex[3] > 0 )
+      then
+        this.texture:SetVertexColor(unpack(target[3].vertex))
+      else
+        this.texture:SetVertexColor(1,1,1,1)
+      end
+    else
+      this.texture:SetTexture(pfQuestConfig.path.."\\img\\node")
+      this.texture:SetVertexColor(pfMap.str2rgb(target[3].title))
+    end
+
+    local level = target[3].qlvl and "[" .. target[3].qlvl .. "] " or ""
+    this.title:SetText(color..level..target[3].title.."|r")
+    local desc = target[3].description or ""
+    if not pfUI or not pfUI.uf then
+      this.description:SetTextColor(1,.9,.7,1)
+      desc = string.gsub(desc, "ff33ffcc", "ffffffff")
+    end
+    this.description:SetText(desc.."|r.")
+  end
+
+  local distance = floor(target[4]*10)/10
+  if distance ~= this.distance.number then
+    this.distance:SetText("|cffaaaaaa" .. pfQuest_Loc["Distance"] .. ": "..string.format("%.1f", distance))
+    this.distance.number = distance
+  end
+
+  this.texture:SetAlpha(texalpha)
+  this.model:SetAlpha(alpha)
+end)
