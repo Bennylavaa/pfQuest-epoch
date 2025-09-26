@@ -26271,6 +26271,7 @@ pfDB["quests"]["data-epoch"] = {
     ["skillmin"] = 100,
     ["lvl"] = 20,
     ["min"] = 5,
+    ["race"] = 178,
   },
   [28548] = {
     ["start"] = {
