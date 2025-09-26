@@ -9086,7 +9086,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [28372] = {
     ["T"] = "The Rite of the Medicant",
-    ["O"] = "Test the Blackrock Anti-Venom on Venom Sting from Stonelash Scorpids in Silithus, then return to Eitrigg in Orgrimmar or Renzik \"The Shiv\" in Stormwind.",
+    ["O"] = "Test the Blackrock Anti-Venom on Venom Sting from Stonelash Pincers in Silithus, then return to Eitrigg in Orgrimmar or Renzik \"The Shiv\" in Stormwind.",
     ["D"] = "Supposedly this Anti-Venom is used for the strongest of scorpid poisons, so let us put it to the test.\n\nWe\'ve received an early report from an expedition that has traveled to the lost land of Silithus, in the far southeastern part of Kalimdor. They report aggressive beasts including scorpids with poison stronger than any seen before.\n\nI can\'t think of a better place to test the efficacy of this Anti-Venom. Travel there, and attempt to cure scorpid stings with this Anti-Venom. Report back on how it works.",
   },
   [28373] = {
