@@ -4954,6 +4954,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 40,
     ["min"] = 40,
+    ["class"] = 2,
   },
   [26442] = {
     ["start"] = {
