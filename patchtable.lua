@@ -415,7 +415,7 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   if not quest then return end
 
   -- hide missing pre-quests
-  if quest and quest["pre"] then
+  if quest["pre"] then
     -- check all pre-quests for one to be completed
     local one_complete = nil
     for _, prequest in pairs(quest["pre"]) do
@@ -427,20 +427,20 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
     if not one_complete then return end
   end
   -- hide non-available quests for your race
-  if quest and quest["race"] and not ( bit.band(quest["race"], prace) == prace ) then return end
+  if quest["race"] and not ( bit.band(quest["race"], prace) == prace ) then return end
   -- hide non-available quests for your class
-  if quest and quest["class"] and not ( bit.band(quest["class"], pclass) == pclass ) then return end
+  if quest["class"] and not ( bit.band(quest["class"], pclass) == pclass ) then return end
   -- hide non-available quests for your profession
-  if quest and quest["skill"] then 
+  if quest["skill"] then 
     local playerSkillLevel = pfDatabase:GetPlayerSkill(quest["skill"])
     if not playerSkillLevel or quest["skillmin"] and playerSkillLevel < quest["skillmin"] then return end
   end
   -- hide lowlevel quests using WoW's gray level system
-  if quest and quest["lvl"] and quest["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then return end
+  if quest["lvl"] and quest["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then return end
   -- hide highlevel quests (or show those that are 3 levels above)
-  if quest and quest["min"] and quest["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
+  if quest["min"] and quest["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
   -- hide event quests
-  if quest and quest["event"] and pfQuest_config["showfestival"] == "0" then return end
+  if quest["event"] and pfQuest_config["showfestival"] == "0" then return end
   return true
 end
 
