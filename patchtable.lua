@@ -221,29 +221,6 @@ pfDatabase.SearchObjectID = function(self, id, meta, maps, prio)
   return originalSearchObjectID(self, id, meta, maps, prio)
 end
 
-local originalQuestFilter = pfDatabase.QuestFilter
-pfDatabase.QuestFilter = function(self, id, plevel, pclass, prace)
-  local quest = pfDB["quests"]["data"][id]
-  if coinQuests[id] and pfQuest_history[id] then
-    return nil
-  end
-
-  if coinQuests[id] and not pfQuest_showingCoins then
-    return nil
-  end
-
-  if quest and quest["skill"] then
-    local playerSkillLevel = pfDatabase:GetPlayerSkill(quest["skill"])
-    if not playerSkillLevel then return nil end
-
-    if quest["skillmin"] and playerSkillLevel < quest["skillmin"] then
-      return nil
-    end
-  end
-
-  return originalQuestFilter(self, id, plevel, pclass, prace)
-end
-
 local coinEventFrame = CreateFrame("Frame")
 coinEventFrame:RegisterEvent("QUEST_LOG_UPDATE")
 coinEventFrame:RegisterEvent("QUEST_WATCH_UPDATE")
@@ -431,11 +408,17 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   if pfQuest_history[id] then return end
   -- hide broken quests without names
   if not pfDB.quests.loc[id] or not pfDB.quests.loc[id].T then return end
+
+  if coinQuests[id] and not pfQuest_showingCoins then return end
+
+  local quest = pfDB["quests"]["data"][id]
+  if not quest then return end
+
   -- hide missing pre-quests
-  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["pre"] then
+  if quest["pre"] then
     -- check all pre-quests for one to be completed
     local one_complete = nil
-    for _, prequest in pairs(pfDB["quests"]["data"][id]["pre"]) do
+    for _, prequest in pairs(quest["pre"]) do
       if pfQuest_history[prequest] then
         one_complete = true
       end
@@ -444,17 +427,20 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
     if not one_complete then return end
   end
   -- hide non-available quests for your race
-  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["race"] and not ( bit.band(pfDB["quests"]["data"][id]["race"], prace) == prace ) then return end
+  if quest["race"] and not ( bit.band(quest["race"], prace) == prace ) then return end
   -- hide non-available quests for your class
-  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["class"] and not ( bit.band(pfDB["quests"]["data"][id]["class"], pclass) == pclass ) then return end
+  if quest["class"] and not ( bit.band(quest["class"], pclass) == pclass ) then return end
   -- hide non-available quests for your profession
-  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["skill"] and not pfDatabase:GetPlayerSkill(pfDB["quests"]["data"][id]["skill"]) then return end
+  if quest["skill"] then 
+    local playerSkillLevel = pfDatabase:GetPlayerSkill(quest["skill"])
+    if not playerSkillLevel or quest["skillmin"] and playerSkillLevel < quest["skillmin"] then return end
+  end
   -- hide lowlevel quests using WoW's gray level system
-  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["lvl"] and pfDB["quests"]["data"][id]["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then return end
+  if quest["lvl"] and quest["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then return end
   -- hide highlevel quests (or show those that are 3 levels above)
-  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["min"] and pfDB["quests"]["data"][id]["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
+  if quest["min"] and quest["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
   -- hide event quests
-  if pfDB["quests"]["data"][id] and pfDB["quests"]["data"][id]["event"] and pfQuest_config["showfestival"] == "0" then return end
+  if quest["event"] and pfQuest_config["showfestival"] == "0" then return end
   return true
 end
 
