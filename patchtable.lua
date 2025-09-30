@@ -431,7 +431,7 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   -- hide non-available quests for your class
   if quest["class"] and not ( bit.band(quest["class"], pclass) == pclass ) then return end
   -- hide non-available quests for your profession
-  if quest["skill"] then 
+  if quest["skill"] then
     local playerSkillLevel = pfDatabase:GetPlayerSkill(quest["skill"])
     if not playerSkillLevel or quest["skillmin"] and playerSkillLevel < quest["skillmin"] then return end
   end
@@ -819,8 +819,20 @@ pfDatabase.SearchQuestID = function(self, id, meta, maps)
 
                 item_meta["QTYPE"] = "ITEM_START"
                 item_meta["layer"] = 4
-                item_meta["texture"] = pfQuestConfig.path.."\\img\\available_c"
+                item_meta["texture"] = pfQuestConfig.path.."\\img\\available"
                 --item_meta["vertex"] = { 0.7, 0.4, 1 }
+                local plevel = UnitLevel("player")
+                if quests[id]["min"] and quests[id]["min"] > plevel then
+                  item_meta["vertex"] = { 1, .6, .6 }
+                  item_meta["layer"] = 2
+                elseif quests[id]["lvl"] and quests[id]["lvl"] <= GetGrayLevel(plevel) then
+                  item_meta["vertex"] = { 1, 1, 1 }
+                  item_meta["layer"] = 2
+                elseif quests[id]["event"] then
+                  item_meta["vertex"] = { .2, .8, 1 }
+                  item_meta["layer"] = 2
+                end
+
                 item_meta["spawn"] = pfDB["items"]["loc"][item] or UNKNOWN
                 item_meta["spawnid"] = item
                 item_meta["item"] = pfDB["items"]["loc"][item]
@@ -1031,7 +1043,7 @@ pfDatabase.SearchQuests = function(self, meta, maps)
                 item_meta["questid"] = id
                 item_meta["QTYPE"] = "ITEM_START"
                 item_meta["layer"] = 3
-                item_meta["texture"] = pfQuestConfig.path.."\\img\\available_c"
+                item_meta["texture"] = pfQuestConfig.path.."\\img\\available"
                 --item_meta["vertex"] = { 0.7, 0.4, 1 }
                 item_meta["spawn"] = pfDB["items"]["loc"][item] or UNKNOWN
                 item_meta["spawnid"] = item
@@ -1051,7 +1063,7 @@ pfDatabase.SearchQuests = function(self, meta, maps)
                 if quests[id]["min"] and quests[id]["min"] > plevel then
                   item_meta["vertex"] = { 1, .6, .6 }
                   item_meta["layer"] = 2
-                elseif quests[id]["lvl"] and quests[id]["lvl"] + 10 < plevel then
+                elseif quests[id]["lvl"] and quests[id]["lvl"] <= GetGrayLevel(plevel) then
                   item_meta["vertex"] = { 1, 1, 1 }
                   item_meta["layer"] = 2
                 elseif quests[id]["event"] then
