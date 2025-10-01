@@ -320,6 +320,16 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 1068 },
     },
   },
+  [990] = {
+    ["end"] = {
+      ["U"] = { 3691 },
+    },
+    ["lvl"] = 19,
+    ["min"] = 15,
+    ["start"] = {
+      ["U"] = { 3649 },
+    },
+  },
   [991] = {
     ["start"] = {
       ["U"] = { 3691 },
@@ -11106,7 +11116,7 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 41,
     ["min"] = 36,
   },
-  [26923] = { -- These Starting Objects should be different.
+  [26923] = {
     ["start"] = {
       ["O"] = { 250449 },
     },
@@ -11120,9 +11130,9 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 31,
     ["race"] = 77,
   },
-  [26924] = { -- These Starting Objects should be different.
+  [26924] = {
     ["start"] = {
-      ["O"] = { 250449 },
+      ["O"] = { 250361 },
     },
     ["end"] = {
       ["U"] = { 1775 },
@@ -11132,6 +11142,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 40,
     ["min"] = 35,
+    ["race"] = 178,
   },
   [26925] = {
     ["start"] = {
@@ -11443,6 +11454,7 @@ pfDB["quests"]["data-epoch"] = {
     ["next"] = 26955,
     ["lvl"] = 60,
     ["min"] = 58,
+    ["class"] = 4,
   },
   [26955] = {
     ["start"] = {
@@ -11458,6 +11470,7 @@ pfDB["quests"]["data-epoch"] = {
     ["next"] = 26956,
     ["lvl"] = 60,
     ["min"] = 58,
+    ["class"] = 4,
   },
   [26956] = {
     ["start"] = {
@@ -11473,6 +11486,7 @@ pfDB["quests"]["data-epoch"] = {
     ["next"] = 26957,
     ["lvl"] = 60,
     ["min"] = 58,
+    ["class"] = 4,
   },
   [26957] = {
     ["start"] = {
@@ -11487,6 +11501,7 @@ pfDB["quests"]["data-epoch"] = {
     ["pre"] = { 26956 },
     ["lvl"] = 60,
     ["min"] = 58,
+    ["class"] = 4,
   },
   [26958] = {
     ["next"] = 26959,
