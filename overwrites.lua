@@ -71,6 +71,7 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][17355] = { } -- Valusha
   pfDB["units"]["data-epoch"][17109] = { } -- Cersei Dusksinger
   pfDB["units"]["data-epoch"][17098] = { } -- Ambassador Dawnsinger
+  pfDB["units"]["data-epoch"][17238] = { } -- Anchorite Truuen
   
   -- Remove zg island npc 
   pfDB["units"]["data-epoch"][14903] = { } -- Al'tabim the All-Seeing
