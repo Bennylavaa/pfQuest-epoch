@@ -1346,7 +1346,8 @@ do -- quests
   pfDB["quests"]["data-epoch"][7581] = { } -- Remove The Prison's Bindings
   pfDB["quests"]["data-epoch"][7582] = { } -- Remove The Prison's Casing
   pfDB["quests"]["data-epoch"][7583] = { } -- Remove Suppression
-  pfDB["quests"]["data-epoch"][14387] = { } -- Remove old Attunment to the Core
+  pfDB["quests"]["data-epoch"][7487] = { } -- Remove old Attunment to the Core
+  pfDB["quests"]["data-epoch"][7848] = { } -- Remove old Attunment to the Core
 end
 
 do -- Objects

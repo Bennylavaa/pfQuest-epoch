@@ -646,7 +646,8 @@ function pfMap:UpdateNodes()
                                         if
                                             string.find(title, "Warsong") or string.find(title, "Arathi") or
                                                 string.find(title, "Alterac") or
-                                                string.find(title, "Battleground")
+                                                string.find(title, "Battleground") or
+                                                string.find(title, "Call to Skirmish")
                                          then
                                             skipNode = true
                                             break
@@ -953,7 +954,8 @@ function pfMap:UpdateNodes()
                                 if
                                     string.find(title, "Warsong") or string.find(title, "Arathi") or
                                         string.find(title, "Alterac") or
-                                        string.find(title, "Battleground")
+                                        string.find(title, "Battleground") or
+                                        string.find(title, "Call to Skirmish")
                                  then
                                     skipNode = true
                                     break
@@ -1096,7 +1098,6 @@ local function ExtendPfQuestConfig()
             type = "header"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
@@ -1106,7 +1107,6 @@ local function ExtendPfQuestConfig()
             config = "epochContinentPins"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
@@ -1116,7 +1116,6 @@ local function ExtendPfQuestConfig()
             config = "continentClickThrough"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
@@ -1126,7 +1125,6 @@ local function ExtendPfQuestConfig()
             config = "continentNodeSize"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
@@ -1136,7 +1134,6 @@ local function ExtendPfQuestConfig()
             config = "continentUtilityNodeSize"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
@@ -1146,7 +1143,6 @@ local function ExtendPfQuestConfig()
             config = "epochHideChickenQuests"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
@@ -1156,7 +1152,6 @@ local function ExtendPfQuestConfig()
             config = "epochHideFelwoodFlowers"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
@@ -1166,7 +1161,6 @@ local function ExtendPfQuestConfig()
             config = "epochHidePvPQuests"
         }
     )
-
     table.insert(
         pfQuest_defconfig,
         {
