@@ -1709,7 +1709,6 @@ pfDB["objects"]["data-epoch"] = {
   [250186] = { --Placeholder ID
     ["coords"] = {
       [1] = { 82.3, 20.4, 1377, 0 },
-      [2] = { 80.0, 16.7, 1377, 0 },
     },
   },
   [250310] = { --Placeholder ID
@@ -3116,19 +3115,27 @@ pfDB["objects"]["data-epoch"] = {
   },
   [250165] = { -- Call to Skirmish - Horde 
     ["coords"] = {
-      [1] = { 44.6, 52.6, 1638, 0 }, -- Thunder Bluff - Central
-      [2] = { 33.4, 40.2, 1637, 0 }, -- Orgrimmar
-      [3] = { 68.3, 49.3, 1497, 0 }, -- Undercity
-      [4] = { 38.9, 27.6, 215, 0 }, -- Mulgore (Thunder Bluff - Central)
-      [5] = { 58.5, 83.9, 1638, 0 }, -- Thunder Bluff - Hunter Rise
-      [6] = { 41.7, 33.9, 215, 0 }, -- Mulgore - Hunter Rise
-      [7] = { 62.3, 75.51, 85, 0 }, -- Undercity - Tirisfal Glades
+      [1] = { 66.7, 80.8, 1638, 0 }, -- City of Ironforge
+      [2] = { 26.9, 57.3, 1638, 0 }, -- City of Ironforge, The Military Ward
+      [3] = { 61.7, 45.9, 1637, 0 }, -- Darnassus
+      [4] = { 41.9, 40.4, 1637, 0 }, -- Darnassus
+      [5] = { 72.8, 48.6, 1497, 0 }, -- Stormwind City
+      [6] = { 35.2, 42.5, 1497, 0 }, -- Stormwind City, Stormwind Harbor
+    },
+  },
+  [250166] = { -- Call to Skirmish - Alliance 
+    ["coords"] = {
+      [1] = { 44.6, 52.6, 1638, 0 }, -- Thunder Bluff
+      [2] = { 58.5, 83.9, 1638, 0 }, -- Thunder Bluff, Hunter Rise
+      [3] = { 33.4, 40.2, 1637, 0 }, -- Orgrimmar, Grommash Hold
+      [4] = { 69.2, 38.4, 1637, 0 }, -- Orgrimmar, Valley of Hono
+      [5] = { 68.3, 49.3, 1497, 0 }, -- Undercity, Trade Quarter
+      [6] = { 50.1, 30.9, 1497, 0 }, -- Undercity, War Quarter
     },
   },
   [250169] = { -- Call to Skirmish: Hillsbrad Foothills
     ["coords"] = {
       [1] = { 49.5, 58.9, 267, 0 },
-      [2] = { 61.7, 20.5, 267, 0 },
     },
   },
   [250167] = { -- Call to Skirmish: Stonetalon Mountains
@@ -3138,10 +3145,9 @@ pfDB["objects"]["data-epoch"] = {
   },
   [250168] = { -- Call to Skirmish: Ashenvale
     ["coords"] = {
-      [1] = { 26.8, 37.1, 331, 0 },
-      [2] = { 47.8, 5.3, 17, 0 },
-      [3] = { 47.1, 8.5, 17, 0 },
-      [4] = { 73.9, 60.9, 331, 0 },
+      [1] = { 36.4, 49.9, 331, 0 },
+      [2] = { 26.8, 37.1, 331, 0 },
+      [3] = { 62.0, 82.3, 331, 0 },
     },
   },
   [250170] = { --Placeholder ID
@@ -3155,7 +3161,6 @@ pfDB["objects"]["data-epoch"] = {
     ["coords"] = {
       [1] = { 66.1, 11.1, 405, 0 },
       [2] = { 36.4, 44.9, 405, 0 },
-      [3] = { 24.6, 68.6, 405, 0 }, -- Shadowprey Village
     },
   },
   [250173] = { --Placeholder ID
@@ -3170,8 +3175,7 @@ pfDB["objects"]["data-epoch"] = {
   },
   [250175] = { -- Call to Skirmish: Badlands
     ["coords"] = {
-      [1] = { 69.2, 64.3, 3, 0 }, -- Springsocket
-      [2] = { 3.6, 46.5, 3, 0 }, -- Kargath
+      [1] = { 69.2, 64.3, 3, 0 },
     },
   },
   [250176] = { --Placeholder ID
@@ -3181,14 +3185,14 @@ pfDB["objects"]["data-epoch"] = {
   },
   [250177] = { -- Call to Skirmish: Stranglethorn Vale
     ["coords"] = {
-      [1] = { 38.1, 3.1, 33, 0 }, -- Alliance Camp North STV
-      [2] = { 27.9, 74.5, 33, 0 }, -- Booty Bay
-      [3] = { 32.7, 29.0, 33, 0 }, -- Grom'gol Base Camp
+      [1] = { 38.1, 3.1, 33, 0 },
+      [2] = { 27.9, 74.5, 33, 0 },
     },
   },
   [250178] = { --Placeholder ID
     ["coords"] = {
       [1] = { 66.1, 23.7, 440, 0 },
+      [2] = { 52.0, 28.3, 440, 0 },
     },
   },
   [250179] = { --Placeholder ID
@@ -3199,7 +3203,6 @@ pfDB["objects"]["data-epoch"] = {
   [250180] = { -- Call to Skirmish: Azshara
     ["coords"] = {
       [1] = { 11.7, 77.4, 16, 0 },
-      [2] = { 23.0, 51.1, 16, 0 }, -- Valormok
     },
   },
   [250181] = { --Placeholder ID
@@ -3215,7 +3218,6 @@ pfDB["objects"]["data-epoch"] = {
   [250183] = { -- Call to Skirmish: Western Plaguelands
     ["coords"] = {
       [1] = { 42.8, 84.8, 28, 0 },
-      [2] = { 82.9, 71.4, 85, 0 }, -- Tirisfal Glades - The Bulwark
     },
   },
   [250184] = { --Placeholder ID
@@ -3225,7 +3227,7 @@ pfDB["objects"]["data-epoch"] = {
   },
   [250185] = { --Placeholder ID
     ["coords"] = {
-      [1] = { 74.3, 51.4, 139, 0 },
+      [1] = { 75.9, 53.3, 139, 0 },
     },
   },
   [250187] = { --Placeholder ID
@@ -5129,6 +5131,125 @@ pfDB["objects"]["data-epoch"] = {
   [5000041] = {
     ["coords"] = {
       [1] = { 67.2, 50.4, 14, 0 }
+    },
+  },
+  [5000051] = { -- Call to Skirmish: Hillsbrad Foothills Horde
+    ["coords"] = {
+      [1] = { 61.7, 20.5, 267, 0 },
+    },
+  },
+  [5000052] = { -- Call to Skirmish: Stonetalon Mountains Horde
+    ["coords"] = {
+      [1] = { 46.1, 59.4, 406, 0 },
+    },
+  },
+  [5000053] = { -- Call to Skirmish: Ashenvale Horde
+    ["coords"] = {
+      [1] = { 73.9, 60.9, 331, 0 },
+      [2] = { 47.1, 8.5, 17, 0 },
+      [3] = { 47.8, 5.3, 17, 0 },
+    },
+  },
+  [5000054] = { -- Call to Skirmish: Thousand Needles Horde
+    ["coords"] = {
+      [1] = { 80.1, 76.7, 400, 0 },
+      [2] = { 46.2, 50.3, 400, 0 },
+    },
+  },
+  [5000055] = {}, -- Call to Skirmish: Alterac Mountains Horde
+  [5000056] = { -- Call to Skirmish: Desolace Horde
+    ["coords"] = {
+      [1] = { 51.7, 54.0, 405, 0 },
+      [2] = { 24.6, 68.6, 405, 0 },
+    },
+  },
+  [5000057] = { -- Call to Skirmish: Arathi Highlands Horde
+    ["coords"] = {
+      [1] = { 75.2, 36.9, 45, 0 },
+    },
+  },
+  [5000058] = { -- Call to Skirmish: Swamp of Sorrows Horde
+    ["coords"] = {
+      [1] = { 46.8, 53.5, 8, 0 },
+    },
+  },
+  [5000059] = { -- Call to Skirmish: Badlands Horde
+    ["coords"] = {
+      [1] = { 3.6, 46.5, 3, 0 },
+    },
+  },
+  [5000060] = { -- Call to Skirmish: The Hinterlands Horde
+    ["coords"] = {
+      [1] = { 79.2, 80.1, 47, 0 },
+    },
+  },
+  [5000061] = { -- Call to Skirmish: Stranglethorn Vale Horde
+    ["coords"] = {
+      [1] = { 27.9, 74.5, 33, 0 },
+      [2] = { 32.7, 29.0, 33, 0 },
+    },
+  },
+  [5000062] = { -- Call to Skirmish: Tanaris Horde
+    ["coords"] = {
+      [1] = { 66.1, 23.7, 440, 0 },
+      [2] = { 52.0, 28.3, 440, 0 },
+      [3] = { 56.9, 82.3, 440, 0 },
+    },
+  },
+  [5000063] = { -- Call to Skirmish: Felwood Horde
+    ["coords"] = {
+      [1] = { 34.5, 53.7, 361, 0 },
+    },
+  },
+  [5000064] = { -- Call to Skirmish: Azshara Horde
+    ["coords"] = {
+      [1] = { 23.0, 51.1, 16, 0 },
+    },
+  },
+  [5000065] = { -- Call to Skirmish: Un'Goro Crater Horde
+    ["coords"] = {
+      [1] = { 43.4, 7.3, 490, 0 },
+    },
+  },
+  [5000066] = { -- Call to Skirmish: Searing Gorge Horde
+    ["coords"] = {
+      [1] = { 35.2, 29.8, 51, 0 },
+    },
+  },
+  [5000067] = { -- Call to Skirmish: Western Plaguelands Horde
+    ["coords"] = {
+      [1] = { 82.9, 71.4, 85, 0 },
+    },
+  },
+  [5000068] = { -- Call to Skirmish: Burning Steppes Horde
+    ["coords"] = {
+      [1] = { 65.7, 23.8, 46, 0 },
+    },
+  },
+  [5000069] = { -- Call to Skirmish: Eastern Plaguelands Horde
+    ["coords"] = {
+      [1] = { 74.3, 51.5, 139, 0 },
+    },
+  },
+  [5000070] = { -- Call to Skirmish: Feralas Horde
+    ["coords"] = {
+      [1] = { 74.8, 44.8, 357, 0 },
+    },
+  },
+  [5000071] = { -- Call to Skirmish: Winterspring Horde
+    ["coords"] = {
+      [1] = { 60.4, 36.3, 618, 0 },
+    },
+  },
+  [5000072] = { -- Call to Skirmish: Dustwallow Marsh Horde
+    ["coords"] = {
+      [1] = { 37.2, 31.7, 15, 0 },
+    },
+  },
+  [5000073] = {}, -- Call to Skirmish: Blasted Lands Horde
+  [5000074] = { -- Call to Skirmish: Silithus (needs horde)
+    ["coords"] = {
+      [1] = { 80.0, 16.7, 1377, 0 },
     },
   },
 }
