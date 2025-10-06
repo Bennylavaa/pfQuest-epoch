@@ -74,11 +74,18 @@ tracker:SetMovable(true)
 tracker:EnableMouse(true)
 tracker:SetClampedToScreen(true)
 tracker:RegisterEvent("PLAYER_ENTERING_WORLD")
-tracker:RegisterEvent("TRACKED_ACHIEVEMENT_LIST_CHANGED")
+tracker:RegisterEvent("TRACKED_ACHIEVEMENT_UPDATE")
 tracker:RegisterEvent("ACHIEVEMENT_EARNED")
 tracker:SetScript(
     "OnEvent",
     function()
+        if event == "TRACKED_ACHIEVEMENT_UPDATE" or event == "ACHIEVEMENT_EARNED" then
+            if tracker.mode == "ACHIEVEMENT_TRACKING" and tracker:IsShown() then
+                tracker.Reset()
+            end
+            return
+        end
+
         -- update font sizes according to config
         fontsize = tonumber(pfQuest_config["trackerfontsize"]) or 12
         entryheight = ceil(fontsize * 1.6)
@@ -486,24 +493,31 @@ function tracker.ButtonClick()
             end
         end
     elseif IsShiftKeyDown() then
-        -- mark as done if node is quest and not in questlog
-        if this.node.questid and not this.node.qlogid then
-            -- mark as done in history
-            pfQuest_history[this.node.questid] = {time(), UnitLevel("player")}
-            UIErrorsFrame:AddMessage(
-                string.format(
-                    "The Quest |cffffcc00[%s]|r (id:%s) is now marked as done.",
-                    this.title,
-                    this.node.questid
-                ),
-                1,
-                1,
-                1
-            )
-        end
+            -- Handle achievement untracking
+            if tracker.mode == "ACHIEVEMENT_TRACKING" and this.node and this.node.achievementID then
+                RemoveTrackedAchievement(this.node.achievementID)
+                tracker.Reset()
+                return
+            end
 
-        pfMap:DeleteNode(this.node.addon, this.title)
-        pfMap:UpdateNodes()
+            -- mark as done if node is quest and not in questlog
+            if this.node.questid and not this.node.qlogid then
+                -- mark as done in history
+                pfQuest_history[this.node.questid] = {time(), UnitLevel("player")}
+                UIErrorsFrame:AddMessage(
+                    string.format(
+                        "The Quest |cffffcc00[%s]|r (id:%s) is now marked as done.",
+                        this.title,
+                        this.node.questid
+                    ),
+                    1,
+                    1,
+                    1
+                )
+            end
+
+            pfMap:DeleteNode(this.node.addon, this.title)
+            pfMap:UpdateNodes()
 
         pfQuest.updateQuestGivers = true
     elseif IsControlKeyDown() and not WorldMapFrame:IsShown() then

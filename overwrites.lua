@@ -1160,6 +1160,24 @@ do -- units/npcs
   pfDB["quests"]["data-epoch"][9310] = { } -- Faint Necrotic Crystal
   pfDB["quests"]["data-epoch"][9341] = { } -- Tabard of the Argent Dawn
   pfDB["quests"]["data-epoch"][9343] = { } -- Tabard of the Argent Dawn
+  pfDB["quests"]["data-epoch"][5517] = { } -- Chromatic Mantle of the Dawn
+  pfDB["quests"]["data-epoch"][9221] = { } -- Superior Armaments of Battle - Friend of the Dawn
+  pfDB["quests"]["data-epoch"][9222] = { } -- Epic Armaments of Battle - Friend of the Dawn
+  pfDB["quests"]["data-epoch"][9223] = { } -- Superior Armaments of Battle - Honored Amongst the Dawn
+  pfDB["quests"]["data-epoch"][9224] = { } -- Epic Armaments of Battle - Honored Amongst the Dawn
+  pfDB["quests"]["data-epoch"][9225] = { } -- Epic Armaments of Battle - Revered Amongst the Dawn
+  pfDB["quests"]["data-epoch"][9226] = { } -- Superior Armaments of Battle - Revered Amongst the Dawn
+  pfDB["quests"]["data-epoch"][9227] = { } -- Superior Armaments of Battle - Exalted Amongst the Dawn
+  pfDB["quests"]["data-epoch"][9228] = { } -- Epic Armaments of Battle - Exalted Amongst the Dawn
+  pfDB["quests"]["data-epoch"][88721] = { } -- Superior Armaments of Battle - Friend of the Dawn
+  pfDB["quests"]["data-epoch"][88722] = { } -- Superior Armaments of Battle - Honored Amongst the Dawn
+  pfDB["quests"]["data-epoch"][88723] = { } -- Superior Armaments of Battle - Revered Amongst the Dawn
+  pfDB["quests"]["data-epoch"][88724] = { } -- Superior Armaments of Battle - Exalted Amongst the Dawn
+  pfDB["quests"]["data-epoch"][88725] = { } -- Epic Armaments of Battle - Friend of the Dawn
+  pfDB["quests"]["data-epoch"][88726] = { } -- Epic Armaments of Battle - Honored Amongst the Dawn
+  pfDB["quests"]["data-epoch"][88727] = { } -- Epic Armaments of Battle - Revered Amongst the Dawn
+  pfDB["quests"]["data-epoch"][88728] = { } -- Epic Armaments of Battle - Exalted Amongst the Dawn
+  pfDB["quests"]["data-epoch"][9165] = { } -- Writ of Safe Passage
 
   -- Removed Fishing Event Quests
   pfDB["quests"]["data-epoch"][8228] = { } -- Could I get a Fishing Flier?
