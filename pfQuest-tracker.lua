@@ -895,9 +895,7 @@ function tracker.Refresh()
                         if item then
                             -- Create or reuse item button
                             if not button.itemButton then
-                                button.itemButton = CreateFrame("BUTTON", "pfQuestTrackerItem_" .. bid, button)
-                                button.itemButton:SetWidth(14)
-                                button.itemButton:SetHeight(14)
+                                button.itemButton = CreateFrame("BUTTON", "pfQuestTrackerItem_" .. bid, button, "WatchFrameItemButtonTemplate")
 
                                 -- Create the icon texture manually
                                 button.itemButton.icon = button.itemButton:CreateTexture(nil, "BACKGROUND")
@@ -908,14 +906,6 @@ function tracker.Refresh()
                                 button.itemButton.count:SetFont(pfUI.font_default, 10, "OUTLINE")
                                 button.itemButton.count:SetPoint("BOTTOMRIGHT", -2, 2)
                                 button.itemButton.count:SetTextColor(1, 1, 1)
-
-                                -- Add click handler to use the item
-                                button.itemButton:SetScript(
-                                    "OnClick",
-                                    function()
-                                        UseQuestLogSpecialItem(this:GetID())
-                                    end
-                                )
 
                                 -- Add tooltip
                                 button.itemButton:SetScript(
