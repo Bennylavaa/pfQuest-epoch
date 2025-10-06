@@ -288,6 +288,49 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   if quest["min"] and quest["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
   -- hide event quests
   if quest["event"] and pfQuest_config["showfestival"] == "0" then return end
+  -- hide PvP quests
+  if pfQuest_config["epochHidePvPQuests"] == "1" then
+    local title = pfDB.quests.loc[id].T
+    if title and (
+      string.find(title, "Warsong") or
+      string.find(title, "Arathi") or
+      string.find(title, "Alterac") or
+      string.find(title, "Battleground") or
+      string.find(title, "Call to Skirmish")
+    ) then
+      return
+    end
+  end
+
+  -- hide Commission quests
+  if pfQuest_config["epochHideCommissionQuests"] == "1" then
+    local title = pfDB.quests.loc[id].T
+    if title and string.find(title, "Commission for") then
+      return
+    end
+  end
+
+  -- hide chicken quests
+  if pfQuest_config["epochHideChickenQuests"] == "1" then
+    local title = pfDB.quests.loc[id].T
+    if title and string.find(title, "CLUCK!") then
+      return
+    end
+  end
+
+  -- hide Felwood flowers
+  if pfQuest_config["epochHideFelwoodFlowers"] == "1" then
+    local title = pfDB.quests.loc[id].T
+    if title and (
+      title == "Corrupted Windblossom" or
+      title == "Corrupted Whipper Root" or
+      title == "Corrupted Songflower" or
+      title == "Corrupted Night Dragon"
+    ) then
+      return
+    end
+  end
+
   return true
 end
 

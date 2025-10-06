@@ -621,49 +621,6 @@ function pfMap:UpdateNodes()
                                         break
                                     end
 
-                                    -- Skip chicken quests (if enabled in config)
-                                    if pfQuest_config["epochHideChickenQuests"] == "1" then
-                                        if title == "CLUCK!" or title == "Cluck!" or string.find(title, "CLUCK") then
-                                            skipNode = true
-                                            break
-                                        end
-                                    end
-
-                                    -- Skip felwood flowers (if enabled in config)
-                                    if pfQuest_config["epochHideFelwoodFlowers"] == "1" then
-                                        if
-                                            title == "Corrupted Windblossom" or title == "Corrupted Whipper Root" or
-                                                title == "Corrupted Songflower" or
-                                                title == "Corrupted Night Dragon"
-                                         then
-                                            skipNode = true
-                                            break
-                                        end
-                                    end
-
-                                    -- Skip PvP quests (if enabled in config)
-                                    if pfQuest_config["epochHidePvPQuests"] == "1" then
-                                        if
-                                            string.find(title, "Warsong") or string.find(title, "Arathi") or
-                                                string.find(title, "Alterac") or
-                                                string.find(title, "Battleground") or
-                                                string.find(title, "Call to Skirmish")
-                                         then
-                                            skipNode = true
-                                            break
-                                        end
-                                    end
-
-                                    -- Skip Commission quests (if enabled in config)
-                                    if pfQuest_config["epochHideCommissionQuests"] == "1" then
-                                        if
-                                            string.find(title, "Commission for")
-                                         then
-                                            skipNode = true
-                                            break
-                                        end
-                                    end
-
                                     local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                                     local minLevel = tonumber(data.min) or 0
 
@@ -929,49 +886,6 @@ function pfMap:UpdateNodes()
                                 break
                             end
 
-                            -- Skip chicken quests (if enabled in config)
-                            if pfQuest_config["epochHideChickenQuests"] == "1" then
-                                if title == "CLUCK!" or title == "Cluck!" or string.find(title, "CLUCK") then
-                                    skipNode = true
-                                    break
-                                end
-                            end
-
-                            -- Skip felwood flowers (if enabled in config)
-                            if pfQuest_config["epochHideFelwoodFlowers"] == "1" then
-                                if
-                                    title == "Corrupted Windblossom" or title == "Corrupted Whipper Root" or
-                                        title == "Corrupted Songflower" or
-                                        title == "Corrupted Night Dragon"
-                                 then
-                                    skipNode = true
-                                    break
-                                end
-                            end
-
-                            -- Skip PvP quests (if enabled in config)
-                            if pfQuest_config["epochHidePvPQuests"] == "1" then
-                                if
-                                    string.find(title, "Warsong") or string.find(title, "Arathi") or
-                                        string.find(title, "Alterac") or
-                                        string.find(title, "Battleground") or
-                                        string.find(title, "Call to Skirmish")
-                                 then
-                                    skipNode = true
-                                    break
-                                end
-                            end
-
-                            -- Skip Commission quests (if enabled in config)
-                            if pfQuest_config["epochHideCommissionQuests"] == "1" then
-                                if
-                                    string.find(title, "Commission for")
-                                 then
-                                    skipNode = true
-                                    break
-                                end
-                            end
-
                             local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                             local minLevel = tonumber(data.min) or 0
 
@@ -1229,7 +1143,7 @@ local function ExtendPfQuestConfig()
             config = "trackerwidth"
         }
     )
-    
+
     -- Initialize the config values with defaults
     pfQuest_config["epochContinentPins"] = pfQuest_config["epochContinentPins"] or "1"
     pfQuest_config["continentClickThrough"] = pfQuest_config["continentClickThrough"] or "0"
