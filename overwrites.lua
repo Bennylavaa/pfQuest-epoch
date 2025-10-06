@@ -1348,6 +1348,7 @@ do -- quests
   pfDB["quests"]["data-epoch"][7583] = { } -- Remove Suppression
   pfDB["quests"]["data-epoch"][7487] = { } -- Remove old Attunment to the Core
   pfDB["quests"]["data-epoch"][7848] = { } -- Remove old Attunment to the Core
+  pfDB["quests"]["data-epoch"][349] = { } -- Remove weird Stranglethorn Fever temp log
 end
 
 do -- Objects
