@@ -27685,9 +27685,10 @@ pfDB["quests"]["data-epoch"] = {
       ["I"] = { 3576 },
     },
     ["skill"] = 186,
-    ["skillmin"] = 150,
+    ["skillmin"] = 100,
     ["lvl"] = 15,
     ["min"] = 5,
+    ["race"] = 77,
   },
   [28640] = {
     ["start"] = {
