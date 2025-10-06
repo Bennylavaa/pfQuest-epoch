@@ -2,6 +2,13 @@ local loc = GetLocale()
 local dbs = { "items", "quests", "quests-itemreq", "objects", "units", "zones", "professions", "areatrigger", "refloot" }
 local noloc = { "items", "quests", "objects", "units" }
 
+local function tsize(tbl)
+  if not tbl or not type(tbl) == "table" then return 0 end
+  local c = 0
+  for _ in pairs(tbl) do c = c + 1 end
+  return c
+end
+
 -- Patch databases to merge ProjectEpoch data
 local function patchtable(base, diff)
   for k, v in pairs(diff) do
@@ -168,11 +175,31 @@ function pfDatabase:QueryServer()
     local completedQuests = GetQuestsCompleted()
     if type(completedQuests) == "table" then
       local count = 0
+      local closed = 0
+
+      -- First pass: mark all completed quests
       for questID, _ in pairs(completedQuests) do
         pfQuest_history[questID] = { time(), UnitLevel("player") }
         count = count + 1
       end
+
+      -- Second pass: auto-close mutually exclusive quests
+      for questID, _ in pairs(pfQuest_history) do
+        local questData = pfDB["quests"]["data"][questID]
+        if questData and questData["close"] then
+          for _, closedQuestID in pairs(questData["close"]) do
+            if not pfQuest_history[closedQuestID] then
+              pfQuest_history[closedQuestID] = { time(), UnitLevel("player") }
+              closed = closed + 1
+            end
+          end
+        end
+      end
+
       DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Found " .. count .. " completed quests.")
+      if closed > 0 then
+        DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Auto-closed " .. closed .. " mutually exclusive quests.")
+      end
       pfQuest:ResetAll()
       DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest: Query Complete. Please /reload to save the changes.")
     elseif completedQuests == nil then
@@ -1047,6 +1074,128 @@ pfMap.NodeEnter = function()
     end
   end
 end
+
+pfQuest:SetScript("OnUpdate", function()
+  if this.lock and this.lock > GetTime() then return end
+  if not pfDatabase.localized then return end
+
+  if ( this.tick or .05) > GetTime() then return else this.tick = GetTime() + .05 end
+
+  -- check questlog each second
+  if ( this.qlogtick or 1) < GetTime() then
+    if pfQuest:UpdateQuestlog() then
+      pfQuest:Debug("Update Quest|cff33ffcc Log|r [|cffff3333Tick|r]")
+    end
+    this.qlogtick = GetTime() + 1
+  end
+
+  if this.updateQuestLog == true and tsize(this.queue) == 0 then
+    pfQuest:Debug("Update Quest|cff33ffcc Log")
+    pfQuest:UpdateQuestlog()
+    this.updateQuestLog = false
+  end
+
+  if this.updateQuestGivers == true then
+    pfQuest:Debug("Update Quest|cff33ffcc Givers")
+    if pfQuest_config["trackingmethod"] ~= 4 and
+      pfQuest_config["allquestgivers"] == "1"
+    then
+      local meta = { ["addon"] = "PFQUEST" }
+      pfDatabase:SearchQuests(meta)
+    end
+    this.updateQuestGivers = false
+  end
+
+  if tsize(this.queue) == 0 then return end
+
+  -- process queue
+  for id, entry in pairs(this.queue) do
+
+    -- remove quest
+    if entry[4] == "REMOVE" then
+      pfQuest:Debug("|cffff5555Remove Quest: " .. entry[1] .. " (" .. entry[2] .. ")")
+
+      -- write pfQuest.questlog history
+      if entry[1] == pfQuest.abandon then
+        pfQuest_history[entry[2]] = nil
+      else
+        pfQuest_history[entry[2]] = { time(), UnitLevel("player") }
+
+        -- Check for mutually exclusive quests
+        local questData = pfDB["quests"]["data"][entry[2]]
+        if questData and questData["close"] then
+          for _, closedQuestID in pairs(questData["close"]) do
+            -- Mark related quests as completed so they won't show
+            if not pfQuest_history[closedQuestID] then
+              pfQuest_history[closedQuestID] = { time(), UnitLevel("player") }
+              pfQuest:Debug("|cffffaa00Auto-closed related quest: " .. closedQuestID)
+
+              -- Also remove from map if it's showing
+              if pfDB["quests"]["loc"][closedQuestID] and pfDB["quests"]["loc"][closedQuestID].T then
+                pfMap:DeleteNode("PFQUEST", pfDB["quests"]["loc"][closedQuestID].T)
+              end
+            end
+          end
+
+          -- Trigger quest giver update to hide newly closed quests
+          this.updateQuestGivers = true
+        end
+      end
+
+      if pfQuest_config["trackingmethod"] ~= 4 then
+        -- delete nodes by title
+        pfMap:DeleteNode("PFQUEST", entry[1])
+
+        -- also delete nodes by quest ids for servers with different names
+        if entry[2] and pfDB["quests"]["loc"][entry[2]] and pfDB["quests"]["loc"][entry[2]].T then
+          pfMap:DeleteNode("PFQUEST", pfDB["quests"]["loc"][entry[2]].T)
+        end
+      end
+
+      pfQuest.abandon = ""
+    else
+      if entry[4] == "NEW" then
+        pfQuest:Debug("|cff55ff55New Quest: " .. entry[1] .. " (" .. entry[2] .. ")")
+      else
+        pfQuest:Debug("|cffffff55Update Quest: " .. entry[1] .. " (" .. entry[2] .. ")")
+      end
+
+      -- update quest nodes
+      if pfQuest_config["trackingmethod"] ~= 4 then
+        -- delete node by title
+        pfMap:DeleteNode("PFQUEST", entry[1])
+
+        -- delete nodes by quest ids for servers with different names
+        if entry[2] and pfDB["quests"]["loc"][entry[2]] and pfDB["quests"]["loc"][entry[2]].T then
+          pfMap:DeleteNode("PFQUEST", pfDB["quests"]["loc"][entry[2]].T)
+        end
+
+        -- skip quest objective detection on manual and tacked mode
+        if pfQuest_config["trackingmethod"] ~= 3 and
+          (pfQuest_config["trackingmethod"] ~= 2 or IsQuestWatched(entry[3]))
+        then
+          local meta = { ["addon"] = "PFQUEST", ["qlogid"] = entry[3] }
+          pfDatabase:SearchQuestID(entry[2], meta)
+        end
+      end
+    end
+
+    -- remove entry from queue
+    pfQuest.queue[id] = nil
+
+    -- only return when other entries exist
+    -- otherwise, continue and update questgivers
+    for id, entry in pairs(this.queue) do
+      return
+    end
+  end
+
+  -- trigger questgiver update
+  if tsize(this.queue) == 0 then
+    this.updateQuestLog = true
+    this.updateQuestGivers = true
+  end
+end)
 
 function pfDatabase:BuildQuestDescription(meta)
   if not meta.title or not meta.quest or not meta.QTYPE then return meta.description end
