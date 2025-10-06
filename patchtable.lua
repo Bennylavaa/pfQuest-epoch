@@ -153,158 +153,7 @@ end)
 
 local originalSlashHandler = SlashCmdList["PFDB"]
 
-pfQuest_showingCoins = false
-
-local coinObjects = {}
-local coinQuests = {}
-
-if pfDB["meta-epoch"] and pfDB["meta-epoch"]["coins"] then
-  for objectId, _ in pairs(pfDB["meta-epoch"]["coins"] or {}) do
-    coinObjects[math.abs(objectId)] = true
-  end
-end
-
-if pfDB["quests"]["data-epoch"] then
-  for questId, questData in pairs(pfDB["quests"]["data-epoch"]) do
-    if questData["start"] and questData["start"]["O"] then
-      for _, objectId in pairs(questData["start"]["O"]) do
-        if coinObjects[objectId] then
-          coinQuests[questId] = true
-        end
-      end
-    end
-  end
-end
-
-local function RefreshCoinsDisplay()
-  if pfQuest_showingCoins then
-    pfMap:DeleteNode("PFDB")
-    local meta = { ["addon"] = "PFDB" }
-    local query = { name = "coins" }
-    meta["texture"] = "Interface\\MoneyFrame\\UI-GoldIcon"
-    local maps = pfDatabase:SearchMetaRelation(query, meta)
-    pfMap:UpdateNodes()
-  end
-end
-
-local originalSearchObjectID = pfDatabase.SearchObjectID
-pfDatabase.SearchObjectID = function(self, id, meta, maps, prio)
-  if coinObjects[id] then
-    if not pfQuest_showingCoins then
-      return maps or {}
-    end
-    if pfQuest_showingCoins then
-      for questId, questData in pairs(pfDB["quests"]["data"] or {}) do
-        if questData["start"] and questData["start"]["O"] then
-          for _, objectId in pairs(questData["start"]["O"]) do
-            if objectId == id then
-              if pfQuest_history[questId] then
-                return maps or {}
-              end
-              if pfQuest.questlog[questId] then
-                meta = meta or {}
-                meta["texture"] = "Interface\\MoneyFrame\\UI-SilverIcon"
-                meta["vertex"] = { 0.8, 0.8, 0.8 } -- Grey tint
-              else
-                meta = meta or {}
-                meta["texture"] = "Interface\\MoneyFrame\\UI-GoldIcon"
-                meta["vertex"] = nil -- No tint
-              end
-              break
-            end
-          end
-        end
-      end
-    end
-  end
-
-  return originalSearchObjectID(self, id, meta, maps, prio)
-end
-
-local coinEventFrame = CreateFrame("Frame")
-coinEventFrame:RegisterEvent("QUEST_LOG_UPDATE")
-coinEventFrame:RegisterEvent("QUEST_WATCH_UPDATE")
-coinEventFrame:RegisterEvent("QUEST_ABANDONED")
-coinEventFrame:RegisterEvent("QUEST_COMPLETE")
-coinEventFrame:RegisterEvent("UI_INFO_MESSAGE")
-coinEventFrame:SetScript("OnEvent", function(self, event, ...)
-  if event == "UI_INFO_MESSAGE" then
-    local messageType = ...
-    if messageType == 32 then
-      RefreshCoinsDisplay()
-    end
-  elseif event == "QUEST_ABANDONED" then
-    RefreshCoinsDisplay()
-  elseif event == "QUEST_COMPLETE" then
-    RefreshCoinsDisplay()
-  else
-    self.refreshTimer = GetTime() + 0.5
-    self:Show()
-  end
-end)
-
-coinEventFrame:SetScript("OnUpdate", function(self)
-  if self.refreshTimer and GetTime() >= self.refreshTimer then
-    self.refreshTimer = nil
-    RefreshCoinsDisplay()
-    self:Hide()
-  end
-end)
-
-coinEventFrame:Hide()
-
-SlashCmdList["PFDB"] = function(input, editbox)
-  local params = {}
-  local meta = { ["addon"] = "PFDB" }
-
-  if (input == "" or input == nil) then
-    -- Temporarily override AddMessage to filter out coins command
-    local originalAddMessage = DEFAULT_CHAT_FRAME.AddMessage
-    DEFAULT_CHAT_FRAME.AddMessage = function(self, msg, ...)
-      if not string.find(msg, "coins") then
-        originalAddMessage(self, msg, ...)
-      end
-    end
-
-    -- Call original handler
-    originalSlashHandler(input, editbox)
-
-    -- Restore original AddMessage
-    DEFAULT_CHAT_FRAME.AddMessage = originalAddMessage
-    return
-  end
-
-  local commandlist = { }
-  local command
-
-  local compat = pfQuestCompat
-  for command in compat.gfind(input, "[^ ]+") do
-    table.insert(commandlist, command)
-  end
-
-  local arg1 = commandlist[1]
-
-  if (arg1 == "coins") then
-    -- Set flag to allow coin content to be shown
-    pfQuest_showingCoins = true
-
-    local query = {
-      name = "coins",
-    }
-
-    meta["texture"] = "Interface\\MoneyFrame\\UI-GoldIcon"
-    local maps = pfDatabase:SearchMetaRelation(query, meta)
-    pfMap:ShowMapID(pfDatabase:GetBestMap(maps))
-
-    return
-  end
-
-  if pfQuest_showingCoins then
-    pfQuest_showingCoins = false
-    pfMap:DeleteNode("PFDB")
-  end
-  originalSlashHandler(input, editbox)
-end
+SlashCmdList["PFDB"] = originalSlashHandler
 
 function pfDatabase:QueryServer()
   if not QueryQuestsCompleted then
@@ -408,8 +257,6 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   if pfQuest_history[id] then return end
   -- hide broken quests without names
   if not pfDB.quests.loc[id] or not pfDB.quests.loc[id].T then return end
-
-  if coinQuests[id] and not pfQuest_showingCoins then return end
 
   local quest = pfDB["quests"]["data"][id]
   if not quest then return end
@@ -656,9 +503,6 @@ end)
 -- Item Drop System
 local originalSearchQuestID = pfDatabase.SearchQuestID
 pfDatabase.SearchQuestID = function(self, id, meta, maps)
-  if coinQuests[id] and not pfQuest_showingCoins then
-    return maps or {}
-  end
 
   maps = originalSearchQuestID(self, id, meta, maps)
 
