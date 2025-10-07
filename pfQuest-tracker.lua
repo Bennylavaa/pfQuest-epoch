@@ -423,15 +423,18 @@ function tracker.CreateZoneHeader(zone)
     )
 
     header:SetScript(
-        "OnUpdate",
+        "OnEnter",
         function()
             local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
+            this.bg:SetTexture(0.2, 0.2, 0.2, math.max(.5, alpha))
+        end
+    )
 
-            if MouseIsOver(this) then
-                this.bg:SetTexture(0.2, 0.2, 0.2, math.max(.5, alpha))
-            else
-                this.bg:SetTexture(0.1, 0.1, 0.1, math.max(.3, alpha))
-            end
+    header:SetScript(
+        "OnLeave",
+        function()
+            local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
+            this.bg:SetTexture(0.1, 0.1, 0.1, math.max(.3, alpha))
         end
     )
 
@@ -451,34 +454,24 @@ end
 
 function tracker.ButtonEnter()
     pfMap.highlight = this.title
+
+    local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
+    this.bg:SetTexture(1, 1, 1, math.max(.2, alpha))
+    this.bg:SetAlpha(math.max(.5, alpha))
+    this.highlight = true
+    
     ShowTooltip()
 end
 
 function tracker.ButtonLeave()
     pfMap.highlight = nil
-    HideTooltip()
-end
 
-function tracker.ButtonUpdate()
     local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
-
-    if not this.alpha or this.alpha ~= alpha then
-        this.bg:SetTexture(0, 0, 0, alpha)
-        this.bg:SetAlpha(alpha)
-        this.alpha = alpha
-    end
-
-    if pfMap.highlight and pfMap.highlight == this.title then
-        if not this.highlight then
-            this.bg:SetTexture(1, 1, 1, math.max(.2, alpha))
-            this.bg:SetAlpha(math.max(.5, alpha))
-            this.highlight = true
-        end
-    elseif this.highlight then
-        this.bg:SetTexture(0, 0, 0, alpha)
-        this.bg:SetAlpha(alpha)
-        this.highlight = nil
-    end
+    this.bg:SetTexture(0, 0, 0, alpha)
+    this.bg:SetAlpha(alpha)
+    this.highlight = nil
+    
+    HideTooltip()
 end
 
 function tracker.ButtonClick()
@@ -1159,7 +1152,6 @@ function tracker.ButtonAdd(title, node)
 
         tracker.buttons[id]:SetScript("OnEnter", tracker.ButtonEnter)
         tracker.buttons[id]:SetScript("OnLeave", tracker.ButtonLeave)
-        tracker.buttons[id]:SetScript("OnUpdate", tracker.ButtonUpdate)
         tracker.buttons[id]:SetScript("OnEvent", tracker.ButtonEvent)
         tracker.buttons[id]:SetScript("OnClick", tracker.ButtonClick)
     end
