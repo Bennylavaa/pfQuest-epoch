@@ -668,21 +668,19 @@ function tracker.ButtonClick()
 end
 
 local function trackersort(a, b)
-    if a.empty then
-        return false
-    elseif (a.zone or "") ~= (b.zone or "") then
-        return (a.zone or "") < (b.zone or "")
-    elseif (a.tracked and 1 or -1) ~= (b.tracked and 1 or -1) then
-        return (a.tracked and 1 or -1) > (b.tracked and 1 or -1)
-    elseif (a.level or -1) ~= (b.level or -1) then
-        return (a.level or -1) > (b.level or -1)
-    elseif (a.perc or -1) ~= (b.perc or -1) then
-        return (a.perc or -1) > (b.perc or -1)
-    elseif (a.title or "") ~= (b.title or "") then
-        return (a.title or "") < (b.title or "")
-    else
+    if a.empty or b.empty then
         return false
     end
+
+    -- Both have quest IDs
+    if a.questid and b.questid and pfQuest.questlog[a.questid] and pfQuest.questlog[b.questid] then
+        local aIndex = pfQuest.questlog[a.questid].qlogid or 999
+        local bIndex = pfQuest.questlog[b.questid].qlogid or 999
+        return aIndex < bIndex
+    end
+
+    -- Fallback: maintain existing order for non-quests
+    return false
 end
 
 -- Helper function to get quest zone from quest log
@@ -917,8 +915,6 @@ function tracker.ButtonEvent(self)
         self.tooltip = "|cff33ffcc<Click>|r Unfold/Fold Criteria\n|cff33ffcc<Shift-Click>|r Untrack Achievement"
     end
 
-    table.sort(tracker.buttons, trackersort)
-
     self:Show()
 
     local now = GetTime()
@@ -979,6 +975,10 @@ function tracker.ButtonEvent(self)
                     button.bg:SetAlpha(alpha)
                 end
 
+                button.text:ClearAllPoints()
+                button.text:SetPoint("TOPLEFT", 16, -4)
+                button.text:SetPoint("TOPRIGHT", -10, -4)
+
                 if tracker.mode == "QUEST_TRACKING" and button.questid and pfQuest.questlog[button.questid] then
                     local qlogid = pfQuest.questlog[button.questid].qlogid
                     if qlogid then
@@ -1008,6 +1008,12 @@ function tracker.ButtonEvent(self)
                                 button.itemButton.count:SetFont(pfUI.font_default, 10, "OUTLINE")
                                 button.itemButton.count:SetPoint("BOTTOMRIGHT", -2, 2)
                                 button.itemButton.count:SetTextColor(1, 1, 1)
+
+                                -- Ensure cooldown frame exists
+                                if not button.itemButton.cooldown then
+                                    button.itemButton.cooldown = CreateFrame("Cooldown", nil, button.itemButton, "CooldownFrameTemplate")
+                                    button.itemButton.cooldown:SetAllPoints()
+                                end
 
                                 -- Add tooltip
                                 button.itemButton:SetScript(
@@ -1048,6 +1054,14 @@ function tracker.ButtonEvent(self)
                                 itemButton.count:Show()
                             else
                                 itemButton.count:Hide()
+                            end
+
+                            -- Handle cooldown
+                            local start, duration, enable = GetQuestLogSpecialItemCooldown(qlogid)
+                            if start and duration then
+                                CooldownFrame_Set(itemButton.cooldown, start, duration, enable)
+                            else
+                                CooldownFrame_Clear(itemButton.cooldown)
                             end
 
                             -- Position
@@ -1325,6 +1339,7 @@ function tracker.Reset()
         tracker.AddTrackedAchievements()
     end
 
+    table.sort(tracker.buttons, trackersort)
     tracker.Refresh()
 end
 

@@ -579,6 +579,10 @@ pfDatabase.SearchQuestID = function(self, id, meta, maps)
 
   if not quests[id] then return maps end
 
+  if pfQuest_config["epochHideItemDrops"] == "1" then
+    return maps
+  end
+
   if pfQuest_config["currentquestgivers"] == "1" then
     if quests[id]["start"] and not meta["qlogid"] then
       if quests[id]["start"]["I"] then
@@ -779,6 +783,10 @@ pfDatabase.SearchQuests = function(self, meta, maps)
   local units = pfDB["units"]["data"]
   local objects = pfDB["objects"]["data"]
   local refloot = pfDB["refloot"]["data"]
+
+  if pfQuest_config["epochHideItemDrops"] == "1" then
+    return maps
+  end
 
   local plevel = UnitLevel("player")
   local pfaction = UnitFactionGroup("player")

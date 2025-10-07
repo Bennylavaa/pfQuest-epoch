@@ -1087,6 +1087,15 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
+            text = "Hide Item Drop Quest Starters",
+            default = "0",
+            type = "checkbox",
+            config = "epochHideItemDrops"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
             text = "|cff33ffccQuest Tracker Style|r",
             type = "header"
         }
@@ -1153,6 +1162,7 @@ local function ExtendPfQuestConfig()
     pfQuest_config["epochHideFelwoodFlowers"] = pfQuest_config["epochHideFelwoodFlowers"] or "1"
     pfQuest_config["epochHidePvPQuests"] = pfQuest_config["epochHidePvPQuests"] or "1"
     pfQuest_config["epochHideCommissionQuests"] = pfQuest_config["epochHideCommissionQuests"] or "0"
+    pfQuest_config["epochHideItemDrops"] = pfQuest_config["epochHideItemDrops"] or "0"
     pfQuest_config["trackershowzones"] = pfQuest_config["trackershowzones"] or "0"
     pfQuest_config["trackerfixedheight"] = pfQuest_config["trackerfixedheight"] or "0"
     pfQuest_config["trackerheight"] = pfQuest_config["trackerheight"] or "400"
