@@ -1,10 +1,80 @@
 -- multi api compat
 local compat = pfQuestCompat
+local TRACKER_MAX_BUTTONS = 25
+local TRACKER_MAX_ZONE_HEADERS = 25
+
+-- Cleanup function
+local function CleanupOldTracker()
+    if pfQuest and pfQuest.tracker then
+        local old = pfQuest.tracker
+
+        -- Unregister all events first
+        old:UnregisterAllEvents()
+
+        -- Clean up buttons and their children
+        if old.buttons then
+            for id, button in pairs(old.buttons) do
+                -- Clean item buttons
+                if button.itemButton then
+                    button.itemButton:UnregisterAllEvents()
+                    button.itemButton:SetScript("OnClick", nil)
+                    button.itemButton:SetScript("OnEnter", nil)
+                    button.itemButton:SetScript("OnLeave", nil)
+                    button.itemButton:Hide()
+                    button.itemButton = nil
+                end
+
+                -- Clean objectives
+                if button.objectives then
+                    for i, obj in pairs(button.objectives) do
+                        obj:Hide()
+                        obj = nil
+                    end
+                    button.objectives = nil
+                end
+
+                -- Clean button
+                button:UnregisterAllEvents()
+                button:SetScript("OnClick", nil)
+                button:SetScript("OnEnter", nil)
+                button:SetScript("OnLeave", nil)
+                button:SetScript("OnEvent", nil)
+                button:Hide()
+            end
+            old.buttons = nil
+        end
+
+        -- Clean zone headers
+        if old.zoneheaders then
+            for zone, header in pairs(old.zoneheaders) do
+                header:SetScript("OnClick", nil)
+                header:SetScript("OnEnter", nil)
+                header:SetScript("OnLeave", nil)
+                header:Hide()
+            end
+            old.zoneheaders = nil
+        end
+
+        -- Clean quest items table
+        if old.questitems then
+            old.questitems = nil
+        end
+
+        -- Hide and clear the main tracker
+        old:Hide()
+        pfQuest.tracker = nil
+    end
+end
+
+-- Call cleanup before creating tracker
+CleanupOldTracker()
 
 local fontsize = 12
 local panelheight = 16
 local entryheight = 20
 local zoneheight = 18
+local questItemCache = {}
+local lastCacheClean = 0
 
 local function HideTooltip()
     GameTooltip:Hide()
@@ -164,6 +234,34 @@ tracker:SetScript(
         if pfQuestCompat.QuestWatchFrame:IsShown() then
             pfQuestCompat.QuestWatchFrame:Hide()
         end
+
+        -- Periodic cleanup check
+        this.cleanupTimer = (this.cleanupTimer or 0) + arg1
+        if this.cleanupTimer > 30 then
+            this.cleanupTimer = 0
+
+            -- Hide unused zone headers
+            local usedZones = {}
+            for bid, button in pairs(tracker.buttons) do
+                if not button.empty and button.zone then
+                    usedZones[button.zone] = true
+                end
+            end
+
+            for zone, header in pairs(tracker.zoneheaders) do
+                if not usedZones[zone] then
+                    header:Hide()
+                end
+            end
+
+            -- Clear old item cache entries
+            local now = GetTime()
+            for qlogid, cache in pairs(questItemCache) do
+                if now - (cache.time or 0) > 60 then
+                    questItemCache[qlogid] = nil
+                end
+            end
+        end
     end
 )
 
@@ -298,6 +396,7 @@ do -- button panel
         "TOPLEFT",
         pfQuest_Loc["Show Database Results"],
         function()
+            tracker.CleanupUnusedHeaders()
             tracker.mode = "DATABASE_TRACKING"
             tracker.scrollframe.currentScroll = 0
             tracker.scrollframe:SetVerticalScroll(0)
@@ -311,6 +410,7 @@ do -- button panel
         "TOPLEFT",
         pfQuest_Loc["Show Quest Givers"],
         function()
+            tracker.CleanupUnusedHeaders()
             tracker.mode = "GIVER_TRACKING"
             tracker.scrollframe.currentScroll = 0
             tracker.scrollframe:SetVerticalScroll(0)
@@ -319,6 +419,7 @@ do -- button panel
         end
     )
 
+    -- Achievement button (only if API exists)
     if GetTrackedAchievements then
         tracker.btnachievement =
             CreateButton(
@@ -326,6 +427,7 @@ do -- button panel
             "TOPLEFT",
             "Show Tracked Achievements",
             function()
+                tracker.CleanupUnusedHeaders()
                 tracker.mode = "ACHIEVEMENT_TRACKING"
                 tracker.scrollframe.currentScroll = 0
                 tracker.scrollframe:SetVerticalScroll(0)
@@ -386,14 +488,43 @@ do -- button panel
     )
 end
 
+function tracker.CleanupUnusedHeaders()
+    -- When switching modes, clean up zone headers that aren't needed
+    if tracker.mode ~= "QUEST_TRACKING" then
+        for zone, header in pairs(tracker.zoneheaders) do
+            header:Hide()
+            header:SetScript("OnClick", nil)
+            header:SetScript("OnEnter", nil)
+            header:SetScript("OnLeave", nil)
+            tracker.zoneheaders[zone] = nil
+        end
+    end
+end
+
 -- Zone Header Functions
 function tracker.CreateZoneHeader(zone)
+    -- Count existing headers
+    local count = 0
+    for z, h in pairs(tracker.zoneheaders) do
+        count = count + 1
+    end
+
+    -- Prevent creating too many headers
+    if count >= TRACKER_MAX_ZONE_HEADERS then
+        DEFAULT_CHAT_FRAME:AddMessage("|cffff0000pfQuest: Too many zone headers (" .. count .. "), cleanup needed|r")
+        return nil
+    end
+
     local header = CreateFrame("Button", nil, tracker.scrollchild)
     header:SetHeight(zoneheight)
     header.zone = zone
 
     header.bg = header:CreateTexture(nil, "BACKGROUND")
     header.bg:SetAllPoints()
+
+    -- Initialize background using trackeralpha config
+    local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
+    header.bg:SetTexture(0, 0, 0, alpha)
 
     header.text = header:CreateFontString(nil, "HIGH", "GameFontNormal")
     header.text:SetFont(pfUI.font_default, fontsize)
@@ -425,16 +556,18 @@ function tracker.CreateZoneHeader(zone)
     header:SetScript(
         "OnEnter",
         function()
+            this.highlight = true
             local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
-            this.bg:SetTexture(0.2, 0.2, 0.2, math.max(.5, alpha))
+            this.bg:SetTexture(1, 1, 1, math.max(.2, alpha))
         end
     )
 
     header:SetScript(
         "OnLeave",
         function()
+            this.highlight = nil
             local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
-            this.bg:SetTexture(0.1, 0.1, 0.1, math.max(.3, alpha))
+            this.bg:SetTexture(0, 0, 0, alpha)
         end
     )
 
@@ -459,7 +592,7 @@ function tracker.ButtonEnter()
     this.bg:SetTexture(1, 1, 1, math.max(.2, alpha))
     this.bg:SetAlpha(math.max(.5, alpha))
     this.highlight = true
-    
+
     ShowTooltip()
 end
 
@@ -470,7 +603,7 @@ function tracker.ButtonLeave()
     this.bg:SetTexture(0, 0, 0, alpha)
     this.bg:SetAlpha(alpha)
     this.highlight = nil
-    
+
     HideTooltip()
 end
 
@@ -486,32 +619,31 @@ function tracker.ButtonClick()
             end
         end
     elseif IsShiftKeyDown() then
-            -- Handle achievement untracking
-            if tracker.mode == "ACHIEVEMENT_TRACKING" and this.node and this.node.achievementID then
-                RemoveTrackedAchievement(this.node.achievementID)
-                tracker.Reset()
-                return
-            end
+        -- Handle achievement untracking
+        if tracker.mode == "ACHIEVEMENT_TRACKING" and this.node and this.node.achievementID then
+            RemoveTrackedAchievement(this.node.achievementID)
+            tracker.Reset()
+            return
+        end
 
-            -- mark as done if node is quest and not in questlog
-            if this.node.questid and not this.node.qlogid then
-                -- mark as done in history
-                pfQuest_history[this.node.questid] = {time(), UnitLevel("player")}
-                UIErrorsFrame:AddMessage(
-                    string.format(
-                        "The Quest |cffffcc00[%s]|r (id:%s) is now marked as done.",
-                        this.title,
-                        this.node.questid
-                    ),
-                    1,
-                    1,
-                    1
-                )
-            end
+        -- mark as done if node is quest and not in questlog
+        if this.node.questid and not this.node.qlogid then
+            -- mark as done in history
+            pfQuest_history[this.node.questid] = {time(), UnitLevel("player")}
+            UIErrorsFrame:AddMessage(
+                string.format(
+                    "The Quest |cffffcc00[%s]|r (id:%s) is now marked as done.",
+                    this.title,
+                    this.node.questid
+                ),
+                1,
+                1,
+                1
+            )
+        end
 
-            pfMap:DeleteNode(this.node.addon, this.title)
-            pfMap:UpdateNodes()
-
+        pfMap:DeleteNode(this.node.addon, this.title)
+        pfMap:UpdateNodes()
         pfQuest.updateQuestGivers = true
     elseif IsControlKeyDown() and not WorldMapFrame:IsShown() then
         -- show world map
@@ -529,11 +661,9 @@ function tracker.ButtonClick()
     elseif expand_states[this.title] == 0 then
         expand_states[this.title] = 1
         tracker.ButtonEvent(this)
-        tracker.Refresh()
     elseif expand_states[this.title] == 1 then
         expand_states[this.title] = 0
         tracker.ButtonEvent(this)
-        tracker.Refresh()
     end
 end
 
@@ -581,7 +711,6 @@ function tracker.ButtonEvent(self)
 
     self:SetHeight(0)
 
-    -- we got an event on a hidden button
     if not title then
         return
     end
@@ -591,13 +720,11 @@ function tracker.ButtonEvent(self)
 
     self:SetHeight(entryheight)
 
-    -- initialize and hide all objectives
     self.objectives = self.objectives or {}
     for id, obj in pairs(self.objectives) do
         obj:Hide()
     end
 
-    -- update button icon
     if node.texture then
         self.icon:SetTexture(node.texture)
 
@@ -627,11 +754,9 @@ function tracker.ButtonEvent(self)
         local cur, max = 0, 0
         local percent = 0
 
-        -- Get zone information from quest log
         local zone = GetQuestZone(qlogid)
         self.zone = zone
 
-        -- write expand state
         if not expand_states[title] then
             expand_states[title] = pfQuest_config["trackerexpand"] == "1" and 1 or 0
         end
@@ -659,7 +784,6 @@ function tracker.ButtonEvent(self)
             percent = cur / max * 100
         end
 
-        -- expand button to show objectives
         if objectives and (expanded or (percent > 0 and percent < 100)) then
             self:SetHeight(entryheight + objectives * fontsize)
 
@@ -708,12 +832,10 @@ function tracker.ButtonEvent(self)
         local level = node.qlvl or node.level or UnitLevel("player")
         local color = pfQuestCompat.GetDifficultyColor(level)
 
-        -- red quests
         if node.qmin and node.qmin > UnitLevel("player") then
             color = {r = 1, g = 0, b = 0}
         end
 
-        -- detect daily quests
         if node.qmin and node.qlvl and math.abs(node.qmin - node.qlvl) >= 30 then
             level, color = 0, {r = .2, g = .8, b = 1}
         end
@@ -791,118 +913,91 @@ function tracker.ButtonEvent(self)
             end
         end
 
+        self.zone = nil
         self.tooltip = "|cff33ffcc<Click>|r Unfold/Fold Criteria\n|cff33ffcc<Shift-Click>|r Untrack Achievement"
     end
 
+    table.sort(tracker.buttons, trackersort)
+
     self:Show()
 
-    tracker.Refresh()
-end
-
-function tracker.AddTrackedAchievements()
-    -- Check if achievement API exists
-    if not GetTrackedAchievements then
-        return
+    local now = GetTime()
+    if now - lastCacheClean > 5 then
+        questItemCache = {}
+        lastCacheClean = now
     end
 
-    local trackedAchievements = {GetTrackedAchievements()}
-    if not trackedAchievements or table.getn(trackedAchievements) == 0 then
-        return
-    end
-
-    for i = 1, table.getn(trackedAchievements) do
-        local achievementID = trackedAchievements[i]
-        if achievementID then
-            local _, name, points, completed = GetAchievementInfo(achievementID)
-            if name and not completed then
-                local node = {
-                    dummy = true,
-                    addon = "ACHIEVEMENT",
-                    texture = "Interface\\AddOns\\pfQuest-epoch\\img\\achievement",
-                    achievementID = achievementID
-                }
-
-                tracker.ButtonAdd(name, node)
-            end
-        end
-    end
-end
-
-function tracker.Refresh()
-    -- Build array of only active buttons, sort it, then reassign
-    local activeButtons = {}
-    for bid, button in pairs(tracker.buttons) do
-        if not button.empty then
-            table.insert(activeButtons, button)
-        end
-    end
-
-    table.sort(activeButtons, trackersort)
-
-    -- Clear tracker.buttons and rebuild with sorted active buttons
-    for bid, button in pairs(tracker.buttons) do
-        tracker.buttons[bid] = nil
-    end
-
-    for idx, button in ipairs(activeButtons) do
-        tracker.buttons[idx] = button
-    end
-
-    -- Hide all zone headers first
     for zone, header in pairs(tracker.zoneheaders) do
         header:Hide()
     end
 
-    -- Check if zones should be shown
     local showZones = pfQuest_config["trackershowzones"] == "1"
-
-    -- resize window and align buttons
     local height = 0
     local width = 100
     local currentZone = nil
 
     for bid, button in pairs(tracker.buttons) do
         if not button.empty then
-            -- Check if we need a new zone header (only in modern mode)
             if showZones and tracker.mode == "QUEST_TRACKING" and button.zone and button.zone ~= currentZone then
                 currentZone = button.zone
 
-                -- Create zone header if it doesn't exist
                 if not tracker.zoneheaders[currentZone] then
                     tracker.zoneheaders[currentZone] = tracker.CreateZoneHeader(currentZone)
                 end
 
-                local zheader = tracker.zoneheaders[currentZone]
-                zheader:ClearAllPoints()
-                zheader:SetPoint("TOPRIGHT", tracker.scrollchild, "TOPRIGHT", 0, -height)
-                zheader:SetPoint("TOPLEFT", tracker.scrollchild, "TOPLEFT", 0, -height)
-                zheader:Show()
+                if tracker.zoneheaders[currentZone] then
+                    local zheader = tracker.zoneheaders[currentZone]
+                    zheader:ClearAllPoints()
+                    zheader:SetPoint("TOPRIGHT", tracker.scrollchild, "TOPRIGHT", 0, -height)
+                    zheader:SetPoint("TOPLEFT", tracker.scrollchild, "TOPLEFT", 0, -height)
+                    zheader:Show()
 
-                height = height + zoneheight
+                    -- Update background to match current alpha setting (if not being hovered)
+                    if not zheader.highlight then
+                        local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
+                        zheader.bg:SetTexture(0, 0, 0, alpha)
+                    end
 
-                if zheader.text:GetStringWidth() > width then
-                    width = zheader.text:GetStringWidth() + 30
+                    height = height + zoneheight
+
+                    local zwidth = zheader.text:GetStringWidth() + 30
+                    if zwidth > width then
+                        width = zwidth
+                    end
                 end
             end
 
-            -- Only show button if zone is expanded
             if not showZones or tracker.mode ~= "QUEST_TRACKING" or not currentZone or zone_expand_states[currentZone] then
                 button:ClearAllPoints()
                 button:SetPoint("TOPRIGHT", tracker.scrollchild, "TOPRIGHT", 0, -height)
                 button:SetPoint("TOPLEFT", tracker.scrollchild, "TOPLEFT", 0, -height)
                 button:Show()
 
-                -- Handle quest items
+                if not button.highlight then
+                    local alpha = tonumber((pfQuest_config["trackeralpha"] or .2)) or .2
+                    button.bg:SetTexture(0, 0, 0, alpha)
+                    button.bg:SetAlpha(alpha)
+                end
+
                 if tracker.mode == "QUEST_TRACKING" and button.questid and pfQuest.questlog[button.questid] then
                     local qlogid = pfQuest.questlog[button.questid].qlogid
                     if qlogid then
-                        -- Get item info directly without selecting
-                        local link, item, charges = GetQuestLogSpecialItemInfo(qlogid)
+                        local cached = questItemCache[qlogid]
+                        if not cached or (now - (cached.time or 0)) > 1 then
+                            local link, item, charges = GetQuestLogSpecialItemInfo(qlogid)
+                            questItemCache[qlogid] = {item = item, charges = charges, time = now}
+                            cached = questItemCache[qlogid]
+                        end
 
-                        if item then
-                            -- Create or reuse item button
+                        if cached.item then
                             if not button.itemButton then
-                                button.itemButton = CreateFrame("BUTTON", "pfQuestTrackerItem_" .. bid, button, "WatchFrameItemButtonTemplate")
+                                button.itemButton =
+                                    CreateFrame(
+                                    "BUTTON",
+                                    "pfQuestTrackerItem_" .. bid,
+                                    button,
+                                    "WatchFrameItemButtonTemplate"
+                                )
 
                                 -- Create the icon texture manually
                                 button.itemButton.icon = button.itemButton:CreateTexture(nil, "BACKGROUND")
@@ -945,11 +1040,11 @@ function tracker.Refresh()
                             itemButton:SetID(qlogid) -- Set the quest log ID for UseQuestLogSpecialItem
 
                             -- Set the texture
-                            itemButton.icon:SetTexture(item)
+                            itemButton.icon:SetTexture(cached.item)
 
                             -- Set the count
-                            if charges and charges > 1 then
-                                itemButton.count:SetText(charges)
+                            if cached.charges and cached.charges > 1 then
+                                itemButton.count:SetText(cached.charges)
                                 itemButton.count:Show()
                             else
                                 itemButton.count:Hide()
@@ -962,21 +1057,11 @@ function tracker.Refresh()
                             button.text:ClearAllPoints()
                             button.text:SetPoint("TOPLEFT", itemButton, "TOPRIGHT", 2, -4)
                             button.text:SetPoint("TOPRIGHT", -10, -4)
-                        else
-                            -- No item, hide button if it exists
-                            if button.itemButton then
-                                button.itemButton:Hide()
-                            end
-                            -- Reset text position to normal
-                            button.text:ClearAllPoints()
-                            button.text:SetPoint("TOPLEFT", 16, -4)
-                            button.text:SetPoint("TOPRIGHT", -10, -4)
                         end
                     else
                         if button.itemButton then
                             button.itemButton:Hide()
                         end
-                        -- Reset text position to normal
                         button.text:ClearAllPoints()
                         button.text:SetPoint("TOPLEFT", 16, -4)
                         button.text:SetPoint("TOPRIGHT", -10, -4)
@@ -985,7 +1070,6 @@ function tracker.Refresh()
                     if button.itemButton then
                         button.itemButton:Hide()
                     end
-                    -- Reset text position to normal when not in quest tracking
                     button.text:ClearAllPoints()
                     button.text:SetPoint("TOPLEFT", 16, -4)
                     button.text:SetPoint("TOPRIGHT", -10, -4)
@@ -993,13 +1077,17 @@ function tracker.Refresh()
 
                 height = height + button:GetHeight()
 
-                if button.text:GetStringWidth() > width then
-                    width = button.text:GetStringWidth()
+                local bwidth = button.text:GetStringWidth()
+                if bwidth > width then
+                    width = bwidth
                 end
 
                 for id, objective in pairs(button.objectives) do
-                    if objective:IsShown() and objective:GetStringWidth() > width then
-                        width = objective:GetStringWidth()
+                    if objective:IsShown() then
+                        local owidth = objective:GetStringWidth()
+                        if owidth > width then
+                            width = owidth
+                        end
                     end
                 end
             else
@@ -1016,10 +1104,8 @@ function tracker.Refresh()
         end
     end
 
-    -- Set scroll child height
     tracker.scrollchild:SetHeight(height)
 
-    -- Determine final dimensions
     local finalWidth, finalHeight
     local useFixedHeight = pfQuest_config["trackerfixedheight"] == "1"
     local useFixedWidth = pfQuest_config["trackerfixedwidth"] == "1"
@@ -1036,10 +1122,48 @@ function tracker.Refresh()
         finalHeight = height + panelheight
     end
 
-    -- Update tracker size
     tracker:SetWidth(finalWidth)
     tracker:SetHeight(finalHeight)
     tracker.scrollchild:SetWidth(finalWidth - 10)
+end
+
+function tracker.AddTrackedAchievements()
+    -- Check if achievement API exists
+    if not GetTrackedAchievements then
+        return
+    end
+
+    local trackedAchievements = {GetTrackedAchievements()}
+    if not trackedAchievements or table.getn(trackedAchievements) == 0 then
+        return
+    end
+
+    for i = 1, table.getn(trackedAchievements) do
+        local achievementID = trackedAchievements[i]
+        if achievementID then
+            local _, name, points, completed = GetAchievementInfo(achievementID)
+            if name and not completed then
+                local node = {
+                    dummy = true,
+                    addon = "ACHIEVEMENT",
+                    texture = "Interface\\AddOns\\pfQuest-epoch\\img\\achievement",
+                    achievementID = achievementID
+                }
+
+                tracker.ButtonAdd(name, node)
+            end
+        end
+    end
+end
+
+function tracker.Refresh()
+    -- Just trigger a ButtonEvent on the first non-empty button
+    for bid, button in pairs(tracker.buttons) do
+        if not button.empty then
+            tracker.ButtonEvent(button)
+            break
+        end
+    end
 end
 
 function tracker.ButtonAdd(title, node)
@@ -1055,26 +1179,24 @@ function tracker.ButtonAdd(title, node)
         end
     end
 
-    if tracker.mode == "QUEST_TRACKING" then -- skip everything that isn't in questlog
+    if tracker.mode == "QUEST_TRACKING" then
         if node.addon ~= "PFQUEST" then
             return
         end
         if not pfQuest.questlog or not pfQuest.questlog[questid] then
             return
         end
-    elseif tracker.mode == "GIVER_TRACKING" then -- skip everything that isn't a questgiver
+    elseif tracker.mode == "GIVER_TRACKING" then
         if node.addon ~= "PFQUEST" then
             return
         end
-        -- break on already taken quests
         if not pfQuest.questlog or pfQuest.questlog[questid] then
             return
         end
-        -- every layer above 2 is not a questgiver
         if not node.layer or node.layer > 2 then
             return
         end
-    elseif tracker.mode == "DATABASE_TRACKING" then -- skip everything that isn't db query
+    elseif tracker.mode == "DATABASE_TRACKING" then
         if node.addon ~= "PFDB" then
             return
         end
@@ -1090,27 +1212,19 @@ function tracker.ButtonAdd(title, node)
     for bid, button in pairs(tracker.buttons) do
         if button.title and button.title == title then
             if node.dummy or not node.texture then
-                -- We found a node icon (1st prio)
-                -- use the ID and update the button
                 id = bid
                 break
             elseif node.cluster and (not button.node or button.node.texture) then
-                -- We found a cluster icon (2nd prio)
-                -- set the id, but still try to find a node icon
                 id = bid
             else
-                -- got none of the above, therefore
-                -- no icon update required, skip here
                 return
             end
         end
     end
 
     if not id then
-        -- use maxcount + 1 as default id
         id = table.getn(tracker.buttons) + 1
 
-        -- detect a reusable button - USE ipairs() FOR SEQUENTIAL ORDER
         for bid = 1, table.getn(tracker.buttons) do
             if tracker.buttons[bid].empty then
                 id = bid
@@ -1119,7 +1233,7 @@ function tracker.ButtonAdd(title, node)
         end
     end
 
-    if id > 25 then
+    if id > TRACKER_MAX_BUTTONS then
         return
     end
 
@@ -1206,9 +1320,11 @@ function tracker.Reset()
         end
     end
 
+    -- Add tracked achievements if in achievement mode
     if tracker.mode == "ACHIEVEMENT_TRACKING" then
         tracker.AddTrackedAchievements()
     end
+
     tracker.Refresh()
 end
 
