@@ -1188,6 +1188,18 @@ do -- units/npcs
   pfDB["quests"]["data-epoch"][8221] = { } -- Rare Fish - Keefer's Angelfish
   pfDB["quests"]["data-epoch"][8225] = { } -- Rare Fish - Brownell's Blue Striped Racer
 
+  -- Remove Warsong PVP Quests
+  pfDB["quests"]["data-epoch"][7871] = { } -- Vanquish the Invaders!
+  pfDB["quests"]["data-epoch"][7872] = { } -- Vanquish the Invaders!
+  pfDB["quests"]["data-epoch"][7873] = { } -- Vanquish the Invaders!
+  pfDB["quests"]["data-epoch"][7788] = { } -- Vanquish the Invaders!
+  pfDB["quests"]["data-epoch"][8290] = { } -- Vanquish the Invaders!
+  pfDB["quests"]["data-epoch"][8291] = { } -- Vanquish the Invaders!
+  pfDB["quests"]["data-epoch"][8266] = { } -- Ribbons of Sacrifice
+  pfDB["quests"]["data-epoch"][8267] = { } -- Ribbons of Sacrifice
+  pfDB["quests"]["data-epoch"][8268] = { } -- Ribbons of Sacrifice
+  pfDB["quests"]["data-epoch"][8269] = { } -- Ribbons of Sacrifice
+
   -- Remove AB PVP Quests
   pfDB["quests"]["data-epoch"][8080] = { } -- Arathi Basin Resources!
   pfDB["quests"]["data-epoch"][8081] = { } -- More Resource Crates
