@@ -137,6 +137,7 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][14910] = { } -- Exzhal
   pfDB["units"]["data-epoch"][14921] = { } -- Rin'wosho the Trader
   pfDB["units"]["data-epoch"][15070] = { } -- Vinchaxa
+  pfDB["units"]["data-epoch"][14904] = { } -- Maywiki of Zuldazar
 
   -- Remove missing epl npcs will need to be added later with correct cords
   pfDB["units"]["data-epoch"][17069] = { } --Emissary Whitebeard 
@@ -1343,6 +1344,16 @@ do -- units/npcs
   pfDB["quests"]["data-epoch"][4482] = { } --Libram of Tenacity
   pfDB["quests"]["data-epoch"][4483] = { } --Libram of Resilience
   pfDB["quests"]["data-epoch"][4484] = { } --Libram of Voracity
+
+  -- Remove Diremaul Quests
+  pfDB["quests"]["data-epoch"][1000] = { } -- Remove The New Frontier
+  pfDB["quests"]["data-epoch"][1004] = { } -- Remove The New Frontier
+  pfDB["quests"]["data-epoch"][1015] = { } -- Remove The New Frontier
+  pfDB["quests"]["data-epoch"][1018] = { } -- Remove The New Frontier
+  pfDB["quests"]["data-epoch"][1019] = { } -- Remove The New Frontier
+  pfDB["quests"]["data-epoch"][1047] = { } -- Remove The New Frontier
+  pfDB["quests"]["data-epoch"][6761] = { } -- Remove The New Frontier
+  pfDB["quests"]["data-epoch"][7494] = { } -- Remove Feathermoon Stronghold
 end
 
 do -- quests
@@ -1386,6 +1397,10 @@ do -- quests
   pfDB["quests"]["data-epoch"][7487] = { } -- Remove old Attunment to the Core
   pfDB["quests"]["data-epoch"][7848] = { } -- Remove old Attunment to the Core
   pfDB["quests"]["data-epoch"][349] = { } -- Remove weird Stranglethorn Fever temp log
+  pfDB["quests"]["data-epoch"][3381] = { } -- Remove OLD A Meeting with the Maste
+  pfDB["quests"]["data-epoch"][6221] = { } -- Remove OLD Deadwood of the North
+  pfDB["quests"]["data-epoch"][8181] = { } -- Remove Confront Yeh'kinya
+  pfDB["quests"]["data-epoch"][1288] = { } -- Remove Vimes's Report
 end
 
 do -- Objects
