@@ -276,11 +276,8 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   -- hide completed quests
   if pfQuest_history[id] then return end
 
-  -- Cache quest data lookups
-  local questLoc = pfDB.quests.loc[id]
-
   -- hide broken quests without names
-  if not questLoc or not questLoc.T then return end
+  if not pfDB.quests.loc[id] or not pfDB.quests.loc[id].T then return end
 
   local quest = pfDB["quests"]["data"][id]
   if not quest then return end
@@ -292,7 +289,6 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
     for _, prequest in pairs(quest["pre"]) do
       if pfQuest_history[prequest] then
         one_complete = true
-        break
       end
     end
     -- hide if none of the pre-quests has been completed
@@ -315,40 +311,45 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   -- hide event quests
   if quest["event"] and pfQuest_config["showfestival"] == "0" then return end
 
-  -- Cache title
-  local title = questLoc.T
-
   -- hide PvP quests
   if pfQuest_config["epochHidePvPQuests"] == "1" then
-    if string.find(title, "Warsong") or
-       string.find(title, "Arathi") or
-       string.find(title, "Alterac") or
-       string.find(title, "Battleground") or
-       string.find(title, "Call to Skirmish") then
+    local title = pfDB.quests.loc[id].T
+    if title and (
+      string.find(title, "Warsong") or
+      string.find(title, "Arathi") or
+      string.find(title, "Alterac") or
+      string.find(title, "Battleground") or
+      string.find(title, "Call to Skirmish")
+    ) then
       return
     end
   end
 
   -- hide Commission quests
   if pfQuest_config["epochHideCommissionQuests"] == "1" then
-    if string.find(title, "Commission for") then
+    local title = pfDB.quests.loc[id].T
+    if title and string.find(title, "Commission for") then
       return
     end
   end
 
   -- hide chicken quests
   if pfQuest_config["epochHideChickenQuests"] == "1" then
-    if string.find(title, "CLUCK!") then
+    local title = pfDB.quests.loc[id].T
+    if title and string.find(title, "CLUCK!") then
       return
     end
   end
 
   -- hide Felwood flowers
   if pfQuest_config["epochHideFelwoodFlowers"] == "1" then
-    if title == "Corrupted Windblossom" or
-       title == "Corrupted Whipper Root" or
-       title == "Corrupted Songflower" or
-       title == "Corrupted Night Dragon" then
+    local title = pfDB.quests.loc[id].T
+    if title and (
+      title == "Corrupted Windblossom" or
+      title == "Corrupted Whipper Root" or
+      title == "Corrupted Songflower" or
+      title == "Corrupted Night Dragon"
+    ) then
       return
     end
   end
