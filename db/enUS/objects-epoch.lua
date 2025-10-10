@@ -695,6 +695,12 @@ pfDB["objects"]["enUS-epoch"] = {
   [250672] = "Darkspear Isle",
   [250673] = "Sen\'jin Village",
   [250674] = "Gnomish Emergency Assembly Route",
+  [250675] = "Banner of Heritage",
+  [250676] = "Back Door",
+  [250677] = "Springsocket Guard Post",
+  [250678] = "Thorium Brotherhood Guard Post",
+  [250679] = "Volchan's Heart",
+  [250680] = "Abandoned Lockbox",
 -- Placeholder IDs
   [4000077] = "Memento of Archimonde",
   [5000001] = "Mana Berry Bush",

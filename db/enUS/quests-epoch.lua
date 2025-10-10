@@ -11069,4 +11069,14 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Read the Etched Tablet then speak to Jen\'shan at the village on Darkspear Isle.",
     ["D"] = "While ya were helping me out, this tablet was given to me to pass on to ya. Take some time to read it when you got a chance. I think it came from de hunter trainer, Jen\'shan. Go find her in de village up the hill behind me.",
   },
+  [30000] = {
+    ["T"] = "Dark Iron Pick",
+    ["O"] = "Find the box and give it a Blood of the Mountain to unlock it, who knows what you'll get?.",
+    ["D"] = "<Inspecting the pickaxe you bought you notice that the shaft has a cavity within it, you twist the base of the pick and it falls off along with a piece of paper falling out of the cavity.>$B$B\"I leave this letter in the hopes that a proud and skillful miner discovers the space that holds it, or maybe you struck too hard and broke the shaft! This pick is a durable and trustworthy sort, but it is not enough for the strongest minerals you may have not yet even seen, therefor I spent many years working on a recipe for a legendary pick axe. I didn't quite get there, and now I am too old to craft it myself, but I don't want to just give this knowledge haphazardly.\"$B$B\"Find a Blood of the Mountain, these can be found tirelessly digging through Dark Iron Ore veins, but I won't judge you from beyond the grave if you buy one from someone else. Take the blood to a chest at my old house, where I lived before our emperor summoned the Firelord. If you believe this direction to be too vague, then you must not be a Dark Iron!\"",
+  },
+  [30001] = {
+    ["T"] = "Gaining Even Tons More Acceptance",
+    ["O"] = "",
+    ["D"] = "",
+  },
 }
