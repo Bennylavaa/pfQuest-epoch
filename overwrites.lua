@@ -1401,6 +1401,8 @@ do -- quests
   pfDB["quests"]["data-epoch"][6221] = { } -- Remove OLD Deadwood of the North
   pfDB["quests"]["data-epoch"][8181] = { } -- Remove Confront Yeh'kinya
   pfDB["quests"]["data-epoch"][1288] = { } -- Remove Vimes's Report
+  pfDB["quests"]["data-epoch"][8275] = { } -- Remove Taking Back Silithus
+  pfDB["quests"]["data-epoch"][8276] = { } -- Remove Taking Back Silithus
 end
 
 do -- Objects
