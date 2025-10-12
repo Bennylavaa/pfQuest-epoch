@@ -74,6 +74,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Obtain 10 Atal\'ai Artifacts and return them to Finmir at the Harborage in the Swamp of Sorrows.",
     ["D"] = "I am interested in studying Azeroth\'s past and I\'m wondering if you\'d be willing to help?\nThere is a nearby place of historical significance within the swamp that I would like for you to venture to.  The Pool of Tears lies to the southeast.  It is said that upon its shores and within its depths are buried artifacts of the Atal\'ai troll civilization.\nBut beware, it is guarded by Somnus, an ancient green dragon, and his dragonkin, as well as carnivorous fish in the pool itself!",
   },
+  [11160] = {
+    ["T"] = "Banner of the Stonemaul",
+    ["O"] = "Retrieve the Stonemaul Banner and bring it to Brogg at Brogg\'s Hollow.",
+    ["D"] = "When the dragons came and took over Brogg\'s old home, Stonemaul ogres fled and left everything behind, including clan\'s banner.\nBrogg knows banner was kept deep in Stonemaul ogre mound, but these days it\'s called Den of Flame. Brogg must have clan banner to get his revenge on dragons who killed his friends.\nBrogg\'s clan\'s old mound, Den of Flame, is north of my hollow and crawling with dragonkin. Banner will be deep inside the cave. Be careful, $N.",
+  },
   [14087] = {
     ["T"] = "Learn to Ride in Mulgore",
     ["O"] = "Return the pamphlet to Kar Stormsinger at Bloodhoof Village in Mulgore.",
