@@ -314,7 +314,7 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
   -- hide PvP quests
   if pfQuest_config["epochHidePvPQuests"] == "1" then
     local title = pfDB.quests.loc[id].T
-    if title and (
+    if title and not string.find(title, "Alteraci Shilling") and (
       string.find(title, "Warsong") or
       string.find(title, "Arathi") or
       string.find(title, "Alterac") or

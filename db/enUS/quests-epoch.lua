@@ -32,7 +32,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [537] = {
     ["T"] = "Dark Council",
     ["O"] = "Kill Argus Shadow Mages and bring one of their spell books back to Magistrate Henry Maleb at Southshore in Hillsbrad Foothills.",
-    ["D"] = "The letter you brought me was written by a being who calls himself Nagaz, a member of the Argus Wake. I don't know what this Argus Wake is, but if they're in an alliance with the Syndicate then they must be a threat. $B$BI want you to find the Argus Shadow Mages mentioned in that letter. I want you to find them, and kill them. Bring me anything they possess that will tell us who or what this Nagaz is.$B$BSearch in Strahnbrad and the Uplands, north of there. With luck, you'll find these envoys of the Argus Wake there.",
+    ["D"] = "The letter you brought me was written by a being who calls himself Nagaz, a member of the Argus Wake. I don\'t know what this Argus Wake is, but if they\'re in an alliance with the Syndicate then they must be a threat. $B$BI want you to find the Argus Shadow Mages mentioned in that letter. I want you to find them, and kill them. Bring me anything they possess that will tell us who or what this Nagaz is.$B$BSearch in Strahnbrad and the Uplands, north of there. With luck, you\'ll find these envoys of the Argus Wake there.",
   },
   [991] = {
     ["T"] = "Raene\'s Cleansing",
