@@ -64,6 +64,26 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Defend Captain Vanessa Beltis, her crew and the Horizon Scout\'s passengers against the naga attack. Captain Vanessa Beltis must survive.",
     ["D"] = "We were just off the coast looking for a safe haven to make anchor. The sun hadn\'t been down for more than an hour when they attacked... those damned naga!\nI\'m not sure what they were looking for, but it\'s clear they didn\'t find it--they\'ve already come back once. A couple of my scouts are on watch at the entrance of the valley to give us fair warning when the next attack comes.\nI\'m sorry you\'ve come along now, $n, but it\'s out of my hands.\nAre you ready for the fight of your life?",
   },
+  [8985] = {
+    ["T"] = "More Components of Importance",
+    ["O"] = "Acquire a Starbreeze Village Relic and return it to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\nIsalien, our priestess, grew up in Winterspring at Starbreeze Village. I need you to gather a Starbreeze Village Relic from the Frostmaul giants of Frostwhisper Gorge in southern Winterspring, who are known for raiding to the north from time to time.",
+  },
+  [8986] = {
+    ["T"] = "More Components of Importance",
+    ["O"] = "Acquire Druidical Remains and return them to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\nMor Grayhoof, our most prominent druid, had many close friends amongst the Cenarion Circle. He was part of an expedition to Azshara to study the rock giants there, but they were too aggressive, and most of the expedition fell. I need you to retrieve some Druidical Remains from those giants in northeastern Azshara.",
+  },
+  [8987] = {
+    ["T"] = "More Components of Importance",
+    ["O"] = "Retrieve a Brilliant Sword of Zealotry and return it to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to summon the remains of my deceased, former comrades.\nThe siblings, Jarien and Sothos, were believers in the way of the Scarlet Crusade. They aspired to knighthood within that vile organization. Go to Tyr\'s Hand in Eastern Plaguelands and retrieve a Brilliant Sword of Zealotry from the praetorians there.",
+  },
+  [8988] = {
+    ["T"] = "More Components of Importance",
+    ["O"] = "Obtain Soul Ashes of the Banished and return them to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\nAn ogre necromancer that traveled with us, Kormok, delighted in summoning forth the souls of the banished dead of Purgation Isle, off the south coast of the Hillsbrad Foothills. Go there and retrieve some Soul Ashes of the Banished from their remains.",
+  },
   [9609] = {
     ["T"] = "Help Watcher Biggs",
     ["O"] = "Find Watcher Biggs in the Swamp of Sorrows.",
@@ -11076,8 +11096,8 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [30000] = {
     ["T"] = "Dark Iron Pick",
-    ["O"] = "Find the box and give it a Blood of the Mountain to unlock it, who knows what you'll get?.",
-    ["D"] = "<Inspecting the pickaxe you bought you notice that the shaft has a cavity within it, you twist the base of the pick and it falls off along with a piece of paper falling out of the cavity.>$B$B\"I leave this letter in the hopes that a proud and skillful miner discovers the space that holds it, or maybe you struck too hard and broke the shaft! This pick is a durable and trustworthy sort, but it is not enough for the strongest minerals you may have not yet even seen, therefor I spent many years working on a recipe for a legendary pick axe. I didn't quite get there, and now I am too old to craft it myself, but I don't want to just give this knowledge haphazardly.\"$B$B\"Find a Blood of the Mountain, these can be found tirelessly digging through Dark Iron Ore veins, but I won't judge you from beyond the grave if you buy one from someone else. Take the blood to a chest at my old house, where I lived before our emperor summoned the Firelord. If you believe this direction to be too vague, then you must not be a Dark Iron!\"",
+    ["O"] = "Find the box and give it a Blood of the Mountain to unlock it, who knows what you\'ll get?.",
+    ["D"] = "<Inspecting the pickaxe you bought you notice that the shaft has a cavity within it, you twist the base of the pick and it falls off along with a piece of paper falling out of the cavity.>$B$B\"I leave this letter in the hopes that a proud and skillful miner discovers the space that holds it, or maybe you struck too hard and broke the shaft! This pick is a durable and trustworthy sort, but it is not enough for the strongest minerals you may have not yet even seen, therefor I spent many years working on a recipe for a legendary pick axe. I didn\'t quite get there, and now I am too old to craft it myself, but I don\'t want to just give this knowledge haphazardly.\"$B$B\"Find a Blood of the Mountain, these can be found tirelessly digging through Dark Iron Ore veins, but I won\'t judge you from beyond the grave if you buy one from someone else. Take the blood to a chest at my old house, where I lived before our emperor summoned the Firelord. If you believe this direction to be too vague, then you must not be a Dark Iron!\"",
   },
   [30001] = {
     ["T"] = "Gaining Even Tons More Acceptance",

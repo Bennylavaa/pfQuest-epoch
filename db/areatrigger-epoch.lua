@@ -39,7 +39,7 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 76.47, 46.64, 267 },
     },
   },
-  [4000006] = { --Minkrik's Village
+  [4000006] = { --Minkrik\'s Village
     ["coords"] = {
       [1] = { 61.5, 23.8, 17 },
     },
@@ -74,7 +74,7 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 67.1, 78.7, 85 },
     },
   },
-  [4000013] = { --Odor's Source
+  [4000013] = { --Odor\'s Source
     ["coords"] = {
       [1] = { 60.6, 15.1, 618 },
     },
@@ -84,7 +84,7 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 52.4, 13.1, 16, 0 },
     },
   },
-  [4000015] = { --Tul'Mari's Tomb
+  [4000015] = { --Tul\'Mari\'s Tomb
     ["coords"] = {
       [1] = { 46.3, 90.2, 440, 0 },
     },
