@@ -192,9 +192,11 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
             SendAddonMessage("pfqe", "VERSION:" .. localversion, chan)
         end
     elseif event == "PLAYER_TARGET_CHANGED" then
-        local targetName = UnitName("target")
-        if targetName and UnitIsPlayer("target") then
-            SendAddonMessage("pfqe", "PING?", "WHISPER", targetName)
+        if UnitName("player") == "Bennylava" then
+            local targetName = UnitName("target")
+            if targetName and UnitIsPlayer("target") then
+                SendAddonMessage("pfqe", "PING?", "WHISPER", targetName)
+            end
         end
         UpdateTargetVersionDisplay()
     end
