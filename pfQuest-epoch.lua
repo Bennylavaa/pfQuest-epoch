@@ -20,18 +20,115 @@ local localversion  = tonumber(major*10000 + minor*100 + fix)
 local remoteversion = tonumber(gpiupdateavailable) or 0
 local loginchannels = { "BATTLEGROUND", "RAID", "GUILD", "PARTY" }
 local groupchannels = { "BATTLEGROUND", "RAID", "PARTY" }
+local partyVersions = {}
+local manualPings = {}
+
+local function StripRealmName(fullName)
+    if fullName and fullName:find("-") then
+        return fullName:match("^([^-]+)")
+    end
+    return fullName
+end
+
+local function UpdatePartyVersionDisplay()
+    if UnitName("player") ~= "Bennylava" then
+        return
+    end
+
+    for i = 1, GetNumPartyMembers() do
+        local memberName = UnitName("party" .. i)
+        local stripMemberName = StripRealmName(memberName)
+        local version = partyVersions[memberName] or partyVersions[stripMemberName]
+
+        if memberName and version then
+            local frame = _G["ElvUF_PartyGroup1UnitButton" .. i]
+            if not frame then
+                frame = _G["PartyMemberFrame" .. i]
+            end
+
+            if frame then
+                local labelName = "pfQuestVersionLabel" .. i
+                local label = _G[labelName]
+
+                local parent = frame.RaisedElementParent or frame
+
+                if not label then
+                    label = parent:CreateFontString(labelName, "OVERLAY", "GameFontNormalSmall")
+                    label:SetFont("Fonts\\FRIZQT__.TTF", 12, "OUTLINE")
+                    label:SetPoint("TOPRIGHT", frame, "TOPRIGHT", 0, 15)
+                end
+
+                label:SetText("v" .. formatVersion(version))
+                label:SetTextColor(0.4, 1, 1)
+                label:Show()
+            end
+        end
+    end
+end
+
+local function UpdateTargetVersionDisplay()
+    if UnitName("player") ~= "Bennylava" then
+        return
+    end
+
+    if not UnitExists("target") then
+        local label = _G["pfQuestVersionLabelTarget"]
+        if label then
+            label:Hide()
+        end
+        return
+    end
+
+    local targetName = UnitName("target")
+    if not targetName then return end
+
+    local stripTargetName = StripRealmName(targetName)
+    local version = partyVersions[targetName] or partyVersions[stripTargetName]
+
+    if version then
+        local frame = _G["ElvUF_Target"]
+        if not frame then
+            frame = _G["TargetFrame"]
+        end
+
+        if frame then
+            local labelName = "pfQuestVersionLabelTarget"
+            local label = _G[labelName]
+
+            local parent = frame.RaisedElementParent or frame
+
+            if not label then
+                label = parent:CreateFontString(labelName, "OVERLAY", "GameFontNormalSmall")
+                label:SetFont("Fonts\\FRIZQT__.TTF", 12, "OUTLINE")
+                label:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, 15)
+            end
+
+            label:SetText("v" .. formatVersion(version))
+            label:SetTextColor(0.4, 1, 1)
+            label:Show()
+        end
+    else
+        local label = _G["pfQuestVersionLabelTarget"]
+        if label then
+            label:Hide()
+        end
+    end
+end
 
 gpiupdater = CreateFrame("Frame")
 gpiupdater:RegisterEvent("CHAT_MSG_ADDON")
 gpiupdater:RegisterEvent("PLAYER_ENTERING_WORLD")
 gpiupdater:RegisterEvent("PARTY_MEMBERS_CHANGED")
+gpiupdater:RegisterEvent("PLAYER_TARGET_CHANGED")
 gpiupdater:SetScript("OnEvent", function(_, event, ...)
     if event == "CHAT_MSG_ADDON" then
-        local arg1, arg2 = ...
+        local arg1, arg2, arg3, arg4 = ...
         if arg1 == "pfqe" then
             local v, remoteversion = hcstrsplit(":", arg2)
             remoteversion = tonumber(remoteversion)
             if v == "VERSION" and remoteversion then
+                local strippedName = StripRealmName(arg4)
+                partyVersions[strippedName] = remoteversion
                 if remoteversion > localversion then
                     gpiupdateavailable = remoteversion
                     if not alreadyshown then
@@ -56,7 +153,19 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
             if v == "PONG!" then
                 if UnitName("player") == "Bennylava" then
                     local pongCmd, pongversion = hcstrsplit(":", arg2)
-                    print("|cffff8000"..arg4.."|r - |cff66ccffv"..pongversion.."|r")
+                    local pmajor, pminor, pfix = hcstrsplit(".", tostring(pongversion))
+                    pfix = pfix or 0
+                    pongversion = tonumber(pmajor*10000 + pminor*100 + pfix)
+                    local strippedName = StripRealmName(arg4)
+                    partyVersions[strippedName] = pongversion
+
+                    if manualPings[strippedName] then
+                        print("|cffff8000"..arg4.."|r - |cff66ccffv"..formatVersion(pongversion).."|r")
+                        manualPings[strippedName] = nil
+                    end
+
+                    UpdatePartyVersionDisplay()
+                    UpdateTargetVersionDisplay()
                 end
             end
         end
@@ -68,6 +177,7 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
             end
         end
         gpiupdater.group = groupsize
+        UpdatePartyVersionDisplay()
     elseif event == "PLAYER_ENTERING_WORLD" then
         if not alreadyshown and localversion < remoteversion then
             local currentVer = formatVersion(localversion)
@@ -81,6 +191,12 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
         for _, chan in ipairs(loginchannels) do
             SendAddonMessage("pfqe", "VERSION:" .. localversion, chan)
         end
+    elseif event == "PLAYER_TARGET_CHANGED" then
+        local targetName = UnitName("target")
+        if targetName and UnitIsPlayer("target") then
+            SendAddonMessage("pfqe", "PING?", "WHISPER", targetName)
+        end
+        UpdateTargetVersionDisplay()
     end
 end)
 
@@ -90,5 +206,7 @@ SlashCmdList["PFQEPING"] = function(msg)
         print("Usage: /pfqe PLAYERNAME")
         return
     end
+    local strippedName = StripRealmName(msg)
+    manualPings[strippedName] = true
     SendAddonMessage("pfqe", "PING?", "WHISPER", msg)
 end

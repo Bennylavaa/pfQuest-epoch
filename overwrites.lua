@@ -1354,6 +1354,11 @@ do -- units/npcs
   pfDB["quests"]["data-epoch"][1047] = { } -- Remove The New Frontier
   pfDB["quests"]["data-epoch"][6761] = { } -- Remove The New Frontier
   pfDB["quests"]["data-epoch"][7494] = { } -- Remove Feathermoon Stronghold
+
+  -- Remove Arena Quests
+  pfDB["quests"]["data-epoch"][7810] = { } -- Arena Master
+  pfDB["quests"]["data-epoch"][7838] = { } -- Arena GrandMaster
+  pfDB["quests"]["data-epoch"][7908] = { } -- Arena Master
 end
 
 do -- quests
