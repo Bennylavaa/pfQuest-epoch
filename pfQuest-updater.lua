@@ -136,7 +136,7 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
                         local availableVer = formatVersion(remoteversion)
                         print("|cff33ffccpfQuest |cffcccccc[Project Epoch DB]|r New version available!")
                         print("Current: |cff66ccff" .. currentVer .. "|r -> Available: |cff66ccff" .. availableVer .. "|r")
-                        print("|cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch|r")
+                        print("|cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch/releases|r")
                         alreadyshown = true
                     end
                 end
@@ -184,7 +184,7 @@ gpiupdater:SetScript("OnEvent", function(_, event, ...)
             local availableVer = formatVersion(remoteversion)
             print("|cff33ffccpfQuest |cffcccccc[Project Epoch DB]|r New version available!")
             print("Current: |cff66ccff" .. currentVer .. "|r -> Available: |cff66ccff" .. availableVer .. "|r")
-            print("|cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch|r")
+            print("|cff66ccffhttps://github.com/Bennylavaa/pfQuest-epoch/releases|r")
             gpiupdateavailable = localversion
             alreadyshown = true
         end
