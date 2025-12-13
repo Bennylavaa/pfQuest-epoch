@@ -3,7 +3,7 @@
 ## Author: Bennylavaa
 # Contributors: Exuria, Shagu, snifflewow, skmd0, trav346
 ## Notes: A Project Epoch DB extension for pfQuest
-## Version: 2.21.3
+## Version: 2.22.0
 ## Dependencies: pfQuest-wotlk
 ## SavedVariables: pfQuest_epochcount, pfQuest_CompletedQuestData
 
@@ -12,6 +12,6 @@ init\enUS-epoch.xml
 
 overwrites.lua
 patchtable.lua
-pfQuest-epoch.lua
+pfQuest-updater.lua
 pfQuest-announce.lua
 pfQuest-worldmap.lua

@@ -1012,6 +1012,74 @@ pfMap.NodeEnter = function()
   end
 end
 
+-- Yoinked from https://github.com/shagu/pfQuest/pull/301 props to BlacRyu
+local original_ResizeNode = pfMap.ResizeNode
+
+-- Make mainmap_inversescale global so we can control it across files
+mainmap_inversescale = 1.0
+
+-- Override ResizeNode to use our global mainmap_inversescale
+function pfMap:ResizeNode(frame, obj)
+  local highlight = frame.texture and pfMap.highlightdb[frame][pfMap.highlight] and true or nil
+  local target = frame.texture and pfQuest.route and pfQuest.route.IsTarget(frame) or nil
+
+  -- set default sizes for different node types
+  frame.defsize = (frame.cluster or frame.layer == 4) and 18 or 14
+  -- Adjust node size if main map is zoomed in/out
+  if (obj ~= "minimap") then
+    if (frame.title and pfQuest.icons[frame.title]) or frame.icon then
+      -- Adjust for icons being 1 unit smaller than their parent frame
+      -- Looks better to keep the icon size constant even if the frame grows a bit.
+      frame.defsize = (frame.defsize - 2) * (mainmap_inversescale) + 2
+    else
+      frame.defsize = frame.defsize * mainmap_inversescale
+    end
+  end
+
+  -- make the current route target visible
+  if target then frame.hl:Show() else frame.hl:Hide() end
+
+  -- reset frame size except for highlights
+  if not highlight then
+    frame:SetWidth(frame.defsize)
+    frame:SetHeight(frame.defsize)
+  end
+end
+
+-- Define ResizeNodes function (doesn't exist in base pfQuest)
+function pfMap:ResizeNodes()
+  local i = 1
+  if pfMap.pins then
+    while pfMap.pins[i] and pfMap.pins[i]:IsShown() do
+      pfMap:ResizeNode(pfMap.pins[i])
+      i = i + 1
+    end
+  end
+end
+
+-- Handle map scale changes
+function pfMap:OnMapScaleChanged(frame, scale, hookedfunction)
+  hookedfunction(frame, scale)
+
+  local new_inversescale = 1.0 / WorldMapButton:GetEffectiveScale()
+  if (mainmap_inversescale ~= new_inversescale) then
+    mainmap_inversescale = new_inversescale
+    pfMap:ResizeNodes()
+  end
+end
+
+-- Listen for WorldMapFrame scale changes
+local pfHookWorldMapFrame_SetScale = WorldMapFrame.SetScale
+WorldMapFrame.SetScale = function(frame, scale) pfMap:OnMapScaleChanged(frame, scale, pfHookWorldMapFrame_SetScale) end
+
+-- Listen for WorldMapDetailFrame scale changes
+local pfHookWorldMapDetailFrame_SetScale = WorldMapDetailFrame.SetScale
+WorldMapDetailFrame.SetScale = function(frame, scale) pfMap:OnMapScaleChanged(frame, scale, pfHookWorldMapDetailFrame_SetScale) end
+
+-- Listen for WorldMapButton scale changes
+local pfHookWorldMapButton_SetScale = WorldMapButton.SetScale
+WorldMapButton.SetScale = function(frame, scale) pfMap:OnMapScaleChanged(frame, scale, pfHookWorldMapButton_SetScale) end
+
 function pfDatabase:BuildQuestDescription(meta)
   if not meta.title or not meta.quest or not meta.QTYPE then return meta.description end
 
