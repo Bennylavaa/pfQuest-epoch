@@ -27,17 +27,17 @@ function pfQuestEpoch_OnQuestUpdate(message)
     if stillNeeded < 1 then
       if pfQuest_config["epochannounceFinished"] == "1" then
         if questName then
-          outMessage = "[pfQuest] I have finished " .. itemName .. " for quest: " .. questName .. ". " .. iNumItems .. "/" .. iNumNeeded
+          outMessage = "[pfQuest] Finished " .. questName .. "."
         else
-          outMessage = "[pfQuest] I have finished " .. itemName .. ". " .. iNumItems .. "/" .. iNumNeeded
+          outMessage = "[pfQuest] I have finished " .. itemName .. "."
         end
       end
     else
       if pfQuest_config["epochannounceRemaining"] == "1" then
         if questName then
-          outMessage = "[pfQuest] " .. itemName .. " for " .. questName .. ": (" .. iNumItems .. "/" .. iNumNeeded .. "). " .. stillNeeded .. " Remaining."
+          outMessage = "[pfQuest] " .. itemName .. " for " .. questName .. " (" .. stillNeeded .. " left)"
         else
-          outMessage = "[pfQuest] " .. itemName .. ": (" .. iNumItems .. "/" .. iNumNeeded .. "). " .. stillNeeded .. " Remaining."
+          outMessage = "[pfQuest] " .. itemName .. " (" .. stillNeeded .. " left)"
         end
       end
     end
@@ -65,7 +65,7 @@ function pfQuestEpoch_GetQuestNameForObjective(objectiveName)
           local objName = string.match(description, "(.*):%s*[-%d]+%s*/%s*[-%d]+%s*$")
 
           if objName and string.find(string.lower(objName), string.lower(objectiveName), 1, true) then
-            return questTitle
+            return GetQuestLink(i)
           end
         end
       end
@@ -106,7 +106,7 @@ local function ExtendPfQuestConfig()
   if not foundFinished then
     table.insert(pfQuest_defconfig, {
       text = "Announce Finished Quest Objectives",
-      default = "1",
+      default = "0",
       type = "checkbox",
       config = "epochannounceFinished"
     })
@@ -122,7 +122,7 @@ local function ExtendPfQuestConfig()
   end
 
   if not pfQuest_config["epochannounceFinished"] then
-    pfQuest_config["epochannounceFinished"] = "1"
+    pfQuest_config["epochannounceFinished"] = "0"
   end
   if not pfQuest_config["epochannounceRemaining"] then
     pfQuest_config["epochannounceRemaining"] = "0"
@@ -147,6 +147,19 @@ local function ExtendPfQuestConfig()
   return true
 end
 
+local function CheckAndHandleVersionUpdate()
+  -- Only disable on version 2.22.1, one time only
+  local currentVersion = GetAddOnMetadata("pfQuest-epoch", "Version") or "0.0.0"
+
+  if currentVersion == "2.22.1" and not pfQuest_config["epochannounceForcedDisableOnce"] then
+    pfQuest_config["epochannounceFinished"] = "0"
+    pfQuest_config["epochannounceForcedDisableOnce"] = "1"
+    return true
+  end
+
+  return false
+end
+
 local configExtenderFrame = CreateFrame("Frame")
 configExtenderFrame:RegisterEvent("ADDON_LOADED")
 configExtenderFrame:SetScript("OnEvent", function(self, event, addonName)
@@ -156,6 +169,10 @@ configExtenderFrame:SetScript("OnEvent", function(self, event, addonName)
       timer = timer + 1
       if timer > 10 then
         if ExtendPfQuestConfig() then
+          local versionUpdated = CheckAndHandleVersionUpdate()
+          if versionUpdated then
+            DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest |cffcccccc[Epoch]|r: Updated - Finished quest announcements have been disabled. Re-enable manually if desired.")
+          end
           self:SetScript("OnUpdate", nil)
           self:UnregisterAllEvents()
         elseif timer > 300 then
