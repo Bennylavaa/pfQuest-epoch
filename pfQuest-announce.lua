@@ -27,17 +27,17 @@ function pfQuestEpoch_OnQuestUpdate(message)
     if stillNeeded < 1 then
       if pfQuest_config["epochannounceFinished"] == "1" then
         if questName then
-          outMessage = "[pfQuest] Finished " .. questName .. "."
+          outMessage = "Finished " .. questName .. "."
         else
-          outMessage = "[pfQuest] I have finished " .. itemName .. "."
+          outMessage = "I have finished " .. itemName .. "."
         end
       end
     else
       if pfQuest_config["epochannounceRemaining"] == "1" then
         if questName then
-          outMessage = "[pfQuest] " .. itemName .. " for " .. questName .. " (" .. stillNeeded .. " left)"
+          outMessage = "" .. itemName .. " for " .. questName .. " (" .. stillNeeded .. " left)"
         else
-          outMessage = "[pfQuest] " .. itemName .. " (" .. stillNeeded .. " left)"
+          outMessage = "" .. itemName .. " (" .. stillNeeded .. " left)"
         end
       end
     end
