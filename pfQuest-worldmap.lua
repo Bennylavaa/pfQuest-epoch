@@ -1087,6 +1087,15 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
+            text = "Hide Cloth Donation Quests",
+            default = "0",
+            type = "checkbox",
+            config = "epochHideDonationQuests"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
             text = "Hide Item Drop Quest Starters",
             default = "0",
             type = "checkbox",
@@ -1103,6 +1112,7 @@ local function ExtendPfQuestConfig()
     pfQuest_config["epochHideFelwoodFlowers"] = pfQuest_config["epochHideFelwoodFlowers"] or "1"
     pfQuest_config["epochHidePvPQuests"] = pfQuest_config["epochHidePvPQuests"] or "1"
     pfQuest_config["epochHideCommissionQuests"] = pfQuest_config["epochHideCommissionQuests"] or "0"
+    pfQuest_config["epochHideDonationQuests"] = pfQuest_config["epochHideDonationQuests"] or "0"
     pfQuest_config["epochHideItemDrops"] = pfQuest_config["epochHideItemDrops"] or "0"
 end
 

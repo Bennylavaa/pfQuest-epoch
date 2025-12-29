@@ -266,6 +266,20 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
     end
   end
 
+-- hide Donation quests
+  if pfQuest_config["epochHideDonationQuests"] == "1" then
+    local title = pfDB.quests.loc[id].T
+    if title and (
+      string.find(title, "A Donation of Wool") or
+      string.find(title, "A Donation of Silk") or
+      string.find(title, "A Donation of Mageweave") or
+      string.find(title, "A Donation of Runecloth") or
+      string.find(title, "Additional Runecloth")
+    ) then
+      return
+    end
+  end
+
   -- hide chicken quests
   if pfQuest_config["epochHideChickenQuests"] == "1" then
     local title = pfDB.quests.loc[id].T
