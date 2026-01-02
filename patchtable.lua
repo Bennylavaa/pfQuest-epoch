@@ -266,6 +266,13 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
     end
   end
 
+  -- hide Coin quests
+  if pfQuest_config["epochHideCoinQuests"] == "1" then
+    if id >= 26127 and id <= 26166 then
+      return
+    end
+  end
+
 -- hide Donation quests
   if pfQuest_config["epochHideDonationQuests"] == "1" then
     local title = pfDB.quests.loc[id].T

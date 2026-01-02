@@ -31,6 +31,7 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][15799] = { } -- Warlord Gorchuk
   pfDB["units"]["data-epoch"][16091] = { } -- Dirk Thunderwood
   pfDB["units"]["data-epoch"][17082] = { } -- Rifleman Torrig
+  pfDB["units"]["data-epoch"][17081] = { } -- Scout Bloodfist
   
   -- remove TBC Quest and NPCs
   pfDB["units"]["data-epoch"][15563] = { } -- Elder Bellowrage

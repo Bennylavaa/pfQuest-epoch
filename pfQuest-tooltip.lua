@@ -26,13 +26,6 @@ local function CleanupPartyData()
         end
     end
 
-    for i = 1, GetNumRaidMembers() do
-        local name = UnitName("raid" .. i)
-        if name then
-            validPlayers[name] = true
-        end
-    end
-
     for playerName in pairs(partyQuestData) do
         if not validPlayers[playerName] then
             partyQuestData[playerName] = nil
@@ -43,8 +36,29 @@ end
 local myQuestMappings = {}
 
 local function RebuildQuestMappings()
-    if not pfDatabase or not pfDatabase["quests"] or not pfDatabase["quests"]["data"] then
+    if debugMode then
+        print("|cff33ffccpfQuest-epoch:|r REBUILD - Checking pfDB...")
+        print("  pfDB exists: " .. tostring(pfDB ~= nil))
+        if pfDB then
+            print("  pfDB type: " .. type(pfDB))
+            print("  pfDB.quests exists: " .. tostring(pfDB.quests ~= nil))
+            if pfDB.quests then
+                print("  pfDB.quests.data exists: " .. tostring(pfDB.quests.data ~= nil))
+            end
+        end
+        print("  pfQuestCompat exists: " .. tostring(pfQuestCompat ~= nil))
+        print("  pfMap exists: " .. tostring(pfMap ~= nil))
+    end
+
+    if not pfDB or not pfDB["quests"] or not pfDB["quests"]["data"] then
+        if debugMode then
+            print("|cff33ffccpfQuest-epoch:|r REBUILD - pfDB not available")
+        end
         return
+    end
+
+    if debugMode then
+        print("|cff33ffccpfQuest-epoch:|r REBUILD - Starting quest mapping rebuild")
     end
 
     local activeQuests = {}
@@ -53,6 +67,10 @@ local function RebuildQuestMappings()
         if questTitle then
             activeQuests[questTitle] = {}
             local numObjectives = GetNumQuestLeaderBoards(qid)
+
+            if debugMode then
+                print("|cff33ffccpfQuest-epoch:|r REBUILD - Found quest: " .. questTitle .. " with " .. numObjectives .. " objectives")
+            end
 
             for i = 1, numObjectives do
                 local text, objType, finished = GetQuestLogLeaderBoard(i, qid)
@@ -65,36 +83,70 @@ local function RebuildQuestMappings()
                             current = tonumber(current),
                             total = tonumber(total)
                         })
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r REBUILD - Objective: " .. objName .. " (" .. current .. "/" .. total .. ")")
+                        end
                     end
                 end
             end
         end
     end
 
-    for questId, questData in pairs(pfDatabase["quests"]["data"]) do
-        local questTitle = questData["T"]
+    if not pfDB["quests"]["enUS"] then
+        if debugMode then
+            print("|cff33ffccpfQuest-epoch:|r REBUILD - No enUS localization table found")
+        end
+        return
+    end
+
+    for questId, localizedData in pairs(pfDB["quests"]["enUS"]) do
+        local questTitle = localizedData["T"]
 
         if questTitle and activeQuests[questTitle] then
-            if questData["objectives"] then
-                for _, objective in pairs(questData["objectives"]) do
-                    local objType = objective["type"]
+            if debugMode then
+                print("|cff33ffccpfQuest-epoch:|r REBUILD - Matching quest: " .. questTitle .. " (ID: " .. questId .. ")")
+            end
 
-                    if objType == "slay" or objType == "loot" then
-                        local targetName = objective["targetName"]
-                        local objectiveName = objective["questText"]
+            local questData = pfDB["quests"]["data"][questId]
+            if questData and questData["obj"] then
+                if debugMode then
+                    print("|cff33ffccpfQuest-epoch:|r REBUILD - Quest has obj table")
+                end
 
-                        if targetName and objectiveName then
+                if questData["obj"]["U"] then
+                    for _, unitId in pairs(questData["obj"]["U"]) do
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r REBUILD - Found unit objective: Unit ID " .. tostring(unitId))
+                        end
+
+                        if pfDB["units"] and pfDB["units"]["enUS"] and pfDB["units"]["enUS"][unitId] then
+                            local targetName = pfDB["units"]["enUS"][unitId]
+
+                            if debugMode then
+                                print("|cff33ffccpfQuest-epoch:|r REBUILD - Unit name: " .. targetName)
+                            end
+
                             for _, activeObj in ipairs(activeQuests[questTitle]) do
-                                if activeObj.objective == objectiveName then
+                                if debugMode then
+                                    print("|cff33ffccpfQuest-epoch:|r REBUILD - Checking if quest log objective matches...")
+                                    print("    Quest log: \"" .. activeObj.objective .. "\"")
+                                    print("    Target name: \"" .. targetName .. "\"")
+                                end
+
+                                local objNameBase = activeObj.objective:gsub(" slain$", ""):gsub(" killed$", "")
+                                if objNameBase == targetName or activeObj.objective:find(targetName, 1, true) then
                                     if not myQuestMappings[targetName] then
                                         myQuestMappings[targetName] = {}
                                     end
 
                                     local found = false
                                     for _, data in ipairs(myQuestMappings[targetName]) do
-                                        if data.quest == questTitle and data.objective == objectiveName then
+                                        if data.quest == questTitle and data.objective == activeObj.objective then
                                             data.current = activeObj.current
                                             data.total = activeObj.total
+                                            data.questId = questId
+                                            data.targetId = unitId
+                                            data.targetType = "U"
                                             found = true
                                             break
                                         end
@@ -103,14 +155,189 @@ local function RebuildQuestMappings()
                                     if not found then
                                         table.insert(myQuestMappings[targetName], {
                                             quest = questTitle,
-                                            objective = objectiveName,
+                                            questId = questId,
+                                            objective = activeObj.objective,
                                             current = activeObj.current,
-                                            total = activeObj.total
+                                            total = activeObj.total,
+                                            targetId = unitId,
+                                            targetType = "U"
                                         })
                                     end
 
                                     if debugMode then
-                                        print("|cff33ffccpfQuest-epoch:|r REBUILD - Added " .. targetName .. " -> " .. questTitle .. " (" .. objectiveName .. ": " .. activeObj.current .. "/" .. activeObj.total .. ")")
+                                        print("|cff33ffccpfQuest-epoch:|r REBUILD - Added " .. targetName .. " -> " .. questTitle .. " (" .. activeObj.objective .. ": " .. activeObj.current .. "/" .. activeObj.total .. ")")
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+
+                if questData["obj"]["I"] then
+                    for _, itemId in pairs(questData["obj"]["I"]) do
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r REBUILD - Found item objective: Item ID " .. tostring(itemId))
+                        end
+
+                        local itemName = nil
+                        if pfDB["items"] and pfDB["items"]["enUS"] and pfDB["items"]["enUS"][itemId] then
+                            itemName = pfDB["items"]["enUS"][itemId]
+
+                            if debugMode then
+                                print("|cff33ffccpfQuest-epoch:|r REBUILD - Item name: " .. itemName)
+                            end
+                        end
+
+                        if pfDB["items"] and pfDB["items"]["data"] and pfDB["items"]["data"][itemId] then
+                            local itemData = pfDB["items"]["data"][itemId]
+
+                            if itemData["U"] then
+                                for unitId, dropRate in pairs(itemData["U"]) do
+                                    if pfDB["units"] and pfDB["units"]["enUS"] and pfDB["units"]["enUS"][unitId] then
+                                        local npcName = pfDB["units"]["enUS"][unitId]
+
+                                        if debugMode then
+                                            print("|cff33ffccpfQuest-epoch:|r REBUILD - NPC " .. npcName .. " drops " .. (itemName or "item " .. itemId) .. " (" .. dropRate .. "%)")
+                                        end
+
+                                        for _, activeObj in ipairs(activeQuests[questTitle]) do
+                                            if itemName and activeObj.objective:find(itemName, 1, true) then
+                                                if not myQuestMappings[npcName] then
+                                                    myQuestMappings[npcName] = {}
+                                                end
+
+                                                local found = false
+                                                for _, data in ipairs(myQuestMappings[npcName]) do
+                                                    if data.quest == questTitle and data.objective == activeObj.objective then
+                                                        data.current = activeObj.current
+                                                        data.total = activeObj.total
+                                                        data.questId = questId
+                                                        data.targetId = unitId
+                                                        data.targetType = "I"
+                                                        found = true
+                                                        break
+                                                    end
+                                                end
+
+                                                if not found then
+                                                    table.insert(myQuestMappings[npcName], {
+                                                        quest = questTitle,
+                                                        questId = questId,
+                                                        objective = activeObj.objective,
+                                                        current = activeObj.current,
+                                                        total = activeObj.total,
+                                                        targetId = unitId,
+                                                        targetType = "I"
+                                                    })
+                                                end
+
+                                                if debugMode then
+                                                    print("|cff33ffccpfQuest-epoch:|r REBUILD - Mapped NPC " .. npcName .. " -> " .. questTitle .. " (" .. activeObj.objective .. ")")
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+
+                            if itemData["O"] then
+                                for objectId, dropRate in pairs(itemData["O"]) do
+                                    if pfDB["objects"] and pfDB["objects"]["enUS"] and pfDB["objects"]["enUS"][objectId] then
+                                        local objName = pfDB["objects"]["enUS"][objectId]
+
+                                        if debugMode then
+                                            print("|cff33ffccpfQuest-epoch:|r REBUILD - Object " .. objName .. " contains " .. (itemName or "item " .. itemId) .. " (" .. dropRate .. "%)")
+                                        end
+
+                                        for _, activeObj in ipairs(activeQuests[questTitle]) do
+                                            if itemName and activeObj.objective:find(itemName, 1, true) then
+                                                if not myQuestMappings[objName] then
+                                                    myQuestMappings[objName] = {}
+                                                end
+
+                                                local found = false
+                                                for _, data in ipairs(myQuestMappings[objName]) do
+                                                    if data.quest == questTitle and data.objective == activeObj.objective then
+                                                        data.current = activeObj.current
+                                                        data.total = activeObj.total
+                                                        data.questId = questId
+                                                        data.targetId = objectId
+                                                        data.targetType = "I"
+                                                        found = true
+                                                        break
+                                                    end
+                                                end
+
+                                                if not found then
+                                                    table.insert(myQuestMappings[objName], {
+                                                        quest = questTitle,
+                                                        questId = questId,
+                                                        objective = activeObj.objective,
+                                                        current = activeObj.current,
+                                                        total = activeObj.total,
+                                                        targetId = objectId,
+                                                        targetType = "I"
+                                                    })
+                                                end
+
+                                                if debugMode then
+                                                    print("|cff33ffccpfQuest-epoch:|r REBUILD - Mapped object " .. objName .. " -> " .. questTitle .. " (" .. activeObj.objective .. ")")
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+
+                if questData["obj"]["O"] then
+                    for _, objectId in pairs(questData["obj"]["O"]) do
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r REBUILD - Found object objective: Object ID " .. tostring(objectId))
+                        end
+
+                        if pfDB["objects"] and pfDB["objects"]["enUS"] and pfDB["objects"]["enUS"][objectId] then
+                            local objectName = pfDB["objects"]["enUS"][objectId]
+
+                            if debugMode then
+                                print("|cff33ffccpfQuest-epoch:|r REBUILD - Object name: " .. objectName)
+                            end
+
+                            for _, activeObj in ipairs(activeQuests[questTitle]) do
+                                if activeObj.objective:find(objectName, 1, true) then
+                                    if not myQuestMappings[objectName] then
+                                        myQuestMappings[objectName] = {}
+                                    end
+
+                                    local found = false
+                                    for _, data in ipairs(myQuestMappings[objectName]) do
+                                        if data.quest == questTitle and data.objective == activeObj.objective then
+                                            data.current = activeObj.current
+                                            data.total = activeObj.total
+                                            data.questId = questId
+                                            data.targetId = objectId
+                                            data.targetType = "O"
+                                            found = true
+                                            break
+                                        end
+                                    end
+
+                                    if not found then
+                                        table.insert(myQuestMappings[objectName], {
+                                            quest = questTitle,
+                                            questId = questId,
+                                            objective = activeObj.objective,
+                                            current = activeObj.current,
+                                            total = activeObj.total,
+                                            targetId = objectId,
+                                            targetType = "O"
+                                        })
+                                    end
+
+                                    if debugMode then
+                                        print("|cff33ffccpfQuest-epoch:|r REBUILD - Added " .. objectName .. " -> " .. questTitle .. " (" .. activeObj.objective .. ": " .. activeObj.current .. "/" .. activeObj.total .. ")")
                                     end
                                 end
                             end
@@ -119,6 +346,12 @@ local function RebuildQuestMappings()
                 end
             end
         end
+    end
+
+    if debugMode then
+        local count = 0
+        for _ in pairs(myQuestMappings) do count = count + 1 end
+        print("|cff33ffccpfQuest-epoch:|r REBUILD - Complete. Total target mappings: " .. count)
     end
 end
 
@@ -151,12 +384,20 @@ local function CaptureMyQuestData(targetKey, questTitle, objectiveText, current,
     end
 end
 
-local function ShareQuestData()
-    if GetNumPartyMembers() == 0 and GetNumRaidMembers() == 0 then
+local function BuildStateString(targetKey, questData)
+    return string.format("%s:%s:%d:%d",
+        targetKey,
+        questData.quest,
+        questData.current,
+        questData.total)
+end
+
+local function ShareQuestData(forceFullSync)
+    if GetNumPartyMembers() == 0 then
         return
     end
 
-    local channel = GetNumRaidMembers() > 0 and "RAID" or "PARTY"
+    local channel = "PARTY"
     local myName = UnitName("player")
 
     local activeQuests = {}
@@ -229,53 +470,119 @@ local function ShareQuestData()
         end
     end
 
-    if debugMode then
-        local count = 0
-        for _ in pairs(myQuestMappings) do count = count + 1 end
-        print("|cff33ffccpfQuest-epoch:|r BROADCAST (quest update) - Sending " .. count .. " target mappings to " .. channel)
-    end
+    local changedEntries = {}
+    local currentState = {}
 
     for targetKey, quests in pairs(myQuestMappings) do
         for _, data in ipairs(quests) do
-            local msg = string.format("QUEST:%s:%s:%s:%d:%d",
-                targetKey,
-                data.quest,
-                data.objective,
-                data.current,
-                data.total)
-            SendAddonMessage("pfqe", msg, channel)
+            local stateKey = BuildStateString(targetKey, data)
+            currentState[stateKey] = true
 
-            if debugMode then
-                print("|cff33ffccpfQuest-epoch:|r   -> " .. targetKey .. ": " .. data.quest .. " (" .. data.current .. "/" .. data.total .. ")")
-            end
+            if forceFullSync or not lastBroadcastState[stateKey] then
+                if data.questId and data.targetId and data.targetType then
+                    table.insert(changedEntries, {
+                        targetKey = targetKey,
+                        targetType = data.targetType,
+                        targetId = data.targetId,
+                        questId = data.questId,
+                        current = data.current,
+                        total = data.total,
+                        quest = data.quest,
+                        objective = data.objective
+                    })
 
-            if not partyQuestData[myName] then
-                partyQuestData[myName] = {}
-            end
-            if not partyQuestData[myName][targetKey] then
-                partyQuestData[myName][targetKey] = {}
-            end
-
-            local found = false
-            for i, existing in ipairs(partyQuestData[myName][targetKey]) do
-                if existing.quest == data.quest and existing.objective == data.objective then
-                    partyQuestData[myName][targetKey][i].current = data.current
-                    partyQuestData[myName][targetKey][i].total = data.total
-                    partyQuestData[myName][targetKey][i].lastUpdate = GetTime()
-                    found = true
-                    break
+                    if debugMode then
+                        print("|cff33ffccpfQuest-epoch:|r DELTA - Changed: " .. targetKey .. " -> " .. data.quest .. " (" .. data.current .. "/" .. data.total .. ")")
+                    end
                 end
             end
+        end
+    end
 
-            if not found then
-                table.insert(partyQuestData[myName][targetKey], {
-                    quest = data.quest,
-                    objective = data.objective,
-                    current = data.current,
-                    total = data.total,
-                    lastUpdate = GetTime()
-                })
+    lastBroadcastState = currentState
+
+    if table.getn(changedEntries) == 0 then
+        if debugMode then
+            print("|cff33ffccpfQuest-epoch:|r BROADCAST - No changes, skipping")
+        end
+        return
+    end
+
+    local messages = {}
+    local currentBatch = "V1|"
+    local entriesInBatch = 0
+
+    if debugMode then
+        print("|cff33ffccpfQuest-epoch:|r BROADCAST - Building batches for " .. table.getn(changedEntries) .. " changed entries")
+    end
+
+    for _, entry in ipairs(changedEntries) do
+        -- Compact format: UxxxQyyy:cc:tt; or OxxxQyyy:cc:tt;
+        local entryStr = string.format("%s%dQ%d:%d:%d;",
+            entry.targetType,
+            entry.targetId,
+            entry.questId,
+            entry.current,
+            entry.total)
+
+        if string.len(currentBatch) + string.len(entryStr) > 250 then
+            table.insert(messages, currentBatch)
+
+            if debugMode then
+                print("|cff33ffccpfQuest-epoch:|r BATCH - Split at " .. entriesInBatch .. " entries (" .. string.len(currentBatch) .. " chars)")
             end
+
+            currentBatch = "V1|" .. entryStr
+            entriesInBatch = 1
+        else
+            currentBatch = currentBatch .. entryStr
+            entriesInBatch = entriesInBatch + 1
+        end
+    end
+
+    if string.len(currentBatch) > 3 then
+        table.insert(messages, currentBatch)
+    end
+
+    if debugMode then
+        print("|cff33ffccpfQuest-epoch:|r BROADCAST - Sending " .. table.getn(messages) .. " batched message(s) to " .. channel)
+    end
+
+    for i, msg in ipairs(messages) do
+        SendAddonMessage("pfqe", msg, channel)
+
+        if debugMode then
+            print("|cff33ffccpfQuest-epoch:|r   Batch " .. i .. " (" .. string.len(msg) .. " chars): " .. msg)
+        end
+    end
+
+    for _, entry in ipairs(changedEntries) do
+        if not partyQuestData[myName] then
+            partyQuestData[myName] = {}
+        end
+        if not partyQuestData[myName][entry.targetKey] then
+            partyQuestData[myName][entry.targetKey] = {}
+        end
+
+        local found = false
+        for i, existing in ipairs(partyQuestData[myName][entry.targetKey]) do
+            if existing.quest == entry.quest and existing.objective == entry.objective then
+                partyQuestData[myName][entry.targetKey][i].current = entry.current
+                partyQuestData[myName][entry.targetKey][i].total = entry.total
+                partyQuestData[myName][entry.targetKey][i].lastUpdate = GetTime()
+                found = true
+                break
+            end
+        end
+
+        if not found then
+            table.insert(partyQuestData[myName][entry.targetKey], {
+                quest = entry.quest,
+                objective = entry.objective,
+                current = entry.current,
+                total = entry.total,
+                lastUpdate = GetTime()
+            })
         end
     end
 end
@@ -299,6 +606,120 @@ local function ProcessQuestData(sender, message)
 
             if table.getn(partyQuestData[sender][removeTarget]) == 0 then
                 partyQuestData[sender][removeTarget] = nil
+            end
+        end
+
+        return
+    end
+
+    if string.sub(message, 1, 3) == "V1|" then
+        local batch = string.sub(message, 4)
+
+        if debugMode then
+            print("|cff33ffccpfQuest-epoch:|r RECEIVE V1 batch from " .. sender .. " (" .. string.len(message) .. " chars)")
+        end
+
+        local entries = {}
+        for entry in string.gmatch(batch, "([^;]+)") do
+            table.insert(entries, entry)
+        end
+
+        for _, entry in ipairs(entries) do
+            -- Parse: UxxxQyyy:cc:tt or OxxxQyyy:cc:tt or IxxxQyyy:cc:tt
+            local targetType, targetId, questId, current, total =
+                string.match(entry, "^([UIO])(%d+)Q(%d+):(%d+):(%d+)$")
+
+            if targetType and targetId and questId and current and total then
+                targetId = tonumber(targetId)
+                questId = tonumber(questId)
+                current = tonumber(current)
+                total = tonumber(total)
+
+                local targetName = nil
+                if targetType == "U" or targetType == "I" then
+                    if pfDB and pfDB["units"] and pfDB["units"]["enUS"] then
+                        targetName = pfDB["units"]["enUS"][targetId]
+                    end
+                elseif targetType == "O" then
+                    if pfDB and pfDB["objects"] and pfDB["objects"]["enUS"] then
+                        targetName = pfDB["objects"]["enUS"][targetId]
+                    end
+                end
+
+                local questTitle = nil
+                local objectiveText = nil
+                if pfDB and pfDB["quests"] and pfDB["quests"]["enUS"] and pfDB["quests"]["enUS"][questId] then
+                    questTitle = pfDB["quests"]["enUS"][questId]["T"]
+
+                    for qid = 1, GetNumQuestLogEntries() do
+                        local logTitle = pfQuestCompat.GetQuestLogTitle(qid)
+                        if logTitle == questTitle then
+                            local numObjectives = GetNumQuestLeaderBoards(qid)
+                            for i = 1, numObjectives do
+                                local text = GetQuestLogLeaderBoard(i, qid)
+                                if text then
+                                    local objName, curr, tot = string.match(text, "(.*):%s*(%d+)%s*/%s*(%d+)")
+                                    if objName then
+                                        objName = string.gsub(objName, "^%s*(.-)%s*$", "%1")
+                                        if tonumber(tot) == total then
+                                            objectiveText = objName
+                                            break
+                                        end
+                                    end
+                                end
+                            end
+                            break
+                        end
+                    end
+
+                    if not objectiveText then
+                        objectiveText = "Quest Objective"
+                    end
+                end
+
+                if targetName and questTitle then
+                    if debugMode then
+                        print("|cff33ffccpfQuest-epoch:|r   Parsed: " .. targetType .. targetId .. "Q" .. questId .. " -> " .. targetName .. ": " .. questTitle .. " (" .. current .. "/" .. total .. ")")
+                    end
+
+                    if not partyQuestData[sender] then
+                        partyQuestData[sender] = {}
+                    end
+
+                    if not partyQuestData[sender][targetName] then
+                        partyQuestData[sender][targetName] = {}
+                    end
+
+                    local found = false
+                    for i, data in ipairs(partyQuestData[sender][targetName]) do
+                        if data.quest == questTitle then
+                            partyQuestData[sender][targetName][i].objective = objectiveText
+                            partyQuestData[sender][targetName][i].current = current
+                            partyQuestData[sender][targetName][i].total = total
+                            partyQuestData[sender][targetName][i].lastUpdate = GetTime()
+                            found = true
+                            break
+                        end
+                    end
+
+                    if not found then
+                        table.insert(partyQuestData[sender][targetName], {
+                            quest = questTitle,
+                            objective = objectiveText,
+                            current = current,
+                            total = total,
+                            lastUpdate = GetTime()
+                        })
+                    end
+                else
+                    if debugMode then
+                        print("|cff33ffccpfQuest-epoch:|r   Failed to resolve: " .. targetType .. targetId .. "Q" .. questId .. " (targetName=" .. tostring(targetName) .. ", questTitle=" .. tostring(questTitle) .. ")")
+                    end
+                end
+            else
+                if debugMode then
+                    print("|cff33ffccpfQuest-epoch:|r   Failed to parse entry: " .. entry)
+                end
             end
         end
 
@@ -364,18 +785,6 @@ local function GetClassColor(playerName)
         end
     end
 
-    for i = 1, GetNumRaidMembers() do
-        local name = UnitName("raid" .. i)
-        if name == playerName then
-            local _, class = UnitClass("raid" .. i)
-            if class and RAID_CLASS_COLORS and RAID_CLASS_COLORS[class] then
-                local classColor = RAID_CLASS_COLORS[class]
-                return {classColor.r, classColor.g, classColor.b}
-            end
-            break
-        end
-    end
-
     return {1.0, 1.0, 1.0}
 end
 
@@ -385,7 +794,7 @@ local function HookGameTooltip()
         if not unitName or not unit then return end
         if UnitIsPlayer(unit) then return end
 
-        local inParty = (GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0)
+        local inParty = GetNumPartyMembers() > 0
         local featureEnabled = pfQuest_config and pfQuest_config["epochShowPartyProgress"] == "1"
 
         if not inParty or not featureEnabled then return end
@@ -484,7 +893,7 @@ local function HookPfQuestTooltip()
             tooltipName = tooltipText:GetText()
         end
 
-        local inParty = (GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0)
+        local inParty = GetNumPartyMembers() > 0
         local featureEnabled = pfQuest_config and pfQuest_config["epochShowPartyProgress"] == "1"
 
         if meta["quest"] and inParty and featureEnabled and targetKey then
@@ -625,11 +1034,7 @@ end
 local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("CHAT_MSG_ADDON")
 eventFrame:RegisterEvent("PARTY_MEMBERS_CHANGED")
-eventFrame:RegisterEvent("RAID_ROSTER_UPDATE")
-eventFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
 eventFrame:RegisterEvent("QUEST_LOG_UPDATE")
-eventFrame:RegisterEvent("PLAYER_ENTER_COMBAT")
-eventFrame:RegisterEvent("PLAYER_LEAVE_COMBAT")
 
 eventFrame:SetScript("OnEvent", function(self, event, ...)
     if event == "CHAT_MSG_ADDON" then
@@ -637,43 +1042,23 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
         if prefix == "pfqe" then
             ProcessQuestData(sender, message)
         elseif prefix == "PFQUEST_SYNC_REQUEST" then
-            if (GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0) and sender ~= UnitName("player") then
+            if GetNumPartyMembers() > 0 and sender ~= UnitName("player") then
                 if debugMode then
                     print("|cff33ffccpfQuest-epoch:|r Received sync request from " .. sender .. ", rebuilding and broadcasting current data")
                 end
                 RebuildQuestMappings()
-                ShareQuestData()
+                ShareQuestData(true)
             end
         end
-    elseif event == "PARTY_MEMBERS_CHANGED" or event == "RAID_ROSTER_UPDATE" then
+    elseif event == "PARTY_MEMBERS_CHANGED" then
         CleanupPartyData()
-        if GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0 then
+        if GetNumPartyMembers() > 0 then
             RebuildQuestMappings()
-            ShareQuestData()
-        end
-    elseif event == "PLAYER_ENTERING_WORLD" then
-        CleanupPartyData()
-        if GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0 then
-            RebuildQuestMappings()
-            local channel = GetNumRaidMembers() > 0 and "RAID" or "PARTY"
-            if debugMode then
-                print("|cff33ffccpfQuest-epoch:|r Requesting sync from " .. channel)
-            end
-            SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", channel)
-            ShareQuestData()
+            SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", "PARTY")
+            ShareQuestData(true)
         end
     elseif event == "QUEST_LOG_UPDATE" then
-        if GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0 then
-            RebuildQuestMappings()
-            ShareQuestData()
-        end
-    elseif event == "PLAYER_ENTER_COMBAT" then
-        if GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0 then
-            RebuildQuestMappings()
-            ShareQuestData()
-        end
-    elseif event == "PLAYER_LEAVE_COMBAT" then
-        if GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0 then
+        if GetNumPartyMembers() > 0 then
             RebuildQuestMappings()
             ShareQuestData()
         end
@@ -728,19 +1113,37 @@ configExtenderFrame:SetScript("OnEvent", function(self, event, addonName)
 
         HookGameTooltip()
 
-        if GetNumPartyMembers() > 0 or GetNumRaidMembers() > 0 then
+        if GetNumPartyMembers() > 0 then
             RebuildQuestMappings()
-            local channel = GetNumRaidMembers() > 0 and "RAID" or "PARTY"
+            local channel = "PARTY"
             if debugMode then
                 print("|cff33ffccpfQuest-epoch:|r Addon loaded, rebuilding and requesting sync from " .. channel)
             end
             SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", channel)
-            ShareQuestData()
+            ShareQuestData(true)
         end
 
         local timer = 0
+        local rebuildRetries = 0
         self:SetScript("OnUpdate", function()
             timer = timer + 1
+
+            if rebuildRetries < 50 and (not pfDB or not pfDB["quests"] or not pfDB["quests"]["data"]) then
+                if timer % 5 == 0 then
+                    rebuildRetries = rebuildRetries + 1
+                    if pfDB and pfDB["quests"] and pfDB["quests"]["data"] then
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r pfDB now available, rebuilding quest mappings")
+                        end
+                        RebuildQuestMappings()
+                        if GetNumPartyMembers() > 0 then
+                            SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", "PARTY")
+                            ShareQuestData(true)
+                        end
+                    end
+                end
+            end
+
             if timer > 10 then
                 if ExtendPfQuestConfig() and HookPfQuestTooltip() then
                     self:SetScript("OnUpdate", nil)
@@ -753,3 +1156,119 @@ configExtenderFrame:SetScript("OnEvent", function(self, event, addonName)
         end)
     end
 end)
+
+SLASH_PFQUESTDEBUG1 = "/pfqd"
+SlashCmdList["PFQUESTDEBUG"] = function(msg)
+    print("|cff33ffccpfQuest-epoch Debug:|r")
+    print("=== Addon Status ===")
+    print("pfQuest loaded: " .. tostring(IsAddOnLoaded("pfQuest")))
+    print("pfQuest-epoch loaded: " .. tostring(IsAddOnLoaded("pfQuest-epoch")))
+    print("pfDB exists: " .. tostring(pfDB ~= nil))
+    if pfDB then
+        print("  pfDB.quests exists: " .. tostring(pfDB.quests ~= nil))
+        if pfDB.quests then
+            print("  pfDB.quests.data exists: " .. tostring(pfDB.quests.data ~= nil))
+        end
+    end
+    print("pfQuestCompat exists: " .. tostring(pfQuestCompat ~= nil))
+    print("pfMap exists: " .. tostring(pfMap ~= nil))
+
+    print("=== Party Status ===")
+    print("Party members: " .. GetNumPartyMembers())
+    print("Feature enabled: " .. tostring(pfQuest_config and pfQuest_config["epochShowPartyProgress"] == "1"))
+
+    print("=== Quest Data ===")
+    local count = 0
+    for _ in pairs(myQuestMappings) do count = count + 1 end
+    print("myQuestMappings targets: " .. count)
+
+    for targetKey, quests in pairs(myQuestMappings) do
+        print("  |cffffcc00Target:|r " .. targetKey)
+        for _, data in ipairs(quests) do
+            print("    - " .. data.quest .. ": " .. data.objective .. " (" .. data.current .. "/" .. data.total .. ")")
+        end
+    end
+
+    local partyCount = 0
+    for _ in pairs(partyQuestData) do partyCount = partyCount + 1 end
+    print("partyQuestData players: " .. partyCount)
+
+    for playerName, targets in pairs(partyQuestData) do
+        print("  |cff00ff00Player:|r " .. playerName)
+        for targetKey, quests in pairs(targets) do
+            print("    |cffffcc00Target:|r " .. targetKey)
+            for _, data in ipairs(quests) do
+                print("      - " .. data.quest .. ": " .. data.objective .. " (" .. data.current .. "/" .. data.total .. ")")
+            end
+        end
+    end
+
+    if count == 0 and partyCount == 0 then
+        print("|cffff0000No quest data found!|r Try killing a quest mob or running /pfqd after joining a party.")
+    end
+end
+
+SLASH_PFQUEREBUILD1 = "/pfqrebuild"
+SlashCmdList["PFQUEREBUILD"] = function(msg)
+    print("|cff33ffccpfQuest-epoch:|r Manually triggering RebuildQuestMappings...")
+    RebuildQuestMappings()
+    if GetNumPartyMembers() > 0 then
+        print("|cff33ffccpfQuest-epoch:|r Sending sync request and sharing data...")
+        SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", "PARTY")
+        ShareQuestData(true)
+    end
+    print("|cff33ffccpfQuest-epoch:|r Done! Run /pfqd to see results.")
+end
+
+SLASH_PFQUESTFIND1 = "/pfqfind"
+SlashCmdList["PFQUESTFIND"] = function(msg)
+    print("|cff33ffccpfQuest-epoch:|r Checking pfDB structure...")
+
+    if not pfDB then
+        print("  |cffff0000pfDB does not exist!|r")
+        return
+    end
+
+    print("  pfDB exists: |cff00ff00YES|r")
+    print("  pfDB contains:")
+    for k, v in pairs(pfDB) do
+        if type(v) == "table" then
+            local count = 0
+            for _ in pairs(v) do
+                count = count + 1
+                if count > 1000 then break end
+            end
+            if k == "data" then
+                print("    - " .. k .. " (table with " .. count .. "+ entries)")
+            else
+                print("    - " .. k .. " (table)")
+            end
+        end
+    end
+end
+
+SLASH_PFQUESTAPI1 = "/pfqapi"
+SlashCmdList["PFQUESTAPI"] = function(msg)
+    print("|cff33ffccpfQuest-epoch:|r Checking pfQuest API...")
+    if pfDB and pfDB.quests and pfDB.quests.data and pfDB.quests.data[7] then
+        print("\nQuest ID 7 full structure:")
+        for k, v in pairs(pfDB.quests.data[7]) do
+            if type(v) == "table" then
+                print("  [\"" .. tostring(k) .. "\"] = {")
+                for k2, v2 in pairs(v) do
+                    print("    [\"" .. tostring(k2) .. "\"] = " .. tostring(v2))
+                end
+                print("  }")
+            else
+                print("  [\"" .. tostring(k) .. "\"] = " .. tostring(v))
+            end
+        end
+    end
+
+    print("\npfDB.quests keys:")
+    if pfDB and pfDB.quests then
+        for k, v in pairs(pfDB.quests) do
+            print("  " .. k .. " (" .. type(v) .. ")")
+        end
+    end
+end

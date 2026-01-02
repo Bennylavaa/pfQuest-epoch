@@ -1087,6 +1087,15 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
+            text = "Hide Coin Quests",
+            default = "0",
+            type = "checkbox",
+            config = "epochHideCoinQuests"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
             text = "Hide Cloth Donation Quests",
             default = "0",
             type = "checkbox",
