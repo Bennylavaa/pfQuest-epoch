@@ -213,6 +213,7 @@ local function RebuildQuestMappings()
                                                         data.total = activeObj.total
                                                         data.questId = questId
                                                         data.targetId = unitId
+                                                        data.itemId = itemId
                                                         data.targetType = "I"
                                                         found = true
                                                         break
@@ -227,6 +228,7 @@ local function RebuildQuestMappings()
                                                         current = activeObj.current,
                                                         total = activeObj.total,
                                                         targetId = unitId,
+                                                        itemId = itemId,
                                                         targetType = "I"
                                                     })
                                                 end
@@ -262,6 +264,7 @@ local function RebuildQuestMappings()
                                                         data.total = activeObj.total
                                                         data.questId = questId
                                                         data.targetId = objectId
+                                                        data.itemId = itemId
                                                         data.targetType = "I"
                                                         found = true
                                                         break
@@ -276,6 +279,7 @@ local function RebuildQuestMappings()
                                                         current = activeObj.current,
                                                         total = activeObj.total,
                                                         targetId = objectId,
+                                                        itemId = itemId,
                                                         targetType = "I"
                                                     })
                                                 end
@@ -410,16 +414,24 @@ local function ShareQuestData(forceFullSync)
 
     for questTitle in pairs(previousQuestList) do
         if not activeQuests[questTitle] then
+            local questId = nil
+
             for targetKey, quests in pairs(myQuestMappings) do
                 for _, questData in ipairs(quests) do
-                    if questData.quest == questTitle then
-                        local msg = string.format("REMOVE:%s:%s", targetKey, questTitle)
-                        SendAddonMessage("pfqe", msg, channel)
-
-                        if debugMode then
-                            print("|cff33ffccpfQuest-epoch:|r REMOVE broadcast - " .. targetKey .. ": " .. questTitle)
-                        end
+                    if questData.quest == questTitle and questData.questId then
+                        questId = questData.questId
+                        break
                     end
+                end
+                if questId then break end
+            end
+
+            if questId then
+                local msg = string.format("REMOVEQ:%d:%s", questId, questTitle)
+                SendAddonMessage("pfqe", msg, channel)
+
+                if debugMode then
+                    print("|cff33ffccpfQuest-epoch:|r REMOVE broadcast - Quest: " .. questTitle .. " (ID: " .. questId .. ")")
                 end
             end
         end
@@ -472,6 +484,7 @@ local function ShareQuestData(forceFullSync)
 
     local changedEntries = {}
     local currentState = {}
+    local consolidatedObjectives = {}
 
     for targetKey, quests in pairs(myQuestMappings) do
         for _, data in ipairs(quests) do
@@ -480,16 +493,37 @@ local function ShareQuestData(forceFullSync)
 
             if forceFullSync or not lastBroadcastState[stateKey] then
                 if data.questId and data.targetId and data.targetType then
-                    table.insert(changedEntries, {
-                        targetKey = targetKey,
-                        targetType = data.targetType,
-                        targetId = data.targetId,
-                        questId = data.questId,
-                        current = data.current,
-                        total = data.total,
-                        quest = data.quest,
-                        objective = data.objective
-                    })
+
+                    if data.targetType == "I" then
+                        local objKey = data.questId .. ":" .. data.objective
+
+                        if not consolidatedObjectives[objKey] then
+                            consolidatedObjectives[objKey] = {
+                                questId = data.questId,
+                                objective = data.objective,
+                                quest = data.quest,
+                                current = data.current,
+                                total = data.total,
+                                targetType = "I",
+                                targetId = data.itemId or data.targetId
+                            }
+                        else
+                            if data.current > consolidatedObjectives[objKey].current then
+                                consolidatedObjectives[objKey].current = data.current
+                            end
+                        end
+                    else
+                        table.insert(changedEntries, {
+                            targetKey = targetKey,
+                            targetType = data.targetType,
+                            targetId = data.targetId,
+                            questId = data.questId,
+                            current = data.current,
+                            total = data.total,
+                            quest = data.quest,
+                            objective = data.objective
+                        })
+                    end
 
                     if debugMode then
                         print("|cff33ffccpfQuest-epoch:|r DELTA - Changed: " .. targetKey .. " -> " .. data.quest .. " (" .. data.current .. "/" .. data.total .. ")")
@@ -497,6 +531,10 @@ local function ShareQuestData(forceFullSync)
                 end
             end
         end
+    end
+
+    for _, entry in pairs(consolidatedObjectives) do
+        table.insert(changedEntries, entry)
     end
 
     lastBroadcastState = currentState
@@ -557,37 +595,70 @@ local function ShareQuestData(forceFullSync)
     end
 
     for _, entry in ipairs(changedEntries) do
-        if not partyQuestData[myName] then
-            partyQuestData[myName] = {}
-        end
-        if not partyQuestData[myName][entry.targetKey] then
-            partyQuestData[myName][entry.targetKey] = {}
-        end
-
-        local found = false
-        for i, existing in ipairs(partyQuestData[myName][entry.targetKey]) do
-            if existing.quest == entry.quest and existing.objective == entry.objective then
-                partyQuestData[myName][entry.targetKey][i].current = entry.current
-                partyQuestData[myName][entry.targetKey][i].total = entry.total
-                partyQuestData[myName][entry.targetKey][i].lastUpdate = GetTime()
-                found = true
-                break
+        if entry.targetKey then
+            if not partyQuestData[myName] then
+                partyQuestData[myName] = {}
             end
-        end
+            if not partyQuestData[myName][entry.targetKey] then
+                partyQuestData[myName][entry.targetKey] = {}
+            end
 
-        if not found then
-            table.insert(partyQuestData[myName][entry.targetKey], {
-                quest = entry.quest,
-                objective = entry.objective,
-                current = entry.current,
-                total = entry.total,
-                lastUpdate = GetTime()
-            })
+            local found = false
+            for i, existing in ipairs(partyQuestData[myName][entry.targetKey]) do
+                if existing.quest == entry.quest and existing.objective == entry.objective then
+                    partyQuestData[myName][entry.targetKey][i].current = entry.current
+                    partyQuestData[myName][entry.targetKey][i].total = entry.total
+                    partyQuestData[myName][entry.targetKey][i].lastUpdate = GetTime()
+                    found = true
+                    break
+                end
+            end
+
+            if not found then
+                table.insert(partyQuestData[myName][entry.targetKey], {
+                    quest = entry.quest,
+                    objective = entry.objective,
+                    current = entry.current,
+                    total = entry.total,
+                    lastUpdate = GetTime()
+                })
+            end
         end
     end
 end
 
 local function ProcessQuestData(sender, message)
+    -- Handle consolidated quest removal (new format: REMOVEQ:questId:questTitle)
+    local removeQuestId, removeQuestTitle = string.match(message, "^REMOVEQ:(%d+):(.+)$")
+    if removeQuestId and removeQuestTitle then
+        if debugMode then
+            print("|cff33ffccpfQuest-epoch:|r REMOVEQ from " .. sender .. " - Quest: " .. removeQuestTitle .. " (ID: " .. removeQuestId .. ")")
+        end
+
+        if partyQuestData[sender] then
+            for targetKey, quests in pairs(partyQuestData[sender]) do
+                local i = 1
+                while i <= table.getn(quests) do
+                    if quests[i].quest == removeQuestTitle then
+                        table.remove(quests, i)
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r   Removed from " .. targetKey)
+                        end
+                    else
+                        i = i + 1
+                    end
+                end
+
+                if table.getn(quests) == 0 then
+                    partyQuestData[sender][targetKey] = nil
+                end
+            end
+        end
+
+        return
+    end
+
+    -- Handle old format for backwards compatibility (REMOVE:targetKey:questTitle)
     local removeTarget, removeQuest = string.match(message, "^REMOVE:([^:]+):(.+)$")
     if removeTarget and removeQuest then
         if debugMode then
@@ -635,17 +706,6 @@ local function ProcessQuestData(sender, message)
                 current = tonumber(current)
                 total = tonumber(total)
 
-                local targetName = nil
-                if targetType == "U" or targetType == "I" then
-                    if pfDB and pfDB["units"] and pfDB["units"]["enUS"] then
-                        targetName = pfDB["units"]["enUS"][targetId]
-                    end
-                elseif targetType == "O" then
-                    if pfDB and pfDB["objects"] and pfDB["objects"]["enUS"] then
-                        targetName = pfDB["objects"]["enUS"][targetId]
-                    end
-                end
-
                 local questTitle = nil
                 local objectiveText = nil
                 if pfDB and pfDB["quests"] and pfDB["quests"]["enUS"] and pfDB["quests"]["enUS"][questId] then
@@ -677,43 +737,190 @@ local function ProcessQuestData(sender, message)
                     end
                 end
 
-                if targetName and questTitle then
-                    if debugMode then
-                        print("|cff33ffccpfQuest-epoch:|r   Parsed: " .. targetType .. targetId .. "Q" .. questId .. " -> " .. targetName .. ": " .. questTitle .. " (" .. current .. "/" .. total .. ")")
-                    end
+                if targetType == "I" then
+                    if pfDB and pfDB["items"] and pfDB["items"]["data"] and pfDB["items"]["data"][targetId] then
+                        local itemData = pfDB["items"]["data"][targetId]
 
-                    if not partyQuestData[sender] then
-                        partyQuestData[sender] = {}
-                    end
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r   Expanding item quest - Item ID: " .. targetId)
+                        end
 
-                    if not partyQuestData[sender][targetName] then
-                        partyQuestData[sender][targetName] = {}
-                    end
+                        if itemData["U"] then
+                            local npcCount = 0
+                            for unitId, dropRate in pairs(itemData["U"]) do
+                                if pfDB["units"] and pfDB["units"]["enUS"] and pfDB["units"]["enUS"][unitId] then
+                                    local npcName = pfDB["units"]["enUS"][unitId]
 
-                    local found = false
-                    for i, data in ipairs(partyQuestData[sender][targetName]) do
-                        if data.quest == questTitle then
-                            partyQuestData[sender][targetName][i].objective = objectiveText
-                            partyQuestData[sender][targetName][i].current = current
-                            partyQuestData[sender][targetName][i].total = total
-                            partyQuestData[sender][targetName][i].lastUpdate = GetTime()
-                            found = true
-                            break
+                                    if not partyQuestData[sender] then
+                                        partyQuestData[sender] = {}
+                                    end
+
+                                    if not partyQuestData[sender][npcName] then
+                                        partyQuestData[sender][npcName] = {}
+                                    end
+
+                                    local found = false
+                                    for i, data in ipairs(partyQuestData[sender][npcName]) do
+                                        if data.quest == questTitle then
+                                            partyQuestData[sender][npcName][i].objective = objectiveText
+                                            partyQuestData[sender][npcName][i].current = current
+                                            partyQuestData[sender][npcName][i].total = total
+                                            partyQuestData[sender][npcName][i].lastUpdate = GetTime()
+                                            found = true
+                                            break
+                                        end
+                                    end
+
+                                    if not found then
+                                        table.insert(partyQuestData[sender][npcName], {
+                                            quest = questTitle,
+                                            objective = objectiveText,
+                                            current = current,
+                                            total = total,
+                                            lastUpdate = GetTime()
+                                        })
+                                    end
+
+                                    npcCount = npcCount + 1
+                                end
+                            end
+
+                            if debugMode then
+                                print("|cff33ffccpfQuest-epoch:|r   Expanded to " .. npcCount .. " NPCs for item " .. targetId)
+                            end
+                        end
+
+                        if itemData["O"] then
+                            for objectId, dropRate in pairs(itemData["O"]) do
+                                if pfDB["objects"] and pfDB["objects"]["enUS"] and pfDB["objects"]["enUS"][objectId] then
+                                    local objName = pfDB["objects"]["enUS"][objectId]
+
+                                    if not partyQuestData[sender] then
+                                        partyQuestData[sender] = {}
+                                    end
+
+                                    if not partyQuestData[sender][objName] then
+                                        partyQuestData[sender][objName] = {}
+                                    end
+
+                                    local found = false
+                                    for i, data in ipairs(partyQuestData[sender][objName]) do
+                                        if data.quest == questTitle then
+                                            partyQuestData[sender][objName][i].objective = objectiveText
+                                            partyQuestData[sender][objName][i].current = current
+                                            partyQuestData[sender][objName][i].total = total
+                                            partyQuestData[sender][objName][i].lastUpdate = GetTime()
+                                            found = true
+                                            break
+                                        end
+                                    end
+
+                                    if not found then
+                                        table.insert(partyQuestData[sender][objName], {
+                                            quest = questTitle,
+                                            objective = objectiveText,
+                                            current = current,
+                                            total = total,
+                                            lastUpdate = GetTime()
+                                        })
+                                    end
+                                end
+                            end
+                        end
+                    else
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r   Failed to expand item quest - Item ID " .. targetId .. " not found in database")
                         end
                     end
-
-                    if not found then
-                        table.insert(partyQuestData[sender][targetName], {
-                            quest = questTitle,
-                            objective = objectiveText,
-                            current = current,
-                            total = total,
-                            lastUpdate = GetTime()
-                        })
+                elseif targetType == "U" then
+                    local targetName = nil
+                    if pfDB and pfDB["units"] and pfDB["units"]["enUS"] then
+                        targetName = pfDB["units"]["enUS"][targetId]
                     end
-                else
-                    if debugMode then
-                        print("|cff33ffccpfQuest-epoch:|r   Failed to resolve: " .. targetType .. targetId .. "Q" .. questId .. " (targetName=" .. tostring(targetName) .. ", questTitle=" .. tostring(questTitle) .. ")")
+
+                    if targetName and questTitle then
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r   Parsed: U" .. targetId .. "Q" .. questId .. " -> " .. targetName .. ": " .. questTitle .. " (" .. current .. "/" .. total .. ")")
+                        end
+
+                        if not partyQuestData[sender] then
+                            partyQuestData[sender] = {}
+                        end
+
+                        if not partyQuestData[sender][targetName] then
+                            partyQuestData[sender][targetName] = {}
+                        end
+
+                        local found = false
+                        for i, data in ipairs(partyQuestData[sender][targetName]) do
+                            if data.quest == questTitle then
+                                partyQuestData[sender][targetName][i].objective = objectiveText
+                                partyQuestData[sender][targetName][i].current = current
+                                partyQuestData[sender][targetName][i].total = total
+                                partyQuestData[sender][targetName][i].lastUpdate = GetTime()
+                                found = true
+                                break
+                            end
+                        end
+
+                        if not found then
+                            table.insert(partyQuestData[sender][targetName], {
+                                quest = questTitle,
+                                objective = objectiveText,
+                                current = current,
+                                total = total,
+                                lastUpdate = GetTime()
+                            })
+                        end
+                    else
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r   Failed to resolve: U" .. targetId .. "Q" .. questId)
+                        end
+                    end
+                elseif targetType == "O" then
+                    local targetName = nil
+                    if pfDB and pfDB["objects"] and pfDB["objects"]["enUS"] then
+                        targetName = pfDB["objects"]["enUS"][targetId]
+                    end
+
+                    if targetName and questTitle then
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r   Parsed: O" .. targetId .. "Q" .. questId .. " -> " .. targetName .. ": " .. questTitle .. " (" .. current .. "/" .. total .. ")")
+                        end
+
+                        if not partyQuestData[sender] then
+                            partyQuestData[sender] = {}
+                        end
+
+                        if not partyQuestData[sender][targetName] then
+                            partyQuestData[sender][targetName] = {}
+                        end
+
+                        local found = false
+                        for i, data in ipairs(partyQuestData[sender][targetName]) do
+                            if data.quest == questTitle then
+                                partyQuestData[sender][targetName][i].objective = objectiveText
+                                partyQuestData[sender][targetName][i].current = current
+                                partyQuestData[sender][targetName][i].total = total
+                                partyQuestData[sender][targetName][i].lastUpdate = GetTime()
+                                found = true
+                                break
+                            end
+                        end
+
+                        if not found then
+                            table.insert(partyQuestData[sender][targetName], {
+                                quest = questTitle,
+                                objective = objectiveText,
+                                current = current,
+                                total = total,
+                                lastUpdate = GetTime()
+                            })
+                        end
+                    else
+                        if debugMode then
+                            print("|cff33ffccpfQuest-epoch:|r   Failed to resolve: O" .. targetId .. "Q" .. questId)
+                        end
                     end
                 end
             else
@@ -1085,21 +1292,6 @@ local function ExtendPfQuestConfig()
 
     if not pfQuest_config["epochShowPartyProgress"] then
         pfQuest_config["epochShowPartyProgress"] = "1"
-    end
-
-    if pfQuestConfig.CreateConfigEntries then
-        for i = 1, 50 do
-            local frame = getglobal("pfQuestConfig" .. i)
-            if frame then
-                frame:Hide()
-                frame:SetParent(nil)
-            else
-                break
-            end
-        end
-
-        pfQuestConfig.vpos = 40
-        pfQuestConfig:CreateConfigEntries(pfQuest_defconfig)
     end
 
     return true

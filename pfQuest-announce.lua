@@ -6,6 +6,8 @@ questAnnounceFrame:SetScript("OnEvent", function(self, event, message)
   end
 end)
 
+local objectiveState = {}
+
 function pfQuestEpoch_OnQuestUpdate(message)
   if GetNumPartyMembers() == 0 then
     return
@@ -21,23 +23,60 @@ function pfQuestEpoch_OnQuestUpdate(message)
     local iNumItems = tonumber(numItems)
     local iNumNeeded = tonumber(numNeeded)
     local stillNeeded = iNumNeeded - iNumItems
+
+    if not objectiveState[itemName] then
+      objectiveState[itemName] = {lastCount = 0, announced = false}
+    end
+
+    if objectiveState[itemName].lastCount == iNumItems then
+      return
+    end
+
+    objectiveState[itemName].lastCount = iNumItems
+
     local questName = pfQuestEpoch_GetQuestNameForObjective(itemName)
+    local itemId = pfQuestEpoch_GetItemIdForObjective(itemName)
+    local itemLink = nil
+
+    if itemId then
+      local name, link = GetItemInfo(itemId)
+      if link then
+        itemLink = link
+      end
+    end
+
     local outMessage
 
     if stillNeeded < 1 then
       if pfQuest_config["epochannounceFinished"] == "1" then
-        if questName then
-          outMessage = "Finished " .. questName .. "."
-        else
-          outMessage = "I have finished " .. itemName .. "."
+        if not objectiveState[itemName].announced then
+          objectiveState[itemName].announced = true
+
+          if pfQuest_config["epochannounceShowItem"] == "1" and itemLink then
+            if questName then
+              outMessage = "Finished " .. itemLink .. " for " .. questName .. "."
+            else
+              outMessage = "I have finished collecting " .. itemLink .. "."
+            end
+          else
+            if questName then
+              outMessage = "Finished " .. questName .. "."
+            else
+              outMessage = "I have finished " .. itemName .. "."
+            end
+          end
         end
       end
     else
+      objectiveState[itemName].announced = false
+
       if pfQuest_config["epochannounceRemaining"] == "1" then
+        local displayItem = itemLink or itemName
+
         if questName then
-          outMessage = "" .. itemName .. " for " .. questName .. " (" .. stillNeeded .. " left)"
+          outMessage = "" .. displayItem .. " for " .. questName .. " (" .. stillNeeded .. " left)"
         else
-          outMessage = "" .. itemName .. " (" .. stillNeeded .. " left)"
+          outMessage = "" .. displayItem .. " (" .. stillNeeded .. " left)"
         end
       end
     end
@@ -75,12 +114,91 @@ function pfQuestEpoch_GetQuestNameForObjective(objectiveName)
   return nil
 end
 
+function pfQuestEpoch_GetItemIdForObjective(objectiveName)
+  local questId = pfQuestEpoch_GetQuestIdForObjective(objectiveName)
+
+  if questId and pfDB and pfDB["quests"] and pfDB["quests"]["data"] then
+    local questData = pfDB["quests"]["data"][questId]
+
+    if questData and questData["obj"] and questData["obj"]["I"] then
+      for _, itemId in pairs(questData["obj"]["I"]) do
+        local itemName = GetItemInfo(itemId)
+
+        if itemName and string.find(string.lower(objectiveName), string.lower(itemName), 1, true) then
+          return itemId
+        end
+      end
+    end
+  end
+
+  local numQuestLogEntries = GetNumQuestLogEntries()
+  for i = 1, numQuestLogEntries do
+    local questTitle, level, questTag, suggestedGroup, isHeader = GetQuestLogTitle(i)
+
+    if not isHeader and questTitle then
+      SelectQuestLogEntry(i)
+      local numObjectives = GetNumQuestLeaderBoards()
+
+      for j = 1, numObjectives do
+        local description, type, finished = GetQuestLogLeaderBoard(j)
+        if description then
+          local objName = string.match(description, "(.*):%s*[-%d]+%s*/%s*[-%d]+%s*$")
+          if objName and string.find(string.lower(objName), string.lower(objectiveName), 1, true) then
+            local questText = GetQuestLogQuestText()
+            if questText then
+              local _, _, itemId = string.find(questText, "item:(%d+)")
+              if itemId then
+                return tonumber(itemId)
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+
+  return nil
+end
+
+function pfQuestEpoch_GetQuestIdForObjective(objectiveName)
+  local numQuestLogEntries = GetNumQuestLogEntries()
+
+  for i = 1, numQuestLogEntries do
+    local questTitle, level, questTag, suggestedGroup, isHeader = GetQuestLogTitle(i)
+
+    if not isHeader and questTitle then
+      SelectQuestLogEntry(i)
+      local numObjectives = GetNumQuestLeaderBoards()
+
+      for j = 1, numObjectives do
+        local description, type, finished = GetQuestLogLeaderBoard(j)
+
+        if description then
+          local objName = string.match(description, "(.*):%s*[-%d]+%s*/%s*[-%d]+%s*$")
+
+          if objName and string.find(string.lower(objName), string.lower(objectiveName), 1, true) then
+            return pfQuestEpoch_GetQuestIdFromLink(GetQuestLink(i))
+          end
+        end
+      end
+    end
+  end
+
+  return nil
+end
+
+function pfQuestEpoch_GetQuestIdFromLink(questLink)
+  if not questLink then return nil end
+  local _, _, questId = string.find(questLink, "quest:(%d+)")
+  return tonumber(questId)
+end
+
 local function ExtendPfQuestConfig()
   if not pfQuest_defconfig or not pfQuestConfig then
     return false
   end
 
-  local foundHeader, foundFinished, foundRemaining = false, false, false
+  local foundHeader, foundFinished, foundRemaining, foundShowItem = false, false, false, false
   for _, entry in pairs(pfQuest_defconfig) do
     if entry.text == "Announce" and entry.type == "header" then
       foundHeader = true
@@ -88,10 +206,12 @@ local function ExtendPfQuestConfig()
       foundFinished = true
     elseif entry.config == "epochannounceRemaining" then
       foundRemaining = true
+    elseif entry.config == "epochannounceShowItem" then
+      foundShowItem = true
     end
   end
 
-  if foundHeader and foundFinished and foundRemaining then
+  if foundHeader and foundFinished and foundRemaining and foundShowItem then
     return true
   end
 
@@ -121,27 +241,23 @@ local function ExtendPfQuestConfig()
     })
   end
 
+  if not foundShowItem then
+    table.insert(pfQuest_defconfig, {
+      text = "Show Item Link in Finished Announcement",
+      default = "0",
+      type = "checkbox",
+      config = "epochannounceShowItem"
+    })
+  end
+
   if not pfQuest_config["epochannounceFinished"] then
     pfQuest_config["epochannounceFinished"] = "0"
   end
   if not pfQuest_config["epochannounceRemaining"] then
     pfQuest_config["epochannounceRemaining"] = "0"
   end
-
-  if pfQuestConfig.CreateConfigEntries then
-    for i = 1, 50 do
-      local frame = getglobal("pfQuestConfig" .. i)
-      if frame then
-        frame:Hide()
-        frame:SetParent(nil)
-      else
-        break
-      end
-    end
-
-    pfQuestConfig.vpos = 40
-
-    pfQuestConfig:CreateConfigEntries(pfQuest_defconfig)
+  if not pfQuest_config["epochannounceShowItem"] then
+    pfQuest_config["epochannounceShowItem"] = "1"
   end
 
   return true
@@ -153,6 +269,7 @@ local function CheckAndHandleVersionUpdate()
 
   if currentVersion == "2.22.1" and not pfQuest_config["epochannounceForcedDisableOnce"] then
     pfQuest_config["epochannounceFinished"] = "0"
+    pfQuest_config["epochannounceRemaining"] = "0"
     pfQuest_config["epochannounceForcedDisableOnce"] = "1"
     return true
   end
@@ -226,6 +343,16 @@ local function SetupAnnounceCommands()
         elseif arg3 == "off" then
           pfQuest_config["epochannounceRemaining"] = "0"
           DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest |cffcccccc[Epoch]|r: Remaining quest announcements disabled")
+          return
+        end
+      elseif arg2 == "item" then
+        if arg3 == "on" then
+          pfQuest_config["epochannounceShowItem"] = "1"
+          DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest |cffcccccc[Epoch]|r: Item links in announcements enabled")
+          return
+        elseif arg3 == "off" then
+          pfQuest_config["epochannounceShowItem"] = "0"
+          DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest |cffcccccc[Epoch]|r: Item links in announcements disabled")
           return
         end
       end

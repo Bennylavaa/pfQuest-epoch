@@ -1005,6 +1005,18 @@ WorldMapButton:SetScript(
 )
 
 local function ExtendPfQuestConfig()
+    local found = false
+    for _, entry in pairs(pfQuest_defconfig) do
+        if entry.config == "epochContinentPins" then
+            found = true
+            break
+        end
+    end
+
+    if found then
+        return
+    end
+
     table.insert(
         pfQuest_defconfig,
         {
