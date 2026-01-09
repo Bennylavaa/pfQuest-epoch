@@ -42,6 +42,7 @@ do -- units/npcs
   pfDB["units"]["data-epoch"][13776] = { } -- Corporal Teeka Bloodsnarl
   pfDB["units"]["data-epoch"][13840] = { } -- Warmaster Laggrond
   pfDB["units"]["data-epoch"][14355] = { } -- Azj'Tordin
+  pfDB["units"]["data-epoch"][14373] = { } -- Sage Korolusk
   pfDB["units"]["data-epoch"][14374] = { } -- Scholar Runethorn
   pfDB["units"]["data-epoch"][14846] = { } -- Lhara Darkmoon Faire NPC
   pfDB["units"]["data-epoch"][15021] = { } -- Deathmaster Dwire
@@ -132,16 +133,29 @@ do -- units/npcs
   pfDB["quests"]["data-epoch"][11340] = { } -- Call to Arms: Alterac Valley
   pfDB["quests"]["data-epoch"][11342] = { } -- Call to Arms: Warsong Gulch
   pfDB["quests"]["data-epoch"][10752] = { } -- Onward to Ashenvale
+  pfDB["quests"]["data-epoch"][9520] = { } -- Diabolical Plans
+  pfDB["quests"]["data-epoch"][9535] = { } -- Diabolical Plans
 
   -- Remove zg island npc 
+  pfDB["units"]["data-epoch"][14910] = { } -- Exzhal <Servitor of Rastakhan>
+  pfDB["units"]["data-epoch"][14875] = { } -- Molthor <Hand of Rastakhan>
+  pfDB["units"]["data-epoch"][14921] = { } -- Rin'wosho the Trader <Zandalar Supplies and Repair>
+  pfDB["units"]["data-epoch"][15070] = { } -- Vinchaxa <Servitor of Zanza>
   pfDB["units"]["data-epoch"][14903] = { } -- Al'tabim the All-Seeing
-  pfDB["units"]["data-epoch"][14910] = { } -- Exzhal
-  pfDB["units"]["data-epoch"][14921] = { } -- Rin'wosho the Trader
-  pfDB["units"]["data-epoch"][15070] = { } -- Vinchaxa
+  pfDB["units"]["data-epoch"][14905] = { } -- Falthir the Sightless
+  pfDB["units"]["data-epoch"][14902] = { } -- Jin'rokh the Breaker
   pfDB["units"]["data-epoch"][14904] = { } -- Maywiki of Zuldazar
+  pfDB["units"]["data-epoch"][14912] = { } -- Captured Hakkari Zealot
+  pfDB["units"]["data-epoch"][15080] = { } -- Servant of the Hand <Hand of Rastakhan>
+  pfDB["units"]["data-epoch"][14911] = { } -- Zandalar Enforcer
+  pfDB["units"]["data-epoch"][14876] = { } -- Zandalar Headshrinker
+
+  -- remove nightmare dragons
+  pfDB["quests"]["data-epoch"][8446] = { } -- Shrouded in nightmare
 
   -- Remove missing epl npcs will need to be added later with correct cords
   pfDB["units"]["data-epoch"][17069] = { } --Emissary Whitebeard 
+  pfDB["units"]["data-epoch"][17072] = { } --Emmisary Gormok 
   pfDB["units"]["data-epoch"][16112] = { } --Korfax, Champion of the Light 
   pfDB["units"]["data-epoch"][16116] = { } --Archmage Angela Dosantos 
   pfDB["units"]["data-epoch"][16131] = { } --Rohan the Assassin 
@@ -638,6 +652,7 @@ do -- units/npcs
 
   -- Remove Midsummer Quests
   pfDB["units"]["data-epoch"][15011] = { } -- Wagner Hammerstrike
+  pfDB["units"]["data-epoch"][15012] = { } -- Javnir Nashak
   pfDB["units"]["data-epoch"][25962] = { } -- Fire Eater
   pfDB["units"]["data-epoch"][25883] = { } -- Ashenvale Flame Warden
   pfDB["units"]["data-epoch"][25884] = { } -- Ashenvale Flame Keeper
@@ -1355,6 +1370,9 @@ do -- units/npcs
   pfDB["quests"]["data-epoch"][1047] = { } -- Remove The New Frontier
   pfDB["quests"]["data-epoch"][6761] = { } -- Remove The New Frontier
   pfDB["quests"]["data-epoch"][7494] = { } -- Remove Feathermoon Stronghold
+  pfDB["quests"]["data-epoch"][7488] = { } -- Remove Lethtendriss Web
+  pfDB["quests"]["data-epoch"][7492] = { } -- Remove Camp Mojache
+  pfDB["quests"]["data-epoch"][7489] = { } -- Remove Lethtendriss Web
 
   -- Remove Arena Quests
   pfDB["quests"]["data-epoch"][7810] = { } -- Arena Master
@@ -1388,7 +1406,9 @@ do -- quests
   pfDB["quests"]["data-epoch"][9521] = { } -- Report from the Northern Front
   pfDB["quests"]["data-epoch"][11211] = { } -- Help for Mudsprocket
   pfDB["quests"]["data-epoch"][11212] = { } -- Tabetha's Farm
+  pfDB["quests"]["data-epoch"][11213] = { } -- Check Up on Tabetha
   pfDB["quests"]["data-epoch"][11214] = { } -- Mission to Mudsprocket
+  pfDB["quests"]["data-epoch"][11215] = { } -- Help Mudsprocket
   pfDB["quests"]["data-epoch"][11451] = { } --Remove tbc quest Alicia's Poem
   pfDB["quests"]["data-epoch"][182] = { } --Remove dwarf quest The Troll Cave
   pfDB["quests"]["data-epoch"][8551] = { } --Remove The Captain's Chest (Non elite version)

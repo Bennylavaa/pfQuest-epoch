@@ -705,6 +705,11 @@ pfDB["objects"]["enUS-epoch"] = {
   [250678] = "Thorium Brotherhood Guard Post",
   [250679] = "Volchan\'s Heart",
   [250680] = "Abandoned Lockbox",
+  [250681] = "Frozen Onyxia Egg",
+  [250682] = "Frozen Empowered Egg",
+  [250683] = "Artificially Aged Onyxia Whelp Spawner",
+  [250684] = "the back door to Karazhan",
+  [250685] = "Swirling Pool",
   -- Placeholder IDs
   [4000077] = "Memento of Archimonde",
   [5000001] = "Mana Berry Bush",

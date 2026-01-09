@@ -759,7 +759,9 @@ pfDatabase.SearchQuests = function(self, meta, maps)
       if quests[id]["end"] and quests[id]["end"]["U"] then
         validFaction = false
         for _, unit in pairs(quests[id]["end"]["U"]) do
-          if pfDatabase:IsFriendly(unit) then
+          -- Treat units without a fac field as neutral (AH)
+          local unitData = units[unit]
+          if pfDatabase:IsFriendly(unit) or (unitData and not unitData["fac"]) then
             validFaction = true
             break
           end
