@@ -32,7 +32,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [537] = {
     ["T"] = "Dark Council",
     ["O"] = "Kill Argus Shadow Mages and bring one of their spell books back to Magistrate Henry Maleb at Southshore in Hillsbrad Foothills.",
-    ["D"] = "The letter you brought me was written by a being who calls himself Nagaz, a member of the Argus Wake. I don\'t know what this Argus Wake is, but if they\'re in an alliance with the Syndicate then they must be a threat. $B$BI want you to find the Argus Shadow Mages mentioned in that letter. I want you to find them, and kill them. Bring me anything they possess that will tell us who or what this Nagaz is.$B$BSearch in Strahnbrad and the Uplands, north of there. With luck, you\'ll find these envoys of the Argus Wake there.",
+    ["D"] = "The letter you brought me was written by a being who calls himself Nagaz, a member of the Argus Wake. I don\'t know what this Argus Wake is, but if they\'re in an alliance with the Syndicate then they must be a threat. \n\nI want you to find the Argus Shadow Mages mentioned in that letter. I want you to find them, and kill them. Bring me anything they possess that will tell us who or what this Nagaz is.\n\nSearch in Strahnbrad and the Uplands, north of there. With luck, you\'ll find these envoys of the Argus Wake there.",
   },
   [991] = {
     ["T"] = "Raene\'s Cleansing",
@@ -64,25 +64,500 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Defend Captain Vanessa Beltis, her crew and the Horizon Scout\'s passengers against the naga attack. Captain Vanessa Beltis must survive.",
     ["D"] = "We were just off the coast looking for a safe haven to make anchor. The sun hadn\'t been down for more than an hour when they attacked... those damned naga!\nI\'m not sure what they were looking for, but it\'s clear they didn\'t find it--they\'ve already come back once. A couple of my scouts are on watch at the entrance of the valley to give us fair warning when the next attack comes.\nI\'m sorry you\'ve come along now, $n, but it\'s out of my hands.\nAre you ready for the fight of your life?",
   },
+  [8905] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+  },
+  [8906] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker\'s Bindings to Deliana in Ironforge.",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+  },
+  [8907] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Magister\'s Bindings to Deliana in Ironforge.",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+  },
+  [8908] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Lightforge Bracers to Deliana in Ironforge.",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+  },
+  [8909] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with 1 set of Devout Bracers to Deliana in Ironforge.",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+  },
+  [8910] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Shadowcraft Bracers to Deliana in Ironforge.\n",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+  },
+  [8911] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Dreadmist Bracers to Deliana in Ironforge.\n",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+  },
+  [8912] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Bracers of Valor to Deliana in Ironforge.",
+    ["D"] = "Well met, $c.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.\n",
+  },
+  [8913] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Mokvar in Orgrimmar.",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8914] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker\'s Bindings to Mokvar in Orgrimmar.",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8915] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Magister\'s Bindings to Mokvar in Orgrimmar.\n",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8916] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Devout Bracers to Mokvar in Orgrimmar.\n",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8917] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Shadowcraft Bracers to Mokvar in Orgrimmar.\n",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8918] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Bindings of Elements to Mokvar in Orgrimmar.\n",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8919] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Dreadmist Bracers to Mokvar in Orgrimmar.",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8920] = {
+    ["T"] = "An Earnest Proposition",
+    ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Bracers of Valor to Mokvar in Orgrimmar.\n",
+    ["D"] = "Hail, $c! I can tell by your demeanor that you\'ve seen and done much in this world. Yet I\'m willing to wager you haven\'t seen a piece of armor like this.\n\nPerform a small favor for me and I\'ll be willing to trade it to you for an ordinary set of bracers.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring this to me along with a few gold coins and I\'ll perform the exchange.",
+  },
+  [8921] = {
+    ["T"] = "The Ectoplasmic Distiller",
+    ["O"] = "Return to Mux Manascrambler in Gadgetzan with 1 Delicate Arcanite Converter, 4 Greater Eternal Essence, 10 Stonescale Oil, 25 Volcanic Ash and 40 gold.",
+    ["D"] = "Ah, you\'re in need of my latest project... the extra-dimensional ghost revealer!  Unfortunately I\'ve run out of funds and manpower.\n\nYou\'re willing to help?  Excellent!  Our first task is to build a device to harvest the very fabric of death!  Building an ectoplasmic distiller won\'t be an easy task, $N.\n\nI\'ll need you to bring me an arcanite converter, some greater eternal essences and stonescale oil. I\'ll also need some volcanic ash from the lava pools in the Burning Steppes to build a filter.",
+  },
+  [8922] = {
+    ["T"] = "A Supernatural Device",
+    ["O"] = "Bring the Sealed Blood Container to Mux Manascrambler inside Gadgetzan in Tanaris.",
+    ["D"] = "I must find a way to speak with Anthion Harmon... or more specifically, his ghost!\n\nI know of an engineer with a queer interest in the supernatural.  He claims he can build a machine that allows him to speak with the dead!\n\nThe blood you collected was intended for him; travel to Gadgetzan and bring it to him as payment for his services! ",
+  },
+  [8923] = {
+    ["T"] = "A Supernatural Device",
+    ["O"] = "Bring the Sealed Blood Container to Mux Manascrambler inside Gadgetzan in Tanaris.",
+    ["D"] = "You must be quite brave to have stuck around after that. That or I\'ve piqued your interest with the piece of armor I gave you. There is more from where that came from, if you\'re still interested in aiding me.\n\nThe blood samples you collected are for an acquaintance of mine, Mux Manascrambler, an engineer with an interest in the supernatural. His latest project consists of a device that allows you to communicate with the dead! My last hope is to contact Anthion and find out more about my situation.",
+  },
+  [8924] = {
+    ["T"] = "Hunting for Ectoplasm",
+    ["O"] = "Use the Ectoplasmic Distiller near incorporeal undead to collect 12 Inundated Ectoplasms in Azshara, 12 Frozen Ectoplasms in Winterspring, and 12 Stable Ectoplasms in the Eastern Plaguelands. Bring them along with the Ectoplasmic Distiller back to Mux Manascrambler in Gadgetzan.",
+    ["D"] = "A fine piece of engineering, if I do say so myself! You will need to travel a bit, I\'m afraid, in order to find the incorporeal undead we require.\n\nYou see, different climates lend different consistencies to the spectral fabric of the dead. The long-since-drowned night elves of Azshara, the spirits of the Highborne from Winterspring, and the ghosts and banshees of the Eastern Plaguelands should give us the different types of ectoplasm we need. Be sure to place the distiller nearby before you harvest them!",
+  },
+  [8925] = {
+    ["T"] = "A Portable Power Source",
+    ["O"] = "Find Magma Lord Bokk in the Burning Steppes, obtain his Magma Core and bring it to Mux Manascrambler in Gadgetzan.",
+    ["D"] = "Next we shall need to find a stable and portable source of energy to keep the ectoplasm active.  I\'ve heard rumors of a mighty elemental called Magma Lord Bokk, whose heart is a powerful magma core - an endless supply of heat!\n\nIt\'s said he can be found in the Burning Steppes, south of Blackrock Mountain.  Bring the magma core to me and we shall have enough juice to power the extra-dimensional ghost revealer!",
+  },
+  [8926] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Wildheart Belt to Deliana in Ironforge.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. We will start with the belt first. I promise the ones I give you in return will be far superior.",
+  },
+  [8927] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Wildheart Belt to Mokvar in Orgrimmar.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. Let us start with the belt. If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8928] = {
+    ["T"] = "A Shifty Merchant",
+    ["O"] = "Search for an imp inside a cave at the entrance of Darkwhisper Gorge in southern Winterspring, purchase a Fel Elemental Rod and return to Mux Manascrambler in Gadgetzan.",
+    ["D"] = "The core will provide us with enough juice to power our device; now we just have to build a rod that can channel that energy without melting.\n\nI met an imp in Winterspring that sold all manner of exotic goods.  He had an elemental rod that would do perfectly.  I\'m kicking myself in the head right now for not having bought it.\n\nHe lives inside a cave in the entrance to Darkwhisper Gorge.  Sneak in there and try to find him.\n\nMake sure he only charges you forty gold; that\'s the price he quoted me!",
+  },
+  [8929] = {
+    ["T"] = "In Search of Anthion",
+    ["O"] = "Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon.",
+    ["D"] = "Well, nothing left for us to do but try out the goblin\'s invention.  Word has it that Anthion was mowed down by the undead legions of Stratholme as he tried to enter its gates.\n\nTry using the device there and find out whatever Anthion knew.",
+  },
+  [8930] = {
+    ["T"] = "In Search of Anthion",
+    ["O"] = "Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon.",
+    ["D"] = "Very well, $N.  All that remains is to put the goblin\'s invention to the test.  Word has it that Anthion was slain by the undead legions of Stratholme as he tried to enter its gates.\n\nTry using the device there and see if, indeed, you can speak with the dead!",
+  },
+  [8931] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Beaststalker\'s Belt and a set of Beaststalker\'s Gloves to Deliana in Ironforge.",
+    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me an ordinary belt and a set of gloves that you wish to upgrade.",
+  },
+  [8932] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Magister\'s Belt and a set of Magister\'s Gloves to Deliana in Ironforge.\n",
+    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me an ordinary belt and a set of gloves that you wish to upgrade.",
+  },
+  [8933] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Lightforge Belt to Deliana in Ironforge.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. We will start with the belt first. I promise the ones I give you in return will be far superior.",
+  },
+  [8934] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Devout Belt to Deliana in Ironforge.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. We will start with the belt first. I promise the ones I give you in return will be far superior.",
+  },
+  [8935] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Shadowcraft Belt and a set of Shadowcraft Gloves to Deliana in Ironforge.",
+    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+  },
+  [8936] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Dreadmist Belt and a set of Dreadmist Wraps to Deliana in Ironforge.",
+    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+  },
+  [8937] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Belt of Valor to Deliana in Ironforge.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. We will start with the belt first. I promise the ones I give you in return will be far superior.",
+  },
+  [8938] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Beaststalker\'s Belt and a set of Beaststalker\'s Gloves to Mokvar in Orgrimmar.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8939] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Magister\'s Belt and a set of Magister\'s Gloves to Mokvar in Orgrimmar.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8940] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Devout Belt to Mokvar in Orgrimmar.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. Let us start with the belt. If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8941] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Shadowcraft Belt and a set of Shadowcraft Gloves to Mokvar in Orgrimmar.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8942] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Cord of Elements to Mokvar in Orgrimmar.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. Let us start with the belt. If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8943] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Dreadmist Belt and a set of Dreadmist Wraps to Mokvar in Orgrimmar.\n",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8944] = {
+    ["T"] = "Just Compensation",
+    ["O"] = "Bring a Belt of Valor to Mokvar in Orgrimmar.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. Let us start with the belt. If we both see this through I shall make the rest of the pieces available to you.",
+  },
+  [8945] = {
+    ["T"] = "Dead Man\'s Plea",
+    ["O"] = "Go into Stratholme and rescue Ysida Harmon from Baron Rivendare.",
+    ["D"] = "I\'ll provide you the information you ask for, $N.  But more pressing matters are at hand.\n\nMy beloved wife has been taken prisoner by Rivendare\'s undead scum.\n\nI strongly objected to her joining the Argent Dawn\'s foolish crusade, yet that\'s not of importance anymore.  You must finish what I attempted to do, you must rescue Ysida from the clutches of the Baron!",
+  },
+  [8946] = {
+    ["T"] = "Proof of Life",
+    ["O"] = "Bring Ysida\'s Locket to Anthion Harmon in Eastern Plaguelands.",
+    ["D"] = "It is the cruelest of fates that my beloved has perished while trying to rescue me.  Yet, you claim to possess the ability to converse with him.\n\nBring him this locket as proof that I am well.  He must not linger in this world; my heart would not be able to bear it.\n\nFarewell, $N.  I shall be in your debt always.",
+  },
+  [8947] = {
+    ["T"] = "Anthion\'s Strange Request",
+    ["O"] = "Bring 3 Dark Iron Bars, 20 Enchanted Leather, 3 Mooncloth and 4 Cured Rugged Hides to Anthion Harmon in the Eastern Plaguelands.",
+    ["D"] = "We didn\'t realize the importance of Valthalak\'s medallion, so it was divided along with the rest of the spoils.  The first piece was taken by a dwarf named Theldren.  I tried to retrieve it from him and he beat me within an inch of my life.  You shall have to take the fragment by force.\n\nLast I heard of him, he\'d become a gladiator for the Dark Iron dwarves.  Getting him to fight you is going to present a bit of a challenge, though.\n\nGather the following materials for me.  You\'re going to need them.",
+  },
+  [8948] = {
+    ["T"] = "Anthion\'s Old Friend",
+    ["O"] = "Take the incomplete Banner of Provocation to Falrin Treeshaper inside the prison of Tol Barad.",
+    ["D"] = "Theldren is not one to willingly participate in a fair fight.  I\'ve shaped this banner to display his family colors.\n\nWith some additional sorcery, this banner shall provoke him in a way he won\'t be able to resist.\n\nAn old acquaintance of mine named Falrin knows the exact procedure required.  He has a particular way of... aggravating people.  Last I heard he was locked up in Tol Barad, I hope that isn\'t a problem.",
+  },
+  [8949] = {
+    ["T"] = "The Instigator\'s Enchantment <NYI>",
+    ["O"] = "Defend Falrin Treeshaper from the pirate ambush in Tol Barad, then speak with him again afterwards.",
+    ["D"] = "Yes, it is true that I am familiar with the enchantment you require, $c.  Unfortunately I need some materials that I do not have with me, seeing as I am in a prison cell. If you can bring --\n\nLook out, pirates!",
+  },
+  [8950] = {
+    ["T"] = "The Instigator\'s Enchantment",
+    ["O"] = "Bring the following to Falrin Treeshaper inside Baradin Hold on Tol Barad: 1 Jeering Spectre\'s Essence, 4 Dark Runes, and 8 Large Brilliant Shards.",
+    ["D"] = "As I was saying... unfortunately I don\'t have the materials I need, as it is rare that someone asks for this sort of charm.\n\nI will require the essence of one of the undead that the humans had imprisoned here, a handful of Scholomance dark runes, and some large brilliant shards. Bring me these reagents and I shall perform this task for you.",
+  },
+  [8951] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Wildheart Boots.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8952] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Beaststalker\'s Boots, Beaststalker\'s Pants and Beaststalker\'s Mantle.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8953] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Magister\'s Boots, Magister\'s Leggings and Magister\'s Mantle.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8954] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Lightforge Boots.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8955] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Devout Sandals.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8956] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Shadowcraft Boots, Shadowcraft Pants and Shadowcraft Spaulders.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8957] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Mokvar in Orgrimmar with a set of Boots of Elements.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8958] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Dreadmist Sandals, Dreadmist Leggings and Dreadmist Mantle.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8959] = {
+    ["T"] = "Anthion\'s Parting Words",
+    ["O"] = "Return to Deliana in Ironforge with a set of Boots of Valor.",
+    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+  },
+  [8960] = {
+    ["T"] = "Bodley\'s Unfortunate Fate",
+    ["O"] = "Travel to Blackrock Mountain and use the Extra-Dimensional Ghost Revealer to find Bodley near Blackrock Spire.",
+    ["D"] = "So we need to recover the rest of the medallion?  Finding Bodley\'s going to be a bit of a headache.  He went back to Blackrock Mountain to attempt to re-enter Blackrock Spire and never came back.\n\nI\'d suggest taking the goblin\'s ghost revealing device with you, as I fear the worst might have happened.",
+  },
+  [8961] = {
+    ["T"] = "Two Kings of Flame",
+    ["O"] = "Gather the Incendicite of Incendius, and the Ember of Emberseer, along with a Hallowed Brazier, and bring them to Bodley inside Blackrock Mountain.",
+    ["D"] = "In order to summon Lord Valthalak we\'re first going to need to gather the other two-thirds of the amulet. To do that we need to get a brazier and some special coals to burn in it.\n\nThere are two nobles of fire: Lord Incendius in Blackrock Depths and Pyroguard Emberseer in Blackrock Spire. They possess what we need. Collect from both a piece of their remains, and then return to me with a Hallowed Brazier, which can be purchased from the Argent Dawn if you are honored by them.",
+  },
+  [8962] = {
+    ["T"] = "Components of Importance",
+    ["O"] = "Acquire Druidical Remains and return them to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the brazier, and the means to light it, we still need another component to suffuse it with; something that will provide a focus strong enough to entice the spirit of my deceased former comrade.\n\nMor Grayhoof, our most prominent druid, had many close friends amongst the Cenarion Circle. He was part of an expedition to Azshara to study the rock giants there, but they were too aggressive, and most of the expedition fell. I need you to retrieve some Druidical Remains from those giants in northeastern Azshara.",
+  },
+  [8963] = {
+    ["T"] = "Components of Importance",
+    ["O"] = "Acquire a Starbreeze Village Relic and return it to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the brazier, and the means to light it, we still need another component to suffuse it with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\n\nIsalien, our priestess, grew up in Winterspring at Starbreeze Village. I need you to gather a Starbreeze Village Relic from the Frostmaul giants of Frostwhisper Gorge in southern Winterspring, who are known for raiding to the north from time to time.",
+  },
+  [8964] = {
+    ["T"] = "Components of Importance",
+    ["O"] = "Retrieve a Brilliant Sword of Zealotry and return it to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the brazier, and the means to light it, we still need another component to suffuse it with; something that will provide a focus strong enough to summon the remains of my deceased, former comrades.\n\nThe siblings, Jarien and Sothos, were believers in the way of the Scarlet Crusade. They aspired to knighthood within that vile organization. Go to Tyr\'s Hand in Eastern Plaguelands and retrieve a Brilliant Sword of Zealotry from the praetorians there.",
+  },
+  [8965] = {
+    ["T"] = "Components of Importance",
+    ["O"] = "Obtain Soul Ashes of the Banished and return them to Bodley inside Blackrock Mountain.",
+    ["D"] = "$C, listen closely. Now that we have the brazier, and the means to light it, we still need another component to suffuse it with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\n\nAn ogre necromancer that traveled with us, Kormok, delighted in summoning forth the souls of the banished dead of Purgation Isle, off the south coast of the Hillsbrad Foothills. Go there and retrieve some Soul Ashes of the Banished from their remains.",
+  },
+  [8966] = {
+    ["T"] = "The Left Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "My friend, Mor Grayhoof, was the first to fall victim to possession of a piece of Lord Valthalak\'s amulet, and the corrupting spirit fragment that it contains. After stealing Valthalak\'s spellbook and amulet, we fled for our lives from the upper portion of Blackrock Spire. Along the way, Mor fell into the lower portion of the spire.\n\nLater, we discovered that he survived the fall, only to be captured and tortured by War Master Voone. A few spectral assassins snuck in and slew him right in front of Voone.",
+  },
+  [8967] = {
+    ["T"] = "The Left Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "It became known to us in later days, as we were doing what we could ourselves to survive, that Isalien, a night elf priestess of our company, had gone to the human prison of Tol Barad to visit her imprisoned friend Falrin Treeshaper.\n\nShe didn\'t quite make it, though. Word got back to us that she was ambushed in a waiting room by Spectral Assassins, sent by Lord Valthalak no doubt. That waiting room is now used to hold a powerful mage.",
+  },
+  [8968] = {
+    ["T"] = "The Left Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "The siblings, Jarien and Sothos, decided to join the Scarlet Crusade upon the disbanding of our mercenary company. They took the left piece of Lord Valthalak\'s amulet with them. Good riddance, I say, but we need that piece back.\n\nFrom what we could gather, they were actually slain by Grand Crusader Dathrohan himself for failing the initiation rites inside his chamber in the Scarlet Bastion.\n\nIn any case, we... meaning you, are still going to need to retrieve that piece of the amulet.",
+  },
+  [8969] = {
+    ["T"] = "The Left Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "Now we have what we need, so it\'s time to discuss who it is that you\'ll be summoning.\n\nKormok was ok for an ogre, right up until he turned to necromancy. After that, things got creepy for just about everyone in the outfit. It was no surprise then when he took his piece of the amulet and returned to his new home, Scholomance.\n\nBut even there, or perhaps especially there, he was not safe from the spectral assassins. They slew him right in front of his master, Ras Frostwhisper.",
+  },
+  [8970] = {
+    ["T"] = "I See Alcaz Island In Your Future...",
+    ["O"] = "Gather 20 Bloodkelp from the Strashaz naga and then return to Bodley inside Blackrock Mountain.",
+    ["D"] = "As I was saying, $c, in my living years I flirted with becoming a diviner. But, there really wasn\'t as much profit in it as you might imagine, mostly because it\'s dangerous and the reagents are rare and expensive. However, I do know enough to be able to pinpoint the final piece of the amulet, and the spirit of my former comrade along with it.\n\nThis is where you come in, $N. I need you to go to Alcaz Island off the coast of Dustwallow Marsh and collect Bloodkelp from the Strashaz naga that live there.",
+  },
+  [8977] = {
+    ["T"] = "Return to Deliana",
+    ["O"] = "Bring the Extra-Dimensional Ghost Revealer  to Deliana in Ironforge.",
+    ["D"] = "It\'s been great working with you, $N.  Here is the finished product.\n\nI hope it helps you in your current endeavors.  And hey, if you don\'t mind, help spread the word.  I wouldn\'t mind having more customers!",
+  },
+  [8978] = {
+    ["T"] = "Return to Mokvar",
+    ["O"] = "Return to Mokvar in Orgrimmar with the Extra-Dimensional Ghost Revealer.",
+    ["D"] = "It\'s been great working with you, $N.  Here is the finished product.\n\nI hope it helps you in your current endeavors.  And hey, if you don\'t mind, help spread the word.  I wouldn\'t mind having more customers!",
+  },
+  [8979] = {
+    ["T"] = "Fenstad\'s Hunch",
+    ["O"] = "Bring 1 Cologne Bottle and 1 Perfume Bottle to Apothecary Zinge in the Undercity\'s Apothecarium.",
+    ["D"] = "I believe I know the cause of this recent behavior. Have you smelled the new fragrance on the wind, over the stink of the canals? The new colognes and perfumes that have come into fashion?\n\nOur thinking has been clouded by some foul alchemy.\n\nThere is only one way to be sure - bring a bottle of cologne and perfume to my friend, Apothecary Zinge. The Royal Apothecary Society will find the truth.\n\n I will reimburse you for their purchase when you return.",
+  },
+  [8980] = {
+    ["T"] = "Zinge\'s Assessment",
+    ["O"] = "Return to Fenstad Argyle outside the bank in the Undercity.",
+    ["D"] = "This is unexpected. It looks like Fenstad might be on to something after all. I found traces of substances used in mind control potions.\n\nIt isn\'t unheard of for perfumes to have some of this, but a few of the ingredients I detected... This is serious alchemy, along the abilities of a member of the Royal Apothecary Society.",
+  },
+  [8981] = {
+    ["T"] = "Gift Giving",
+    ["O"] = "",
+    ["D"] = "",
+  },
+  [8982] = {
+    ["T"] = "Tracing the Source",
+    ["O"] = "Speak with Innkeeper Norman in the Undercity.",
+    ["D"] = "We must find who the supplier is. I noticed Apothecary Katrina with a bottle of the perfume tucked in her pack. She told me that she purchased it from Norman, the innkeeper.",
+  },
+  [8983] = {
+    ["T"] = "Tracing the Source",
+    ["O"] = "Speak with Mara Rennick at the tailor\'s shop in the Undercity\'s Magic Quarter.",
+    ["D"] = "Something\'s wrong with my product? Well, I\'ve never seen so many people wanting something so badly.\n\nI bought my supply from a merchant named Mara Rennick. She\'s new in town.\n\nShe mentioned she had some goods she had to deliver to the tailor in the Magic Quarter.",
+  },
+  [8984] = {
+    ["T"] = "The Source Revealed",
+    ["O"] = "Find Apothecary Staffron Lerent in the Hillsbrad Foothills past Ravenholdt Manor.",
+    ["D"] = "Look, the actions of a rogue apothecary are not my concern. If he\'s undermining our efforts, then let me be the first to point you in the right direction.\n\nIf he\'s innocent, then he\'s got nothing to hide, right?\n\nI purchased the goods from Apothecary Staffron Lerent. He\'s working in a secluded area past Ravenholdt Manor in the hills over Hillsbrad. To be honest with you, I thought he was a little odd.",
+  },
   [8985] = {
     ["T"] = "More Components of Importance",
     ["O"] = "Acquire a Starbreeze Village Relic and return it to Bodley inside Blackrock Mountain.",
-    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\nIsalien, our priestess, grew up in Winterspring at Starbreeze Village. I need you to gather a Starbreeze Village Relic from the Frostmaul giants of Frostwhisper Gorge in southern Winterspring, who are known for raiding to the north from time to time.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\n\nIsalien, our priestess, grew up in Winterspring at Starbreeze Village. I need you to gather a Starbreeze Village Relic from the Frostmaul giants of Frostwhisper Gorge in southern Winterspring, who are known for raiding to the north from time to time.",
   },
   [8986] = {
     ["T"] = "More Components of Importance",
     ["O"] = "Acquire Druidical Remains and return them to Bodley inside Blackrock Mountain.",
-    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\nMor Grayhoof, our most prominent druid, had many close friends amongst the Cenarion Circle. He was part of an expedition to Azshara to study the rock giants there, but they were too aggressive, and most of the expedition fell. I need you to retrieve some Druidical Remains from those giants in northeastern Azshara.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\n\nMor Grayhoof, our most prominent druid, had many close friends amongst the Cenarion Circle. He was part of an expedition to Azshara to study the rock giants there, but they were too aggressive, and most of the expedition fell. I need you to retrieve some Druidical Remains from those giants in northeastern Azshara.",
   },
   [8987] = {
     ["T"] = "More Components of Importance",
     ["O"] = "Retrieve a Brilliant Sword of Zealotry and return it to Bodley inside Blackrock Mountain.",
-    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to summon the remains of my deceased, former comrades.\nThe siblings, Jarien and Sothos, were believers in the way of the Scarlet Crusade. They aspired to knighthood within that vile organization. Go to Tyr\'s Hand in Eastern Plaguelands and retrieve a Brilliant Sword of Zealotry from the praetorians there.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to summon the remains of my deceased, former comrades.\n\nThe siblings, Jarien and Sothos, were believers in the way of the Scarlet Crusade. They aspired to knighthood within that vile organization. Go to Tyr\'s Hand in Eastern Plaguelands and retrieve a Brilliant Sword of Zealotry from the praetorians there.\n",
   },
   [8988] = {
     ["T"] = "More Components of Importance",
     ["O"] = "Obtain Soul Ashes of the Banished and return them to Bodley inside Blackrock Mountain.",
-    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\nAn ogre necromancer that traveled with us, Kormok, delighted in summoning forth the souls of the banished dead of Purgation Isle, off the south coast of the Hillsbrad Foothills. Go there and retrieve some Soul Ashes of the Banished from their remains.",
+    ["D"] = "$C, listen closely. Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\n\nAn ogre necromancer that traveled with us, Kormok, delighted in summoning forth the souls of the banished dead of Purgation Isle, off the south coast of the Hillsbrad Foothills. Go there and retrieve some Soul Ashes of the Banished from their remains.",
+  },
+  [8989] = {
+    ["T"] = "The Right Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "My friend, Mor Grayhoof, was the first to fall victim to possession of a piece of Lord Valthalak\'s amulet, and the corrupting spirit fragment that it contains. After stealing Valthalak\'s spellbook and amulet, we fled for our lives from the upper portion of Blackrock Spire. Along the way, Mor fell into the lower portion of the spire.\n\nLater, we discovered that he survived the fall, only to be captured and tortured by War Master Voone. A few spectral assassins snuck in and slew him right in front of Voone.",
+  },
+  [8990] = {
+    ["T"] = "The Right Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "It became known to us in later days, as we were doing what we could ourselves to survive, that Isalien, a night elf priestess of our company, had gone to the human prison of Tol Barad to visit her imprisoned friend Falrin Treeshaper.\n\nShe didn\'t quite make it, though. Word got back to us that she was ambushed in a waiting room by Spectral Assassins, sent by Lord Valthalak no doubt. That waiting room is now used to hold a powerful mage.",
+  },
+  [8991] = {
+    ["T"] = "The Right Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "The siblings, Jarien and Sothos, decided to join the Scarlet Crusade upon the disbanding of our mercenary company. They took the right piece of Lord Valthalak\'s amulet with them. Good riddance, I say, but we need that piece back.\n\nFrom what we could gather, they were actually slain by Grand Crusader Dathrohan himself for failing the initiation rites inside his chamber in the Scarlet Bastion.\n\nIn any case, we... meaning you, are still going to need to retrieve that piece of the amulet.",
+  },
+  [8992] = {
+    ["T"] = "The Right Piece of Lord Valthalak\'s Amulet",
+    ["O"] = "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak\'s Amulet and the Brazier of Beckoning.",
+    ["D"] = "Now we have what we need, so it\'s time to discuss who it is that you\'ll be summoning next.\n\nKormok was ok for an ogre, right up until he turned to necromancy. After that, things got creepy for just about everyone in the outfit. It was no surprise then when he took his piece of the amulet and returned to his new home, Scholomance.\n\nBut even there, or perhaps especially there, he was not safe from the spectral assassins. They slew him right in front of his master, Ras Frostwhisper.",
+  },
+  [8993] = {
+    ["T"] = "Gift Giving",
+    ["O"] = "",
+    ["D"] = "",
+  },
+  [8994] = {
+    ["T"] = "Final Preparations",
+    ["O"] = "Gather 40 Blackrock Bracers and acquire a Flask of Supreme Power. Return them to Bodley inside Blackrock Mountain.",
+    ["D"] = "We\'re nearly there, $c. All that is left is to retrieve a few more components so that I can attune the brazier and enable it to beckon forth Lord Valthalak.\n\nTo begin I must ask you to journey forth into Blackrock Spire and slay the orcs therein. They wear bracers that contain trace metals that I will need, so I\'ll need more than a few to extract the right amount out of them. Then, to complete the imbuing process, you\'ll need to bring me a Flask of Supreme Power.\n\nGood luck, $N!",
+  },
+  [8995] = {
+    ["T"] = "Mea Culpa, Lord Valthalak",
+    ["O"] = "Use the Brazier of Beckoning to summon Lord Valthalak. Dispatch him, and use Lord Valthalak\'s Amulet on the corpse. Then, return Lord Valthalak\'s Amulet to the Spirit of Lord Valthalak.",
+    ["D"] = "All is now ready, $N.\n\nWhen alive, Lord Valthalak used to inhabit what is now The Beast\'s chamber. Go there and use the Brazier of Beckoning to summon forth Lord Valthalak. It will reincorporate him, so he\'ll have to be killed again. I\'d take care of The Beast first, and be sure take enough friends along to survive the upper portion of Blackrock Spire.\n\nOnce you\'ve dispatched Valthalak, use the amulet on his corpse. With his spirit reunified, he\'ll likely want his amulet back, as well.\n\nGood luck!",
+  },
+  [8996] = {
+    ["T"] = "Return to Bodley",
+    ["O"] = "Return to Bodley inside Blackrock Mountain and give him the Brazier of Beckoning.",
+    ["D"] = "I will ignore your impertinence this time, $c, because you have done a noble thing today; returning the rest of my stolen spirit to me. Despite your obviously weak nature, $r, you have shown courage where those that stole from me did not, and probably never could!\n\nReturn to them, before I change my mind and slay you where you stand. Go back and tell them that they are safe... for now.",
+  },
+  [8997] = {
+    ["T"] = "Back to the Beginning",
+    ["O"] = "Speak with Deliana at The High Seat in Ironforge.",
+    ["D"] = "I suppose that this is goodbye then, my friend. But, I\'ll always be here if you want to come back and talk with me from time to time. Probably while you\'re loitering around waiting for your buddies to join you for a raid on Blackrock Spire.\n\nGo, before I start to cry. Go back to Deliana in Ironforge and tell her what\'s happened.",
+  },
+  [8998] = {
+    ["T"] = "Back to the Beginning",
+    ["O"] = "Speak with Mokvar at Grommash Hold in Orgrimmar\'s Valley of Wisdom.",
+    ["D"] = "I suppose that this is goodbye then, my friend. But, I\'ll always be here if you want to come back and talk with me from time to time. Probably while you\'re loitering around waiting for your buddies to join you for a raid on Blackrock Spire.\n\nGo, before I start to cry. Go back to Mokvar in Orgrimmar and tell him what\'s happened.",
+  },
+  [8999] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Wildheart Cowl.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9000] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Beaststalker\'s Cap and Beaststalker\'s Tunic.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9001] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Magister\'s Crown and Magister\'s Robes.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9002] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Lightforge Helm.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9003] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Devout Crown.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9004] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Shadowcraft Cap and Shadowcraft Tunic.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9005] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Dreadmist Mask and Dreadmist Robe.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9006] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Deliana your Helm of Valor.",
+    ["D"] = "That\'s an amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved. Now maybe I\'ll be able to sleep at night with both eyes shut.\n\nAs to your reward, I believe I have a few things that you\'ll really enjoy.",
+  },
+  [9007] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Mokvar your Wildheart Cowl.",
+    ["D"] = "A truly amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved, I can assure you. Through your efforts we are delivered from the mistakes of our past.\n\nAs to your reward, I believe I have a few things that you have definitely earned and will truly enjoy.",
+  },
+  [9008] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Mokvar your Beaststalker\'s Cap and Beaststalker\'s Tunic.",
+    ["D"] = "A truly amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved, I can assure you. Through your efforts we are delivered from the mistakes of our past.\n\nAs to your reward, I believe I have a few things that you have definitely earned and will truly enjoy.",
+  },
+  [9009] = {
+    ["T"] = "Saving the Best for Last",
+    ["O"] = "Give Mokvar your Devout Crown.",
+    ["D"] = "A truly amazing story, $N! You have my thanks, and the heartfelt gratitude of all who were involved, I can assure you. Through your efforts we are delivered from the mistakes of our past.\n\nAs to your reward, I believe I have a few things that you have definitely earned and will truly enjoy.",
   },
   [9609] = {
     ["T"] = "Help Watcher Biggs",
@@ -4657,7 +5132,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27010] = {
     ["T"] = "Evacuation Report",
     ["O"] = "Get the latest evacuation report from Corporal Mountainview at Longview Outpost.",
-    ["D"] = "The Dragonmaw have not pushed all the way through Burndural yet...hic. There are those who could have been spared...hic. Find Corporal Mountainview at Longview Outpost just outside of town -- you\'ll have passed it already.$b$bAsk him for a full report of who is yet to leave. By now it should be very few left...hic.",
+    ["D"] = "The Dragonmaw have not pushed all the way through Burndural yet...hic. There are those who could have been spared...hic. Find Corporal Mountainview at Longview Outpost just outside of town -- you\'ll have passed it already.\n\nAsk him for a full report of who is yet to leave. By now it should be very few left...hic.",
   },
   [27011] = {
     ["T"] = "Golem Gyroscope",
@@ -9621,7 +10096,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [28474] = {
     ["T"] = "Commission for Thamner Pol",
-    ["O"] = "Thamner Pol wants you to use your firstaid skill to craft 20 Linen Bandage and take the order to Thamner Pol at Bloodhoof Village in Mulgore.",
+    ["O"] = "Thamner Pol wants you to use your firstaid skill to craft 20 Linen Bandage and take the order to Thamner Pol at Kharanos in Dun Morogh.",
     ["D"] = "Kharanos is fillin\' fast with young and fresh recruits, all eager to prove themselves. And with trainin\' comes bruises, scrapes, and more pride than sense.\n\nOur bandage stores are runnin\' low. If ye can bring me 20 Linen Bandages, we can keep treatin\' these minor injuries before they turn into somethin\' worse.",
   },
   [28475] = {
@@ -11097,10 +11572,15 @@ pfDB["quests"]["enUS-epoch"] = {
   [30000] = {
     ["T"] = "Dark Iron Pick",
     ["O"] = "Find the box and give it a Blood of the Mountain to unlock it, who knows what you\'ll get?.",
-    ["D"] = "<Inspecting the pickaxe you bought you notice that the shaft has a cavity within it, you twist the base of the pick and it falls off along with a piece of paper falling out of the cavity.>$B$B\"I leave this letter in the hopes that a proud and skillful miner discovers the space that holds it, or maybe you struck too hard and broke the shaft! This pick is a durable and trustworthy sort, but it is not enough for the strongest minerals you may have not yet even seen, therefor I spent many years working on a recipe for a legendary pick axe. I didn\'t quite get there, and now I am too old to craft it myself, but I don\'t want to just give this knowledge haphazardly.\"$B$B\"Find a Blood of the Mountain, these can be found tirelessly digging through Dark Iron Ore veins, but I won\'t judge you from beyond the grave if you buy one from someone else. Take the blood to a chest at my old house, where I lived before our emperor summoned the Firelord. If you believe this direction to be too vague, then you must not be a Dark Iron!\"",
+    ["D"] = "<Inspecting the pickaxe you bought you notice that the shaft has a cavity within it, you twist the base of the pick and it falls off along with a piece of paper falling out of the cavity.>\n\n\"I leave this letter in the hopes that a proud and skillful miner discovers the space that holds it, or maybe you struck too hard and broke the shaft! This pick is a durable and trustworthy sort, but it is not enough for the strongest minerals you may have not yet even seen, therefor I spent many years working on a recipe for a legendary pick axe. I didn\'t quite get there, and now I am too old to craft it myself, but I don\'t want to just give this knowledge haphazardly.\"\n\n\"Find a Blood of the Mountain, these can be found tirelessly digging through Dark Iron Ore veins, but I won\'t judge you from beyond the grave if you buy one from someone else. Take the blood to a chest at my old house, where I lived before our emperor summoned the Firelord. If you believe this direction to be too vague, then you must not be a Dark Iron!\"",
   },
   [30001] = {
     ["T"] = "Gaining Even Tons More Acceptance",
+    ["O"] = "",
+    ["D"] = "",
+  },
+  [30002] = {
+    ["T"] = "Fragment of Fire\'s Authority",
     ["O"] = "",
     ["D"] = "",
   },

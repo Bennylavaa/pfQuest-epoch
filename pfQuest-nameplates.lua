@@ -182,15 +182,6 @@ local function OnNameplateShow(nameplateFrame)
 
     local icon = questObjectives[unitName]
 
-    if not icon then
-        for objName, objIcon in pairs(questObjectives) do
-            if string.find(string.lower(unitName), string.lower(objName), 1, true) then
-                icon = objIcon
-                break
-            end
-        end
-    end
-
     if icon then
         local frame = GetIconFrame(nameplateFrame)
         if frame then

@@ -60,7 +60,7 @@ function pfQuestEpoch_OnQuestUpdate(message)
             end
           else
             if questName then
-              outMessage = "Finished " .. questName .. "."
+              outMessage = "Finished " .. itemName .. " for " .. questName .. "."
             else
               outMessage = "I have finished " .. itemName .. "."
             end
@@ -88,6 +88,7 @@ function pfQuestEpoch_OnQuestUpdate(message)
 end
 
 function pfQuestEpoch_GetQuestNameForObjective(objectiveName)
+  local originalSelection = GetQuestLogSelection()
   local numQuestLogEntries = GetNumQuestLogEntries()
 
   for i = 1, numQuestLogEntries do
@@ -104,17 +105,21 @@ function pfQuestEpoch_GetQuestNameForObjective(objectiveName)
           local objName = string.match(description, "(.*):%s*[-%d]+%s*/%s*[-%d]+%s*$")
 
           if objName and string.find(string.lower(objName), string.lower(objectiveName), 1, true) then
-            return GetQuestLink(i)
+            local questLink = GetQuestLink(i)
+            SelectQuestLogEntry(originalSelection)
+            return questLink
           end
         end
       end
     end
   end
 
+  SelectQuestLogEntry(originalSelection)
   return nil
 end
 
 function pfQuestEpoch_GetItemIdForObjective(objectiveName)
+  local originalSelection = GetQuestLogSelection()
   local questId = pfQuestEpoch_GetQuestIdForObjective(objectiveName)
 
   if questId and pfDB and pfDB["quests"] and pfDB["quests"]["data"] then
@@ -125,6 +130,7 @@ function pfQuestEpoch_GetItemIdForObjective(objectiveName)
         local itemName = GetItemInfo(itemId)
 
         if itemName and string.find(string.lower(objectiveName), string.lower(itemName), 1, true) then
+          SelectQuestLogEntry(originalSelection)
           return itemId
         end
       end
@@ -148,6 +154,7 @@ function pfQuestEpoch_GetItemIdForObjective(objectiveName)
             if questText then
               local _, _, itemId = string.find(questText, "item:(%d+)")
               if itemId then
+                SelectQuestLogEntry(originalSelection)
                 return tonumber(itemId)
               end
             end
@@ -157,10 +164,12 @@ function pfQuestEpoch_GetItemIdForObjective(objectiveName)
     end
   end
 
+  SelectQuestLogEntry(originalSelection)
   return nil
 end
 
 function pfQuestEpoch_GetQuestIdForObjective(objectiveName)
+  local originalSelection = GetQuestLogSelection()
   local numQuestLogEntries = GetNumQuestLogEntries()
 
   for i = 1, numQuestLogEntries do
@@ -177,13 +186,16 @@ function pfQuestEpoch_GetQuestIdForObjective(objectiveName)
           local objName = string.match(description, "(.*):%s*[-%d]+%s*/%s*[-%d]+%s*$")
 
           if objName and string.find(string.lower(objName), string.lower(objectiveName), 1, true) then
-            return pfQuestEpoch_GetQuestIdFromLink(GetQuestLink(i))
+            local questId = pfQuestEpoch_GetQuestIdFromLink(GetQuestLink(i))
+            SelectQuestLogEntry(originalSelection)
+            return questId
           end
         end
       end
     end
   end
 
+  SelectQuestLogEntry(originalSelection)
   return nil
 end
 
