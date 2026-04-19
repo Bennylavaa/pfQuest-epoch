@@ -1,6 +1,6 @@
 # pfQuest [Project Epoch DB]
 
-**NOTE: I am quitting Epoch so no more work will be done on this. 
+**NOTE: I have quit Epoch but will allow people to Fork this repo and submit PR's for content to keep it up to date. 
 
 **NOTE: I do not give permission for this addon to be hosted in any servers launchers of any kind unless directly pulled from my repo and you must contact me before doing so.**
 
