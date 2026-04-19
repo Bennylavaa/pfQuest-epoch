@@ -92,7 +92,13 @@ questLogFrame:SetScript("OnEvent", function(self, event, ...)
     end
 
     if event == "QUEST_COMPLETE" then
-        GetQuestReward(QuestFrameRewardPanel.itemChoice)
+        if GetNumQuestChoices() == 0 then
+            GetQuestReward()
+        elseif QuestFrameRewardPanel.itemChoice and QuestFrameRewardPanel.itemChoice > 0 then
+            GetQuestReward(QuestFrameRewardPanel.itemChoice)
+        else
+            GetQuestReward()
+        end
     end
     
     if event == "QUEST_GREETING" then
