@@ -24,12 +24,12 @@ local function ScanQuestObjectives()
     for qid = 1, GetNumQuestLogEntries() do
         local questTitle, _, _, _, _, _, complete = GetQuestLogTitle(qid)
         if questTitle and complete ~= 1 then
-            SelectQuestLogEntry(qid)
+            -- SelectQuestLogEntry(qid)
             activeQuests[questTitle] = {}
-            local numObjectives = GetNumQuestLeaderBoards()
+            local numObjectives = GetNumQuestLeaderBoards(qid)
 
             for i = 1, numObjectives do
-                local text, objType, finished = GetQuestLogLeaderBoard(i)
+                local text, objType, finished = GetQuestLogLeaderBoard(i, qid)
                 if text and not finished then
                     local objName, current, total = string.match(text, "(.*):%s*(%d+)%s*/%s*(%d+)")
                     if objName then

@@ -995,10 +995,19 @@ local function GetClassColor(playerName)
     return {1.0, 1.0, 1.0}
 end
 
+local function SpecialCharacterHandler(self, unitName)
+	if unitName == "Cuddlehorn" then
+		self:AddLine("|cffA9A9A9[|r|cffffff00!|r|cffA9A9A9]|r |cffffff00A hungry, hungry cow|r")
+		self:AddLine("Give him your lunch money. NOW!", 1, 0.82, 0)
+		self:Show()
+	end
+end
+
 local function HookGameTooltip()
     GameTooltip:HookScript("OnTooltipSetUnit", function(self)
         local unitName, unit = self:GetUnit()
         if not unitName or not unit then return end
+        SpecialCharacterHandler(self, unitName)
         if UnitIsPlayer(unit) then return end
 
         local inParty = GetNumPartyMembers() > 0
@@ -1295,6 +1304,106 @@ local function ExtendPfQuestConfig()
     end
 
     return true
+end
+
+local function GetQuestDifficultyFromQuestLog(questID)
+	local i = 1
+	while GetQuestLogTitle(i) do
+		local _, _, elite, suggestedGroup, _, _, _, _, questID = GetQuestLogTitle(i)
+		if questID == this.questid then
+			if elite and suggestedGroup ~= 0 then
+				return elite .. " [" .. suggestedGroup .. "]"
+			elseif elite then
+				return elite
+			elseif suggestedGroup ~= 0 then
+				return "Group [" .. suggestedGroup .. "]"
+			else
+				return nil
+			end
+		end
+		i = i + 1
+	end
+	
+	return nil
+end
+
+local function Tooltip_GetTextLine(tooltipName, i)
+	return _G[tooltipName .. "TextLeft" .. i]:GetText(), _G[tooltipName .. "TextRight" .. i]:GetText()
+end
+
+local function RoundTextColor(textColor)
+	return floor(textColor * 100 + 0.5) / 100
+end
+
+local function Tooltip_GetTexColor(tooltipName, i)
+	local leftR, leftG, leftB = _G[tooltipName .. "TextLeft" .. i]:GetTextColor()
+	local rightR, rightG, rightB = _G[tooltipName .. "TextRight" .. i]:GetTextColor()
+	
+	return RoundTextColor(leftR), RoundTextColor(leftG), RoundTextColor(leftB), RoundTextColor(rightR), RoundTextColor(rightG), RoundTextColor(rightB)
+end
+
+local function Tooltip_AddQuestDifficulty (questID)
+	local tooltip = this:GetParent() == WorldMapButton and WorldMapTooltip or GameTooltip
+	if tooltip == nil then
+		return
+	end
+	
+	local questDifficulty = GetQuestDifficultyFromQuestLog(questID)
+	if questDifficulty == nil then
+		return
+	end
+	
+	local tooltipName = "WorldMapTooltip"
+	if tooltip == GameTooltip then
+		tooltipName = "GameTooltip"
+	end
+		
+	local respawnTextIndex = 0
+	local tooltipText = { }
+	local tooltipNumLines = tooltip:NumLines()
+	
+	for i=1, tooltipNumLines do
+		local left, right = Tooltip_GetTextLine(tooltipName, i)
+		local leftR,leftG,leftB,rightR,rightG,rightB = Tooltip_GetTexColor(tooltipName, i)
+		
+		table.insert(tooltipText, i, {
+			{
+				text = left,
+				r = leftR,
+				g = leftG,
+				b = leftB,
+			},
+			{
+				text = right,
+				r = rightR,
+				g = rightG,
+				b = rightB,
+			},
+		})
+
+		if left == "Respawn:" then
+			respawnTextIndex = i
+		end
+	end
+
+	table.insert(tooltipText, respawnTextIndex + 1, { { text = "Difficulty:", r = .8, g = .8, b = .8 }, { text = questDifficulty, r = 1, g = 1, b = 1 } })
+	
+	tooltip:ClearLines()
+	for i=1, tooltipNumLines + 1 do		
+		if tooltipText[i][2] ~= nil then
+			tooltip:AddDoubleLine(tooltipText[i][1].text, tooltipText[i][2].text, tooltipText[i][1].r, tooltipText[i][1].g, tooltipText[i][1].b, tooltipText[i][2].r, tooltipText[i][2].g, tooltipText[i][2].b)
+		else 
+			tooltip:AddLine(tooltipText[i][1].text, tooltipText[i][1].r, tooltipText[i][1].g, tooltipText[i][1].b)
+		end
+	end
+	
+    tooltip:Show()
+end
+
+Epoch_MapNodeEnter = function(originalNodeEnter)
+	originalNodeEnter()
+
+	Tooltip_AddQuestDifficulty(this.questid)
 end
 
 local configExtenderFrame = CreateFrame("Frame")

@@ -11584,4 +11584,229 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "",
     ["D"] = "",
   },
+  [31001] = {
+    ["T"] = "Respects For The Fallen",
+    ["O"] = "Warlord Runthak in Orgrimmar wants you to pay respects to a Horde veteran warrior lost in Eastern Winterspring.",
+    ["D"] = "",
+  },
+  [31002] = {
+    ["T"] = "Respects For The Fallen",
+    ["O"] = "Melris Malagan in Stormwind wants you to pay respects to a group of soldiers who were lost in Eastern Winterspring.",
+    ["D"] = "",
+  },
+  [31003] = {
+    ["T"] = "Food For The Soul",
+    ["O"] = "Consult an expert in cooking, perhaps Dirge Quickcleave from Gadgetzan can help?",
+    ["D"] = "",
+  },
+  [31004] = {
+    ["T"] = "Food For The Soul",
+    ["O"] = "Dirge Quickcleave in Gadgetzan doubted our ability to collect the ingredients for Honey Butter Bread.\n\n-Many vendors on Azeroth sell Freshly Baked Bread, that would be the easiest way to get it.\n\n-Honey can be found on some of the wasps in Un\'Goro.\n\n-Butter can be bought in Hillsbrad Foothills. Either Tarren Mill or Southshore.",
+    ["D"] = "",
+  },
+  [31005] = {
+    ["T"] = "Food For The Soul",
+    ["O"] = "Speak with Dirge and wait for him to finish cooking Honey Butter Bread.",
+    ["D"] = "With the ingredients collected let\'s figure this baby out, $N. Watch and learn!",
+  },
+  [31006] = {
+    ["T"] = "An Audience With the Warchief",
+    ["O"] = "Speak with Thrall in Orgrimmar about the troubling reports coming from Winterspring.",
+    ["D"] = "Hail, adventurer. I was recently granted an audience with the Warchief. The tale of your heroics battling Lord Valthalak have left a lasting impression on him.\n\nI was told the Horde can use someone with your skills at this time. Strange things have been happening in Winterspring. Go, speak with the Warchief, don't make him wait.",
+  },
+  [31007] = {
+    ["T"] = "An Audience With the King",
+    ["O"] = "Speak with Magni Bronzebeard in Ironforge about the troubling reports coming from Winterspring.",
+    ["D"] = "",
+  },
+  [31008] = {
+    ["T"] = "Troubling Reports",
+    ["O"] = "Listen to the Warchief\'s command.",
+    ["D"] = "Will you answer the call of your Warchief? Sit, listen.\n\n<A guard brings you a stack of reports.>\n\nThe spirits are restless, $N, something vile is happening in the frozen lands of Winterspring. Horde mages sense a massive arcane disturbance coming from it\’s Eastern parts and our spies report Spirestone ogre presence, they have never been seen outside of Blackrock Mountain.\n\nI fear dire things must be happening for such an uproar from all directions. Can I count on you to investigate it, adventurer?",
+  },
+  [31009] = {
+    ["T"] = "Troubling Reports",
+    ["O"] = "Listen to the King\'s request.",
+    ["D"] = "",
+  },
+  [31010] = {
+    ["T"] = "Winterward Trek",
+    ["O"] = "Investigate horde scout reports in Eastern Winterspring.",
+    ["D"] = "<You are given a stack of scout reports. Reading through them, it seems that ogre activity and arcane anomalies were spotted in the Eastern part of Winterspring. You see a mention of a tight mountain pass and massive dragon remains. Best head there and see what you can find.>",
+  },
+  [31011] = {
+    ["T"] = "Winterward Trek",
+    ["O"] = "Investigate alliance scout reports in Eastern Winterspring.",
+    ["D"] = "",
+  },
+  [31012] = {
+    ["T"] = "The Problem at Hand",
+    ["O"] = "The Fulborg from Azure Rest wants us to make the area a bit less hostile by getting rid of Spirestone Brutes and Spirestone Channelers.",
+    ["D"] = "<The fulborg stares intensely at the crystal.>\n\nYou see it? Ogres mess with it, mess with magic, dangerous. Need to stop them before their foolishness kills us all. Defeat the Brutes protecting the mages, then get rid of the Channelers. After that we can speak.",
+  },
+  [31013] = {
+    ["T"] = "A Moment of Respite",
+    ["O"] = "Speak with the furbolg and hear his story in Azure Rest.",
+    ["D"] = "Ask, and I shall answer.\n\n<His eyes quickly focus on the crystal again. You glance at it too. There is a deep sense of unease that comes in ever growing, radiating waves from the crystal, it feels as if all the surrounding energies are being absorbed by it.>",
+  },
+  [31014] = {
+    ["T"] = "Dire Guidance",
+    ["O"] = "Seek counsel of the blue dragonflight. The Caverns of Mazthoril serve as home for them on Kalimdor. The guardians will surely attack invaders on sight, but perhaps their reclusive matron protectorate will be willing to assist us?",
+    ["D"] = "I know the dragon is of the blue dragonflight. One touch of the bones will assure you of it. I don\'t know magic and I doubt you have the power necessary to suppress the blight, $c.\n\n<Talruk ponders for a moment.>\n\nThere is a blue dragonflight lair in Winterspring. They will likely attack on sight, but maybe, just maybe, there is someone who we can talk to? A leader, a protector? It is uncertain, but worth a try.",
+  },
+  [31015] = {
+    ["T"] = "Dark Price of Necessity",
+    ["O"] = "Haleh in Mazthoril has tasked you with killing Vectus in the School of Necromancy and recovering his scepter.",
+    ["D"] = "How have I missed this? How have I not felt it? A member of my own brood, resting so close to me... and the crystal?\n\nI have no answers for you, $r. And I can\'t leave my duties here in Mazthoril, but something has to be done.\n\n<She takes another deep, long look towards the Rest.>\n\nYou can feel it too, can\'t you? It\'s growing, feeding. What have those ogre fools done... You were right to come to me, I can't imagine what will happen if the source of this magic isn\'t contained.\n\nWhat we need is answers, and fast. Travel to the School of Necromancy located in Western Plaguelands. A vile necromancer there was experimenting with creating plagued dragons. Give him the cruelest of deaths and bring me his scepter.",
+  },
+  [31016] = {
+    ["T"] = "A Light Task",
+    ["O"] = "Our task is to find a powerful paladin, the best bet would probably be Light\'s Hope Chapel. Perhaps we can ask the leader of the Argent Dawn, Lord Maxwell Tyrosus for help.",
+    ["D"] = "Let us quickly establish something - I will not allow you to defile the remains with this tainted magic. What we will be doing is already repulsive enough.\n\nSeek help of a powerful paladin. Convince them to cleanse the scepter and imbue it with holy magic in order to lessen the damage that it will do to the spirit.\n\nOnly after that you are to return to Azure Rest and use it, Tauren. Do you understand? How I wish there was another way... Forgive me, sibling.",
+  },
+  [31017] = {
+    ["T"] = "Requirements for the Ritual",
+    ["O"] = "Lord Maxwell Tyrosus in Light's Hope Chapel needs several materials to purify the scepter:\n- A bottle of Holy Water from Stratholme.\n- One bar of Arcanite from a knowledgeable Alchemist or Miner.\n- Three Sacred Candles, available for purchase at a reagent vendor.\n- Three piles of Soul Dust from an enchanter.\n- One Symbol of Divinity, also available at a reagent vendor.",
+    ["D"] = "I see your peril, $r. Tainting the spirit of a dragon with necromancer magic is a dark deed. If I can help in any way - I will.\n\n<Maxwell spends a few moments planning the ritual.>\n\nI will require a few ingredients and materials:\n\nFist we will need the base that will house the scepter. Arcanite is the most suitable material for this so we will need at least one bar. On the outside of the ritual circle we will need three Sacred Candles placed on three piles of Soul Dust. The most important parts will be a Symbol of Divinity to act as a magic amplifier and a bottle of Stratholme Holy Water to douse the scepter.\n\nReturn to me when you will acquire everything. It\’s a shame that the chapel doesn’t have a reagent vendor… I will be waiting.",
+  },
+  [31018] = {
+    ["T"] = "Holy Concentration",
+    ["O"] = "Wait for the purification ritual to be complete.",
+    ["D"] = "",
+  },
+  [31019] = {
+    ["T"] = "A Journey Back",
+    ["O"] = "With the scepter purified we can return to Winterspring. Talruk in Azure Rest will be waiting for us.",
+    ["D"] = "<Lord Maxwell Tyrosus is visibly out of breath.>\n\nThe ritual was more taxing than I anticipated.\n\nI did what I could... but I know not if your plan will succeed. Return to the dragon\'s remains in Azure Rest. If you now channel the scepter into their skull it should draw out the dragon\'s spirit and let you two converse.\n\nFarewell, $c, and good luck. Destroy the scepter after everything is done. This magic shouldn\'t be allowed to exist.",
+  },
+  [31020] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Use the scepter on the skull in Azure Rest and speak with the dragon's spirit.",
+    ["D"] = "Lord Maxwell said we should channel the magic of the scepter into the dragon\'s skull. If things go to plan we will draw out the spirit of the fallen blue dragon. Hopefully they will have the answers and solutions we so desperately need.",
+  },
+  [31021] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Speak with Veligos in Azure Rest. Find out his story and consult on the next steps.",
+    ["D"] = "<The spirit appears to be slowly stabilizing and gaining awareness.>\n\nI am Veligos, a master of the arcane and protector of magic.\n\n<Veligos focuses his attention on the crystal.>\n\nWhy is this cursed thing active? Who was foolish enough to undo my spells? \n\n\n\nSpeak, $r, are you the cause of this impending calamity?"
+  },
+  [31022] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Veligos asked us to fight our way into the depths of the Azure Rest cave and kill the ogres that are empowering the crystal. ",
+    ["D"] = "Those Blackrock fools must have found my orb and put it back together... or emulated it's magic somehow. Undoubtedly hoping to feed on the crystal. \n\nWhoever did that must be very powerful and wielding the most insidious of magics. I don't feel such a presence nearby, but there is something. \n\nThere is a ritual ongoing in that cave near the edge of the mountain. Kill whoever channels those spells, that should slow the crystal and buy us some time."
+  },
+  [31023] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Speak with Veligos when you are ready to start the summoning. He wants us to kill the Spirestone Magus Lord at the crystal in Azure Rest.",
+    ["D"] = "In this form my abilities are greatly diminished, but I have been trying to look though the flow of magic within the crystal. I was able to find traces of my orb's energies, as well as the one who probably wielded it. \n\n<You feel the energy around Veligos surge.>\n\nI should be able to drag him here through a portal. Let me know when you are ready, $N."
+  },
+  [31024] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Veligos from Azure Rest wants us to go into the depths of Lower Blackrock Spire to summon and kill the true leader of Spirestone clan - Urok Doomhowl and recover the second part of his control orb.",
+    ["D"] = "With one part of the orb recovered we need to track down the other one.\n\n<Veligos focuses his magic into the shard and it seems to enter resonance with something.>\n\nGather your allies, $r, travel to Blackrock Mountain and slay Urok Doomhowl. I sense he is hiding behind a magical veil. Break his followers, drag him out of the shadows, challenge his rule and rid the world of his dark influence.\n\nBring me the last part of my control orb, I will focus now on gathering strength for what is to come."
+  },
+  [31025] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Veligos from Azure Rest requires several reagents to conjure magical wards that will suppress the blight:\n\n- Lumenstone, an anti-magic metal can be found in Deadwind Pass near the tower of Kharazan.\n- Four pieces of Guardian Stone from Stone Guardians in Un\'Goro Crater.\n- Two Rugged Hide from a skilled Leatherworker.\n- Two pieces of Mooncloth from a Tailor.\n- Two Potions of Anti-Magic from an Alchemist.",
+    ["D"] = "<There is an audible sound coming from the crystal and a terrible heat is radiating from it. It feels like your very essence is being pulled inside.>\n\nWe are running out of time, $n, I have thought through countless potential solutions and there may be a way… The orb is beyond repair, no craftsman on Azeroth is skilled enough to mend it. But that doesn\'t mean that it is useless. I might know how the ogres managed to awaken the crystal, it is far from elegant but it will work.\n\nWhile I prepare for that, you will need to once again venture out into the world. We must craft anti-magic wards that will stop the spread of this arcane blight, caused by the crystal. After it is stable, those wards will ensure that the containment holds for good.\n\nTravel to Deadwind Pass, within the cellars of Medivh\'s tower you will find Lumentstone, a rare metal that has the effect of negating magic. Be warned though, the tunnels and caves are treacherous and are full of tortured ghosts and undead. \n\nNext, make your way to Un\'Goro Crater. The protectors of the land, runed golems of considerable strength roam there. Collect their Guardian Stones, those will serve as the core for the wards.\n\nTo protect wards from the elements seek help from skilled crafters. Acquire two pieces of Rugged Hide and two bolts of cloth, infused with energies of a Moonwell. They will have to be soaked in an Anti-Magic mixture."
+  },
+  [31026] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Wait for Veligos to finish casting the conjuration spell.",
+    ["D"] = "I will now begin casting the spell. Stand back and let me concentrate."
+  },
+  [31027] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Begin the purification of Azure Rest in Winterspring. Place the four suppressive wards on each spot of land affected by the arcane blight.",
+    ["D"] = "The wards are ready. Place them near the middle of affected land. \n\nBe weary of the ogres, they still seem to come after us."
+  },
+  [31028] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "It is time to put an end to this. Hold Veligos\'s orb at the crystal in Azure Rest and begin the suppression.",
+    ["D"] = "I did my best to fuse the orb for the time being, but I am way too weak to operate it. \n\nHold the orb near the crystal, I will pour what I have into both parts and try to harmonize them. \n\nIn this, the crystal\'s immense energy will play key part in it\'s own suppression. I will collapse the flow of magic into itself and we will rid Azeroth of this calamity. \n\n<Veligos takes a pause.>\n\nHow I wish I could have studied it, if only I was successful all these years ago... Perhaps in another life..."
+  },
+  [31029] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Speak with Veligos to destroy the Scepter of Vectus and free his spirit. After that we should let Talruk know about everything that has transpired. He can be found in Azure Rest, in Winterspring.",
+    ["D"] = "With the crystal calmed, the energies on which I was sustaining myself are dwindling. \n\n$N, I\'m sorry that I have failed everyone all those years ago. My curiosity almost brought innumerable deaths. Please bring this memento to my brood, let them know of my story, let them caution their young. \n\nAll that's left is to snap the necromancer\'s scepter. \n\n<Veligos briefly hovers above, taking a long look onto the ocean below.> \n\nMy duty is done, it is time to go. I am ready."
+  },
+  [31030] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Bring Veligos\'s Memento to the Matron Protectorate Haleh. She can be found above Mazthorhil in Winterspring.",
+    ["D"] = "You have done well, $N. You should honor the request of the dragon and bring his memento to the matriarch of Mazthorhil. It is a tragic tale and it must be known.\n\nWhenever you feel lost, come back to this place. It was a cause of great sorrow but in time, serenity will return to it.\n\nFarewell, $r."
+  },
+  [31031] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Return to Orgrimmar and inform Thrall of your success.",
+    ["D"] = "Thank you again, adventurer. You have done a great deed for Azeroth this day. \n\nUndoubtedly your leaders will want to hear of your heroics."
+  },
+  [31032] = {
+    ["T"] = "Arcane Blight",
+    ["O"] = "Return to Ironforge and inform King Magni Bronzbeard of your success.",
+    ["D"] = "Thank you again, adventurer. You have done a great deed for Azeroth this day. \n\nUndoubtedly your leaders will want to hear of your heroics."
+  },
+  [31033] = {
+    ["T"] = "An Unfortunate Roadblock",
+    ["O"] = "Search Deadwind Pass for someone who might know about the demons.",
+    ["D"] = "Lumenstone is nowhere to be found but you spot a tablet on one of the demons. Upon closer inspection it looks like it is written in unintelligible demonic:\n\nRikk alar il xi zennrakkan lok Kirasath Raka ruk asj xi veni parn kar lok revola rukadare il Karazhan. Lok kamil buras naztheros arakalada xi daz veni. Rikk lok parn il asj xi Z gular maladath lok buras kanrethad il lok kamil. Kiel ashjrethul ante buras gul revos. \nIl kirasath Vorakem Zekulrakkas Archim il Aman Veni Kazzak.\n\nWe will need help deciphering the meaning of this message. Based on several environmental signs, it looks like we were not the first people visiting the Master\'s Cellar recently. Perhaps they are still somewhere in the Deadwind Pass, if we are lucky.\n\nWith the spirits, ogres, and now demons surrounding the tower, where would they hide?"
+  },
+  [31034] = {
+    ["T"] = "Help to Recieve Help",
+    ["O"] = "The stranger from Deadwind Pass is likely our best choice at finding Lumenstone that the demons took. We will need to bring him a food that buffs mana recovery and some alcohol.",
+    ["D"] = "I can help you, true, but you know how these things go... I first need something from you.\n\nAs you might see, I\'m not in the best shape right now. While escaping from the cellar, I had to push my body way further than was stable.\n\nHelp me recover my magic and I will assist you. Something with a lasting boost to my mana recovery and something to wash it all down would do me wonders. While you are gone I will start on the tablet translation."
+  },
+  [31035] = {
+    ["T"] = "Key Information",
+    ["O"] = "Speak with Karanth Ardentis in Deadwind Pass.",
+    ["D"] = "I\'m already feeling better, thank you, $c. Allow me to introduce myself, I am Karanth Ardentis of the Kirin Tor.\n\nLet us speak on this."
+  },
+  [31036] = {
+    ["T"] = "Head-On Assault",
+    ["O"] = "Find the demon camp and clear it out. The Lumenstone that we seek should also be there somewhere.",
+    ["D"] = "Demons are arrogant and that is their main weakness, a weakness that you should exploit. The best bet is to surprise them. Face them head on and kill as many as you can in the chaos.\n\nThey would have brought the metal you seek to their camp too, you will undoubtedly find it there.\n\nI would come with you but my body is still weak. I assume they were doing something to the metal and that was the cause of whatever happened to me. Watch yourself out there, if you feel anything close to what I've described - run."
+  },
+  [31037] = {
+    ["T"] = "To Repay a Debt",
+    ["O"] = "The Kirin Tor mage that we met in Deadwind Pass has invited us to see him at his camp. He said he can help us with powerful enchantments. This should be good.",
+    ["D"] = "Greetings, $N!\n\nI am happy to report that I am feeling better. Have you been successful in your quest?\n\nI will be leaving Deadwind Pass soon. Come stop by when you are available. I think I have enough strength to repay you for all the help that you provided. My enchantments are powerful, they will undoubtedly help you in the battles to come.\n\nRegards, Karanth."
+  },
+  [31038] = {
+    ["T"] = "Touch of Rejuvenation",
+    ["O"] = "Bring Karanth the reagents and he will create a Touch of Rejuvenation.",
+    ["D"] = "The crystal you were given is a rare and potent reagent. Combined with a medium I can conjure a powerful enchantment that can assist you in your adventures."
+  },
+  [31039] = {
+    ["T"] = "Touch of Might",
+    ["O"] = "Bring Karanth the reagents and he will create a Touch of Might.",
+    ["D"] = "The crystal you were given is a rare and potent reagent. Combined with a medium I can conjure a powerful enchantment that can assist you in your adventures."
+  },
+  [31040] = {
+    ["T"] = "Touch of Sorcery",
+    ["O"] = "Bring Karanth the reagents and he will create a Touch of Sorcery.",
+    ["D"] = "The crystal you were given is a rare and potent reagent. Combined with a medium I can conjure a powerful enchantment that can assist you in your adventures."
+  },
+  [31041] = {
+    ["T"] = "Touch of Protection",
+    ["O"] = "Bring Karanth the reagents and he will create a Touch of Protection.",
+    ["D"] = "The crystal you were given is a rare and potent reagent. Combined with a medium I can conjure a powerful enchantment that can assist you in your adventures."
+  },
+  [31042] = {
+    ["T"] = "Battle of Gillijim\'s Isle",
+    ["O"] = "Achieve victory in Gillijim\'s Isle 3 times, then return to Wel\'cha in the Valley of Winds in Orgrimmar. (This quest can be completed once every week)",
+    ["D"] = "Dere be island far to de east near the jungles of Stranglethorn that we once called Darkspear Isle, we were forced to flee a long long time ago and we journeyed west, this happened once again afterwards before we settled on what ya now see off the coast of Durotar.\n\nDa gnomes of da Alliance found something on the island, which has since been known as Gilli\'jim's Isle, and dey wish to strip mine it! We cannot allow them dis resource, and we must protect our history. Will you aid us?"
+  },
+  [31043] = {
+    ["T"] = "Battle of Gillijim\'s Isle",
+    ["O"] = "Achieve victory in Gillijim\'s Isle 3 times, then return to Wel\'cha in the Valley of Winds in Orgrimmar. (This quest can be completed once every week)",
+    ["D"] = ""
+  },
+  [31044] = {
+    ["T"] = "Fight for Gillijim\'s Isle",
+    ["O"] = "Achieve victory in Gillijim\'s Isle 3 times, then return to Maxwell Zanoise in Stormwind Harbor. (This quest can be completed once every week.)",
+    ["D"] = ""
+  },
+  [31045] = {
+    ["T"] = "Fight for Gillijim\'s Isle",
+    ["O"] = "Achieve victory in Gillijim\'s Isle 3 times, then return to Maxwell Zanoise in Stormwind Harbor. (This quest can be completed once every week.)",
+    ["D"] = ""
+  },
 }

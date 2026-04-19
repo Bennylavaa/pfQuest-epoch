@@ -99,4 +99,9 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 49.75, 52.0, 85, 0 },
     },
   },
+  [4000018] = { --Azure Rest Camp Site
+    ["coords"] = {
+      [1] = { 69.5, 50.5, 618},
+    },
+  },
 }

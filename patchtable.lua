@@ -964,8 +964,7 @@ end
 local originalNodeEnter = pfMap.NodeEnter
 pfMap.NodeEnter = function()
   if not this or not this.node then
-    if originalNodeEnter then originalNodeEnter() end
-    return
+	Epoch_MapNodeEnter(originalNodeEnter)
   end
 
   local hasItemStart = false
@@ -1029,9 +1028,7 @@ pfMap.NodeEnter = function()
 
     pfMap.highlight = pfQuest_config["mouseover"] == "1" and this.title
   else
-    if originalNodeEnter then
-      originalNodeEnter()
-    end
+	Epoch_MapNodeEnter(originalNodeEnter)
   end
 end
 

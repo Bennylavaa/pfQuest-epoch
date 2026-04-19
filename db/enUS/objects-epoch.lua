@@ -778,4 +778,8 @@ pfDB["objects"]["enUS-epoch"] = {
   [5000072] = "Call to Skirmish: Dustwallow Marsh",
   [5000073] = "Call to Skirmish: Blasted Lands",
   [5000074] = "Call to Skirmish: Silithus",
+  [5000075] = "Abandoned Journal",
+  [5000076] = "Skull of the Blue Dragon",
+  [500077] = "Storage Crate",
+  [500078] = "Blighted Ground",
 }
