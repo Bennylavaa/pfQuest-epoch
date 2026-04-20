@@ -624,10 +624,11 @@ function pfMap:UpdateNodes()
                                     local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                                     local minLevel = tonumber(data.min) or 0
 
+                                    local isCommission = title and string.find(title, "Commission for")
                                     if not isUtilityNPC then
                                         if pfQuest_config["showlowlevel"] == "0" then
                                             if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
-                                                if not (data.texture and string.find(data.texture, "complete")) then
+                                                if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                                     skipNode = true
                                                     break
                                                 end
@@ -649,7 +650,7 @@ function pfMap:UpdateNodes()
                                     if not isUtilityNPC then
                                         if pfQuest_config["showlowlevel"] == "0" then
                                             if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
-                                                if not (data.texture and string.find(data.texture, "complete")) then
+                                                if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                                     skipNode = true
                                                     break
                                                 end
@@ -889,10 +890,11 @@ function pfMap:UpdateNodes()
                             local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                             local minLevel = tonumber(data.min) or 0
 
+                            local isCommission = title and string.find(title, "Commission for")
                             if not isUtilityNPC then
                                 if pfQuest_config["showlowlevel"] == "0" then
                                     if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
-                                        if not (data.texture and string.find(data.texture, "complete")) then
+                                        if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                             skipNode = true
                                             break
                                         end
@@ -914,7 +916,7 @@ function pfMap:UpdateNodes()
                             if not isUtilityNPC then
                                 if pfQuest_config["showlowlevel"] == "0" then
                                     if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
-                                        if not (data.texture and string.find(data.texture, "complete")) then
+                                        if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                             skipNode = true
                                             break
                                         end
@@ -1123,6 +1125,31 @@ local function ExtendPfQuestConfig()
             config = "epochHideItemDrops"
         }
     )
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "|cff33ffccMap Toggle Buttons|r",
+            type = "header"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "Rares/Chests Button X Offset",
+            default = "-68",
+            type = "text",
+            config = "toggleBtnX"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "Rares/Chests Button Y Offset",
+            default = "-56",
+            type = "text",
+            config = "toggleBtnY"
+        }
+    )
 
     -- Initialize the config values with defaults
     pfQuest_config["epochContinentPins"] = pfQuest_config["epochContinentPins"] or "1"
@@ -1135,6 +1162,8 @@ local function ExtendPfQuestConfig()
     pfQuest_config["epochHideCommissionQuests"] = pfQuest_config["epochHideCommissionQuests"] or "0"
     pfQuest_config["epochHideDonationQuests"] = pfQuest_config["epochHideDonationQuests"] or "0"
     pfQuest_config["epochHideItemDrops"] = pfQuest_config["epochHideItemDrops"] or "0"
+    pfQuest_config["toggleBtnX"] = pfQuest_config["toggleBtnX"] or "-68"
+    pfQuest_config["toggleBtnY"] = pfQuest_config["toggleBtnY"] or "-56"
 end
 
 local f = CreateFrame("Frame")
@@ -1145,3 +1174,119 @@ f:SetScript(
         ExtendPfQuestConfig()
     end
 )
+
+
+local function CreateTrackingToggleButtons()
+    local BTN_W, BTN_H = 56, 10
+    local FONT_SIZE = 7
+    local guide = WorldMapPositioningGuide
+
+    local function GetX() return tonumber(pfQuest_config["toggleBtnX"]) or -68 end
+    local function GetY() return tonumber(pfQuest_config["toggleBtnY"]) or -56 end
+
+    local function MakeToggleButton(name, trackKey, yOffset)
+        local btn = CreateFrame("Button", "pfQuest"..name.."ToggleBtn", guide)
+        btn:SetWidth(BTN_W)
+        btn:SetHeight(BTN_H)
+        btn:SetFrameStrata("DIALOG")
+        btn:SetFrameLevel(100)
+        btn:EnableMouse(true)
+        btn:SetPoint("TOPRIGHT", guide, "TOPRIGHT", GetX(), yOffset)
+
+
+        btn:SetBackdrop({
+            bgFile   = "Interface\\Tooltips\\UI-Tooltip-Background",
+            edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+            tile = true, tileSize = 8, edgeSize = 6,
+            insets = { left=1, right=1, top=1, bottom=1 },
+        })
+        btn:SetBackdropColor(0.1, 0.1, 0.1, 0.85)
+        btn:SetBackdropBorderColor(0.4, 0.4, 0.4, 1)
+
+
+        local label = btn:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+        label:SetFont(label:GetFont(), FONT_SIZE, "OUTLINE")
+        label:SetAllPoints(btn)
+        label:SetJustifyH("CENTER")
+        label:SetJustifyV("MIDDLE")
+        btn.label = label
+
+
+        btn:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+
+
+        local function UpdateText()
+            if pfQuest_track and pfQuest_track[trackKey] then
+                label:SetText(name..": |cff33ff33ON|r")
+                btn:SetBackdropColor(0.05, 0.2, 0.05, 0.9)
+            else
+                label:SetText(name..": |cffff4444OFF|r")
+                btn:SetBackdropColor(0.1, 0.1, 0.1, 0.85)
+            end
+        end
+
+
+        btn:SetScript("OnClick", function()
+            if pfQuest_track and pfQuest_track[trackKey] then
+                pfDatabase:TrackMeta(trackKey, false)
+            else
+                pfDatabase:TrackMeta(trackKey, {})
+            end
+            pfMap:UpdateNodes()
+            UpdateText()
+        end)
+
+
+        btn:SetScript("OnEnter", function()
+            GameTooltip:SetOwner(btn, "ANCHOR_BOTTOMLEFT")
+            GameTooltip:SetText("pfQuest "..name, 1, 1, 1)
+            if pfQuest_track and pfQuest_track[trackKey] then
+                GameTooltip:AddLine("Click to stop tracking "..string.lower(name)..".", 0.8, 0.8, 0.8, true)
+            else
+                GameTooltip:AddLine("Click to track "..string.lower(name).." on the map.", 0.8, 0.8, 0.8, true)
+            end
+            GameTooltip:AddLine("|cff33ffcc/db track "..trackKey.."|r", 0.6, 0.6, 0.6, true)
+            GameTooltip:Show()
+        end)
+
+
+        btn:SetScript("OnLeave", function()
+            GameTooltip:Hide()
+        end)
+
+
+        UpdateText()
+        return UpdateText
+    end
+
+
+    local refreshRares  = MakeToggleButton("Rares",  "rares",  GetY())
+    local refreshChests = MakeToggleButton("Chests", "chests", GetY() - BTN_H)
+
+
+    local syncFrame = CreateFrame("Frame")
+    syncFrame:RegisterEvent("WORLD_MAP_UPDATE")
+    syncFrame:SetScript("OnEvent", function()
+        pfQuestRaresToggleBtn:ClearAllPoints()
+        pfQuestRaresToggleBtn:SetPoint("TOPRIGHT", guide, "TOPRIGHT", GetX(), GetY())
+        pfQuestChestsToggleBtn:ClearAllPoints()
+        pfQuestChestsToggleBtn:SetPoint("TOPRIGHT", guide, "TOPRIGHT", GetX(), GetY() - BTN_H)
+        refreshRares()
+        refreshChests()
+    end)
+
+
+    local origUpdateNodes = pfMap.UpdateNodes
+    pfMap.UpdateNodes = function(self)
+        origUpdateNodes(self)
+        refreshRares()
+        refreshChests()
+    end
+end
+
+
+local pfTrackBtnLoader = CreateFrame("Frame")
+pfTrackBtnLoader:RegisterEvent("VARIABLES_LOADED")
+pfTrackBtnLoader:SetScript("OnEvent", function()
+    CreateTrackingToggleButtons()
+end)

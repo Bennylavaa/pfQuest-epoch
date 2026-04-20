@@ -238,7 +238,11 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
     if not playerSkillLevel or quest["skillmin"] and playerSkillLevel < quest["skillmin"] then return end
   end
   -- hide lowlevel quests using WoW's gray level system
-  if quest["lvl"] and quest["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then return end
+  if quest["lvl"] and quest["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then
+    local loc = pfDB.quests.loc[id]
+    local isCommission = loc and loc.T and string.find(loc.T, "Commission for")
+    if not isCommission then return end
+  end
   -- hide highlevel quests (or show those that are 3 levels above)
   if quest["min"] and quest["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
   -- hide event quests

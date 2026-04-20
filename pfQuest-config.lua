@@ -1,5 +1,15 @@
 local uiRebuilt = false
 
+local function iterConfigFrames(fn)
+    local i = 1
+    while true do
+        local frame = getglobal("pfQuestConfig" .. i)
+        if not frame then break end
+        fn(frame)
+        i = i + 1
+    end
+end
+
 local function RebuildConfigUI()
     if uiRebuilt then
         return
@@ -9,15 +19,15 @@ local function RebuildConfigUI()
         return false
     end
 
-    for i = 1, 50 do
-        local frame = getglobal("pfQuestConfig" .. i)
-        if frame then
-            frame:Hide()
-            frame:SetParent(nil)
-            setglobal("pfQuestConfig" .. i, nil)
-        else
-            break
-        end
+    local i = 1
+    while true do
+        local name = "pfQuestConfig" .. i
+        local frame = getglobal(name)
+        if not frame then break end
+        frame:Hide()
+        frame:SetParent(nil)
+        setglobal(name, nil)
+        i = i + 1
     end
 
     pfQuestConfig.vpos = 40
@@ -76,15 +86,7 @@ local function CreateSearchBar()
         self:SetText("")
         self:ClearFocus()
         self.placeholder:Show()
-        -- Reset all frames to visible
-        for i = 1, 50 do
-            local frame = getglobal("pfQuestConfig" .. i)
-            if frame then
-                frame:Show()
-            else
-                break
-            end
-        end
+        iterConfigFrames(function(frame) frame:Show() end)
     end)
 
     -- Click outside to clear search (hook into existing OnMouseDown)
@@ -102,15 +104,7 @@ local function CreateSearchBar()
                     pfQuestConfig.searchBar:SetText("")
                     pfQuestConfig.searchBar:ClearFocus()
                     pfQuestConfig.searchBar.placeholder:Show()
-                    -- Reset all frames to visible
-                    for i = 1, 50 do
-                        local frame = getglobal("pfQuestConfig" .. i)
-                        if frame then
-                            frame:Show()
-                        else
-                            break
-                        end
-                    end
+                    iterConfigFrames(function(frame) frame:Show() end)
                 end
             end
         end
@@ -119,22 +113,16 @@ local function CreateSearchBar()
     pfQuestConfig.searchBar:SetScript("OnTextChanged", function(self)
         local searchText = string.lower(self:GetText())
 
-        -- Simple hide/show filtering
-        for i = 1, 50 do
-            local frame = getglobal("pfQuestConfig" .. i)
-            if frame then
-                if frame.caption then
-                    local captionText = string.lower(frame.caption:GetText() or "")
-                    if searchText == "" or string.find(captionText, searchText, 1, true) then
-                        frame:Show()
-                    else
-                        frame:Hide()
-                    end
+        iterConfigFrames(function(frame)
+            if frame.caption then
+                local captionText = string.lower(frame.caption:GetText() or "")
+                if searchText == "" or string.find(captionText, searchText, 1, true) then
+                    frame:Show()
+                else
+                    frame:Hide()
                 end
-            else
-                break
             end
-        end
+        end)
     end)
 end
 
