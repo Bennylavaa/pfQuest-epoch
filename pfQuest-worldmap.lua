@@ -624,10 +624,15 @@ function pfMap:UpdateNodes()
                                     local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                                     local minLevel = tonumber(data.min) or 0
 
+                                    -- Commission quests are repeatable end-game content with a low base
+                                    -- level; the gray-level filter would hide them even when the player
+                                    -- wants them. Let them through here — the epochHideCommissionQuests
+                                    -- option in patchtable still offers a hard opt-out.
+                                    local isCommission = title and string.find(title, "Commission for")
                                     if not isUtilityNPC then
                                         if pfQuest_config["showlowlevel"] == "0" then
                                             if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
-                                                if not (data.texture and string.find(data.texture, "complete")) then
+                                                if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                                     skipNode = true
                                                     break
                                                 end
@@ -649,7 +654,7 @@ function pfMap:UpdateNodes()
                                     if not isUtilityNPC then
                                         if pfQuest_config["showlowlevel"] == "0" then
                                             if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
-                                                if not (data.texture and string.find(data.texture, "complete")) then
+                                                if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                                     skipNode = true
                                                     break
                                                 end
@@ -889,10 +894,15 @@ function pfMap:UpdateNodes()
                             local questLevel = tonumber(data.qlvl) or tonumber(data.lvl) or 0
                             local minLevel = tonumber(data.min) or 0
 
+                            -- Commission quests are repeatable end-game content with a low base
+                            -- level; the gray-level filter would hide them even when the player
+                            -- wants them. Let them through here — the epochHideCommissionQuests
+                            -- option in patchtable still offers a hard opt-out.
+                            local isCommission = title and string.find(title, "Commission for")
                             if not isUtilityNPC then
                                 if pfQuest_config["showlowlevel"] == "0" then
                                     if questLevel > 0 and questLevel <= GetGrayLevel(playerLevel) then
-                                        if not (data.texture and string.find(data.texture, "complete")) then
+                                        if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                             skipNode = true
                                             break
                                         end
@@ -914,7 +924,7 @@ function pfMap:UpdateNodes()
                             if not isUtilityNPC then
                                 if pfQuest_config["showlowlevel"] == "0" then
                                     if minLevel <= 1 and questLevel <= GetGrayLevel(playerLevel) then
-                                        if not (data.texture and string.find(data.texture, "complete")) then
+                                        if not (data.texture and string.find(data.texture, "complete")) and not isCommission then
                                             skipNode = true
                                             break
                                         end

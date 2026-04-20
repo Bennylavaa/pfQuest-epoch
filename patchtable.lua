@@ -237,8 +237,16 @@ function pfDatabase:QuestFilter(id, plevel, pclass, prace)
     local playerSkillLevel = pfDatabase:GetPlayerSkill(quest["skill"])
     if not playerSkillLevel or quest["skillmin"] and playerSkillLevel < quest["skillmin"] then return end
   end
-  -- hide lowlevel quests using WoW's gray level system
-  if quest["lvl"] and quest["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then return end
+  -- hide lowlevel quests using WoW's gray level system.
+  -- Commission quests are repeatable end-game content with a low base level,
+  -- so the gray filter would hide them even when the player actively wants
+  -- them. Let them through here; the dedicated epochHideCommissionQuests
+  -- option below still lets users opt out of commission quests entirely.
+  if quest["lvl"] and quest["lvl"] <= GetGrayLevel(plevel) and pfQuest_config["showlowlevel"] == "0" then
+    local loc = pfDB.quests.loc[id]
+    local isCommission = loc and loc.T and string.find(loc.T, "Commission for")
+    if not isCommission then return end
+  end
   -- hide highlevel quests (or show those that are 3 levels above)
   if quest["min"] and quest["min"] > plevel + ( pfQuest_config["showhighlevel"] == "1" and 3 or 0 ) then return end
   -- hide event quests
