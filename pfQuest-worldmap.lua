@@ -300,7 +300,9 @@ local function OnMapScaleChanged(frame, scale, originalfunction)
     local newInverseScale = 1.0 / WorldMapButton:GetEffectiveScale()
     if (inverseMapScale ~= newInverseScale) then
         inverseMapScale = newInverseScale
+        mainmap_inversescale = newInverseScale
         ResizeContinentNodes()
+        pfMap:ResizeNodes()
     end
 end
 -- Listen for WorldMapFrame scale changes
@@ -1136,7 +1138,7 @@ local function ExtendPfQuestConfig()
         pfQuest_defconfig,
         {
             text = "Rares/Chests Button X Offset",
-            default = "-68",
+            default = "-75",
             type = "text",
             config = "toggleBtnX"
         }
@@ -1145,7 +1147,7 @@ local function ExtendPfQuestConfig()
         pfQuest_defconfig,
         {
             text = "Rares/Chests Button Y Offset",
-            default = "-56",
+            default = "-12",
             type = "text",
             config = "toggleBtnY"
         }
@@ -1162,8 +1164,8 @@ local function ExtendPfQuestConfig()
     pfQuest_config["epochHideCommissionQuests"] = pfQuest_config["epochHideCommissionQuests"] or "0"
     pfQuest_config["epochHideDonationQuests"] = pfQuest_config["epochHideDonationQuests"] or "0"
     pfQuest_config["epochHideItemDrops"] = pfQuest_config["epochHideItemDrops"] or "0"
-    pfQuest_config["toggleBtnX"] = pfQuest_config["toggleBtnX"] or "-68"
-    pfQuest_config["toggleBtnY"] = pfQuest_config["toggleBtnY"] or "-56"
+    pfQuest_config["toggleBtnX"] = pfQuest_config["toggleBtnX"] or "-75"
+    pfQuest_config["toggleBtnY"] = pfQuest_config["toggleBtnY"] or "-12"
 end
 
 local f = CreateFrame("Frame")
