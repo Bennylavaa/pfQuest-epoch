@@ -67,7 +67,6 @@ questLogFrame:RegisterEvent('GOSSIP_SHOW')
 questLogFrame:RegisterEvent('QUEST_COMPLETE')
 questLogFrame:RegisterEvent('QUEST_FINISHED')
 questLogFrame:RegisterEvent('QUEST_GREETING')
-questLogFrame:RegisterEvent('QUEST_LOG_UPDATE')
 questLogFrame:RegisterEvent('QUEST_PROGRESS')
 
 local function CompleteQuestWithRewards()
