@@ -1092,17 +1092,7 @@ function pfMap:OnMapScaleChanged(frame, scale, hookedfunction)
   end
 end
 
--- Listen for WorldMapFrame scale changes
-local pfHookWorldMapFrame_SetScale = WorldMapFrame.SetScale
-WorldMapFrame.SetScale = function(frame, scale) pfMap:OnMapScaleChanged(frame, scale, pfHookWorldMapFrame_SetScale) end
-
--- Listen for WorldMapDetailFrame scale changes
-local pfHookWorldMapDetailFrame_SetScale = WorldMapDetailFrame.SetScale
-WorldMapDetailFrame.SetScale = function(frame, scale) pfMap:OnMapScaleChanged(frame, scale, pfHookWorldMapDetailFrame_SetScale) end
-
--- Listen for WorldMapButton scale changes
-local pfHookWorldMapButton_SetScale = WorldMapButton.SetScale
-WorldMapButton.SetScale = function(frame, scale) pfMap:OnMapScaleChanged(frame, scale, pfHookWorldMapButton_SetScale) end
+-- WorldMapFrame/WorldMapDetailFrame/WorldMapButton SetScale hooks are handled in pfQuest-worldmap.lua
 
 function pfDatabase:BuildQuestDescription(meta)
   if not meta.title or not meta.quest or not meta.QTYPE then return meta.description end
