@@ -65,7 +65,6 @@ local questLogFrame = CreateFrame("Frame")
 questLogFrame:RegisterEvent("QUEST_DETAIL")
 questLogFrame:RegisterEvent('GOSSIP_SHOW')
 questLogFrame:RegisterEvent('QUEST_COMPLETE')
-questLogFrame:RegisterEvent('QUEST_FINISHED')
 questLogFrame:RegisterEvent('QUEST_GREETING')
 questLogFrame:RegisterEvent('QUEST_PROGRESS')
 
