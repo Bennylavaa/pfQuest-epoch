@@ -34,8 +34,7 @@ function pfQuestEpoch_OnQuestUpdate(message)
 
     objectiveState[itemName].lastCount = iNumItems
 
-    local questName = pfQuestEpoch_GetQuestNameForObjective(itemName)
-    local itemId = pfQuestEpoch_GetItemIdForObjective(itemName)
+    local questName, itemId = pfQuestEpoch_ResolveObjective(itemName)
     local itemLink = nil
 
     if itemId then
@@ -85,6 +84,67 @@ function pfQuestEpoch_OnQuestUpdate(message)
       SendChatMessage(outMessage, "PARTY")
     end
   end
+end
+
+function pfQuestEpoch_ResolveObjective(objectiveName)
+  if not objectiveName then return nil, nil end
+  local originalSelection = GetQuestLogSelection()
+  local numQuestLogEntries = GetNumQuestLogEntries()
+  local lowerObj = string.lower(objectiveName)
+
+  for i = 1, numQuestLogEntries do
+    local questTitle, _, _, _, isHeader = GetQuestLogTitle(i)
+
+    if not isHeader and questTitle then
+      SelectQuestLogEntry(i)
+      local numObjectives = GetNumQuestLeaderBoards()
+      local matched = false
+
+      for j = 1, numObjectives do
+        local description = GetQuestLogLeaderBoard(j)
+        if description then
+          local objName = string.match(description, "(.*):%s*[-%d]+%s*/%s*[-%d]+%s*$")
+          if objName and string.find(string.lower(objName), lowerObj, 1, true) then
+            matched = true
+            break
+          end
+        end
+      end
+
+      if matched then
+        local questLink = GetQuestLink(i)
+        local itemId = nil
+
+        local questId = pfQuestEpoch_GetQuestIdFromLink(questLink)
+        if questId and pfDB and pfDB["quests"] and pfDB["quests"]["data"] then
+          local questData = pfDB["quests"]["data"][questId]
+          if questData and questData["obj"] and questData["obj"]["I"] then
+            for _, iId in pairs(questData["obj"]["I"]) do
+              local iName = GetItemInfo(iId)
+              if iName and string.find(lowerObj, string.lower(iName), 1, true) then
+                itemId = iId
+                break
+              end
+            end
+          end
+        end
+
+        if not itemId then
+          local questText = GetQuestLogQuestText()
+          if questText then
+            local _, _, idStr = string.find(questText, "item:(%d+)")
+            if idStr then itemId = tonumber(idStr) end
+          end
+        end
+
+        SelectQuestLogEntry(originalSelection)
+        return questLink, itemId
+      end
+    end
+  end
+
+  SelectQuestLogEntry(originalSelection)
+  return nil, nil
 end
 
 function pfQuestEpoch_GetQuestNameForObjective(objectiveName)

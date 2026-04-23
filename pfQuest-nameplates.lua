@@ -9,6 +9,26 @@ local SWORD_ICON = "Interface\\AddOns\\pfQuest-epoch\\img\\slay"
 local BAG_ICON = "Interface\\AddOns\\pfQuest-epoch\\img\\loot"
 local NAMEPLATE_BORDER = "Interface\\Tooltips\\Nameplate-Border"
 
+local titleIndex = nil
+
+local function BuildTitleIndex()
+    titleIndex = {}
+    if not pfDB or not pfDB["quests"] or not pfDB["quests"]["enUS"] then
+        return
+    end
+    for questId, localizedData in pairs(pfDB["quests"]["enUS"]) do
+        local t = localizedData["T"]
+        if t then
+            local list = titleIndex[t]
+            if not list then
+                list = {}
+                titleIndex[t] = list
+            end
+            table.insert(list, questId)
+        end
+    end
+end
+
 local function ScanQuestObjectives()
     questObjectives = {}
 
@@ -20,72 +40,73 @@ local function ScanQuestObjectives()
         return
     end
 
-    local activeQuests = {}
+    if not titleIndex then
+        BuildTitleIndex()
+    end
+
+    local unitsDB = pfDB["units"] and pfDB["units"]["enUS"]
+    local itemsDB = pfDB["items"] and pfDB["items"]["enUS"]
+    local itemsData = pfDB["items"] and pfDB["items"]["data"]
+    local questData = pfDB["quests"]["data"]
+
     for qid = 1, GetNumQuestLogEntries() do
         local questTitle, _, _, _, _, _, complete = GetQuestLogTitle(qid)
         if questTitle and complete ~= 1 then
-            -- SelectQuestLogEntry(qid)
-            activeQuests[questTitle] = {}
-            local numObjectives = GetNumQuestLeaderBoards(qid)
-
-            for i = 1, numObjectives do
-                local text, objType, finished = GetQuestLogLeaderBoard(i, qid)
-                if text and not finished then
-                    local objName, current, total = string.match(text, "(.*):%s*(%d+)%s*/%s*(%d+)")
-                    if objName then
-                        objName = string.gsub(objName, "^%s*(.-)%s*$", "%1")
-                        table.insert(activeQuests[questTitle], {
-                            objective = objName,
-                            current = tonumber(current),
-                            total = tonumber(total)
-                        })
+            local matchingIds = titleIndex[questTitle]
+            if matchingIds then
+                local numObjectives = GetNumQuestLeaderBoards(qid)
+                local activeObjs = {}
+                for i = 1, numObjectives do
+                    local text, _, finished = GetQuestLogLeaderBoard(i, qid)
+                    if text and not finished then
+                        local objName, current, total = string.match(text, "(.*):%s*(%d+)%s*/%s*(%d+)")
+                        if objName then
+                            objName = string.gsub(objName, "^%s*(.-)%s*$", "%1")
+                            activeObjs[table.getn(activeObjs) + 1] = {
+                                objective = objName,
+                                current = tonumber(current),
+                                total = tonumber(total)
+                            }
+                        end
                     end
                 end
-            end
-        end
-    end
 
-    for questId, localizedData in pairs(pfDB["quests"]["enUS"]) do
-        local questTitle = localizedData["T"]
-
-        if questTitle and activeQuests[questTitle] then
-            local questData = pfDB["quests"]["data"][questId]
-            if questData and questData["obj"] then
-                if questData["obj"]["U"] then
-                    for _, unitId in pairs(questData["obj"]["U"]) do
-                        if pfDB["units"] and pfDB["units"]["enUS"] and pfDB["units"]["enUS"][unitId] then
-                            local targetName = pfDB["units"]["enUS"][unitId]
-
-                            for _, activeObj in ipairs(activeQuests[questTitle]) do
-                                local objNameBase = activeObj.objective:gsub(" slain$", ""):gsub(" killed$", "")
-                                if objNameBase == targetName or activeObj.objective:find(targetName, 1, true) then
-                                    if activeObj.current < activeObj.total then
-                                        questObjectives[targetName] = SWORD_ICON
+                if table.getn(activeObjs) > 0 then
+                    for _, questId in ipairs(matchingIds) do
+                        local qd = questData[questId]
+                        if qd and qd["obj"] then
+                            if qd["obj"]["U"] and unitsDB then
+                                for _, unitId in pairs(qd["obj"]["U"]) do
+                                    local targetName = unitsDB[unitId]
+                                    if targetName then
+                                        for _, activeObj in ipairs(activeObjs) do
+                                            local objNameBase = activeObj.objective:gsub(" slain$", ""):gsub(" killed$", "")
+                                            if objNameBase == targetName or activeObj.objective:find(targetName, 1, true) then
+                                                if activeObj.current < activeObj.total then
+                                                    questObjectives[targetName] = SWORD_ICON
+                                                end
+                                            end
+                                        end
                                     end
                                 end
                             end
-                        end
-                    end
-                end
 
-                if questData["obj"]["I"] then
-                    for _, itemId in pairs(questData["obj"]["I"]) do
-                        local itemName = nil
-                        if pfDB["items"] and pfDB["items"]["enUS"] and pfDB["items"]["enUS"][itemId] then
-                            itemName = pfDB["items"]["enUS"][itemId]
-                        end
-
-                        if pfDB["items"] and pfDB["items"]["data"] and pfDB["items"]["data"][itemId] then
-                            local itemData = pfDB["items"]["data"][itemId]
-
-                            if itemData["U"] then
-                                for unitId, dropRate in pairs(itemData["U"]) do
-                                    if pfDB["units"] and pfDB["units"]["enUS"] and pfDB["units"]["enUS"][unitId] then
-                                        local npcName = pfDB["units"]["enUS"][unitId]
-
-                                        for _, activeObj in ipairs(activeQuests[questTitle]) do
-                                            if itemName and activeObj.objective:find(itemName, 1, true) then
-                                                if activeObj.current < activeObj.total then
+                            if qd["obj"]["I"] and itemsDB and itemsData then
+                                for _, itemId in pairs(qd["obj"]["I"]) do
+                                    local itemName = itemsDB[itemId]
+                                    local itemData = itemsData[itemId]
+                                    if itemName and itemData and itemData["U"] and unitsDB then
+                                        local matched = false
+                                        for _, activeObj in ipairs(activeObjs) do
+                                            if activeObj.objective:find(itemName, 1, true) and activeObj.current < activeObj.total then
+                                                matched = true
+                                                break
+                                            end
+                                        end
+                                        if matched then
+                                            for unitId in pairs(itemData["U"]) do
+                                                local npcName = unitsDB[unitId]
+                                                if npcName then
                                                     questObjectives[npcName] = BAG_ICON
                                                 end
                                             end
@@ -241,46 +262,30 @@ local function RedrawAllIcons()
     end
 end
 
-local configMonitor = CreateFrame("Frame")
-local lastEnabled = "1"
+local SCAN_THROTTLE = 1.0
+local lastScanPerformed = 0
+local pendingScan = false
 
-local function StartConfigMonitor()
-    configMonitor.elapsed = 0
-    configMonitor:SetScript("OnUpdate", function()
-        this.elapsed = (this.elapsed or 0) + arg1
-        if this.elapsed >= 0.5 then
-            if pfQuest_config then
-                local currentEnabled = pfQuest_config["epochnameplatesEnabled"] or "1"
-
-                if currentEnabled ~= lastEnabled then
-                    lastEnabled = currentEnabled
-
-                    if currentEnabled == "1" then
-                        StartNameplateWatcher()
-                        UpdateAllNameplates()
-                    else
-                        StopNameplateWatcher()
-                        for frame, _ in pairs(iconFrames) do
-                            RemoveIconFrame(frame)
-                        end
-                    end
-                end
-            end
-            this.elapsed = 0
-        end
-    end)
+local function PerformScan()
+    lastScanPerformed = GetTime()
+    pendingScan = false
+    ScanQuestObjectives()
+    UpdateAllNameplates()
 end
 
-local function StopConfigMonitor()
-    if configMonitor then
-        configMonitor:SetScript("OnUpdate", nil)
+local function RequestScan()
+    local now = GetTime()
+    if now - lastScanPerformed >= SCAN_THROTTLE then
+        PerformScan()
+    else
+        pendingScan = true
     end
 end
 
 local lastNumChildren = 0
-local lastScanTime = 0
 local SCAN_INTERVAL = 0.2
 local ticker
+local lastEnabledState = nil
 
 local function StartNameplateWatcher()
     if ticker then return end
@@ -293,16 +298,19 @@ local function StartNameplateWatcher()
         this.elapsed = this.elapsed + arg1
 
         if this.elapsed >= SCAN_INTERVAL then
+            this.elapsed = 0
+
             local numChildren = WorldFrame:GetNumChildren()
             if numChildren ~= lastNumChildren then
                 lastNumChildren = numChildren
                 ScanWorldFrameChildren(WorldFrame:GetChildren())
             end
-            this.elapsed = 0
+
+            if pendingScan and GetTime() - lastScanPerformed >= SCAN_THROTTLE then
+                PerformScan()
+            end
         end
     end)
-
-    StartConfigMonitor()
 end
 
 local function StopNameplateWatcher()
@@ -310,8 +318,22 @@ local function StopNameplateWatcher()
         ticker:SetScript("OnUpdate", nil)
         ticker = nil
     end
+end
 
-    StopConfigMonitor()
+local function ApplyEnabledState()
+    local enabled = (pfQuest_config and pfQuest_config["epochnameplatesEnabled"] == "1")
+    if enabled == lastEnabledState then return end
+    lastEnabledState = enabled
+
+    if enabled then
+        StartNameplateWatcher()
+        UpdateAllNameplates()
+    else
+        StopNameplateWatcher()
+        for frame, _ in pairs(iconFrames) do
+            RemoveIconFrame(frame)
+        end
+    end
 end
 
 local eventFrame = CreateFrame("Frame")
@@ -321,9 +343,7 @@ eventFrame:RegisterEvent("ZONE_CHANGED")
 eventFrame:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 
 eventFrame:SetScript("OnEvent", function(self, event)
-    ScanQuestObjectives()
-
-    UpdateAllNameplates()
+    RequestScan()
 end)
 
 local initFrame = CreateFrame("Frame")
@@ -432,6 +452,7 @@ local function HookConfigWindow()
             if originalOnHide then
                 originalOnHide()
             end
+            ApplyEnabledState()
             RedrawAllIcons()
         end)
     end

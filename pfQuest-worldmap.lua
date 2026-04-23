@@ -2,6 +2,42 @@ local original_UpdateNodes = pfMap.UpdateNodes
 local continentPins = {}
 local maxContinentPins = 2000 -- guessing here but more is better if possible
 
+local utilityIdSet = nil
+local blockedIdSet = nil
+local metaCacheBuilt = false
+
+local function BuildMetaCaches()
+    utilityIdSet = {}
+    blockedIdSet = {}
+    metaCacheBuilt = true
+    local meta = pfDB and pfDB["meta-epoch"]
+    if not meta then
+        metaCacheBuilt = false
+        return
+    end
+
+    local utilityTypes = {
+        "flight", "auctioneer", "banker", "battlemaster", "innkeeper",
+        "mailbox", "stablemaster", "spirithealer", "meetingstone"
+    }
+    for _, t in ipairs(utilityTypes) do
+        if meta[t] then
+            for objectId in pairs(meta[t]) do
+                utilityIdSet[objectId] = true
+            end
+        end
+    end
+
+    local blockedTypes = { "herbs", "mines", "chests", "fish", "rares" }
+    for _, t in ipairs(blockedTypes) do
+        if meta[t] then
+            for objectId in pairs(meta[t]) do
+                blockedIdSet[objectId] = true
+            end
+        end
+    end
+end
+
 -- ============================================================================
 -- WorldMapArea.dbc to mapData Conversion Formula
 -- ============================================================================
@@ -380,24 +416,29 @@ local function CreateContinentPin(index)
                 end
             end
 
-            pin:SetScript("OnUpdate", function(self, elapsed)
+            pin.throttle = 0
+            pin:SetScript("OnUpdate", function()
+                -- Throttle to ~10Hz per pin. With up to 2000 pins, running every
+                -- frame would be 2000 OnUpdate bodies per frame on the map.
+                this.throttle = (this.throttle or 0) + arg1
+                if this.throttle < 0.1 then return end
+                this.throttle = 0
+
                 if IsControlKeyDown() then
-                    -- Enable full mouse interaction when Ctrl is held
-                    if not self.mouseEnabled then
-                        self:EnableMouse(true)
-                        self:RegisterForClicks("LeftButtonUp", "RightButtonUp")
-                        self.mouseEnabled = true
+                    if not this.mouseEnabled then
+                        this:EnableMouse(true)
+                        this:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+                        this.mouseEnabled = true
                     end
                 else
-                    -- Disable mouse interaction when Ctrl is not held, but keep tooltips
-                    if self.mouseEnabled ~= false then
-                        self:EnableMouse(false)
-                        self:RegisterForClicks()
-                        self.mouseEnabled = false
+                    if this.mouseEnabled ~= false then
+                        this:EnableMouse(false)
+                        this:RegisterForClicks()
+                        this.mouseEnabled = false
                     end
                 end
 
-                CheckTooltip(self, elapsed)
+                CheckTooltip(this, arg1)
             end)
 
             pin:SetScript(
@@ -454,6 +495,10 @@ end
 function pfMap:UpdateNodes()
     local continent = GetCurrentMapContinent()
     local zone = GetCurrentMapZone()
+
+    if not metaCacheBuilt then
+        BuildMetaCaches()
+    end
 
     original_UpdateNodes(self)
 
@@ -785,47 +830,12 @@ function pfMap:UpdateNodes()
                             local isUtilityNPC = false
 
                             if data.addon == "PFDB" then
-                                local utilityTypes = {
-                                    "flight",
-                                    "auctioneer",
-                                    "banker",
-                                    "battlemaster",
-                                    "innkeeper",
-                                    "mailbox",
-                                    "stablemaster",
-                                    "spirithealer",
-                                    "meetingstone"
-                                }
-
-                                for _, utilityType in pairs(utilityTypes) do
-                                    if pfDB["meta-epoch"] and pfDB["meta-epoch"][utilityType] then
-                                        for objectId, faction in pairs(pfDB["meta-epoch"][utilityType]) do
-                                            if data.id and tonumber(data.id) == objectId then
-                                                isUtilityNPC = true
-                                                break
-                                            end
-                                        end
-                                        if isUtilityNPC then
-                                            break
-                                        end
-                                    end
-                                end
-
-                                -- Block unwanted PFDB trackables (herbs, mines, chests, etc.)
-                                if not isUtilityNPC then
-                                    local blockedTypes = {"herbs", "mines", "chests", "fish", "rares"}
-                                    for _, blockedType in pairs(blockedTypes) do
-                                        if pfDB["meta-epoch"] and pfDB["meta-epoch"][blockedType] then
-                                            for objectId, faction in pairs(pfDB["meta-epoch"][blockedType]) do
-                                                if data.id and tonumber(data.id) == objectId then
-                                                    skipNode = true
-                                                    break
-                                                end
-                                            end
-                                            if skipNode then
-                                                break
-                                            end
-                                        end
+                                local dataId = data.id and tonumber(data.id)
+                                if dataId then
+                                    if utilityIdSet[dataId] then
+                                        isUtilityNPC = true
+                                    elseif blockedIdSet[dataId] then
+                                        skipNode = true
                                     end
                                 end
                             elseif data.addon and string.find(data.addon, "TRACK_") then

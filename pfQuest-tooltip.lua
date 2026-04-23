@@ -35,6 +35,26 @@ end
 
 local myQuestMappings = {}
 
+local titleIndex = nil
+
+local function BuildTitleIndex()
+    titleIndex = {}
+    if not pfDB or not pfDB["quests"] or not pfDB["quests"]["enUS"] then
+        return
+    end
+    for questId, localizedData in pairs(pfDB["quests"]["enUS"]) do
+        local t = localizedData["T"]
+        if t then
+            local list = titleIndex[t]
+            if not list then
+                list = {}
+                titleIndex[t] = list
+            end
+            table.insert(list, questId)
+        end
+    end
+end
+
 local function RebuildQuestMappings()
     if debugMode then
         print("|cff33ffccpfQuest-epoch:|r REBUILD - Checking pfDB...")
@@ -99,10 +119,14 @@ local function RebuildQuestMappings()
         return
     end
 
-    for questId, localizedData in pairs(pfDB["quests"]["enUS"]) do
-        local questTitle = localizedData["T"]
+    if not titleIndex then
+        BuildTitleIndex()
+    end
 
-        if questTitle and activeQuests[questTitle] then
+    for questTitle, _ in pairs(activeQuests) do
+        local matchingIds = titleIndex[questTitle]
+        if matchingIds then
+          for _, questId in ipairs(matchingIds) do
             if debugMode then
                 print("|cff33ffccpfQuest-epoch:|r REBUILD - Matching quest: " .. questTitle .. " (ID: " .. questId .. ")")
             end
@@ -349,6 +373,7 @@ local function RebuildQuestMappings()
                     end
                 end
             end
+          end
         end
     end
 
@@ -454,29 +479,34 @@ local function ShareQuestData(forceFullSync)
         end
     end
 
+    local questLogData = {}
+    for qid = 1, GetNumQuestLogEntries() do
+        local questTitle = pfQuestCompat.GetQuestLogTitle(qid)
+        if questTitle then
+            local objMap = {}
+            local numObjectives = GetNumQuestLeaderBoards(qid)
+            for i = 1, numObjectives do
+                local text = GetQuestLogLeaderBoard(i, qid)
+                if text then
+                    local objName, current, total = string.match(text, "(.*):%s*(%d+)%s*/%s*(%d+)")
+                    if objName then
+                        objName = string.gsub(objName, "^%s*(.-)%s*$", "%1")
+                        objMap[objName] = { current = tonumber(current), total = tonumber(total) }
+                    end
+                end
+            end
+            questLogData[questTitle] = objMap
+        end
+    end
+
     for targetKey, quests in pairs(myQuestMappings) do
         for _, questData in ipairs(quests) do
-            for qid = 1, GetNumQuestLogEntries() do
-                local questTitle, _, _, _, _, _, complete = pfQuestCompat.GetQuestLogTitle(qid)
-
-                if questTitle == questData.quest then
-                    local numObjectives = GetNumQuestLeaderBoards(qid)
-
-                    for i = 1, numObjectives do
-                        local text, objType, finished = GetQuestLogLeaderBoard(i, qid)
-
-                        if text then
-                            local objName, current, total = string.match(text, "(.*):%s*(%d+)%s*/%s*(%d+)")
-                            if objName then
-                                objName = string.gsub(objName, "^%s*(.-)%s*$", "%1")
-
-                                if objName == questData.objective then
-                                    questData.current = tonumber(current)
-                                    questData.total = tonumber(total)
-                                end
-                            end
-                        end
-                    end
+            local objMap = questLogData[questData.quest]
+            if objMap then
+                local progress = objMap[questData.objective]
+                if progress then
+                    questData.current = progress.current
+                    questData.total = progress.total
                 end
             end
         end
@@ -1247,6 +1277,35 @@ local function HookPfQuestTooltip()
     return true
 end
 
+local SHARE_THROTTLE = 1.0
+local lastShareTime = 0
+local pendingShare = false
+local shareFrame = CreateFrame("Frame")
+
+shareFrame:SetScript("OnUpdate", function()
+    if not pendingShare then return end
+    if GetTime() - lastShareTime < SHARE_THROTTLE then return end
+    pendingShare = false
+    lastShareTime = GetTime()
+    if GetNumPartyMembers() > 0 then
+        RebuildQuestMappings()
+        ShareQuestData()
+    end
+end)
+
+local function RequestShareUpdate()
+    if GetNumPartyMembers() == 0 then return end
+    local now = GetTime()
+    if now - lastShareTime >= SHARE_THROTTLE then
+        lastShareTime = now
+        pendingShare = false
+        RebuildQuestMappings()
+        ShareQuestData()
+    else
+        pendingShare = true
+    end
+end
+
 local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("CHAT_MSG_ADDON")
 eventFrame:RegisterEvent("PARTY_MEMBERS_CHANGED")
@@ -1264,6 +1323,7 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
                 end
                 RebuildQuestMappings()
                 ShareQuestData(true)
+                lastShareTime = GetTime()
             end
         end
     elseif event == "PARTY_MEMBERS_CHANGED" then
@@ -1272,12 +1332,10 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
             RebuildQuestMappings()
             SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", "PARTY")
             ShareQuestData(true)
+            lastShareTime = GetTime()
         end
     elseif event == "QUEST_LOG_UPDATE" then
-        if GetNumPartyMembers() > 0 then
-            RebuildQuestMappings()
-            ShareQuestData()
-        end
+        RequestShareUpdate()
     end
 end)
 
@@ -1424,32 +1482,34 @@ configExtenderFrame:SetScript("OnEvent", function(self, event, addonName)
             ShareQuestData(true)
         end
 
-        local timer = 0
+        local elapsed = 0
+        local ticks = 0
         local rebuildRetries = 0
         self:SetScript("OnUpdate", function()
-            timer = timer + 1
+            elapsed = elapsed + arg1
+            if elapsed < 0.1 then return end
+            elapsed = 0
+            ticks = ticks + 1
 
             if rebuildRetries < 50 and (not pfDB or not pfDB["quests"] or not pfDB["quests"]["data"]) then
-                if timer % 5 == 0 then
-                    rebuildRetries = rebuildRetries + 1
-                    if pfDB and pfDB["quests"] and pfDB["quests"]["data"] then
-                        if debugMode then
-                            print("|cff33ffccpfQuest-epoch:|r pfDB now available, rebuilding quest mappings")
-                        end
-                        RebuildQuestMappings()
-                        if GetNumPartyMembers() > 0 then
-                            SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", "PARTY")
-                            ShareQuestData(true)
-                        end
+                rebuildRetries = rebuildRetries + 1
+                if pfDB and pfDB["quests"] and pfDB["quests"]["data"] then
+                    if debugMode then
+                        print("|cff33ffccpfQuest-epoch:|r pfDB now available, rebuilding quest mappings")
+                    end
+                    RebuildQuestMappings()
+                    if GetNumPartyMembers() > 0 then
+                        SendAddonMessage("PFQUEST_SYNC_REQUEST", "1", "PARTY")
+                        ShareQuestData(true)
                     end
                 end
             end
 
-            if timer > 10 then
+            if ticks > 2 then
                 if ExtendPfQuestConfig() and HookPfQuestTooltip() then
                     self:SetScript("OnUpdate", nil)
                     self:UnregisterAllEvents()
-                elseif timer > 300 then
+                elseif ticks > 60 then
                     self:SetScript("OnUpdate", nil)
                     self:UnregisterAllEvents()
                 end
