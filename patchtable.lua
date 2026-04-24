@@ -2,6 +2,10 @@ local loc = GetLocale()
 local dbs = { "items", "quests", "quests-itemreq", "objects", "units", "zones", "professions", "areatrigger", "refloot" }
 local noloc = { "items", "quests", "objects", "units" }
 
+local function modulo(val, by)
+  return val - floor(val / by) * by
+end
+
 -- Patch databases to merge ProjectEpoch data
 local function patchtable(base, diff)
   for k, v in pairs(diff) do

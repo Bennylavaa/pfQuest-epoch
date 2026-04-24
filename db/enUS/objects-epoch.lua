@@ -782,4 +782,5 @@ pfDB["objects"]["enUS-epoch"] = {
   [5000076] = "Skull of the Blue Dragon",
   [500077] = "Storage Crate",
   [500078] = "Blighted Ground",
+  [500079] = "Leyline Crystal",
 }

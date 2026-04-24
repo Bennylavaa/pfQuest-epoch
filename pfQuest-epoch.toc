@@ -3,7 +3,7 @@
 ## Author: Bennylavaa (retired), Cuddlehorn (inactive)
 ## Contributors: Exuria, Shagu, snifflewow, skmd0, trav346, emailnumero123-art, Defcons
 ## Notes: A Project Epoch DB extension for pfQuest
-## Version: 3.1.7
+## Version: 3.1.8
 ## Dependencies: pfQuest-wotlk
 ## SavedVariables: pfQuest_epochcount, pfQuest_CompletedQuestData
 
