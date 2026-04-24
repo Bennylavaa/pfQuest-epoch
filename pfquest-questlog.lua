@@ -120,15 +120,14 @@ questLogFrame:SetScript("OnEvent", function(self, event, ...)
     end
 
     if event == "GOSSIP_SHOW" then
+        local skipCommission = pfQuest_config["epochSkipCommissionQuests"] == "1"
+
         local numAvailable = GetNumGossipAvailableQuests()
         for i = 1, numAvailable do
             local title = GetGossipAvailableQuests(i)
-            if string.find(title, "Commission") then
-                if pfQuest_config["epochSkipCommissionQuests"] == "0" then
-                    SelectGossipAvailableQuest(i)
-                end
-            else          
-                SelectGossipAvailableQuest(1)
+            
+            if not (skipCommission and title and string.find(title, "Commission")) then
+                SelectGossipAvailableQuest(i)
             end
         end
 
