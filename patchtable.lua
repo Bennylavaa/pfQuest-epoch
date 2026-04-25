@@ -67,24 +67,55 @@ pfDatabase:Reload()
 local updatecheck = CreateFrame("Frame")
 updatecheck:RegisterEvent("PLAYER_ENTERING_WORLD")
 updatecheck:SetScript("OnEvent", function()
-  if pfDB["quests"]["data-epoch"] then
-    -- count all known epoch quests
-    local count = 0
-    for k, v in pairs(pfDB["quests"]["data-epoch"]) do
-      count = count + 1
+  if event == "PLAYER_ENTERING_WORLD" then
+    if pfDB["quests"]["data-epoch"] then
+      local count = 0
+      for k, v in pairs(pfDB["quests"]["data-epoch"]) do
+        count = count + 1
+      end
+
+      pfQuest:Debug("Project Epoch loaded with |cff33ffcc" .. count .. "|r quests.")
+
+      if not pfQuest_epochcount or pfQuest_epochcount ~= count then
+        pfQuest:Debug("New quests found. Reloading |cff33ffccCache|r")
+        pfQuest_questcache = {}
+      end
+
+      pfQuest_epochcount = count
     end
 
-    pfQuest:Debug("Project Epoch loaded with |cff33ffcc" .. count .. "|r quests.")
-
-    -- check if the last count differs to the current amount of quests
-    if not pfQuest_epochcount or pfQuest_epochcount ~= count then
-      -- remove quest cache to force reinitialisation of all quests.
-      pfQuest:Debug("New quests found. Reloading |cff33ffccCache|r")
-      pfQuest_questcache = {}
+    if QueryQuestsCompleted and not updatecheck.synced then
+      updatecheck.synced = true
+      QueryQuestsCompleted()
+      updatecheck:RegisterEvent("QUEST_QUERY_COMPLETE")
     end
 
-    -- write current count to the saved variable
-    pfQuest_epochcount = count
+  elseif event == "QUEST_QUERY_COMPLETE" then
+    updatecheck:UnregisterEvent("QUEST_QUERY_COMPLETE")
+    local completedQuests = GetQuestsCompleted()
+    if type(completedQuests) == "table" then
+      local newCount = 0
+      for questID, _ in pairs(completedQuests) do
+        if not pfQuest_history[questID] then
+          pfQuest_history[questID] = { time(), UnitLevel("player") }
+          newCount = newCount + 1
+        end
+      end
+      if newCount > 0 then
+        for questID, _ in pairs(pfQuest_history) do
+          local questData = pfDB["quests"]["data"][questID]
+          if questData and questData["close"] then
+            for _, closedID in pairs(questData["close"]) do
+              if not pfQuest_history[closedID] then
+                pfQuest_history[closedID] = { time(), UnitLevel("player") }
+              end
+            end
+          end
+        end
+        pfQuest:ResetAll()
+        DEFAULT_CHAT_FRAME:AddMessage("|cff33ffccpf|cffffffffQuest |cffcccccc[Epoch DB]|r: Synced " .. newCount .. " completed " .. (newCount == 1 and "quest" or "quests") .. " from server history.")
+      end
+    end
   end
 end)
 
