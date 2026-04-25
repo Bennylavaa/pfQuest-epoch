@@ -4,13 +4,13 @@
 
 **NOTE: I do not give permission for this addon to be hosted in any servers launchers of any kind unless directly pulled from my repo and you must contact me before doing so.**
 
-An extension for [pfQuest-wotlk](https://github.com/shagu/pfQuest) which adds support for [Project Epoch](https://www.project-epoch.net/).
-The latest version of [pfQuest-wotlk](https://github.com/shagu/pfQuest) is required and only enUS-Gameclients are supported at the time.
+An extension for [pfQuest-wotlk](https://github.com/Bennylavaa/pfQuest-wotlk) which adds support for [Project Epoch](https://www.project-epoch.net/).
+The latest version of [pfQuest-wotlk](https://github.com/Bennylavaa/pfQuest-wotlk) is required and only enUS-Gameclients are supported at the time.
 
 ## Installation
 pfQuest-epoch is dependant on pfQuest to work.
 
-1. Download the latest release **[pfQuest-wotlk](https://github.com/shagu/pfQuest/releases/latest/download/pfQuest-full-wotlk.zip)**
+1. Download the latest release **[pfQuest-wotlk](https://github.com/Bennylavaa/pfQuest-wotlk/releases/latest/download/pfQuest-wotlk.zip)**
 2. Unzip it and place the "pfQuest-wotlk" folder into Wow-Directory\Interface\AddOns
 3. Download the latest release **[pfQuest-epoch](https://github.com/Bennylavaa/pfQuest-epoch/releases/latest/download/pfQuest-epoch.zip)**
 4. Unzip it and place the "pfQuest-epoch" folder into Wow-Directory\Interface\AddOns
