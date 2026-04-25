@@ -265,17 +265,20 @@ local function NodeAnimate(self, max)
     return
 end
 
-local inverseMapScale = 1.0
+-- Continent pins follow the same scaling rules as zone pins, sharing the
+-- global `mainmap_inversescale` maintained by pfQuest core's map.lua. The
+-- core hook recomputes it on every WorldMapDetailFrame/WorldMapButton scale
+-- change; we piggyback on its ResizeNodes call below to resize ours too.
 local function ResizeContinentNode(frame)
     if not frame.icon then
         -- Use config value for regular nodes, fallback to 12 if not set
         frame.defsize = tonumber(pfQuest_config["continentNodeSize"]) or 12
-        frame.defsize = frame.defsize * inverseMapScale
+        frame.defsize = frame.defsize * mainmap_inversescale
     else
         -- Use config value for utility NPCs, fallback to 14 if not set
         frame.defsize = tonumber(pfQuest_config["continentUtilityNodeSize"]) or 14
         -- Compensate for icon's 1 pixel padding so it doesn't shrink down to nothing
-        frame.defsize = (frame.defsize - 2) * inverseMapScale + 2
+        frame.defsize = (frame.defsize - 2) * mainmap_inversescale + 2
     end
     frame:SetWidth(frame.defsize)
     frame:SetHeight(frame.defsize)
@@ -293,32 +296,12 @@ local function ResizeContinentNodes()
     end
 end
 
--- Resize icons on map zoom change
-local function OnMapScaleChanged(frame, scale, originalfunction)
-    originalfunction(frame, scale)
-
-    local newInverseScale = 1.0 / WorldMapButton:GetEffectiveScale()
-    if (inverseMapScale ~= newInverseScale) then
-        inverseMapScale = newInverseScale
-        mainmap_inversescale = newInverseScale
-        ResizeContinentNodes()
-        pfMap:ResizeNodes()
-    end
-end
--- Listen for WorldMapFrame scale changes
-local originalWorldMapFrame_SetScale = WorldMapFrame.SetScale
-WorldMapFrame.SetScale = function(frame, scale)
-    OnMapScaleChanged(frame, scale, originalWorldMapFrame_SetScale)
-end
--- Listen for WorldMapDetailFrame scale changes
-local originalWorldMapDetailFrame_SetScale = WorldMapDetailFrame.SetScale
-WorldMapDetailFrame.SetScale = function(frame, scale)
-    OnMapScaleChanged(frame, scale, originalWorldMapDetailFrame_SetScale)
-end
--- Listen for WorldMapButton scale changes
-local originalWorldMapButton_SetScale = WorldMapButton.SetScale
-WorldMapButton.SetScale = function(frame, scale)
-    OnMapScaleChanged(frame, scale, originalWorldMapButton_SetScale)
+-- Hook pfQuest core's ResizeNodes so continent pins resize alongside zone
+-- pins whenever the map mode or Magnify zoom changes.
+local pfHook_ResizeNodes = pfMap.ResizeNodes
+function pfMap:ResizeNodes()
+    pfHook_ResizeNodes(self)
+    ResizeContinentNodes()
 end
 
 local function CreateContinentPin(index)
@@ -1049,24 +1032,6 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
-            text = "Continent Node Size",
-            default = "12",
-            type = "text",
-            config = "continentNodeSize"
-        }
-    )
-    table.insert(
-        pfQuest_defconfig,
-        {
-            text = "Continent Utility Node Size",
-            default = "14",
-            type = "text",
-            config = "continentUtilityNodeSize"
-        }
-    )
-    table.insert(
-        pfQuest_defconfig,
-        {
             text = "Hide Chicken Quests (CLUCK!)",
             default = "1",
             type = "checkbox",
@@ -1156,8 +1121,6 @@ local function ExtendPfQuestConfig()
     -- Initialize the config values with defaults
     pfQuest_config["epochContinentPins"] = pfQuest_config["epochContinentPins"] or "1"
     pfQuest_config["continentClickThrough"] = pfQuest_config["continentClickThrough"] or "0"
-    pfQuest_config["continentNodeSize"] = pfQuest_config["continentNodeSize"] or "12"
-    pfQuest_config["continentUtilityNodeSize"] = pfQuest_config["continentUtilityNodeSize"] or "14"
     pfQuest_config["epochHideChickenQuests"] = pfQuest_config["epochHideChickenQuests"] or "1"
     pfQuest_config["epochHideFelwoodFlowers"] = pfQuest_config["epochHideFelwoodFlowers"] or "1"
     pfQuest_config["epochHidePvPQuests"] = pfQuest_config["epochHidePvPQuests"] or "1"
@@ -1177,11 +1140,68 @@ f:SetScript(
     end
 )
 
+-- Icon Sizes section. Registered separately so it appends AFTER the Announce
+-- header that pfQuest-announce.lua adds via its own ADDON_LOADED handler.
+-- We poll for that header so panel order is "Continent Map -> Map Toggle
+-- Buttons -> Announce -> Icon Sizes" regardless of framerate.
+local function ExtendPfQuestConfigIconSizes(requireAnnounce)
+    if not pfQuest_defconfig or not pfQuest_config then return false end
+
+    local announceFound, alreadyAdded = false, false
+    for _, entry in pairs(pfQuest_defconfig) do
+        if entry.text == "Announce" and entry.type == "header" then
+            announceFound = true
+        elseif entry.text == "|cff33ffccIcon Sizes|r" and entry.type == "header" then
+            alreadyAdded = true
+        end
+    end
+
+    if alreadyAdded then return true end
+    if requireAnnounce and not announceFound then return false end
+
+    table.insert(pfQuest_defconfig, { text = "|cff33ffccIcon Sizes|r", type = "header" })
+    table.insert(pfQuest_defconfig, { text = "Continent Node Size",         default = "12", type = "text", config = "continentNodeSize"        })
+    table.insert(pfQuest_defconfig, { text = "Continent Utility Node Size", default = "14", type = "text", config = "continentUtilityNodeSize" })
+    table.insert(pfQuest_defconfig, { text = "World Map Node Size",         default = "14", type = "text", config = "worldmapNodeSize"         })
+    table.insert(pfQuest_defconfig, { text = "World Map Utility Node Size", default = "14", type = "text", config = "worldmapUtilityNodeSize"  })
+
+    pfQuest_config["continentNodeSize"]        = pfQuest_config["continentNodeSize"]        or "12"
+    pfQuest_config["continentUtilityNodeSize"] = pfQuest_config["continentUtilityNodeSize"] or "14"
+    pfQuest_config["worldmapNodeSize"]         = pfQuest_config["worldmapNodeSize"]         or "14"
+    pfQuest_config["worldmapUtilityNodeSize"]  = pfQuest_config["worldmapUtilityNodeSize"]  or "14"
+
+    return true
+end
+
+local iconSizesLoader = CreateFrame("Frame")
+iconSizesLoader:RegisterEvent("ADDON_LOADED")
+iconSizesLoader:SetScript("OnEvent", function(self, event, addonName)
+    if event == "ADDON_LOADED" and addonName == "pfQuest-epoch" then
+        self:UnregisterEvent("ADDON_LOADED")
+        local timer = 0
+        self:SetScript("OnUpdate", function()
+            timer = timer + 1
+            if ExtendPfQuestConfigIconSizes(true) then
+                self:SetScript("OnUpdate", nil)
+            elseif timer > 600 then
+                -- Announce header never appeared (announce module disabled);
+                -- append Icon Sizes anyway after ~10s so the options exist.
+                ExtendPfQuestConfigIconSizes(false)
+                self:SetScript("OnUpdate", nil)
+            end
+        end)
+    end
+end)
+
 
 local function CreateTrackingToggleButtons()
     local BTN_W, BTN_H = 56, 10
     local FONT_SIZE = 7
-    local guide = WorldMapPositioningGuide
+    -- Anchor + parent to the visible map viewport so the buttons stay pinned
+    -- to its top-right and scale with the map mode. WorldMapScrollFrame is
+    -- created by Magnify (clipped, mode-scaled, doesn't pan/zoom); in default
+    -- 3.3.5 we fall back to WorldMapDetailFrame which scales with the mode.
+    local guide = WorldMapScrollFrame or WorldMapDetailFrame
 
     local function GetX() return tonumber(pfQuest_config["toggleBtnX"]) or -68 end
     local function GetY() return tonumber(pfQuest_config["toggleBtnY"]) or -56 end
