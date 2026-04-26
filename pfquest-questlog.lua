@@ -25,6 +25,14 @@ local function ExtendPfQuestConfig()
 
     table.insert(pfQuest_defconfig,
     {
+        text = "Skip accepting low level quests",
+        default = "0",
+        type = "checkbox",
+        config = "epochAutoQuestsSkipLowLevel"
+    })
+
+    table.insert(pfQuest_defconfig,
+    {
         text = "Automate runecloth donations",
         default = "0",
         type = "checkbox",
@@ -42,6 +50,10 @@ local function ExtendPfQuestConfig()
 
     if not pfQuest_config["epochAutoQuests"] then
         pfQuest_config["epochAutoQuests"] = "0"
+    end
+    
+    if not pfQuest_config["epochAutoQuestsSkipLowLevel"] then
+        pfQuest_config["epochAutoQuestsSkipLowLevel"] = "1"
     end
 
     if not pfQuest_config["epochSkipCommissionQuests"] then
@@ -74,12 +86,17 @@ local function CompleteQuestWithRewards()
     end
 end
 
-questLogFrame:SetScript("OnEvent", function(self, event, ...)
-    if pfQuest_config["epochAutoQuests"] == "0" then
-        return
-    end
+local function SkipLowLevelQuest(isLowLevel)
+    return pfQuest_config["epochAutoQuestsSkipLowLevel"] == "1" and isLowLevel
+end
 
-    if IsShiftKeyDown() then
+local function IsTrivialQuest()
+    local title = GetTitleText()
+    return string.find(string.lower(title), "low level") ~= nil
+end
+
+questLogFrame:SetScript("OnEvent", function(self, event, ...)
+    if pfQuest_config["epochAutoQuests"] == "0" or IsShiftKeyDown() then
         return
     end
 
@@ -94,8 +111,6 @@ questLogFrame:SetScript("OnEvent", function(self, event, ...)
             GetQuestReward()
         elseif QuestFrameRewardPanel.itemChoice and QuestFrameRewardPanel.itemChoice > 0 then
             GetQuestReward(QuestFrameRewardPanel.itemChoice)
-        else
-            GetQuestReward()
         end
     end
     
@@ -110,23 +125,22 @@ questLogFrame:SetScript("OnEvent", function(self, event, ...)
         end
 
         -- The quest dialog closes when the quest gets accepted so no need to do this in a loop
-        if GetNumAvailableQuests() >= 1 then
+        if GetNumAvailableQuests() >= 1 and not GetAvailableQuestInfo(1) then
             SelectAvailableQuest(1)
         end
     end
 
-    if event == "QUEST_DETAIL" then
+    if event == "QUEST_DETAIL" and not IsTrivialQuest() then
         AcceptQuest()
     end
 
     if event == "GOSSIP_SHOW" then
         local skipCommission = pfQuest_config["epochSkipCommissionQuests"] == "1"
-
         local numAvailable = GetNumGossipAvailableQuests()
         for i = 1, numAvailable do
-            local title = GetGossipAvailableQuests(i)
-            
-            if not (skipCommission and title and string.find(title, "Commission")) then
+            local title,_,isLowLevel = GetGossipAvailableQuests(i)
+
+            if not (SkipLowLevelQuest(isLowLevel) or (skipCommission and title and string.find(title, "Commission"))) then
                 SelectGossipAvailableQuest(i)
             end
         end
