@@ -111,8 +111,6 @@ questLogFrame:SetScript("OnEvent", function(self, event, ...)
             GetQuestReward()
         elseif QuestFrameRewardPanel.itemChoice and QuestFrameRewardPanel.itemChoice > 0 then
             GetQuestReward(QuestFrameRewardPanel.itemChoice)
-        else
-            GetQuestReward()
         end
     end
     
