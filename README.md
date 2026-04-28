@@ -34,5 +34,5 @@ This project is licensed under a custom license that allows personal use and Git
 - Exuria: for their countless hours spent contrubuting. 
 - trav346: for the foundation of the overworld map markers.
 
-Disclaimer
+## Disclaimer
 Fan-made, non-commercial project. Not affiliated with Blizzard Entertainment or with the Project Epoch server or its staff. World of Warcraft and all related trademarks are property of Blizzard Entertainment. All game data shipped with this addon comes from hand gathered community data.
