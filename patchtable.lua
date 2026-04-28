@@ -1110,3 +1110,58 @@ function pfDatabase:BuildQuestDescription(meta)
     return string.format(pfQuest_Loc["Use Quest Item at |cff33ffcc%s|r"], (meta.spawn or UNKNOWN))
   end
 end
+
+-- Handles opening item and quest links in the database interface
+-- SHIFT + CTRL + Click on an item/quest
+local chatLinkBrowser = CreateFrame("Frame")
+chatLinkBrowser:Hide()
+chatLinkBrowser.elapsed = 0
+
+local pendingTab, pendingName
+
+chatLinkBrowser:SetScript("OnUpdate", function(self, elapsed)
+    self.elapsed = self.elapsed + elapsed
+
+    if self.elapsed > 1.5 then
+        self:Hide()
+        self.elapsed = 0
+        return
+    end
+
+    if not (pfBrowser and pfBrowser:IsVisible() and pfBrowser.input) then return end
+
+    if pendingTab and pfBrowser.tabs and pfBrowser.tabs[pendingTab] then
+        pfBrowser.tabs[pendingTab].button:Click()
+    end
+
+    pfBrowser.input:SetText(pendingName)
+    pfBrowser.input:ClearFocus()
+
+    self:Hide()
+    self.elapsed = 0
+end)
+
+local function OnChatHyperlinkClick(_, link, text)
+    if not (IsControlKeyDown() and IsShiftKeyDown()) then return end
+
+    local linkType = strsplit(":", link)
+    if linkType ~= "item" and linkType ~= "quest" then return end
+
+    local name = string.match(text, "%[(.-)%]")
+    if not name then return end
+
+    pendingTab = linkType == "item" and "items" or "quests"
+    pendingName = name
+
+    SlashCmdList["PFDB"]("show")
+
+    chatLinkBrowser.elapsed = 0
+    chatLinkBrowser:Show()
+end
+
+for i = 1, NUM_CHAT_WINDOWS do
+    local frame = _G["ChatFrame"..i]
+    if frame then
+        frame:HookScript("OnHyperlinkClick", OnChatHyperlinkClick)
+    end
+end
