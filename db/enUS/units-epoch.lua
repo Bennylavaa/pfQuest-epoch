@@ -2220,6 +2220,7 @@ pfDB["units"]["enUS-epoch"] = {
   [300069] = "Captain Grumbscrew",
   [300070] = "Anwell Wrenchgiver",
   [300071] = "Hinkley Cogturner",
+  [300072] = "Maxwell Zaplisten",
   [300073] = "Elite Harbor Guard",
   [300074] = "Refa\'well",
   [300075] = "Tre\'jim",
