@@ -31313,7 +31313,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 3818 },
     },
-	["race"] = 77,
+    ["race"] = 77,
     ["skill"] = 182,
     ["skillmin"] = 200,
     ["lvl"] = 40,
@@ -31691,7 +31691,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 3818 },
     },
-	["race"] = 178,
+    ["race"] = 178,
     ["skill"] = 182,
     ["skillmin"] = 200,
     ["lvl"] = 40,
