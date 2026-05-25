@@ -1,4 +1,8 @@
 pfDB["quests"]["data-epoch"] = {
+  -- race flags according to: https://github.com/shagu/pfQuest/blob/104f35678ca39ab1fb78b655f815cc7016f5e0c8/database.lua#L331
+  -- ["race"] = 77,  -- <- available to Alliance: Human, Dwarf, NightElf, Gnome -> 1 + 4 + 8 + 64 = 77   177
+  -- ["race"] = 178, -- <- available to Horde: Orc, Scourge/Undead, Tauren, Troll -> 2 + 16 + 32 + 128 = 178  131
+  -- ["race"] = 255, -- <- available for all races:  Human, Dwarf, NightElf, Gnome, Orc, Scourge/Undead, Tauren, Troll
   [5] = {
     ["start"] = {
       ["U"] = { 288 },
@@ -31309,6 +31313,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 3818 },
     },
+	["race"] = 77,
     ["skill"] = 182,
     ["skillmin"] = 200,
     ["lvl"] = 40,
@@ -31686,6 +31691,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 3818 },
     },
+	["race"] = 178,
     ["skill"] = 182,
     ["skillmin"] = 200,
     ["lvl"] = 40,
