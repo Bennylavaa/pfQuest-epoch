@@ -11597,8 +11597,8 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [31001] = {
     ["T"] = "Respects For The Fallen",
-    ["O"] = "Warlord Runthak in Orgrimmar wants you to pay respects to a Horde veteran warrior lost in Eastern Winterspring.",
-    ["D"] = "",
+    ["O"] = "Warlord Runthak in Orgrimmar wants you to pay respects to a Horde veteran warrior lost in Eastern Winterspring.\n\nThe location and the true story are a mystery, try to look for any clues - a camp he might have set, a shelter protected from the elements he might have rested in or a sight of a fierce battle.",
+    ["D"] = "Hail, Warlock!\n\nHave you ever trekked out into the frozen lands of Winterspring? My duty keeps me here in our mighty city of Orgrimmar… but for years I longed to venture there. Every Horde grunt is familiar with the stories that land holds, in particular the heroics of the fallen Kor\'kron legend. What? You've never heard it? Sit, Undead, and listen well.\n\n<Runthak tells you a tale of an elite warrior of the Horde, the absolute peak of Kor\'kron guard who was tasked with retrieving vital information about the Alliance armies. The reports were scarce, but it is believed that he was traveling covertly when the Alliance cowards ambushed him with superior numbers. He undoubtedly fought for hours or even days, losing his ambushers briefly and stashing the crucial intel in a drop that our scouts then recovered. The warrior was never seen again, but he must have died in the most legendary of battles. For the Horde!>\n\nA gripping saga indeed - ambushed, outnumbered, fiercely fighting to the very end. A true warrior, you should aspire to be like him one day. Some day I will travel there and pay my respects to the legend. What about you, Kindrak?",
   },
   [31002] = {
     ["T"] = "Respects For The Fallen",
