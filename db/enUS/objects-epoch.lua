@@ -715,6 +715,7 @@ pfDB["objects"]["enUS-epoch"] = {
   [250687] = "Golakka Hot Springs Area of Interest",
   [250688] = "Ironstone Plateau Area of Interest",
   [250689] = "Crystal Cave Area of Interest",
+  [250690] = "Mailbox",
   -- Placeholder IDs
   [4000077] = "Memento of Archimonde",
   [5000001] = "Mana Berry Bush",
