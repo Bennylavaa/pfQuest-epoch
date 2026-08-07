@@ -1,4 +1,6 @@
 pfDB["quests"]["enUS-epoch"] = {
+  -- |cFFFF0000TEXTHERE|r\n -- RED  -> warning of disabled or broken quests
+  -- |cFF42E8F3TEXTHERE|r\n -- CYAN -> hints or hidden requirements
   [11] = {
     ["T"] = "Riverpaw Gnoll Bounty",
     ["O"] = "Bring 8 Painted Gnoll Armbands to Deputy Rainer at the Barracks.",
@@ -40,6 +42,11 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Find Teronis in Ashenvale.",
     ["D"] = "$N, a longtime friend of mine is also aiding the Sentinels here in Ashenvale, but he has yet to return.\nHe had leads on finding an item that he thought could slow the furbolg attacks on our people--a rod created by a now-dead, evil wizard.\nBefore he left here, he mentioned seeking out a gem for the rod.\nHe mentioned the gem possibly being hidden at the shrine in Lake Falathim at the base of the mountain to the west. The gem was being held there before it was overrun.\nFind my friend, $N, please.",
   },
+  [1036] = {
+    ["T"] = "Avast Ye, Scallywag",
+    ["O"] = "Speak with Fleet Master Firallon aboard the Crimson Vale off the coast of Stranglethorn Vale.|cFF42E8F3\nRequires Hated reputation with Booty Bay!|r",
+    ["D"] = "$N... yeah, I\'ve heard of you.I\'ve heard that you\'re no friend of Booty Bay - just like us Bloodsail Buccaneers.Fleet Master Firallon is looking for hale and hearty $g men : women; just like you for a special mission.$B$BIf you\'re interested, head on out to the Crimson Veil and speak with him below decks.She\'s anchored off the Wild Coast east of here, next to the Riptide and the Damsel\'s Luck.",
+  },
   [1132] = {
     ["T"] = "Fiora Longears",
     ["O"] = "Speak with Fiora Longears in Theramore.",
@@ -64,6 +71,96 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "A Crew Under Fire",
     ["O"] = "Defend Captain Vanessa Beltis, her crew and the Horizon Scout\'s passengers against the naga attack. Captain Vanessa Beltis must survive.",
     ["D"] = "We were just off the coast looking for a safe haven to make anchor. The sun hadn\'t been down for more than an hour when they attacked... those damned naga!\nI\'m not sure what they were looking for, but it\'s clear they didn\'t find it--they\'ve already come back once. A couple of my scouts are on watch at the entrance of the valley to give us fair warning when the next attack comes.\nI\'m sorry you\'ve come along now, $N, but it\'s out of my hands.\nAre you ready for the fight of your life?",
+  },
+  [3801] = {
+    ["T"] = "Dark Iron Legacy",
+    ["O"] = "Speak with Franclorn Forgewright if you are interested in obtaining a key to the city major.|cFF42E8F3\nYou have to be in ghost form (dead) to see this NPC!|r",
+    ["D"] = "Greetings, $N. I am Franclorn Forgewright. Yes, the Franclorn Forgewright responsible for the stonewrought method of architecture. You have undoubtedly passed through or stood upon one of my creations in your adventures across our war torn world.\n\nYou are probably wondering why I am here and what it is that I want from you - both valid questions.\n\nI need your assistance, of course. In exchange for your assistance, I shall grant you the key to the depths of my accursed city.",
+  },
+  [5504] = {
+    ["T"] = "Mantles of the Dawn",
+    ["O"] = "|cFF42E8F3Requires Revered Reputation!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark, Western Plaguelands.",
+    ["D"] = "Your service to the Argent Dawn is to be commended, $N.You are truly revered amongst us.I have been authorized to make available for you to purchase one of the Dawn\'s most valued items - our magic resistance mantles.\n\nApplication of a mantle to your existing shoulder piece will enhance your resistance to the powers of magic in one of five potential ways.As a sign of continued dedication to our cause, I ask for no less than ten of our valor tokens in exchange for access to these mantles.",
+  },
+  [5507] = {
+    ["T"] = "Mantles of the Dawn",
+    ["O"] = "|cFF42E8F3Requires Revered Reputation!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp, Western Plaguelands.",
+    ["D"] = "Your service to the Argent Dawn is to be commended, $N.You are truly revered amongst us.I have been authorized to make available for you to purchase one of the Dawn\'s most valued items - our magic resistance mantles.\n\nApplication of a mantle to your existing shoulder piece will enhance your resistance to the powers of magic in one of five potential ways.As a sign of continued dedication to our cause, I ask for no less than ten of our valor tokens in exchange for access to these mantles.",
+  },
+  [5513] = {
+    ["T"] = "Mantles of the Dawn",
+    ["O"] = "|cFF42E8F3Requires Revered Reputation!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Breechlock at Light\'s Hope Chapel, Eastern Plaguelands.",
+    ["D"] = "Your service to the Argent Dawn is to be commended, $N.You are truly revered amongst us.I have been authorized to make available for you to purchase one of the Dawn\'s most valued items - our magic resistance mantles.\n\nApplication of a mantle to your existing shoulder piece will enhance your resistance to the powers of magic in one of five potential ways.As a sign of continued dedication to our cause, I ask for no less than ten of our valor tokens in exchange for access to these mantles.",
+  },
+  [5517] = {
+    ["T"] = "Chromatic Mantle of the Dawn",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Breechlock at Light\'s Hope Chapel, Eastern Plaguelands.",
+    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!$B$BBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
+   },
+  [5521] = {
+    ["T"] = "Chromatic Mantle of the Dawn",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp, Western Plaguelands.",
+    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!$B$BBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
+   },
+  [5524] = {
+    ["T"] = "Chromatic Mantle of the Dawn",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark, Western Plaguelands.",
+    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!$B$BBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
+   },
+  [6031] = {
+    ["T"] = "Runecloth",
+    ["O"] = "|cFF42E8F3Requires Friendly Reputation!|r\nBring 30 Runecloth to Meilosh in Timbermaw Hold.",
+    ["D"] = "In Timbermaw, we are content. We do not like strangers. This is good for us, but it is bad for trade.\n\nNot long ago, a rare night elf friend came to Timbermaw and she wore a runecloth cloak. Runecloth is rare among us, but the cloak was so fine my people want me to make more runecloth clothing.\n\nWill you bring me runecloth? If you bring me enough, then I will give you something in trade.",
+  },
+  [6032] = {
+    ["T"] = "Sacred Cloth",
+    ["O"] = "|cFF42E8F3Requires Friendly Reputation!|r\nBring 2 Mooncloth to Meilosh in Timbermaw Hold.",
+    ["D"] = "Although the people of Timbermaw delight in the feel of runecloth, it is not sacred to us. But mooncloth is sacred.\n\nBring me a small supply of this holy cloth, and I will teach you a secret fashioning technique.",
+  },
+  [6131] = {
+    ["T"] = "Timbermaw Ally",
+    ["O"] = "|cFF42E8F3[Repeatable]|r\nGrazle wants you to prove yourself by killing 5 Deadwood Warriors, 5 Deadwood Pathfinders, and 5 Deadwood Gardeners.",
+    ["D"] = "The Timbermaw are the only furbolg tribe to escape the corruption. However, many other races kill furbolg blindly now, without bothering to see if they are friend or foe. For this reason, the Timbermaw furbolg trust very few.\n\nAre you interested in proving yourself? Drive back the corrupted Deadwood tribe of Felwood and we may one day consider you an ally. You\'ll find the first Deadwood tribe - warriors, pathfinders and gardeners - to my west.",
+  },
+  [7626] = {
+    ["T"] = "Bell of Dethmoora",
+    ["O"] = "Bring 10 Elixirs of Shadow Power to Gorzeeki Wildeyes in the Burning Steppes.",
+    ["D"] = "A Bell of Dethmoora, named after the late warlock Dethmoora Darkeyes, is one of the three tools needed to create a Circle of Greater Summoning.When properly atuned with the Wheel and the Candle, these items conduct vast stores of arcane power.\n\nMy servant Gorzeeki can construct such a bell, but to do so he will need a large supply of elixirs of shadow power.Procure the elixirs from an alchemist and bring them to Gorzeeki.",
+  },
+  [7628] = {
+    ["T"] = "Doomsday Candle",
+    ["O"] = "Bring 35 Black Dragonscales to Gorzeeki Wildeyes in the Burning Steppes.",
+    ["D"] = "A Doomsday Candle stores fire and directs it at those who would disrupt your ritual.When creating your Circle of Greater Summoning, if your candle is lit then any wayward demons will be burned by its flames!\n\nContaining that fire is not easy, and requires the essence within the scales of a black dragon.Acquire those scales from a skinner and bring them to Gorzeeki Wildeyes.",
+  },
+  [7630] = {
+    ["T"] = "Arcanite",
+    ["O"] = "Bring 3 Arcanite Bars to Gorzeeki in the Burning Steppes.",
+    ["D"] = "Now that the Bell, Wheel and Candle are made, I should make a black lodestone.During your ritual, you\'ll need that lodestone to maintain the other ritual objects if they should fail.\n\nTo make the lodestone, I require arcanite.Do you have any?If not, then... you\'ll have to get the arcanite from an alchemist.\n\nReturn to me when you have the arcanite, and then I\'ll make the black lodestone.",
+  },
+  [8466] = {
+    ["T"] = "Feathers for Grazle",
+    ["O"] = "|cFF42E8F3[Repeatable]|r\nBring 5 Deadwood Headdress Feather to Grazle.",
+    ["D"] = "While you have proven yourself to me, you may need to continue to work toward proving yourself to the suspicious brethren of my tribe. To that end, I may be able to continue assisting you.\n\nSome of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw.",
+  },
+  [8467] = {
+    ["T"] = "Feathers for Nafien",
+    ["O"] = "|cFF42E8F3[Repeatable]|r\nBring 5 Deadwood Headdress Feather to Nafien.",
+    ["D"] = "While you have proven yourself to me, you may need to continue to work toward proving yourself to the suspicious brethren of my tribe. To that end, I may be able to continue assisting you.\n\nSome of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw.",
+  },
+  [8469] = {
+    ["T"] = "Beads for Salfa",
+    ["O"] = "|cFF42E8F3[Repeatable]|r\nBring 5 Winterfall Spirit Beads to Salfa.",
+    ["D"] = "You\'ve certainly earned my trust, $N, but you may need to continue to earn the trust of my untrusting tribe. There is something you can do to earn that trust.\n\nThe Winterfall are known to carry spirit beads to ward against foul spirits. These beads have clearly failed in their purpose, as the Winterfall themselves are the agents of corruption. Bring to me these spirit beads from fallen Winterfall furbolgs; for every set of five you bring me, you will earn recognition amongst the Timbermaw.",
+  },
+  [8470] = {
+    ["T"] = "Deadwood Ritual Totem",
+    ["O"] = "|cFF42E8F3Requires Neutral Reputation!|r\nTake the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item. The Timbermaw will not speak with you unless you are of Neutral reputation or greater with them.",
+    ["D"] = "You have found one of the Deadwood furbolg\'s ritual totems. The totem itself is of non-descript construction, but a palpable sense of despair emanates from it. If there were any object that might best exemplify the corruption that the Deadwood furbolg suffer under, this item would clearly be it.\n\nOne of the furbolgs inside Timbermaw Hold may have a use for such an item... that is, if you\'ve earned their trust enough for them to speak with you.",
+  },
+  [8481] = {
+    ["T"] = "The Root of All Evil",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nPlant the Demon Summoning Torch in the mouth of High Chief Winterfall\'s cave in the Winterfall furbolg village.Defeat the demon and retrieve the Essence of Xandivious for Gorn One Eye in Timbermaw Hold.",
+    ["D"] = "$N, thanks to you we have devised a way to summon forth the root of all evil for the Winterfall tribe - the corrupting demon that dominates them!\n\nTake this torch to the mouth of High Chief Winterfall\'s personal cave and plant it there.Doing so will force the demon to reveal itself and investigate.This is when you and your allies must strike it down!Only the essence of the fallen demon will begin the lengthy healing process of the Winterfall tribe... and the salvation of Timbermaw Hold.",
   },
   [8905] = {
     ["T"] = "An Earnest Proposition",
@@ -798,7 +895,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26141] = {
     ["T"] = "Ironforge Florin",
     ["O"] = "Take the Ironforge Florin to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found an Ironforge Florin.\n\nThis sturdy dwarven coin, minted in Ironforge’s deepest halls before the gold standard, once symbolized prosperity and resilience. Though it has long been out of circulation, its craftsmanship and historical significance make it a prized find for collectors.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found an Ironforge Florin.\n\nThis sturdy dwarven coin, minted in Ironforge\'s deepest halls before the gold standard, once symbolized prosperity and resilience. Though it has long been out of circulation, its craftsmanship and historical significance make it a prized find for collectors.\n\nA collector of rare coins would be interested in this item.",
   },
   [26142] = {
     ["T"] = "Ironforge Shilling",
@@ -838,7 +935,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26149] = {
     ["T"] = "Legion Rupee",
     ["O"] = "Take the Legion Rupee to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Legion Rupee.\n\nThis ominous, gem-like coin glows faintly with fel energy, a remnant of the Legion’s twisted economy. Used to barter in their dark domains, its origins may be sinister, but its rarity makes it a compelling artifact.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Legion Rupee.\n\nThis ominous, gem-like coin glows faintly with fel energy, a remnant of the Legion\'s twisted economy. Used to barter in their dark domains, its origins may be sinister, but its rarity makes it a compelling artifact.\n\nA collector of rare coins would be interested in this item.",
   },
   [26150] = {
     ["T"] = "Lordaeron Crown",
@@ -853,17 +950,17 @@ pfDB["quests"]["enUS-epoch"] = {
   [26152] = {
     ["T"] = "Lordaeron Penny",
     ["O"] = "Take the Lordaeron Penny to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Lordaeron Penny.\n\nThis modest coin was once a common sight in the pockets of Lordaeron’s citizens. Though simple in design, it now holds sentimental and historical value as one of the last remnants of a fallen kingdom.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Lordaeron Penny.\n\nThis modest coin was once a common sight in the pockets of Lordaeron\'s citizens. Though simple in design, it now holds sentimental and historical value as one of the last remnants of a fallen kingdom.\n\nA collector of rare coins would be interested in this item.",
   },
   [26153] = {
     ["T"] = "Dalaran Shilling",
     ["O"] = "Take the Dalaran Shilling to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Dalaran Shilling.\n\nThis coin hums faintly with arcane energy, a product of the magical economy that once flourished within the magical city of Dalaran. Though no longer in circulation, it remains a fascinating relic of the Kirin Tor’s financial system.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Dalaran Shilling.\n\nThis coin hums faintly with arcane energy, a product of the magical economy that once flourished within the magical city of Dalaran. Though no longer in circulation, it remains a fascinating relic of the Kirin Tor\'s financial system.\n\nA collector of rare coins would be interested in this item.",
   },
   [26154] = {
     ["T"] = "Gilnean Crown",
     ["O"] = "Take the Gilnean Crown to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Gilnean Crown.\n\nThis weighty silver coin was once the currency of choice in Gilneas, before the kingdom’s seclusion from the world. Its intricate design reflects the craftsmanship and pride of a people who stood apart.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Gilnean Crown.\n\nThis weighty silver coin was once the currency of choice in Gilneas, before the kingdom\'s seclusion from the world. Its intricate design reflects the craftsmanship and pride of a people who stood apart.\n\nA collector of rare coins would be interested in this item.",
   },
   [26155] = {
     ["T"] = "Naga Bigshell",
@@ -883,22 +980,22 @@ pfDB["quests"]["enUS-epoch"] = {
   [26158] = {
     ["T"] = "Stormwind Crown",
     ["O"] = "Take the Stormwind Crown to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Stormwind Crown.\n\nThis stately gold coin, embossed with the lion of Stormwind, was a mark of wealth and prosperity in the kingdom’s markets. Though still recognized by historians, its rarity makes it more valuable as a collector’s piece than currency.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Stormwind Crown.\n\nThis stately gold coin, embossed with the lion of Stormwind, was a mark of wealth and prosperity in the kingdom\'s markets. Though still recognized by historians, its rarity makes it more valuable as a collector\'s piece than currency.\n\nA collector of rare coins would be interested in this item.",
   },
   [26159] = {
     ["T"] = "Stormwind Shilling",
     ["O"] = "Take the Stormwind Shilling to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Stormwind Shilling.\n\nThis silver coin, bearing the insignia of Stormwind, once flowed freely through the city\'s bustling economy. Though no longer in regular use, its craftsmanship and connection to Stormwind’s history make it a prized find.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Stormwind Shilling.\n\nThis silver coin, bearing the insignia of Stormwind, once flowed freely through the city\'s bustling economy. Though no longer in regular use, its craftsmanship and connection to Stormwind\'s history make it a prized find.\n\nA collector of rare coins would be interested in this item.",
   },
   [26160] = {
     ["T"] = "Stormwind Farthing",
     ["O"] = "Take the Stormwind Farthing to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Stormwind Farthing.\n\nThis humble copper coin was once a common sight among Stormwind’s citizens, used for small purchases and everyday transactions. While its material worth is low, its historical value is far greater.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Stormwind Farthing.\n\nThis humble copper coin was once a common sight among Stormwind\'s citizens, used for small purchases and everyday transactions. While its material worth is low, its historical value is far greater.\n\nA collector of rare coins would be interested in this item.",
   },
   [26161] = {
     ["T"] = "Stormwind Sixpence",
     ["O"] = "Take the Stormwind Sixpence to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Stormwind Sixpence.\n\nThis finely minted coin, used in Stormwind’s commerce, was favored for its reliability and convenience. While small, it carries a weight of history, reflecting the resilience of the kingdom.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Stormwind Sixpence.\n\nThis finely minted coin, used in Stormwind\'s commerce, was favored for its reliability and convenience. While small, it carries a weight of history, reflecting the resilience of the kingdom.\n\nA collector of rare coins would be interested in this item.",
   },
   [26162] = {
     ["T"] = "Stormwind Shilling",
@@ -908,12 +1005,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [26163] = {
     ["T"] = "A Coin of Unknown Origin",
     ["O"] = "Take the Coin of Unknown Origin to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a coin of unknown origin.\n\nThis mysterious coin bears symbols and markings unlike any known civilization. Whether it belongs to a forgotten kingdom, a lost race, or something more sinister is anyone’s guess.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a coin of unknown origin.\n\nThis mysterious coin bears symbols and markings unlike any known civilization. Whether it belongs to a forgotten kingdom, a lost race, or something more sinister is anyone\'s guess.\n\nA collector of rare coins would be interested in this item.",
   },
   [26164] = {
     ["T"] = "Venture Co. IOU",
     ["O"] = "Take the Venture Co. IOU to Altadena in Booty Bay.",
-    ["D"] = "You\'ve found a Venture Co. IOU.\n\nThis hastily scribbled note, stamped with the Venture Company’s logo, promises repayment for services rendered. Given the company’s reputation, its actual worth is questionable at best —- but to the right collector, even a bad debt has value.\n\nA collector of rare coins would be interested in this item.",
+    ["D"] = "You\'ve found a Venture Co. IOU.\n\nThis hastily scribbled note, stamped with the Venture Company\'s logo, promises repayment for services rendered. Given the company\'s reputation, its actual worth is questionable at best —- but to the right collector, even a bad debt has value.\n\nA collector of rare coins would be interested in this item.",
   },
   [26165] = {
     ["T"] = "Venture Co. Voucher",
@@ -1377,7 +1474,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26257] = {
     ["T"] = "Just Compensation",
-    ["O"] = "Bring a set of Gauntlets of Valor  to Mokvar in Orgrimmar.",
+    ["O"] = "Bring a set of Gauntlets of Valor to Mokvar in Orgrimmar.",
     ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gauntlets.  If we both see this through I shall make the rest of the pieces available to you.",
   },
   [26258] = {
@@ -1820,7 +1917,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Meet Kaletaka Winterbluff in Ratchet to discuss the Discs of Norgannon.",
     ["D"] = "I have great news, $N! The Explorer\'s League were able to decipher some of the runes on the Discs of Norgannon. Strangely, they\'re similar to runes used in the ancient Taurahe language.\n\nWe were able to find a tauren contact willing to work with us to decipher the runes and we\'d like you to work with her. She agreed to travel from Thunder Bluff to Ratchet to meet you. Meet Kaletaka Winterbluff at the inn there, and we\'ll be one step closer to opening Uldum!",
   },
-  [26346] = {
+  [26346] = { -- seems like a duplicate of 26345
     ["T"] = "An Exciting Discovery",
     ["O"] = "Meet Kaletaka Winterbluff in Ratchet to discuss the Discs of Norgannon.",
     ["D"] = "Awhile ago the Explorer\'s League was given an artifact called the Discs of Norgannon. We\'ve been trying to glean some information from the Discs, and to proceed, we need a specialist in the Taurahe language.\n\nWe were able to find a tauren contact willing to work with us and we need a courier to meet with her. I\'ve heard you recommended around town, so I\'d like you to meet Kaletaka Winterbluff at the Broken Keel Tavern in Ratchet. If we\'re right, these Discs could lead to opening the ancient facility of Uldum!",
@@ -1860,7 +1957,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Meet Hedrig Ironstone in Booty Bay to discuss the Discs of Norgannon.",
     ["D"] = "I have great news, $N! The Lorespeakers were able to decipher some of the runes on the Discs of Norgannon. They\'re written in the ancient dwarven language.\n\nWe were able to find a dwarven contact willing to work with us to decipher the runes and we\'d like you to meet with him. He agreed to travel from Ironforge to Ratchet to meet with you. Meet Hedrig Ironstone at the inn there, and we\'ll be one step closer to opening Uldum!",
   },
-  [26354] = {
+  [26354] = { -- seems like a duplicate of 26353
     ["T"] = "An Exciting Discovery",
     ["O"] = "Meet Hedrig Ironstone in Ratchet to discuss the Discs of Norgannon.",
     ["D"] = "Awhile ago the Lorespeakers were given an artifact called the Discs of Norgannon. We\'ve been trying to glean some information from the Discs and to proceed, we need a specialist in the dwarven language.\n\nWe were able to find a dwarf contact willing to work with us and we need a courier to meet with him. I\'ve heard you recommended around town, so I\'d like you to meet Hedrig Ironstone at the Broken Keel Tavern in Ratchet. If we\'re right, these Discs could lead to opening the ancient facility of Uldum!",
@@ -3217,7 +3314,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26625] = {
     ["T"] = "WANTED: Soulflayer Ghruzokh",
-    ["O"] = "Enter the Grombolar inside Felstone Fortress and take the head of Soulflayer Ghruzokh.",
+    ["O"] = "|cFFFF0000Needs fixing! Missing pre-quests!|r\n\nEnter the Grombolar inside Felstone Fortress and take the head of Soulflayer Ghruzokh.",
     ["D"] = "Members of the Horde, this is a call to arms! Old followers of Gul\'dan have made a nest inside Felstone Fortress, raising the dead and reviving the dark art of necromancy.\n\nThe leader of this group is known as Soulflayer Ghruzokh, and a well-seasoned party is needed to take him out. Find him inside a cave surrounded by bones within Felstone Fortress to the south.\n\nBring his head to Scout Morgria to complete the bounty.",
   },
   [26626] = {
@@ -3722,8 +3819,8 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26726] = {
     ["T"] = "Echo of Devotion",
-    ["O"] = "Search the Plaguewood for Elidrin the Lost and lay him to rest.",
-    ["D"] = "You can see me? You can hear me? I can sense your spirit belongs to the living. Perhaps you are the answer to my prayers.\n\nI am Seraphine, once of Quel\'Thalas, now a forgotten echo in this blighted land. My soul lingers, trapped by unfinished duty. The cursed remain restless… and the living forget too soon.\n\nMy beloved —- Elidrin —- fell in the Scourge’s first onslaught. His spirit, like mine, remains shackled, but he is bound by rage and sorrow. If you would grant me peace, you must first free him. He wanders near the ruins of our last stand, tormented by his failures. You will find him in the Plaguewood, nearby.",
+    ["O"] = "Search the Plaguewood for Elidrin the Lost and lay him to rest.|cFF42E8F3\nYou have to be in ghost form (dead) to see this NPC!|r",
+    ["D"] = "You can see me? You can hear me? I can sense your spirit belongs to the living. Perhaps you are the answer to my prayers.\n\nI am Seraphine, once of Quel\'Thalas, now a forgotten echo in this blighted land. My soul lingers, trapped by unfinished duty. The cursed remain restless… and the living forget too soon.\n\nMy beloved —- Elidrin —- fell in the Scourge\'s first onslaught. His spirit, like mine, remains shackled, but he is bound by rage and sorrow. If you would grant me peace, you must first free him. He wanders near the ruins of our last stand, tormented by his failures. You will find him in the Plaguewood, nearby.",
   },
   [26727] = {
     ["T"] = "Echo of Devotion",
@@ -4713,7 +4810,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26924] = {
     ["T"] = "WANTED: Tamura",
     ["O"] = "Slay Tamura and bring her head to Zun\'dartha in Stonard.",
-    ["D"] = "Beware the northern swamps, for a deadly lion known as Tamura roams there. This relentless beast has forced Stonard to issue a kill order -- by any means necessary. Adventurers pursuing this bounty are strongly advised not to face her alone. Should you succeed, bring Tamura’s head to Zun’dartha in Stonard to claim your reward.",
+    ["D"] = "Beware the northern swamps, for a deadly lion known as Tamura roams there. This relentless beast has forced Stonard to issue a kill order -- by any means necessary. Adventurers pursuing this bounty are strongly advised not to face her alone. Should you succeed, bring Tamura\'s head to Zun\'dartha in Stonard to claim your reward.",
   },
   [26925] = {
     ["T"] = "Message for the Historian",
@@ -6291,7 +6388,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "This next task is much more challenging than the last one. Maybe there\'s still time to get turned into ash!\n\nThe Burning Blade have an obvious presence in the ruins at Mannoroc Coven, along the road that leads east from Shadowprey. I\'m sure others around here will give you mundane tasks to deal with the demons there, but we only care about one of them.\n\nShireena the Succubus possesses the only copy of the Infernal Almanac that exists on this plane. We need it. Go get it!",
   },
   [27240] = {
-    ["T"] = "An Imp\'s Bidding [NOT WORKING]",
+    ["T"] = "An Imp\'s Bidding",
     ["O"] = "Search for a powerful demon in Shadowbreak Ravine in southeastern Desolace.",
     ["D"] = "You may be wondering how I know what to tell you to do. It\'s because I know what Zakara is thinking. How does that work? I\'ll tell you -- it\'s magic.\n\nZakara has used magical techniques far beyond the comprehension of your puny $C brain to determine the demon you\'re looking for is in a clandestine canyon in the southeast of Desolace. I went there once at the bidding of my former master. It\'s called Shadowbreak Ravine.\n\nSo, off you go, to find the big bad demon!",
   },
@@ -8733,12 +8830,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [27921] = {
     ["T"] = "Aponi\'s Request",
     ["O"] = "Talk to Aponi Brightmane on the Elder Rise in Thunder Bluff.",
-    ["D"] = "$N, a request has come in from Aponi Brightmane for you.\n\nShe asks on behalf of the elder druids of Thunder Bluff for aid. I have very little else to say about the matter, but among other things, night elves were mentioned.\n\nI\'m to tell you that your discretion is of great importance. Seek her out on Thunder Bluff’s Elder Rise.",
+    ["D"] = "$N, a request has come in from Aponi Brightmane for you.\n\nShe asks on behalf of the elder druids of Thunder Bluff for aid. I have very little else to say about the matter, but among other things, night elves were mentioned.\n\nI\'m to tell you that your discretion is of great importance. Seek her out on Thunder Bluff\'s Elder Rise.",
   },
   [27922] = {
     ["T"] = "Troubling Rumors",
     ["O"] = "Investigate the area around Mirkfallon Lake in Stonetalon Mountains.",
-    ["D"] = "Thank you for answering my call, $N. Word has arrived about an attack in Stonetalon, and I fear the worst. Your services come highly recommended.\n\nA sacred part of our history may have been stolen -- I say this, but it’s also a history for all druids, even the night elves. A fountain of health blessed by Mu\'sha, or the Moon, has been attacked. It lies in a cavern at the far end of Ahepwa, a camp by the lake. The elders on this rise thought it safely guarded, secured by our most trusted braves.\n\n<Aponi pauses, glaring toward the lodge\'s entrance and warily eyeing the Grimtotem outside.>\n\nI... no, I won\'t breathe life into rumors. Please, go to the grounds northeast of Mirkfallon Lake in the heart of the Stonetalon Mountains. We must know what\'s happened, and why!",
+    ["D"] = "Thank you for answering my call, $N. Word has arrived about an attack in Stonetalon, and I fear the worst. Your services come highly recommended.\n\nA sacred part of our history may have been stolen -- I say this, but it\'s also a history for all druids, even the night elves. A fountain of health blessed by Mu\'sha, or the Moon, has been attacked. It lies in a cavern at the far end of Ahepwa, a camp by the lake. The elders on this rise thought it safely guarded, secured by our most trusted braves.\n\n<Aponi pauses, glaring toward the lodge\'s entrance and warily eyeing the Grimtotem outside.>\n\nI... no, I won\'t breathe life into rumors. Please, go to the grounds northeast of Mirkfallon Lake in the heart of the Stonetalon Mountains. We must know what\'s happened, and why!",
   },
   [27923] = {
     ["T"] = "Grimtotem Betrayal",
@@ -8748,7 +8845,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27924] = {
     ["T"] = "Renewal and Respite",
     ["O"] = "Find a Jug of Healing Water and bring it to Lorathrin Farbough.",
-    ["D"] = "No, stay your hand! I am u-unarmed, $R.\n\n<The night elf looks terrified. A grievous head wound seeps blood onto the cavern floor.>\n\nWhy... am I here..? The f-fountain... I... please...!\n\n<The elf is on the verge of passing out. Aponi mentioned the water here has healing properties, and a jug may be nearby. Perhaps the elf can tell you more if he’s not delirious.>",
+    ["D"] = "No, stay your hand! I am u-unarmed, $R.\n\n<The night elf looks terrified. A grievous head wound seeps blood onto the cavern floor.>\n\nWhy... am I here..? The f-fountain... I... please...!\n\n<The elf is on the verge of passing out. Aponi mentioned the water here has healing properties, and a jug may be nearby. Perhaps the elf can tell you more if he\'s not delirious.>",
   },
   [27925] = {
     ["T"] = "Return to Aponi",
@@ -8758,7 +8855,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27926] = {
     ["T"] = "Grace of the Moon",
     ["O"] = "Talk to Champion Sike in Thunder Bluff.",
-    ["D"] = "<The elf searches your face and gently clears his throat.>\n\nThe water. You... you’ve been given a gift, $R...!\n\n<The elf pauses, his expression both apprehensive and bewildered.>\n\n...and you aren’t the first to receive it. Another was healed at this fountain, a tauren, enveloped in the same aura. We\'ve come to know it as the favor of the goddess... and as followers of her will, we passed on our teachings to that tauren.\n\nIt is a difficult path of mastery to walk, make no mistake. However, the goddess has some kind of faith in you. It is not for me to interpret any further.\n\nSeek out Champion Sike in Thunder Bluff, and perhaps you shall learn to harness it.",
+    ["D"] = "<The elf searches your face and gently clears his throat.>\n\nThe water. You... you\'ve been given a gift, $R...!\n\n<The elf pauses, his expression both apprehensive and bewildered.>\n\n...and you aren\'t the first to receive it. Another was healed at this fountain, a tauren, enveloped in the same aura. We\'ve come to know it as the favor of the goddess... and as followers of her will, we passed on our teachings to that tauren.\n\nIt is a difficult path of mastery to walk, make no mistake. However, the goddess has some kind of faith in you. It is not for me to interpret any further.\n\nSeek out Champion Sike in Thunder Bluff, and perhaps you shall learn to harness it.",
   },
   [27927] = {
     ["T"] = "Memories of Honor and Blood",
@@ -8793,7 +8890,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27933] = {
     ["T"] = "Alchemy in the City Under",
     ["O"] = "Harvest 30 Plagued Weeds from farm fields in the Western Plaguelands. Fill Firebrew\'s Vial at any scourge cauldron in the Plaguelands.",
-    ["D"] = "Now, this brew we\'re makin\' ain\'t just fer enjoyment. It has a practical use for our allies in the Alliance. I\'m a bit o\' a patriot, ye see.\n\nWant to keep our friends clean o\' poison, disease, what-have-you... and th\' art of brewing is no different from alchemy.\n\nKeep this bit between us. I need some of the most foul ingredients on Azeroth, and where better tae find them than the plaguelands? Aye, that\'s right. Better hope we don\'t make some sort o\' new plague!\n\nYou bet I\'ll take care of the taste! Ye just need to harvest some o\' them plants growing in the fields up there. Oh, and take this crystal vial with ya -- I\'ve heard o\' cauldrons full of somethin\', scattered all around the land... ooh, gotta be nasty stuff in \'em, right?!\n\nGet those plants and fill the vial with the scourge’s own brew, then we can look tae makin\' our drink.",
+    ["D"] = "Now, this brew we\'re makin\' ain\'t just fer enjoyment. It has a practical use for our allies in the Alliance. I\'m a bit o\' a patriot, ye see.\n\nWant to keep our friends clean o\' poison, disease, what-have-you... and th\' art of brewing is no different from alchemy.\n\nKeep this bit between us. I need some of the most foul ingredients on Azeroth, and where better tae find them than the plaguelands? Aye, that\'s right. Better hope we don\'t make some sort o\' new plague!\n\nYou bet I\'ll take care of the taste! Ye just need to harvest some o\' them plants growing in the fields up there. Oh, and take this crystal vial with ya -- I\'ve heard o\' cauldrons full of somethin\', scattered all around the land... ooh, gotta be nasty stuff in \'em, right?!\n\nGet those plants and fill the vial with the scourge\'s own brew, then we can look tae makin\' our drink.",
   },
   [27934] = {
     ["T"] = "Staying Frosty",
@@ -8813,26 +8910,26 @@ pfDB["quests"]["enUS-epoch"] = {
   [27937] = {
     ["T"] = "Sorrows of Security",
     ["O"] = "Talk to Wiggi Magleezer near her secluded lab in the northeastern edge of the Swamp of Sorrows.",
-    ["D"] = "A famous goblin scientist needs your assistance, $C. She\'s been struggling to fend off thieves from her lab in the Swamp of Sorrows and wants someone to put a few new countermeasures to the test.\n\nThis sounds a bit exaggerated, but if you participate it’s said that you\'ll hone your mind and gain abilities to escape any situation –- much like a gnome.\n\nIt says that only serious adventurers need apply. Are you interested?",
+    ["D"] = "A famous goblin scientist needs your assistance, $C. She\'s been struggling to fend off thieves from her lab in the Swamp of Sorrows and wants someone to put a few new countermeasures to the test.\n\nThis sounds a bit exaggerated, but if you participate it\'s said that you\'ll hone your mind and gain abilities to escape any situation –- much like a gnome.\n\nIt says that only serious adventurers need apply. Are you interested?",
   },
   [27938] = {
     ["T"] = "The Gauntlet",
-    ["O"] = "Navigate through Wiggi Magleezer’s gauntlet on the cliffside path to the north, then speak to her in her lab.",
-    ["D"] = "I moved out here so thieves wouldn\'t find me. \"No one comes out to this dreary slosh bucket!\", I said. It\'s only been a few months since I settled in and they’re coming in like locusts!\n\nI\'ve stopped all my research just to devise a way to protect it first! I want to put my new defenses to the test.\n\nThink you\'re up to it? I\'ll be keeping a close eye on you, taking notes… hope you’re not one to crack under observation, bub.\n\nI\'ll pay you, and you might even learn something new to boot. When you\'re ready, just head up the path to the north -- but you better be quick! I\'m timing ya. Good luck, and don\'t come back to haunt me if you end up dying.",
+    ["O"] = "Navigate through Wiggi Magleezer\'s gauntlet on the cliffside path to the north, then speak to her in her lab.",
+    ["D"] = "I moved out here so thieves wouldn\'t find me. \"No one comes out to this dreary slosh bucket!\", I said. It\'s only been a few months since I settled in and they\'re coming in like locusts!\n\nI\'ve stopped all my research just to devise a way to protect it first! I want to put my new defenses to the test.\n\nThink you\'re up to it? I\'ll be keeping a close eye on you, taking notes… hope you\'re not one to crack under observation, bub.\n\nI\'ll pay you, and you might even learn something new to boot. When you\'re ready, just head up the path to the north -- but you better be quick! I\'m timing ya. Good luck, and don\'t come back to haunt me if you end up dying.",
   },
   [27939] = {
     ["T"] = "Measure of Intellect",
     ["O"] = "Talk to Roland Stiffstrike in the Royal Quarter in the Undercity.",
-    ["D"] = "It\'s a wrap! Been a real sweetheart and a big help. Hope it didn’t hurt too much.\n\nCome back and try again any time, $N. Just don\'t steal from me, you hear?\n\nI\'ll be sending a compilation of my notes to Roland Stiffstrike, an associate of mine in the Undercity. You can review them any time you like... hone your mind, all that jazz.\n\nNow get outta here. I got work to do!",
+    ["D"] = "It\'s a wrap! Been a real sweetheart and a big help. Hope it didn\'t hurt too much.\n\nCome back and try again any time, $N. Just don\'t steal from me, you hear?\n\nI\'ll be sending a compilation of my notes to Roland Stiffstrike, an associate of mine in the Undercity. You can review them any time you like... hone your mind, all that jazz.\n\nNow get outta here. I got work to do!",
   },
   [27940] = {
     ["T"] = "Measure of Intellect",
     ["O"] = "Talk to Archivist Roy in the Stormwind Royal Library.",
-    ["D"] = "It\'s a wrap! Been a real sweetheart and a big help. Hope it didn’t hurt too much.\n\nCome back and try again any time, $N. Just don\'t steal from me, you hear?\n\nI\'ll be sending a compilation of my notes to Archivist Roy, an associate of mine in Stormwind. You can review them any time you like... hone your mind, all that jazz.\n\nNow get outta here. I got work to do!",
+    ["D"] = "It\'s a wrap! Been a real sweetheart and a big help. Hope it didn\'t hurt too much.\n\nCome back and try again any time, $N. Just don\'t steal from me, you hear?\n\nI\'ll be sending a compilation of my notes to Archivist Roy, an associate of mine in Stormwind. You can review them any time you like... hone your mind, all that jazz.\n\nNow get outta here. I got work to do!",
   },
   [27941] = {
     ["T"] = "Crafted from Crawlers",
-    ["O"] = "Talk to Tzhun’ko at Lands End Beach southwest of Anje’watha in Tanaris.",
+    ["O"] = "Talk to Tzhun\'ko at Lands End Beach southwest of Anje\'watha in Tanaris.",
     ["D"] = "Greetings, $C. A troll shaman by the name of Tzhun\'ko is seeking seasoned adventurers like yourself to help devise a means of imitating dwarven abilities.\n\nIt concerns their ability to purge themselves of ailments. The shaman is studying a unique breed of basilisk in southern Tanaris, on Land\'s End Beach southwest of Anje\'watha.\n\nNormally, I\'d steer clear of a strange request like this... but Tzhun\'ko is a reputable member of the Horde.",
   },
   [27942] = {
@@ -8843,22 +8940,22 @@ pfDB["quests"]["enUS-epoch"] = {
   [27943] = {
     ["T"] = "Cool It",
     ["O"] = "Gather 15 Frozen Chunks from Frozen Prey near the Kuzajra Crawlers in the cave to the north.",
-    ["D"] = "Tanaris be hot, mon! Too hot for Tzhun\'ko... but ya not be wantin’ de basilisk ta help ya.\n\nAll dem souls fallen prey to de basilisk breath be displayed in de cavern... as ye be seein\' real soon. Frozen solid! In a place like dis!\n\nWe be needin’ de remains of anyone ya find. Break dem apart, an’ gather de frozen chunks -- respectfully, now.",
+    ["D"] = "Tanaris be hot, mon! Too hot for Tzhun\'ko... but ya not be wantin\' de basilisk ta help ya.\n\nAll dem souls fallen prey to de basilisk breath be displayed in de cavern... as ye be seein\' real soon. Frozen solid! In a place like dis!\n\nWe be needin\' de remains of anyone ya find. Break dem apart, an\' gather de frozen chunks -- respectfully, now.",
   },
   [27944] = {
     ["T"] = "No Reverse Cursin!",
     ["O"] = "Harvest 80 Kuzajra Scales from Kuzajra Crawlers in the cave to the north using The Shaker.",
-    ["D"] = "Tzhun\'ko knows de curse of flesh, an\' we not be wantin\' any cursin\' de other way around, eh?\n\nBasilisk scales... dey be components we needin\' in de fetish. De spirits say as much, and we must obey. Tzhun’ko has a rod \'ere, one for gettin\' de scales off real easy like...\n\nBe careful, mon. De Kuzajra not be enemies ya takin’ lightly!",
+    ["D"] = "Tzhun\'ko knows de curse of flesh, an\' we not be wantin\' any cursin\' de other way around, eh?\n\nBasilisk scales... dey be components we needin\' in de fetish. De spirits say as much, and we must obey. Tzhun\'ko has a rod \'ere, one for gettin\' de scales off real easy like...\n\nBe careful, mon. De Kuzajra not be enemies ya takin\' lightly!",
   },
   [27945] = {
     ["T"] = "Undying Faith",
-    ["O"] = "Survive a cut from Tzhun’ko’s knife by using the Fetish of Tzhun’ko after telling him you’re ready.",
+    ["O"] = "Survive a cut from Tzhun\'ko\'s knife by using the Fetish of Tzhun\'ko after telling him you\'re ready.",
     ["D"] = "Ok mon, final test...!\n\nYa know about dwarves? Resistant ta frost, bleedin\', poison, disease... an\' real thick skin too, but only when dey turn ta stone.\n\nTzhun\'ko has a knife \'ere... jagged edge, coated in de most lethal poison Tzhun\'ko can find: diseased blood from corpses around Tanaris.\n\nMon, dis will kill ya if ya don\'t use de fetish. It be workin\' in de end, de spirits have said. Speak with Tzhun\'ko when ye ready for de cut.",
   },
   [27946] = {
     ["T"] = "You Do Voodoo",
     ["O"] = "Talk to Imperator Zoch at the Ring of Valor in Orgrimmar.",
-    ["D"] = "Been nice workin\' wit ya, $N.\n\nDem eyes be showin\' ya treasure, too…\n\nGo see Imperator Zoch in Orgrimmar, Tzhun’ko be done with ya now.",
+    ["D"] = "Been nice workin\' wit ya, $N.\n\nDem eyes be showin\' ya treasure, too…\n\nGo see Imperator Zoch in Orgrimmar, Tzhun\'ko be done with ya now.",
   },
   [27947] = {
     ["T"] = "The Human Spirit",
@@ -8898,16 +8995,16 @@ pfDB["quests"]["enUS-epoch"] = {
   [27954] = {
     ["T"] = "The Invisible One",
     ["O"] = "At night, gather Spirit Residue from the Spirit of Lake Mennar at Lake Mennar in Azshara.",
-    ["D"] = "What comes to mind when you hear \'invisibility\'? Is it a rogue? Maybe some... ludicrous mage spell?!\n\nI\'ll tell you what I think of. Ghosts! Did you know ghosts only show themselves when they want to? Uh, most of them anyway.\n\nI’ve read about one such ghost over in Azshara -- sad story... maybe another time! You can find it hovering over Lake Mennar, but only when the sun isn\'t shining! Very important -- you can only find it at night!\n\nDefeat it, and bring me back the Spirit Residue it leaves behind. I’m sure it\'s just what we need!",
+    ["D"] = "What comes to mind when you hear \'invisibility\'? Is it a rogue? Maybe some... ludicrous mage spell?!\n\nI\'ll tell you what I think of. Ghosts! Did you know ghosts only show themselves when they want to? Uh, most of them anyway.\n\nI\'ve read about one such ghost over in Azshara -- sad story... maybe another time! You can find it hovering over Lake Mennar, but only when the sun isn\'t shining! Very important -- you can only find it at night!\n\nDefeat it, and bring me back the Spirit Residue it leaves behind. I\'m sure it\'s just what we need!",
   },
   [27955] = {
     ["T"] = "Rapid Reflex!",
-    ["O"] = "Retrieve 12 Thick Heartstrings from Terrorclaw Ravasaurs in the Marshlands of Un’goro Crater.",
+    ["O"] = "Retrieve 12 Thick Heartstrings from Terrorclaw Ravasaurs in the Marshlands of Un\'goro Crater.",
     ["D"] = "I\'ve made a mechanical sleeve that fits over various joints of the body to accentuate the reflexes of its wearer. I know what you\'re thinking... is this safe?\n\nI don\'t know yet, but we\'ll find out! Don\'t worry, I can fix any broken bone or joint.\n\n<Weylin wiggles his gnarled fingers in front of you. They seem surprisingly dexterous, despite the disfigurement.>\n\nWhat I need now are the heartstrings of Terrorclaw Ravasaurs, a rare breed of raptor that\'s found only inside a cave in the Marshlands of Un\'goro Crater. These beasts are known for their split-second reaction times, and you can imagine something like that has got to have a durable, reflexive heart!",
   },
   [27956] = {
     ["T"] = "Elemental Emulation",
-    ["O"] = "Retrieve the elemental cores of Nahu’ven and Ilahg’na.",
+    ["O"] = "Retrieve the elemental cores of Nahu\'ven and Ilahg\'na.",
     ["D"] = "From my studies, I\'ve gleaned that night elves gain blessings based on the cycles of the sun and moon.\n\nI\'ve also read that fire and water elementals follow a similar cycle in opposition to one another! Their cores would not only act as potent and renewable components, but also serve to regulate the device\'s effects.\n\nI know of a strong fire elemental in the Burning Steppes… aggressive, too. You can find it at the base of Blackrock Mountain inside a lava pool, and let\'s see… I\'m pretty sure there\'s a powerful water elemental that circles an island off of the Savage Coast in Stranglethorn Vale. The island\'s full of them, so you can\'t miss it! How do I know about these beings? I read about them!\n\nBring me back their cores, and we can start tinkering.",
   },
   [27957] = {
@@ -8917,13 +9014,13 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [27958] = {
     ["T"] = "The First Test",
-    ["O"] = "Use Weylin’s Inventions on yourself and see what happens.",
+    ["O"] = "Use Weylin\'s Inventions on yourself and see what happens.",
     ["D"] = "Alright, $N. It\'s assembled, and it\'s yours to try out!\n\n<Weylin places a crate\'s full of gear into your hands.>\n\nIt\'ll fit underneath your armor, so don\'t worry about looks!",
   },
   [27959] = {
     ["T"] = "Need Repairs?",
     ["O"] = "Talk to Archivist Dungim in Ironforge.",
-    ["D"] = "I\'m sure you\'re ready to head on to your next adventure, $N.\n\nI like my lab out here; it’s far away from all the hustle and bustle! You probably don’t want to travel all this way every time the gear breaks, so I’ll send repair kits to Archivist Dungim in Ironforge if you ever need them.\n\nIt was a pleasure working with you. If you ever just want to visit, come back any time!",
+    ["D"] = "I\'m sure you\'re ready to head on to your next adventure, $N.\n\nI like my lab out here; it\'s far away from all the hustle and bustle! You probably don\'t want to travel all this way every time the gear breaks, so I\'ll send repair kits to Archivist Dungim in Ironforge if you ever need them.\n\nIt was a pleasure working with you. If you ever just want to visit, come back any time!",
   },
   [27960] = {
     ["T"] = "The Shatterspear Festival",
@@ -9132,7 +9229,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [28001] = {
     ["T"] = "The Rite of the Fire",
-    ["O"] = "Careme at Steamwheedle Port in Tanaris wants you to use your Cooking skill to prepare 10 Protein Shakes and bring them to her.",
+    ["O"] = "Careme at Steamwheedle Port in Tanaris wants you to use your Cooking skill to prepare 10 Protein Shakes and bring them to her.|cFF42E8F3\n\nIsabelle Pickman on the island of Caer Darrow in Western Plaguelands will teach you the recipe.|r",
     ["D"] = "Sous chef? Oh! Glad my message got through.\n\nYes, yes, the great Careme requires a Sous Chef. But you have to be skilled enough to help me compete against my old friend, Isabelle Pickman.\n\nIsabelle has been corrupted by the dark side of food, but I can\'t deny she has talent and... let\'s call it creativity. Show me you\'ll be useful in my kitchen by cooking her signature Protein Shake.\n\nIf you don\'t know how to make this yet, you might have to go learn at her feet first. She\'s located on the island of Caer Darrow in Western Plaguelands these days.",
   },
   [28002] = {
@@ -10283,7 +10380,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [28509] = {
     ["T"] = "Commission for Ariden Ellis",
     ["O"] = "Ariden Ellis wants you to use your fishing skill to collect 20 Raw Whitescale Salmon and take the order to Ariden Ellis at Ariden\'s Camp in Deadwind Pass.",
-    ["D"] = "I\'ll admit, when I set out to return to Karazhan, I didn\'t quite consider the full scope of “field provisions” I might need. I brought plenty of preserves, but... they\'re nothing compared to what I was eating in town, let alone the Manor.\n\nI’m not exactly the fishing type -- too damp, too buggy. But if you could bring me 20 Raw Whitescale Salmon, I\'d be grateful for a meal that didn\'t come from a jar.",
+    ["D"] = "I\'ll admit, when I set out to return to Karazhan, I didn\'t quite consider the full scope of “field provisions” I might need. I brought plenty of preserves, but... they\'re nothing compared to what I was eating in town, let alone the Manor.\n\nI\'m not exactly the fishing type -- too damp, too buggy. But if you could bring me 20 Raw Whitescale Salmon, I\'d be grateful for a meal that didn\'t come from a jar.",
   },
   [28510] = {
     ["T"] = "Commission for Kim\'jael",
@@ -11598,7 +11695,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [31001] = {
     ["T"] = "Respects For The Fallen",
     ["O"] = "Warlord Runthak in Orgrimmar wants you to pay respects to a Horde veteran warrior lost in Eastern Winterspring.\n\nThe location and the true story are a mystery, try to look for any clues - a camp he might have set, a shelter protected from the elements he might have rested in or a sight of a fierce battle.",
-    ["D"] = "Hail, Warlock!\n\nHave you ever trekked out into the frozen lands of Winterspring? My duty keeps me here in our mighty city of Orgrimmar… but for years I longed to venture there. Every Horde grunt is familiar with the stories that land holds, in particular the heroics of the fallen Kor\'kron legend. What? You've never heard it? Sit, Undead, and listen well.\n\n<Runthak tells you a tale of an elite warrior of the Horde, the absolute peak of Kor\'kron guard who was tasked with retrieving vital information about the Alliance armies. The reports were scarce, but it is believed that he was traveling covertly when the Alliance cowards ambushed him with superior numbers. He undoubtedly fought for hours or even days, losing his ambushers briefly and stashing the crucial intel in a drop that our scouts then recovered. The warrior was never seen again, but he must have died in the most legendary of battles. For the Horde!>\n\nA gripping saga indeed - ambushed, outnumbered, fiercely fighting to the very end. A true warrior, you should aspire to be like him one day. Some day I will travel there and pay my respects to the legend. What about you, Kindrak?",
+    ["D"] = "Hail, $C!\n\nHave you ever trekked out into the frozen lands of Winterspring? My duty keeps me here in our mighty city of Orgrimmar… but for years I longed to venture there. Every Horde grunt is familiar with the stories that land holds, in particular the heroics of the fallen Kor\'kron legend. What? You've never heard it? Sit, $R, and listen well.\n\n<Runthak tells you a tale of an elite warrior of the Horde, the absolute peak of Kor\'kron guard who was tasked with retrieving vital information about the Alliance armies. The reports were scarce, but it is believed that he was traveling covertly when the Alliance cowards ambushed him with superior numbers. He undoubtedly fought for hours or even days, losing his ambushers briefly and stashing the crucial intel in a drop that our scouts then recovered. The warrior was never seen again, but he must have died in the most legendary of battles. For the Horde!>\n\nA gripping saga indeed - ambushed, outnumbered, fiercely fighting to the very end. A true warrior, you should aspire to be like him one day. Some day I will travel there and pay my respects to the legend. What about you, $N?",
   },
   [31002] = {
     ["T"] = "Respects For The Fallen",
@@ -11607,13 +11704,13 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [31003] = {
     ["T"] = "Food For The Soul",
-    ["O"] = "Consult an expert in cooking, perhaps Dirge Quickcleave from Gadgetzan can help?",
+    ["O"] = "Consult an expert in cooking, perhaps Dirge Quickcleave from Gadgetzan can help?|cFF42E8F3\n\nGo up the mountain through Azure Rest to reach this journal!|r",
     ["D"] = "",
   },
   [31004] = {
     ["T"] = "Food For The Soul",
     ["O"] = "Dirge Quickcleave in Gadgetzan doubted our ability to collect the ingredients for Honey Butter Bread.\n\n-Many vendors on Azeroth sell Freshly Baked Bread, that would be the easiest way to get it.\n\n-Honey can be found on some of the wasps in Un\'Goro.\n\n-Butter can be bought in Hillsbrad Foothills. Either Tarren Mill or Southshore.",
-    ["D"] = "",
+    ["D"] = "Hold up, hold up, let me see if I get this right, you want me... a butcher... to help you make some fancy bread? You're out of your mind, kid! If it ain\'t bleeding, it\'s a garnish.\n\nBut fine - ya want a recipe, I got a recipe. Flour, water, yeast, salt, mix till it shuts up, knead like you\'re haggling late fees. Premium upsell - meat bread. Swirl bacon bits, kodo jerky, maybe a legally non-explosive pinch of coarse powder. Recipe\'s two silver, consultation is five, and for ten I\'ll slap \"artisan\" on the label and nod thoughtfully at your oven. Now quit shedding crumbs on my ribs; you\'re lowering the meat-to-floor ratio.\n\n<Dirge continues to hack at the ribs and keeps mumbling.>\n\nPlus... honey? When was the last time you've seen honey on Azeroth? At most there are some wasps in Un'Goro Crater. Do they got honey? Who knows, they definitely got some oversized stingers! And that's not even those weird hive wasps!\n\nButter? I'm pretty sure there's only one cow farm on all the continents and it's controlled by the Alliance in Southshore. Also heard they aren't doing too good nowadays with rogues from Tarren Mill stealing their product on the request of some tradesman.\n\nBread? Every fool around sells Freshly Baked Bread.\n\nHoney Butter Bread, hah! What's next? Gonna ask for some gold-leaf lobster with black truffles and saffron? Get outta here!",
   },
   [31005] = {
     ["T"] = "Food For The Soul",
