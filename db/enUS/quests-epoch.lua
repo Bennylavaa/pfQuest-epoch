@@ -1717,7 +1717,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26325] = {
     ["T"] = "Buried Treasure",
-    ["O"] = "Find the right tool to dig up the dirt pile you found.",
+    ["O"] = "Find the right tool to dig up the dirt pile you found.|cFF42E8F3\nPrerequisites:\n- Interact with Captain\'s Log, Volume III, located behind Pirate Lord Blackstone in Baradin Hold, while you have the effect of the potion Pirate's Parley\n- Bring a Spectral Shovel from Augustus the Touched or buy one from the Auction House|r",
     ["D"] = "This non-descript pile of earth doesn\'t seem to conceal any treasure. As you root around in the loose dirt, your fingers seem to seize on the edge of a chest before the sensation disappears.\n\nPerhaps you need specialized equipment to unearth the chest?",
   },
   [26326] = {
