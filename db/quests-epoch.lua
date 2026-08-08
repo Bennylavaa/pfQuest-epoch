@@ -1759,6 +1759,20 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 50,
     ["min"] = 45,
   },
+  [2964] = {
+    ["start"] = {
+      ["U"] = { 2916 },
+    },
+    ["end"] = {
+      ["U"] = { 5387 },
+    },
+    ["pre"] = { 2977 },
+    ["next"] = { 26345 },
+    ["closes"] = { 26346 },
+    ["race"] = 1101,
+    ["lvl"] = 50,
+    ["min"] = 45,
+  },
   [2965] = {
     ["start"] = {
       ["U"] = { 3978 },
@@ -1801,6 +1815,9 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 3978 },
     },
     ["pre"] = { 2967 },
+    ["next"] = { 26353 },
+    ["closes"] = { 26354 },
+    ["race"] = 178,
     ["lvl"] = 50,
     ["min"] = 45,
   },
@@ -9077,14 +9094,13 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 60,
     ["min"] = 58,
   },
-  [26346] = {
+  [26346] = { -- ? possible start if player hasn't done [2278] The Platinum Discs chain quest that ends at [2964] A Future Task
     ["start"] = {
       ["U"] = { 5387 },
     },
     ["end"] = {
       ["U"] = { 45344 },
     },
-    ["pre"] = { 2964 },
     ["next"] = 26347,
     ["lvl"] = 60,
     ["min"] = 58,
@@ -9170,20 +9186,17 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["pre"] = { 2968 },
     ["next"] = 26355,
-    ["close"] = 26354,
     ["lvl"] = 60,
     ["min"] = 58,
   },
-  [26354] = {
+  [26354] = { -- ? possible start if player hasn't done [2278] The Platinum Discs chain quest that ends at [2968] A Future Task
     ["start"] = {
       ["U"] = { 3978 },
     },
     ["end"] = {
       ["U"] = { 45347 },
     },
-    ["pre"] = { 2968 },
     ["next"] = 26355,
-    ["close"] = 26353,
     ["lvl"] = 60,
     ["min"] = 58,
   },

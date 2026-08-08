@@ -1917,7 +1917,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Meet Kaletaka Winterbluff in Ratchet to discuss the Discs of Norgannon.",
     ["D"] = "I have great news, $N! The Explorer\'s League were able to decipher some of the runes on the Discs of Norgannon. Strangely, they\'re similar to runes used in the ancient Taurahe language.\n\nWe were able to find a tauren contact willing to work with us to decipher the runes and we\'d like you to work with her. She agreed to travel from Thunder Bluff to Ratchet to meet you. Meet Kaletaka Winterbluff at the inn there, and we\'ll be one step closer to opening Uldum!",
   },
-  [26346] = { -- seems like a duplicate of 26345
+  [26346] = { -- ? possible start if player hasn't done [2278] The Platinum Discs chain quest that ends at [2964] A Future Task
     ["T"] = "An Exciting Discovery",
     ["O"] = "Meet Kaletaka Winterbluff in Ratchet to discuss the Discs of Norgannon.",
     ["D"] = "Awhile ago the Explorer\'s League was given an artifact called the Discs of Norgannon. We\'ve been trying to glean some information from the Discs, and to proceed, we need a specialist in the Taurahe language.\n\nWe were able to find a tauren contact willing to work with us and we need a courier to meet with her. I\'ve heard you recommended around town, so I\'d like you to meet Kaletaka Winterbluff at the Broken Keel Tavern in Ratchet. If we\'re right, these Discs could lead to opening the ancient facility of Uldum!",
@@ -1957,7 +1957,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Meet Hedrig Ironstone in Booty Bay to discuss the Discs of Norgannon.",
     ["D"] = "I have great news, $N! The Lorespeakers were able to decipher some of the runes on the Discs of Norgannon. They\'re written in the ancient dwarven language.\n\nWe were able to find a dwarven contact willing to work with us to decipher the runes and we\'d like you to meet with him. He agreed to travel from Ironforge to Ratchet to meet with you. Meet Hedrig Ironstone at the inn there, and we\'ll be one step closer to opening Uldum!",
   },
-  [26354] = { -- seems like a duplicate of 26353
+  [26354] = { -- ? possible start if player hasn't done [2278] The Platinum Discs chain quest that ends at [2968] A Future Task
     ["T"] = "An Exciting Discovery",
     ["O"] = "Meet Hedrig Ironstone in Ratchet to discuss the Discs of Norgannon.",
     ["D"] = "Awhile ago the Lorespeakers were given an artifact called the Discs of Norgannon. We\'ve been trying to glean some information from the Discs and to proceed, we need a specialist in the dwarven language.\n\nWe were able to find a dwarf contact willing to work with us and we need a courier to meet with him. I\'ve heard you recommended around town, so I\'d like you to meet Hedrig Ironstone at the Broken Keel Tavern in Ratchet. If we\'re right, these Discs could lead to opening the ancient facility of Uldum!",
