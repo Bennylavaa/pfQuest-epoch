@@ -892,6 +892,8 @@ do -- units/npcs/quests
     pfDB["quests"]["enUS-epoch"][8275] = ""
     pfDB["quests"]["data-epoch"][8276] = { } -- Remove Taking Back Silithus
     pfDB["quests"]["enUS-epoch"][8276] = ""
+    pfDB["quests"]["data-epoch"][781] = { } -- Remove old Attack on Camp Narache
+    pfDB["quests"]["enUS-epoch"][781] = ""
   end
 
   do -- Remove TBC Quest and NPCs
