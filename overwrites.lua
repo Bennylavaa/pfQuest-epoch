@@ -195,6 +195,8 @@ do -- units/npcs/quests
     pfDB["objects"]["enUS-epoch"][180451] = ""
     pfDB["objects"]["data-epoch"][180448] = { } -- Silithus Wanted Poster: Deathclasp
     pfDB["objects"]["enUS-epoch"][180448] = ""
+    pfDB["objects"]["data-epoch"][15178] = { } -- Runk Windtamer
+    pfDB["objects"]["enUS-epoch"][15178] = ""
   end
 
   do -- Remove Caverns of Time npcs
