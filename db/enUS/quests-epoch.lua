@@ -673,8 +673,8 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [13887] = {
     ["T"] = "Venomhide Eggs",
-    ["O"] = "Bring 4 Venomhide Ravasaur Eggs to Mor'vek in the southeast part of the Marshlands.",
-    ["D"] = "Venomhides are vicious and must be trained from the moment they hatch.\n\nIf you want to ride one, you'll need an unhatched egg. Scattered throughout the Marshlands are a number of ravasaur nests. Look for the eggs with lighter colored shells -- those are the ones that will hatch venomhides.\n\nIf you bring me several of the eggs, I'll allow you to keep one and raise its hatchling, with my guidance.",
+    ["O"] = "Bring 4 Venomhide Ravasaur Eggs to Mor\'vek in the southeast part of the Marshlands.",
+    ["D"] = "Venomhides are vicious and must be trained from the moment they hatch.\n\nIf you want to ride one, you\'ll need an unhatched egg. Scattered throughout the Marshlands are a number of ravasaur nests. Look for the eggs with lighter colored shells -- those are the ones that will hatch venomhides.\n\nIf you bring me several of the eggs, I\'ll allow you to keep one and raise its hatchling, with my guidance.",
   },
   [14087] = {
     ["T"] = "Learn to Ride in Mulgore",
