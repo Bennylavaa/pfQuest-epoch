@@ -1157,11 +1157,30 @@ pfMap.NodeEnter = function()
       end
 
       tooltip:AddLine(text, .6, .6, .6)
+
+      local unitData = pfDB["units"]["data"][this.spawnid]
+      if unitData and unitData["rnk"] and pfQuestEpochLoot.HasDrops(this.spawnid) then
+        tooltip:AddLine(pfQuest_Loc["Alt-Click To Show Item Drops"] or "Alt-Click To Show Item Drops", .6, .6, .6)
+      end
+
       tooltip:Show()
     end
 
     pfMap.highlight = pfQuest_config["mouseover"] == "1" and this.title
   end
+end
+
+local originalNodeClick = pfMap.NodeClick
+pfMap.NodeClick = function()
+  if IsAltKeyDown() and this.spawnid then
+    local unitData = pfDB["units"]["data"][this.spawnid]
+    if unitData and unitData["rnk"] then
+      pfQuestEpochLoot.ShowPinned(this)
+      return
+    end
+  end
+
+  if originalNodeClick then originalNodeClick() end
 end
 
 -- Yoinked from https://github.com/shagu/pfQuest/pull/301 props to BlacRyu
