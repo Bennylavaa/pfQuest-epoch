@@ -2,7 +2,7 @@ pfDB["quests"]["data-epoch"] = {
   -- race flags according to: https://github.com/shagu/pfQuest/blob/104f35678ca39ab1fb78b655f815cc7016f5e0c8/database.lua#L331
   -- ["race"] = 77,  -- <- available to Alliance: Human, Dwarf, NightElf, Gnome -> 1 + 4 + 8 + 64 = 77
   -- ["race"] = 178, -- <- available to Horde: Orc, Scourge/Undead, Tauren, Troll -> 2 + 16 + 32 + 128 = 178
-  -- ["race"] = 255, -- <- available for all races:  Human, Dwarf, NightElf, Gnome, Orc, Scourge/Undead, Tauren, Troll
+  -- ["race"] = 255, -- <- available for all races: Human, Dwarf, NightElf, Gnome, Orc, Scourge/Undead, Tauren, Troll
   [5] = {
     ["start"] = {
       ["U"] = { 288 },
@@ -18322,7 +18322,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 45982 },
     },
     ["obj"] = {
-	  ["I"] = { 62917 },
+      ["I"] = { 62917 },
     },
     ["pre"] = { 27063 },
     ["next"] = 27065,
@@ -18337,7 +18337,7 @@ pfDB["quests"]["data-epoch"] = {
       ["U"] = { 45982 },
     },
     ["obj"] = {
-	  ["O"] = { 250388 },
+      ["O"] = { 250388 },
     },
     ["pre"] = { 27064 },
     ["next"] = 27066,
@@ -35255,7 +35255,7 @@ pfDB["quests"]["data-epoch"] = {
     ["end"] = {
       ["U"] = { 46934 },
     },
-    ["pre"] = { 28723  },
+    ["pre"] = { 28723 },
     ["class"] = 256,
     ["lvl"] = 1,
     ["min"] = 1,
@@ -35472,7 +35472,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 65762 },
     },
-    ["pre"] = { 28723  },
+    ["pre"] = { 28723 },
     ["next"] = 28758,
     ["lvl"] = 3,
     ["min"] = 1,
@@ -35501,7 +35501,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 65764 },
     },
-    ["pre"] = { 28723  },
+    ["pre"] = { 28723 },
     ["lvl"] = 3,
     ["min"] = 1,
   },
@@ -35668,69 +35668,69 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 55,
   },
   [31001] = {
-	  ["start"] = {
-      ["U"] = { 14392 },
-	  },
-	  ["end"] = {
+    ["start"] = {
       ["U"] = { 14392 },
     },
-	  ["obj"] = {
-	    ["I"] = { 90077 },
+    ["end"] = {
+      ["U"] = { 14392 },
+    },
+    ["obj"] = {
+      ["I"] = { 90077 },
       ["A"] = { 4000018 },
-	  },
+    },
     ["lvl"] = 57,
     ["min"] = 56,
-	  ["race"] = 178,
+    ["race"] = 178,
   },
   [31002] = {
-	  ["start"] = {
-      ["U"] = { 12480 },
-	  },
-	  ["end"] = {
+    ["start"] = {
       ["U"] = { 12480 },
     },
-	  ["obj"] = {
-	    ["I"] = { 90078 },
+    ["end"] = {
+      ["U"] = { 12480 },
+    },
+    ["obj"] = {
+      ["I"] = { 90078 },
       ["A"] = { 4000018 },
-	  },
+    },
     ["lvl"] = 60,
     ["min"] = 58,
-	  ["race"] = 77,
+    ["race"] = 77,
     ["next"] = 31007,
   },
   [31003] = {
-	  ["start"] = {
+    ["start"] = {
       ["O"] = { 5000075 },
-	  },
-	  ["end"] = {
+    },
+    ["end"] = {
       ["U"] = { 8125 },
     },
     ["skill"] = 185,
     ["skillmin"] = 300,
     ["lvl"] = 60,
     ["min"] = 58,
-	  ["next"] = 31004,
+    ["next"] = 31004,
   },
   [31004] = {
-	  ["start"] = {
-      ["U"] = { 8125 },
-	  },
-	  ["end"] = {
+    ["start"] = {
       ["U"] = { 8125 },
     },
-	  ["obj"] = {
-	    ["I"] = { 4541, 90073, 90074 },
-	  },
+    ["end"] = {
+      ["U"] = { 8125 },
+    },
+    ["obj"] = {
+      ["I"] = { 4541, 90073, 90074 },
+    },
     ["lvl"] = 60,
     ["min"] = 58,
     ["pre"] = { 31003 },
     ["next"] = 31005,
   },
   [31005] = {
-	  ["start"] = {
+    ["start"] = {
       ["U"] = { 8125 },
-	  },
-	  ["end"] = {
+    },
+    ["end"] = {
       ["U"] = { 8125 },
     },
     ["lvl"] = 60,
@@ -35746,9 +35746,9 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 60,
     ["min"] = 58,
-	  ["race"] = 178,
+    ["race"] = 178,
     ["pre"] = { 8998 }, -- guessing based on quest text
-	  ["next"] = 31008,
+    ["next"] = 31008,
   },
   [31007] = {
     ["start"] = {
@@ -35759,9 +35759,9 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 60,
     ["min"] = 58,
-	  ["race"] = 77,
+    ["race"] = 77,
     ["pre"] = { 8997 }, -- guessing based on quest text
-	  ["next"] = 31009,
+    ["next"] = 31009,
   },
   [31008] = {
     ["start"] = {
@@ -35772,9 +35772,9 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 60,
     ["min"] = 58,
-	  ["race"] = 178,
+    ["race"] = 178,
     ["pre"] = { 31006 },
-	  ["next"] = 31010,
+    ["next"] = 31010,
   },
   [31009] = {
     ["start"] = {
@@ -35785,9 +35785,9 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 60,
     ["min"] = 58,
-	  ["race"] = 77,
+    ["race"] = 77,
     ["pre"] = { 31007 },
-	  ["next"] = 31011,
+    ["next"] = 31011,
   },
   [31010] = {
     ["start"] = {
@@ -35798,7 +35798,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 60,
     ["min"] = 60,
-	  ["race"] = 178,
+    ["race"] = 178,
     ["pre"] = { 31008 },
     ["next"] = 31012,
   },
@@ -35811,7 +35811,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["lvl"] = 60,
     ["min"] = 60,
-	  ["race"] = 77,
+    ["race"] = 77,
     ["pre"] = { 31009 },
     ["next"] = 31012,
   },
@@ -35891,9 +35891,9 @@ pfDB["quests"]["data-epoch"] = {
     ["end"] = {
       ["U"] = { 11034 },
     },
-	  ["obj"] = {
-	    ["I"] = { 13180, 12360, 11083, 17029, 17033 },
-	  },
+    ["obj"] = {
+      ["I"] = { 13180, 12360, 11083, 17029, 17033 },
+    },
     ["lvl"] = 60,
     ["min"] = 60,
     ["pre"] = { 31016 },
@@ -36045,7 +36045,7 @@ pfDB["quests"]["data-epoch"] = {
     ["min"] = 60,
     ["pre"] = { 31026 },
     ["next"] = 31028,
-  },  
+  },
   [31028] = {
     ["start"] = {
       ["U"] = { 90074 },

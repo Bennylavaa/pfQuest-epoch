@@ -77,7 +77,7 @@ Both quest NPCs and mobs are in this file.
     },
     ["fac"] = faction, -- A (Alliance), H (Horde), AH (both), omitting this option means it's hostile
     ["lvl"] = level, -- can be ranges like 21-23
-    ["rnk"] = rank  -- no rank / 0 = normal mob, 1 = Elite, 2 = Elite Rare, 3 = Boss (World Boss / Raid Bosses / Faction Leaders), 4 = Rare => classification information from: https://www.wowhead.com/classic/npcs/classification:3
+    ["rnk"] = rank -- no rank / 0 = normal mob, 1 = Elite, 2 = Elite Rare, 3 = Boss (World Boss / Raid Bosses / Faction Leaders), 4 = Rare => classification information from: https://www.wowhead.com/classic/npcs/classification:3
 },
 ```
 

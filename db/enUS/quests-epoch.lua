@@ -4,7 +4,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [11] = {
     ["T"] = "Riverpaw Gnoll Bounty",
     ["O"] = "Bring 8 Painted Gnoll Armbands to Deputy Rainer at the Barracks.",
-    ["D"] = "Gnolls, brutish creatures with no decent business in these lands, have been seen along the borders of Elwynn Forest.  A large pack of them, many more than we can handle alone, have infested the woods south of the guard tower yonder.  Another group has infested the areas near Stone Cairn Lake to the east.\n\nThe Stormwind Army will commend whomever helps kill them.  Bring me their painted gnoll armbands as proof of your deed.",
+    ["D"] = "Gnolls, brutish creatures with no decent business in these lands, have been seen along the borders of Elwynn Forest. A large pack of them, many more than we can handle alone, have infested the woods south of the guard tower yonder. Another group has infested the areas near Stone Cairn Lake to the east.\n\nThe Stormwind Army will commend whomever helps kill them. Bring me their painted gnoll armbands as proof of your deed.",
   },
   [76] = {
     ["T"] = "The Jasperlode Mine",
@@ -19,7 +19,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [465] = {
     ["T"] = "Gujek\'s Gambit",
     ["O"] = "Destroy the Dragonmaw catapults.",
-    ["D"] = "While you were fighting the Dragonmaws, we discovered more of their plans.\nGujek has built catapults and aims to lay siege to Menethil!  And with the fighting in Dun Algaz, we\'re effectively blocked from reinforcements!\nYou need to take out those catapults.  They\'re in the Dragonmaw encampment.\nHere, take this tinder.  Fight your way to the catapults and light them with the tinder.\nAnd after you\'ve done that, find and kill Gujek.  We need to cut this Dragonmaw beast down...at its neck.",
+    ["D"] = "While you were fighting the Dragonmaws, we discovered more of their plans.\nGujek has built catapults and aims to lay siege to Menethil! And with the fighting in Dun Algaz, we\'re effectively blocked from reinforcements!\nYou need to take out those catapults. They\'re in the Dragonmaw encampment.\nHere, take this tinder. Fight your way to the catapults and light them with the tinder.\nAnd after you\'ve done that, find and kill Gujek. We need to cut this Dragonmaw beast down...at its neck.",
   },
   [474] = {
     ["T"] = "Defeat Gujek",
@@ -50,12 +50,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [1132] = {
     ["T"] = "Fiora Longears",
     ["O"] = "Speak with Fiora Longears in Theramore.",
-    ["D"] = "Oh, to be at sea once again!  To feel the kiss of the wind, and to have the waves rock me like my blessed mother, long ago!\nOh, I wish I had your fortune, good $C, for I see the sea in your future!\nIt\'s my job to tell eager souls of the land of Kalimdor, the land of opportunity!  If you\'re willing to try your luck across the sea, then take a ship from here to the lovely port of Theramore.  Speak there with my partner, the elf, Fiora Longears.\nShe\'ll start you on your Kalimdor adventure!",
+    ["D"] = "Oh, to be at sea once again! To feel the kiss of the wind, and to have the waves rock me like my blessed mother, long ago!\nOh, I wish I had your fortune, good $C, for I see the sea in your future!\nIt\'s my job to tell eager souls of the land of Kalimdor, the land of opportunity! If you\'re willing to try your luck across the sea, then take a ship from here to the lovely port of Theramore. Speak there with my partner, the elf, Fiora Longears.\nShe\'ll start you on your Kalimdor adventure!",
   },
   [1218] = {
     ["T"] = "Marsh Frog Legs",
     ["O"] = "Bring 3 Soothing Spices to \"Swamp Eye\" Jarl in Dustwallow Marsh.",
-    ["D"] = "I like cooking.  Good swamp cooking.  Fried green frog legs and the like.\nAnd for cooking, I need spice.  Soothing spice.  Then I\'ll make a stew and stew it up and suck it down and give you some too.\nDo you like stew?",
+    ["D"] = "I like cooking. Good swamp cooking. Fried green frog legs and the like.\nAnd for cooking, I need spice. Soothing spice. Then I\'ll make a stew and stew it up and suck it down and give you some too.\nDo you like stew?",
   },
   [1288] = {
     ["T"] = "Vimes\'s Report",
@@ -165,42 +165,42 @@ pfDB["quests"]["enUS-epoch"] = {
   [8905] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.",
   },
   [8906] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker\'s Bindings to Deliana in Ironforge.",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.",
   },
   [8907] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Magister\'s Bindings to Deliana in Ironforge.",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.",
   },
   [8908] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Lightforge Bracers to Deliana in Ironforge.",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.",
   },
   [8909] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with 1 set of Devout Bracers to Deliana in Ironforge.",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.",
   },
   [8910] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Shadowcraft Bracers to Deliana in Ironforge.\n",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.",
   },
   [8911] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Dreadmist Bracers to Deliana in Ironforge.\n",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.",
   },
   [8912] = {
     ["T"] = "An Earnest Proposition",
     ["O"] = "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Bracers of Valor to Deliana in Ironforge.",
-    ["D"] = "Well met, $C.  I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.\n",
+    ["D"] = "Well met, $C. I\'ve something that might interest you.\n\nI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality. I\'d be willing to trade the bracers for ordinary ones in exchange for a small favor.\n\nThe blood of the frostsabers and bears that inhabit Winterspring has properties I\'m in need of at the moment. Bring me a sizeable sample of it along with the bracers and a small amount of gold. You shall find the effort worth your while.\n",
   },
   [8913] = {
     ["T"] = "An Earnest Proposition",
@@ -245,12 +245,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [8921] = {
     ["T"] = "The Ectoplasmic Distiller",
     ["O"] = "Return to Mux Manascrambler in Gadgetzan with 1 Delicate Arcanite Converter, 4 Greater Eternal Essence, 10 Stonescale Oil, 25 Volcanic Ash and 40 gold.",
-    ["D"] = "Ah, you\'re in need of my latest project... the extra-dimensional ghost revealer!  Unfortunately I\'ve run out of funds and manpower.\n\nYou\'re willing to help?  Excellent!  Our first task is to build a device to harvest the very fabric of death!  Building an ectoplasmic distiller won\'t be an easy task, $N.\n\nI\'ll need you to bring me an arcanite converter, some greater eternal essences and stonescale oil. I\'ll also need some volcanic ash from the lava pools in the Burning Steppes to build a filter.",
+    ["D"] = "Ah, you\'re in need of my latest project... the extra-dimensional ghost revealer! Unfortunately I\'ve run out of funds and manpower.\n\nYou\'re willing to help? Excellent! Our first task is to build a device to harvest the very fabric of death! Building an ectoplasmic distiller won\'t be an easy task, $N.\n\nI\'ll need you to bring me an arcanite converter, some greater eternal essences and stonescale oil. I\'ll also need some volcanic ash from the lava pools in the Burning Steppes to build a filter.",
   },
   [8922] = {
     ["T"] = "A Supernatural Device",
     ["O"] = "Bring the Sealed Blood Container to Mux Manascrambler inside Gadgetzan in Tanaris.",
-    ["D"] = "I must find a way to speak with Anthion Harmon... or more specifically, his ghost!\n\nI know of an engineer with a queer interest in the supernatural.  He claims he can build a machine that allows him to speak with the dead!\n\nThe blood you collected was intended for him; travel to Gadgetzan and bring it to him as payment for his services! ",
+    ["D"] = "I must find a way to speak with Anthion Harmon... or more specifically, his ghost!\n\nI know of an engineer with a queer interest in the supernatural. He claims he can build a machine that allows him to speak with the dead!\n\nThe blood you collected was intended for him; travel to Gadgetzan and bring it to him as payment for his services! ",
   },
   [8923] = {
     ["T"] = "A Supernatural Device",
@@ -265,7 +265,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [8925] = {
     ["T"] = "A Portable Power Source",
     ["O"] = "Find Magma Lord Bokk in the Burning Steppes, obtain his Magma Core and bring it to Mux Manascrambler in Gadgetzan.",
-    ["D"] = "Next we shall need to find a stable and portable source of energy to keep the ectoplasm active.  I\'ve heard rumors of a mighty elemental called Magma Lord Bokk, whose heart is a powerful magma core - an endless supply of heat!\n\nIt\'s said he can be found in the Burning Steppes, south of Blackrock Mountain.  Bring the magma core to me and we shall have enough juice to power the extra-dimensional ghost revealer!",
+    ["D"] = "Next we shall need to find a stable and portable source of energy to keep the ectoplasm active. I\'ve heard rumors of a mighty elemental called Magma Lord Bokk, whose heart is a powerful magma core - an endless supply of heat!\n\nIt\'s said he can be found in the Burning Steppes, south of Blackrock Mountain. Bring the magma core to me and we shall have enough juice to power the extra-dimensional ghost revealer!",
   },
   [8926] = {
     ["T"] = "Just Compensation",
@@ -280,27 +280,27 @@ pfDB["quests"]["enUS-epoch"] = {
   [8928] = {
     ["T"] = "A Shifty Merchant",
     ["O"] = "Search for an imp inside a cave at the entrance of Darkwhisper Gorge in southern Winterspring, purchase a Fel Elemental Rod and return to Mux Manascrambler in Gadgetzan.",
-    ["D"] = "The core will provide us with enough juice to power our device; now we just have to build a rod that can channel that energy without melting.\n\nI met an imp in Winterspring that sold all manner of exotic goods.  He had an elemental rod that would do perfectly.  I\'m kicking myself in the head right now for not having bought it.\n\nHe lives inside a cave in the entrance to Darkwhisper Gorge.  Sneak in there and try to find him.\n\nMake sure he only charges you forty gold; that\'s the price he quoted me!",
+    ["D"] = "The core will provide us with enough juice to power our device; now we just have to build a rod that can channel that energy without melting.\n\nI met an imp in Winterspring that sold all manner of exotic goods. He had an elemental rod that would do perfectly. I\'m kicking myself in the head right now for not having bought it.\n\nHe lives inside a cave in the entrance to Darkwhisper Gorge. Sneak in there and try to find him.\n\nMake sure he only charges you forty gold; that\'s the price he quoted me!",
   },
   [8929] = {
     ["T"] = "In Search of Anthion",
     ["O"] = "Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon.",
-    ["D"] = "Well, nothing left for us to do but try out the goblin\'s invention.  Word has it that Anthion was mowed down by the undead legions of Stratholme as he tried to enter its gates.\n\nTry using the device there and find out whatever Anthion knew.",
+    ["D"] = "Well, nothing left for us to do but try out the goblin\'s invention. Word has it that Anthion was mowed down by the undead legions of Stratholme as he tried to enter its gates.\n\nTry using the device there and find out whatever Anthion knew.",
   },
   [8930] = {
     ["T"] = "In Search of Anthion",
     ["O"] = "Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon.",
-    ["D"] = "Very well, $N.  All that remains is to put the goblin\'s invention to the test.  Word has it that Anthion was slain by the undead legions of Stratholme as he tried to enter its gates.\n\nTry using the device there and see if, indeed, you can speak with the dead!",
+    ["D"] = "Very well, $N. All that remains is to put the goblin\'s invention to the test. Word has it that Anthion was slain by the undead legions of Stratholme as he tried to enter its gates.\n\nTry using the device there and see if, indeed, you can speak with the dead!",
   },
   [8931] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Beaststalker\'s Belt and a set of Beaststalker\'s Gloves to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me an ordinary belt and a set of gloves that you wish to upgrade.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me an ordinary belt and a set of gloves that you wish to upgrade.",
   },
   [8932] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Magister\'s Belt and a set of Magister\'s Gloves to Deliana in Ironforge.\n",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me an ordinary belt and a set of gloves that you wish to upgrade.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me an ordinary belt and a set of gloves that you wish to upgrade.",
   },
   [8933] = {
     ["T"] = "Just Compensation",
@@ -315,12 +315,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [8935] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Shadowcraft Belt and a set of Shadowcraft Gloves to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. I promise the ones I give you in return will be far superior.",
   },
   [8936] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Dreadmist Belt and a set of Dreadmist Wraps to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. I promise the ones I give you in return will be far superior.",
   },
   [8937] = {
     ["T"] = "Just Compensation",
@@ -330,12 +330,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [8938] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Beaststalker\'s Belt and a set of Beaststalker\'s Gloves to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [8939] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Magister\'s Belt and a set of Magister\'s Gloves to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [8940] = {
     ["T"] = "Just Compensation",
@@ -345,7 +345,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [8941] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Shadowcraft Belt and a set of Shadowcraft Gloves to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [8942] = {
     ["T"] = "Just Compensation",
@@ -355,7 +355,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [8943] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a Dreadmist Belt and a set of Dreadmist Wraps to Mokvar in Orgrimmar.\n",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [8944] = {
     ["T"] = "Just Compensation",
@@ -365,27 +365,27 @@ pfDB["quests"]["enUS-epoch"] = {
   [8945] = {
     ["T"] = "Dead Man\'s Plea",
     ["O"] = "Go into Stratholme and rescue Ysida Harmon from Baron Rivendare.",
-    ["D"] = "I\'ll provide you the information you ask for, $N.  But more pressing matters are at hand.\n\nMy beloved wife has been taken prisoner by Rivendare\'s undead scum.\n\nI strongly objected to her joining the Argent Dawn\'s foolish crusade, yet that\'s not of importance anymore.  You must finish what I attempted to do, you must rescue Ysida from the clutches of the Baron!",
+    ["D"] = "I\'ll provide you the information you ask for, $N. But more pressing matters are at hand.\n\nMy beloved wife has been taken prisoner by Rivendare\'s undead scum.\n\nI strongly objected to her joining the Argent Dawn\'s foolish crusade, yet that\'s not of importance anymore. You must finish what I attempted to do, you must rescue Ysida from the clutches of the Baron!",
   },
   [8946] = {
     ["T"] = "Proof of Life",
     ["O"] = "Bring Ysida\'s Locket to Anthion Harmon in Eastern Plaguelands.",
-    ["D"] = "It is the cruelest of fates that my beloved has perished while trying to rescue me.  Yet, you claim to possess the ability to converse with him.\n\nBring him this locket as proof that I am well.  He must not linger in this world; my heart would not be able to bear it.\n\nFarewell, $N.  I shall be in your debt always.",
+    ["D"] = "It is the cruelest of fates that my beloved has perished while trying to rescue me. Yet, you claim to possess the ability to converse with him.\n\nBring him this locket as proof that I am well. He must not linger in this world; my heart would not be able to bear it.\n\nFarewell, $N. I shall be in your debt always.",
   },
   [8947] = {
     ["T"] = "Anthion\'s Strange Request",
     ["O"] = "Bring 3 Dark Iron Bars, 20 Enchanted Leather, 3 Mooncloth and 4 Cured Rugged Hides to Anthion Harmon in the Eastern Plaguelands.",
-    ["D"] = "We didn\'t realize the importance of Valthalak\'s medallion, so it was divided along with the rest of the spoils.  The first piece was taken by a dwarf named Theldren.  I tried to retrieve it from him and he beat me within an inch of my life.  You shall have to take the fragment by force.\n\nLast I heard of him, he\'d become a gladiator for the Dark Iron dwarves.  Getting him to fight you is going to present a bit of a challenge, though.\n\nGather the following materials for me.  You\'re going to need them.",
+    ["D"] = "We didn\'t realize the importance of Valthalak\'s medallion, so it was divided along with the rest of the spoils. The first piece was taken by a dwarf named Theldren. I tried to retrieve it from him and he beat me within an inch of my life. You shall have to take the fragment by force.\n\nLast I heard of him, he\'d become a gladiator for the Dark Iron dwarves. Getting him to fight you is going to present a bit of a challenge, though.\n\nGather the following materials for me. You\'re going to need them.",
   },
   [8948] = {
     ["T"] = "Anthion\'s Old Friend",
     ["O"] = "Take the incomplete Banner of Provocation to Falrin Treeshaper inside the prison of Tol Barad.",
-    ["D"] = "Theldren is not one to willingly participate in a fair fight.  I\'ve shaped this banner to display his family colors.\n\nWith some additional sorcery, this banner shall provoke him in a way he won\'t be able to resist.\n\nAn old acquaintance of mine named Falrin knows the exact procedure required.  He has a particular way of... aggravating people.  Last I heard he was locked up in Tol Barad, I hope that isn\'t a problem.",
+    ["D"] = "Theldren is not one to willingly participate in a fair fight. I\'ve shaped this banner to display his family colors.\n\nWith some additional sorcery, this banner shall provoke him in a way he won\'t be able to resist.\n\nAn old acquaintance of mine named Falrin knows the exact procedure required. He has a particular way of... aggravating people. Last I heard he was locked up in Tol Barad, I hope that isn\'t a problem.",
   },
   [8949] = {
     ["T"] = "The Instigator\'s Enchantment <NYI>",
     ["O"] = "Defend Falrin Treeshaper from the pirate ambush in Tol Barad, then speak with him again afterwards.",
-    ["D"] = "Yes, it is true that I am familiar with the enchantment you require, $C.  Unfortunately I need some materials that I do not have with me, seeing as I am in a prison cell. If you can bring --\n\nLook out, pirates!",
+    ["D"] = "Yes, it is true that I am familiar with the enchantment you require, $C. Unfortunately I need some materials that I do not have with me, seeing as I am in a prison cell. If you can bring --\n\nLook out, pirates!",
   },
   [8950] = {
     ["T"] = "The Instigator\'s Enchantment",
@@ -395,52 +395,52 @@ pfDB["quests"]["enUS-epoch"] = {
   [8951] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Wildheart Boots.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8952] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Beaststalker\'s Boots, Beaststalker\'s Pants and Beaststalker\'s Mantle.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8953] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Magister\'s Boots, Magister\'s Leggings and Magister\'s Mantle.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8954] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Lightforge Boots.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8955] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Devout Sandals.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8956] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Shadowcraft Boots, Shadowcraft Pants and Shadowcraft Spaulders.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8957] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Mokvar in Orgrimmar with a set of Boots of Elements.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8958] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Dreadmist Sandals, Dreadmist Leggings and Dreadmist Mantle.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8959] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Return to Deliana in Ironforge with a set of Boots of Valor.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [8960] = {
     ["T"] = "Bodley\'s Unfortunate Fate",
     ["O"] = "Travel to Blackrock Mountain and use the Extra-Dimensional Ghost Revealer to find Bodley near Blackrock Spire.",
-    ["D"] = "So we need to recover the rest of the medallion?  Finding Bodley\'s going to be a bit of a headache.  He went back to Blackrock Mountain to attempt to re-enter Blackrock Spire and never came back.\n\nI\'d suggest taking the goblin\'s ghost revealing device with you, as I fear the worst might have happened.",
+    ["D"] = "So we need to recover the rest of the medallion? Finding Bodley\'s going to be a bit of a headache. He went back to Blackrock Mountain to attempt to re-enter Blackrock Spire and never came back.\n\nI\'d suggest taking the goblin\'s ghost revealing device with you, as I fear the worst might have happened.",
   },
   [8961] = {
     ["T"] = "Two Kings of Flame",
@@ -494,13 +494,13 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [8977] = {
     ["T"] = "Return to Deliana",
-    ["O"] = "Bring the Extra-Dimensional Ghost Revealer  to Deliana in Ironforge.",
-    ["D"] = "It\'s been great working with you, $N.  Here is the finished product.\n\nI hope it helps you in your current endeavors.  And hey, if you don\'t mind, help spread the word.  I wouldn\'t mind having more customers!",
+    ["O"] = "Bring the Extra-Dimensional Ghost Revealer to Deliana in Ironforge.",
+    ["D"] = "It\'s been great working with you, $N. Here is the finished product.\n\nI hope it helps you in your current endeavors. And hey, if you don\'t mind, help spread the word. I wouldn\'t mind having more customers!",
   },
   [8978] = {
     ["T"] = "Return to Mokvar",
     ["O"] = "Return to Mokvar in Orgrimmar with the Extra-Dimensional Ghost Revealer.",
-    ["D"] = "It\'s been great working with you, $N.  Here is the finished product.\n\nI hope it helps you in your current endeavors.  And hey, if you don\'t mind, help spread the word.  I wouldn\'t mind having more customers!",
+    ["D"] = "It\'s been great working with you, $N. Here is the finished product.\n\nI hope it helps you in your current endeavors. And hey, if you don\'t mind, help spread the word. I wouldn\'t mind having more customers!",
   },
   [8979] = {
     ["T"] = "Fenstad\'s Hunch",
@@ -660,12 +660,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [9609] = {
     ["T"] = "Help Watcher Biggs",
     ["O"] = "Find Watcher Biggs in the Swamp of Sorrows.",
-    ["D"] = "Magtoor has informed me that there\'s a stranded watcher nearby.  Apparently the caravan he was escorting from Darkshire was attacked by Lost Ones.  It sounds as if he\'s the sole survivor.\nHe\'s somewhere to the south.  Please, $C, lend him your aid.",
+    ["D"] = "Magtoor has informed me that there\'s a stranded watcher nearby. Apparently the caravan he was escorting from Darkshire was attacked by Lost Ones. It sounds as if he\'s the sole survivor.\nHe\'s somewhere to the south. Please, $C, lend him your aid.",
   },
   [9610] = {
     ["T"] = "Pool of Tears",
     ["O"] = "Obtain 10 Atal\'ai Artifacts and return them to Finmir at the Harborage in the Swamp of Sorrows.",
-    ["D"] = "I am interested in studying Azeroth\'s past and I\'m wondering if you\'d be willing to help?\nThere is a nearby place of historical significance within the swamp that I would like for you to venture to.  The Pool of Tears lies to the southeast.  It is said that upon its shores and within its depths are buried artifacts of the Atal\'ai troll civilization.\nBut beware, it is guarded by Somnus, an ancient green dragon, and his dragonkin, as well as carnivorous fish in the pool itself!",
+    ["D"] = "I am interested in studying Azeroth\'s past and I\'m wondering if you\'d be willing to help?\nThere is a nearby place of historical significance within the swamp that I would like for you to venture to. The Pool of Tears lies to the southeast. It is said that upon its shores and within its depths are buried artifacts of the Atal\'ai troll civilization.\nBut beware, it is guarded by Somnus, an ancient green dragon, and his dragonkin, as well as carnivorous fish in the pool itself!",
   },
   [11160] = {
     ["T"] = "Banner of the Stonemaul",
@@ -1285,22 +1285,22 @@ pfDB["quests"]["enUS-epoch"] = {
   [26219] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Wildheart Gloves to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. I promise the ones I give you in return will be far superior.",
   },
   [26220] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Wildheart Gloves to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [26221] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Wildheart Spaulders to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26222] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Wildheart Spaulders to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26223] = {
     ["T"] = "Saving the Best for Last",
@@ -1315,32 +1315,32 @@ pfDB["quests"]["enUS-epoch"] = {
   [26225] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a Wildheart Kilt to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26226] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a Wildheart Kilt to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26227] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Lightforge Gauntlets to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gauntlets that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gauntlets that you wish to upgrade. I promise the ones I give you in return will be far superior.",
   },
   [26228] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Lightforge Gauntlets to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [26229] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Lightforge Shoulders to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26230] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Lightforge Shoulders to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26231] = {
     ["T"] = "Saving the Best for Last",
@@ -1355,32 +1355,32 @@ pfDB["quests"]["enUS-epoch"] = {
   [26233] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a pair of Lightforge Legplates to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26234] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a pair of Lightforge Legplates to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26235] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Devout Gloves to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. I promise the ones I give you in return will be far superior.",
   },
   [26236] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Devout Gloves to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gloves. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [26237] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a Devout Mantle to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26238] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a Devout Mantle to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26239] = {
     ["T"] = "Saving the Best for Last",
@@ -1395,12 +1395,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [26241] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a Devout Skirt to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26242] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a pair of Soulforge Legplates to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26243] = {
     ["T"] = "Blazing Gemstone",
@@ -1430,22 +1430,22 @@ pfDB["quests"]["enUS-epoch"] = {
   [26248] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Gauntlets of Elements to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gloves that you wish to upgrade. I promise the ones I give you in return will be far superior.",
   },
   [26249] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Gauntlets of Elements to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gauntlets.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gauntlets. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [26250] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Pauldrons of Elements to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26251] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Pauldrons of Elements to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26252] = {
     ["T"] = "Saving the Best for Last",
@@ -1460,32 +1460,32 @@ pfDB["quests"]["enUS-epoch"] = {
   [26254] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a Kilt of Elements to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26255] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a Kilt of Elements to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26256] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Gauntlets of Valor to Deliana in Ironforge.",
-    ["D"] = "You kept your word and brought the device built by Mux.  I believe a reward is in order if I\'m to keep you interested in saving my skin.  Bring me the belt and set of gauntlets that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+    ["D"] = "You kept your word and brought the device built by Mux. I believe a reward is in order if I\'m to keep you interested in saving my skin. Bring me the belt and set of gauntlets that you wish to upgrade. I promise the ones I give you in return will be far superior.",
   },
   [26257] = {
     ["T"] = "Just Compensation",
     ["O"] = "Bring a set of Gauntlets of Valor to Mokvar in Orgrimmar.",
-    ["D"] = "You\'ve proven to be a very reliable individual, $N.  As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gauntlets.  If we both see this through I shall make the rest of the pieces available to you.",
+    ["D"] = "You\'ve proven to be a very reliable individual, $N. As much as I trust that you\'ll help me through this predicament, it would be wise of me to reward you according to your performance.\n\nFor now I will exchange your belt and gauntlets. If we both see this through I shall make the rest of the pieces available to you.",
   },
   [26258] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Spaulders of Valor to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26259] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a set of Spaulders of Valor to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26260] = {
     ["T"] = "Saving the Best for Last",
@@ -1500,12 +1500,12 @@ pfDB["quests"]["enUS-epoch"] = {
   [26262] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a pair of Legplates of Valor to Deliana in Ironforge.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together.  Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces.  Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the medallion back together. Return to Deliana and tell her that Bodley is her only hope for finding the remaining pieces. Speak to her about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26263] = {
     ["T"] = "Anthion\'s Parting Words",
     ["O"] = "Bring a pair of Legplates of Valor to Mokvar in Orgrimmar.",
-    ["D"] = "Valthalak\'s soul was stored in this amulet.  In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together.  Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces.  Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace.  I wish you the best of luck; you shall need every bit of it!",
+    ["D"] = "Valthalak\'s soul was stored in this amulet. In our greed we foolishly split it into three parts, not knowing the curse that would await us.\n\nThe only way to stop Valthalak\'s spell is to put the amulet back together. Return to Mokvar and tell him that Bodley is his only hope for finding the remaining pieces. Speak to him about any rewards you\'ve arranged for.\n\nI, for once, shall rest in peace. I wish you the best of luck; you shall need every bit of it!",
   },
   [26264] = {
     ["T"] = "Contract #1010: Magical Residue",
@@ -1870,7 +1870,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26336] = {
     ["T"] = "Stewel\'s Revenge",
     ["O"] = "Kill Lorin Remka.",
-    ["D"] = "I wish I could rely on the system of justice to mete out appropriate punishment, but there is little hope that the leaders of Stormwind will care about crimes committed in Lordaeron years before.  \n\nMy father would not have approved of my desire to avenge him. He even made me promise not to raise a hand against those fools, should the operation go wrong. There is a way I can keep the letter of that promise and my conscience will be clear. You must act as my hand of vengeance. If you do, I will tell you what you want to know.\n\nLorin Remka must die. Blood shall pay for blood.",
+    ["D"] = "I wish I could rely on the system of justice to mete out appropriate punishment, but there is little hope that the leaders of Stormwind will care about crimes committed in Lordaeron years before. \n\nMy father would not have approved of my desire to avenge him. He even made me promise not to raise a hand against those fools, should the operation go wrong. There is a way I can keep the letter of that promise and my conscience will be clear. You must act as my hand of vengeance. If you do, I will tell you what you want to know.\n\nLorin Remka must die. Blood shall pay for blood.",
   },
   [26337] = {
     ["T"] = "The Necromancer and the Scion",
@@ -2835,7 +2835,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26529] = {
     ["T"] = "The Argus Wake in Desolace",
     ["O"] = "Use the Periapt of Polymorph to subdue Zala\'thria, then return to Felicity Perenolde in Desolace.",
-    ["D"] = "I\'ve been observing these warlocks for awhile and they are allied to the Burning Blade, not the Argus Wake. But there are many organizations within the Legion and they likely know where their sister group is conducting operations in Desolace.\n\nThere is some big demon parading around as a leader, but the smart spy looks under the surface (or so Lord Ravenholdt told me).  While the demon may hold a big sword, the real power behind this group is a warlock named Zala\'thria. She is found just below us, in the ruins of that temple.\n\nThere\'s some folks in the way of getting to her so I need your muscle to clear them out. We need her alive, so use this little talisman Lord Ravenholdt gave to me. It should make her easier to handle. I\'ll come collect her when you\'re done.\n\n<Felicity giggles.>",
+    ["D"] = "I\'ve been observing these warlocks for awhile and they are allied to the Burning Blade, not the Argus Wake. But there are many organizations within the Legion and they likely know where their sister group is conducting operations in Desolace.\n\nThere is some big demon parading around as a leader, but the smart spy looks under the surface (or so Lord Ravenholdt told me). While the demon may hold a big sword, the real power behind this group is a warlock named Zala\'thria. She is found just below us, in the ruins of that temple.\n\nThere\'s some folks in the way of getting to her so I need your muscle to clear them out. We need her alive, so use this little talisman Lord Ravenholdt gave to me. It should make her easier to handle. I\'ll come collect her when you\'re done.\n\n<Felicity giggles.>",
   },
   [26530] = {
     ["T"] = "The Argus Wake in Desolace",
@@ -3180,7 +3180,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26598] = {
     ["T"] = "Collecting on Debt",
     ["O"] = "Loot Grox\'s merchandise off of John Taylor, Joel Taylor, and Joshua Taylor inside Felstone Fortress.",
-    ["D"] = "I\'ve got a problem that needs some muscle.\n\nSome deadbeats here in the fortress owe me big -- a trio of undead brothers. When  we docked here time before last, they each wanted something I was selling, but didn\'t have the coin on hand. I agreed to let them have the items, so long as they\'d pay me next time I stop in.\n\nWell guess what? I\'m still waiting on those payments! A goblin never forgets, $R, and don\'t you forget it!\n\nOne\'s got a staff of mine, the other a timepiece, and the last one a magical drum. Don\'t care if you gotta break some bones to get my stuff back, if ya catch my drift.",
+    ["D"] = "I\'ve got a problem that needs some muscle.\n\nSome deadbeats here in the fortress owe me big -- a trio of undead brothers. When we docked here time before last, they each wanted something I was selling, but didn\'t have the coin on hand. I agreed to let them have the items, so long as they\'d pay me next time I stop in.\n\nWell guess what? I\'m still waiting on those payments! A goblin never forgets, $R, and don\'t you forget it!\n\nOne\'s got a staff of mine, the other a timepiece, and the last one a magical drum. Don\'t care if you gotta break some bones to get my stuff back, if ya catch my drift.",
   },
   [26599] = {
     ["T"] = "Feeding the Troops",
@@ -3725,7 +3725,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26707] = {
     ["T"] = "Riders In The Night",
     ["O"] = "Acquire an Infused Silver Bar from Brother Darrows in the Cathedral of Light, and High Quality Oak from Robert Darby at Stormwind Harbor.",
-    ["D"] = "To get through to this stubborn Worgen we\'re going to have to turn to the Shadow - the opposite side of the Light that few discuss.\n\nI have been preparing for a moment like this and it is time to use that planning for a righteous cause. Karlain is a good man. He deserves to know where his son is.\n\nFirst, go to  Stormwind\'s Harbor district and speak with Dockmaster Argyle. He should be holding a chest of special silver from a...friend. While you are there, reach out to the shipbuilder Robert Darby at the shipyard. We need some oak and he owes me a favor from a certain bar brawl where I saved his life.\n\nOnce you have the silver you must take it to an acquaintance, Brother Darrows. He is tasked with guarding the Cathedral of Light\'s most sought after books in the Cathedral Library.\n\nYou\'ll find it beneath the Cathedral itself. Give him the silver and he will bless it.\n\nBring both the Infused Silver and High Quality Oak to me.",
+    ["D"] = "To get through to this stubborn Worgen we\'re going to have to turn to the Shadow - the opposite side of the Light that few discuss.\n\nI have been preparing for a moment like this and it is time to use that planning for a righteous cause. Karlain is a good man. He deserves to know where his son is.\n\nFirst, go to Stormwind\'s Harbor district and speak with Dockmaster Argyle. He should be holding a chest of special silver from a...friend. While you are there, reach out to the shipbuilder Robert Darby at the shipyard. We need some oak and he owes me a favor from a certain bar brawl where I saved his life.\n\nOnce you have the silver you must take it to an acquaintance, Brother Darrows. He is tasked with guarding the Cathedral of Light\'s most sought after books in the Cathedral Library.\n\nYou\'ll find it beneath the Cathedral itself. Give him the silver and he will bless it.\n\nBring both the Infused Silver and High Quality Oak to me.",
   },
   [26708] = {
     ["T"] = "Riders In The Night",
@@ -4945,7 +4945,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [26951] = {
     ["T"] = "A Matter of Timeways",
     ["O"] = "Search the dangerous corners of Azeroth for any other temporal disturbances.",
-    ["D"] = "The temporal disturbance in Andorhol isn\'t the only distortion tickling my senses.  I suspect there\'s a larger issue at hand. And when it comes to the timeways, my senses are never wrong.\n\nMy friend, I and my flight could use your help again. I must stay and clean up this little mess but I suspect other places in the world might also be affected by temporal parasites. I do not know exactly where, but if you search the most dangerous corners of the world, I suspect you will find them. Let me know what you find. Good luck!",
+    ["D"] = "The temporal disturbance in Andorhol isn\'t the only distortion tickling my senses. I suspect there\'s a larger issue at hand. And when it comes to the timeways, my senses are never wrong.\n\nMy friend, I and my flight could use your help again. I must stay and clean up this little mess but I suspect other places in the world might also be affected by temporal parasites. I do not know exactly where, but if you search the most dangerous corners of the world, I suspect you will find them. Let me know what you find. Good luck!",
   },
   [26952] = {
     ["T"] = "Timeways Diverge?",
@@ -5635,7 +5635,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27089] = {
     ["T"] = "Looting the Temple of Arkkoran",
     ["O"] = "Take the Strange Naga Tablet to Archmage Xylem at the mage tower in northern Azshara. Find Sanath Lim-yo at a camp near Valormok to teleport there.",
-    ["D"] = "<Master Leander hands the tablet back to you.>\n\nBe most careful with that, $R. What you hold in your hands appears to be an intact Highborne Reliquary tablet --  an artifact from the Highborne library of Queen Azshara herself.\n\nAfter the Sundering that destroyed the elven city that once stood here, the library and all of its contents was presumed to be destroyed. I can\'t verify this is truly a Reliquary tablet, but I know someone who can.\n\nTake this tablet to Archmage Xylem, who dwells in a tower on the nearby cliffs. You\'ll have to reason with his assistant, Sanath Lim-yo, for passage up to the tower.",
+    ["D"] = "<Master Leander hands the tablet back to you.>\n\nBe most careful with that, $R. What you hold in your hands appears to be an intact Highborne Reliquary tablet -- an artifact from the Highborne library of Queen Azshara herself.\n\nAfter the Sundering that destroyed the elven city that once stood here, the library and all of its contents was presumed to be destroyed. I can\'t verify this is truly a Reliquary tablet, but I know someone who can.\n\nTake this tablet to Archmage Xylem, who dwells in a tower on the nearby cliffs. You\'ll have to reason with his assistant, Sanath Lim-yo, for passage up to the tower.",
   },
   [27090] = {
     ["T"] = "Azshara\'s Legacy",
@@ -5654,7 +5654,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [27093] = {
     ["T"] = "Azshara\'s Legacy",
-    ["O"] = "Speak to Archmage Xylem at the mage tower in northern Azshara.  Find Sanath Lim-yo at a camp near Valormok to teleport there.",
+    ["O"] = "Speak to Archmage Xylem at the mage tower in northern Azshara. Find Sanath Lim-yo at a camp near Valormok to teleport there.",
     ["D"] = "While you were out on my little errand, a message arrived from Archmage Xylem. He requires your assistance with the tablet once again.\n\nBetter not keep him waiting long. You have his good will for now, don\'t mess it up.",
   },
   [27094] = {
@@ -6250,7 +6250,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27212] = {
     ["T"] = "Auntie VanCleef",
     ["O"] = "Return to Protector Evangeline in Westfall.",
-    ["D"] = "Evangeline\'s note stated that she doesn\'t know where Vanessa is now.  Go back and tell her that I will provide her with whatever help I can to locate Vanessa.\n\nThe witness listed on the birth certificate is Edna Molsen -- VanCleef\'s maternal aunt. I haven\'t seen her in years. They used to be close. Maybe she would have more information -- if she\'s still alive.",
+    ["D"] = "Evangeline\'s note stated that she doesn\'t know where Vanessa is now. Go back and tell her that I will provide her with whatever help I can to locate Vanessa.\n\nThe witness listed on the birth certificate is Edna Molsen -- VanCleef\'s maternal aunt. I haven\'t seen her in years. They used to be close. Maybe she would have more information -- if she\'s still alive.",
   },
   [27213] = {
     ["T"] = "Auntie VanCleef",
@@ -6295,7 +6295,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27221] = {
     ["T"] = "Auntie VanCleef",
     ["O"] = "Return to Protector Evangeline in Westfall.",
-    ["D"] = "A few months ago, Edwin\'s thugs started threatening Isabetta. He\'d never cared much about his daughter before but suddenly he went on and on about the \"legacy\".\n\nIsabetta brought Vanessa to me and then left for Kalimdor.  I kept moving. We were in Menethil Harbor, on our way to Theramore, when misfortune struck. For some reason, some of Edwin\'s men happened to see us in the inn. I have no idea why they were there, but they took Vanessa from me. I came to Addle\'s Stead because I hoped I could get her back.\n\n<Edna hangs her head.>\n\nI failed to protect her. I can only pray her father will treat her well. But now, we must leave here. I\'ll go a different way. Good luck, $C, and thank you.",
+    ["D"] = "A few months ago, Edwin\'s thugs started threatening Isabetta. He\'d never cared much about his daughter before but suddenly he went on and on about the \"legacy\".\n\nIsabetta brought Vanessa to me and then left for Kalimdor. I kept moving. We were in Menethil Harbor, on our way to Theramore, when misfortune struck. For some reason, some of Edwin\'s men happened to see us in the inn. I have no idea why they were there, but they took Vanessa from me. I came to Addle\'s Stead because I hoped I could get her back.\n\n<Edna hangs her head.>\n\nI failed to protect her. I can only pray her father will treat her well. But now, we must leave here. I\'ll go a different way. Good luck, $C, and thank you.",
   },
   [27222] = {
     ["T"] = "Lost But Not Forgotten",
@@ -7125,7 +7125,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27387] = {
     ["T"] = "Stingers from Stingers",
     ["O"] = "Obtain 5 Hive\'Ashi Stingers from Hive\'Ashi Stingers at Hive\'Ashi and return to Nata Hawksong at Valor\'s Rest in Silithus.",
-    ["D"] = "The stingers at Hive\'Ashi have a potent venom that\'s especially lethal when compared to others injected by Silithid. After the failure of our wardens, I\'m concerned that we just aren\'t ready to take them on without devising an antidote.\n\nIf you find yourself down there, can you collect some of the stingers from the...  stingers? Hive\'Ashi stingers from Hive\'Ashi Stingers. Does that make sense?",
+    ["D"] = "The stingers at Hive\'Ashi have a potent venom that\'s especially lethal when compared to others injected by Silithid. After the failure of our wardens, I\'m concerned that we just aren\'t ready to take them on without devising an antidote.\n\nIf you find yourself down there, can you collect some of the stingers from the... stingers? Hive\'Ashi stingers from Hive\'Ashi Stingers. Does that make sense?",
   },
   [27388] = {
     ["T"] = "Recover the Lost",
@@ -7180,7 +7180,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [27398] = {
     ["T"] = "Attack on the Mine",
     ["O"] = "Kill 5 Windshear Geomancers, 5 Windshear Overlords, and 10 Windshear Diggers in Windshear Mine, then return to Grawnal at Sun Rock Retreat in Stonetalon Mountains.",
-    ["D"] = "If you find yourself in Windshear Crag, be on the lookout for a mine the Venture Company has constructed. I heard they started operations, but kobolds took over the mine and pushed the Venture Company out!\n\nThe Venture Company plunders the resources of the earth without thinking of the consequences, but kobolds are vermin that, if left unchecked, summon elementals of significant power. The operations in the mine must be stopped!  Do what it takes, $N, and do not return to me until the task is completed.",
+    ["D"] = "If you find yourself in Windshear Crag, be on the lookout for a mine the Venture Company has constructed. I heard they started operations, but kobolds took over the mine and pushed the Venture Company out!\n\nThe Venture Company plunders the resources of the earth without thinking of the consequences, but kobolds are vermin that, if left unchecked, summon elementals of significant power. The operations in the mine must be stopped! Do what it takes, $N, and do not return to me until the task is completed.",
   },
   [27399] = {
     ["T"] = "Hunting in Serenity",
