@@ -60,7 +60,7 @@ This can be npc names, items, quest objectives, coordinates, zone, and so on.
 You can use the macros from the section above to help.
 Make a issue over at [issues](https://github.com/Bennylavaa/pfQuest-epoch/issues)
 
-###  Pull request
+### Pull request
 If you have the technical knowhow to edit and make a pull request then please
 checkout the [db spec](Db.md) to learn more about the structure of the addon.
 

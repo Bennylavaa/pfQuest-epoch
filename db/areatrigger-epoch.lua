@@ -64,9 +64,12 @@ pfDB["areatrigger"]["data-epoch"] = {
       [1] = { 42.15, 34.78, 400 },
     },
   },
-  [4000011] = { --Aru-Tails Site One
+  [4000011] = { --Aru-Tails Sites
     ["coords"] = {
-      [1] = { 38.8, 87.2, 490 },
+      [1] = { 38.8, 87.2, 490 }, -- Site One
+      [2] = { 70.0, 18.0, 490 }, -- Site Two
+      [3] = { 75.75, 32.88, 490 }, -- Site Three
+      [4] = { 50.50, 90.0, 490 }, -- Site Four
     },
   },
   [4000012] = { --Meeting Location

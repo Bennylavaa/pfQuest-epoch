@@ -20,22 +20,23 @@ Not all fields are mandatory.
 ```lua
 [QUESTID#] = {
     ["start"] = {
-        ["U"] = { UNITID# },  -- Quest giver unit ID
+        ["U"] = { UNITID# },   -- Quest giver unit ID
     },
     ["end"] = {
-        ["U"] = { UNITID# },  -- Quest turn-in unit ID
+        ["U"] = { UNITID# },   -- Quest turn-in unit ID
     },
-    ["lvl"]   = quest_level,  -- Recommended quest level
-    ["min"]   = min_level,    -- Minimum level to accept
+    ["lvl"]   = quest_level,   -- Recommended quest level
+    ["min"]   = min_level,     -- Minimum level to accept
     ["next"]  = next_quest_id, -- Next quest in the chain
     ["pre"]   = prev_quest_id, -- Previous quest in the chain
-    ["close"] = { conflicting_quest_ids }, -- Quests that cannot be taken together (e.g., profession specializations)
-    ["skill"] = skill_id,     -- Required profession/skill ID (e.g., 165 (Leatherworking))
-    ["race"] = race_requirement, -- Race bitflag, advanced see pfQuest code https://github.com/shagu/pfQuest/blob/104f35678ca39ab1fb78b655f815cc7016f5e0c8/database.lua#L333
+    ["close"] = { conflicting_quest_ids }, -- Quests that cannot be taken together (e.g., profession specializations) or some breadcrumb quests
+    ["skill"] = skill_id,      -- Required profession/skill ID (e.g., 165 (Leatherworking)), see https://github.com/shagu/pfQuest/blob/104f35678ca39ab1fb78b655f815cc7016f5e0c8/db/enUS/professions.lua
+    ["skillmin"] = minimum_skill_level,    -- Required skill level of the required profession
+    ["race"]  = race_requirement,  -- Race bitflag, advanced see pfQuest code https://github.com/shagu/pfQuest/blob/104f35678ca39ab1fb78b655f815cc7016f5e0c8/database.lua#L331
     ["class"] = class_requirement, -- see https://github.com/shagu/pfQuest/blob/104f35678ca39ab1fb78b655f815cc7016f5e0c8/database.lua#L351
-    ["event"] = event_id, -- Event id
-    ["obj"] = {  -- Quest objectives
-        ["I"] = { item_ids_to_collect },  -- Items to collect
+    ["event"] = event_id,      -- Event id
+    ["obj"] = {                -- Quest objectives
+        ["I"] = { item_ids_to_collect }, -- Items to collect
         ["U"] = { unit_ids_to_kill },    -- Units to kill
         ["O"] = { object_ids },          -- Objects to interact with
         ["IR"] = { item_req_ids },       -- see quests-itemreq-epoch.lua
@@ -71,12 +72,12 @@ Both quest NPCs and mobs are in this file.
 ```lua
 [UNITID#] = {
     ["coords"] = { -- List of spawn locations and respawn timer
-        [1] = { x, y, zoneid, respawn },
-        [2] = { x, y, zoneid, respawn },
+        [1] = { x, y, zoneid, respawn_time },
+        [2] = { x, y, zoneid, respawn_time },
     },
-    ["fac"] = faction,
+    ["fac"] = faction, -- A (Alliance), H (Horde), AH (both), omitting this option means it's hostile
     ["lvl"] = level, -- can be ranges like 21-23
-    ["rnk"] = rank  -- no rank / 0 = normal mob, 1 = Elite, 2 = Rare Elite, 3 = Boss (World Boss / Raid Bosses / Faction Leaders), 4 = Rare -> classification information from: https://www.wowhead.com/classic/npcs/classification:3
+    ["rnk"] = rank -- no rank / 0 = normal mob, 1 = Elite, 2 = Elite Rare, 3 = Boss (World Boss / Raid Bosses / Faction Leaders), 4 = Rare => classification information from: https://www.wowhead.com/classic/npcs/classification:3
 },
 ```
 
@@ -95,7 +96,7 @@ Both quest NPCs and mobs are in this file.
 ---
 
 ### `items-epoch.lua`
-Contains item information, including which units (`"U"`) and objects (`"O"`) they drop from. An item can drop from multiple units or objects.
+Contains item information, including which units (`"U"`) and objects (`"O"`) they drop from, or which vendors (`"V"`) sell the item. An item can drop from multiple units or objects.
 
 **Format:**
 ```lua
@@ -109,7 +110,8 @@ Contains item information, including which units (`"U"`) and objects (`"O"`) the
         [UNITID#] = drop%number, -- second NPC it drops from
     },
     ["V"] = { -- vendor
-        [UNITID#] = 0,
+        [UNITID#] = 0, -- item with infinite stock
+        [UNITID#] = #availability_items, -- maximum number of items per stock refresh
     }
 },
 ```
@@ -124,6 +126,10 @@ Contains item information, including which units (`"U"`) and objects (`"O"`) the
         [3] = 4.73,
         [48] = 4.55,
     },
+    ["V"] = {
+        [1234] = 0,
+        [6789] = 5,
+    }
 },
 ```
 
@@ -219,7 +225,7 @@ Contains minimap scale factors for specific areas, which helps to correctly disp
 
 **Format:**
 ```lua
-[MAPID] = { xsize, ysize },
+[MAPID#] = { xsize, ysize },
 ```
 
 **Example:**
@@ -231,6 +237,24 @@ Contains minimap scale factors for specific areas, which helps to correctly disp
 
 ### `quests-itemreq-epoch.lua`
 Contains a list of items required for a quest that are usable in the floating quest log UI.
+
+**Format:**
+```lua
+[ITEMID#] = {
+    [-OBJECTID#] = SPELLID#,
+    [UNITID#] = SPELLID#,
+},
+```
+
+**Example:**
+```lua
+[4472] = {
+    [-2705] = "4141",
+},
+[4479] = {
+    [2762] = "4132",
+},
+```
 
 ### `refloot-epoch.lua`
 Contains item requirements for specific quests, such as listing all anvil objects for the "Broken Tools" quest.
