@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: |cff33ffccpf|cffffffffQuest |cffcccccc[Project Epoch DB]
 ## Author: Bennylavaa (retired), Cuddlehorn (inactive)
-## Contributors: Exuria, Shagu, snifflewow, skmd0, trav346, emailnumero123-art, Defcons
+## Contributors: Exuria, Shagu, snifflewow, skmd0, trav346, emailnumero123-art, Defcons, Kindrack
 ## Notes: A Project Epoch DB extension for pfQuest
 ## Version: 3.2.2
 ## Dependencies: pfQuest-wotlk
