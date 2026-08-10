@@ -107,6 +107,11 @@ panel.header:SetPoint("TOPLEFT", panel, "TOPLEFT", PANEL_MARGIN, -PANEL_MARGIN)
 panel.header:SetJustifyH("LEFT")
 panel.header:Hide()
 
+panel.noItems = panel:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+panel.noItems:SetJustifyH("LEFT")
+panel.noItems:SetText("No items linked to this NPC")
+panel.noItems:Hide()
+
 local buttonPool = {}
 
 local function GetButton(index)
@@ -139,6 +144,7 @@ local function GetButton(index)
     if button.chance and button.chance > 0 then
       GameTooltip:AddLine(string.format("Drop chance: %.1f%%", button.chance), 0.6, 0.9, 1)
     end
+
     GameTooltip:SetFrameLevel(panel:GetFrameLevel() + 10)
     GameTooltip:Show()
   end)
@@ -163,7 +169,7 @@ end
 local function RankText(unitData)
   local info = unitData and unitData["rnk"] and RANK_INFO[tostring(unitData["rnk"])]
   if not info then return nil end
-  return string.format("|cff%02x%02x%02xRank: %s|r", info.r * 255, info.g * 255, info.b * 255, info.text)
+  return string.format("Rank: |cff%02x%02x%02x%s|r", info.r * 255, info.g * 255, info.b * 255, info.text)
 end
 
 pfQuestEpochLoot = {}
@@ -264,11 +270,22 @@ function pfQuestEpochLoot.ShowPinned(nodeFrame)
   local headerHeight = panel.header:GetHeight() + 10
   local ok, _, gridHeight = PopulateGrid(unitid, headerHeight)
 
+  local noItemsHeight = 0
+  if ok then
+    panel.noItems:Hide()
+  else
+    panel.noItems:ClearAllPoints()
+    panel.noItems:SetPoint("TOPLEFT", panel, "TOPLEFT", PANEL_MARGIN, -headerHeight)
+    panel.noItems:SetWidth(contentWidth)
+    panel.noItems:Show()
+    noItemsHeight = panel.noItems:GetHeight()
+  end
+
   pinned = true
   pinnedUnitId = unitid
 
   panel:SetWidth(contentWidth + PANEL_MARGIN * 2)
-  panel:SetHeight(headerHeight + PANEL_MARGIN + (ok and gridHeight or 0))
+  panel:SetHeight(headerHeight + PANEL_MARGIN + (ok and gridHeight or noItemsHeight))
 
   panel:ClearAllPoints()
   panel:SetFrameLevel((nodeFrame:GetFrameLevel() or 0) + 1)
