@@ -795,7 +795,7 @@ do -- units/npcs/quests
     pfDB["quests"]["enUS-epoch"][5890] = ""
   end
   
-  do -- Removed/Reworked Epoch Quests
+  do -- Removed/Reworked Epoch Quests/NPC
     pfDB["quests"]["data-epoch"][9] = { } -- Quest Removed - The Killing Fields
     pfDB["quests"]["enUS-epoch"][9] = ""
     pfDB["quests"]["data-epoch"][498] = { } -- The Rescue - Durnhold Keep
@@ -894,6 +894,8 @@ do -- units/npcs/quests
     pfDB["quests"]["enUS-epoch"][8276] = ""
     pfDB["quests"]["data-epoch"][781] = { } -- Remove old Attack on Camp Narache
     pfDB["quests"]["enUS-epoch"][781] = ""
+    pfDB["units"]["data-epoch"][10119] = { } -- Remove old Volchan
+    pfDB["units"]["enUS-epoch"][10119] = ""
   end
 
   do -- Remove TBC Quest and NPCs

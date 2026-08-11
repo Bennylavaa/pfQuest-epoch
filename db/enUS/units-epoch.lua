@@ -2227,6 +2227,7 @@ pfDB["units"]["enUS-epoch"] = {
   [90095] = "Invading Felhound",
   [90096] = "Invading Infernal",
   [90097] = "Invading Overseer",
+  [90098] = "Maws",
   [90099] = "Jimbo Blastshank",
   [90100] = "Jazz Wazziks",
   [90103] = "Zog Doomsnooze",

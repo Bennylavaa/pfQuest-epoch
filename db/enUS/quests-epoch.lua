@@ -43,7 +43,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [1036] = {
     ["T"] = "Avast Ye, Scallywag",
-    ["O"] = "Speak with Fleet Master Firallon aboard the Crimson Vale off the coast of Stranglethorn Vale.|cFF42E8F3\nRequires Hated reputation with Booty Bay!|r",
+    ["O"] = "|cFF42E8F3Requires Hated reputation with Booty Bay!|r\nSpeak with Fleet Master Firallon aboard the Crimson Vale off the coast of Stranglethorn Vale.",
     ["D"] = "$N... yeah, I\'ve heard of you.I\'ve heard that you\'re no friend of Booty Bay - just like us Bloodsail Buccaneers.Fleet Master Firallon is looking for hale and hearty $g men : women; just like you for a special mission.$B$BIf you\'re interested, head on out to the Crimson Veil and speak with him below decks.She\'s anchored off the Wild Coast east of here, next to the Riptide and the Damsel\'s Luck.",
   },
   [1132] = {
@@ -3313,7 +3313,7 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [26625] = {
     ["T"] = "WANTED: Soulflayer Ghruzokh",
-    ["O"] = "|cFFFF0000Needs fixing! Missing pre-quests!|r\n\nEnter the Grombolar inside Felstone Fortress and take the head of Soulflayer Ghruzokh.",
+    ["O"] = "Enter the Grombolar inside Felstone Fortress and take the head of Soulflayer Ghruzokh.",
     ["D"] = "Members of the Horde, this is a call to arms! Old followers of Gul\'dan have made a nest inside Felstone Fortress, raising the dead and reviving the dark art of necromancy.\n\nThe leader of this group is known as Soulflayer Ghruzokh, and a well-seasoned party is needed to take him out. Find him inside a cave surrounded by bones within Felstone Fortress to the south.\n\nBring his head to Scout Morgria to complete the bounty.",
   },
   [26626] = {

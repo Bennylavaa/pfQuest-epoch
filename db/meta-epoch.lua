@@ -48,6 +48,7 @@ pfDB["meta-epoch"] = { -- these are for /db taxi, /db chests, /db rares, /db her
     [3318] = "H",
     [3320] = "H",
     [3496] = "AH",
+    [3683] = "AH",
     [4155] = "A",
     [4208] = "A",
     [4209] = "A",

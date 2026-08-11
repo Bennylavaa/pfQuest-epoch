@@ -31,7 +31,7 @@ Your Current Cords:
 Targeted Unit Information:
 
 ```lua
-/run local guid = UnitGUID("target"); local npcId = tonumber(string.sub(guid, 8, 12), 16); local npcName = UnitName("target"); print("NPC ID:", npcId, "NPC Name:", npcName)
+/run t = "target"; guID = UnitGUID(t); uID = tonumber(string.sub(guID, 8, 12), 16); uName = UnitName(t); uLVL = UnitLevel(t); uRank = UnitClassification(t); if guID then print("UNIT\nID:", uID, "\nName:", uName, "\nLevel:", uLVL, "\nRank:", uRank) end
 ```
 
 Selected QuestLog Data:
@@ -42,7 +42,7 @@ Selected QuestLog Data:
 
 Hover Over Item ID:
 ```lua
-/run local _, link = GameTooltip:GetItem(); if link then local itemID = tonumber(link:match("item:(%d+):")); if itemID then print("Item ID:", itemID) end end
+/run local name, link = GameTooltip:GetItem(); if link then local itemID = tonumber(link:match("item:(%d+):")); if itemID then print("Item\nID:", itemID, "\nName:", name) end end
 ```
 
 Object ID:
