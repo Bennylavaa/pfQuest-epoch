@@ -1768,7 +1768,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["pre"] = { 2977 },
     ["next"] = { 26345 },
-    ["closes"] = { 26346 },
+    ["close"] = { 26346 },
     ["race"] = 1101,
     ["lvl"] = 50,
     ["min"] = 45,
@@ -1816,7 +1816,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["pre"] = { 2967 },
     ["next"] = { 26353 },
-    ["closes"] = { 26354 },
+    ["close"] = { 26354 },
     ["race"] = 178,
     ["lvl"] = 50,
     ["min"] = 45,
@@ -8086,6 +8086,7 @@ pfDB["quests"]["data-epoch"] = {
     },
     ["obj"] = {
       ["IR"] = { 60767 },
+      ["U"] = { 45094 },
     },
     ["pre"] = { 26269 },
     ["race"] = 178,
@@ -12416,7 +12417,7 @@ pfDB["quests"]["data-epoch"] = {
     ["lvl"] = 60,
     ["min"] = 50,
   },
-  [26625] = { -- WANTED: Soulflayer Ghruzokh - HERE missing prequests
+  [26625] = {
     ["start"] = {
       ["O"] = { 250244 },
     },
@@ -12426,6 +12427,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 62413 },
     },
+    ["pre"] = { 26610 },
     ["race"] = 178,
     ["lvl"] = 60,
     ["min"] = 50,
@@ -12522,7 +12524,7 @@ pfDB["quests"]["data-epoch"] = {
     ["obj"] = {
       ["I"] = { 62419 },
     },
-    ["pre"] = { 26628, 26629, 26630, 27678 },
+    ["pre"] = { 26628, 26629, 26630, 26631, 27678 },
     ["lvl"] = 53,
     ["min"] = 45,
   },
