@@ -1,6 +1,6 @@
 local GRID_COLUMNS = 6
 local ICON_SIZE = 26
-local ICON_PADDING = 3
+local ICON_PADDING = 6
 local PANEL_MARGIN = 8
 local MAX_ICONS = 18
 local MIN_CONTENT_WIDTH = 120
@@ -54,6 +54,47 @@ end
 
 BuildUnitDropIndex()
 
+local questStarterItems = {}
+
+local function BuildQuestStarterIndex()
+  local sources = { pfDB["quests"]["data"], pfDB["quests"]["data-epoch"] }
+
+  for _, quests in pairs(sources) do
+    if quests then
+      for _, quest in pairs(quests) do
+        if quest["start"] and quest["start"]["I"] then
+          for _, itemid in pairs(quest["start"]["I"]) do
+            questStarterItems[itemid] = true
+          end
+        end
+      end
+    end
+  end
+end
+
+BuildQuestStarterIndex()
+
+local function PassesCategoryFilters(itemid)
+  local showEquip = not pfQuest_config or pfQuest_config["epochLootPanelShowEquip"] ~= "0"
+  local showQuestItems = not pfQuest_config or pfQuest_config["epochLootPanelShowQuestItems"] ~= "0"
+  local showQuestStarters = not pfQuest_config or pfQuest_config["epochLootPanelShowQuestStarters"] ~= "0"
+  local showRecipes = not pfQuest_config or pfQuest_config["epochLootPanelShowRecipes"] ~= "0"
+  local showGrey = not pfQuest_config or pfQuest_config["epochLootPanelShowGrey"] ~= "0"
+  local showWhite = not pfQuest_config or pfQuest_config["epochLootPanelShowWhite"] ~= "0"
+
+  local _, _, quality, _, _, itemType = GetItemInfo(itemid)
+  local isEquip = itemType == "Armor" or itemType == "Weapon"
+
+  if isEquip then return showEquip end
+  if questStarterItems[itemid] then return showQuestStarters end
+  if itemType == "Quest" then return showQuestItems end
+  if itemType == "Recipe" then return showRecipes end
+  if quality == 0 then return showGrey end
+  if quality == 1 then return showWhite end
+
+  return true
+end
+
 local function GetVisibleDrops(unitid)
   local drops = unitDrops[unitid]
   if not drops then return nil end
@@ -65,12 +106,14 @@ local function GetVisibleDrops(unitid)
   for _, drop in ipairs(drops) do
     local passesRef = showReference or not drop.isRef
     local passesChance = showUnknownChance or (drop.chance and drop.chance > 0)
-    if passesRef and passesChance then table.insert(visible, drop) end
+    if passesRef and passesChance and PassesCategoryFilters(drop.item) then
+      table.insert(visible, drop)
+    end
   end
   return visible
 end
 
-local panel = CreateFrame("Frame", "pfQuestEpochLootPanel", UIParent)
+local panel = CreateFrame("Frame", "pfQuestEpochLootPanel", WorldMapFrame)
 panel:SetFrameStrata("TOOLTIP")
 panel:SetClampedToScreen(true)
 panel:Hide()
@@ -123,8 +166,8 @@ local function GetButton(index)
   button:SetHeight(ICON_SIZE)
 
   button.border = button:CreateTexture(nil, "BACKGROUND")
-  button.border:SetPoint("TOPLEFT", -2, 2)
-  button.border:SetPoint("BOTTOMRIGHT", 2, -2)
+  button.border:SetPoint("TOPLEFT", -1, 1)
+  button.border:SetPoint("BOTTOMRIGHT", 1, -1)
   button.border:SetTexture(1, 1, 1, 1)
 
   button.icon = button:CreateTexture(nil, "ARTWORK")
@@ -183,6 +226,20 @@ function pfQuestEpochLoot.Hide()
   panel:Hide()
 end
 
+local function ApplyItemVisuals(button, itemid)
+  local _, _, quality = GetItemInfo(itemid)
+  button.icon:SetTexture(GetItemIcon(itemid))
+
+  if quality and ITEM_QUALITY_COLORS[quality] then
+    local c = ITEM_QUALITY_COLORS[quality]
+    button.border:SetVertexColor(c.r, c.g, c.b, 1)
+    return true
+  end
+
+  button.border:SetVertexColor(0.4, 0.4, 0.4, 1)
+  return false
+end
+
 local function PopulateGrid(unitid, topOffset)
   local drops = GetVisibleDrops(unitid)
   local count = drops and min(table.getn(drops), MAX_ICONS) or 0
@@ -193,7 +250,6 @@ local function PopulateGrid(unitid, topOffset)
 
     button.itemid = drop.item
     button.chance = drop.chance
-    button.icon:SetTexture(GetItemIcon(drop.item))
 
     if drop.chance and drop.chance > 0 then
       button.chanceText:SetText(string.format("%.0f%%", drop.chance))
@@ -202,12 +258,10 @@ local function PopulateGrid(unitid, topOffset)
       button.chanceText:Hide()
     end
 
-    local _, _, quality = GetItemInfo(drop.item)
-    if quality and ITEM_QUALITY_COLORS[quality] then
-      local c = ITEM_QUALITY_COLORS[quality]
-      button.border:SetVertexColor(c.r, c.g, c.b, 1)
+    if ApplyItemVisuals(button, drop.item) then
+      button.pendingQualityItem = nil
     else
-      button.border:SetVertexColor(0.4, 0.4, 0.4, 1)
+      button.pendingQualityItem = drop.item
     end
 
     LayoutButton(button, i, topOffset)
@@ -288,11 +342,28 @@ function pfQuestEpochLoot.ShowPinned(nodeFrame)
   panel:SetHeight(headerHeight + PANEL_MARGIN + (ok and gridHeight or noItemsHeight))
 
   panel:ClearAllPoints()
-  panel:SetFrameLevel((nodeFrame:GetFrameLevel() or 0) + 1)
+  panel:SetFrameStrata("TOOLTIP")
+  panel:SetFrameLevel(200)
   panel:SetPoint("TOPLEFT", nodeFrame, "BOTTOMLEFT", 0, -6)
 
   panel:Show()
 end
+
+local pendingQualityElapsed = 0
+panel:SetScript("OnUpdate", function(self, elapsed)
+  pendingQualityElapsed = pendingQualityElapsed + elapsed
+  if pendingQualityElapsed < 0.5 then return end
+  pendingQualityElapsed = 0
+
+  for i = 1, table.getn(buttonPool) do
+    local button = buttonPool[i]
+    if button and button:IsShown() and button.pendingQualityItem then
+      if ApplyItemVisuals(button, button.pendingQualityItem) then
+        button.pendingQualityItem = nil
+      end
+    end
+  end
+end)
 
 local mapWatcher = CreateFrame("Frame")
 mapWatcher:RegisterEvent("WORLD_MAP_UPDATE")
@@ -316,7 +387,7 @@ local function ExtendPfQuestConfig()
 
   table.insert(pfQuest_defconfig, {
     text = "Include pooled loot",
-    default = "0",
+    default = "1",
     type = "checkbox",
     config = "epochLootPanelShowReference"
   })
@@ -328,12 +399,78 @@ local function ExtendPfQuestConfig()
     config = "epochLootPanelShowUnknownChance"
   })
 
+  table.insert(pfQuest_defconfig, {
+    text = "Show Armor/Weapons",
+    default = "1",
+    type = "checkbox",
+    config = "epochLootPanelShowEquip"
+  })
+
+  table.insert(pfQuest_defconfig, {
+    text = "Show Quest Items",
+    default = "1",
+    type = "checkbox",
+    config = "epochLootPanelShowQuestItems"
+  })
+
+  table.insert(pfQuest_defconfig, {
+    text = "Show Quest Starters",
+    default = "1",
+    type = "checkbox",
+    config = "epochLootPanelShowQuestStarters"
+  })
+
+  table.insert(pfQuest_defconfig, {
+    text = "Show Recipes",
+    default = "1",
+    type = "checkbox",
+    config = "epochLootPanelShowRecipes"
+  })
+
+  table.insert(pfQuest_defconfig, {
+    text = "Show Grey Items",
+    default = "1",
+    type = "checkbox",
+    config = "epochLootPanelShowGrey"
+  })
+
+  table.insert(pfQuest_defconfig, {
+    text = "Show White Items",
+    default = "1",
+    type = "checkbox",
+    config = "epochLootPanelShowWhite"
+  })
+
   if not pfQuest_config["epochLootPanelShowReference"] then
-    pfQuest_config["epochLootPanelShowReference"] = "0"
+    pfQuest_config["epochLootPanelShowReference"] = "1"
   end
 
   if not pfQuest_config["epochLootPanelShowUnknownChance"] then
     pfQuest_config["epochLootPanelShowUnknownChance"] = "0"
+  end
+
+  if not pfQuest_config["epochLootPanelShowEquip"] then
+    pfQuest_config["epochLootPanelShowEquip"] = "1"
+  end
+
+  if not pfQuest_config["epochLootPanelShowQuestItems"] then
+    pfQuest_config["epochLootPanelShowQuestItems"] = "1"
+  end
+
+  if not pfQuest_config["epochLootPanelShowQuestStarters"] then
+    pfQuest_config["epochLootPanelShowQuestStarters"] = "1"
+  end
+
+  if not pfQuest_config["epochLootPanelShowRecipes"] then
+    pfQuest_config["epochLootPanelShowRecipes"] = "1"
+  end
+
+  if not pfQuest_config["epochLootPanelShowGrey"] then
+    pfQuest_config["epochLootPanelShowGrey"] = "1"
+  end
+
+  if not pfQuest_config["epochLootPanelShowWhite"] then
+    pfQuest_config["epochLootPanelShowWhite"] = "1"
   end
 
   return true
