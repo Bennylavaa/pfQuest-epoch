@@ -4,6 +4,7 @@ local ICON_PADDING = 6
 local PANEL_MARGIN = 8
 local MAX_ICONS = 18
 local MIN_CONTENT_WIDTH = 120
+local FALLBACK_ICON = "Interface\\Icons\\INV_Misc_QuestionMark"
 
 local RANK_INFO = {
   ["1"] = { text = "Elite",      r = 1, g = 0.5,  b = 0 },
@@ -115,6 +116,7 @@ end
 
 local panel = CreateFrame("Frame", "pfQuestEpochLootPanel", WorldMapFrame)
 panel:SetFrameStrata("TOOLTIP")
+panel:SetFrameLevel(200)
 panel:SetClampedToScreen(true)
 panel:Hide()
 
@@ -155,6 +157,19 @@ panel.noItems:SetJustifyH("LEFT")
 panel.noItems:SetText("No items linked to this NPC")
 panel.noItems:Hide()
 
+local function FormatChance(chance)
+  if chance <= 0 or chance >= 1 then
+    return string.format("%.0f%%", chance)
+  end
+
+  local oneDecimal = string.format("%.1f%%", chance)
+  if oneDecimal == "0.0%" then
+    return string.format("%.2f%%", chance)
+  end
+
+  return oneDecimal
+end
+
 local buttonPool = {}
 
 local function GetButton(index)
@@ -183,9 +198,20 @@ local function GetButton(index)
   button:SetScript("OnEnter", function()
     if not button.itemid then return end
     GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
-    GameTooltip:SetHyperlink("item:" .. button.itemid .. (pfQuestCompat.itemsuffix or ""))
+
+    local name = GetItemInfo(button.itemid)
+    local linkOk = name and pcall(GameTooltip.SetHyperlink, GameTooltip, "item:" .. button.itemid .. (pfQuestCompat.itemsuffix or ""))
+
+    if not linkOk then
+      local localName = pfDB["items"]["enUS"] and pfDB["items"]["enUS"][button.itemid]
+      GameTooltip:SetText(name or ((localName and localName ~= "") and localName or ("Item #" .. button.itemid)), 1, 1, 1)
+      if not name then
+        GameTooltip:AddLine("Item data unavailable", 0.6, 0.6, 0.6)
+      end
+    end
+
     if button.chance and button.chance > 0 then
-      GameTooltip:AddLine(string.format("Drop chance: %.1f%%", button.chance), 0.6, 0.9, 1)
+      GameTooltip:AddLine("Drop chance: " .. FormatChance(button.chance), 0.6, 0.9, 1)
     end
 
     GameTooltip:SetFrameLevel(panel:GetFrameLevel() + 10)
@@ -207,6 +233,7 @@ local function LayoutButton(button, index, topOffset)
   button:SetPoint("TOPLEFT", panel, "TOPLEFT",
     PANEL_MARGIN + col * (ICON_SIZE + ICON_PADDING),
     -topOffset - row * (ICON_SIZE + ICON_PADDING))
+  button:SetFrameLevel(panel:GetFrameLevel() + 1)
 end
 
 local function RankText(unitData)
@@ -228,7 +255,7 @@ end
 
 local function ApplyItemVisuals(button, itemid)
   local _, _, quality = GetItemInfo(itemid)
-  button.icon:SetTexture(GetItemIcon(itemid))
+  button.icon:SetTexture(GetItemIcon(itemid) or FALLBACK_ICON)
 
   if quality and ITEM_QUALITY_COLORS[quality] then
     local c = ITEM_QUALITY_COLORS[quality]
@@ -252,7 +279,9 @@ local function PopulateGrid(unitid, topOffset)
     button.chance = drop.chance
 
     if drop.chance and drop.chance > 0 then
-      button.chanceText:SetText(string.format("%.0f%%", drop.chance))
+      local text = FormatChance(drop.chance)
+      button.chanceText:SetText(text)
+      button.chanceText:SetFont("Fonts\\FRIZQT__.TTF", string.len(text) >= 5 and 7 or 9, "OUTLINE")
       button.chanceText:Show()
     else
       button.chanceText:Hide()
@@ -342,8 +371,6 @@ function pfQuestEpochLoot.ShowPinned(nodeFrame)
   panel:SetHeight(headerHeight + PANEL_MARGIN + (ok and gridHeight or noItemsHeight))
 
   panel:ClearAllPoints()
-  panel:SetFrameStrata("TOOLTIP")
-  panel:SetFrameLevel(200)
   panel:SetPoint("TOPLEFT", nodeFrame, "BOTTOMLEFT", 0, -6)
 
   panel:Show()
