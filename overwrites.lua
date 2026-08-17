@@ -9,6 +9,14 @@ end
 
 do -- items
   -- TBC items
+  pfDB["items"]["data-epoch"][18241] = { } -- Black War Steed Bridle
+  pfDB["items"]["enUS-epoch"][18241] = ""
+  pfDB["items"]["data-epoch"][18242] = { } -- Reins of the Black War Tiger
+  pfDB["items"]["enUS-epoch"][18242] = ""
+  pfDB["items"]["data-epoch"][18243] = { } -- Black Battlestrider
+  pfDB["items"]["enUS-epoch"][18243] = ""
+  pfDB["items"]["data-epoch"][18244] = { } -- Black War Ram
+  pfDB["items"]["enUS-epoch"][18244] = ""
   pfDB["items"]["data-epoch"][18245] = { } -- Horn of the Black War Wolf
   pfDB["items"]["enUS-epoch"][18245] = ""
   pfDB["items"]["data-epoch"][18246] = { } -- Whistle of the Black War Raptor
@@ -19,6 +27,10 @@ do -- items
   pfDB["items"]["enUS-epoch"][18248] = ""
   pfDB["items"]["data-epoch"][32453] = { } -- Star's Tears
   pfDB["items"]["enUS-epoch"][32453] = ""
+  pfDB["items"]["data-epoch"][34129] = { } -- Swift Warstrider
+  pfDB["items"]["enUS-epoch"][34129] = ""
+  pfDB["items"]["data-epoch"][35906] = { } -- Reins of the Black War Elekk
+  pfDB["items"]["enUS-epoch"][35906] = ""
 end
 
 do -- units/npcs/quests
