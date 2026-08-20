@@ -60,6 +60,176 @@ function pfMap:HasMinimap(map_id)
   return has_minimap
 end
 
+local epoch_nodename = "pfMiniMapPin"
+local epoch_minimapbreakers = {
+  ["ElvUI_MinimapButtons"] = true,
+  ["MBB"] = true,
+}
+local epoch_namefake = CreateFrame("Frame")
+epoch_namefake:RegisterEvent("PLAYER_ENTERING_WORLD")
+epoch_namefake:SetScript("OnEvent", function()
+  this:UnregisterAllEvents()
+  for i=1, GetNumAddOns() do
+    local name, title, notes, enabled = GetAddOnInfo(i)
+    if enabled and epoch_minimapbreakers[name] then
+      epoch_nodename = "GatherNoteCompatFake"
+    end
+  end
+end)
+
+local epoch_coord_cache = {}
+
+local epoch_rotate_cache = {}
+local epoch_rotate_count = 0
+
+function pfMap:UpdateMinimap()
+  -- check for disabled minimap nodes
+  if pfQuest_config["minimapnodes"] == "0" then
+    return
+  end
+
+  -- hide all minimap nodes while shift is pressed
+  if pfQuestControlKey.pressed and MouseIsOver(pfMap.drawlayer) then
+    this.xPlayer = nil
+
+    for id, pin in pairs(pfMap.mpins) do
+      pin:Hide()
+    end
+
+    return
+  end
+
+  -- hide nodes and skip further processing in dungeons
+  local xPlayer, yPlayer = GetPlayerMapPosition("player")
+  if xPlayer == 0 and yPlayer == 0 then
+    for pins, pin in pairs(pfMap.mpins) do pin:Hide() end
+    return
+  end
+
+  local mZoom = pfMap.drawlayer:GetZoom()
+  xPlayer, yPlayer = xPlayer * 100, yPlayer * 100
+
+  local rotateMinimap = GetCVar("rotateMinimap") ~= "0"
+  local facing = rotateMinimap and pfQuestCompat.GetPlayerFacing() or 0
+
+  -- force refresh every second even without changed values, otherwise skip
+  if this.xPlayer == xPlayer and this.yPlayer == yPlayer and this.mZoom == mZoom then
+    if ( this.tick or 1) > GetTime() then return else this.tick = GetTime() + 1 end
+  end
+
+  this.xPlayer, this.yPlayer, this.mZoom = xPlayer, yPlayer, mZoom
+  local color = pfQuest_config["spawncolors"] == "1" and "spawn" or "title"
+  local mapID = pfMap:GetMapIDByName(GetRealZoneText())
+  local mapZoom = pfMap.minimap_zoom[pfMap.minimap_indoor()][mZoom]
+  local mapWidth = pfMap.minimap_sizes[mapID] and pfMap.minimap_sizes[mapID][1] or 0
+  local mapHeight = pfMap.minimap_sizes[mapID] and pfMap.minimap_sizes[mapID][2] or 0
+
+  local xScale = mapZoom / mapWidth
+  local yScale = mapZoom / mapHeight
+
+  local xDraw = pfMap.drawlayer:GetWidth() / xScale / 100
+  local yDraw = pfMap.drawlayer:GetHeight() / yScale / 100
+
+  local sinFacing = rotateMinimap and math.sin(facing) or 0
+  local cosFacing = rotateMinimap and math.cos(facing) or 1
+
+  local i = 1
+  epoch_rotate_count = 0
+
+  -- refresh all nodes
+  for addon, data in pairs(pfMap.nodes) do
+    -- hide minimap nodes in continent view
+    if data[mapID] and pfMap.minimap_sizes[mapID] and pfMap:HasMinimap(mapID) then
+      for coords, node in pairs(data[mapID]) do
+        local x, y
+        if epoch_coord_cache[coords] then
+          x, y = epoch_coord_cache[coords][1], epoch_coord_cache[coords][2]
+        else
+          local _, _, strx, stry = strfind(coords, "(.*)|(.*)")
+          x, y = strx + 0, stry + 0
+          epoch_coord_cache[coords] = { x, y }
+        end
+
+        local ox = ( x - xPlayer) * xDraw
+        local oy = ( y - yPlayer) * yDraw
+
+        local xPos = (ox * cosFacing) - (oy * sinFacing)
+        local yPos = (oy * cosFacing) + (ox * sinFacing)
+
+        local display = nil
+        local distance = sqrt(xPos * xPos + yPos * yPos)
+
+        if pfUI.minimap then
+          display = ( abs(xPos) + 8 < pfMap.drawlayer:GetWidth() / 2 and abs(yPos) + 8 < pfMap.drawlayer:GetHeight()/2 ) and true or nil
+        else
+          display = ( distance + 8 < pfMap.drawlayer:GetWidth() / 2 ) and true or nil
+        end
+
+        if display then
+          if not pfMap.mpins[i] then
+            pfMap.mpins[i] = pfMap:BuildNode(epoch_nodename .. i, pfMap.drawlayer)
+          end
+
+          pfMap:UpdateNode(pfMap.mpins[i], node, color, "minimap", distance)
+
+          pfMap.mpins[i].hl:Hide()
+
+          if pfQuest_config["showclustermini"] == "0" and pfMap.mpins[i].cluster then
+            pfMap.mpins[i]:Hide()
+          elseif pfQuest_config["showspawnmini"] == "0" and addon == "PFQUEST" and not pfMap.mpins[i].texture then
+            pfMap.mpins[i]:Hide()
+          else
+            pfMap.mpins[i]:ClearAllPoints()
+            pfMap.mpins[i]:SetPoint("CENTER", pfMap.drawlayer, "CENTER", xPos, -yPos)
+            pfMap.mpins[i]:Show()
+
+            if rotateMinimap then
+              epoch_rotate_count = epoch_rotate_count + 1
+              local entry = epoch_rotate_cache[epoch_rotate_count]
+              if not entry then
+                entry = {}
+                epoch_rotate_cache[epoch_rotate_count] = entry
+              end
+              entry.pin, entry.ox, entry.oy = pfMap.mpins[i], ox, oy
+            end
+          end
+
+          i = i + 1
+        end
+      end
+    end
+  end
+
+  -- hide remaining pins
+  for j=i, table.getn(pfMap.mpins) do
+    if pfMap.mpins[j] then pfMap.mpins[j]:Hide() end
+  end
+end
+
+local epoch_rotate_frame = CreateFrame("Frame")
+local epoch_last_facing
+epoch_rotate_frame:SetScript("OnUpdate", function()
+  if pfQuest_config["minimapnodes"] == "0" or GetCVar("rotateMinimap") == "0" then
+    return
+  end
+
+  local facing = pfQuestCompat.GetPlayerFacing()
+  if facing == epoch_last_facing then
+    return
+  end
+  epoch_last_facing = facing
+
+  local sinFacing, cosFacing = math.sin(facing), math.cos(facing)
+  for idx = 1, epoch_rotate_count do
+    local entry = epoch_rotate_cache[idx]
+    local xPos = (entry.ox * cosFacing) - (entry.oy * sinFacing)
+    local yPos = (entry.oy * cosFacing) + (entry.ox * sinFacing)
+
+    entry.pin:ClearAllPoints()
+    entry.pin:SetPoint("CENTER", pfMap.drawlayer, "CENTER", xPos, -yPos)
+  end
+end)
+
 -- Reload all pfQuest internal database shortcuts
 pfDatabase:Reload()
 
