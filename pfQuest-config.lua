@@ -192,10 +192,67 @@ end
 pfQuestConfig.CreateConfigEntries = CreateConfigEntries
 pfQuestConfig.UpdateConfigEntries = UpdateConfigEntries
 
+local DEFAULT_CONFIG_SCALE = 0.6
+local MIN_CONFIG_SCALE = 0.3
+local MAX_CONFIG_SCALE = 1.5
+
+local function ApplyConfigScale()
+    if not pfQuestConfig then
+        return
+    end
+
+    local target = tonumber(pfQuest_config and pfQuest_config.epochConfigScale) or DEFAULT_CONFIG_SCALE
+    target = math.max(MIN_CONFIG_SCALE, math.min(MAX_CONFIG_SCALE, target))
+
+    pfQuestConfig:SetScale(math.min(MAX_CONFIG_SCALE, target / UIParent:GetEffectiveScale()))
+end
+
+local function ExtendConfigScaleOption()
+    if not pfQuest_defconfig then
+        return
+    end
+
+    for _, entry in pairs(pfQuest_defconfig) do
+        if entry.config == "epochConfigScale" then
+            return
+        end
+    end
+
+    table.insert(pfQuest_defconfig, {
+        text = "|cff33ffccConfig Window|r",
+        type = "header"
+    })
+    table.insert(pfQuest_defconfig, {
+        text = "Config Window Scale",
+        default = tostring(DEFAULT_CONFIG_SCALE),
+        type = "text",
+        config = "epochConfigScale"
+    })
+
+    pfQuest_config["epochConfigScale"] = pfQuest_config["epochConfigScale"] or tostring(DEFAULT_CONFIG_SCALE)
+end
+
+local function HookScaleInput()
+    local frame = configframes["Config Window Scale"]
+    if not frame or not frame.input then
+        return
+    end
+
+    frame.input:SetScript("OnEnterPressed", function(self)
+        this:ClearFocus()
+        ApplyConfigScale()
+    end)
+    frame.input:SetScript("OnEditFocusLost", function(self)
+        ApplyConfigScale()
+    end)
+end
+
 local function RebuildConfigUI()
     if not pfQuestConfig or not pfQuestConfig.CreateConfigEntries then
         return false
     end
+
+    ExtendConfigScaleOption()
 
     for i = 1, 200 do
         local frame = getglobal("pfQuestConfig" .. i)
@@ -209,8 +266,9 @@ local function RebuildConfigUI()
 
     pfQuestConfig.vpos = 40
     pfQuestConfig:CreateConfigEntries(pfQuest_defconfig)
+    HookScaleInput()
 
-    pfQuestConfig:SetScale(math.min(1.0, 0.6 / UIParent:GetEffectiveScale()))
+    ApplyConfigScale()
 
     return true
 end
