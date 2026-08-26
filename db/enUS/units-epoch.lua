@@ -32,6 +32,7 @@ pfDB["units"]["enUS-epoch"] = {
   [6121] = "Remen Marcot",
   [6577] = "Bingles Blastenheimer",
   [6778] = "Melika Isenstrider",
+  [6115] = "Felguard",
   [8378] = "Alexandra Blazen",
   [8382] = "Patrick Mills",
   [8478] = "Second Mate Shandril",
