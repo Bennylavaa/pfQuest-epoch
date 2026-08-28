@@ -140,6 +140,7 @@ pfDB["meta-epoch"] = { -- these are for /db taxi, /db chests, /db rares, /db her
     [-2843] = 0,
   },
   ["fish"] = {
+    [-250685] = "AH",
     [-180902] = "AH",
     [-180901] = "AH",
     [-180900] = "AH",
@@ -164,7 +165,6 @@ pfDB["meta-epoch"] = { -- these are for /db taxi, /db chests, /db rares, /db her
     [-180369] = "AH",
     [-180248] = "AH",
     [-180184] = "AH",
-    [-250685] = "AH",
   },
   ["flight"] = {
     [352] = "A",
@@ -341,6 +341,11 @@ pfDB["meta-epoch"] = { -- these are for /db taxi, /db chests, /db rares, /db her
     [47015] = "H",
   },
   ["mailbox"] = {
+    [-250692] = "AH",
+    [-250691] = "AH",
+    [-250690] = "H",
+    [-250583] = "AH",
+    [-187260] = "H",
     [-181639] = "A",
     [-181236] = "AH",
     [-180451] = "AH",
@@ -400,11 +405,11 @@ pfDB["meta-epoch"] = { -- these are for /db taxi, /db chests, /db rares, /db her
     [-142075] = "A",
     [-140908] = "AH",
     [-32349] = "A",
-    [-250583] = "AH",
-    [-250690] = "H",
-    [-250691] = "AH",
   },
   ["meetingstone"] = {
+    [-250635] = "AH",
+    [-250634] = "AH",
+    [-250633] = "AH",
     [-179597] = "AH",
     [-179596] = "AH",
     [-179595] = "AH",
@@ -427,9 +432,6 @@ pfDB["meta-epoch"] = { -- these are for /db taxi, /db chests, /db rares, /db her
     [-178826] = "AH",
     [-178825] = "AH",
     [-178824] = "AH",
-    [-250633] = "AH",
-    [-250634] = "AH",
-    [-250635] = "AH",
   },
   ["mines"] = {
     [-181109] = 155,
@@ -1335,10 +1337,8 @@ pfDB["meta-epoch"] = { -- these are for /db taxi, /db chests, /db rares, /db her
   },
   ["spirithealer"] = {
     [6491] = "AH",
-    [13056] = "AH",
     [13116] = "A",
     [13117] = "H",
-    [18153] = "AH",
   },
   ["stablemaster"] = {
     [6749] = "A",

@@ -15,7 +15,7 @@ To help include or improve data in this project you can either open an issue
 or create a pull request.
 
 Gather as much data as you can about the thing you want to add.
-For quests this will be, starting entity(npc or object or item), ending entity
+For quests this will be, starting entity (npc, object or item), ending entity,
 objectives, english quest text (see macros below).
 
 [Zone IDs](https://github.com/Bennylavaa/wowchat-epoch/blob/main/src/main/resources/pre_cata_areas.csv)
@@ -27,15 +27,12 @@ Your Current Cords:
 /script SetMapToCurrentZone() local x,y=GetPlayerMapPosition("player") DEFAULT_CHAT_FRAME:AddMessage(format("%s, %s: %.1f, %.1f",GetZoneText(),GetSubZoneText(),x*100,y*100))
 ```
 
-
 Targeted Unit Information:
-
 ```lua
 /run t = "target"; guID = UnitGUID(t); uID = tonumber(string.sub(guID, 8, 12), 16); uName = UnitName(t); uLVL = UnitLevel(t); uRank = UnitClassification(t); if guID then print("UNIT\nID:", uID, "\nName:", uName, "\nLevel:", uLVL, "\nRank:", uRank) end
 ```
 
 Selected QuestLog Data:
-
 ```lua
 /run local t, l, _, _, _, _, _, _, i = GetQuestLogTitle(GetQuestLogSelection()); print("\nID:"..i.."\nLevel:"..l.."\n[\"T\"] "..t.."\n[\"O\"] "..QuestInfoObjectivesText:GetText().."\n[\"D\"] "..QuestInfoDescriptionText:GetText())
 ```
