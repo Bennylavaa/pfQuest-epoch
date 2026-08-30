@@ -29,17 +29,17 @@ Your Current Cords:
 
 Targeted Unit Information:
 ```lua
-/run t = "target"; guID = UnitGUID(t); uID = tonumber(string.sub(guID, 8, 12), 16); uName = UnitName(t); uLVL = UnitLevel(t); uRank = UnitClassification(t); if guID then print("UNIT\nID:", uID, "\nName:", uName, "\nLevel:", uLVL, "\nRank:", uRank) end
+/run t = "target"; guID = UnitGUID(t); if guID then print("\nUnit ID:", tonumber(string.sub(guID, 8, 12), 16), "\nName:", UnitName(t), "\nLevel:", UnitLevel(t), "\nRank:", UnitClassification(t), "\n") end
 ```
 
 Selected QuestLog Data:
 ```lua
-/run local t, l, _, _, _, _, _, _, i = GetQuestLogTitle(GetQuestLogSelection()); print("\nID:"..i.."\nLevel:"..l.."\n[\"T\"] "..t.."\n[\"O\"] "..QuestInfoObjectivesText:GetText().."\n[\"D\"] "..QuestInfoDescriptionText:GetText())
+/run local t,l,_,_,_,_,_,_,i = GetQuestLogTitle(GetQuestLogSelection()); print("\nQuest ID: "..i.."\nLevel: "..l.."\n[\"T\"] = \""..t.."\"\n[\"O\"] = \""..QuestInfoObjectivesText:GetText().."\"\n[\"D\"] = \""..QuestInfoDescriptionText:GetText().."\"\n")
 ```
 
 Hover Over Item ID:
 ```lua
-/run local name, link = GameTooltip:GetItem(); if link then local itemID = tonumber(link:match("item:(%d+):")); if itemID then print("Item\nID:", itemID, "\nName:", name) end end
+/run local _, link = GameTooltip:GetItem(); if link then local itemID = tonumber(link:match("item:(%d+):")); if itemID then print("\nItem ID:", itemID, "\nName:", link, "\n") end end
 ```
 
 Object ID:
