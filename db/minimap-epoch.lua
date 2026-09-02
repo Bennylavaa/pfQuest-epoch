@@ -1,3 +1,5 @@
+-- Values derived from WorldMapArea.dbc (LocLeft/LocRight/LocTop/LocBottom) — see
+-- the "Deriving values" note under minimap-epoch.lua in Db.md for the formula.
 pfDB["minimap-epoch"] = {
   [0] = { 36799.8, 24533.2 },
   [1] = { 4925.0, 3283.34 },
@@ -54,6 +56,7 @@ pfDB["minimap-epoch"] = {
   [1637] = { 1402.61, 935.42 },
   [1638] = { 1043.75, 695.83 },
   [1657] = { 1058.33, 705.71 },
+  [2437] = { 738.86, 492.57 },
   [2597] = { 4237.5, 2825.0 },
   [2817] = { 2722.92, 1814.58 },
   [3277] = { 1145.837, 764.58 },

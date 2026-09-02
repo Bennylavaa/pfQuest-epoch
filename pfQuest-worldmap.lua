@@ -519,6 +519,10 @@ function pfMap:UpdateNodes()
         return
     end
 
+    if IsInInstance() then
+        return
+    end
+
     for _, pin in pairs(pfMap.pins) do
         if pin then
             pin:Hide()
@@ -1048,6 +1052,22 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
+            text = "|cff33ffccDungeon Maps|r",
+            type = "header"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "Show Pins on Dungeon Map/Minimap",
+            default = "0",
+            type = "checkbox",
+            config = "epochDungeonPins"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
             text = "|cff33ffccContinent Map|r",
             type = "header"
         }
@@ -1153,6 +1173,7 @@ local function ExtendPfQuestConfig()
     )
 
     -- Initialize the config values with defaults
+    pfQuest_config["epochDungeonPins"] = pfQuest_config["epochDungeonPins"] or "0"
     pfQuest_config["epochContinentPins"] = pfQuest_config["epochContinentPins"] or "1"
     pfQuest_config["continentClickThrough"] = pfQuest_config["continentClickThrough"] or "0"
     pfQuest_config["continentNodeSize"] = pfQuest_config["continentNodeSize"] or "12"

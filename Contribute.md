@@ -48,6 +48,14 @@ Hover Over Item ID:
 Object ID:
 If you know of a way to extract this from the client make an issue
 
+Dungeon/Instance Map ID:
+Needed as the key for `epoch_customids` in `patchtable.lua` (`pfMap:GetMapID`),
+since instances aren't reachable through the normal `GetMapZones()` zone list
+(`GetCurrentMapContinent()` returns `-1` while inside one).
+```lua
+/run DEFAULT_CHAT_FRAME:AddMessage("mapinfo="..tostring(GetMapInfo()))
+```
+
 ## Example
 Demo quest commit: [Do Slavers Keep Records?
 ](https://github.com/Bennylavaa/pfQuest-epoch/commit/39abc567413a0c004ea22ec38fed4eb2e486e9d6)

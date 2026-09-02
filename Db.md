@@ -233,6 +233,29 @@ Contains minimap scale factors for specific areas, which helps to correctly disp
 [25] = { 711.56, 468.68 },
 ```
 
+**Deriving values:**
+Values come from `WorldMapArea.dbc` (keyed by areatableID, i.e. the map/zone id).
+This is how the official pfQuest db tool derives each entry from the dbc-imported
+`WorldMapArea` SQL table (`LocLeft`/`LocRight`/`LocTop`/`LocBottom` columns):
+```lua
+local query = mysql:execute('SELECT * FROM pfquest.WorldMapArea_'..expansion..' ORDER BY areatableID ASC')
+while query:fetch(minimap_size, "a") do
+  local mapID  = minimap_size.mapID
+  local areaID = minimap_size.areatableID
+  local x_min, x_max = minimap_size.x_min, minimap_size.x_max -- LocLeft, LocRight
+  local y_min, y_max = minimap_size.y_min, minimap_size.y_max -- LocBottom, LocTop
+  local x = -1 * x_min + x_max
+  local y = -1 * y_min + y_max
+  pfDB["minimap"..exp][tonumber(areaID)] = { tonumber(y+.0), tonumber(x+.0) }
+end
+```
+For a custom/instance zone not in the dbc, look up its `LocLeft`/`LocRight`/`LocTop`/`LocBottom`
+(e.g. from a `WorldMapArea.dbc` viewer) and run the same math by hand.
+
+Dungeons/instances also need a `pfMap:GetMapID` fallback entry in `patchtable.lua`
+(`epoch_customids`, keyed by `GetMapInfo()`) since they aren't reachable through the
+normal zone list — see the "Dungeon/Instance Map ID" macro in [Contribute.md](Contribute.md).
+
 ---
 
 ### `quests-itemreq-epoch.lua`

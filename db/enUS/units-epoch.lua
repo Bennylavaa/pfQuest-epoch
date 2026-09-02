@@ -2246,4 +2246,5 @@ pfDB["units"]["enUS-epoch"] = {
   [300080] = "Steamwheedle Bruiser",
   [300081] = "Dragonslayer Teewon",
   [300082] = "Dragonslayer Setonus",
+  [999999] = "Dungeon Test Dummy",
 }

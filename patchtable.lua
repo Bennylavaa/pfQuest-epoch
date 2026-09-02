@@ -47,17 +47,25 @@ if pfDB["meta-epoch"] then patchtable(pfDB["meta"], pfDB["meta-epoch"]) end
 -- Use wowhead database url for now
 pfQuest.dburl = "https://epochhead.com/?quest="
 
--- Disable Minimap in custom dungeon maps
-function pfMap:HasMinimap(map_id)
-  -- disable dungeon minimap
-  local has_minimap = not IsInInstance()
+-- key = GetMapInfo(), see the "Dungeon/Instance Map ID" macro in Contribute.md
+local epoch_customids = {
+  ["Ragefire"] = 2437, -- Ragefire Chasm
+}
 
-  -- enable dungeon minimap if continent is less then 3 (e.g AV)
-  if IsInInstance() and GetCurrentMapContinent() < 3 then
-    has_minimap = true
+local epoch_original_GetMapID = pfMap.GetMapID
+function pfMap:GetMapID(cid, mid)
+  local id = epoch_original_GetMapID(self, cid, mid)
+  if id then return id end
+  if pfQuest_config["epochDungeonPins"] ~= "1" then return nil end
+  return epoch_customids[GetMapInfo()]
+end
+
+function pfMap:HasMinimap(map_id)
+  if pfQuest_config["epochDungeonPins"] == "1" then
+    return true
   end
 
-  return has_minimap
+  return not IsInInstance()
 end
 
 local epoch_nodename = "pfMiniMapPin"
