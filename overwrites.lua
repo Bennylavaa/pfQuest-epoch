@@ -77,12 +77,12 @@ do -- Removed or Reworked content by Epoch
       [14355] = "Azj'Tordin",
       [14373] = "Sage Korolusk",
       [14374] = "Scholar Runethorn",
-      [14846] = "Lhara Darkmoon Faire NPC",
       [15021] = "Deathmaster Dwire",
       [15192] = "Anachronos",
       [16287] = "Ambassador Sunsorrow",
       [16416] = "Bronn Fitzwrench",
       [16417] = "Rumsen Fizzlebrack",
+      [16840] = "Advisor Sevel",
       [16841] = "Watch Commander Relthorn Netherwane",
       [17093] = "Magistrix Elosai",
       [17094] = "Nemeth Hawkeye",
@@ -107,7 +107,19 @@ do -- Removed or Reworked content by Epoch
       [17412] = "Phaedra",
       [17541] = "Draenei Quartermaster",
       [17855] = "Expedition Warden",
+      [19006] = "Silvermoon Magister",
+      [19007] = "Gnomeregan Conjuror",
       [19254] = "Warlord Dar'toon",
+      [19320] = "Argent Protector",
+      [19322] = "Argent Guardian",
+      [19365] = "Argent Bowman",
+      [19366] = "Argent Hunter",
+      [19385] = "Lord Marshal Raynor",
+      [19386] = "Stormwind Marshal",
+      [19406] = "Thunder Bluff Huntsman",
+      [19407] = "Azuremyst Vindicator",
+      [19566] = "Nethergarde Advisor",
+      [19567] = "Watcher Theronus",
       [19855] = "Sir Maximus Adams",
       [19942] = "Agent Proudwell <The Argent Dawn>",
       [21984] = "Rexxar",
@@ -455,15 +467,27 @@ do -- Removed or Reworked content by Epoch
     })
   end
 
-  do -- missing EPL NPCs, will need to be added later with correct coords
+  do -- Argent Dawn - Eastern Plaguelands
     remove("units", {
+      [1] = "",
+      [11038] = "Caretaker Alen",
       [16112] = "Korfax, Champion of the Light",
+      [16113] = "Father Inigo Montoy",
+      [16114] = "Scarlet Commander Marjhan",
+      [16115] = "Commander Eligor Dawnbringer",
       [16116] = "Archmage Angela Dosantos",
       [16131] = "Rohan the Assassin",
       [16132] = "Huntsman Leopold",
       [16133] = "Mataus the Wrathcaster",
+      [16134] = "Rimblat Earthshatter",
       [16135] = "Rayne",
       [16212] = "Dispatch Commander Metz",
+      [16256] = "Jessica Chambers",
+      [16283] = "Packmaster Stonebruiser",
+      [16284] = "Argent Medic",
+      [16365] = "Master Craftsman Omarion",
+      [16376] = "Craftsman Wilhelm",
+      [16378] = "Argent Sentry",
       [17069] = "Emissary Whitebeard",
       [17072] = "Emisary Gormok",
     })
@@ -501,6 +525,8 @@ do -- Removed or Reworked content by Epoch
 
   do -- Scourge Event
     remove("units", {
+      [16281] = "Keeper of the Rolls",
+      [16285] = "Argent Emissary",
       [16361] = "Commander Thomas Helleran",
       [16478] = "Lieutenant Orrin",
       [16484] = "Lieutenant Nevell",
@@ -508,6 +534,8 @@ do -- Removed or Reworked content by Epoch
       [16493] = "Lieutenant Dagel",
       [16494] = "Lieutenant Rukag",
       [16495] = "Lieutenant Beitha",
+      [16786] = "Argent Quartermaster",
+      [16787] = "Argent Outfitter",
     })
 
     remove("quests", {
@@ -625,6 +653,7 @@ end
 do -- Objects
   remove("objects", {
     [176188] = "Ritual Candles - Felwood",
+    [180753] = "Patch of Elemental Water - Azshara",
   })
 end
 
@@ -638,6 +667,7 @@ do -- Seasonal Events
       [14841] = "Rinling",
       [14842] = "Melnan Darkstone",
       [14843] = "Kruban Darkblade",
+      [14846] = "Lhara <Darkmoon Faire Exotic Goods>",
       [14871] = "Morja",
     })
 
@@ -1225,6 +1255,7 @@ do -- Seasonal Events
 
   do -- Remove Hallow's End
     remove("units", {
+      [15197] = "Darkcaller Yanka",
       [15199] = "Sergeant Hartman",
       [15310] = "Jesper",
     })
@@ -1540,6 +1571,7 @@ end
 
 do -- PvP
   remove("units", { -- Battlegrounds units
+      [15006] = "Deze Snowbane <Arathi Basin Battlemaster>",
       [15126] = "Rutherford Twing <Defilers Supply Officer>",
       [15127] = "Samuel Hawke <League of Arathor Supply Officer>",
   })
