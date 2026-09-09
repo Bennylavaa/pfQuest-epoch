@@ -1,5 +1,5 @@
 pfDB["quests"]["enUS-epoch"] = {
-  -- |cFFFF0000TEXTHERE|r\n -- RED  -> warning of disabled or broken quests
+  -- |cFFFF0000TEXTHERE|r\n -- RED  -> warning for disabled or broken quests
   -- |cFF42E8F3TEXTHERE|r\n -- CYAN -> hints or hidden requirements
   [11] = {
     ["T"] = "Riverpaw Gnoll Bounty",
@@ -36,6 +36,16 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Kill Argus Shadow Mages and bring one of their spell books back to Magistrate Henry Maleb at Southshore in Hillsbrad Foothills.",
     ["D"] = "The letter you brought me was written by a being who calls himself Nagaz, a member of the Argus Wake. I don\'t know what this Argus Wake is, but if they\'re in an alliance with the Syndicate then they must be a threat. \n\nI want you to find the Argus Shadow Mages mentioned in that letter. I want you to find them, and kill them. Bring me anything they possess that will tell us who or what this Nagaz is.\n\nSearch in Strahnbrad and the Uplands, north of there. With luck, you\'ll find these envoys of the Argus Wake there.",
   },
+  [619] = {
+    ["T"] = "Enticing Negolash",
+    ["O"] = "Bring 10 Barbecued Buzzard Wings and 5 bottles of Junglevine Wine to entice Negolash.",
+    ["D"] = "",
+  },
+  [822] = {
+    ["T"] = "Chen\'s Empty Keg",
+    ["O"] = "|cFF42E8F3[Repeatable]|r\nBring 5 Lightning Glands, 1 Thunderhawk Saliva Gland and 1 Kodo Liver to Brewmaster Drohn in Ratchet.",
+    ["D"] = "Good stuff, that stormstout, huh?\n\nI have another recipe that I learned from Chen. Would you be interested? It won\'t take long to make, and it might be useful if you plan on adventuring some more.\n\nBring me 5 lightning glands from any stormhide, 1 thunderhawk saliva gland from greater thunderhawks, and a kodo liver from any of the Barrens\' kodos.\n\nLike I said, this stuff has kick; it\'s the trogg ale that I mentioned to you before.",
+  },
   [991] = {
     ["T"] = "Raene\'s Cleansing",
     ["O"] = "Find Teronis in Ashenvale.",
@@ -44,7 +54,7 @@ pfDB["quests"]["enUS-epoch"] = {
   [1036] = {
     ["T"] = "Avast Ye, Scallywag",
     ["O"] = "|cFF42E8F3Requires Hated reputation with Booty Bay!|r\nSpeak with Fleet Master Firallon aboard the Crimson Vale off the coast of Stranglethorn Vale.",
-    ["D"] = "$N... yeah, I\'ve heard of you.I\'ve heard that you\'re no friend of Booty Bay - just like us Bloodsail Buccaneers.Fleet Master Firallon is looking for hale and hearty $g men : women; just like you for a special mission.$B$BIf you\'re interested, head on out to the Crimson Veil and speak with him below decks.She\'s anchored off the Wild Coast east of here, next to the Riptide and the Damsel\'s Luck.",
+    ["D"] = "$N... yeah, I\'ve heard of you.I\'ve heard that you\'re no friend of Booty Bay - just like us Bloodsail Buccaneers.Fleet Master Firallon is looking for hale and hearty $G men : women; just like you for a special mission.\n\nIf you\'re interested, head on out to the Crimson Veil and speak with him below decks.She\'s anchored off the Wild Coast east of here, next to the Riptide and the Damsel\'s Luck.",
   },
   [1132] = {
     ["T"] = "Fiora Longears",
@@ -71,49 +81,74 @@ pfDB["quests"]["enUS-epoch"] = {
     ["O"] = "Defend Captain Vanessa Beltis, her crew and the Horizon Scout\'s passengers against the naga attack. Captain Vanessa Beltis must survive.",
     ["D"] = "We were just off the coast looking for a safe haven to make anchor. The sun hadn\'t been down for more than an hour when they attacked... those damned naga!\nI\'m not sure what they were looking for, but it\'s clear they didn\'t find it--they\'ve already come back once. A couple of my scouts are on watch at the entrance of the valley to give us fair warning when the next attack comes.\nI\'m sorry you\'ve come along now, $N, but it\'s out of my hands.\nAre you ready for the fight of your life?",
   },
+  [3631] = {
+    ["T"] = "Summon Felsteed",
+    ["O"] = "Speak to Strahad Farsan in the Barrens.",
+    ["D"] = "Hmph. I say you\'re not prepared, but that is not my decision. Strahad feels otherwise, and it is his decision to make... this time.\n\nHe wishes to speak to you, and quickly. You\'ll find him still above Ratchet in the Barrens, at his little tower there with his acolytes.\n\nDo not dawdle long.",
+  },
   [3801] = {
     ["T"] = "Dark Iron Legacy",
     ["O"] = "Speak with Franclorn Forgewright if you are interested in obtaining a key to the city major.|cFF42E8F3\nYou have to be in ghost form (dead) to see this NPC!|r",
     ["D"] = "Greetings, $N. I am Franclorn Forgewright. Yes, the Franclorn Forgewright responsible for the stonewrought method of architecture. You have undoubtedly passed through or stood upon one of my creations in your adventures across our war torn world.\n\nYou are probably wondering why I am here and what it is that I want from you - both valid questions.\n\nI need your assistance, of course. In exchange for your assistance, I shall grant you the key to the depths of my accursed city.",
   },
+  [4487] = {
+    ["T"] = "Summon Felsteed",
+    ["O"] = "Speak to Strahad Farsan in Ratchet.",
+    ["D"] = "Ah, good, you\'re here. I sent a $G succubus:infernal; after you to get your attention, but it seems you were able to get here before it found you. No matter.\n\nThere has been some talk lately of your growing power--that is good for you, possibly bad for others. But those are irrelevant points. The point is, I feel you\'ve proven yourself and therefore are deserving of... hehe... a blessing of sorts.\n\nAbove Ratchet in the Barrens you\'ll find a man named Strahad. I believe you\'ve crossed paths before.",
+  },
+  [4488] = {
+    ["T"] = "Summon Felsteed",
+    ["O"] = "Speak to Strahad Farsan in Ratchet.",
+    ["D"] = "Ah, $N, you\'ve seen fit to grace us with your presence. How wonderful!\n\nI hope you do not expect us to wait on you hand and foot also. You may be growing quickly in power, but you still are a pup when it comes to true knowledge and understanding. If you\'re not careful, corruption will overwhelm you and your weak will.\n\nBut I should get to the point: Strahad wishes to speak to you. He is still residing in his tower overlooking Ratchet in the Barrens. I suggest not taking too long.",
+  },
+  [4489] = {
+    ["T"] = "Summon Felsteed",
+    ["O"] = "Speak to Strahad Farsan in Ratchet.",
+    ["D"] = "You, $R! Come here!\n\nYou\'re the one they call $N, yes?\n\nI thought as much. I will keep this short: you\'re growing in power, and it has been acknowledged. And now, the time has come that you are rewarded for your efforts.\n\nGo to the Barrens. There, above Ratchet, you\'ll find Strahad Farsan--perhaps you remember him? He would have words with you. I wouldn\'t take long.",
+  },
+  [4490] = {
+    ["T"] = "Summon Felsteed",
+    ["O"] = "Speak to Strahad Farsan in Ratchet to learn the ability to summon a Felsteed.",
+    ["D"] = "I would give you a reward for your patience and hard work. But know this, the ability to summon a Felsteed will be much more difficult in the future. You will have to earn it... and it will not be easy.\n\nFor now, go with the power to summon such a creature and use it as you see fit.",
+  },
   [5504] = {
     ["T"] = "Mantles of the Dawn",
-    ["O"] = "|cFF42E8F3Requires Revered Reputation!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark, Western Plaguelands.",
+    ["O"] = "|cFF42E8F3Requires Revered Reputation with Argent Dawn!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark, Western Plaguelands.",
     ["D"] = "Your service to the Argent Dawn is to be commended, $N.You are truly revered amongst us.I have been authorized to make available for you to purchase one of the Dawn\'s most valued items - our magic resistance mantles.\n\nApplication of a mantle to your existing shoulder piece will enhance your resistance to the powers of magic in one of five potential ways.As a sign of continued dedication to our cause, I ask for no less than ten of our valor tokens in exchange for access to these mantles.",
   },
   [5507] = {
     ["T"] = "Mantles of the Dawn",
-    ["O"] = "|cFF42E8F3Requires Revered Reputation!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp, Western Plaguelands.",
+    ["O"] = "|cFF42E8F3Requires Revered Reputation with Argent Dawn!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp, Western Plaguelands.",
     ["D"] = "Your service to the Argent Dawn is to be commended, $N.You are truly revered amongst us.I have been authorized to make available for you to purchase one of the Dawn\'s most valued items - our magic resistance mantles.\n\nApplication of a mantle to your existing shoulder piece will enhance your resistance to the powers of magic in one of five potential ways.As a sign of continued dedication to our cause, I ask for no less than ten of our valor tokens in exchange for access to these mantles.",
   },
   [5513] = {
     ["T"] = "Mantles of the Dawn",
-    ["O"] = "|cFF42E8F3Requires Revered Reputation!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Breechlock at Light\'s Hope Chapel, Eastern Plaguelands.",
+    ["O"] = "|cFF42E8F3Requires Revered Reputation with Argent Dawn!|r\nBring 10 Argent Dawn Valor Tokens to Quartermaster Breechlock at Light\'s Hope Chapel, Eastern Plaguelands.",
     ["D"] = "Your service to the Argent Dawn is to be commended, $N.You are truly revered amongst us.I have been authorized to make available for you to purchase one of the Dawn\'s most valued items - our magic resistance mantles.\n\nApplication of a mantle to your existing shoulder piece will enhance your resistance to the powers of magic in one of five potential ways.As a sign of continued dedication to our cause, I ask for no less than ten of our valor tokens in exchange for access to these mantles.",
   },
   [5517] = {
     ["T"] = "Chromatic Mantle of the Dawn",
-    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Breechlock at Light\'s Hope Chapel, Eastern Plaguelands.",
-    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!$B$BBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation with Argent Dawn!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Breechlock at Light\'s Hope Chapel, Eastern Plaguelands.",
+    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!\n\nBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
    },
   [5521] = {
     ["T"] = "Chromatic Mantle of the Dawn",
-    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp, Western Plaguelands.",
-    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!$B$BBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation with Argent Dawn!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp, Western Plaguelands.",
+    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!\n\nBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
    },
   [5524] = {
     ["T"] = "Chromatic Mantle of the Dawn",
-    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark, Western Plaguelands.",
-    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!$B$BBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation with Argent Dawn!|r\nBring 25 Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark, Western Plaguelands.",
+    ["D"] = "$G Brother : Sister; $N - your deeds on behalf of the Argent Dawn are far too numerous to be recounted easily.As a fitting tribute, I\'ll part with one of our special Chromatic Mantles of the Dawn - a version that protects the wearer from all forms of resistible magic simultaneously.Chromatic Mantles of the Dawn are reserved for only the mightiest of the Dawn\'s heroes!\n\nBring to me twenty-five valor tokens as a sign of tribute, and I\'ll give you the finest of all our mantles.",
    },
   [6031] = {
     ["T"] = "Runecloth",
-    ["O"] = "|cFF42E8F3Requires Friendly Reputation!|r\nBring 30 Runecloth to Meilosh in Timbermaw Hold.",
+    ["O"] = "|cFF42E8F3Requires Friendly Reputation with Timbermaw Hold!|r\nBring 30 Runecloth to Meilosh in Timbermaw Hold.",
     ["D"] = "In Timbermaw, we are content. We do not like strangers. This is good for us, but it is bad for trade.\n\nNot long ago, a rare night elf friend came to Timbermaw and she wore a runecloth cloak. Runecloth is rare among us, but the cloak was so fine my people want me to make more runecloth clothing.\n\nWill you bring me runecloth? If you bring me enough, then I will give you something in trade.",
   },
   [6032] = {
     ["T"] = "Sacred Cloth",
-    ["O"] = "|cFF42E8F3Requires Friendly Reputation!|r\nBring 2 Mooncloth to Meilosh in Timbermaw Hold.",
+    ["O"] = "|cFF42E8F3Requires Friendly Reputation with Timbermaw Hold!|r\nBring 2 Mooncloth to Meilosh in Timbermaw Hold.",
     ["D"] = "Although the people of Timbermaw delight in the feel of runecloth, it is not sacred to us. But mooncloth is sacred.\n\nBring me a small supply of this holy cloth, and I will teach you a secret fashioning technique.",
   },
   [6131] = {
@@ -153,12 +188,12 @@ pfDB["quests"]["enUS-epoch"] = {
   },
   [8470] = {
     ["T"] = "Deadwood Ritual Totem",
-    ["O"] = "|cFF42E8F3Requires Neutral Reputation!|r\nTake the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item. The Timbermaw will not speak with you unless you are of Neutral reputation or greater with them.",
+    ["O"] = "|cFF42E8F3Requires Neutral Reputation with Timbermaw Hold!|r\nTake the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item. The Timbermaw will not speak with you unless you are of Neutral reputation or greater with them.",
     ["D"] = "You have found one of the Deadwood furbolg\'s ritual totems. The totem itself is of non-descript construction, but a palpable sense of despair emanates from it. If there were any object that might best exemplify the corruption that the Deadwood furbolg suffer under, this item would clearly be it.\n\nOne of the furbolgs inside Timbermaw Hold may have a use for such an item... that is, if you\'ve earned their trust enough for them to speak with you.",
   },
   [8481] = {
     ["T"] = "The Root of All Evil",
-    ["O"] = "|cFF42E8F3Requires Exalted Reputation!|r\nPlant the Demon Summoning Torch in the mouth of High Chief Winterfall\'s cave in the Winterfall furbolg village.Defeat the demon and retrieve the Essence of Xandivious for Gorn One Eye in Timbermaw Hold.",
+    ["O"] = "|cFF42E8F3Requires Exalted Reputation with Timbermaw Hold!|r\nPlant the Demon Summoning Torch in the mouth of High Chief Winterfall\'s cave in the Winterfall furbolg village.Defeat the demon and retrieve the Essence of Xandivious for Gorn One Eye in Timbermaw Hold.",
     ["D"] = "$N, thanks to you we have devised a way to summon forth the root of all evil for the Winterfall tribe - the corrupting demon that dominates them!\n\nTake this torch to the mouth of High Chief Winterfall\'s personal cave and plant it there.Doing so will force the demon to reveal itself and investigate.This is when you and your allies must strike it down!Only the essence of the fallen demon will begin the lengthy healing process of the Winterfall tribe... and the salvation of Timbermaw Hold.",
   },
   [8905] = {
