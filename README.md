@@ -23,10 +23,6 @@ as many as possible to read the contribution guide and help as this is not
 a one man job.
 [How to contribute](Contribute.md)
 
-## Progress
-
-[Google Sheet](https://docs.google.com/spreadsheets/d/1uTlB9E-YUPJxO96Kn9RCpvx76kmhvHEs-i7XV8rPpW8/edit?usp=sharing)
-
 ## License ![License](https://img.shields.io/badge/License-Custom-blue.svg)
 This project is licensed under a custom license that allows personal use and GitHub forks only. Redistribution or rehosting elsewhere is not permitted. See the [LICENSE](LICENSE) file for details.
 
