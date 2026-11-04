@@ -22,35 +22,46 @@ objectives, english quest text (see macros below).
 
 ## Macros
 
-Your Current Cords:
+### Your Current Cords:
 ```lua
-/script SetMapToCurrentZone() local x,y=GetPlayerMapPosition("player") DEFAULT_CHAT_FRAME:AddMessage(format("%s, %s: %.1f, %.1f",GetZoneText(),GetSubZoneText(),x*100,y*100))
+/run SetMapToCurrentZone()local x,y=GetPlayerMapPosition("player") print(format("%s, %s: { %.1f, %.1f, %s, 0 }",GetZoneText(),GetSubZoneText(),x*100,y*100,pfMap:GetMapID(GetCurrentMapContinent(),GetCurrentMapZone())or"nil"))
 ```
 
-Targeted Unit Information:
+### Quick Target Coords: (ready to copy-paste)
 ```lua
-/run t = "target"; guID = UnitGUID(t); if guID then print("\nUnit ID:", tonumber(string.sub(guID, 8, 12), 16), "\nName:", UnitName(t), "\nLevel:", UnitLevel(t), "\nRank:", UnitClassification(t), "\n") end
+/run local x,y=GetPlayerMapPosition("player")local g=UnitGUID("target")print(format("%s: { %.1f, %.1f, %s, 0 }",tonumber(strsub(g or"",8,12),16)or"nil",x*100,y*100,pfMap:GetMapID(GetCurrentMapContinent(),GetCurrentMapZone())or"nil"))
+```
+Format:
+```lua
+{TARGET_ID#}: { x, y, zoneid, 0 }
 ```
 
-Selected QuestLog Data:
+If `zoneid` returns `nil`, the current zone is not recognized. See [Custom Map IDs](#custom-map-ids) below.
+
+### Targeted Unit Information:
 ```lua
-/run local t,l,_,_,_,_,_,_,i = GetQuestLogTitle(GetQuestLogSelection()); print("\nQuest ID: "..i.."\nLevel: "..l.."\n[\"T\"] = \""..t.."\"\n[\"O\"] = \""..QuestInfoObjectivesText:GetText().."\"\n[\"D\"] = \""..QuestInfoDescriptionText:GetText().."\"\n")
+/run local t="target" local g=UnitGUID(t) if g then print("\nUnit ID:",tonumber(strsub(g,8,12),16),"\nName:",UnitName(t),"\nLevel:",UnitLevel(t),"\nRank:",UnitClassification(t),"\n")end
 ```
 
-Hover Over Item ID:
+### Selected QuestLog Data:
 ```lua
-/run local _, link = GameTooltip:GetItem(); if link then local itemID = tonumber(link:match("item:(%d+):")); if itemID then print("\nItem ID:", itemID, "\nName:", link, "\n") end end
+/run local t,l,_,_,_,_,_,_,i=GetQuestLogTitle(GetQuestLogSelection()) print("\nQuest ID: "..i.."\nLevel: "..l.."\n[\"T\"] = \""..t.."\"\n[\"O\"] = \""..QuestInfoObjectivesText:GetText().."\"\n[\"D\"] = \""..QuestInfoDescriptionText:GetText().."\"\n")
 ```
 
-Object ID:
+### Hover Over Item ID:
+```lua
+/run local _,l=GameTooltip:GetItem()local id=l and tonumber(l:match("item:(%d+):"))if id then print("\nItem ID:",id,"\nName:",l,"\n")end
+```
+
+### Object ID:
 If you know of a way to extract this from the client make an issue
 
-Dungeon/Instance Map ID:
+### Custom Map IDs:
 Needed as the key for `epoch_customids` in `patchtable.lua` (`pfMap:GetMapID`),
 since instances aren't reachable through the normal `GetMapZones()` zone list
 (`GetCurrentMapContinent()` returns `-1` while inside one).
 ```lua
-/run DEFAULT_CHAT_FRAME:AddMessage("mapinfo="..tostring(GetMapInfo()))
+/run local c,z=GetCurrentMapContinent(),GetCurrentMapZone()print("\nMapInfo: "..tostring(GetMapInfo()).."\npfMapID: "..tostring(pfMap:GetMapID(c,z)).."\nContinent: "..c.."\nZone: "..z.."\nDungeonLevel: "..GetCurrentMapDungeonLevel())
 ```
 
 ## Example

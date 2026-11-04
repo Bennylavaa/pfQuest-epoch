@@ -93,11 +93,13 @@ local function GetVisibleDrops(unitid)
 
   local showReference = pfQuest_config and pfQuest_config["epochLootPanelShowReference"] == "1"
   local showUnknownChance = pfQuest_config and pfQuest_config["epochLootPanelShowUnknownChance"] == "1"
+  local minDropChance = tonumber(pfQuest_config and pfQuest_config["epochLootPanelMinDropChance"] or "0")
+  if not minDropChance then minDropChance = 0 end
 
   local visible = {}
   for _, drop in ipairs(drops) do
     local passesRef = showReference or not drop.isRef
-    local passesChance = showUnknownChance or (drop.chance and drop.chance > 0)
+    local passesChance = showUnknownChance or (drop.chance and drop.chance > minDropChance)
     if passesRef and passesChance and PassesCategoryFilters(drop.item) then
       table.insert(visible, drop)
     end
@@ -107,7 +109,7 @@ end
 
 local panel = CreateFrame("Frame", "pfQuestEpochLootPanel", WorldMapFrame)
 panel:SetFrameStrata("TOOLTIP")
-panel:SetFrameLevel(200)
+panel:SetFrameLevel(100)
 panel:SetClampedToScreen(true)
 panel:Hide()
 
@@ -461,6 +463,13 @@ local function ExtendPfQuestConfig()
     config = "epochLootPanelShowWhite"
   })
 
+  table.insert(pfQuest_defconfig, {
+    text = "Minimum drop chance to show item",
+    default = "0",
+    type = "text",
+    config = "epochLootPanelMinDropChance"
+  })
+
   if not pfQuest_config["epochLootPanelShowReference"] then
     pfQuest_config["epochLootPanelShowReference"] = "1"
   end
@@ -491,6 +500,10 @@ local function ExtendPfQuestConfig()
 
   if not pfQuest_config["epochLootPanelShowWhite"] then
     pfQuest_config["epochLootPanelShowWhite"] = "1"
+  end
+
+  if not pfQuest_config["epochLootPanelMinDropChance"] then
+    pfQuest_config["epochLootPanelMinDropChance"] = "0"
   end
 
   return true

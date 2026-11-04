@@ -4,7 +4,7 @@
 
 **NOTE: I do not give permission for this addon to be hosted in any servers launchers of any kind unless directly pulled from my repo and you must contact me before doing so.**
 
-An extension for [pfQuest-wotlk](https://github.com/shagu/pfQuest/releases/download/7.0.1/pfQuest-enUS-wotlk.zip) which adds support for [Project Epoch](https://www.project-epoch.net/).
+An extension for [pfQuest-wotlk](https://github.com/shagu/pfQuest/releases/download/7.0.1/pfQuest-enUS-wotlk.zip) which adds support for [Project Epoch](https://project-epoch.org/).
 The latest version of [pfQuest-wotlk](https://github.com/shagu/pfQuest/releases/download/7.0.1/pfQuest-enUS-wotlk.zip) is required and only enUS-Gameclients are supported at the time.
 
 At this time development for this add-on is only with pfQuest [7.0.1](https://github.com/shagu/pfQuest/releases/download/7.0.1/pfQuest-enUS-wotlk.zip) in mind, if you wish to use the [8.0.0](https://github.com/Bennylavaa/pfQuest-wotlk/releases/latest/download/pfQuest-wotlk.zip) version that is fine but expect issues. 

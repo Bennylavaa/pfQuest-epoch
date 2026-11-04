@@ -515,11 +515,14 @@ function pfMap:UpdateNodes()
         return
     end
 
-    if zone > 0 and not isContinent then
+    -- Preserve pins on custom dungeon maps (zone == 0) when viewed from
+    -- outside the instance.
+    if zone >= 0 and not isContinent then
         return
     end
 
-    if IsInInstance() then
+    if IsInInstance() then -- ? might be irrelevant now since zone==0 is in a dungeon
+        pfQuest:Debug("pfMap:UpdateNodes() -> IsInInstance() -> returned")
         return
     end
 
@@ -581,7 +584,16 @@ function pfMap:UpdateNodes()
 
                                         -- Block unwanted PFDB trackables (herbs, mines, chests, etc.)
                                         if not isUtilityNPC then
-                                            local blockedTypes = {"herbs", "mines", "chests", "fish", "rares"}
+                                            local blockedTypes = {
+                                                "herbs",
+                                                "mines",
+                                                "chests",
+                                                "fish",
+                                                "rares",
+                                                "worldbosses",
+                                                "dungeonbosses"
+                                            }
+
                                             for _, blockedType in pairs(blockedTypes) do
                                                 if pfDB["meta-epoch"] and pfDB["meta-epoch"][blockedType] then
                                                     for objectId, faction in pairs(pfDB["meta-epoch"][blockedType]) do
@@ -783,20 +795,6 @@ function pfMap:UpdateNodes()
     local processedZones = {}
     local processedQuests = {}
 
-    local function GetGrayLevel(charLevel)
-        if charLevel <= 5 then
-            return 0
-        elseif charLevel <= 49 then
-            return charLevel - math.floor(charLevel / 10) - 5
-        elseif charLevel == 50 then
-            return 40
-        elseif charLevel <= 59 then
-            return charLevel - math.floor(charLevel / 5) - 1
-        else
-            return charLevel - 9
-        end
-    end
-
     for addon, addonData in pairs(pfMap.nodes) do
         for zID, zoneNodes in pairs(addonData) do
             local zoneCont = GetZoneContinent(zID)
@@ -842,7 +840,16 @@ function pfMap:UpdateNodes()
 
                                 -- Block unwanted PFDB trackables (herbs, mines, chests, etc.)
                                 if not isUtilityNPC then
-                                    local blockedTypes = {"herbs", "mines", "chests", "fish", "rares"}
+                                    local blockedTypes = {
+                                        "herbs",
+                                        "mines",
+                                        "chests",
+                                        "fish",
+                                        "rares",
+                                        "worldbosses",
+                                        "dungeonbosses"
+                                    }
+
                                     for _, blockedType in pairs(blockedTypes) do
                                         if pfDB["meta-epoch"] and pfDB["meta-epoch"][blockedType] then
                                             for objectId, faction in pairs(pfDB["meta-epoch"][blockedType]) do
@@ -1052,22 +1059,6 @@ local function ExtendPfQuestConfig()
     table.insert(
         pfQuest_defconfig,
         {
-            text = "|cff33ffccDungeon Maps|r",
-            type = "header"
-        }
-    )
-    table.insert(
-        pfQuest_defconfig,
-        {
-            text = "Show Pins on Dungeon Map/Minimap",
-            default = "0",
-            type = "checkbox",
-            config = "epochDungeonPins"
-        }
-    )
-    table.insert(
-        pfQuest_defconfig,
-        {
             text = "|cff33ffccContinent Map|r",
             type = "header"
         }
@@ -1169,6 +1160,24 @@ local function ExtendPfQuestConfig()
             default = "0",
             type = "checkbox",
             config = "epochHideItemDrops"
+        }
+    )
+
+
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "|cff33ffccDungeon Maps|r",
+            type = "header"
+        }
+    )
+    table.insert(
+        pfQuest_defconfig,
+        {
+            text = "Show Pins on Dungeon Map/Minimap",
+            default = "0",
+            type = "checkbox",
+            config = "epochDungeonPins"
         }
     )
 

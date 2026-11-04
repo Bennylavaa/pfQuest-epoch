@@ -1802,7 +1802,7 @@ pfDB["quests"]["enUS-epoch"] = {
     ["D"] = "Greetings, $N. You\'ve grown powerful in your training and I believe there isn\'t much left for me to teach you. I wager you\'re tired of conjuring food and drinks for your allies yes? If I am correct I think you should speak to High Sorcerer Andrometh in Stormwind. I believe he knows a better way.",
   },
   [26316] = {
-    ["T"] = "Lorderon\'s Legal Legacy",
+    ["T"] = "Lordaeron\'s Legal Legacy",
     ["O"] = "Locate books on Lordaeron\'s legal practices in Scholomance and Stratholme for Lorespeaker Ebonlocke in the Undercity.",
     ["D"] = "In life I was a legal scholar and in death I\'d like to continue these studies even while I explore much broader topics. I don\'t have time to go out and source books from the ruins of Lordaeron, but I bet you do.\n\nBring me these specific tomes from the ruins of Stratholme and the school of Scholomance and I\'ll be able to balance my Lorespeaker duties with my personal interests.",
   },
@@ -11950,5 +11950,40 @@ pfDB["quests"]["enUS-epoch"] = {
     ["T"] = "Fight for Gillijim\'s Isle",
     ["O"] = "Achieve victory in Gillijim\'s Isle 3 times, then return to Maxwell Zanoise in Stormwind Harbor. (This quest can be completed once every week.)",
     ["D"] = ""
+  },
+  [50000] = {
+    ["T"] = "Welcome to Grommash\'s Grill",
+    ["O"] = "Speak with Lady Marina Rotwright at the Grommash\'s Grill restaurant.",
+    ["D"] = "Welcome to Grommash\'s Grill, $R.\n\nCould I recommend our delicious Spicy Harpy Wings ? Maybe something sweeter for the road ?\n\nOr maybe are you interested in making a few silver and helping in the restaurant? You can find my maître d\'hôtel inside the restaurant, she will tell you what needs to be done.",
+  },
+  [50001] = {
+    ["T"] = "Cleaning Up this Disaster",
+    ["O"] = "Clean up 10 piles of dirt in the vicinity of Grommash\'s Grill.",
+    ["D"] = "What do you want, $C?\n\n“Ohhh, you\'re the new vic... <Grimefuse freezes. His eyes dart toward Lady Marina, and a brief flash of fear crosses his face.>... the new employee! Heh. Ain\'t that good... yeah.\n\nVery good. Welcome aboard! Means I can finally take a breather and let somebody else deal with that mess. About time, too! My back\'s been killin\' me.\n\nNow, see that broom over there? Go grab it and clean up those piles of dirt before one of our guests starts complainin\'.\n\nHe leans closer and lowers his voice.\n\nI\'ll be right here... supervisin\'.\n\nLet me know when you\'re done. I\'ve got another job for ya.\n\nA much bigger one.",
+  },
+  [50002] = {
+    ["T"] = "Cleaning Up this Disaster",
+    ["O"] = "Investigate who or what is going through the trash at Grommash\'s Grill during the night.",
+    ["D"] = "Alright, rookie! Time for that bigger job I was tellin\' ya about.\n\nSee, every night, somethin\' - or someone - sneaks up to the restaurant and starts rummagin\' through the trash. Makes a mess! And guess who gets stuck cleanin\' it up every mornin\'? \n\nMe.\n\n<Grimefuse sighs dramatically>\n\nWell, you from now on. So, if you\'d rather not spend your mornin\'s elbow-deep in garbage, you might wanna grab a few friends and figure out what the heck\'s been doin\' this.\n\nAnd when I say friends, I mean actual friends, not me. I aint no hunter but even I can tell those tracks ain\'t from some hungry little critter. \n\nIt will take more than one flimsy $C to bring that thing down.",
+  },
+  [50003] = {
+    ["T"] = "The Waterboy",
+    ["O"] = "Bring 10 canteens of Oasis Water taken from the Lushwater Oasis and 10 glasses of Ice Cold Milk to Lady Marina Rotwright at Grommash\'s Grill next to the Crossroads.",
+    ["D"] = "Quit starring at me and make yourself useful.\n\nWe need another batch of Ice Cold Milk to make desserts for tonight. You can find some at the local inn.\n\nOh and $C, take these canteen and fill them up at the Lushwater Oasis southwest of the Crossroads. Our customers are drying like jerky in the Burning Steppes. Watch out for the turtles, they don\'t like it when someone steps into their pond.",
+  },
+  [50006] = {
+    ["T"] = "A Peculiar Guest",
+    ["O"] = "Collect 12 fresh Quillboar brains from the Quillboars at Thorn Hill.",
+    ["D"] = "Hey! You\'re the new $G guy : gal;, right?\n\nSizzle to my friends. But you? You can call me Chef Sizzle.\n\nNow listen up, rookie. We got a very important guest in the dining room tonight.\n\n<He lowers his voice dramatically.>\n\nMorsel Mortis. Yeah, that Morsel Mortis. You\'ve heard of him, right? Big name in the culinary world. Big appetite, bigger ego. We really need to impress this guy.\n\nSo here\'s what I need from you. Head out there and collect twelve fresh Quillboar brains. Why twelve? Because Quillboar ain\'t exactly known for their big brain, you know?\n\nGet movin\', rookie! The fresher those brains are, the happier our critic will be.",
+  },
+  [50007] = {
+    ["T"] = "A Peculiar Guest",
+    ["O"] = "Collect 8 Harpy Eggs in the Dry Hills in northern barrens, 5 mild spices and a pinch of salt from a trade supply vendor.",
+    ["D"] = "Didn\'t love it, eh? Heh. Yeah... I could see that little look of disappointment from up here.\n\nWho knew a food critic could be so picky? Alright, alright. We need a comeback. Something refined. Something that\'ll make that fancy corpse forget all about the Quillboar.\n\n<Chef Sizzle suddenly snaps his fingers.>\n\nI got it! My famous Harpy Egg Omelet! It\'s fluffy, it\'s savory, it\'s got just the right amount of seasoning... and most importantly, it does not contain any brains.\n\nNow, I need you to fetch me eight Harpy eggs from around the Dry Hills in the northern Barrens. Then you\'ll need five Mild Spices and one pinch of salt. You can buy \'em from Tari\'Qa at the Crossroads.",
+  },
+  [50012] = {
+    ["T"] = "Cleaning Up this Disaster",
+    ["O"] = "Find up to 8 Grimtotem Cooks and make them pay for taking food at Grommash\'s Grill without paying for it.",
+    ["D"] = "Alright, pal, listen up. I\'ve been running the numbers, and I finally figured out where that tauren came from!\n\nSome lowlife Grimtotem thugs were spotted lurking right at the edge of The Barrens, exactly where the Stonetalon Mountains start. Now, I know what you\'re thinkin, just a bunch of angry cows, right? Wrong! I\'m positive they\'re thieves... Or worse... FOOD SPIES! They\'ve been digging through our trash, studying our leftovers, and trying to steal our top-secret recipes! \n\nHere\'s the plan: Go shut down their operation. Head over to their camp and look for the burnt tower near the Stonetalon border. Even better, march right IN to the Stonetalon Mountains and find their cooks in the first camp you\'ll see. Once you \"deal\" with em, nobody is gonna be able to copy our recipes!",
   },
 }
