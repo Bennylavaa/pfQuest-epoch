@@ -110,8 +110,8 @@ Contains item information, including which units (`"U"`) and objects (`"O"`) the
         [UNITID#] = drop%number, -- second NPC it drops from
     },
     ["V"] = { -- vendor
-        [UNITID#] = 0, -- item with infinite stock
-        [UNITID#] = #availability_items, -- maximum number of items per stock refresh
+        [UNITID#] = 0, -- unlimited stock
+        [UNITID#] = #stock_limit#, -- maximum quantity per restock
     }
 },
 ```
