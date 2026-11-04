@@ -584,7 +584,16 @@ function pfMap:UpdateNodes()
 
                                         -- Block unwanted PFDB trackables (herbs, mines, chests, etc.)
                                         if not isUtilityNPC then
-                                            local blockedTypes = {"herbs", "mines", "chests", "fish", "rares"}
+                                            local blockedTypes = {
+                                                "herbs",
+                                                "mines",
+                                                "chests",
+                                                "fish",
+                                                "rares",
+                                                "worldbosses",
+                                                "dungeonbosses"
+                                            }
+
                                             for _, blockedType in pairs(blockedTypes) do
                                                 if pfDB["meta-epoch"] and pfDB["meta-epoch"][blockedType] then
                                                     for objectId, faction in pairs(pfDB["meta-epoch"][blockedType]) do
@@ -831,7 +840,16 @@ function pfMap:UpdateNodes()
 
                                 -- Block unwanted PFDB trackables (herbs, mines, chests, etc.)
                                 if not isUtilityNPC then
-                                    local blockedTypes = {"herbs", "mines", "chests", "fish", "rares"}
+                                    local blockedTypes = {
+                                        "herbs",
+                                        "mines",
+                                        "chests",
+                                        "fish",
+                                        "rares",
+                                        "worldbosses",
+                                        "dungeonbosses"
+                                    }
+
                                     for _, blockedType in pairs(blockedTypes) do
                                         if pfDB["meta-epoch"] and pfDB["meta-epoch"][blockedType] then
                                             for objectId, faction in pairs(pfDB["meta-epoch"][blockedType]) do

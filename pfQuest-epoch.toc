@@ -19,5 +19,6 @@ pfQuest-nameplates.lua
 pfQuest-announce.lua
 pfQuest-tooltip.lua
 pfQuest-config.lua
+pfQuest-bosstracking.lua
 pfquest-questlog.lua
 pfQuest-arrow.lua
