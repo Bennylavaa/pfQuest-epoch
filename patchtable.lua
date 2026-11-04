@@ -47,17 +47,234 @@ if pfDB["meta-epoch"] then patchtable(pfDB["meta"], pfDB["meta-epoch"]) end
 -- Use wowhead database url for now
 pfQuest.dburl = "https://epochhead.com/?quest="
 
--- key = GetMapInfo(), see the "Dungeon/Instance Map ID" macro in Contribute.md
+-- Map IDs for custom maps, keys are GetMapInfo() values; values are AreaIDs
+-- from WorldMapArea.dbc. See the "Dungeon/Instance Map ID" macro in 
+-- Contribute.md for finding these values. 
+-- Excludes instanced dungeons so they can be filtered separately.
 local epoch_customids = {
-  ["Ragefire"] = 2437, -- Ragefire Chasm
+  -- single floor micro-dungeons
+  ["EchoRidgeMine3_"] = 34,
+  ["JasperlodeMine19_"] = 54,
+  ["JangolodeMine5_"] = 111,
+  ["GoldCoastQuarry4_"] = 113,
+  ["GolBolarQuarry11_"] = 134,
+  ["FrostmaneHold8_"] = 135,
+  ["FrostmaneHovel9_"] = 6009,
+  ["TheGrizzledDen7_"] = 136,
+  ["NightWebsHollow12_"] = 155,
+  ["ShadowthreadCave2_"] = 257,
+  ["FelRock3_"] = 258,
+  ["TheVentureCoMine7_"] = 360,
+  ["BurningBladeCoven8_"] = 365,
+  ["DustwindCave19_"] = 371,
+  ["TheSlitheringScar14_"] = 540,
+  ["ColdridgePass6_"] = 800,
+  ["SkullRock12_"] = 817,
+  ["PalemaneRock6_"] = 818,
+  ["TheGapingChasm16_"] = 981,
+  ["TheNoxiousLair15_"] = 982,
+
+  -- multi floor micro-dungeons
+  ["Fargodeepmine1_"] = 57,
+  ["Fargodeepmine2_"] = 10057,
+  ["BanethilBarrowden4_"] = 262,
+  ["BanethilBarrowden5_"] = 10262,
+  ["TiragardeKeep10_"] = 372,
+  ["TiragardeKeep11_"] = 10372,
+
+  -- dungeon entrances
+  ["BlackfathomDeepsEntrance10_"] = 6041,
+  ["BlackrockMountain14_"] = 25,
+  ["BlackrockMountain15_"] = 10025,
+  ["BlackrockMountain16_"] = 20025,
+  ["GnomereganEntrance10_"] = 133,
+  ["ScarletMonasteryEntrance13_"] = 6013,
+  ["DeadminesWestfall17_"] = 6017,
+  ["Uldaman18_"] = 6018,
+  ["WailingCavernsBarrens20_"] = 6038,
+  ["MaraudonOutside21_"] = 6039, -- orange entrance
+  ["MaraudonOutside22_"] = 6040, -- purple entrance
 }
 
+-- Map IDs for single floor dungeons
+local epoch_instanceids = {
+  ["RazorfenKraul"] = 491, -- Razorfen Kraul
+  ["TheStockade"] = 717, -- The Stockade
+  ["WailingCaverns"] = 718, -- Wailing Caverns
+  ["RazorfenDowns"] = 722, -- Razorfen Downs
+  ["ZulFarrak"] = 1176, -- Zul'Farrak
+  ["ZulGurub"] = 1977, -- Zul'Gurub
+  ["OnyxiasLair"] = 2159, -- Onyxia's Lair (1 map but it's missing the new epoch added areas)
+  ["Ragefire"] = 2437, -- Ragefire Chasm
+  ["RuinsofAhnQiraj"] = 3429, -- Ruins of Ahn'Qiraj (AQ20)
+  ["BaradinHold"] = 5014, -- Baradin Hold
+  ["GlittermurkMines"] = 5017, -- Glittermurk Mines
+}
+
+-- Map IDs for multi floor dungeons. pfQuest does not track dungeon levels by
+-- default, it only recognizes continents and zones, so
+-- GetCurrentMapDungeonLevel() is never consulted. A floor/level 1 retains the
+-- original map ID; each subsequent level uses: (mapID + (level - 1) * 10000)
+local epoch_instancemultilevelids = {
+  ["ShadowfangKeep"] = 209, -- Shadowfang Keep 7 levels
+  ["BlackfathomDeeps"] = 719, -- Blackfathom Deeps 3 levels
+  ["Gnomeregan"] = 721, -- Gnomeregan 4 levels
+  ["AhnQiraj"] = 3428, -- Ahn'Qiraj (AQ40) 3 levels
+  ["ScarletMonastery"] = 796, -- Scarlet Monastery 4 levels (1 for each dungeon)
+  ["Uldaman"] = 1337, -- Uldaman 2 levels
+  ["TheTempleOfAtalHakkar"] = 1477, -- The Temple of Atal'Hakkar / Sunken Temple 3 levels
+  ["TheDeadmines"] = 1581, -- The Deadmines 2 levels
+  ["BlackrockSpire"] = 1583, -- Blackrock Spire 7 levels 
+  ["BlackrockDepths"] = 1584, -- Blackrock Depths 2 levels
+  ["Stratholme"] = 2017, -- Stratholme 2 levels
+  ["Scholomance"] = 2057, -- Scholomance 4 levels
+  ["Maraudon"] = 2100, -- Maraudon 2 levels
+  ["DeeprunTram"] = 2257, -- Deeprun Tram 2 levels
+  ["BlackwingLair"] = 2677, -- Blackwing Lair 4 levels
+  ["DireMaul"] = 2557, -- Dire Maul 6 levels
+}
+
+-- Resolve custom map IDs before falling back to pfQuest's original GetMapID.
+-- epoch_customids handles maps with duplicate zone names across levels, using
+-- GetMapInfo() to identify each floor. If no match exists, preserve pfQuest's
+-- normal lookup. When epochDungeonPins is enabled, resolve custom multi floor
+-- dungeons using the current level, or single floor custom zones via epoch_instanceids.
 local epoch_original_GetMapID = pfMap.GetMapID
 function pfMap:GetMapID(cid, mid)
-  local id = epoch_original_GetMapID(self, cid, mid)
+  local id = epoch_customids[GetMapInfo()]
   if id then return id end
-  if pfQuest_config["epochDungeonPins"] ~= "1" then return nil end
-  return epoch_customids[GetMapInfo()]
+
+  if pfQuest_config["epochDungeonPins"] == "1" then
+    id = epoch_instancemultilevelids[GetMapInfo()]
+    if id then
+      return id + ((GetCurrentMapDungeonLevel() or 1) - 1) * 10000
+    end
+
+    id = epoch_instanceids[GetMapInfo()]
+    if id then return id end
+  end
+
+  return epoch_original_GetMapID(self, cid, mid)
+end
+
+-- pfMap:UpdateMinimap (map.lua) resolves maps via GetMapIDByName(GetRealZoneText()),
+-- bypassing GetMapID and its fixes above. This works for single floor zones
+-- but fails for multi floor dungeons, where GetRealZoneText() is identical on
+-- every floor, always resolving to the base ID. Intercept this lookup and use
+-- GetMapInfo(), which uniquely identifies each floor, instead.
+local epoch_original_GetMapIDByName = pfMap.GetMapIDByName
+function pfMap:GetMapIDByName(search)
+  local id = epoch_customids[GetMapInfo()]
+  if id then return id end
+
+  if pfQuest_config["epochDungeonPins"] == "1" then
+    id = epoch_instancemultilevelids[GetMapInfo()]
+    if id then
+      return id + ((GetCurrentMapDungeonLevel() or 1) - 1) * 10000
+    end
+
+    id = epoch_instanceids[GetMapInfo()]
+    if id then return id end
+  end
+
+  return epoch_original_GetMapIDByName(self, search)
+end
+
+-- pfQuest-wotlk doesn't handle pin refreshes on dungeon-level changes, which
+-- leaves pins showing the previous floor until another event forces a refresh.
+-- This watcher polls the level independently and forces a refresh when it changes.
+local epoch_lastlevel
+local epoch_wasvisible = false
+local epoch_levelwatcher = CreateFrame("Frame")
+local epoch_levelelapsed = 0
+epoch_levelwatcher:SetScript("OnUpdate", function(self, elapsed)
+  if not epoch_instancemultilevelids[GetMapInfo()] then
+    epoch_wasvisible = false
+    return
+  end
+
+  epoch_levelelapsed = epoch_levelelapsed + elapsed
+  if epoch_levelelapsed < 0.5 then return end
+  epoch_levelelapsed = 0
+
+  local isVisible = WorldMapFrame and WorldMapFrame:IsVisible()
+  if not isVisible then SetMapToCurrentZone() end
+  local justOpened = isVisible and not epoch_wasvisible
+  epoch_wasvisible = isVisible
+  local level = GetCurrentMapDungeonLevel() or 1
+  local levelChanged = level ~= epoch_lastlevel
+  epoch_lastlevel = level
+
+  if isVisible and (levelChanged or justOpened) then
+    pfMap:UpdateNodes()
+  end
+end)
+
+-- SetMapByID(MapID) uses WorldMapArea.dbc IDs, while pfQuest zones use AreaIDs.
+-- This table maps between the two ID systems.
+local epoch_traslationid = {
+  -- single floor
+  [491] = 761, -- Razorfen Kraul
+  [717] = 690, -- The Stockade
+  [718] = 749, -- Wailing Caverns
+  [722] = 760, -- Razorfen Downs
+  [1176] = 686, -- Zul'Farrak
+  [1977] = 697, -- Zul'Gurub
+  [2159] = 718, -- Onyxia's Lair (1 map but it's missing the new epoch added areas)
+  [2437] = 680, -- Ragefire Chasm
+  [2717] = 696, -- Molten Core
+  [3429] = 717, -- Ruins of Ahn'Qiraj (AQ20)
+  [5014] = 9001, -- Baradin Hold
+  [5017] = 9000, -- Glittermurk Mines
+
+  -- multi floor
+  [209] = 764, -- Shadowfang Keep 7 levels
+  [719] = 688, -- Blackfathom Deeps 3 levels
+  [721] = 691, -- Gnomeregan 4 levels
+  [796] = 762, -- Scarlet Monastery 4 levels (1 for each dungeon)
+  [1337] = 692, -- Uldaman 2 levels
+  [1477] = 687, -- The Temple of Atal'Hakkar / Sunken Temple 3 levels
+  [1581] = 9003, -- The Deadmines 2 levels
+  [1583] = 721, -- Blackrock Spire 7 levels 
+  [1584] = 704, -- Blackrock Depths 2 levels
+  [2017] = 765, -- Stratholme 2 levels
+  [2057] = 763, -- Scholomance 4 levels
+  [2100] = 750, -- Maraudon 2 levels
+  [2257] = 922, -- Deeprun Tram 2 levels
+  [2557] = 699, -- Dire Maul 6 levels
+  [2677] = 755, -- Blackwing Lair 4 levels
+  [3428] = 766, -- Ahn'Qiraj (AQ40) 3 levels
+}
+
+-- Override to allow custom maps to be opened from the db browser.
+function pfMap:SetMapByID(id)
+  local search = pfDB["zones"]["loc"][id]
+
+  -- multi floor custom dungeon maps
+  local level = 1
+  if id > 10000 then
+    level = floor(id / 10000) + 1
+    id = id % 10000
+  end
+  local mapID = epoch_traslationid[id]
+
+  if mapID then
+    SetMapByID(mapID)
+    if level > 1 then
+      SetDungeonMapLevel(level)
+    end
+    return
+  end
+
+  -- Normal world maps
+  for cid, cname in pairs({GetMapContinents()}) do
+    for mid, mname in pairs({GetMapZones(cid)}) do
+      if mname == search then
+        SetMapZoom(cid, mid)
+        return
+      end
+    end
+  end
 end
 
 function pfMap:HasMinimap(map_id)
@@ -127,7 +344,7 @@ function pfMap:UpdateMinimap()
 
   this.xPlayer, this.yPlayer, this.mZoom = xPlayer, yPlayer, mZoom
   local color = pfQuest_config["spawncolors"] == "1" and "spawn" or "title"
-  local mapID = pfMap:GetMapIDByName(GetRealZoneText())
+  local mapID = pfMap:GetMapID()
   local mapZoom = pfMap.minimap_zoom[pfMap.minimap_indoor()][mZoom]
   local mapWidth = pfMap.minimap_sizes[mapID] and pfMap.minimap_sizes[mapID][1] or 0
   local mapHeight = pfMap.minimap_sizes[mapID] and pfMap.minimap_sizes[mapID][2] or 0

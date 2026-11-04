@@ -515,11 +515,14 @@ function pfMap:UpdateNodes()
         return
     end
 
-    if zone > 0 and not isContinent then
+    -- Preserve pins on custom dungeon maps (zone == 0) when viewed from
+    -- outside the instance.
+    if zone >= 0 and not isContinent then
         return
     end
 
-    if IsInInstance() then
+    if IsInInstance() then -- ? might be irrelevant now since zone==0 is in a dungeon
+        pfQuest:Debug("pfMap:UpdateNodes() -> IsInInstance() -> returned")
         return
     end
 
@@ -782,20 +785,6 @@ function pfMap:UpdateNodes()
     local playerLevel = UnitLevel("player")
     local processedZones = {}
     local processedQuests = {}
-
-    local function GetGrayLevel(charLevel)
-        if charLevel <= 5 then
-            return 0
-        elseif charLevel <= 49 then
-            return charLevel - math.floor(charLevel / 10) - 5
-        elseif charLevel == 50 then
-            return 40
-        elseif charLevel <= 59 then
-            return charLevel - math.floor(charLevel / 5) - 1
-        else
-            return charLevel - 9
-        end
-    end
 
     for addon, addonData in pairs(pfMap.nodes) do
         for zID, zoneNodes in pairs(addonData) do
